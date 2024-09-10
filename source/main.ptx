@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>My First Book</title>
-    <subtitle>Let's see how this looks!</subtitle>
+    <title>A Beginning, a Muddle, and an End</title>
+    <subtitle>An Introduction to Proofs</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
