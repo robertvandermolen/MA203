@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-02-quantifiers" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Quantifiers</title>
+<chapter xml:id="ch-06" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Principle of Mathematical Induction</title>
 
   <introduction>
     <p>This is the second chapter and will cover universal and existential quantifiers and their accompanying language. </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-2.1.ptx" />
-  <xi:include href="sec-2.2.ptx" />
+  <xi:include href="sec-6.1.ptx" />
 
 </chapter>

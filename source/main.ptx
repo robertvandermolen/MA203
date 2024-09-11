@@ -12,9 +12,16 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-01-truth-tables.ptx" />
+    <xi:include href="./ch-01-propositional-logic-and-equivalences.ptx" />
     <xi:include href="./ch-02-quantifiers.ptx" />
-
+    <xi:include href="./ch-03-direct-proofs.ptx" />
+    <xi:include href="./ch-04-contrapositive-contradiction.ptx" />
+    <xi:include href="./ch-05-set-theory.ptx" />
+    <xi:include href="./ch-06-pmi.ptx" />
+    <xi:include href="./ch-07-relations.ptx" />
+    <xi:include href="./ch-08-partitions.ptx" />
+    <xi:include href="./ch-09-modular-arithmetic.ptx" />
+    
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
