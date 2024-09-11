@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-01-truth-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Truth Tables and Truth Values</title>
+
+  <introduction>
+    <p></p>
+    <p>And I want to see what happens if I add a second paragraph.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-name.ptx" />
+
+</chapter>

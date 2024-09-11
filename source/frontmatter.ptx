@@ -7,20 +7,19 @@
   <titlepage>
     <author>
       <personname>
-        <firstname>Robert</firstname>
+        <firstname>Dr. Robert</firstname>
         <lastname>Vandermolen</lastname>
       </personname>
+      <department>Department of Mathematics</department>
+      <institution>Saint Mary-of-the-Woods College</institution>
     </author>
-    <coauthor>
+    <author>
       <personname>
         <firstname>Faith</firstname>
         <lastname>Molnar</lastname>
       </personname>
-    </coauthor>
+    </author>
 
-    <department>Department of Mathematics</department>
-    <institution>Saint Mary-of-the-Woods College</institution>
-  
 
     <date>
       <today />
