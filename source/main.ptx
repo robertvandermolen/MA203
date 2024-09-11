@@ -13,6 +13,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-01-truth-tables.ptx" />
+    <xi:include href="./ch-02-quantifiers.ptx" />
 
 
     <!-- Include backmatter -->
