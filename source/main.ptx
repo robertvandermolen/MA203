@@ -11,6 +11,8 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
+
+
     <!-- Include chapters -->
     <xi:include href="./ch-01-propositional-logic-and-equivalences.ptx" />
     <xi:include href="./ch-02-quantifiers.ptx" />
@@ -22,6 +24,9 @@
     <xi:include href="./ch-08-partitions.ptx" />
     <xi:include href="./ch-09-modular-arithmetic.ptx" />
     
+    <!-- Include index of terms -->
+
+    <!-- Include appendix of definitions -->
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
