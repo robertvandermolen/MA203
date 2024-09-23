@@ -6,10 +6,21 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>
+        <firstname>Dr. Robert</firstname>
+        <lastname>Vandermolen</lastname>
+      </personname>
+      <department>Department of Mathematics</department>
+      <institution>Saint Mary-of-the-Woods College</institution>
     </author>
+    <author>
+      <personname>
+        <firstname>Faith</firstname>
+        <lastname>Molnar</lastname>
+      </personname>
+    </author>
+
+
     <date>
       <today />
     </date>
