@@ -14,15 +14,15 @@
 
 
     <!-- Include chapters -->
-    <xi:include href="./ch-01-propositional-logic-and-equivalences.ptx" />
-    <xi:include href="./ch-02-quantifiers.ptx" />
-    <xi:include href="./ch-03-direct-proofs.ptx" />
-    <xi:include href="./ch-04-contrapositive-contradiction.ptx" />
-    <xi:include href="./ch-05-set-theory.ptx" />
-    <xi:include href="./ch-06-pmi.ptx" />
-    <xi:include href="./ch-07-relations.ptx" />
-    <xi:include href="./ch-08-partitions.ptx" />
-    <xi:include href="./ch-09-modular-arithmetic.ptx" />
+    <xi:include href="./Chapters/ch-01-propositional-logic-and-equivalences.ptx" />
+    <xi:include href="./Chapters/ch-02-quantifiers.ptx" />
+    <xi:include href="./Chapters/ch-03-direct-proofs.ptx" />
+    <xi:include href="./Chapters/ch-04-contrapositive-contradiction.ptx" />
+    <xi:include href="./Chapters/ch-05-set-theory.ptx" />
+    <xi:include href="./Chapters/ch-06-pmi.ptx" />
+    <xi:include href="./Chapters/ch-07-relations.ptx" />
+    <xi:include href="./Chapters/ch-08-partitions.ptx" />
+    <xi:include href="./Chapters/ch-09-modular-arithmetic.ptx" />
     
     <!-- Include index of terms -->
 

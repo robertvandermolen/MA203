@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-1-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <p>Individual propositions can be combined into compound propositions using <term>connectives</term>, such as <term>and</term> and <term>or</term>.</p>
+    <p>Instead of writing out the entire proposition, we can use logic notation, where propositions are represented with a chosen variable and connectives are represented by symbols.</p>
+    <p><m>\wedge</m> = and, <m>\vee</m> = or</p>
+    <p>We often want to negate statements, for which we use ~ or <m>\neg</m> as <term>not</term>.</p>
+
+    <example>
+        <ul>
+            <li>
+                <p><m>P</m> : "It is raining outside."</p>
+                <p><m>Q</m> : "I have an umbrella."</p>
+                <p><m>P\wedge Q </m> : It is raining outside and I have an umbrella.</p>
+            </li>
+    
+            <li>
+                <p><m>P</m> : "I will go to the store tonight"</p>
+                <p><m>~P</m> : "I will not go to the store tonight."</p>
+            </li>
+    
+            <li>
+                <p><m>P</m> : "I will do my homework."</p>
+                <p><m>Q</m> : "I will watch Star Wars."</p>
+                <p><m>P\vee Q</m> : "I will do my homework or I will watch Star Wars."</p>
+            </li>
+    
+            <li>
+                <p><m>P</m> : "I will do the dishes tonight."</p>
+                <p><m>Q</m> : "I am cooking tonight."</p>
+                <p><m>P\wedge (</m>~<m>Q)</m> : "I will do the dishes tonight, and I am not cooking tonight."</p>
+            </li>
+        </ul>
+    </example>
+
+    <p>There is another way to relate two propositions, that is, with an <term>implication</term>, which is written like this: <m>\implies</m>.</p>
+    <example>
+        <ul>
+            <li>
+                <p><m>P</m> : "I am cooking tonight."</p>
+                <p><m>Q</m> : "I will do the dishes."</p>
+                <p><m>P\implies Q</m> : "If I am cooking tonight, then I will do the dishes."</p>
+                <p><m>P\implies (</m>~<m>Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
+            </li>
+
+            <li>
+                <p><m>P</m> : "I am elected."</p>
+                <p><m>Q</m> : "I will lower taxes."</p>
+                <p><m>P\implies Q</m> : "If I am elected, then I will lower taxes."</p>
+            </li>
+        </ul>
+
+    </example>
+
+</section>

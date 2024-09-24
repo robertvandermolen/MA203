@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1.1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Propositions</title>
-
-  <p>A proposition is a statement that can take only one of two values: truth or false. Propositions do not have variables.</p>
-  <p>Propositions can be combined using connectives, such as "and" and "or."</p>
-
-  <example>
-    <Example>
-    <p>P= a statement: "It is raining outside."</p>
-    <p>Q= a statement: "I have an umbrella."</p>
-    <p>We can combine these statements with <m>wedge</m>AND SYMBOL to get: P AND SYMBOL Q: It is raining outside, and I have an umbrella.</p>
-  </example>
-
+<section xml:id="sec-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Propositions and Connectives</title>
+    
+<xi:include href="./subsections/subsec-1.1.1.ptx" />
+<xi:include href="./subsections/subsec-1.1.2.ptx" />
+    
 </section>

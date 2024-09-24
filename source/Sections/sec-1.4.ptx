@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1.4" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logical Equivalence</title>
-
-  <p>Sample paragraph 1</p>
-
-  <xi:include href="subsec-1.4.1.ptx" />
-
+<section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Exercises</title>
+    <ol>
+        <li><m>(</m>~<m>P) \implies Q</m></li>
+        <li><m>P \iff Q</m></li>
+        <li><m>(P\vee Q)\wedge [</m>~<m>(P\wedge Q)]</m></li>
+        <li><m>(P \implies Q)\vee Q</m></li>
+        <li><m>(P\wedge R)\implies Q</m></li>
+        <li><m>(</m>~<m>Q)\implies Q</m></li>
+        <li><m>P\vee (</m>~<m>P)</m></li>
+        <li>~<m>(P\wedge Q)</m></li>
+        <li><m>(</m>~<m>P)\vee (</m>~<m>Q)</m></li>
+        <li><m>(</m>~<m>P)\implies (R\wedge Q)</m></li>
+    </ol>
 </section>

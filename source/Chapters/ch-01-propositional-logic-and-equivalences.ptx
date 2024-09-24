@@ -4,14 +4,13 @@
   <title>Truth Tables and Truth Values</title>
 
   <introduction>
-    <p></p>
-    <p>And I want to see what happens if I add a second paragraph.</p>
+    <p>Introduction to logic</p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-1.1.ptx" />
-  <xi:include href="sec-1.2.ptx" />
-  <xi:include href="sec-1.3.ptx" />
-  <xi:include href="sec-1.4.ptx" />
+  <xi:include href="../Sections/sec-1.1.ptx" />
+  <xi:include href="../Sections/sec-1.2.ptx" />
+  <xi:include href="../Sections/sec-1.3.ptx" />
+  <xi:include href="../Sections/sec-1.4.ptx" />
 
 </chapter>

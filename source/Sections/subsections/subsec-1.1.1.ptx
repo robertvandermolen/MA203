@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-1-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <p>A <term>proposition</term> is a statement that can take only one of two values: truth or false. Propositions do not have variables.</p>
+
+    <example>
+        <p>The following are examples of propositions:</p>
+        <ul>
+            <li>It is raining.</li>
+            <li><m>2+2=4</m></li>
+            <li><m>2+5=4</m></li>
+            <li>I hate math.</li>
+            <li>I love math.</li>
+        </ul>
+
+        <p>Whereas these are not propositions. Can you tell why?</p>
+        <ul>
+            <li>She has my phone.</li>
+            <li>Stop!</li>
+            <li><m>x+2=4</m></li>
+            </ul>
+    </example>
+
+</section>

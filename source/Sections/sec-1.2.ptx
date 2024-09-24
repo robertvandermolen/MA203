@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1.2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Truth Values</title>
+<section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Truth Values and Truth Tables</title>
 
-  <p>Sample paragraph 1</p>
-
+<xi:include href="./subsections/subsec-1.2.1.ptx" />
+<xi:include href="./subsections/subsec-1.2.2.ptx" />
+<xi:include href="./subsections/subsec-1.2.3.ptx" />
+    
 </section>
