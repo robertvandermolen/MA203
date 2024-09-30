@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arguments</title>
+  <p>Arguments are so important, they almost merited their own chapter. Every argument contains a premise, one or more assumptions, and a conclusion.
+    An argument is valid when <em>both</em> the premise and the conclusion are true. 
+  </p>
+
+  <sidebyside>
+    <stack>
+      <p>This is the first paragraph.</p>
+      <line/>
+      <p>This is the second paragraph, with a line above it.</p>
+    </stack>
+  </sidebyside>
+  
+
+</section>

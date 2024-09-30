@@ -15,7 +15,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./Chapters/ch-01-propositional-logic-and-equivalences.ptx" />
-    <xi:include href="./Chapters/ch-02-quantifiers.ptx" />
+    <xi:include href="./Chapters/ch-02-beg_set_theory.ptx" />
     <xi:include href="./Chapters/ch-03-direct-proofs.ptx" />
     <xi:include href="./Chapters/ch-04-contrapositive-contradiction.ptx" />
     <xi:include href="./Chapters/ch-05-set-theory.ptx" />
