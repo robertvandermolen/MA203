@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-3-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <p>A direct proof is the easiest way to prove an implication. That is, it proves things in the form <m>P\implies Q</m>.
+    We assume P, make some premises, and conclude Q.</p>
+    <p>The following jingle is a handy mnemonic for remembering the "steps" to writing a direct proof:</p>
+
+    <p>
+        <ul>
+            <li>What's the P? (The "if" part)</li>
+            <li>What's the Q? (The "then" part)</li>
+            <li>What're the definitions?</li>
+            <li>Now, what to do? (Which proving method - until we learn more this will always be direct proof)</li>
+        </ul>
+    </p>
+
+</section>

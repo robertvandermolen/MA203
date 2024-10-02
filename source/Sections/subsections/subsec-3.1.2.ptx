@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-3-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <p>At this stage of learning about proofs, there are certain things that can be done without justification, 
+        and certain things that must always be mentioned.</p>
+    <p>Things that may be done without explanation:
+        <ul>
+            <li>basic college algebra</li>
+            <li><m>a+b=b+a</m></li>
+            <li><m>a*b=b*a</m></li>
+        </ul>
+    </p> 
+    <p>Things that must be mentioned:
+        <ol>
+            <li><m>\forall x, y \in \mathbb{Z}, x+y \in \mathbb{Z}</m></li>
+            <li><m>\forall x, y \in \mathbb{Q}, x+y \in \mathbb{Q}</m></li>
+            <li><m>\forall x, y \in \mathbb{Z}, x*y \in \mathbb{Z}</m></li>
+        </ol>
+    </p> 
+    <p>In words, this might sound like:</p>
+    <p>Since...
+        <ol>
+            <li>when you add two integers you get an integer.</li>
+            <li>when you add fractions you get a fraction.</li>
+            <li>when you multiply two integers you get an integer.</li>
+        </ol>
+    </p> 
+    <p>Neither of these is an exhaustive list, but should be enough to give you an idea.</p>
+
+</section>

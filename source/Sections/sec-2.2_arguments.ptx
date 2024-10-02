@@ -2,17 +2,85 @@
 
 <section xml:id="sec-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Arguments</title>
-  <p>Arguments are so important, they almost merited their own chapter. Every argument contains a premise, one or more assumptions, and a conclusion.
-    An argument is valid when <em>both</em> the premise and the conclusion are true. 
-  </p>
+  <p>Arguments are so important, they almost merited their own chapter. Every argument contains one or more premises/assumptions, and a conclusion.
+    An argument is valid when the premises true means the conclusion is true.</p>
+  <p><m>(A\wedge B)\implies C</m>: When both A <em>and</em> B are true is the only time C <em>must</em> be true. Then the argument is valid.</p>
+  <p> Below is the basic form of an argument:</p>
 
   <sidebyside>
-    <stack>
-      <p>This is the first paragraph.</p>
-      <line/>
-      <p>This is the second paragraph, with a line above it.</p>
-    </stack>
+    <tabular halign="right">
+      <row>
+        <cell>A</cell>
+      </row>
+      <row bottom="medium">
+        <cell>B</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> C</cell>
+      </row>
+    </tabular>
+    <p>Where A and B are the premises/assumptions, and C is the conclusion.</p>
+    <p><m> \therefore </m> = "therefore/hence/so" etc.</p>
   </sidebyside>
+
+  <example>
+    <p>Here are some example of valide arguments:</p>
+    <tabular halign="right">
+      <row>
+        <cell>All parabolas are functions of degree 2</cell>
+      </row>
+      <row bottom="medium">
+        <cell>All functions of degree 2 are quadratic</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> All parabolas are quadratic</cell>
+      </row>
+    </tabular>
+
+    <tabular halign="right">
+      <row>
+        <cell>The sun is purple</cell>
+      </row>
+      <row bottom="medium">
+        <cell>The sun is a planet</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> The sun is purple</cell>
+      </row>
+    </tabular>
+
+    <tabular halign="right">
+      <row>
+        <cell>All spiders have 8 legs</cell>
+      </row>
+      <row bottom="medium">
+        <cell>A poodle is a spider</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> A poodle has 8 legs</cell>
+      </row>
+    </tabular>
+    
+    <p>Here is an example of an invalid argument:</p>
+
+    <tabular halign="right">
+      <row>
+        <cell>All cows are animals that eat grass</cell>
+      </row>
+      <row bottom="medium">
+        <cell>All cows are animals that moo</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> All animals that eat grass moo</cell>
+      </row>
+    </tabular>
+  </example>
   
+  <p>Notice that it is not the truth of the premises that makes an argument valid or invalid, but rather the truth of the conclusion.</p>
+
+  <remark>
+    <p><term>Modus Ponens</term> is a specific type of argument with two premises: <m>P\implies Q</m>, and <m>P</m>, and conludes <m>Q</m>.
+      An example of this is "If it is Tuesday then John will go to work. It is Tuesday. Therefore John will go to work."</p>
+  </remark>
 
 </section>
