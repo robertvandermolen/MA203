@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-3-2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>Prove: If <m>x</m> is odd, then <m>x+1</m> is even.</title>
+
+    <p>Although you'll soon find that there is not an algorithm for writing a proof, let's break this first proof down, step by step, using 
+        our proof writing song:</p>
+    <p>"What's the P?" <m>x</m> is odd</p>
+    <p>"What's the Q?" <m>x+1</m> is even</p>
+    <p>"What're the definitions?" Odd and even (the only ones we have so far)!</p>
+    <p>"Now, what to do?" A direct proof!</p>
+
+    <p>First, we need to "shovel off" the hidden quantifier (<m>\forall x \in \mathbb{Z}</m>): "Let x be an integer."</p>
+    <p>Next, assume the "P." "Assume <m>x</m> is odd."</p>
+    <p>Now use the definitions. (It can be helpful, especially in these early stages of proof writing, to write the relevant definitions to the side in your scratch work)
+        "Thus, by the definition of odd, we can find an integer <m>k</m> so that <m>x=2k+1</m>." This is our first conclusion.</p>
+    <p>Now we need to actually <em>do</em> something with that. "Hence calculate:</p>
+    
+    <md>
+        <mrow>x+1\amp=(2k+1)+1</mrow>
+        <mrow>\amp=k+2</mrow>
+        <mrow>\amp=2(k+1)</mrow>
+    </md>
+    <p>The <m>x+1</m> on the left of this equation is the end conclusion we're "aiming for." The stuff on the right is what we manipulate to make it 
+        "look like," or "fit," the definition of even.</p>
+    
+    <p>Finally, we can make our conclusion. "Since <m>k+1</m> is an integer, by definition of even, <m>x+1</m> is even."</p>
+
+    <p>Once you put all the pieces together, the proof would read:</p>
+    <p>"Let <m>x</m> be an integer. Assume <m>x</m> is odd. Thus, by the definition of odd, we can find an integer <m>k</m> so that 
+        <m>x=2k+1</m>. Calculate:</p>
+    <md>
+        <mrow>x+1\amp=(2k+1)+1</mrow>
+        <mrow>\amp=k+2</mrow>
+        <mrow>\amp=2(k+1)</mrow>
+    </md>
+    <p>Since <m>k+1</m> is an integer, by definition of even, <m>x+1</m> is even. QED"</p>
+
+    <note>
+        <p>To show that a proof is finished, we write "QED" at the bottom. This comes from the Latin "quod erat demonstrandum," which means 
+            "that which was to be demonstrated."</p>
+    </note>
+
+
+
+</section>

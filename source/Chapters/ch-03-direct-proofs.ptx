@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="../Sections/sec-3.1-dir_proof.ptx" />
   <xi:include href="../Sections/sec-3.2-odd_even.ptx" />
+  <xi:include href="../Sections/sec-3.3-exercises.ptx" />
 
 </chapter>

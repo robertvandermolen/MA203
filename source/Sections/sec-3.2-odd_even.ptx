@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-3-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Filler Title</title>
+<title>Our First Proofs</title>
 
-  <p>Sample paragraph 1</p>
+<xi:include href="./subsections/subsec-3.2.1.ptx" />
 
 </section>

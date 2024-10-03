@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Exercises</title>
+    <ol>
+        <li><m>\forall x,y \in \mathbb{Z}</m> if <m>x+y</m> is even, then <m>x-y</m> is even</li>
+        <li><m>\forall x,y \in \mathbb{Z}</m> if <m>x</m> and <m>y</m> are odd, then <m>x*y</m> is odd</li>
+        <li><m>\forall x,y,z \in \mathbb{Z}</m> if <m>x</m> is even, and <m>y</m> and <m>z</m> are odd, then <m>(x*y)+z</m> is odd</li>
+    </ol>
+
+</section>
