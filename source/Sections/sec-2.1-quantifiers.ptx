@@ -21,26 +21,26 @@
   <p>Where <m>p =</m> people, and <m>\mathcal{U} =</m> the universe containing people: <m>\forall p \in \mathcal{U} </m>, <m>p</m> likes pizza.</p>
   <p>Translation: "All people (everybody) likes pizza."</p>
   <p>It is also important to note what the negation of each of these quantifiers is.</p>
-  <p>~<m>\exists </m> read literally says, "There does not exist." Sometimes it is helpful to read this as "everybody doesn't."</p>
-  <p>~<m>\forall </m> says "not all," which can be thought of as, "somebody does."</p>
+  <p><m>\sim \exists </m> read literally says, "There does not exist." Sometimes it is helpful to read this as "everybody doesn't."</p>
+  <p><m>\sim \forall </m> says "not all," which can be thought of as, "somebody does."</p>
   <p></p>
   <example>
     <ul>
         <li><m>\exists n \in \mathbb{Z} </m> such that <m>n &lt; 0</m>: "Some integers are negative."</li>
         <li><m>\forall p \in \mathcal{U}</m>, <m>Z(p)</m>: "Everyone makes mistakes." (Where <m>\mathcal{U} =</m> people in the world, and <m>Z(p)=</m>person makes mistakes)</li>
-        <li>~<m>\forall p\in \mathcal{U}</m>, <m>G(p)</m>: "Someone will get an A" (Where <m>\mathcal{U} =</m> people in the world, and <m>G(p)=</m>person makes mistakes)</li>
+        <li><m>\sim \forall p\in \mathcal{U}</m>, <m>G(p)</m>: "Someone will get an A" (Where <m>\mathcal{U} =</m> people in the world, and <m>G(p)=</m>person makes mistakes)</li>
     </ul>  
     <p>The next two show the same statement written two ways.</p>
     <ol>
       <li> 
         <ul>
-          <li>~<m>(\forall n\in \mathbb{Z}</m>  <m>\sqrt{n} \in \mathbb{Z}</m>: *NOT*(For all integers <m>n</m>, <m>\sqrt{n}</m> is an integer)</li>
+          <li><m>\sim (\forall n\in \mathbb{Z}</m>  <m>\sqrt{n} \in \mathbb{Z}</m>: *NOT*(For all integers <m>n</m>, <m>\sqrt{n}</m> is an integer)</li>
           <li><m>(\exists n\in \mathbb{Z}</m>  <m>\sqrt{n} \not\in \mathbb{Z}</m>: For some integers <m>n</m>, <m>\sqrt{n}</m> is not an integer.</li>
         </ul>
       </li>
       <li>
         <ul>
-          <li>~<m>(\exists n \in \mathbb{Z}</m>  <m>n^2 =5)</m>: *NOT*(There exists an integer <m>n</m> such that <m>n^2 =5</m></li>
+          <li><m>\sim (\exists n \in \mathbb{Z}</m>  <m>n^2 =5)</m>: *NOT*(There exists an integer <m>n</m> such that <m>n^2 =5</m></li>
           <li><m>\forall n \in \mathbb{Z}</m>  <m>n^2 \neq 5</m>: For all integers <m>n</m>, <m>n^2</m> does not equal <m>5</m>.</li>
         </ul>
       </li>

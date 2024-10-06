@@ -5,7 +5,7 @@
     <p>Individual propositions can be combined into compound propositions using <term>connectives</term>, such as <term>and</term> and <term>or</term>.</p>
     <p>Instead of writing out the entire proposition, we can use logic notation, where propositions are represented with a chosen variable and connectives are represented by symbols.</p>
     <p><m>\wedge</m> = and, <m>\vee</m> = or</p>
-    <p>We often want to negate statements, for which we use ~ or <m>\neg</m> as <term>not</term>.</p>
+    <p>We often want to negate statements, for which we use <m>\sim </m> or <m>\neg</m> as <term>not</term>.</p>
 
     <example>
         <ul>
@@ -29,7 +29,7 @@
             <li>
                 <p><m>P</m> : "I will do the dishes tonight."</p>
                 <p><m>Q</m> : "I am cooking tonight."</p>
-                <p><m>P\wedge (</m>~<m>Q)</m> : "I will do the dishes tonight, and I am not cooking tonight."</p>
+                <p><m>P\wedge (\sim Q)</m> : "I will do the dishes tonight, and I am not cooking tonight."</p>
             </li>
         </ul>
     </example>
@@ -41,7 +41,7 @@
                 <p><m>P</m> : "I am cooking tonight."</p>
                 <p><m>Q</m> : "I will do the dishes."</p>
                 <p><m>P\implies Q</m> : "If I am cooking tonight, then I will do the dishes."</p>
-                <p><m>P\implies (</m>~<m>Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
+                <p><m>P\implies (\sim Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
             </li>
 
             <li>

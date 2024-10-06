@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-1-3-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <p>Below is an example of how one might use these equivalence rules:</p>
+    <p>To show that <m>[(P\vee Q)\implies R]\equiv [(P\implies R)\wedge (Q\implies R)]</m>, we will start with <m>[(P\vee Q)\implies R]</m> on the left and walk
+        through a series of equivalences until we reach <m>[(P\implies R)\wedge (Q\implies R)]</m>.</p>
+    <md>
+        <mrow>(P\vee Q)\implies R\amp \equiv [\sim (P\vee Q)]\vee R \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\wedge (\sim Q)]\vee R \text{ (De Morgan's)}</mrow>
+        <mrow>\amp \equiv R \vee [(\sim P)\wedge (\sim Q)] \text{ (commutativity)}</mrow>
+        <mrow>\amp \equiv [R \vee (\sim P)]\wedge [R\vee (\sim Q)] \text{ (distributivity)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee R]\wedge [(\sim Q)\vee R] \text{ (commutativity)}</mrow>
+        <mrow>\amp \equiv [(P\implies R)\wedge (Q\implies R)] \text{ (Rob's Law)}</mrow>
+    </md>
+</section>

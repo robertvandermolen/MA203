@@ -8,7 +8,8 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="../Sections/sec-2.1_quantifiers.ptx" />
-  <xi:include href="../Sections/sec-2.2_arguments.ptx" />
+  <xi:include href="../Sections/sec-2.1-quantifiers.ptx" />
+  <xi:include href="../Sections/sec-2.2-arguments.ptx" />
+  <xi:include href="../Sections/sec-2.3-exercises.ptx" />
 
 </chapter>

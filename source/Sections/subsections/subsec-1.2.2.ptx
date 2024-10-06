@@ -41,7 +41,7 @@
             <cell><m>P</m></cell>
             <cell><m>Q</m></cell>
             <cell>~<m>P</m></cell>
-            <cell><m>(</m>~<m>P)\implies Q</m></cell>
+            <cell><m>(\sim P)\implies Q</m></cell>
           </row>
           <row>
             <cell>T</cell>
@@ -79,8 +79,8 @@
             <cell><m>Q</m></cell>
             <cell><m>P\vee Q</m></cell>
             <cell><m>P\wedge Q</m></cell>
-            <cell>~<m>(P\wedge Q)</m></cell>
-            <cell><m>(P\vee Q)\wedge [</m>~<m>(P\wedge Q)]</m></cell>
+            <cell><m>\sim (P\wedge Q)</m></cell>
+            <cell><m>(P\vee Q)\wedge [\sim (P\wedge Q)]</m></cell>
           </row>
           <row>
             <cell>T</cell>
