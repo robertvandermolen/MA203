@@ -2,8 +2,108 @@
 
 <section xml:id="sec-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Propositions and Connectives</title>
+<p>
+    In English, as it is in many languages, there are many types of sentences, some more complicated than others. We will
+    now be concerning ourselves with if a sentence is true. This is the hallmark of proving, by only writting sentences
+    that are true our conclusions are then true.  
+</p>
+<p>
+    It doesn't make sense to say that any sentence that you could write is true or not. For example a <em>question</em> 
+    such as <em>"Where is my phone"</em> or an exlamatory sentence like <em>"Oh No!"</em>. Both of these examples are 
+    indeed complete sentences, as in they express a complete thought, but are neither true nor false.
+</p>
+<definition>
+<p>A <term>proposition</term> is a sentence that can take only one of two values: truth or false. 
+    </p>
+</definition>
+<p>
+    <example xml:id="prop-example">
+        <p>The following are examples of propositions:</p>
+        <ol marker="(A)">
+            <li>It is raining.</li>
+            <li><m>2+5=4</m></li>
+            <li>The gazel will become the only living animal on earth by the year 2525.</li>
+            <li>Galileo Galilei had bacon on his eleventh birthday.</li>
+        </ol>
+    </example></p>
+   <p>
+    here write some stuff about the last example...
+   </p>
+    <p>
+            <example xml:id="not-prop-example">
+       <p> The following are sentences that are NOT propositions:</p>
+       <ol marker="(A)">
+            <li>She has my phone.</li>
+            <li>Stop!</li>
+            <li><m>x+2=4</m></li>
+            <li>This sentence is false.</li>
+            </ol>
+    </example>
+</p>
+<p>
+    here walk through the each letter and mention important stuff about them... such as the last one is a <term>paradox</term>
+</p>
+<p>
+    In <xref ref="prop-example" /> the propositions are all <term>simple</term> or <term>atomic</term> in the senese
+    that they do not have any other propositions as components. <term>Compound</term> propositions can be formed by using connective words, 
+    connecting more than one propostion.
+</p>
+<definition>
+<p>Given propositions <m>P</m> and <m>Q</m>,</p><p>The <term>conjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\wedge Q</m>,
+    is the proposition:</p><p>"<m>P</m> <alert>and</alert> <m>Q</m>"</p><p><m>P\wedge Q</m> is true exactly when <em>both</em> <m>P</m> and <m>Q</m> are true!</p>
+    <p>The <term>disjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\vee Q</m>, 
+        is the proposition:</p><p>"<m>P</m> <alert>or</alert> <m>Q</m>"</p><p>The disjunction of <m>P</m> and <m>Q</m> is true exactly 
+            when <em>at least one of</em> <m>P</m> or <m>Q</m> are true.....
     
-<xi:include href="./subsections/subsec-1.1.1.ptx" />
-<xi:include href="./subsections/subsec-1.1.2.ptx" />
+</defintion>
+    <p>We often want to negate statements, for which we use <m>\sim </m> or <m>\neg</m> as <term>not</term>.</p>
+
+    <example>
+        <ul>
+            <li>
+                <p><m>P</m> : "It is raining outside."</p>
+                <p><m>Q</m> : "I have an umbrella."</p>
+                <p><m>P\wedge Q </m> : It is raining outside and I have an umbrella.</p>
+            </li>
+    
+            <li>
+                <p><m>P</m> : "I will go to the store tonight"</p>
+                <p><m>~P</m> : "I will not go to the store tonight."</p>
+            </li>
+    
+            <li>
+                <p><m>P</m> : "I will do my homework."</p>
+                <p><m>Q</m> : "I will watch Star Wars."</p>
+                <p><m>P\vee Q</m> : "I will do my homework or I will watch Star Wars."</p>
+            </li>
+    
+            <li>
+                <p><m>P</m> : "I will do the dishes tonight."</p>
+                <p><m>Q</m> : "I am cooking tonight."</p>
+                <p><m>P\wedge (\sim Q)</m> : "I will do the dishes tonight, and I am not cooking tonight."</p>
+            </li>
+        </ul>
+    </example>
+
+    <p>There is another way to relate two propositions, that is, with an <term>implication</term>, which is written like this: <m>\implies</m>.</p>
+    <example>
+        <ul>
+            <li>
+                <p><m>P</m> : "I am cooking tonight."</p>
+                <p><m>Q</m> : "I will do the dishes."</p>
+                <p><m>P\implies Q</m> : "If I am cooking tonight, then I will do the dishes."</p>
+                <p><m>P\implies (\sim Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
+            </li>
+
+            <li>
+                <p><m>P</m> : "I am elected."</p>
+                <p><m>Q</m> : "I will lower taxes."</p>
+                <p><m>P\implies Q</m> : "If I am elected, then I will lower taxes."</p>
+            </li>
+        </ul>
+
+    </example>
+<!--<xi:include href="./subsections/subsec-1.1.1.ptx" />
+<xi:include href="./subsections/subsec-1.1.2.ptx" />-->
     
 </section>

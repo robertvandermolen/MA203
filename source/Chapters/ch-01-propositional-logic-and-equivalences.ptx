@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-01" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Truth Tables and Truth Values</title>
+  <title>Introduction to Logic</title>
 
   <introduction>
-    <p>Introduction to logic</p>
+    <p>In this chapter we will see the foundation of proofs, namely propositional logic. Logic has become so
+      prevalent in an invisible way as it is the underlying language of the technology that has began running our lives. 
+    </p>
+    <p>
+      In more of a historical context logic was the primary tool for the original philosophers and debaters. The study
+      of propositional logic teaches you how to argue! It is in simpliest terms the study of truth.
+    </p>
+    <p>
+      With that said, in propositional logic we have only 2 options: 
+    </p>
+    <p>
+      <alert>True</alert> or <alert>False</alert> 
+    </p>
+    <p>
+      The quintessential <alert>1</alert> or <alert>0</alert> of computers.
+    </p>
   </introduction>
+
+  
 
   <!-- include sections -->
   <xi:include href="../Sections/sec-1.1.ptx" />
