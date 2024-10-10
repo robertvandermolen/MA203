@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-00" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What is a Proof?</title>
+
+  <introduction>
+    <p>We begin our journey at the beginning...</p>
+    <p>
+        For the instructor: this chapter can be safely skipped!
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="../Sections/sec-0.1.ptx" />
+  <xi:include href="../Sections/sec-0.2.ptx" />
+ 
+
+</chapter>

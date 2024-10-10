@@ -10,7 +10,7 @@
         <firstname>Dr. Robert</firstname>
         <lastname>Vandermolen</lastname>
       </personname>
-      <department>Department of Mathematics</department>
+      <department>Department of Science and Mathematics</department>
       <institution>Saint Mary-of-the-Woods College</institution>
     </author>
     <author>
@@ -39,5 +39,7 @@
       </shortlicense>
     </copyright>
   </colophon>
+
+  <xi:include href="./preface.ptx" />
 </frontmatter>
 

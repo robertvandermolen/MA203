@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="teacher_preface">
+<p>The purpose for the course/book is to help the student that is about to transition 
+    from the traditional calculative courses such as the calculus sequence and begin their journey into 
+    the more abstract mathematics where proofs become prevelent.</p>
+    <p>
+        Most students that would venture this far into the 
+        mathematics major have been enjoying these calculative classes, enjoying the comfort of an algorithm. Perhaps they were the 
+        student that loved Calculus III where they picutred three dimensional shapes and loved the visualiztation. Whatever
+        it was I have seen far too many students then reach the more "rigorous" classes and then loose interest, changing 
+        majors or just stop enjoying mathematics. In my opinion this is just a shame! And this text tries to give students
+        an algorithm to hold on to as they move deeper and deeper into the muddle. 
+    </p>
+<p><alert>To the Teacher:</alert></p>
+<p>I don't know how you stumbled upon this book, but if you are reading this
+    you are most likely deciding if you should adopt this textbook in your class.
+    I'll save you the work: DO IT! 
+</p>
+<p>
+    What? Are you still reading? Ohhh... you want more of an explanation. Well, first
+    this book is free, stop making your students pay for expensive books! 
+</p>
+<p>
+    Still here I see... You are more decenering. Well if you want to know if my exercises are of your taste. 
+    I assure you I broke no molds in the exercises. In this textbook Students will prove the traditional even, odd, divides, etc. 
+</p>
+<p>
+    Wait... you are still reading... ok people might ask what you are doing... quick giggle and say:  
+</p>
+<p>
+    "that's a funny tiktok" 
+</p>
+<p>
+    That was close... didn't want your colleagues walking by to think you actually cared about student learning... so you want to know if this is differnt than those other introduction
+    to proofs book... Well let me tell you a story...
+</p>
+<p>I've had nights out at conferences with fellow mathematicians and have listened to 
+    these brilliant mathematicians lament on not understanding the purpose of a course
+    on proof writing. And when these pillars of our mathematics community ever taught such a class it was with
+    the outlook that someone learned to write proofs by seeing a lot of proofs. So the instructor would show off some proofs
+    never really motivating why or how one would move from one line to the next then grab some questions from the exercise
+    section and just hope their students would figure it out. 
+</p>
+<p>
+    By my flippant description of this interaction you probally put together that I don't feel this way. I feel like students
+    can be led on the proving journey the same as they are led are their calculative journey. Just more care should
+    be taken. I have attempted to create a text that allows the instructor to just "follow the chapters" in their present
+    order and hopefully give the student's this journey!
+</p>
+<p>
+    Ok... but you are till reading... Yes you may be asking why are my examples so "basic" I never once mention derivative 
+    like the popular texts in this subject by the big publishers... well this is because I save that for analysis... in
+    this course I am just trying to introduce proving not introduce topics that cannot be picked up (almost) immediately. 
+</p>
+<p>
+    Finally, I'm sure you have already looked me up... but I'm definetly not a number theorist... sorry in advance!
+</p>
+</preface>

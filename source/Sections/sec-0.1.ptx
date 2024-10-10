@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-0-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>In the Beggining We Had Shapes</title>
+<introduction>
+<p>
+    As was true in ancient Athens, seems to ring true still in our sacred halls of academia, even more true after Bourbaki 
+    came in with their wrecking ball, and that is: 
+</p>
+<p>
+    ΑΓΕΩΜΕΤΡΗΤΟΣ ΜΗΔΕΙΣ ΕΙΣΙΤΩ
+</p>
+
+<p>
+    Of course if that was "all greek to you" do not fret fair Ceasar, that was simply the author paying tribute to those 
+    that came before... 
+</p>
+</introduction>
+
+<section xml:id="subsec-0-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Undefined Terms</title>
+    
+    
+<p>
+    The history of math books are littered with reference to tax collectors and assesors, but besides the lousey 
+    adjectives that we call numbers we have had <alert>Geometry!</alert>
+</p>
+<p>
+    Once Euclid was ready to formalize this universal experience of geometry he did so by introducing perhaps the most
+    powerful and important concepts in all of philosophy and mathematics. The <em>undefined term</em>.
+</p>
+<p>
+    As one is defining a word they must of course use <em>more words</em>, then those words would of course need 
+    even more <em>words</em> to define them... and so on.... and so forth.  
+</p>
+<p>
+    When would this pattern end? We would eventually need to stop. The "stopping" words are known as <alert>undefined terms</alert>
+</p>
+<p>
+    In this class we will not explore the amzaing world of tracing back every single conclusion to an undefined terms 
+    but instead we will start with A LOT of assumptions, assumptions students at this stage are used to making, namely 
+    "college algebra". Then we will slowly take away the assumptions.
+</p>
+</section>
+</section>

@@ -13,7 +13,9 @@
 
 
 
+
     <!-- Include chapters -->
+    <xi:include href="./Chapters/ch-00-what-is-a-proof.ptx" />
     <xi:include href="./Chapters/ch-01-propositional-logic-and-equivalences.ptx" />
     <xi:include href="./Chapters/ch-02-beg_set_theory.ptx" />
     <xi:include href="./Chapters/ch-03-direct-proofs.ptx" />
