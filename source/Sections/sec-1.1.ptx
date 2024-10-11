@@ -18,6 +18,7 @@
 </definition>
 <p>
     <example xml:id="prop-example">
+        <title>Some Examples of Propostions</title>
         <p>The following are examples of propositions:</p>
         <ol marker="(A)">
             <li>It is raining.</li>
@@ -31,6 +32,9 @@
    </p>
     <p>
             <example xml:id="not-prop-example">
+                <title>Some Examples of Sentences that are not Propositions</title>
+                
+                
        <p> The following are sentences that are NOT propositions:</p>
        <ol marker="(A)">
             <li>She has my phone.</li>
@@ -48,14 +52,87 @@
     that they do not have any other propositions as components. <term>Compound</term> propositions can be formed by using connective words, 
     connecting more than one propostion.
 </p>
-<definition>
-<p>Given propositions <m>P</m> and <m>Q</m>,</p><p>The <term>conjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\wedge Q</m>,
-    is the proposition:</p><p>"<m>P</m> <alert>and</alert> <m>Q</m>"</p><p><m>P\wedge Q</m> is true exactly when <em>both</em> <m>P</m> and <m>Q</m> are true!</p>
-    <p>The <term>disjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\vee Q</m>, 
-        is the proposition:</p><p>"<m>P</m> <alert>or</alert> <m>Q</m>"</p><p>The disjunction of <m>P</m> and <m>Q</m> is true exactly 
-            when <em>at least one of</em> <m>P</m> or <m>Q</m> are true.....
+<!--conjuncation defintion-->
+<definition xml:id="def-conjunction">
+    <p>Given propositions <m>P</m> and <m>Q</m>,</p>
+    <statement>
+        <p>
+        The <term>conjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\wedge Q</m>,
+        is the proposition:
+        </p>
+        <p>"<m>P</m> <alert>and</alert> <m>Q</m>"</p>
+        <p>
+            <m>P\wedge Q</m> is true exactly when <em>both</em> <m>P</m> and <m>Q</m> are true!
+        </p>
+    </statement>
+</definition>
+<p>blah... about conjunctions...</p>
+<example ml:id="ex-conjunction">
+    <title>Some Conjunction Examples</title>
+    <ol marker="(A)">
+   <li> <p><m>P</m> : "It is raining outside."</p>
+                <p><m>Q</m> : "I have an umbrella."</p>
+                <p><m>P\wedge Q </m> : It is raining outside and I have an umbrella.</p>
+   </li>
+   <li>
+    <p>
+        <m>P</m>: "Leonardo di ser Piero da Vinci was born in Italy."
+    </p>
+    <p>
+        <m>Q</m>: "<m>\frac{\pi}{2}</m> is rational."
+    </p>
+    <p>
+        <m>P\wedge Q</m>: "Leonardo di ser Piero da Vinci was born in Italy and <m>\frac{\pi}{2}</m> is rational."
+    </p>
+   </li>
+   <li>
+    <p>
+        <m>P</m>: "DNA stores information about how to build cells"
+    </p>
+    <p>
+        <m>Q</m>: "Archaea are prokaryotes"
+    </p>
+    <p>
+        <m>P\wedge Q</m>: "DNA stores information about how to build cells and Archaea are prokaryotes"
+    </p>
+   </li>
+</ol>
     
-</defintion>
+</example>
+
+<!--disjuncation defintion-->
+<definition ml:id="def-disjunction">
+    <p>Given propositions <m>P</m> and <m>Q</m>,</p>
+<statement>
+    <p>The <term>disjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\vee Q</m>, 
+        is the proposition:</p>
+        <p>"<m>P</m> <alert>or</alert> <m>Q</m>"</p>
+        <p><m>P\vee Q</m> is true exactly 
+            when <em>at least one of</em> <m>P</m> or <m>Q</m> are true.</p>
+        </statement> 
+</definition>
+<p>some blah... about disjunction</p>
+<p>
+    The logical disjunciton is often reffered to as the <term>inclusive or</term>, as it is still true when both
+    propositions are true. In English we often assume the use of the <term>exclusive or</term>, that is, when we use
+    the word <em>or</em>
+</p>
+
+<!--negation defintion-->
+<definition xml:id="def-negation">
+    <p>Given a proposition <m>P</m>,</p>
+    <statement>
+        <p>
+            The negation of <m>P</m>, denoted <m>\sim P</m>, is the propositon
+        </p>
+        <p>
+            "<alert>not</alert> <m>P</m>"
+        </p>
+        <p>
+            <m>\sim P</m> is true exactly when <m>P</m> is false.
+        </p>
+    </statement>
+</definition>
     <p>We often want to negate statements, for which we use <m>\sim </m> or <m>\neg</m> as <term>not</term>.</p>
 
     <example>
