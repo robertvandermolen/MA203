@@ -3,24 +3,266 @@
 <section xml:id="sec-1-02" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Conditionals and Biconditionals</title>
 
+<p>
+    In the last section we saw a few connectives. 
+    Using only these connectives is possible and 
+    is all you need for a <term>complete</term>
+    logical system, but it ignores an important 
+    decree used quite often in 
+    logic/debate/mathematics. That is the 
+    implilcation. 
+</p>
+<section xml:id="sec-1-02-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Conditionals</title>
+    
+    
+<definition>
+    <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
+    <statement>
+        <p>
+            the <term>conditional statment</term>
+            <m>P\implies Q</m> is the propostion
+        </p>
+        <p>
+            "If <m>P</m> then <m>Q</m>"
+        </p>
+        <p>
+            Propostion <m>P</m> is called the <term>antecedent</term>
+            and <m>Q</m> is the <term>consequent</term>. 
+        </p>
+        <p>
+            The conditional statement <m>P\implies Q</m>
+            is true exactly when <m>P</m> is false or <m>Q</m>
+            is true. 
+        </p>
+    </statement>
+</definition>
+<p>There are many ways of translating the conditional
+    to english statments, which we will in the next table
+    but perhaps the most popular is <term>implies</term>,
+    that is "<m>P</m> implies <m>Q</m>". 
+</p>
+<sbsgroup widths="45% 45%"  valign="middle">
+    <sidebyside >
+        <p>
+           <m>P\implies Q</m>:
+        </p>
+        <p>
+            Example:
+        </p>
+    </sidebyside>
+<sidebyside >
+    <p>
+        If <m>P</m> then <m>Q</m>
+    </p>
+    <p>
+        If I am cooking tonight then I will do dishes
+    </p>
 
-<p>There is another way to relate two propositions, that is, with an <term>implication</term>, which is written like this: <m>\implies</m>.</p>
-<example>
-    <ul>
-        <li>
-            <p><m>P</m> : "I am cooking tonight."</p>
-            <p><m>Q</m> : "I will do the dishes."</p>
-            <p><m>P\implies Q</m> : "If I am cooking tonight, then I will do the dishes."</p>
-            <p><m>P\implies (\sim Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
-        </li>
+</sidebyside>
+<sidebyside>
+    <p>
+        <m>P</m> implies <m>Q</m>
+    </p>
+    <p>
+        The water temperature is <m>100^\circ</m>C implies the water is boiling
+    </p>
+</sidebyside>
+<sidebyside>
+   <p> <m>P</m> is sufficient for <m>Q</m></p>
+    <p>
+        The water temperature is <m>100^\circ</m>C is sufficent for the water is boiling
+    </p>
+</sidebyside>
+<sidebyside>
+   <p> <m>P</m> only if <m>Q</m></p>
+    <p>
+        I am cooking tonight only if I will do the dishes
+    </p>
+</sidebyside>
+<sidebyside>
+    <p>
+        <m>Q</m>, if <m>P</m>
+    </p>
+    <p>
+        The water is boiling if the water temperature is <m>100^\circ</m>C
+    </p>
+</sidebyside>
+<sidebyside>
+            <p>
+                <m>Q</m> whenever <m>P</m>
+            </p>
+            <p>
+                The water is boiling whenever the water temperature is <m>100^\circ</m>C
+            </p>
+</sidebyside>
+  <sidebyside>
+    <p>
+        <m>Q</m> is necessary for <m>P</m>
+    </p>
+    <p>
+        The water is boiling is necessary for the water temperature is <m>100^\circ</m>C
+    </p>
+  </sidebyside>        
+    <sidebyside>
+        <p>
+            <m>Q</m> when <m>P</m>
+        </p>
+        <p>
+            The water is boiling when the water temperature is <m>100^\circ</m>C
+        </p>
+    </sidebyside>
+           
 
-        <li>
-            <p><m>P</m> : "I am elected."</p>
-            <p><m>Q</m> : "I will lower taxes."</p>
-            <p><m>P\implies Q</m> : "If I am elected, then I will lower taxes."</p>
-        </li>
-    </ul>
+</sbsgroup>
 
-</example>
+<p>
+    I have found the truth values of this connective to be the most challenging for students. To help I suggest the student always think
+    of the next example.
+</p>
+<p>
+    <example xml:id="ex-lying">
+        <title>The Lying Politician</title>
+        <p>
+            <m>P</m>: If I am elected
+        </p>
+        <p>
+            <m>Q</m>: I will lower taxes
+        </p>
+        <p>
+            <m>P\implies Q</m>: If I am elected then I will lower taxes.
+        </p>
+        <p>
+            So when is politician lying?
+        </p>
+        <p>
+            There are a couple of cases: 
+            <ol>
+                <li>
+                    <p>
+                        The politiciian is indeed elected:
+                    </p>
+                    <ol>
+                        <li>
+                            <p>
+                                The politician lowers taxes!
+                            </p>
+                            <p>
+                                The politiciian is not lying!
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The politician does not lower taxes
+                            </p>
+                            <p>
+                                The politiciain is lying!
+                            </p>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <p>
+                        The politician is not elected:
+                    </p>
+                    <ol>
+                        <li>
+                            <p>
+                                The politician works hard with community leaders and lobbies to get taxes lowered
+                            </p>
+                            <p>
+                                The politician is not lying!
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The politician sits on their couch all day eating Fruit Loops, and taxes are not lowered
+                            </p>
+                            <p>
+                                The politician is not lying!
+                            </p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </p>
+    </example>
+</p>
+<p>
+    Students seem to have the hardes time seeing that when the politician is not elected their is no obligation to do anything and hence 
+    the politician is not lying!
+</p>
+</section>
+
+<section xml:id="sec-1-02-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Biconditionals</title>
+    <definition xml:id="def-">
+        <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
+        <statement>
+            <p>
+                the <term>biconditional statment</term>
+                <m>P\iff Q</m> is the propostion
+            </p>
+            <p>
+                "<m>P</m> if and only if <m>Q</m>"
+            </p>
+           
+            <p>
+                The biconditional statement <m>P\iff Q</m>
+                is true exactly when <m>P</m> and <m>Q</m>
+                have the same truth value.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Instead of writting "if and only if" we will often
+        elect to only type <alert>"iff"</alert>. Just as with the implication, the biconditional has many english translations:
+    </p>
+    <sbsgroup widths="45% 45%"  valign="middle">
+        <sidebyside >
+            <p>
+               <m>P\iff Q</m>:
+            </p>
+            <p>
+                Example:
+            </p>
+        </sidebyside>
+    <sidebyside >
+        <p>
+             <m>P</m> if and only if <m>Q</m>
+        </p>
+        <p>
+             I will buy dinner if and only if you buy the movie tickets
+        </p>
+    
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <m>P</m> if, but only if <m>Q</m>
+        </p>
+        <p>
+            The water temperature is <m>100^\circ</m>C if, but only if the water is boiling
+        </p>
+    </sidebyside>
+    <sidebyside>
+       <p> <m>P</m> is equivalent to <m>Q</m></p>
+        <p>
+            The water temperature is <m>100^\circ</m>C is sufficent for the water is boiling
+        </p>
+    </sidebyside>
+    <sidebyside>
+       <p> <m>P</m> is necessary and sufficent for <m>Q</m></p>
+        <p>
+            I am cooking tonight is necessary and sufficent for you to do the dishes
+        </p>
+    </sidebyside>
+               
+    
+    </sbsgroup>
+    <p>
+        It is this biconditional that I believe many students hear when they hear the phrase: "If I am elected then I will lower taxes". 
+        When indeed they mean "Taxes will be lowered if, but only if I am elected".
+    </p>
+</section>
 
 </section>

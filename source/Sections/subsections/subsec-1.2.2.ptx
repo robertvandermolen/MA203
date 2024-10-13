@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="subsec-1-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <p>A handy way of figuring out the truth value of something is by building a <term>truth table</term>. Below is a table that shows the truth value of <m>P\implies Q</m></p>
+  <title>Needs title</title>
+  <p>
+    Blah... to keep track of when an abstract compound propositon is true... blah... don't forget what is an abstract compound propositon...
+  </p>
+   
+  
+  <p>A handy way of figuring out the truth value of something is by building a <term>truth table</term>. Below is a table that shows the truth value of <m>P\implies Q</m></p>
 
     <figure>
         <tabular halign="center">
