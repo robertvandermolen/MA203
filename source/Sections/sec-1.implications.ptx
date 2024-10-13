@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Conditionals and Biconditionals</title>
+
+
+<p>There is another way to relate two propositions, that is, with an <term>implication</term>, which is written like this: <m>\implies</m>.</p>
+<example>
+    <ul>
+        <li>
+            <p><m>P</m> : "I am cooking tonight."</p>
+            <p><m>Q</m> : "I will do the dishes."</p>
+            <p><m>P\implies Q</m> : "If I am cooking tonight, then I will do the dishes."</p>
+            <p><m>P\implies (\sim Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
+        </li>
+
+        <li>
+            <p><m>P</m> : "I am elected."</p>
+            <p><m>Q</m> : "I will lower taxes."</p>
+            <p><m>P\implies Q</m> : "If I am elected, then I will lower taxes."</p>
+        </li>
+    </ul>
+
+</example>
+
+</section>

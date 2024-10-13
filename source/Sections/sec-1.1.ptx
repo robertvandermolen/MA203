@@ -21,15 +21,21 @@
         <title>Some Examples of Propostions</title>
         <p>The following are examples of propositions:</p>
         <ol marker="(A)">
-            <li>It is raining.</li>
             <li><m>2+5=4</m></li>
             <li>The gazel will become the only living animal on earth by the year 2525.</li>
             <li>Galileo Galilei had bacon on his eleventh birthday.</li>
         </ol>
     </example></p>
    <p>
-    here write some stuff about the last example...
-   </p>
+    Some propositions, like (A) in <xref ref="prop-example"/> have clear truth values, that is we can easily
+    determine if the statement is either True or False (but not both). Perhaps, to untangle the last sentence, it
+    is clear that (A) in <xref ref="prop-example"/> is False.    
+    </p>
+    <p>
+        Yet, the remaining (B) and (C) in <xref ref="prop-example"/>, cannot be easily determined if they are True or False
+            (unless of course you are reading this after 2525) but nonetheless they are either True or False (and not both)
+            whether or not we can determine which one.
+    </p>
     <p>
             <example xml:id="not-prop-example">
                 <title>Some Examples of Sentences that are not Propositions</title>
@@ -37,16 +43,80 @@
                 
        <p> The following are sentences that are NOT propositions:</p>
        <ol marker="(A)">
-            <li>She has my phone.</li>
-            <li>Stop!</li>
+        <li>Stop!</li>    
+        <li>She has my phone.</li>
             <li><m>x+2=4</m></li>
             <li>This sentence is false.</li>
             </ol>
     </example>
 </p>
 <p>
-    here walk through the each letter and mention important stuff about them... such as the last one is a <term>paradox</term>
+  For examples (B) and (C) in <xref ref="not-prop-example"/> are not propositions because (B) depends on who "She" is to
+  determine its truth value, while in (C) it depends on what "<m>x</m>" is, for example when <m>x</m> is 2 it is True, but when <m>x</m> 
+  is 3 it is False. Example (A) from <xref ref="not-prop-example"/> is an exclamation and is neither True nor False. Finally, (D) from 
+  <xref ref="not-prop-example"/> is known as a <term>paradox</term>. If the statement “This sentence is false” is true,
+  then by its meaning it must be false. On the other hand, if the given statement is false, then what it claims is false, 
+  so it must be true.
 </p>
+
+<p>
+    In our journey of learning propositional logic we will often find it necessary to discuss arbitrary propostions.
+    To do so we will try and use capital letters such as: <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, and <m>T</m>. 
+</p>
+
+<p>
+    There are many ways to create new propositions from old ones. Our first tool to do just that is the logical <term>negation</term>.
+</p>
+
+<!--negation defintion-->
+<p>
+<definition xml:id="def-negation">
+    <p>Given a proposition <m>P</m>,</p>
+    <statement>
+        <p>
+            The <term>negation</term> of <m>P</m>, denoted <m>\sim P</m>, is the propositon
+        </p>
+        <p>
+            "<alert>not</alert> <m>P</m>"
+        </p>
+        <p>
+            <m>\sim P</m> is true exactly when <m>P</m> is false.
+        </p>
+    </statement>
+</definition>
+</p>
+
+<p>
+    It is noteworthy that the symbol <m>\neg</m> can be found in many texts for the negation as well. The negation
+    is simply the opposite of the propostion.
+</p>
+<p>
+    <example xml:id="ex-negation">
+        <title>Some Negation Examples</title>
+        <p>
+            <ol marker="(A)">
+                <li>
+                    <p>
+                        <m>P</m>: The sky is purple.
+                    </p>
+                    <p>
+                        <m>\sim P</m>: The sky is not purple.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>P</m>: It is raining right now at SMWC.
+                    </p>
+                    <p>
+                        <m>\sim P</m>: It is not raining right now at SMWC.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </example>
+</p>
+
 <p>
     In <xref ref="prop-example" /> the propositions are all <term>simple</term> or <term>atomic</term> in the senese
     that they do not have any other propositions as components. <term>Compound</term> propositions can be formed by using connective words, 
@@ -66,8 +136,14 @@
         </p>
     </statement>
 </definition>
-<p>blah... about conjunctions...</p>
-<example ml:id="ex-conjunction">
+<p>We will see throughout this course that many different words in English can be used for our propostions
+    with the same meaning. For example, but, while, and although are usually translated symbolically
+    with the conjunction connective. An example of this, using the propositions 
+    from (A) in <xref ref="ex-conjunction"/>, is we could 
+    write "It is not raining outside but I do  have my umbrella" symbolically as "<m>(\sim P)\wedge Q</m>".
+</p>
+<p>
+<example xml:id="ex-conjunction">
     <title>Some Conjunction Examples</title>
     <ol marker="(A)">
    <li> <p><m>P</m> : "It is raining outside."</p>
@@ -99,6 +175,7 @@
 </ol>
     
 </example>
+</p>
 
 <!--disjuncation defintion-->
 <definition ml:id="def-disjunction">
@@ -111,75 +188,51 @@
             when <em>at least one of</em> <m>P</m> or <m>Q</m> are true.</p>
         </statement> 
 </definition>
-<p>some blah... about disjunction</p>
+
 <p>
     The logical disjunciton is often reffered to as the <term>inclusive or</term>, as it is still true when both
     propositions are true. In English we often assume the use of the <term>exclusive or</term>, that is, when we use
-    the word <em>or</em>
+    the word <em>or</em> we most often mean only one of two choices. For example "would you like chicken or steak". When someone says this to you, you know 
+    immedately they do not mean that you can have both chicken and steak, that is not the case for the logical 
+    disjunction.
 </p>
-
-<!--negation defintion-->
-<definition xml:id="def-negation">
-    <p>Given a proposition <m>P</m>,</p>
-    <statement>
-        <p>
-            The negation of <m>P</m>, denoted <m>\sim P</m>, is the propositon
-        </p>
-        <p>
-            "<alert>not</alert> <m>P</m>"
-        </p>
-        <p>
-            <m>\sim P</m> is true exactly when <m>P</m> is false.
-        </p>
-    </statement>
-</definition>
-    <p>We often want to negate statements, for which we use <m>\sim </m> or <m>\neg</m> as <term>not</term>.</p>
-
-    <example>
-        <ul>
+<p>
+<example sml:id="ex-or">
+    <title>Some Disjunction Examples</title>
+    <p>
+        <ol marker="(A)">
             <li>
-                <p><m>P</m> : "It is raining outside."</p>
-                <p><m>Q</m> : "I have an umbrella."</p>
-                <p><m>P\wedge Q </m> : It is raining outside and I have an umbrella.</p>
+                <p>
+                    <m>P</m>: 10 is a composite.
+                </p>
+                <p>
+                    <m>Q</m>: 4 is a prime.
+                </p>
+                <p>
+                    <m>P\vee Q</m>: 10 is a composite or 4 is prime.
+                </p>
             </li>
-    
-            <li>
-                <p><m>P</m> : "I will go to the store tonight"</p>
-                <p><m>~P</m> : "I will not go to the store tonight."</p>
-            </li>
-    
+
             <li>
                 <p><m>P</m> : "I will do my homework."</p>
                 <p><m>Q</m> : "I will watch Star Wars."</p>
                 <p><m>P\vee Q</m> : "I will do my homework or I will watch Star Wars."</p>
             </li>
-    
             <li>
                 <p><m>P</m> : "I will do the dishes tonight."</p>
                 <p><m>Q</m> : "I am cooking tonight."</p>
-                <p><m>P\wedge (\sim Q)</m> : "I will do the dishes tonight, and I am not cooking tonight."</p>
+                <p><m>P\vee Q</m> : "I will do the dishes tonight or I am tonight."</p>
             </li>
-        </ul>
-    </example>
+            
+        </ol>
+    </p>
+    
+</example>
+</p>
 
-    <p>There is another way to relate two propositions, that is, with an <term>implication</term>, which is written like this: <m>\implies</m>.</p>
-    <example>
-        <ul>
-            <li>
-                <p><m>P</m> : "I am cooking tonight."</p>
-                <p><m>Q</m> : "I will do the dishes."</p>
-                <p><m>P\implies Q</m> : "If I am cooking tonight, then I will do the dishes."</p>
-                <p><m>P\implies (\sim Q)</m> : "If I am cooking tonight, then I will not do the dishes."</p>
-            </li>
 
-            <li>
-                <p><m>P</m> : "I am elected."</p>
-                <p><m>Q</m> : "I will lower taxes."</p>
-                <p><m>P\implies Q</m> : "If I am elected, then I will lower taxes."</p>
-            </li>
-        </ul>
+   
 
-    </example>
 <!--<xi:include href="./subsections/subsec-1.1.1.ptx" />
 <xi:include href="./subsections/subsec-1.1.2.ptx" />-->
     

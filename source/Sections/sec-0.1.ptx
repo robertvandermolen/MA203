@@ -15,16 +15,18 @@
     Of course if that was "all greek to you" do not fret fair Ceasar, that was simply the author paying tribute to those 
     that came before... 
 </p>
+<p>
+    The history of math books are littered with reference to tax collectors and assesors, but besides the lousey 
+    adjectives that we call numbers we have had <alert>Geometry!</alert>
+</p>
+
 </introduction>
 
 <section xml:id="subsec-0-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Undefined Terms</title>
     
     
-<p>
-    The history of math books are littered with reference to tax collectors and assesors, but besides the lousey 
-    adjectives that we call numbers we have had <alert>Geometry!</alert>
-</p>
+
 <p>
     Once Euclid was ready to formalize this universal experience of geometry he did so by introducing perhaps the most
     powerful and important concepts in all of philosophy and mathematics. The <em>undefined term</em>.
@@ -35,11 +37,71 @@
 </p>
 <p>
     When would this pattern end? We would eventually need to stop. The "stopping" words are known as <alert>undefined terms</alert>
+    For example the almost universally agreed upon undefined terms for geometry are: <term>point</term>, <term>line</term>,
+    and <term>incident</term>. 
+</p>
+
+</section>
+
+<section xml:id="subsec-0-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Axioms</title>
+<p>
+After we have all agreed on the undefined terms we would then need to set some <em>ground rules</em>. These rules
+than our new undefined terms must follow are known as <term>axioms</term>. Using our geometry example from above, one
+common axiom of euclidean geometry is:
 </p>
 <p>
-    In this class we will not explore the amzaing world of tracing back every single conclusion to an undefined terms 
-    but instead we will start with A LOT of assumptions, assumptions students at this stage are used to making, namely 
-    "college algebra". Then later we will use less and less assumptions.
+    <ol>
+        <li>
+            <p>
+                For any two points there exists a line incident to both.
+            </p>
+        </li>
+    </ol>
+</p>
+<p>
+    the etymology of the word axiom comes a greek word meaning to require. I find this apropos as axioms are
+    required otherwise we would have no footing to begin a discourse. 
 </p>
 </section>
+
+<section xml:id="subsec-0-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Defintions</title>
+    <p>
+        Now once we have our undefined terms, and axioms we begin building perhaps the most important part of 
+        all proofs, the <term>defintions</term>. It is one of the <alert>major take-aways</alert> from this
+        course that I would like the student to understand the importance of a definition. You can only prove something
+        is true when you know that thing, when you know that thing's definition. 
+    </p>
+</section>
+
+<section xml:id="subsec-0-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Proofs</title>
+    <p>
+        There are two interpretations of what has been presented before you. One, hopefully how it has been presented
+        here, is that of there is no other way one could argue/debate without this structure. Otherwise, a party could
+        simply keep going backwards and backwards with no assumptions/axioms to back stop the debate. 
+    </p>
+    <p>
+        The other point of view, perhaps most popular in textbooks, is to call this approach <term>deductive reasoning</term>,
+        and draw contrast to that of <term>inductive reasoning</term>. Some how pitting the two against each other. 
+        The epitome of physicists versus mathematicians. Even, applied mathematicians vs theoretical mathematicians. 
+    </p>
+    <p>
+        The differences attempting to be drawn between the world we have just set foward and that of collecting data 
+        and observing specific 
+        instances or phenomena, striving to form a theory, <alert>a model</alert>, that reveals patterns or 
+        relationships among quantities and structures in nature. This process labeled as inductive reasoning, drawing 
+        general conclusions from particular cases/patterns. Which is supposed to be in stark oppostion to deductive reasoning, 
+        where we draw conclusions based on statements accepted as true, our axioms and undefined terms. Then proofs are built, to
+        ensure that conclusions are drawn logically to arrive at truth. Yet, it is impossible to seperate these. It is the phenomena
+        of our surrounding universe that Euclid yearned to define and describe in his geometries. 
+    </p>
+    <p>
+        In this class we will not explore the amzaing world of tracing back every single conclusion to an undefined terms 
+        and axioms, but instead we will start with A LOT of assumptions, assumptions students at this stage are used to making, namely 
+        "college algebra". Then later we will use less and less assumptions.
+    </p>
+</section>
+
 </section>
