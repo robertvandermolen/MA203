@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-1-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basic Tables</title>
+  <p>
+    In a <term>truth table</term> we take arbitirary propositions indicated by letters, such as <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, 
+    and <m>T</m>, and consider all the cases of each being either True (T) or False (F). We then explore how comining them with connectives
+    changes the truth value of the compound propositions. 
+  </p>
+  <p>
+    We will call these arbitrary propositions/compound propostions,  <term>propositional forms</term>. 
+      These propositoinal forms do not have a truth value. Instead, each form
+has a list of truth values that depend on the values assigned to its components. This
+list is displayed by presenting all possible combinations for the truth values of its
+components in a truth table. 
+  </p>
+  <p>
+    To do this we will need to first be able to collect all the combinations of truth values of the basic components 
+    of a compound proposition. So for example, if the compound proposition has to components, lets name them
+    <m>P</m> and <m>Q</m> then all combinations are:
+  </p>
+  <figure xml:id="table-truths">
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+        <cell><m>P</m></cell>
+        <cell><m>Q</m></cell>
+        
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>T</cell>
+        
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>F</cell>
+        
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>T</cell>
+       
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>F</cell>
+        
+      </row>
+    </tabular>
+  
+</figure>
+  <p>
+    Now to see everything together we will begin with a couple of simple ones, first the disjunction (<m>P\wedge Q</m>). Since 
+    the disjunction involves two components (<m>P</m> and <m>Q</m>) their truth tables must include all combinations of 
+    their two truth values, just as collected above in figure <xref ref="table-truths"/>.
+  </p>
+
+  
+<figure>
+  
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+        <cell><m>P</m></cell>
+        <cell><m>Q</m></cell>
+        <cell><m>P\wedge Q</m></cell>
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>F</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+      </row>
+    </tabular>
+  </figure>
+
+  <p>
+    Next the conjunction (<m>P\vee Q</m>). Since 
+    the conjunction also only involves two components (<m>P</m> and <m>Q</m>) their truth tables must again include all combinations of 
+    their two truth values, just as collected above in figure <xref ref="table-truths"/>.
+  </p>
+
+<figure>
+
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell><m>P</m></cell>
+      <cell><m>Q</m></cell>
+      <cell><m>P\vee Q</m></cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+    </row>
+  </tabular>
+
+</figure>
+<p>
+  Next, we will see the truth table for the negation, <m>\sim P</m>. Since the negation only invovles one component (<m>P</m>) we 
+  simply need the two truth values that <m>P</m> can obtain.
+</p>
+<figure>
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell><m>P</m></cell>
+      <cell><m>\sim P</m></cell>
+      
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+      
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      
+    </row>
+  
+  </tabular>
+
+</figure>
+
+<p>
+  Now, we see the implication, <m>P\implies Q</m> in action. Again this has two components so we must list them all. 
+</p>
+  
+    <figure>
+        <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell><m>P</m></cell>
+            <cell><m>Q</m></cell>
+            <cell><m>P\implies Q</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell>F</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+          </row>
+        </tabular>
+      
+    </figure>
+    
+    <figure>
+        <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell><m>P</m></cell>
+            <cell><m>Q</m></cell>
+            <cell>~<m>P</m></cell>
+            <cell><m>(\sim P)\implies Q</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>F</cell>
+          </row>
+        </tabular>
+      
+    </figure>
+   
+</section>

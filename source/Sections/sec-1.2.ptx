@@ -2,9 +2,21 @@
 
 <section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Truth Tables</title>
-
+<introduction>
+    <p>
+        So far we have always looked at actual sentences, even when a letter like <m>P</m> was introduced it was immediately 
+        followed by an actual statement. 
+      </p>
+      <p>
+        To recall our journey is to show/find the truth of statements, most often refferred to as proofs. In this journey we will need to 
+        combine propositons which we already know their truth value to arrive at new propositions which we want to be true. To be able to 
+        do this we need to be able to know how combining different propositons with our connectives effect their truth value (truthiness).
+        To keep track of this we now introduce truth tables.
+      </p>
+     
+</introduction>
 <!--<xi:include href="./subsections/subsec-1.2.1.ptx" />-->
-<xi:include href="./subsections/subsec-1.2.2.ptx" />
+<xi:include href="./subsections/subsec-2.tables.easy.ptx" />
 <xi:include href="./subsections/subsec-1.2.3.ptx" />
     
 </section>
