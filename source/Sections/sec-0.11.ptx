@@ -10,22 +10,22 @@
     you might notice that the expression
 </p>
 <p> 
-<me>x^2-3x+43</me>
+<me>x^2-7x+53</me>
 </p>
 <p>
-produces a prime number for <em>many</em> values of <m>x</m>. The dilligent student will check that for the first 10, 20, 
-or even 42 positive integers when we substiute our number for <m>x</m> we arive at a prime number such as
+produces a prime number for <em>many</em> values of <m>x</m>. The dilligent student will check that for the first 10, 20, 30 
+or even 40 positive integers when we substiute our number for <m>x</m> we arive at a prime number such as
 </p>
 <p>
-    <me>(4)^2-3(4)+43=47</me>
+    <me>(4)^2-7(4)+53=41</me>
 </p>
 <p> 
-which is prime! If this hard working student were to check with other numbers like 44, 45, 47, and 50 they would also
+which is prime! If this hard working student were to check with other numbers like 41, 42, and 43 they would also
 discover prime numbers as the solution. 
 </p>
 <p>
-However, this is not conclusive proof, as it fails for <m>x = 43</m>, where the result is 1763, 
-which factors as <m>41\times 43</m>. While examining specific examples can offer valuable insights into 
+However, this is not conclusive proof, as it fails for <m>x = 44</m>, where the result is 1681, 
+which is actually a square, that is it factors as <m>41\times 41</m>. While examining specific examples can offer valuable insights into 
 mathematical concepts and relationships, it is not sufficient for proof unless every possible case can be examined.
 </p>
 </section>
