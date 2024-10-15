@@ -41,5 +41,37 @@
             <li><m>[(P\implies Q)\wedge (\sim R)]\equiv [(R\vee P)\implies ((\sim R)\wedge Q)]</m></li>
         </ol>
     </li>
+    <li>
+        <p>
+            Translate the following English statements into symbolic sentences with quantifiers. The universe for each is given in the parenthetical.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    Not all precious stones are beautiful. (<m>\mathcal{U}=</m>all stones)
+                </p>
+            </li>
+            <li>
+                <p>
+                    All precious stones are not beautiful. (<m>\mathcal{U}=</m>all stones)
+                </p>
+            </li>
+            <li>
+                <p>
+                    There is a smallest positive integer (<m>\mathcal{U}=\mathbb{R}</m>)
+                </p>
+            </li>
+            <li>
+                <p>
+                    Some people are honest and some people are not honest. (<m>\mathcal{U}=</m>all people)
+                </p>
+            </li>
+            <li>
+                <p>
+                    No one loves everybody
+                </p>
+            </li>
+        </ol>
+    </li>
 </ol>
 </section>

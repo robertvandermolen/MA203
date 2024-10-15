@@ -28,12 +28,40 @@
     </sidebyside>
     <sidebyside>
         <p>
-            <m>\mathbb{Q}=\{</m>
+            <m>\mathbb{Z}^+=\{1,2,3,...\}</m>
+        </p>
+        <p>
+            The Counting Numbers
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <m>\mathbb{Q}=\{\frac{a}{b}:a,b\in\mathbb{Z}, \text{ with }b\neq 0\}</m>
         </p>
         <p>
             The Rational Numbers
         </p>
     </sidebyside>
+    <sidebyside>
+        <p>
+            <m>\mathbb{R}</m>
+        </p>
+        <p>
+            The Real Numbers
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <m>\mathbb{C}</m>
+        </p>
+        <p>
+            The Complex Numbers
+        </p>
+    </sidebyside>
 </sbsgroup>
+<p>
+    Notice that I take the extremely divisive standpoint that <m>\mathbb{N}</m> contains 0. Later in the book we will
+    justify this, but now, I am your teacher and thus you are in my camp on this issue!
+</p>
 
 </section>

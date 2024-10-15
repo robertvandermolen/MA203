@@ -4,9 +4,63 @@
 <title>Truth Sets and Predicate Forms</title>
 
 <p>
-    When we are discussing a general universe of discuourse we will denote it as <m>mathcal{U}</m>. We will also often need 
+    When we are discussing a general universe of discuourse we will denote it as <m>\mathcal{U}</m>. We will also often need 
     to speak of a predicate in general terms so we will use the <em>function</em> notation for predicates. Such
-    as for the predicate <m>x\geq 3</m> we can denote it by <m>P(x)</m>. 
+    as for the predicate <m>x\geq 3</m> we can denote it by <m>P(x)</m>. And thus we can now determine that a statment like
+    <m>P(2)</m> which is <m>2\geq3</m> is false.
 </p>
+<p>
+    After setting our universe can now talk about the <term>truth set</term> of a predicate <m>P(x)</m>, that is
+    collecting all of the elements of our universe that make <m>P(x)</m> true. 
+</p>
+
+
+<example>
+    
+    <p>
+        
+        The truth set for the open sentence "<m>x^2\lt 3</m>" depends on the universe of discord. When the universe is set 
+        as <m>\mathcal{U}=\mathbb{N}</m> 
+    
+        then the truth set is <m>\{0,1\}</m>. When the universe is 
+        <m>\mathcal{U}=\mathbb{Z}</m>
+        
+        
+        then the truth set is <m>\{-1,0,1\}</m>. If the universe was to be <m>\mathcal{U}=\mathbb{R}</m>
+         then the truth set would be the open interval <m>(-\sqrt{3},\sqrt{3})</m>. 
+    
+    </p>
+
+</example>
+
+<definition xml:id="def-equiv-predicate">
+    <statement>
+        <p>
+            For a fixed universe of discord, we say that two predicates, <m>P(x)</m> and <m>Q(x)</m>, are 
+            <term>equivalent</term> iff they have the same truth set.
+        </p>
+        <p>
+            We will denote this as <m>P(x)\equiv Q(x)</m>
+        </p>
+    </statement>
+</definition>
+<p>
+    Now lets see an example of this in play wiht some, perhaps, unexpected results.
+</p>
+<example>
+    <p>
+        The predicates <m>P(x): x^2+2x=-1</m> and <m>Q(x):x\leq 1</m> are equivalent in the universe 
+        <m>\mathcal{U}=\mathbb{Z}^+</m>. They are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>.
+    </p>
+</example>
+<p>
+    This next example should work the way you expected.
+</p>
+<example>
+    <p>
+        The open statements <m>R(x):x^2=9</m> and <m>S(x):x=3</m> are equivalent in the universe <m>\mathcal{U}=\mathbb{N}</m>
+        but they again are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>
+    </p>
+</example>
 
 </section>

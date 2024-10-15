@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-8-unique" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>More Examples</title>
+<p>
+    Now we will give some more examples:
+</p>
+<p></p>
+<example>
+    <ol marker="(A)">
+        <li>
+            <p>
+                For every odd prime <m>x</m> less than 10, <m>x^2+4</m> is prime
+                <me>(\forall x)(x\text{ is prime }\wedge x\text{ is odd }\wedge x\lt 10\implies x^2+4\text{ is prime}</me>
+            </p>
+        </li>
+        <li>
+            <p>
+                Some functions defined at 0 are not continuous at zero
+                <me>(\exists f)(f\text{ is defined at }0\wedge f\text{ is not continuous at }0</me>
+            </p>
+        </li>
+        <li>
+            <p>
+                Some integers are even and some integers are odd
+                <me>(\exists x)(x\text{ is even})\wedge(\exists y)(y\text{ is odd})</me>
+            </p>
+        </li>
+        
+    </ol>
+</example>
+</section>

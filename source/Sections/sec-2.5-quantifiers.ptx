@@ -23,8 +23,10 @@
   <xi:include href="./subsections/subsec-2.5.1-basic-sets.ptx" />
   <xi:include href="./subsections/subsec-2.5.2-basic-uni.ptx" />
   <xi:include href="./subsections/subsec-2.5.3-truth-set.ptx" />
-  <xi:include href="./subsections/subsec-2.5.4-universal.ptx" />
-  <xi:include href="./subsections/subsec-2.5.5-existential.ptx" />
+  <xi:include href="./subsections/subsec-2.5.4-existential.ptx" />
+  <xi:include href="./subsections/subsec-2.5.5-universal.ptx" />
   <xi:include href="./subsections/subsec-2.5.6-neg-quant.ptx" />
+  <xi:include href="./subsections/subsec-2.5.7-unique.ptx" />
+  <xi:include href="./subsections/subsec-2.5.8-more-examples.ptx" />
 
 </section>

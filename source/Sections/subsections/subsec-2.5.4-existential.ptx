@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-4-existential" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>The Existential Quantifier</title>
+
+<p>
+  Consider the predicate <m>3x=12</m> is, again, not a proposition as it depends on the universe and which <m>x</m> from this
+  universe we are talking about. But, there is a way of not choosing an <m>x</m> from the universe to turn this into
+  a proposition, that is to consider the statement: <me>\text{There is an } x \text{ such that }3x=12</me> This proposition is 
+  still treated differently than other propositions we have considered, as it still depends on the universe. This new
+  proposition can be formed from the predicate by applying a quanifier, that is we qualify our open sentence before saying 
+  it.
+</p>
+<definition xml:id="def-exists">
+  <statement>
+    <p>
+      For a predicate <m>P(x)</m>, the sentence <me>\exists x\text{ } P(x)</me> is read <me>\text{"There exists an }x\text{ such that }P(x)\text{"}</me>
+      or <me>\text{"For some }x,\text{ }P(x)\text{"}</me> or <me>\text{"We can find an }x\text{ so that }P(x)\text{"}</me>
+      The proposition <m>\exists x \text{ }P(x)</m> is true iff the truth set of <m>P(x)</m> is nonempty. The symbol <m>\exists</m>
+      is called the <term>existential quantifier</term>
+    </p>
+  </statement>
+</definition>
+<p>
+  One way to show that <m>\exists x\text{ }P(x)</m> is true for a specific universe is to identitify an object <m>a\in\mathcal{U}</m>
+  such that <m>P(a)</m> is true. 
+</p>
+<example>
+  <p>
+    For this example lets consider the following predicates
+  </p>
+  <ol marker="(A)">
+    <li>
+      <p>
+        <m>P(x): x \text{ loves books}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>Q(x): x \text{ eats pizza}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>R(x): x \gt 4</m>
+      </p>
+    </li>
+  </ol>
+  <p>
+    For (C) the statement <m>\exists x\text{ }R(X)</m> is true in the universe <m>\mathcal{U}=\mathbb{R}</m> is true as 
+    <m>4.5\in\mathbb{R}</m> as well as many other numbers. In statement (A) there are no real numbers that have any 
+    opinions on books for my understanding, but if the universe was all people then <m>\exists x\text{ }P(x)</m> is true 
+    as I am a person and I love books. Similiarly for (B) the proposition, <m>\exists x\text{ }Q(x)</m> in the universe
+    of all people is also true, as I also eat pizza! 
+  </p>
+</example>
+<p>
+  In English there are many ways to say the existential quantifier, such as:
+</p>
+<ul>
+  <li>
+    <p>
+      "some"
+    </p>
+  </li>
+  <li>
+    <p>
+      "at least one"
+    </p>
+  </li>
+  <li>
+    <p>
+      "there is"
+    </p>
+  </li>
+ 
+</ul>
+<p>
+  and so many more.
+</p>
+
+<p>
+  I'd like to end this subsection with the symbolization of a statement <me>\text{Some }P(x)\text{ are }Q(x)</me> which should be
+  <me>(\exists x)(P(x)\wedge Q(x)</me>
+</p>
+</section>

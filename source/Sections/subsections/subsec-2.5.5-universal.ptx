@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-5-universal" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>The Universal Quantifier</title>
+
+<p>
+  The statement "everyone reads books" is being qualified by something different than an exists, 
+  yet does have a truth value and hence is a proposition. It is this quantifier that we 
+  call the universal quantifier.
+</p>
+<definition xml:id="def-universal">
+  <statement>
+    <p>
+      For a predicate <m>P(x)</m>, the statement <me>\forall x\text{ }P(x)</me> is read
+      <me>\text{"For all }x\text{ }P(x)\text{"}</me> and is true iff the truth set of <m>P(x)</m>
+      is the <em>entire</em> universe. The symbol <m>\forall</m> is called the <term>universal quantifier</term>.
+    </p>
+  </statement>
+</definition>
+
+<p>
+  In English there are many ways to say the universal quantifier, such as:
+</p>
+<ul>
+  <li>
+    <p>
+      "for all"
+    </p>
+  </li>
+  <li>
+    <p>
+      "for every"
+    </p>
+  </li>
+  <li>
+    <p>
+      "for each"
+    </p>
+  </li>
+ 
+</ul>
+<p>
+  and so many more.
+</p>
+<p></p>
+<example>
+  <p>
+    For this example lets consider the following predicates
+  </p>
+  <ol marker="(A)">
+    <li>
+      <p>
+        <m>P(x): x \text{ loves math textbooks}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>Q(x): x \text{ eats pizza}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>R(x): x \gt 4</m>
+      </p>
+    </li>
+  </ol>
+  <p>
+    In (C) for the universe <m>\mathcal{U}=\mathbb{R}</m> the proposition <m>\forall x\text{ }R(x)</m> is false as <m>2\in\mathbb{R}</m>
+    yet 2 is not greater than 4. For (A) in the universe of all people, the proposition <m>\forall x\text{ }P(x)</m> is also false as I have met
+    many students whom dislike most math textbooks. Similiarly for (B) in the universe of all people the proposition
+    <m>\forall x\text{ }Q(x)</m> is also false as I have met a health conscious person who does not eat pizza. 
+  </p>
+</example>
+<p>
+  There are many many many examples of the use of the universal quantifier, but one popular one that I'd like to 
+  take a moment to discuss is: <me>\text{All }P(x) \text{ are }Q(x)</me> this can be symbolized by 
+  <me>(\forall x)(P(x)\implies Q(x))</me>
+</p>
+</section>

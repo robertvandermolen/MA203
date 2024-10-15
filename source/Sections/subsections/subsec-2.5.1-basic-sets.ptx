@@ -46,9 +46,9 @@
     capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m> then listing the elements
     seperated by commas. For example is we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
     Or if we were to collect the set of all counting numbers we could use ... to indicate continuing a pattern: 
-    <me>\{1,2,3,...\}</me> We coould also use what is known as set builder notation:
+    <me>\{1,2,3,...\}</me> We could also use what is known as set builder notation:
   </p>
-  <!--<image source="../../images/crocodiles.png" width="100%"/>-->
+  <image source="./images/set-builder-notation.png" width="100%"/>
   
    
 

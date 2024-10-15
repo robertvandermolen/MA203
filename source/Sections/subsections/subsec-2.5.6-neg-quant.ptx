@@ -2,30 +2,38 @@
     <title>Negating Quantifiers</title>
 
 
-    <p>It is also important to note what the negation of each of these quantifiers is.</p>
+    <p>It is also important to note what the negation of each of these quantifiers are.</p>
   
   
-    <p><m>\sim \exists </m> read literally says, "There does not exist." Sometimes it is helpful to read this as "everybody doesn't."</p>
-    <p><m>\sim \forall </m> says "not all," which can be thought of as, "somebody does."</p>
+    <p>
+      <me>\sim[\exists\text{ }P(x)] </me> read literally says, "There does not exist." 
+      Sometimes it is helpful to read this as "everybody doesn't." That is <me>\sim[\exists x\text{ }P(x)]\equiv [\forall x\text{ }(\sim P(x))]</me>
+    </p>
+    <p>
+      <me>\sim \forall\text{ }P(x) </me> says "not all," which can be thought of as, "somebody does." That is
+      <me>\sim[\forall x\text{ }P(x)]\equiv \exists x\text{ }(\sim P(x))</me>
+    </p>
+
     <p></p>
     <example>
-      <ul>
-          <li><m>\exists n \in \mathbb{Z} </m> such that <m>n &lt; 0</m>: "Some integers are negative."</li>
-          <li><m>\forall p \in \mathcal{U}</m>, <m>Z(p)</m>: "Everyone makes mistakes." (Where <m>\mathcal{U} =</m> people in the world, and <m>Z(p)=</m>person makes mistakes)</li>
-          <li><m>\sim \forall p\in \mathcal{U}</m>, <m>G(p)</m>: "Someone will get an A" (Where <m>\mathcal{U} =</m> people in the world, and <m>G(p)=</m>person makes mistakes)</li>
-      </ul>  
-      <p>The next two show the same statement written two ways.</p>
+      <p>For these examples we will see multiple ways to write them.</p>
       <ol>
         <li> 
+          <p>
+            <m>\sim (\forall n\in \mathbb{Z}</m>  <m>\sqrt{n} \in \mathbb{Z})\equiv (\exists n\in \mathbb{Z}</m>  <m>\sqrt{n} \not\in \mathbb{Z})</m>
+          </p>
           <ul>
-            <li><m>\sim (\forall n\in \mathbb{Z}</m>  <m>\sqrt{n} \in \mathbb{Z}</m>: *NOT*(For all integers <m>n</m>, <m>\sqrt{n}</m> is an integer)</li>
-            <li><m>(\exists n\in \mathbb{Z}</m>  <m>\sqrt{n} \not\in \mathbb{Z}</m>: For some integers <m>n</m>, <m>\sqrt{n}</m> is not an integer.</li>
+            <li>*NOT*(For all integers <m>n</m>, <m>\sqrt{n}</m> is an integer)</li>
+            <li>For some integers <m>n</m>, <m>\sqrt{n}</m> is not an integer.</li>
           </ul>
         </li>
         <li>
+          <p>
+            <m>\sim (\exists n \in \mathbb{Z}</m>  <m>n^2 =5)\equiv[\forall n \in \mathbb{Z}</m>  <m>n^2 \neq 5]</m>
+          </p>
           <ul>
-            <li><m>\sim (\exists n \in \mathbb{Z}</m>  <m>n^2 =5)</m>: *NOT*(There exists an integer <m>n</m> such that <m>n^2 =5</m></li>
-            <li><m>\forall n \in \mathbb{Z}</m>  <m>n^2 \neq 5</m>: For all integers <m>n</m>, <m>n^2</m> does not equal <m>5</m>.</li>
+            <li>*NOT*(There exists an integer <m>n</m> such that <m>n^2 =5</m></li>
+            <li>For all integers <m>n</m>, <m>n^2</m> does not equal <m>5</m>.</li>
           </ul>
         </li>
       </ol>
