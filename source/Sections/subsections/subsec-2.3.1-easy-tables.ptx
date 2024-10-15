@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-1-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-2-3-1-easy-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Basic Tables</title>
   <p>
     In a <term>truth table</term> we take arbitirary propositions indicated by letters, such as <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, 

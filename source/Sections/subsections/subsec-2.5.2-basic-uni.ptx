@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-2-basic-uni" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Common Universes</title>
+
+<p>
+    Throughout the text we will use a lot of common universes in our text, but also to really drive home the wide application 
+    of these theories we will use some less common universes as well. The most common universes we will deal with is the 
+    numbers, by which we will mostly discuss the following:
+</p>
+
+<sbsgroup widths="45% 45%"  valign="middle">
+    <sidebyside>
+        <p>
+        <m>\mathbb{N}=\{0,1,2,3,...\}</m>
+        </p>
+        <p>
+            The Natural Numbers
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <m>\mathbb{Z}=\{...,-3,-2,-2,0,1,2,3,...\}</m>
+        </p>
+        <p>
+            The Integers
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <m>\mathbb{Q}=\{</m>
+        </p>
+        <p>
+            The Rational Numbers
+        </p>
+    </sidebyside>
+</sbsgroup>
+
+</section>

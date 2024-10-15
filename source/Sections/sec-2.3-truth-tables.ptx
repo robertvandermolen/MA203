@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-2-3-truth-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Truth Tables</title>
 <introduction>
     <p>
@@ -15,8 +15,10 @@
       </p>
      
 </introduction>
-<!--<xi:include href="./subsections/subsec-1.2.1.ptx" />-->
-<xi:include href="./subsections/subsec-2.tables.easy.ptx" />
-<xi:include href="./subsections/subsec-1.2.3.ptx" />
+
+<!-- Subsections -->
+<xi:include href="./subsections/subsec-2.3.1-easy-tables.ptx" />
+<xi:include href="./subsections/subsec-2.3.2-hard-tables.ptx" />
+<xi:include href="./subsections/subsec-2.3.3-taut.ptx" />
     
 </section>

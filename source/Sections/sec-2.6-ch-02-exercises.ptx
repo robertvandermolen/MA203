@@ -2,7 +2,8 @@
 
 <section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Exercises</title>
-    
+<ol> 
+<li>
     <p>Write truth tables for the following:</p>
     <ol>
         <li><m>(\sim P) \implies Q</m></li>
@@ -16,6 +17,13 @@
         <li><m>(\sim P)\vee (\sim Q)</m></li>
         <li><m>(\sim P)\implies (R\wedge Q)</m></li>
     </ol>
+</li>
+<li>
+    <p>
+        Show the remaining laws are from <xref ref="thm-logic-laws"/> are true, using truth tables.
+    </p>
+</li>
+<li>
     <p>Use a truth table to show whether the following are or are not equivalent:</p>
         <ol>
             <li><m>[P\implies ((\sim Q)\wedge R)]</m>, <m>[(P\implies (\sim Q))\vee (P\implies R)]</m></li>
@@ -23,7 +31,8 @@
             <li><m>[(P\wedge (\sim Q)) \implies R]</m>, <m>[P\implies (Q\vee R)]</m></li>
             <li><m>[(P\implies Q)\wedge (\sim R)]</m>, <m>[(R\vee P)\implies ((\sim R)\wedge Q)]</m></li>
         </ol>
-
+    </li>
+    <li>
     <p>Turn the first statement into the second one. Show your steps and state which equivalence rule from 1.3.2 you used to get there.</p>
         <ol>
             <li><m>[P\implies ((\sim Q)\wedge R)]\equiv [(P\implies (\sim Q))\wedge (P\implies R)]</m></li>
@@ -31,5 +40,6 @@
             <li><m>[(P\wedge (\sim Q))\implies R]\equiv [P\implies (Q\vee R)]</m></li>
             <li><m>[(P\implies Q)\wedge (\sim R)]\equiv [(R\vee P)\implies ((\sim R)\wedge Q)]</m></li>
         </ol>
-
+    </li>
+</ol>
 </section>

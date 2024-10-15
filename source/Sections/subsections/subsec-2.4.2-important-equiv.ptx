@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-4-2-important-equiv" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Some Important Equivalences</title>
+    
+    
+    <p>There are a number of logical equivalences that are <em>very</em> important to become familiar with. 
+        We will build some of these truth tables for you, and leave the rest for exercises.
+    </p>
+<theorem xml:id="thm-logic-laws">
+    <statement>
+        <p>
+        <sbsgroup widths="55% 25%"  valign="middle">
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>\sim (\sim P)\equiv P</m>
+                            </p>
+                        </li>
+                    </ul>
+                    
+                </p>
+                <p>
+                    Double negation Law
+                </p>
+            </sidebyside>
+            <sidebyside >
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>P\wedge Q\equiv Q\wedge P</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>P\vee Q\equiv Q\vee P</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Commutativity Laws
+                </p>
+            </sidebyside>
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li><m>P\wedge (Q\vee R)\equiv (P\wedge Q)\vee (P\wedge R)</m></li>
+                        <li><m>P\vee (Q\wedge R)\equiv (P\vee Q)\wedge (P\vee R)</m></li>
+                    </ul>
+                </p>
+                <p>
+                    Distributivity Laws
+                </p>
+            </sidebyside>
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li><m>P\vee P\equiv P</m></li>
+                        <li><m>P\wedge P\equiv P</m></li>
+                    </ul>
+                </p>
+                <p>
+                    Absorption Laws
+                </p>
+            </sidebyside>
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li><m>\sim (P\vee Q)\equiv (\sim P)\wedge (\sim Q)</m></li>
+                        <li><m>\sim (P\wedge Q)\equiv (\sim P)\vee (\sim Q)</m></li>
+                    </ul>
+                </p>
+                <p>
+                    DeMorgan's Law
+                </p>
+            </sidebyside>
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li><m>(P\vee Q)\vee R\equiv P\vee (Q\vee R)</m></li>
+                        <li><m>(P\wedge Q)\wedge R\equiv P\wedge (Q\wedge R)</m></li>
+                    </ul>
+                </p>
+                <p>
+                    Associativity Laws
+                </p>
+            </sidebyside>
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>P\implies Q\equiv (\sim P)\vee Q</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Rob's Law
+                </p>
+            </sidebyside>
+        </sbsgroup>
+    </p>
+</statement>
+</theorem>
+
+<proof>
+    <p>
+        We saw the double negation law in <xref ref="ex-double-negation"/>.
+    </p>
+    <p>
+        Next we will build the truth table for Rob's Law and leave the rest as an exercise.
+    </p>
+    <figure>
+  
+        <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell><m>P</m></cell>
+            <cell><m>Q</m></cell>
+            <cell><m>P\implies Q</m></cell>
+            <cell><m>\sim P</m></cell>
+            <cell><m>(\sim P)\vee Q</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+            <cell>F</cell>
+            <cell><em>T</em></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell><em>F</em></cell>
+            <cell>F</cell>
+            <cell><em>F</em></cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell><em>T</em></cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+          </row>
+        </tabular>
+      </figure>
+</proof>
+
+
+</section>

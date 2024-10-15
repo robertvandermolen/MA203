@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-4-1-what-equiv" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What is an equivalence?</title>
+  
+  <definition xml:id="def-equiv">
+    <statement>
+      <p>
+        Two propostional forms are <term>logically equivalent</term> (or just <term>equivalent</term>) if and
+        only if they have the same truth values.
+      </p>
+    </statement>
+  </definition>
+  <p> 
+    The notation, we will use, for two propositonal forms begin equivalent is: <m>P\equiv Q</m>
+  </p>
+
+<p>
+  To show that two propositional forms are indeed equivalent at the begininng we only have the tool of 
+  truth tables at our disposal. What we will see in this first example is that no matter our choic of truth value
+  for <m>P</m> that <m>\sim(\sim P)</m> we have the same truth value, that is <me>P\equiv \sim(\sim P)</me>
+</p>
+
+  <example xml:id='ex-double-negation'>
+    <figure>
+      <tabular halign="center">
+        <row header="yes" bottom="minor" >
+          <cell><m>P</m></cell>
+          <cell><m>\sim P</m></cell>
+          <cell><m>\sim(\sim P)</m></cell>
+      
+        </row>
+        <row>
+          <cell><em>T</em></cell>
+          <cell>F</cell>
+          <cell><em>T</em></cell>
+       
+        </row>
+        <row>
+          <cell><em>F</em></cell>
+          <cell>T</cell>
+          <cell><em>F</em></cell>
+          
+        </row>
+       
+      </tabular>
+    
+  </figure>
+  </example>
+
+
+<p>For another example lets see if <me>[P\implies Q]\equiv [(\sim P)\vee Q]</me></p>
+
+ 
+    <example>
+      
+    <figure>
+        <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell><m>P</m></cell>
+            <cell><m>Q</m></cell>
+            <cell><m>(P\implies Q)</m></cell>
+            <cell><m>\sim P</m></cell>
+            <cell><m>[(\sim P)\vee Q]</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+            <cell>F</cell>
+            <cell><em>T</em></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell><em>F</em></cell>
+            <cell>F</cell>
+            <cell><em>F</em></cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell><em>T</em></cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+          </row>
+        </tabular>
+      
+    </figure>
+    <p> Thus we see that the truth values are the same for <m>[P\implies Q]</m> and <m>[(\sim P)\vee Q]</m>!</p>
+  </example>
+
+   
+
+</section>

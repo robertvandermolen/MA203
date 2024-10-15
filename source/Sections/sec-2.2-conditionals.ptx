@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-1-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-2-2-conditionals" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Conditionals and Biconditionals</title>
 
 <p>
@@ -12,7 +12,7 @@
     logic/debate/mathematics. That is the 
     implilcation. 
 </p>
-<section xml:id="sec-1-02-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-2-2-1-conditional" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Conditionals</title>
     
     
@@ -194,7 +194,7 @@
 </p>
 </section>
 
-<section xml:id="sec-1-02-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-2-2-2-biconditional" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Biconditionals</title>
     <definition xml:id="def-">
         <p>Given a propositions <m>P</m> and <m>Q</m>,</p>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-4-3-logic-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Algebra of Logic</title>
+    
+    <p>
+        Now that we have established the laws in <xref ref="thm-logic-laws"/> we have a new way to prove two
+        propositional forms are equivalent. It is what I playfully refer to as the algebra of logic. 
+    </p>
+    <p>
+        For a first example of this lets see a proof that <me>[(P\vee Q)\implies R]\equiv [(P\implies R)\wedge (Q\implies R)]</me>
+    </p>
+   <proof>
+   
+    <md>
+        <mrow>(P\vee Q)\implies R\amp \equiv [\sim (P\vee Q)]\vee R \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\wedge (\sim Q)]\vee R \text{ (De Morgan's)}</mrow>
+        <mrow>\amp \equiv R \vee [(\sim P)\wedge (\sim Q)] \text{ (commutativity)}</mrow>
+        <mrow>\amp \equiv [R \vee (\sim P)]\wedge [R\vee (\sim Q)] \text{ (distributivity)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee R]\wedge [(\sim Q)\vee R] \text{ (commutativity)}</mrow>
+        <mrow>\amp \equiv [(P\implies R)\wedge (Q\implies R)] \text{ (Rob's Law)}</mrow>
+    </md>
+</proof>
+
+<p>
+    There are many examples for you to try in this chapter's exercises, but we will leave you with one more example: 
+    <me>[P\implies(Q\implies R)]\equiv[(P\wedge Q)\implies R]</me>
+</p>
+<proof>
+   
+    <md>
+        <mrow>[P\implies (Q\implies R)\amp \equiv [(\sim P)\vee (Q\implies R)] \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee ((\sim Q)\vee R)] \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee(\sim Q)]\vee R \text{ (associativity)}</mrow>
+        <mrow>\amp \equiv \sim(P\wedge Q)\vee R \text{ (DeMorgan's)}</mrow>
+        <mrow>\amp \equiv [(P\wedge Q)\implies R] \text{ (Rob's Law)}</mrow>
+    </md>
+</proof>
+</section>

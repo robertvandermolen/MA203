@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-5-existential" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>The Existential Quantifier</title>
+
+<p>We know from the previous chapter that <m>3x=12</m> is not a proposition, since it has a variable. But, to write this in logical terms, we could say
+    "There exists an integer, x, with the property 3x=12." In symbols, this looks like:</p>
+  <p><m>\exists x \in \mathbb{Z} </m> such that <m>3x+12</m></p>
+  <p><m>\exists</m> is called the "existential quantifier" and is often read as, "there exists." <m>\mathbb{Z} </m> is simply the symbol for the integers,
+    just as <m>\mathbb{N} </m> is the symbol for the natural numbers. Its purpose here is to establish the "universe" that we're making the statement in.</p>
+ 
+
+</section>

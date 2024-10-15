@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-3-3-taut" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Tautologies and Contradictions</title>
+<p>
+    One of the strongest tools in proving are propositonal statements that are either always true or always false.
+</p>
+<definition xml:id="def-tautology">
+    <statement>
+        <p>
+            A <term>tautology</term> is a proopositional form that is true for any assignment of truth value to its components
+        </p>
+       
+    </statement>
+</definition>
+<p>
+    One of the most famous, and most meme'd is the <term>Law of the Excluded Middle</term>, <m>P\vee(\sim P)</m>, which is a 
+    tautology. It is the classic "to be or not to be", "today I will do my homework or I will not". We can use a truth table 
+    to see that this statement is always true. 
+</p>
+<figure >
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+        <cell><m>P</m></cell>
+        <cell><m>\sim P</m></cell>
+        <cell><m>P\vee (\sim P)</m></cell>
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+      </row>
+     
+    </tabular>
+  
+</figure>
+
+<p>
+    Another example, that may not immediately be as obvious is for <me>(P\vee Q)\vee[(\sim P)\wedge(\sim Q)]</me>
+</p>
+
+<figure >
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+        <cell><m>P</m></cell>
+        <cell><m>Q</m></cell>
+        <cell><m>P\vee Q</m></cell>
+        <cell><m>\sim P</m></cell>
+        <cell><m>\sim Q</m></cell>
+        <cell><m>(\sim P)\wedge(\sim Q)</m></cell>
+        <cell><m>(P\vee Q)\vee[(\sim P)\wedge(\sim Q)]</m></cell>
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+      </row>
+    </tabular>
+  </figure>
+<definition xml:id="def-contradiction">
+  <statement>
+    <p>
+      A <term>contradiction</term> is a propositional form that is false for any assignment of truth value to its components
+  </p>
+  </statement>
+</definition>
+  <p>
+  For an example of a contradition is the famous <m>P\wedge (\sim P)</m>, this is the 
+  classic "I go to bed early and I will not go to bed early".
+</p>
+<figure >
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell><m>P</m></cell>
+      <cell><m>\sim P</m></cell>
+      <cell><m>P\wedge(\sim P)</m></cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+    </row>
+  </tabular>
+
+</figure>
+
+<p>
+  Another example of a contradiction is: <m>\sim[P\vee(\sim P)]</m>, that is of course just a negation of a tautology.
+</p>
+<figure >
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell><m>P</m></cell>
+      <cell><m>\sim P</m></cell>
+      <cell><m>P\vee(\sim P)</m></cell>
+      <cell><m>\sim[P\vee(\sim P)]</m></cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+    </row>
+  </tabular>
+
+</figure>
+</section>

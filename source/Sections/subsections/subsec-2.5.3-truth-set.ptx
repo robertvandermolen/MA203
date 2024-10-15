@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-2-truth-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Truth Sets and Predicate Forms</title>
+
+<p>
+    When we are discussing a general universe of discuourse we will denote it as <m>mathcal{U}</m>. We will also often need 
+    to speak of a predicate in general terms so we will use the <em>function</em> notation for predicates. Such
+    as for the predicate <m>x\geq 3</m> we can denote it by <m>P(x)</m>. 
+</p>
+
+</section>

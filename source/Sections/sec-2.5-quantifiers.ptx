@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quantifiers</title>
+  <introduction>
+    <p>
+      It is now time to take care of those statments that were not propositons from <xref ref="not-prop-example"/>, but have 
+      propably been bugging you this whole time like: <m>x+2=4</m>, which are known as an <term>open statment</term> or 
+      <term>predicate</term>. But, how on earth are we to do mathematics and these sentences 
+      not be in our lexicon? To handle these we need to quantify the <m>x</m>, by saying we can find a number so that 
+      <m>x+2=4</m>. Before quantifying the statement you didn't even need to assume <m>x</m> was a number! 
+    </p>
+    <p>
+      "But Dr. Rob I could tell <m>x</m> was a number by context!" 
+    </p>
+    <p>
+      But, what context was that? Was it that this is a math class and I'm a math professor? Even so, what kind of number? A 
+      rational number (fractions)? A positive number? An imaginary number?
+    </p>
+  </introduction>
+
+<!-- Subsections -->
+  <xi:include href="./subsections/subsec-2.5.1-basic-sets.ptx" />
+  <xi:include href="./subsections/subsec-2.5.2-basic-uni.ptx" />
+  <xi:include href="./subsections/subsec-2.5.3-truth-set.ptx" />
+  <xi:include href="./subsections/subsec-2.5.4-universal.ptx" />
+  <xi:include href="./subsections/subsec-2.5.5-existential.ptx" />
+  <xi:include href="./subsections/subsec-2.5.6-neg-quant.ptx" />
+
+</section>

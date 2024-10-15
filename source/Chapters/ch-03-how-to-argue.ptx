@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-02" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Beginner's Set Theory</title>
+<chapter xml:id="ch-03-how-to-argue" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Argue</title>
 
   <introduction>
     <p>Empty introduction paragraph becuase I'm bad at writing them.</p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="../Sections/sec-2.1-quantifiers.ptx" />
   <xi:include href="../Sections/sec-2.2-arguments.ptx" />
   <xi:include href="../Sections/sec-2.3-exercises.ptx" />
 

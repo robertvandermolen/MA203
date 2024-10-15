@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Logical Equivalences</title>
+<introduction>
+    <p>
+        In this course students will often treat this beginning material of propositions and truth tables
+         as not connected to the proofs, and just a way to get some good grades on early homework. I cannot blaim
+         the student for this, when thrown into an unknown world it is hard to hold on-to everything.  
+    </p>
+    <p>
+        Yet, we will now dive into equivalences. In the world of proving it may often be difficult to prove a statement 
+        how it appears in the homework, or how you first discovered it, but if you were to simply re-word it, now it
+        becomes simplier to prove. These rewordings are the equivalences.
+    </p>
+</introduction>
+
+<!-- Subsections -->
+<xi:include href="./subsections/subsec-2.4.1-what-equiv.ptx" />
+<xi:include href="./subsections/subsec-2.4.2-important-equiv.ptx" />
+<xi:include href="./subsections/subsec-2.4.3-logic-algebra.ptx" />
+
+</section>

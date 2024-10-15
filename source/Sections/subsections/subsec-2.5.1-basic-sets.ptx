@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-2-5-1-basic-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>The Universe of Discourse</title>
+
+<p>
+    As many of you have assuredly yelled at the book by now, of course I can determine from context what we are talking about.
+    But this is exactly the point of this next section, that before starting a discussion you must set your context. What we 
+    will call our <term>universe of discourse</term>. 
+</p>
+
+<p>
+    The univese of discourse is our first example of a <term>set</term>. 
+</p>
+<p>
+    So that we handle this playground with the respect it
+    deserves, we will give the a very brief introduction to the topic, just what we need. We will dive deeper into set theory
+    and use it as one of our discourse examples later on in the book!
+</p>
+
+<p>Let's start with the very basics and <em>define</em> some things.</p>
+  <p>
+    <ul>
+      <li><term>Set</term>: A collection of stuff (or nothing).</li>
+      <li><term>Element</term>: The stuff in the set.</li>
+    </ul>
+  </p>
+  <p>
+    The elements in a set do not have a particular order, so you can think of a set like a "magical bag" 
+    that holds things.
+  </p>
+  <p>
+    Set theory, like everything, comes with its own special notation. We often denote sets with a capital letter, 
+    and elements with a lower case letter.
+  </p>
+  <p>
+    The symbol <m>\in </m> can be read as "in" or "is an element of" or "is a member of" 
+  </p>
+  <p>
+    For example, "<m>x \in A</m>" would be read as "<m>x</m> is in <m>A</m>," or, "<m>x</m> is an element of the set <m>A</m>", or 
+    "<m>x</m> is a member of the set <m>A</m>"
+  </p>
+   
+  <p>
+    Besides just arbitrarly naming a set in attempts to define a set we can also describe what is the set by
+    capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m> then listing the elements
+    seperated by commas. For example is we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
+    Or if we were to collect the set of all counting numbers we could use ... to indicate continuing a pattern: 
+    <me>\{1,2,3,...\}</me> We coould also use what is known as set builder notation:
+  </p>
+  <!--<image source="../../images/crocodiles.png" width="100%"/>-->
+  
+   
+
+</section>
