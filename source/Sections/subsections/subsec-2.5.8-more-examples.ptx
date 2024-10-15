@@ -10,20 +10,20 @@
     <ol marker="(A)">
         <li>
             <p>
-                For every odd prime <m>x</m> less than 10, <m>x^2+4</m> is prime
-                <me>(\forall x)(x\text{ is prime }\wedge x\text{ is odd }\wedge x\lt 10\implies x^2+4\text{ is prime}</me>
+                For every Indiana resident <m>x</m> is older than 18, <m>x</m> can vote
+                <me>(\forall x)(x\text{ Indiana resident }\wedge x\text{ is older than 18 }\wedge x\lt 10\implies x\text{ can vote}</me>
             </p>
         </li>
         <li>
             <p>
-                Some functions defined at 0 are not continuous at zero
-                <me>(\exists f)(f\text{ is defined at }0\wedge f\text{ is not continuous at }0</me>
+                Some functions defined at 0 are not differentiable at zero
+                <me>(\exists f)(f\text{ is defined at }0\wedge f\text{ is not differentiable at }0</me>
             </p>
         </li>
         <li>
             <p>
-                Some integers are even and some integers are odd
-                <me>(\exists x)(x\text{ is even})\wedge(\exists y)(y\text{ is odd})</me>
+                Some students are math majors and some students are buisnesss majors
+                <me>(\exists x)(x\text{ are math majors})\wedge(\exists y)(y\text{ are buisness majors})</me>
             </p>
         </li>
         
