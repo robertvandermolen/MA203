@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-5-ch-03-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Exercises</title>
+    <ol>
+        
+        <li>
+            <p>Assume that the truth value assignments for each statement are correct.
+                <ul>
+                    <li>All math students are smart. (True)</li>
+                    <li>All smart people are goofy. (True)</li>
+                    <li>All smart people are math students. (False)</li>
+                    <li>All math students are goofy. (True)</li>
+                </ul>
+                Now given these assigned truth values, determine the validity and soundness of each of the following arguments:
+            </p>
+            <ol>
+                <li>    
+                    <tabular halign="left">
+                        <row>
+                            <cell>All math students are smart.</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell>All smart people are goofy.</cell>
+                        </row>
+                        <row>
+                            <cell><m>\therefore </m> All math students are goofy.</cell>
+                        </row>
+                  </tabular>
+                </li>
+                <li>    
+                    <tabular halign="left">
+                        <row>
+                            <cell>All math students are goofy.</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell>All smart people are goofy.</cell>
+                        </row>
+                        <row>
+                            <cell><m>\therefore </m> All math students are smart.</cell>
+                        </row>
+                  </tabular>
+                </li>
+                <li>    
+                    <tabular halign="left">
+                        <row>
+                            <cell>All smart people are math students.</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell>All math students are goofy.</cell>
+                        </row>
+                        <row>
+                            <cell><m>\therefore </m> All smart people are goofy.</cell>
+                        </row>
+                  </tabular>
+                </li>
+                <li>    
+                    <tabular halign="left">
+                        <row>
+                            <cell>All smart people are goofy.</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell>All math students are goofy.</cell>
+                        </row>
+                        <row>
+                            <cell><m>\therefore </m> All math students are goofy.</cell>
+                        </row>
+                  </tabular>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+</section>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-2-prop-forms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arguments with Propositional Forms</title>
+<p>
+    In this section we will "pull open the hood" a bit, and explore the inner workings of the arguments
+    with general propostional forms.
+</p>
+<p>
+    We begin with perhaps the most famous arguments. These are surely not the only tools we will use, 
+    but definitely some of the more important ones.
+</p>
+
+<assemblage permid="pOu">
+  <title>Modus Ponens</title>
+   
+    <p>
+      <term>Modus Ponens</term> is a specific type of argument with two premises:
+       <m>P\implies Q</m>, and <m>P</m>, and conludes <m>Q</m>. That is
+    </p>
+    <tabular halign="center">
+      
+      <row>
+        <cell><m>P\implies Q</m></cell>
+      </row>
+     
+        
+     
+      <row  bottom="minor">
+        <cell><m>P</m></cell>
+        
+        
+      </row>
+    
+      <row>
+        <cell><m>\therefore Q</m></cell>
+      </row>
+    </tabular>
+
+
+    <p>
+      An example of this is "If it is raining then the ground is wet. 
+      It is raining. Therefore the ground is wet."
+    </p>
+</assemblage>
+
+<assemblage permid="pOu">
+  <title>Modus Tollens</title>
+  
+  <p>
+    <term>Modus Tollens</term> is simply the application of the contrapositive, specifically:
+     <m>P\implies Q</m>, and <m>\sim Q</m>, and conludes <m>\sim P</m>. That is
+  </p>
+  <tabular halign="center">
+    
+    <row>
+      <cell><m>P\implies Q</m></cell>
+    </row>
+   
+      
+   
+    <row  bottom="minor">
+      <cell><m>\sim Q</m></cell>
+      
+      
+    </row>
+  
+    <row>
+      <cell><m>\therefore\text{ } \sim P</m></cell>
+    </row>
+  </tabular>
+
+
+  <p>
+    A similiar example of this is "If it is raining then the ground is wet. 
+    The ground is not wet. Therefore the ground it  is not raining."
+  </p>
+</assemblage>
+<p>
+  Eventhough these happen to be the most famous they are far from the only. Here is a not so 
+  complete list:
+</p>
+<figure xml:id="argument-types">
+
+<sbsgroup widths="55% 25%"  valign="middle" >
+  <sidebyside>
+    <p>
+      Argument:
+    </p>
+    <p>
+      Name:
+    </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+    <tabular halign="center">
+      <row  bottom="minor">
+        <cell><m>P</m></cell>
+      </row>
+      <row>
+        <cell><m>\therefore\text{ } P\vee Q</m></cell>
+      </row>
+    </tabular>
+  </p>
+  <p>
+    Addition
+  </p>
+  </sidebyside>
+  <sidebyside>
+    <p> </p>
+    <p> </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+      <tabular halign="center">
+        <row  bottom="minor">
+          <cell><m>P\wedge Q</m></cell>
+        </row>
+        <row>
+          <cell><m>\therefore \text{ }P</m></cell>
+        </row>
+      </tabular>
+    </p>
+    <p>
+      Simplification
+    </p>
+  </sidebyside>
+  <sidebyside>
+    <p> </p>
+    <p> </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+      <tabular halign="center">
+        <row>
+          <cell><m>P</m></cell>
+        </row>
+        <row  bottom="minor">
+          <cell><m>Q</m></cell>
+        </row>
+        <row>
+          <cell><m>\therefore \text{ }P\wedge Q</m></cell>
+        </row>
+      </tabular>
+    </p>
+    <p>
+      Conjunction
+    </p>
+  </sidebyside>
+  <sidebyside>
+    <p> </p>
+    <p> </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+      <tabular halign="center">
+        <row>
+          <cell><m>P\implies Q</m></cell>
+        </row>
+        <row  bottom="minor">
+          <cell><m>P</m></cell>
+        </row>
+        <row>
+          <cell><m>\therefore \text{ }Q</m></cell>
+        </row>
+      </tabular>
+    </p>
+    <p>
+      Modus Ponens
+    </p>
+  </sidebyside>
+  <sidebyside>
+    <p> </p>
+    <p> </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+      <tabular halign="center">
+        <row>
+          <cell><m>P\implies Q</m></cell>
+        </row>
+        <row  bottom="minor">
+          <cell><m>\sim Q</m></cell>
+        </row>
+        <row>
+          <cell><m>\therefore \text{ }\sim P</m></cell>
+        </row>
+      </tabular>
+    </p>
+    <p>
+      Modus Tollens
+    </p>
+  </sidebyside>
+  <sidebyside>
+    <p> </p>
+    <p> </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+      <tabular halign="center">
+        <row>
+          <cell><m>P\implies Q</m></cell>
+        </row>
+        <row  bottom="minor">
+          <cell><m>Q\implies R</m></cell>
+        </row>
+        <row>
+          <cell><m>\therefore \text{ }P\implies R</m></cell>
+        </row>
+      </tabular>
+    </p>
+    <p>
+      Hypothetical Syllogism
+    </p>
+  </sidebyside>
+  <sidebyside>
+    <p> </p>
+    <p> </p>
+  </sidebyside>
+  <sidebyside>
+    <p>
+      <tabular halign="center">
+        <row>
+          <cell><m>P\vee Q</m></cell>
+        </row>
+        <row  bottom="minor">
+          <cell><m>\sim  P</m></cell>
+        </row>
+        <row>
+          <cell><m>\therefore \text{ }Q</m></cell>
+        </row>
+      </tabular>
+    </p>
+    <p>
+      Dijunctive Syllogism
+    </p>
+  </sidebyside>
+  </sbsgroup>
+</figure>
+
+<p>
+  Now lets see some examples of these in play.
+</p>
+<p>
+  Now that we have our arguments written using propositional forms
+  we can verify that each of these arguments are valid using a 
+  truth table, that is seeing they are all tautologies, or that 
+  they are always true.
+</p>
+<p>
+  We will do <em>Hypothetical Syllogism</em> and leave the rest as
+  an exercise to the reader.
+</p>
+<figure >
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell><m>P</m></cell>
+      <cell><m>Q</m></cell>
+      <cell><m>R</m></cell>
+      <cell><m>P\implies Q</m></cell>
+      <cell><m>Q\implies R</m></cell>
+      <cell><m>P\implies R</m></cell>
+      <cell><m>[(P\implies Q)\wedge(Q\implies R)]\implies(P\implies R)</m></cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+     <cell>T</cell>
+     <cell>F</cell>
+     <cell>T</cell>
+     <cell>T</cell>
+     <cell>T</cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+  </tabular>
+
+</figure>
+<p></p>
+<example>
+  <p>
+    For this example lets set a few propositons:
+    <me>P:\text{ It is sunny today}</me>
+    <me>Q:\text{ It is colder than yesterday}</me>
+    <me>R:\text{ We will go hiking}</me>
+    <me>S:\text{ We will go for a bike ride}</me>
+    <me>T:\text{ We will be home by dark}</me>
+  </p>
+  <p>
+    Next consider the list of premises.
+  </p>
+  <ul>
+    <li>
+      <p>
+        <m>\sim P\wedge Q:\text{ It is not sunny today and it is colder than yesterday}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>R\implies P:\text{ We will go hiking only if it is sunny}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>(\sim R)\implies S:\text{ If we do not go swimming then we will go hiking}</m>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>S\implies T:\text{ If we go on a bike ride then we will be home before dark}</m>
+      </p>
+    </li>
+  </ul>
+  <p>
+    When can then make the following arguments:
+    <ol marker="(A)">
+      <li>
+        <p>
+          To start we will only consider the first premise.
+        </p>
+        <p>
+          <tabular halign="center">
+            
+            <row  bottom="minor">
+              <cell><m>(\sim P)\wedge Q</m></cell>
+            </row>
+            <row>
+              <cell><m>\therefore \text{ }\sim P</m></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          Since we have assumed that it is not sunny and colder than yesterday we can conclude it is not sunny
+          outside, using conjunction.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now Let's use the conclusion from (A), with the next premise.
+        </p>
+        <p>
+          <tabular halign="center">
+            <row>
+              <cell><m>(\sim P)</m></cell>
+            </row>
+            <row  bottom="minor">
+              <cell><m>R\implies P</m></cell>
+            </row>
+            <row>
+              <cell><m>\therefore \text{ }\sim R</m></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          That is if we assume that it is not sunny and that we will go hiking only if it is sunny, 
+          then we can conclude that we do not go hiking, using Modus Tollens.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now using the conclusion from (B) and our next premsise we see
+        </p>
+        <p>
+          
+            <tabular halign="center">
+              <row>
+                <cell><m>(\sim R)</m></cell>
+              </row>
+              <row  bottom="minor">
+                <cell><m>(\sim R)\implies S</m></cell>
+              </row>
+              <row>
+                <cell><m>\therefore \text{ } S</m></cell>
+              </row>
+            </tabular>
+         
+
+        </p>
+        <p>
+          Since we have assumed that we are not hiking and that if we don't hike then we will go on a bike 
+          ride we can thus conclude that we will go on a bike ride by Modus Ponens.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now using the conclusion of (C) and our next premise.
+        </p>
+        <p>
+          <tabular halign="center">
+            <row>
+              <cell><m>S</m></cell>
+            </row>
+            <row  bottom="minor">
+              <cell><m>S\implies T</m></cell>
+            </row>
+            <row>
+              <cell><m>\therefore \text{ }T</m></cell>
+            </row>
+          </tabular>
+        </p>
+        <p>
+          Hence since we assumed that we are going on a bike ride and if we go on a bike ride we will 
+          be back home by dark we can conclude that we will be back by dark again by Modus Ponens.
+        </p>
+      </li>
+    </ol>
+  </p>
+  <p>
+    We have just done our first proof, and shown if all the statements are assumed then we can conclude that we will be home before dark!
+  </p>
+</example>
+</section>

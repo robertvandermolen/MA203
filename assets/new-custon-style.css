@@ -43,9 +43,9 @@
     
     --primaryrich: #61aee1;
  
-   --assembbody: var(--bluelight, hsl(210, 90%, 90%));
-   --assembborder: var(--blue, hsl(210, 40%, 60%));
-   --assembhead: var(--blue, hsl(210, 40%, 75%));
+   --assembbody: #61aee1ab;
+   --assembborder: #61aee1;
+   --assembhead: #61aee1;
    --definitionbody: #61aee1ab;
    --definitionborder: #0d2c6c;
    --definitionhead: #0d2c6c;

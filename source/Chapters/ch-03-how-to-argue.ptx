@@ -13,8 +13,9 @@
 
   <!-- include sections -->
   <xi:include href="../Sections/sec-3.1-arguments.ptx" />
-  <xi:include href="../Sections/sec-3.2-more-examples.ptx" />
-  <xi:include href="../Sections/sec-3.3-arguments-with-props.ptx" />
-  <xi:include href="../Sections/sec-3.4-ch-03-exercises.ptx" />
+  <xi:include href="../Sections/sec-3.2-arguments-with-props.ptx" />
+  <xi:include href="../Sections/sec-3.3-fallacy.ptx" />
+  <xi:include href="../Sections/sec-3.4-arguments-with-quant.ptx" />
+  <xi:include href="../Sections/sec-3.5-ch-03-exercises.ptx" />
 
 </chapter>

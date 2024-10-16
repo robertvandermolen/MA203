@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-4-arguments-with-quant" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arguments with Quantifiers</title>
+<p>
+    We have seen in <xref ref="sec-3-1-arguments"/> that 
+    quantified statments can lead to interesting arguments. 
+    For example
+</p>
+<tabular halign="center">
+    <row>
+      <cell>All <m>A</m> are <m>B</m> </cell>
+    </row>
+    <row  bottom="minor">
+      <cell>All <m>B</m> are <m>C</m>  </cell>
+    </row>
+    <row>
+      <cell><m>\therefore \text{ All }A\text{ are }C</m></cell>
+    </row>
+  </tabular>
+  <p>
+    For example "All longshoremen are in a union" and "All unions have dues" 
+    thus we can conclude that "All longshorement pay dues".
+  </p>
+<p>
+    Next we have a far from complete list: 
+</p>
+<sbsgroup widths="55% 25%" valign="middle">
+    <sidebyside>
+        <p>
+            Argument:
+        </p>
+        <p>
+            Name:
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p></p>
+        <p></p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <tabular halign="center">
+                <row  bottom="minor">
+                  <cell><m>\forall x\text{ }P(x)</m></cell>
+                </row>
+                <row>
+                  <cell><m>\therefore\text{ } P(c)\text{ where }c\in\mathcal{U}</m></cell>
+                </row>
+              </tabular>
+        </p>
+        <p>
+           Universal Instantiation
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p></p>
+        <p></p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <tabular halign="center">
+                <row  bottom="minor">
+                  <cell><m>P(c)\text{ for an arbitrary }c\in\mathcal{U}</m></cell>
+                </row>
+                <row>
+                  <cell><m>\therefore\text{ } \forall x\text{ }P(x)</m></cell>
+                </row>
+              </tabular>
+        </p>
+        <p>
+            Universal Generalization
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p></p>
+        <p></p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <tabular halign="center">
+                <row  bottom="minor">
+                  <cell><m>\exists x\text{ }P(x)</m></cell>
+                </row>
+                <row>
+                  <cell><m>\therefore\text{ } P(c) \text{ for some }c\in\mathcal{U}</m></cell>
+                </row>
+              </tabular>
+        </p>
+        <p>
+            Existential Instantiation
+        </p>
+    </sidebyside>
+    <sidebyside>
+        <p></p>
+        <p></p>
+    </sidebyside>
+    <sidebyside>
+        <p>
+            <tabular halign="center">
+                <row  bottom="minor">
+                  <cell><m>P(c)\text{ for some }c\in\mathcal{U}</m></cell>
+                </row>
+                <row>
+                  <cell><m>\therefore\text{ } \exists x\text{ }P(x)\vee Q</m></cell>
+                </row>
+              </tabular>
+        </p>
+        <p>
+            Existential Generalization
+        </p>
+    </sidebyside>
+</sbsgroup>
+<p>
+    These will be instrumental to our proofs invovling quantifiers shortly!
+</p>
+</section>

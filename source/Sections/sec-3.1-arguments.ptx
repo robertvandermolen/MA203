@@ -43,13 +43,13 @@
   </statement>
 </definition>
 <p>
-  Arguments are simply propositions listed in an order, so to make sense of this in our logical framework. To do so so we 
-  have the following definition.
+  Arguments are simply propositions listed in an order, so we will need to make sense of this in our logical 
+  framework. To do so so we have the following definition.
 </p>
 <definition xml:id="def-valid">
   <statement>
     <p>
-      We will say an argument is <term>valid</term> whenever <me>(A\wedge B)\implies C</me> is a true statement.
+      We will say an argument is <term>valid</term> whenever <me>(A\wedge B)\implies C</me> is a tautology.
     </p>
   </statement>
 </definition>
@@ -57,7 +57,7 @@
 <definition xml:id="def-invalid">
   <statement>
     <p>
-      We will say an argument is <term>invalid</term> whenever <me>(A\wedge B)\implies C</me> is a false statement.
+      We will say an argument is <term>invalid</term> whenever <me>(A\wedge B)\implies C</me> is a contradiction.
     </p>
   </statement>
 </definition>
@@ -83,13 +83,13 @@
 
     <tabular halign="right">
       <row>
-        <cell>The sun is purple</cell>
+        <cell>An apple is purple</cell>
       </row>
       <row bottom="medium">
-        <cell>The sun is a planet</cell>
+        <cell>An apple is a fruit</cell>
       </row>
       <row>
-        <cell><m>\therefore </m> The sun is purple</cell>
+        <cell><m>\therefore </m> An apple is purple</cell>
       </row>
     </tabular>
 

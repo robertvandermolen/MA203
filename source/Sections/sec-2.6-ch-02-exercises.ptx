@@ -43,6 +43,35 @@
     </li>
     <li>
         <p>
+            Consider the statement <me>\exists x \in \mathbb{R} \text{ such that } x^3 = 3.</me> 
+            Which of the following are also ways of saying 
+            this statment? (identify all that apply)
+            <ol>
+                <li>There is at least one real number whose cube is 3.</li>
+                <li>The cube of each real number is 3.</li>
+                <li>Some real numbers have cube 3.</li>
+                <li>The number <m>x</m> has cube 3, for some real number <m>x</m>.</li>
+                <li>If <m>x</m> is a real number, then <m>x^3=3</m>.</li>
+                <li>Some real number has cube 3.</li>
+            </ol>
+        </p>
+    </li>
+    <li>
+        <p>Consider the statement <me>\forall n \in \mathbb{Z} \text{ if } n+1 \text{ is even then } n \text{ is odd.}</me> 
+            Which of the following are also
+            ways of saying this statement? (identify all that apply)
+            <ol>
+                <li>If the sum of an integer and one is even, then that integer is odd.</li>
+                <li>All integers are even once you add one and are odd.</li>
+                <li>Given any integer which once adding one is even, that integer must be odd.</li>
+                <li>For all integers, there are some which you add one then it is even.</li>
+                <li>Any integer which is even once adding one is odd.</li>
+                <li>All odd integers are even once adding one.</li>
+            </ol>
+        </p>
+    </li>
+    <li>
+        <p>
             Translate the following English statements into symbolic sentences with quantifiers. The universe for each is given in the parenthetical.
         </p>
         <ol>
@@ -73,5 +102,38 @@
             </li>
         </ol>
     </li>
+    <li>
+        <p>
+            Using truth tables show that the remaining arguments are valid in <xref ref="argument-types"/>
+        </p>
+    </li>
+    
+   
+    
+    <li>
+        <p>Rewrite the statement in English without using the symbols 
+            <m>\forall</m> or <m>\exists</m>. Express your answer as simply as possible. 
+            Then write a negation for the statement. Determine which statement is true, the original or the negation.
+            <ol>
+                <li><m>\exists \text{ a book } b, \forall \text{ people } p, p \text{ has read } b.</m></li>
+                <li><m>\forall \text{ odd integers } n, \exists \text{ an integer } k \text{ such that } n=2k+1</m>.</li>
+                <li><m>\forall r \in \mathbb{Q}, \exists \text{ integers } a \text{ and } b \text{ such that } r=a/b</m>.</li>
+              
+            </ol>
+        </p>
+    </li>
+    <li>
+        <p>Rewrite the statement formally using quantifiers and variables. Write the negation of the statement.
+            <ol>
+                <li>Everybody believes somebody.</li>
+                <li>Somebody believes everybody.</li>
+                <li>Any even integer equals some other integer plus 1.</li>
+                <li>The number of rows in any truth-table is <m>2^n</m> for some integer <m>n</m>.</li>
+                
+            </ol>
+        </p>
+    </li>
+    
+    
 </ol>
 </section>

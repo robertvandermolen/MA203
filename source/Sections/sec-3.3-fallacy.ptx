@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-3-fallacy" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Bad and the Ugly</title>
+<p>
+    There are many ways to make a valid argument, and many ways to make an invalid argument. As a student of proofs
+    it is inevitable that you will make all of the mistakes, and find new and amazing ways of
+     making invalid arguments, it is unavoidable. But, don't fret, that is the beautiful learning journey you are on! 
+</p>
+
+<p>
+  A very common mistake that students will make when arguing is 
+  what is known as <term>circular reasoning</term>.
+</p>
+<assemblage permid="pOu">
+  <title>Catch 22</title>
+  <p>
+    <term>Circular reasoning</term> or <term>begging the question</term>
+      or <term>catch 22</term> happens when we <em>assume</em> the
+      statement we are trying to conclude. 
+    </p>
+</assemblage>
+<historical>
+  <p>
+    The term <em>Catch 22</em> was coined by the character Doc Daneeka, 
+    an army psychiatrist, in the novel <em>Catch 22</em>,
+    to describe a governmental loophole that prevented pilots 
+    from requesting a mental evaluation to avoid dangerous missions. 
+  </p>
+</historical>
+<p>
+  This fallacy comes from the very valid argument:
+</p>
+<p>
+  <tabular halign="center">
+ 
+    <row  bottom="minor">
+      <cell><m>P</m></cell>
+    </row>
+    <row>
+      <cell><m>\therefore \text{ }P</m></cell>
+    </row>
+  </tabular>
+</p>
+<p>
+  It's just this argument doesn't get you very far.
+</p>
+<p>
+  Consider the next example of circluar reasoning.
+</p>
+<example>
+  <p>
+   Say I was trying to conclude that a number <m>x</m> is even, then circular
+   reasoning would be: "Assume that <m>x</m> is even, thus <m>x</m> is even"
+  </p>
+
+</example>
+<p>
+  Another mis-step that stuents are bound to take is almost a mis-application of
+  the contrapositive, or thinking the implication is stronger
+  than it is.
+</p>
+<assemblage permid="pOu">
+  <title>Denying the Antecedent</title>
+  <p permid="vSb">
+    <term>Denying the antecedent</term> is the invalid argument
+  </p>
+  <p>
+    <tabular halign="center">
+      <row>
+ <cell><m>P\implies Q</m></cell>
+      </row>
+      <row  bottom="minor">
+        <cell><m>\sim P</m></cell>
+      </row>
+      <row>
+        <cell><m>\therefore \text{ }\sim Q</m></cell>
+      </row>
+    </tabular>
+  </p>
+  
+</assemblage>
+<p>
+
+  Recall that the contraposition is <me>[P\implies Q]\equiv[(\sim Q)\implies(\sim P)]</me>
+  but not <m>(\sim P)\implies(\sim Q)</m>.
+   </p>
+   <example>
+    <p>
+      Consider the statment: "If it is sunny then we will go on a bike ride". 
+      then we still might go on a bike ride if it's not sunny, I was 
+      just saying if it's sunny we will definitely go!
+    </p>
+   </example>
+ <p>
+  Another mistake in a similiar fashion again mistaking the power
+  of the implication. 
+ </p>
+ <assemblage permid="pOu">
+  <title>Affirming the Conclusion</title>
+  <p permid="vSb">
+    <term>Affirming the conclusion</term> is the invalid argument
+  </p>
+  <p>
+    <tabular halign="center">
+      <row>
+      <cell><m>P\implies Q</m></cell>
+    </row>
+           <row  bottom="minor">
+             <cell><m>Q</m></cell>
+           </row>
+           <row>
+             <cell><m>\therefore \text{ }P</m></cell>
+           </row>
+         </tabular>
+  </p>
+  
+</assemblage>
+<p>
+  Recall that <m>Q\implies P</m> is NOT 
+  the same as <m>P\implies Q</m>.
+</p>
+<example>
+  <p>
+    Consider the statment: "If it is sunny then we will go on a bike ride". 
+    then just because go on a bike ride doesn't some how make it sunny, again I was 
+    just saying if it's sunny we will definitely go!
+  </p>
+ </example>
+</section>
