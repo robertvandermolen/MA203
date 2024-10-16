@@ -94,6 +94,20 @@
                     <ul>
                         <li>
                             <p>
+                                <m>[P\implies Q]\equiv[(\sim Q)\implies(\sim P)]</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Contrapositive
+                </p>
+            </sidebyside>
+            <sidebyside>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
                                 <m>P\implies Q\equiv (\sim P)\vee Q</m>
                             </p>
                         </li>
@@ -113,10 +127,56 @@
         We saw the double negation law in <xref ref="ex-double-negation"/>.
     </p>
     <p>
-        Next we will build the truth table for Rob's Law and leave the rest as an exercise.
+        Next we will build the truth tables for two important ones, namely Rob's Law and contrapositive, 
+        then leave the rest as an exercise.
     </p>
     <figure>
   
+        <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell><m>P</m></cell>
+            <cell><m>Q</m></cell>
+            <cell><m>P\implies Q</m></cell>
+            <cell><m>\sim P</m></cell>
+            <cell><m>\sim Q</m></cell>
+            <cell><m>(\sim Q)\implies (\sim P)</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell><em>T</em></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell><em>F</em></cell>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell><em>F</em></cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell><em>T</em></cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell><em>T</em></cell>
+          </row>
+        </tabular>
+      </figure>
+    <figure>
+  <p></p>
         <tabular halign="center">
           <row header="yes" bottom="minor" >
             <cell><m>P</m></cell>

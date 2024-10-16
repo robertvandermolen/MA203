@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-1-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arguments</title>
+  <p>
+    Arguments are so important, they  merit their own chapter. 
+    They are the essecence of your future proofs, these are your "steps" you long for from your 
+    calculus class. 
+    </p>
+
+  <section xml:id="subsec-3-1-1-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Validness</title>
+    <p>
+      To begin you give the most general form for these <em>steps</em>.
+    </p>
+<definition xml:id="def-argument">
+  <statement>
+    <p>
+      The general form of an <term>argument</term> is:
+    </p>
+    <tabular halign="center">
+      
+      <row>
+        <cell><m>A</m></cell>
+      </row>
+     
+        
+     
+      <row  bottom="minor">
+        <cell><m>B</m></cell>
+        
+        
+      </row>
+    
+      <row>
+        <cell><m>\therefore C</m></cell>
+      </row>
+    </tabular>
+    <p>
+      <m>A</m> and <m>B</m> are the assumptions and <m>C</m> is the conclusion. The symbol <m>\therefore</m> is read
+      "therefore".
+    </p>
+  </statement>
+</definition>
+<p>
+  Arguments are simply propositions listed in an order, so to make sense of this in our logical framework. To do so so we 
+  have the following definition.
+</p>
+<definition xml:id="def-valid">
+  <statement>
+    <p>
+      We will say an argument is <term>valid</term> whenever <me>(A\wedge B)\implies C</me> is a true statement.
+    </p>
+  </statement>
+</definition>
+
+<definition xml:id="def-invalid">
+  <statement>
+    <p>
+      We will say an argument is <term>invalid</term> whenever <me>(A\wedge B)\implies C</me> is a false statement.
+    </p>
+  </statement>
+</definition>
+
+<p>
+  Recall, what it takes for an implication to be true, that is either the antecedent is false or the consequent is true.
+</p>
+ <p></p>
+
+  <example>
+    <p>Here are some example of valid arguments:</p>
+    <tabular halign="right">
+      <row>
+        <cell>All parabolas are functions of degree 2</cell>
+      </row>
+      <row bottom="medium">
+        <cell>All functions of degree 2 are quadratic</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> All parabolas are quadratic</cell>
+      </row>
+    </tabular>
+
+    <tabular halign="right">
+      <row>
+        <cell>The sun is purple</cell>
+      </row>
+      <row bottom="medium">
+        <cell>The sun is a planet</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> The sun is purple</cell>
+      </row>
+    </tabular>
+
+    <tabular halign="right">
+      <row>
+        <cell>All spiders have 8 legs</cell>
+      </row>
+      <row bottom="medium">
+        <cell>A poodle is a spider</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> A poodle has 8 legs</cell>
+      </row>
+    </tabular>
+    
+    <p>Here is an example of an invalid argument:</p>
+
+    <tabular halign="right">
+      <row>
+        <cell>All chickens are animals that eat corn</cell>
+      </row>
+      <row bottom="medium">
+        <cell>All chickens are animals that have wings</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> All animals that eat corn have wings</cell>
+      </row>
+    </tabular>
+  </example>
+  
+  <p>Notice that it is not the truth of the premises that makes an argument valid or invalid, but rather the truth of the conclusion.</p>
+</section>
+  <xi:include href="./subsections/subsec-3.1.2-soundness.ptx" />
+
+</section>

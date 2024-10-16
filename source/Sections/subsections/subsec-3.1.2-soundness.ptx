@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-3-1-2-soundness" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Soundness</title>
+<p>
+    We have seen examples, as should be expected by the nature of the implication, 
+    where false false premises lead have false conclusions yet are valid arguments. 
+    Yet, for our proofs we need to ensure that they are not lead by false assumptions.
+</p>
+<definition xml:id="def-soundness">
+    <statement>
+        <p>
+            An argument is <term>sound</term> when it is valid and the premises are true.
+        </p>
+    </statement>
+</definition>
+<p>
+Our proofs will consist of a series of sound arguments that prove a given/discovered statment.
+</p>
+<p></p>
+<example>
+    <p>Here are some example of sound arguments:</p>
+    <tabular halign="right">
+      <row>
+        <cell>All parabolas are functions of degree 2</cell>
+      </row>
+      <row bottom="medium">
+        <cell>All functions of degree 2 are quadratic</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> All parabolas are quadratic</cell>
+      </row>
+    </tabular>
+
+   
+
+    <tabular halign="right">
+      <row>
+        <cell>All spiders have 8 legs</cell>
+      </row>
+      <row bottom="medium">
+        <cell>A black widow is a spider</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> A black widow has 8 legs</cell>
+      </row>
+    </tabular>
+    
+</example>
+</section>

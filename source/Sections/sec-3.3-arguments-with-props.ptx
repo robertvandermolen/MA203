@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-3-prop-forms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Arguments with Propositional Forms</title>
+<p>
+    prop forms etc.
+</p>
+<p>
+    The most famous of these, and surely not the only tool, but definitely one of the more important ones.
+</p>
+
+<definition xml:id="def-modus-ponens">
+    <statement>
+    <p>
+      <term>Modus Ponens</term> is a specific type of argument with two premises:
+       <m>P\implies Q</m>, and <m>P</m>, and conludes <m>Q</m>. That is
+    </p>
+    <tabular halign="center">
+      
+      <row>
+        <cell><m>P\implies Q</m></cell>
+      </row>
+     
+        
+     
+      <row  bottom="minor">
+        <cell><m>P</m></cell>
+        
+        
+      </row>
+    
+      <row>
+        <cell><m>\therefore Q</m></cell>
+      </row>
+    </tabular>
+</statement>
+
+    <p>
+      An example of this is "If it is Tuesday then John will go to work. 
+      It is Tuesday. Therefore John will go to work."
+    </p>
+</definition>
+
+
+</section>

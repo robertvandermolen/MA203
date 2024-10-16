@@ -4,11 +4,17 @@
   <title>How to Argue</title>
 
   <introduction>
-    <p>Empty introduction paragraph becuase I'm bad at writing them.</p>
+    <p>
+      One could characterize a proof as arguing to the most skeptic person you have ever met that something is true.
+      Now that we have our logic background, we are ready to start stringing propositons together to make these arguments. 
+     
+    </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="../Sections/sec-2.2-arguments.ptx" />
-  <xi:include href="../Sections/sec-2.3-exercises.ptx" />
+  <xi:include href="../Sections/sec-3.1-arguments.ptx" />
+  <xi:include href="../Sections/sec-3.2-more-examples.ptx" />
+  <xi:include href="../Sections/sec-3.3-arguments-with-props.ptx" />
+  <xi:include href="../Sections/sec-3.4-ch-03-exercises.ptx" />
 
 </chapter>
