@@ -121,7 +121,21 @@
     </p>
 </statement>
 </theorem>
-
+<historical>
+    <image source="/images/De_Morgan_Augustus.jpg">
+        <shortdescription>(for accessibility)</shortdescription>
+    </image>
+    <p>
+        Augustus De Morgan (27 June 1806 - 18 March 1871) was a British mathematician and logician. 
+        He is best known for De Morgan's laws, relating logical conjunction, disjunction, and negation, 
+        and for coining the term "mathematical induction", the underlying principles of which he formalized. 
+        De Morgan's contributions to logic are heavily used in many branches of mathematics, including set 
+        theory and probability theory, as well as other related fields such as computer science. 
+    </p>
+    <p>
+        *information from Wikipedia*
+    </p>
+   </historical>
 <proof>
     <p>
         We saw the double negation law in <xref ref="ex-double-negation"/>.
