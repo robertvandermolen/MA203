@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-2-direct-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Direct Proof</title>
+
+<p>
+    Our first method before proving is known as direct proof, it is students goto throughtout their 
+    career.  
+</p>
+<p>
+    Most often we will proving statement that look like: <me>P\implies Q</me>
+</p>
+<p>
+    So, before we dive into it I'd like to give the song that we will sing whenever we start proving.
+</p>
+<p>
+    <ul>
+        <li>What's the P? (The "if" part)</li>
+        <li>What's the Q? (The "then" part)</li>
+        <li>What're the definitions?</li>
+        <li>Now, what to do? (Which proving method - until we learn more this will always be direct proof)</li>
+    </ul>
+</p>
+<xi:include href="./subsections/subsec-4.2.1-what-is-direct-proof.ptx" />
+
+
+
+</section>

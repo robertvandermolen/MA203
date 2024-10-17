@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-04-basic-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basic Proofs</title>
+
+  <introduction>
+  <p>
+    In this chapter we will begin to actually prove!
+  </p> 
+  <p>
+    What one proves in an introduction to proofs class varies. But for this book we start by letting the 
+    student use college algebra to crutch to lean on as they enter this new and scary world of proving.
+  </p>
+  </introduction>
+
+  <!-- include sections -->
+   <xi:include href="../Sections/sec-4.1-where-we-start.ptx" />
+  <xi:include href="../Sections/sec-4.2-dir_proof.ptx" />
+  <xi:include href="../Sections/sec-3.2-odd_even.ptx" />
+  <xi:include href="../Sections/sec-3.3-exercises.ptx" />
+
+</chapter>

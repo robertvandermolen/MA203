@@ -11,7 +11,7 @@
     
 </introduction>
 
-<section  xml:id="sec-1-1-111" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section  xml:id="sec-2-1-1-props-and-neg" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Propositions and Negation</title>
     
     <p>
@@ -125,7 +125,7 @@
 </p>
 
 </section>
-<section  xml:id="sec-1-1-1111" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section  xml:id="sec-2-1-2-connect" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Connectives and Compound Propositions</title>
 <p>
     In <xref ref="prop-example" /> the propositions are all <term>simple</term> or <term>atomic</term> in the senese

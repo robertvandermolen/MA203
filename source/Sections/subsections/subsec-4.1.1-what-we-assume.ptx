@@ -1,0 +1,73 @@
+<section xml:id="sec-4-1-1-where-what-we-assume" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>What We Can Assume</title>
+    <p>
+        As this is the first chapter of actual proving we will begin 
+    with a detailed list!
+    </p>
+<p>
+    <alert>Things you can assume without mentioning:</alert>
+</p>
+<ol>
+    <li>
+        <p>
+            That adding/subtraction/multiplication of integers works like you think. For example
+            <me>2-3=-3</me>
+        </p>
+        <p>
+            <em>(Notice I did not say division! DO NOT use division in this chapter!)</em>
+        </p>
+    </li>
+    <li>
+        <p>
+            Basic college algebra like: <me>x^2-3x=x(x-3)</me>
+        </p>
+    </li>
+</ol>
+<p>
+    <alert>Things you can assume but MUST mention:</alert>
+</p>
+<ol>
+    <li>
+        <p>
+            Closure of addition in the Integers:
+        </p>
+        <p>
+            If <m>x\in\Z</m> and <m>y\in\Z</m> then <m>(x+y)\in\Z</m>
+        </p>
+        <p>
+            "when you add two integers you get an integer..."
+        </p>
+    </li>
+    <li>
+        <p>
+            Closure of subtraction in the Integers:
+        </p>
+        <p>
+            If <m>x\in\Z</m> and <m>y\in\Z</m> then <m>(x-y)\in\Z</m>
+        </p>
+        <p>
+            "when you subtract two integers you get an integer..."
+        </p>
+    </li>
+    <li>
+        <p>
+            Closure of multiplication in the Integers:
+        </p>
+        <p>
+            If <m>x\in\Z</m> and <m>y\in\Z</m> then <m>(x\cdot y)\in\Z</m>
+        </p>
+        <p>
+            "when you multiply two integers you get an integer..."
+        </p>
+    </li>
+    <li>
+        <p>
+            Any Theorem/Lemma/Corrolary given in this chapter, unless otherwise stated.
+        </p>
+    </li>
+</ol>
+<p>
+    For anything else... just don't assume it! If you can't do a proof without making the assumption you
+    want just write that in your proof! We can work on it from there!
+</p>
+</section>

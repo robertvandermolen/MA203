@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-4-2-1-what-is-a-direct-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>What is a Direct Proof?</title>
+    
+    
+
+    <p>Now without further ado the direct proof.</p>
+
+    <assemblage permid="pOu">
+        <title>Direct Proof of <m>P\implies Q</m></title>
+        <p>
+          Assume <m>P</m>
+        </p>
+        <p>
+            <m>\vdots</m>
+        </p>
+        <p>
+            Therefore <m>Q</m>.
+        </p>
+        <p>
+            Thus <m>P\implies Q</m>
+        </p>
+      </assemblage>
+    
+      <p>
+        Now the title of the text becomes clear:
+      </p>
+      <p>
+        Begin -- Assume <m>P</m>
+      </p>
+      <p>
+        Muddle -- ...
+      </p>
+      <p>
+        End -- Therefore <m>Q</m>
+      </p>
+
+</section>

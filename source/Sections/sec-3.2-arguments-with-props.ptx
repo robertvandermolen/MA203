@@ -232,7 +232,7 @@
       </tabular>
     </p>
     <p>
-      Dijunctive Syllogism
+      Disjunctive Syllogism
     </p>
   </sidebyside>
   </sbsgroup>
@@ -345,7 +345,7 @@
     <me>Q:\text{ It is colder than yesterday}</me>
     <me>R:\text{ We will go hiking}</me>
     <me>S:\text{ We will go for a bike ride}</me>
-    <me>T:\text{ We will be home by dark}</me>
+    <me>W:\text{ We will be home by dark}</me>
   </p>
   <p>
     Next consider the list of premises.
@@ -368,7 +368,7 @@
     </li>
     <li>
       <p>
-        <m>S\implies T:\text{ If we go on a bike ride then we will be home before dark}</m>
+        <m>S\implies W:\text{ If we go on a bike ride then we will be home before dark}</m>
       </p>
     </li>
   </ul>
@@ -455,7 +455,7 @@
               <cell><m>S\implies T</m></cell>
             </row>
             <row>
-              <cell><m>\therefore \text{ }T</m></cell>
+              <cell><m>\therefore \text{ }W</m></cell>
             </row>
           </tabular>
         </p>

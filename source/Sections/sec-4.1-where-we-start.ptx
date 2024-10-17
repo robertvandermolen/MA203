@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-1-where-we-start" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Where We Start</title>
+<p>
+    The biggest pain and quesiton of all beginning proofs student is: 
+    <me>\text{"What can I assume?"}</me> To help answer that we will begin every 
+    chapter with either a quick note or a detailed list. 
+</p>
+
+
+<!-- Subsection -->
+<xi:include href="./subsections/subsec-4.1.1-what-we-assume.ptx" />
+<xi:include href="./subsections/subsec-4.1.2-terms.ptx" />
+
+</section>

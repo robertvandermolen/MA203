@@ -3,14 +3,14 @@
 <section xml:id="sec-3-5-ch-03-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Exercises</title>
     <ol>
-        
+    
         <li>
             <p>Assume that the truth value assignments for each statement are correct.
                 <ul>
                     <li>All math students are smart. (True)</li>
                     <li>All smart people are goofy. (True)</li>
                     <li>All smart people are math students. (False)</li>
-                    <li>All math students are goofy. (True)</li>
+                    <li>All math students are silly. (True)</li>
                 </ul>
                 Now given these assigned truth values, determine the validity and soundness of each of the following arguments:
             </p>
@@ -21,20 +21,20 @@
                             <cell>All math students are smart.</cell>
                         </row>
                         <row bottom="medium">
-                            <cell>All smart people are goofy.</cell>
+                            <cell>All smart people are silly.</cell>
                         </row>
                         <row>
-                            <cell><m>\therefore </m> All math students are goofy.</cell>
+                            <cell><m>\therefore </m> All math students are silly.</cell>
                         </row>
                   </tabular>
                 </li>
                 <li>    
                     <tabular halign="left">
                         <row>
-                            <cell>All math students are goofy.</cell>
+                            <cell>All math students are silly.</cell>
                         </row>
                         <row bottom="medium">
-                            <cell>All smart people are goofy.</cell>
+                            <cell>All smart people are silly.</cell>
                         </row>
                         <row>
                             <cell><m>\therefore </m> All math students are smart.</cell>
@@ -47,27 +47,100 @@
                             <cell>All smart people are math students.</cell>
                         </row>
                         <row bottom="medium">
-                            <cell>All math students are goofy.</cell>
+                            <cell>All math students are silly.</cell>
                         </row>
                         <row>
-                            <cell><m>\therefore </m> All smart people are goofy.</cell>
+                            <cell><m>\therefore </m> All smart people are silly.</cell>
                         </row>
                   </tabular>
                 </li>
                 <li>    
                     <tabular halign="left">
                         <row>
-                            <cell>All smart people are goofy.</cell>
+                            <cell>All smart people are silly.</cell>
                         </row>
                         <row bottom="medium">
-                            <cell>All math students are goofy.</cell>
+                            <cell>All math students are silly.</cell>
                         </row>
                         <row>
-                            <cell><m>\therefore </m> All math students are goofy.</cell>
+                            <cell><m>\therefore </m> All math students are silly.</cell>
                         </row>
                   </tabular>
                 </li>
             </ol>
+        </li>
+        <li>
+            <p>
+                Using truth tables show that the remaining arguments are valid in <xref ref="argument-types"/>
+            </p>
+        </li>
+        <li>
+            <p>
+                Use the following as premises
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        Consider the following propositions.
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>P:\text{ Today is Sunday}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>Q:\text{ I go shopping}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>R:\text{ I go shopping at the mall}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>S:\text{ I go shopping at BestBuy}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>W:\text{ I will buy a gaming computer}</m>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                Next, we will make the following assumptions:
+            </p>
+            <ol marker="(A)">
+                <li>
+                    <p>
+                        I'll go shopping if it is Sunday.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If I go to BestBuy then I will not go to the mall.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        I am not going to the mall.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        I buy a gaming computer whenever I go to BestBuy.
+                    </p>
+                </li>
+                </ol>
+                <p>
+                    Using the arguments (and naming when you use them) in <xref ref="argument-types"/>
+                    conclude <m>W</m>.
+                </p>
         </li>
     </ol>
 
