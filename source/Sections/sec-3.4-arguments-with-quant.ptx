@@ -112,6 +112,55 @@
     </sidebyside>
 </sbsgroup>
 <p>
-    These will be instrumental to our proofs invovling quantifiers shortly!
+    These will be instrumental to our proofs invovling quantifiers shortly! And since we will 
+    attempt to put them in more plain language...
 </p>
+
+<figure xml:id="how-to-quantifiers">
+<p>
+<alert>
+ The How-To's with Assuming quantifiers:
+</alert>
+</p>
+<tabular halign="center" top="minor">
+  <row header="yes" bottom="minor" left="minor">
+    <cell right="minor">Assuming</cell>
+    <cell right="minor">Can do</cell>
+    <cell right="minor">Name</cell>
+  </row>
+  <row bottom="minor" left="minor">
+    <cell right="minor"><m>\forall</m></cell>
+    <cell right="minor">It works for any element you'd like</cell>
+    <cell right="minor">Universal Instantiation</cell>
+  </row>
+  <row bottom="minor" left="minor">
+    <cell right="minor"><m>\exists</m></cell>
+    <cell right="minor">Can <em>produce</em> an element it works for and use it</cell>
+    <cell right="minor">Existential Instantiation</cell>
+  </row>
+</tabular>
+<p>
+  <alert>
+   The How-To's with Concluding quantifiers:
+  </alert>
+  </p>
+  <tabular halign="center" top="minor">
+    <row header="yes" bottom="minor" left="minor" >
+      <cell right="minor">Want to Conclude</cell>
+      <cell right="minor">Must do</cell>
+      <cell right="minor">Name</cell>
+    </row>
+    <row bottom="minor" left="minor">
+      <cell right="minor"><m>\forall</m></cell>
+      <cell right="minor">Show it works for an arbitrary one </cell>
+      <cell right="minor">Universal Generalization</cell>
+    </row>
+    <row bottom="minor" left="minor">
+      <cell right="minor"><m>\exists</m></cell>
+      <cell right="minor"><em>GIVE</em> an element and show it works</cell>
+      <cell right="minor">Existential Generalization</cell>
+    </row>
+  </tabular>
+</figure>
+
 </section>

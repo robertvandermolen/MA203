@@ -542,4 +542,9 @@
     text-transform: uppercase;
 }
  
+.solution [class*="title"], /* Target any class with 'title' in its name */
+.solution [class*="number"], /* Target any class with 'number' in its name */
+.solution .header {
+    display: none; /* Experiment with these to see which works */
+}
  

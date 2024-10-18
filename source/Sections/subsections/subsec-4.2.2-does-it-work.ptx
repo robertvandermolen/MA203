@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-4-2-2-does-it-work" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Does it Work?</title>
+
+    <p>
+        So we have an entire chapter about arguments, so does this <em>direct proof</em> work? Is the 
+        <em>direct proof</em> a valid argument?
+    </p>
+    <p>
+        <tabular halign="center">
+            <row>
+              <cell><m>P</m></cell>
+            </row>
+            <row  bottom="minor">
+              <cell><m>Q</m></cell>
+            </row>
+            <row>
+              <cell><m>\therefore \text{ }P\implies Q</m></cell>
+            </row>
+          </tabular>
+    </p>
+    <p>
+        To see this the "long way" lets build a truth table:
+    </p>
+    <p>
+        <tabular halign="center">
+            <row header="yes" bottom="minor">
+                <cell><m>P</m></cell>
+                <cell><m>Q</m></cell>
+                <cell><m>P\wedge Q</m></cell>
+                <cell><m>P\implies Q</m></cell>
+                <cell><m>[P\wedge Q]\implies[P\implies Q]</m></cell>
+            </row>
+            <row>
+                <cell>T</cell>
+                <cell>T</cell>
+                <cell>T</cell>
+                <cell>T</cell>
+                <cell>T</cell>
+            </row>
+            <row>
+                <cell>T</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>T</cell>
+            </row>
+            <row>
+                <cell>F</cell>
+                <cell>T</cell>
+                <cell>F</cell>
+                <cell>T</cell>
+                <cell>T</cell>
+            </row>
+            <row>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>T</cell>
+                <cell>T</cell>
+            </row>
+        </tabular>
+    </p>
+    <p>
+        And we see that <me>[P\wedge Q]\implies[P\implies Q]</me> is a tautology! I.e. the direct proof is a 
+        valid argument!
+    </p>
+
+</section>

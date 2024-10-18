@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3-first-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Our First Proofs</title>
+<p>
+    Now that we have our first weapon in hand (the direct proof) lets start to slay our first dragon. 
+</p>
+<p>Also, a warning the first one might be a bit "over explained"</p>
+
+
+<xi:include href="./subsections/subsec-4.3.1-over-explain.ptx" />
+
+
+</section>

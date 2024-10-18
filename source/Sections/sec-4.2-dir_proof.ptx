@@ -4,8 +4,8 @@
 <title>Direct Proof</title>
 
 <p>
-    Our first method before proving is known as direct proof, it is students goto throughtout their 
-    career.  
+    Our first method before proving is known as direct proof, it is the student's go-to 
+    throughtout their career.  
 </p>
 <p>
     Most often we will proving statement that look like: <me>P\implies Q</me>
@@ -22,7 +22,7 @@
     </ul>
 </p>
 <xi:include href="./subsections/subsec-4.2.1-what-is-direct-proof.ptx" />
-
+<xi:include href="./subsections/subsec-4.2.2-does-it-work.ptx" />
 
 
 </section>

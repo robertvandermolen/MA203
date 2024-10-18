@@ -9,6 +9,7 @@
 
     <assemblage permid="pOu">
         <title>Direct Proof of <m>P\implies Q</m></title>
+      
         <p>
           Assume <m>P</m>
         </p>
@@ -16,7 +17,7 @@
             <m>\vdots</m>
         </p>
         <p>
-            Therefore <m>Q</m>.
+            Therefore <m>Q</m>
         </p>
         <p>
             Thus <m>P\implies Q</m>
@@ -24,7 +25,7 @@
       </assemblage>
     
       <p>
-        Now the title of the text becomes clear:
+        Here is where the title of the text becomes clear:
       </p>
       <p>
         Begin -- Assume <m>P</m>
