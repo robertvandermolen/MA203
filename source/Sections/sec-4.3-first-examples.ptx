@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-4-3-first-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Our First Proofs</title>
+<title>Our First Proof</title>
 <p>
     Now that we have our first weapon in hand (the direct proof) lets start to slay our first dragon. 
 </p>
-<p>Also, a warning the first one might be a bit "over explained"</p>
+<p></p>
+<p>
+    <alert>Prove: </alert> For all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even.
+</p>
+<p>Before we begin any proof we sing our song (play-along):</p>
+    <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+    <answer>
+    <p><m>x</m> is odd</p>
+    </answer>
+    <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+    <answer>
+    <p><m>x+1</m> is even</p>
+    </answer>
+    <p>"What're the definitions?" </p>
+    <answer>
+    <p>Odd and even! (found in <xref ref="subsec-4-1-2-terms"/>)</p>
+    </answer>
+    <p>"Now, what to do?"</p> 
+    <answer>
+    <p>A direct proof! (it is the only method we know so far)</p>
+    </answer>
+    
+    
+    <p></p>
 
-
-<xi:include href="./subsections/subsec-4.3.1-over-explain.ptx" />
+<xi:include href="./subsections/subsec-4.3.1-begin.ptx" />
+<xi:include href="./subsections/subsec-4.3.2-muddle.ptx" />
+<xi:include href="./subsections/subsec-4.3.3-end.ptx" />
 
 
 </section>

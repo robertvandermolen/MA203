@@ -548,3 +548,8 @@
     display: none; /* Experiment with these to see which works */
 }
  
+.answer [class*="title"], /* Target any class with 'title' in its name */
+.answer [class*="number"], /* Target any class with 'number' in its name */
+.answer .header {
+    display: none; /* Experiment with these to see which works */
+}

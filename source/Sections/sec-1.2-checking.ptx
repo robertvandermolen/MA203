@@ -24,7 +24,7 @@ which is prime! If this hard working student were to check with other numbers li
 discover prime numbers as the solution. 
 </p>
 <p>
-However, this is not conclusive proof, as it fails for <m>x = 44</m>, where the result is 1681, 
+However, this is not a conclusive proof, as it fails for <m>x = 44</m>, where the result is 1681, 
 which is actually a square, that is it factors as <m>41\times 41</m>. While examining specific examples can offer valuable insights into 
 mathematical concepts and relationships, it is not sufficient for proof unless every possible case can be examined.
 </p>

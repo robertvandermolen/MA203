@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3-3-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{blue}{\text{The End}}}</m></title>
+
+
+
+        
+    
+    <p>
+        From the <m>{\color{green}{\text{muddle}}}</m>, we have:
+        <me>
+            x=2{\color{purple}{(k+1)}}
+        </me>
+        
+    </p>
+        
+        <p> Thus we can make our conclusion: (Therefore <m>{\color{blue}{Q}}</m>)</p> 
+    <p>"Since <m>{\color{purple}{k+1}}</m> is an integer, (this must be noted as laid out in <xref ref="sec-4-1-1-what-we-assume"/>)</p>
+    
+    <p>by definition of even, <m>x+1</m> is even."</p>
+    
+    
+    <p>Finally a wrap-up sentence:</p>
+    <p> Since we assumed that and arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
+        that for all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even, by direct proof. QED.
+    </p> 
+    
+   
+    
+
+
+<p></p>
+<p>
+    To wrap-up everything in a pretty bow, lets see the whole proof in one spot.
+</p>
+
+<historical>
+    <p>When a proof is finished, customarily, we either write "QED" or <m>\square</m> at the bottom. 
+        This comes from the Latin "quod erat demonstrandum," which means 
+        "that which was to be demonstrated."</p>
+    </historical>
+
+
+<example>
+    <p> <alert>Prove:</alert> For all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even.</p>
+    <p></p>
+    <p>Let <m>x</m> be an integer. Assume <m>x</m> is odd. 
+    Thus, by the definition of odd, we can find an integer <m>k</m> so that 
+    <m>x=2k+1</m>.</p> 
+    <p>Calculate:</p>
+    <md>
+    <mrow>x+1\amp=(2k+1)+1</mrow>
+    <mrow>\amp=k+2</mrow>
+    <mrow>\amp=2(k+1)</mrow>
+    </md>
+    <p>Since <m>k+1</m> is an integer, by definition of even, <m>x+1</m> is even. </p>
+    <p> Since we assumed that and arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
+    that for all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even, by direct proof. <m>\square</m>
+    </p> 
+    
+    </example>
+
+
+    
+   
+
+</section>

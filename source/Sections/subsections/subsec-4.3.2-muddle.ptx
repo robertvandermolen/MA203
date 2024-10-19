@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{green}{\text{The Muddle}}}</m></title>
+
+<p>To proceed with our proof we don't have much expcept the definitions. 
+    (It can be helpful, especially in these early stages of proof writing, to write the 
+    relevant definitions to the side in your scratch work this is why it's part of the song!)</p>
+  <p>  From the definition odd <xref ref="subsec-4-1-2-terms"/> we can make the conclusion that:</p> 
+  <p><m>x</m> must look like: 
+    <me>
+    x=2k+1
+  </me>
+  for some integer <m>k</m>.
+  </p>
+  <p>
+    Invoking this definition in this manner is an application of Existential Instantiation from 
+    <xref ref="how-to-quantifiers"/>
+  </p>
+  <p></p>
+  <p>
+    To continue <em>muddling along</em> we can use some college algebra, as is allowed by <xref ref="sec-4-1-1-what-we-assume"/>
+    and calculate:
+  </p>
+  <md>
+    <mrow>x+1\amp=(2k+1)+1</mrow>
+    <mrow>\amp=k+2</mrow>
+    <mrow>\amp=2(k+1)</mrow>
+</md>
+<p>The <m>x+1</m> on the left of this equation is the end conclusion we're <em>aiming</em> for! 
+    (<em>"What's the <m>{\color{blue}{Q}}</m>"</em> from the song)</p>
+<p> The stuff on the right is what we manipulate to make it 
+    "look like," or "fit," the definition of even. (as well as the argument Existential Generalization from <xref ref="how-to-quantifiers"/>)</p>
+
+
+    <remark>
+        <p>
+            I choose these as the first <em>types</em> of proofs to show/have students do, because the 
+            <m>{\color{green}{\text{muddle}}}</m>
+            is bascially the same for all of them: "invoke a defintion then calculate". It gives the students
+            something to hold on to as they are still trying to digest the previous chapters...
+        </p>
+    </remark>
+
+</section>

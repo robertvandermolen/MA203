@@ -28,13 +28,13 @@
         Here is where the title of the text becomes clear:
       </p>
       <p>
-        Begin -- Assume <m>P</m>
+        <m>{\color{red}{\text{Beginning}}}</m> -- Assume <m>P</m>
       </p>
       <p>
-        Muddle -- ...
+        <m>{\color{green}{\text{Muddle}}}</m> -- ...
       </p>
       <p>
-        End -- Therefore <m>Q</m>
+        <m>{\color{blue}{\text{End}}}</m>  -- Therefore <m>Q</m>
       </p>
 
 </section>

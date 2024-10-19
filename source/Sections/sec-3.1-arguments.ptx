@@ -122,6 +122,6 @@
   
   <p>Notice that it is not the truth of the premises that makes an argument valid or invalid, but rather the truth of the conclusion.</p>
 </section>
-  <xi:include href="./subsections/subsec-3.1.2-soundness.ptx" />
+ <!-- <xi:include href="./subsections/subsec-3.1.2-soundness.ptx" />-->
 
 </section>
