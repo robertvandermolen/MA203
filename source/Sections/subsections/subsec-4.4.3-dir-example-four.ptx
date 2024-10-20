@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-4-3-dir-example-four" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Direct Proof Example 4</title>
+
+<p>blah...</p>
+<p><alert>Prove:</alert></p>
+
+<p></p>
+<p>Before we begin any proof we sing our song (play-along):</p>
+    <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+    <answer>
+    <p>blah</p>
+    </answer>
+    <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+    <answer>
+    <p>blah</p>
+    </answer>
+    <p>"What're the definitions?" </p>
+    <answer>
+    <p>Odd and even! (<xref ref="subsec-4-1-2-terms"/>)</p>
+    </answer>
+    <p>"Now, what to do?"</p> 
+    <answer>
+    <p>A direct proof! (it is the only method we know so far)</p>
+    </answer>
+    
+    
+    <p></p>
+
+<section xml:id="sec-4-4-3-dir-example-four-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title><m>{\color{red}{\text{The Beginning}}}</m></title>
+    <p>
+        blah...
+    </p>
+</section>
+
+<section xml:id="sec-4-4-3-dir-example-four-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title><m>{\color{green}{\text{The Muddle}}}</m></title>
+    <p>
+        blah...
+    </p>
+</section>
+
+<section xml:id="sec-4-4-3-dir-example-four-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title><m>{\color{blue}{\text{The End}}}</m></title>
+    <p>
+        blah...
+    </p>
+    <p>
+        Now lets see everything written together in a single spot.
+    </p>
+    <example>
+        <p>
+            Blah...
+        </p>
+    </example>
+</section>
+
+</section>

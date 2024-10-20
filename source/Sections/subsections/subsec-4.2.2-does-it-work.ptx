@@ -4,7 +4,9 @@
     <title>Does it Work?</title>
 
     <p>
-        So we have an entire chapter about arguments, so does this <em>direct proof</em> work? Is the 
+       We have an entire chapter about arguments, so does this <em>direct proof</em> work?</p>
+       <p>
+         Is the 
         <em>direct proof</em> a valid argument?
     </p>
     <p>
@@ -66,5 +68,8 @@
         And we see that <me>[P\wedge Q]\implies[P\implies Q]</me> is a tautology! I.e. the direct proof is a 
         valid argument!
     </p>
+    <note>
+        Yes, your eyes do not decieve you, I did just <em>prove</em> that the <em>direct proof</em> is a proof.
+    </note>
 
 </section>

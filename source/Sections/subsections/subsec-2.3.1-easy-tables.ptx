@@ -90,7 +90,7 @@ components in a truth table.
   <p>
     Next the conjunction (<m>P\vee Q</m>). Since 
     the conjunction also only involves two components (<m>P</m> and <m>Q</m>) their truth tables must again include all combinations of 
-    their two truth values, just as collected above in figure <xref ref="table-truths"/>.
+    their two truth values, just as collected above in <xref ref="table-truths"/>.
   </p>
 
 <figure>

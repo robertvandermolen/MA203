@@ -13,7 +13,7 @@
     written but assumed there we call it the <em>hidden quantifier</em>. Either way the statement we are trying to prove is
     now broken up as follows:
     <me>
-        {\color{orange}{\forall x\in\Z}}\text{ if }{\color{red}{x\text{is odd}}}\text{ then }{\color{blue}{x+1\text{ is even}}}
+        {\color{orange}{\forall x\in\Z}}\text{ if }{\color{red}{x\text{ is odd}}}\text{ then }{\color{blue}{x+1\text{ is even}}}
     </me>
     
 </p>

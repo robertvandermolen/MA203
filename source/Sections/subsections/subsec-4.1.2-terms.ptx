@@ -6,10 +6,11 @@
 
     <p>Now, in order to start proving things we need the objects we are going to prove them about.
         In addition when we begin our journey in proving, I'd like to limit the moving pieces 
-        so we have those few assumptions just listed, but <alert>most importantly</alert> we need definitions.
+        to those few assumptions just listed, and <alert>most importantly</alert> these following definitions.
         </p>
         <p>
-        To make sure our playground is small enough that no one hurts themselves, but large enough that we can actually
+        I begin by being this limiting to make sure our playground is small enough that no one hurts themselves 
+        by falling off monkey bars that are too high, but also large enough that we can actually
         get some <em>real</em> proving in we'll start with a few common defintions, namely odd, even, and divides.
         </p>
 

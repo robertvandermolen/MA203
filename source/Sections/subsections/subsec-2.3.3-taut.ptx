@@ -8,7 +8,7 @@
 <definition xml:id="def-tautology">
     <statement>
         <p>
-            A <term>tautology</term> is a proopositional form that is true for any assignment of truth value to its components
+            A <term>tautology</term> is a propositional form that is true for any assignment of truth value to its components
         </p>
        
     </statement>

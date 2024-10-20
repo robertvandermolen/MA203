@@ -10,21 +10,44 @@
     <p>
         From the <m>{\color{green}{\text{muddle}}}</m>, we have:
         <me>
-            x=2{\color{purple}{(k+1)}}
+            x+1=2{\color{purple}{(k+1)}}
         </me>
         
     </p>
         
-        <p> Thus we can make our conclusion: (Therefore <m>{\color{blue}{Q}}</m>)</p> 
-    <p>"Since <m>{\color{purple}{k+1}}</m> is an integer, (this must be noted as laid out in <xref ref="sec-4-1-1-what-we-assume"/>)</p>
+        <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+1 \text{ is even}</me> 
+            we must use defintion of even (<xref ref="subsec-4-1-2-terms"/>), which uses an existential 
+        quantifier  so we must (<xref ref="sec-3-4-arguments-with-quant"/>) , be able to produce/point at an
+        integer, so that <m>x+1</m> is this integer times 2.</p>
+<p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{k+1}}</m> is an 
+    integer!</p>
+
+    <p>
+        To write this in our proof we can say: 
+    </p>
+
+    <p>
+        "Since <m>{\color{purple}{k+1}}</m> is an integer, by definition of even, <m>x+1</m> is even."</p>
     
-    <p>by definition of even, <m>x+1</m> is even."</p>
+
     
-    
-    <p>Finally a wrap-up sentence:</p>
-    <p> Since we assumed that and arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
-        that for all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even, by direct proof. QED.
+    <p>Finally we should end every proof with a wrap-up sentence. This sentence is to summarize the proof, most 
+        importantly laying out your proving method, in this example a direct proof. 
+    </p>
+    <p>
+        For this proof our wrap-up could look like:
+    </p>
+    <p> "Since we assumed that and arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
+        that for all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even, by direct proof." 
     </p> 
+    <p>
+        At last we indicate that our proofs are over with a: 
+        <me>
+            \text{ QED }
+        </me>
+        
+    </p>
+
     
    
     

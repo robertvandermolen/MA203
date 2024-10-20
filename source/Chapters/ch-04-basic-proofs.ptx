@@ -17,6 +17,7 @@
    <xi:include href="../Sections/sec-4.1-where-we-start.ptx" />
   <xi:include href="../Sections/sec-4.2-dir_proof.ptx" />
   <xi:include href="../Sections/sec-4.3-first-examples.ptx" />
+  <xi:include href="../Sections/sec-4.4-more-dir-examples.ptx" />
   <xi:include href="../Sections/sec-3.3-exercises.ptx" />
 
 </chapter>
