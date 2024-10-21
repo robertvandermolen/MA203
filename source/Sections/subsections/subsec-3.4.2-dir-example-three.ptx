@@ -3,18 +3,25 @@
 <section xml:id="sec-4-4-2-dir-example-three" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 3</title>
 
-<p>blah...</p>
-<p><alert>Prove:</alert></p>
+<p>
+    The last two examples had even in the <m>{\color{red}{P}}</m> and even in the <m>{\color{blue}{Q}}</m>. 
+    In fear of students thinking this is some sort of immutable law/pattern lets change that pattern 
+    this time.
+</p>
+<p>
+    <alert>Prove:</alert> For all integers <m>x</m> and <m>y</m> if <m>x</m> is even and <m>y</m> is odd
+    then <m>x+y</m> is odd.
+</p>
 
 <p></p>
 <p>Before we begin any proof we sing our song (play-along):</p>
     <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
     <answer>
-    <p>blah</p>
+    <p><m>x</m> is even and <m>y</m> is odd</p>
     </answer>
     <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
     <answer>
-    <p>blah</p>
+    <p><m>x+y</m> is odd</p>
     </answer>
     <p>"What're the definitions?" </p>
     <answer>
@@ -26,6 +33,15 @@
     </answer>
     
     
+    <p></p>
+    <p>The Breakdown:</p>
+    <p>
+        <me>
+            {\color{orange}{\forall x,y\in\Z}}\text{ if }{\color{red}{x \text{ is even and }y\text{ is odd}}}
+            \text{ then }{\color{blue}{x+y \text{ is odd.}}}
+        </me>
+        
+    </p>
     <p></p>
 
 <section xml:id="sec-4-4-2-dir-example-three-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -47,14 +63,22 @@
     <p>
         blah...
     </p>
+
+   
     <p>
         Now lets see everything written together in a single spot.
     </p>
     <example>
+        <title>2</title>
+        
+        
         <p>
             Blah...
         </p>
     </example>
+    
 </section>
+
+
 
 </section>

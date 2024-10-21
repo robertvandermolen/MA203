@@ -22,7 +22,7 @@
 
 </introduction>
 
-<section xml:id="subsec-1-1-1-undefined-terms" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-0-1-1-undefined-terms" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Undefined Terms</title>
     
     
@@ -65,7 +65,7 @@ common axiom of euclidean geometry is:
 </p>
 </section>
 
-<section xml:id="subsec-1-1-3-defns" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-0-1-3-defns" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Defintions</title>
     <p>
         Now once we have our undefined terms, and axioms we begin building perhaps the most important part of 
@@ -75,7 +75,7 @@ common axiom of euclidean geometry is:
     </p>
 </section>
 
-<section xml:id="subsec-1-1-4-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="subsec-0-1-4-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Proofs</title>
     <p>
         There are two interpretations of what has been presented before you. One, hopefully how it has been presented

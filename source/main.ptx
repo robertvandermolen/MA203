@@ -15,10 +15,10 @@
 
 
     <!-- Include chapters -->
-    <xi:include href="./Chapters/ch-01-what-is-a-proof.ptx" />
-    <xi:include href="./Chapters/ch-02-intro-to-logic.ptx" />
-    <xi:include href="./Chapters/ch-03-how-to-argue.ptx" />
-    <xi:include href="./Chapters/ch-04-basic-proofs.ptx" />
+    <xi:include href="./Chapters/ch-00-what-is-a-proof.ptx" />
+    <xi:include href="./Chapters/ch-01-intro-to-logic.ptx" />
+    <xi:include href="./Chapters/ch-02-how-to-argue.ptx" />
+    <xi:include href="./Chapters/ch-03-basic-proofs.ptx" />
     <xi:include href="./Chapters/ch-04-contrapositive-contradiction.ptx" />
     <xi:include href="./Chapters/ch-05-set-theory.ptx" />
     <xi:include href="./Chapters/ch-06-pmi.ptx" />

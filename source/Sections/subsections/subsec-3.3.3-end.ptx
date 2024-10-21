@@ -37,7 +37,7 @@
     <p>
         For this proof our wrap-up could look like:
     </p>
-    <p> "Since we assumed that and arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
+    <p> "Since we assumed that an arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
         that for all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even, by direct proof." 
     </p> 
     <p>

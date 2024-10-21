@@ -7,11 +7,13 @@
     explanations. 
 </p>
 
+
+
 <!--the examples-->
-<xi:include href="./subsections/subsec-4.4.1-dir-example-two.ptx" />
-<xi:include href="./subsections/subsec-4.4.2-dir-example-three.ptx" />
-<xi:include href="./subsections/subsec-4.4.3-dir-example-four.ptx" />
-<xi:include href="./subsections/subsec-4.4.4-dir-example-five.ptx" />
+<xi:include href="./subsections/subsec-3.4.1-dir-example-two.ptx" />
+<xi:include href="./subsections/subsec-3.4.2-dir-example-three.ptx" />
+<xi:include href="./subsections/subsec-3.4.3-dir-example-four.ptx" />
+<xi:include href="./subsections/subsec-3.4.4-dir-example-five.ptx" />
 
 
 </section>

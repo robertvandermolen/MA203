@@ -17,8 +17,8 @@
 </introduction>
 
 <!-- Subsections -->
-<xi:include href="./subsections/subsec-2.3.1-easy-tables.ptx" />
-<xi:include href="./subsections/subsec-2.3.2-hard-tables.ptx" />
-<xi:include href="./subsections/subsec-2.3.3-taut.ptx" />
+<xi:include href="./subsections/subsec-1.3.1-easy-tables.ptx" />
+<xi:include href="./subsections/subsec-1.3.2-hard-tables.ptx" />
+<xi:include href="./subsections/subsec-1.3.3-taut.ptx" />
     
 </section>

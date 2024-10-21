@@ -16,8 +16,8 @@
 </introduction>
 
 <!-- Subsections -->
-<xi:include href="./subsections/subsec-2.4.1-what-equiv.ptx" />
-<xi:include href="./subsections/subsec-2.4.2-important-equiv.ptx" />
-<xi:include href="./subsections/subsec-2.4.3-logic-algebra.ptx" />
+<xi:include href="./subsections/subsec-1.4.1-what-equiv.ptx" />
+<xi:include href="./subsections/subsec-1.4.2-important-equiv.ptx" />
+<xi:include href="./subsections/subsec-1.4.3-logic-algebra.ptx" />
 
 </section>

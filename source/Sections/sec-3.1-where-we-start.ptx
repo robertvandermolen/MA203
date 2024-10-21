@@ -10,7 +10,7 @@
 
 
 <!-- Subsection -->
-<xi:include href="./subsections/subsec-4.1.1-what-we-assume.ptx" />
-<xi:include href="./subsections/subsec-4.1.2-terms.ptx" />
+<xi:include href="./subsections/subsec-3.1.1-what-we-assume.ptx" />
+<xi:include href="./subsections/subsec-3.1.2-terms.ptx" />
 
 </section>

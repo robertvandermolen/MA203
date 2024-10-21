@@ -27,6 +27,14 @@
     
     
     <p></p>
+    <p>The Breakdown:</p>
+    <p>
+        <me>
+            P\implies Q
+        </me>
+        
+    </p>
+    <p></p>
 
 <section xml:id="sec-4-4-3-dir-example-four-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
@@ -51,6 +59,9 @@
         Now lets see everything written together in a single spot.
     </p>
     <example>
+        <title>3</title>
+        
+        
         <p>
             Blah...
         </p>

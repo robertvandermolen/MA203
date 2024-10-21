@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-04-basic-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-03-basic-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Basic Proofs</title>
 
   <introduction>
@@ -14,10 +14,10 @@
   </introduction>
 
   <!-- include sections -->
-   <xi:include href="../Sections/sec-4.1-where-we-start.ptx" />
-  <xi:include href="../Sections/sec-4.2-dir_proof.ptx" />
-  <xi:include href="../Sections/sec-4.3-first-examples.ptx" />
-  <xi:include href="../Sections/sec-4.4-more-dir-examples.ptx" />
-  <xi:include href="../Sections/sec-3.3-exercises.ptx" />
+   <xi:include href="../Sections/sec-3.1-where-we-start.ptx" />
+  <xi:include href="../Sections/sec-3.2-dir_proof.ptx" />
+  <xi:include href="../Sections/sec-3.3-first-examples.ptx" />
+  <xi:include href="../Sections/sec-3.4-more-dir-examples.ptx" />
+  <xi:include href="../Sections/sec-3.6-ch-03-exercises.ptx" />
 
 </chapter>

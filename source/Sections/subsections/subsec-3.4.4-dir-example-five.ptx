@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-4-1-dir-example-two" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Direct Proof Example 2</title>
+<section xml:id="sec-4-4-4-dir-example-five" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Direct Proof Example 5</title>
 
-<p>blah...</p>
-<p><alert>Prove:</alert></p>
+<p>Now lets see an example that is <em>not</em> even nor odd.</p>
+<p><alert>Prove:</alert> for all integers <m>a</m>, <m>b</m>, and <m>c</m> if 
+<m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m>.</p>
 
 <p></p>
 <p>Before we begin any proof we sing our song (play-along):</p>
@@ -28,21 +29,30 @@
     
     <p></p>
 
-<section xml:id="sec-4-4-1-dir-example-two-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <p>The Breakdown:</p>
+    <p>
+        <me>
+            P\implies Q
+        </me>
+        
+    </p>
+    <p></p>
+
+<section xml:id="sec-4-4-4-dir-example-five-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
         blah...
     </p>
 </section>
 
-<section xml:id="sec-4-4-1-dir-example-two-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-4-4-4-dir-example-five-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
         blah...
     </p>
 </section>
 
-<section xml:id="sec-4-4-1-dir-example-two-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-4-4-4-dir-example-five-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
         blah...
@@ -51,6 +61,13 @@
         Now lets see everything written together in a single spot.
     </p>
     <example>
+        <title>4</title>
+        
+        
+        <p><alert>Prove:</alert> for all integers <m>a</m>, <m>b</m>, and <m>c</m> if 
+            <m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m></p>
+        
+        
         <p>
             Blah...
         </p>

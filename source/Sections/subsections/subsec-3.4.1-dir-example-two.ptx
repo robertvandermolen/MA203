@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-4-1-dir-example-two" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Direct Proof Example 2</title>
+
+<p><alert>Prove:</alert> For all integers <m>x</m> and <m>y</m>, if <m>x</m> and <m>y</m> are both
+odd then <m>x+y</m> is even.</p>
+
+<p></p>
+<p>Before we begin any proof we sing our song (play-along):</p>
+    <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+    <answer>
+    <p><m>x</m> and <m>y</m> are both
+        odd</p>
+    </answer>
+    <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+    <answer>
+    <p><m>x+y</m> is even</p>
+    </answer>
+    <p>"What're the definitions?" </p>
+    <answer>
+    <p>Odd and even! (<xref ref="subsec-4-1-2-terms"/>)</p>
+    </answer>
+    <p>"Now, what to do?"</p> 
+    <answer>
+    <p>A direct proof! (it is the only method we know so far)</p>
+    </answer>
+    
+    
+    <p></p>
+    <p><alert>The Breakdown:</alert></p>
+    <p>
+        <me>
+            {\color{orange}{\forall x,y\in\Z}}\text{ if }{\color{red}{x \text{ and }y\text{ are both odd}}}\text{ then }
+            {\color{blue}{x+y\text{ is even}}}
+        </me>
+        
+    </p>
+    <p></p>
+
+<section xml:id="sec-4-4-1-dir-example-two-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title><m>{\color{red}{\text{The Beginning}}}</m></title>
+    <p>
+        Just as before we begin by "shoveling off" our <m>{\color{orange}{\text{beginning quantifier}}}</m>
+        (<xref ref="sec-3-4-arguments-with-quant"/>) by saying something along the lines of:
+    </p>
+    <p>
+        "Choose arbitrary integers <m>x</m> and <m>y</m>."
+    </p>
+    <p></p>
+    <p>
+        Now, we take care of the <m>{\color{red}{\text{beginning}}}</m> of our direct proof...
+    </p>
+    <p>
+    <em>Assume the</em> <m>{\color{red}{P}}</m>
+    </p>
+    <p>
+        So in our example we would write:
+    </p>
+    <p>
+        "Assume both <m>x</m> and <m>y</m> are odd."
+    </p>
+</section>
+
+<section xml:id="sec-4-4-1-dir-example-two-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title><m>{\color{green}{\text{The Muddle}}}</m></title>
+    <p>
+        Again, as will be quite often even after this class, we do not have much but the 
+        definitions (<xref ref="subsec-4-1-2-terms"/>), so we will apply these defintions 
+        (making note they invovle quantifiers <xref ref="how-to-quantifiers" />).
+    </p>
+    <p>
+        To apply the definition of odd to our integer <m>x</m> we <em>use</em> the 
+        <em>exists</em> from the proof to produce a new integer which will need a name,
+        lets name it <m>t</m>. This <m>t</m> can be found so that <m>x=2t+1</m>.
+    </p>
+    <p>
+        Some questions that often arise here are: "but the proof says <m>k</m>?" Yet, 
+        in fear of sounding like a broken record we are <em>using/applying</em> the definition
+        of odd, and when using the <m>\exists</m> (by <xref ref="how-to-quantifiers" />) we can 
+        <em>find</em> some integer (in this example) to do the job. The <m>k</m> in the definition is 
+        just a stand-in for <em>some integer</em>.
+    </p>
+    <p>
+        So for our proof we could write:
+    </p>
+    <p>
+        "By the definiton of odd we can find an integer <m>t</m> so that <m>x=2t+1</m>."
+    </p>
+    <p>
+        Next, we do the exact same procedure with the <m>y</m>, but because <m>y</m> is a new number
+        and it is a brand new <em>application</em> of the definition of odd we can produce a 
+        a new integer (<xref ref="how-to-quantifiers" />), so this time lets name it <m>s</m>.
+    </p>
+    <p>
+        That is in our proof we could write:
+    </p>
+    <p>
+        "Again, By definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>."
+    </p>
+    <p>
+        Having successfully applied our definitions we now have <em>something</em> we can calculate 
+        with, so lets try to add what is in our <m>{\color{blue}{Q}}</m> namely <m>{\color{blue}{x+y}}</m>
+    </p>
+    <md>
+        <mrow>{\color{blue}{x+y}}\amp=(2t+1)+(2s+1)</mrow>
+        <mrow>\amp=2s+2t+1+1</mrow>
+        <mrow>\amp=2s+2t+2</mrow>
+        <mrow>\amp=2(s+t+1)</mrow>
+    </md>
+    <p>
+        Now, we can (hopefully) <em>see</em> our definition of even at the last equality, signalling 
+        that we are ready for our <m>{\color{blue}{\text{end}}}</m>.
+    </p>
+</section>
+
+<section xml:id="sec-4-4-1-dir-example-two-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title><m>{\color{blue}{\text{The End}}}</m></title>
+    <p>
+        From the <m>{\color{green}{\text{muddle}}}</m>, we have:
+        <me>
+            x+y=2{\color{purple}{(s+t+1)}}
+        </me>
+    </p>
+    <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+y \text{ is even}</me> 
+        we must, again, use defintion of even (<xref ref="subsec-4-1-2-terms"/>), which uses an existential 
+    quantifier  so we must (<xref ref="sec-3-4-arguments-with-quant"/>) , be able to produce/point at an
+    integer, so that <m>x+y</m> is this integer times 2.</p>
+<p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{s+t+1}}</m> is an 
+integer!</p>
+
+<p>
+    To write this in our proof we can say: 
+</p>
+
+<p>
+    "Since <m>{\color{purple}{s+t+1}}</m> is an integer, by definition of even, <m>x+y</m> is even."</p>
+
+
+
+<p>Finally we should end every proof with a wrap-up sentence. This sentence is to summarize the proof, most 
+    importantly laying out your proving method, in this example a direct proof. 
+</p>
+<p>
+    For this proof our wrap-up could look like:
+</p>
+<p> "Since we assumed that an arbitrary two integers <m>x</m> and <m>y</m> were odd and showed that <m>x+y</m> is even, we can conclude 
+    that for all integers <m>x</m> and <m>y</m>, whenever <m>x</m> and <m>y</m> are odd then <m>x+1</m> is even, by direct proof." 
+</p> 
+<p>
+    Now lets see everything written together in a single spot.
+</p>
+<example>
+    <title>1</title>
+    
+    
+    <p><alert>Prove:</alert> For all integers <m>x</m> and <m>y</m>, if <m>x</m> and <m>y</m> are both
+        odd then <m>x+y</m> is even</p>
+    <p>
+        Choose arbitrary integers <m>x</m> and <m>y</m>. Assume both <m>x</m> and <m>y</m> are odd.
+        By the definiton of odd we can find an integer <m>t</m> so that <m>x=2t+1</m>. 
+        Again, By definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>.
+    </p>
+    <p>
+        Now calculate:
+    </p>
+    <md>
+        <mrow>{\color{blue}{x+y}}\amp=(2t+1)+(2s+1)</mrow>
+        <mrow>\amp=2s+2t+1+1</mrow>
+        <mrow>\amp=2s+2t+2</mrow>
+        <mrow>\amp=2(s+t+1)</mrow>
+    </md>
+    <p>
+        Since <m>{\color{purple}{s+t+1}}</m> is an integer, by definition of even, <m>x+y</m> is even.
+    </p>
+    <p>
+    Since we assumed that an arbitrary two integers <m>x</m> and <m>y</m> were odd and showed that <m>x+y</m> is even, we can conclude 
+that for all integers <m>x</m> and <m>y</m>, whenever <m>x</m> and <m>y</m> are odd then <m>x+1</m> is even, by direct proof.
+    </p>
+</example>
+
+</section>
+
+</section>

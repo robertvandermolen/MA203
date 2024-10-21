@@ -21,8 +21,8 @@
         <li>Now, what to do? (Which proving method - until we learn more this will always be direct proof)</li>
     </ul>
 </p>
-<xi:include href="./subsections/subsec-4.2.1-what-is-direct-proof.ptx" />
-<xi:include href="./subsections/subsec-4.2.2-does-it-work.ptx" />
+<xi:include href="./subsections/subsec-3.2.1-what-is-direct-proof.ptx" />
+<xi:include href="./subsections/subsec-3.2.2-does-it-work.ptx" />
 
 
 </section>
