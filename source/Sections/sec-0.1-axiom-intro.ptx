@@ -27,19 +27,30 @@
     
     
 
+
 <p>
-    Once Euclid was ready to formalize this universal experience of geometry he did so by introducing perhaps the most
-    powerful and important concepts in all of philosophy and mathematics. The <em>undefined term</em>.
-</p>
-<p>
-    As one is defining a word they must of course use <em>more words</em>, then those words would of course need 
+    It is our intention to be able to agree, beyond a shadow of doubt, on the truth of a litany of statments. These agreements are called proofs.
+     As one first ventures on this journey they often take many things for granted, perhaps the most important is that we have 
+     a mutual agreemnt/understanding of the words and symbols being used in the discourse. This is easier said than done, as 
+     when one is defining a word they must of course use <em>more words</em>, then those words would of course need 
     even more <em>words</em> to define them... and so on.... and so forth.  
 </p>
 <p>
-    When would this pattern end? We would eventually need to stop. The "stopping" words are known as <alert>undefined terms</alert>
-    For example the almost universally agreed upon undefined terms for geometry are: <term>point</term>, <term>line</term>,
+    When would this pattern end? To ever have a discussion that went foward we would
+    eventually need to stop. The <em>stopping</em> words, are commonly referred to
+    as <alert>undefined terms</alert>. 
+    
+    For example, the almost universally agreed upon undefined terms for geometry are: <term>point</term>, <term>line</term>,
     and <term>incident</term>. 
 </p>
+
+<historical>
+    <p>
+Surprisingly, as Aristotle had already explained the necessity of undefined terms, Euclid did attempt to define the words such as point and line. 
+Luckily this did not effect his discourse as the defintions were vague and used at best to visualize a gemoetry rather than fix them with an 
+immutable meaning.
+    </p>
+</historical>
 
 </section>
 
@@ -47,7 +58,7 @@
     <title>Axioms</title>
 <p>
 After we have all agreed on the undefined terms we would then need to set some <em>ground rules</em>. These rules
-than our new undefined terms must follow are known as <term>axioms</term>. Using our geometry example from above, one
+that our new undefined terms must follow are known as <term>axioms</term>. Using our geometry example from above, one
 common axiom of euclidean geometry is:
 </p>
 <p>
@@ -93,14 +104,19 @@ common axiom of euclidean geometry is:
         instances or phenomena, striving to form a theory, <alert>a model</alert>, that reveals patterns or 
         relationships among quantities and structures in nature. This process labeled as inductive reasoning, drawing 
         general conclusions from particular cases/patterns. Which is supposed to be in stark oppostion to deductive reasoning, 
-        where we draw conclusions based on statements accepted as true, our axioms and undefined terms. Then proofs are built, to
+        where we draw conclusions based on statements accepted as true, our axioms and undefined terms. After which proofs are built, to
         ensure that conclusions are drawn logically to arrive at truth. Yet, it is impossible to seperate these. It is the phenomena
         of our surrounding universe that Euclid yearned to define and describe in his geometries. 
     </p>
     <p>
-        In this class we will not explore the amzaing world of tracing back every single conclusion to an undefined terms 
-        and axioms, but instead we will start with A LOT of assumptions, assumptions students at this stage are used to making, namely 
-        "college algebra". Then later we will use less and less assumptions.
+        Yet, do not take these abstractions as something to be taken for granted. To quote Russell, 
+        "It is only at a high stage of cvilisation that we could take this series as a starting point". Or perhaps to quote another, 
+        "undoubtly it took a million years to get the taste of an oyster just right".
+    </p>
+    <p>
+        In this class we will not explore the amzaing world of tracing back every single conclusion to an undefined term 
+        or axiom, but instead we will start with A LOT of assumptions, assumptions students at this stage are used to making, namely 
+        "college algebra". Then later we will use less and less assumptions, only dipping our toe in the <em>endless</em> pond of abstraction.
     </p>
 </section>
 
