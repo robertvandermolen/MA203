@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-3-6-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-3-7-2" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>First Contradiction Example</title>
     <note>Memorize this. Anyone who has been through this course shall know how to do this proof.</note>
     <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
@@ -32,12 +32,12 @@
     </p>
 
 
-<section xml:id="sec-3-6-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-3-7-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>Assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
 </section>
 
-<section xml:id="sec-3-6-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-3-7-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>Thus, per the definition of rational, we can find two relatively prime integers <m>p</m> and <m>q</m> so that 
     <m>\sqrt{2} =\frac{p}{q}</m> (This is <m>Q</m></p>
@@ -61,7 +61,7 @@
     <p>Since <m>2\mid p</m> and <m>2\mid q</m>, <m>p</m> and <m>q</m> are not relatively prime! (This is the <m>\sim Q</m> part)</p>
 </section>
 
-<section xml:id="sec-3-6-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-3-7-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>Thus we have shown <m>p</m> and <m>q</m> to be relatively prime <alert>and</alert> not relatively prime.</p>
     <p>Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
