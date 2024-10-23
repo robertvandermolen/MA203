@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-6-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>First Contradiction Example</title>
+    <note>Memorize this. Anyone who has been through this course shall know how to do this proof.</note>
+    <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
+
+    <p>Before we begin any proof we sing our song, although it is a little different when we're using contradiction (play-along):</p>
+        <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+        <answer>
+        <p><m>\sqrt{2}</m> is irrational</p>
+        </answer>
+        <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+        <answer>
+        <p>There is no <m>Q</m> this time!</p>
+        </answer>
+        <p>"What're the definitions?" </p>
+        <answer>
+        <p>Rational, relatively prime, and divides (create reference here!)</p>
+        </answer>
+        <p>"Now, what to do?"</p> 
+        <answer>
+        <p>Proof by contradiction - because I said so!</p>
+        </answer>
+
+    <p><alert>The Breakdown:</alert></p>
+    <p>
+        <me>
+            {\color{red}{\sqrt{2} \text{ is rational }}}\text{ muddle }{\color{blue}{\sqrt{2}\text{ is irrational }}}
+        </me>
+        
+    </p>
+
+
+<section xml:id="sec-3-6-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{red}{\text{The Beginning}}}</m></title>
+    <p>Assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
+</section>
+
+<section xml:id="sec-3-6-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{green}{\text{The Muddle}}}</m></title>
+    <p>Thus, per the definition of rational, we can find two relatively prime integers <m>p</m> and <m>q</m> so that 
+    <m>\sqrt{2} =\frac{p}{q}</m> (This is <m>Q</m></p>
+    <p>Calculate:</p>
+    <md>
+        <mrow>\text{square both sides: }2\amp=\frac{p^2}{q^2}</mrow>
+        <mrow>\text{multiply both sides by }q^2: 2q^2\amp=p^2</mrow>
+    </md>
+    <p>But, <m>q^2</m> is an integer, thus, <m>p^2</m> is even!</p>
+    <p>Hence, by Pythagoras' Lemma (REFERENCE NEEDED), <m>p</m> is even!</p>
+    <p>Thus we can find an integer (Note the shoveling off of the invisible quantifier from the definition of even)
+        <m>m</m> so that <m>p=2m</m></p>
+
+    <p>Calculate again:</p>
+    <md>
+        <mrow>2q^2\amp=(2m)^2</mrow>
+        <mrow>\amp=4m^2</mrow>
+        <mrow>\text{Divide both sides by 2 } q^2\amp=2m^2</mrow>
+    </md>
+    <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and by Pythagoras' Lemma, <m>q</m> is even.</p>
+    <p>Since <m>2\mid p</m> and <m>2\mid q</m>, <m>p</m> and <m>q</m> are not relatively prime! (This is the <m>\sim Q</m> part)</p>
+</section>
+
+<section xml:id="sec-3-6-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{blue}{\text{The End}}}</m></title>
+    <p>Thus we have shown <m>p</m> and <m>q</m> to be relatively prime <alert>and</alert> not relatively prime.</p>
+    <p>Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
+
+    <p>Now let's see everything written together in a single spot.</p>
+<example>
+
+    <p><alert>Prove:</alert> </p>
+    <p> <m>\square</m></p>
+</example>
+
+</section>
+
+
+</section>

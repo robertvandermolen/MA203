@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>First Example of Proof by Contraposition</title>
+
+    <p><alert>Prove:</alert> <m>\forall m \in \mathbb{Z} </m> if <m>m^2</m> is odd, then <m>m</m> is odd.</p>
+
+    <p>Before we begin any proof we sing our song (play-along):</p>
+        <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+        <answer>
+        <p><m>m^2</m> is odd</p>
+        </answer>
+        <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+        <answer>
+        <p><m>m</m> is odd</p>
+        </answer>
+        <p>"What're the definitions?" </p>
+        <answer>
+        <p>Odd and even! (found in <xref ref="subsec-4-1-2-terms"/>)</p>
+        </answer>
+        <p>"Now, what to do?"</p> 
+        <answer>
+        <p>Proof by contraposition - because I said so this time</p>
+        </answer>
+
+    <p><alert>The Breakdown:</alert></p>
+    <p>
+        <me>
+            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{red}{m^2 \text{ is odd }}}\text{ then }
+            {\color{blue}{m\text{ is odd}}}
+        </me>
+        
+    </p>
+
+
+<section xml:id="sec-3-5-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{red}{\text{The Beginning}}}</m></title>
+    <p>Just like before, "shovel off" the invisible quantifier and assume the <m>{\color{red}{P}}</m>.</p>
+    <p>Let <m>m</m> be an integer. Assume <m>m</m> is even.</p>
+</section>
+
+<section xml:id="sec-3-5-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{green}{\text{The Muddle}}}</m></title>
+    <p>Thus by definition of even we can find an integer <m>k</m> such that <m>m=2k</m></p>
+    <p>Calculate:</p>
+    <md>
+        <mrow>m^2\amp=(2k)(2k)</mrow>
+        <mrow>\amp=2(2k^2)</mrow>
+    </md>
+</section>
+
+<section xml:id="sec-3-5-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{blue}{\text{The End}}}</m></title>
+    <p>Since <m>2k^2</m> is an integer, according to the definition of even, <m>m^2</m> is even.</p>
+    <p>Don't forget to include a wrap up sentence!</p>
+    <p>Hence, by proof by contraposition if <m>m^2</m> is odd then m is odd. <m>\square</m></p>
+
+    <p>Now let's see everything written together in a single spot.</p>
+<example>
+
+    <p><alert>Prove:</alert> For any integer <m>m</m>, if <m>m^2</m> is odd, then <m>m</m> is odd.</p>
+    <p>Let <m>m</m> be an integer. Assume <m>m</m> is even.</p>
+    <p>Calculate:</p>
+    <md>
+        <mrow>m^2\amp=(2k)(2k)</mrow>
+        <mrow>\amp=2(2k^2)</mrow>
+    </md>
+    <p>Since <m>2k^2</m> is an integer, according to the definition of even, <m>m^2</m> is even.</p>
+    <p>Hence, by proof by contraposition if <m>m^2</m> is odd then m is odd. <m>\square</m></p>
+</example>
+
+</section>
+
+</section>

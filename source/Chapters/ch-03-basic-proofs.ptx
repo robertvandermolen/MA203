@@ -18,6 +18,8 @@
   <xi:include href="../Sections/sec-3.2-dir_proof.ptx" />
   <xi:include href="../Sections/sec-3.3-first-examples.ptx" />
   <xi:include href="../Sections/sec-3.4-more-dir-examples.ptx" />
-  <xi:include href="../Sections/sec-3.6-ch-03-exercises.ptx" />
+  <xi:include href="../Sections/sec-3.5-contrapositive.ptx" />
+  <xi:include href="../Sections/sec-3.6-contradiction.ptx" />
+  <xi:include href="../Sections/sec-3.7-ch-03-exercises.ptx" />
 
 </chapter>

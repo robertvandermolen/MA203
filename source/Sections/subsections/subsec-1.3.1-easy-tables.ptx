@@ -85,7 +85,7 @@ components in a truth table.
         <cell>F</cell>
       </row>
     </tabular>
-  </figure>
+</figure>
 
   <p>
     Next the conjunction (<m>P\vee Q</m>). Since 
