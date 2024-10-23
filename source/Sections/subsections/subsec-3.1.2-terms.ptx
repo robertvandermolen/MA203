@@ -13,7 +13,7 @@
         by falling off monkey bars that are too high, but also large enough that we can actually
         get some <em>real</em> proving in we'll start with a few common defintions, namely odd, even, and divides.
         </p>
-
+<figure xml:id="even-etc-defn">
     <p>
         <assemblage permid="pOu">
             <title>Even</title>
@@ -32,6 +32,7 @@
             </p>
           </assemblage>
     </p>
+
     <p>
         <assemblage permid="pOu">
             <title>Divides</title>
@@ -44,6 +45,7 @@
             </p>
           </assemblage>
     </p>
+</figure>
 
     <p>It is important to become so familiar with these that you could say them in your sleep.</p>
 
