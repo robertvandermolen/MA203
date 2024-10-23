@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-3-6-1" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>What is a contradiction?</title>
-<p>New proving method! Proof by contradiction.</p>
-<p>This is a fun one - more Latin! Now that we know more than one proving method, we need to let our reader know what we're doing
-    So when doing a proof by contradiction, we put [RAA] at the top which stands for <em>reductio ad absurdum</em>, that is, 
-    "reduction to absurdity."</p>
-<p>A proof by contradiction proves <m>P</m></p>
+<section xml:id="sec-3-6-1-more-terms" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-<assemblage permid="pOu">
-    <title>Proof by Contradiction of <m>P</m></title>
-      
+    <p>For our next proofs we are going to have to add a few more definitions to our arsenal or toolbox or whatever analogy you prefer</p>
+
     <p>
-        Assume <m>\sim P</m>
+        <assemblage permid="pOu">
+            <title>Rational</title>
+            <p permid="vSb">
+                <m>\forall x \in \mathbb{Q} \text{ iff } \exists p,q\in \mathbb{Z} \text{ such that the GCD of } p \text{ and } q =1 \text{ and such that } x=\frac{p}{q}</m>
+            </p>
+          </assemblage>
     </p>
+
     <p>
-        <m>\vdots</m>
+        <assemblage permid="pOu">
+            <title>Divides</title>
+            <p permid="vSb">
+                <m>a|b \text{ iff } \exists k\in \mathbb{Z} \text{ such that } b=ak</m>
+            </p>
+          </assemblage>
     </p>
+
     <p>
-        Therefore <m>Q</m>
+        <assemblage permid="pOu">
+            <title>Relatively Prime</title>
+            <p permid="vSb">
+                <m>\forall x,y\in \mathbb{Z} \text{ } x \text{ and } y \text{ are relatively prime iff } \forall t \in \mathbb{Z} \text{ } t|x \text{ and } t|y \text{ then }t=1</m>
+            </p>
+          </assemblage>
     </p>
-    <p>
-        <m>\vdots</m>
-    </p>
-    <p>
-        Therefore <m>\sim Q</m>
-    </p>
-    <p>
-        Thus <m>Q\wedge \sim Q</m> which is a contradicition.
-    </p>
-    <p>Thus <m>\sim P</m> is not valid.</p>
-</assemblage>
 
 </section>
