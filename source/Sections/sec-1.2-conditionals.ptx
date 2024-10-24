@@ -17,6 +17,9 @@
     
     
 <definition xml:id="def-condition">
+    <title>Conditional</title>
+    
+    
     <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
     <statement>
         <p>
@@ -205,6 +208,9 @@
 <section xml:id="sec-2-2-2-biconditional" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Biconditionals</title>
     <definition xml:id="def-biconditional">
+        <title>Biconditional</title>
+        
+        
         <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
         <statement>
             <p>

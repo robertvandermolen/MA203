@@ -16,7 +16,7 @@
     </p>
         
         <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+1 \text{ is even}</me> 
-            we must use defintion of even (<xref ref="subsec-4-1-2-terms"/>), which uses an existential 
+            we must use defintion of even (<xref ref="defn-even"/>), which uses an existential 
         quantifier  so we must (<xref ref="sec-3-4-arguments-with-quant"/>) , be able to produce/point at an
         integer, so that <m>x+1</m> is this integer times 2.</p>
 <p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{k+1}}</m> is an 

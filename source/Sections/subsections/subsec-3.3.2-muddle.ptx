@@ -6,7 +6,7 @@
 <p>To proceed with our proof we don't have much expcept the definitions. 
     (It can be helpful, especially in these early stages of proof writing, to write the 
     relevant definitions to the side in your scratch work - this is why it's part of the song!)</p>
-  <p>  From the definition odd (<xref ref="subsec-4-1-2-terms"/>) we can make the conclusion that:</p> 
+  <p>  From the definition odd (<xref ref="defn-odd"/>) we can make the conclusion that:</p> 
   <p><m>x</m> must look like: 
     <me>
     x=2k+1

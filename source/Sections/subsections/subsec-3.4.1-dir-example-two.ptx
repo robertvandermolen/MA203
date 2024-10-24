@@ -19,7 +19,7 @@ odd then <m>x+y</m> is even.</p>
     </answer>
     <p>"What're the definitions?" </p>
     <answer>
-    <p>Odd and even! (<xref ref="subsec-4-1-2-terms"/>)</p>
+    <p>Odd(<xref ref="defn-odd"/>) and even (<xref ref="defn-even"/>)!</p>
     </answer>
     <p>"Now, what to do?"</p> 
     <answer>
@@ -70,7 +70,7 @@ odd then <m>x+y</m> is even.</p>
         (making note they invovle quantifiers <xref ref="how-to-quantifiers" />).
     </p>
     <p>
-        To apply the definition of odd to our integer <m>x</m> we <em>use</em> the 
+        To apply the definition of odd (<xref ref="defn-odd"/>) to our integer <m>x</m> we <em>use</em> the 
         <em>exists</em> from the proof to produce a new integer which will need a name,
         lets name it <m>t</m>. This <m>t</m> can be found so that <m>x=2t+1</m>.
     </p>
@@ -123,7 +123,7 @@ odd then <m>x+y</m> is even.</p>
         </me>
     </p>
     <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+y \text{ is even}</me> 
-        we must, again, use defintion of even (<xref ref="subsec-4-1-2-terms"/>), which uses an existential 
+        we must, again, use defintion of even (<xref ref="defn-even"/>), which uses an existential 
     quantifier  so we must (<xref ref="sec-3-4-arguments-with-quant"/>) , be able to produce/point at an
     integer, so that <m>x+y</m> is this integer times 2.</p>
 <p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{s+t+1}}</m> is an 

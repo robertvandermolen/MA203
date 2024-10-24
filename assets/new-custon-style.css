@@ -554,3 +554,20 @@
     display: none; /* Experiment with these to see which works */
 }
 
+
+
+.definition .heading .type {
+  display: none; 
+}
+
+.definition .heading .codenumber {
+  display: none; 
+}
+
+.definition .heading .period {
+  display: none;
+}
+
+
+
+

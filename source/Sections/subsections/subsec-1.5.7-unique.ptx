@@ -7,6 +7,9 @@
     only one special member of the universe that satisfies your predicate.
 </p>
 <definition xml:id="def-unique-exists">
+    <title>Unique Existential Quantifier</title>
+    
+    
     <statement>
         <p>
             For a predicate <m>P(x)</m>, the proposition <me>\exists! x\text{ }P(x)</me> is read 

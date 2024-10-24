@@ -34,6 +34,9 @@
 </example>
 
 <definition xml:id="def-equiv-predicate">
+    <title>Equivalent Predicates</title>
+    
+    
     <statement>
         <p>
             For a fixed universe of discord, we say that two predicates, <m>P(x)</m> and <m>Q(x)</m>, are 

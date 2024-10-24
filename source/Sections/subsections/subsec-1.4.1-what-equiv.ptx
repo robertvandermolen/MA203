@@ -4,6 +4,9 @@
   <title>What is an equivalence?</title>
   
   <definition xml:id="def-equiv">
+    <title>Logically Equivalent</title>
+    
+    
     <statement>
       <p>
         Two propostional forms are <term>logically equivalent</term> (or just <term>equivalent</term>) if and

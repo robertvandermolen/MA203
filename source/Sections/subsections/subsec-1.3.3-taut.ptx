@@ -6,6 +6,9 @@
     One of the strongest tools in proving are propositonal statements that are either always true or always false.
 </p>
 <definition xml:id="def-tautology">
+  <title>Tautology</title>
+  
+  
     <statement>
         <p>
             A <term>tautology</term> is a propositional form that is true for any assignment of truth value to its components
@@ -94,6 +97,9 @@
     </tabular>
   </figure>
 <definition xml:id="def-contradiction">
+  <title>Contradiction</title>
+  
+  
   <statement>
     <p>
       A <term>contradiction</term> is a propositional form that is false for any assignment of truth value to its components

@@ -12,6 +12,9 @@
   it.
 </p>
 <definition xml:id="def-exists">
+  <title>Existential Qunatifier</title>
+  
+  
   <statement>
     <p>
       For a predicate <m>P(x)</m>, the sentence <me>\exists x\text{ } P(x)</me> is read <me>\text{"There exists an }x\text{ such that }P(x)\text{"}</me>

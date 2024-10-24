@@ -9,6 +9,9 @@
   call the universal quantifier.
 </p>
 <definition xml:id="def-universal">
+  <title>Universal Quantifier</title>
+  
+  
   <statement>
     <p>
       For a predicate <m>P(x)</m>, the statement <me>\forall x\text{ }P(x)</me> is read

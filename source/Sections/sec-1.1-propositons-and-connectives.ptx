@@ -20,6 +20,9 @@
         indeed complete sentences, as in they express a complete thought, but are neither true nor false.
     </p>
 <definition>
+    <title>Proposition</title>
+    
+    
 <p>A <term>proposition</term> is a sentence that can take only one of two values: truth or false. 
     </p>
 </definition>
@@ -78,6 +81,9 @@
 <!--negation defintion-->
 <p>
 <definition xml:id="def-negation">
+    <title>Negation</title>
+    
+    
     <p>Given a proposition <m>P</m>,</p>
     <statement>
         <p>
@@ -134,6 +140,9 @@
 </p>
 <!--conjuncation defintion-->
 <definition xml:id="def-conjunction">
+    <title>Conjunction</title>
+    
+    
     <p>Given propositions <m>P</m> and <m>Q</m>,</p>
     <statement>
         <p>
@@ -188,7 +197,10 @@
 </p>
 
 <!--disjuncation defintion-->
-<definition ml:id="def-disjunction">
+<definition xml:id="def-disjunction">
+    <title>Disjunction</title>
+    
+    
     <p>Given propositions <m>P</m> and <m>Q</m>,</p>
 <statement>
     <p>The <term>disjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\vee Q</m>, 
@@ -207,7 +219,7 @@
     disjunction.
 </p>
 <p>
-<example sml:id="ex-or">
+<example xml:id="ex-or">
     <title>Some Disjunction Examples</title>
     <p>
         <ol marker="(A)">
