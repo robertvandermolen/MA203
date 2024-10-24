@@ -17,7 +17,7 @@
     <p>
         <definition xml:id="defn-even">
             <title>Even</title>
-            <p permid="vSb">
+            <p >
                 <m>\forall x \in \mathbb{Z}, x</m> is <term>even</term> iff <m>\exists k \in \mathbb{Z}</m> such that <m> x=2k</m>
             </p>
         </definition>
@@ -26,7 +26,7 @@
     <p>
         <definition xml:id="defn-odd">
             <title>Odd</title>
-            <p permid="vSb">
+            <p >
                 <m>\forall x \in \mathbb{Z}, x</m> is <term>even</term> iff <m>\exists k \in \mathbb{Z}</m> such that <m> x=2k+1</m>
                 
             </p>
@@ -36,7 +36,7 @@
     <p>
         <definition xml:id="defn-divides">
             <title>Divides</title>
-            <p permid="vSb">
+            <p >
                 <m>\forall x \in \mathbb{Z}</m> and <m>y\in\Z</m>, we say <m>x</m> <term>divides</term>
                  <m>y</m> iff <m>\exists k \in \mathbb{Z}</m> such that <m> y=kx</m>
             </p>
@@ -44,6 +44,28 @@
                 The notation for <m>x</m> divides <m>y</m> is <m>x|y</m>
             </p>
         </definition>
+    </p>
+    <p>
+        <definition xml:id="defn-rational">
+            <title>Rational</title>
+            <statement>
+            <p>
+                <m>x \in \mathbb{Q} \text{ iff } \exists p,q\in \mathbb{Z} \text{ such that }x=\frac{p}{q}\text{, }q\neq0\text{ and GCD}(p, q) =1 </m>
+            </p>
+            </statement>
+        </definition>
+    </p>
+    <p>
+        <definition xml:id="defn-relatively prime">
+            <title>Relatively Prime</title>
+            <statement>
+               
+        
+            <p>
+                <m>\forall x,y\in \mathbb{Z} \text{ } x \text{ and } y \text{ are relatively prime iff } \forall t \in \mathbb{Z} \text{ } t|x \text{ and } t|y \text{ then }t=1</m>
+            </p>
+        </statement>
+            </definition>
     </p>
 
 

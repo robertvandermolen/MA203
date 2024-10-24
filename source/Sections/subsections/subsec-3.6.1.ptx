@@ -7,7 +7,7 @@
     <p>
         <assemblage permid="pOu">
             <title>Rational</title>
-            <p permid="vSb">
+            <p >
                 <m>\forall x \in \mathbb{Q} \text{ iff } \exists p,q\in \mathbb{Z} \text{ such that the GCD of } p \text{ and } q =1 \text{ and such that } x=\frac{p}{q}</m>
             </p>
           </assemblage>
@@ -25,7 +25,7 @@
     <p>
         <assemblage permid="pOu">
             <title>Relatively Prime</title>
-            <p permid="vSb">
+            <p>
                 <m>\forall x,y\in \mathbb{Z} \text{ } x \text{ and } y \text{ are relatively prime iff } \forall t \in \mathbb{Z} \text{ } t|x \text{ and } t|y \text{ then }t=1</m>
             </p>
           </assemblage>

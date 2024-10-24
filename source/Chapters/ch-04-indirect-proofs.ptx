@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-04-indirect-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Indirect Proofs</title>
+
+  <introduction>
+    <p>blah... </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="../Sections/sec-4.1-contrapositive.ptx" />
+  <xi:include href="../Sections/sec-4.2-contradiction.ptx" />
+  <xi:include href="../Sections/sec-4.3-biconditional.ptx" />
+
+</chapter>

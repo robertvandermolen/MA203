@@ -18,8 +18,8 @@
     <xi:include href="./Chapters/ch-00-what-is-a-proof.ptx" />
     <xi:include href="./Chapters/ch-01-intro-to-logic.ptx" />
     <xi:include href="./Chapters/ch-02-how-to-argue.ptx" />
-    <xi:include href="./Chapters/ch-03-basic-proofs.ptx" />
-    <xi:include href="./Chapters/ch-04-contrapositive-contradiction.ptx" />
+    <xi:include href="./Chapters/ch-03-direct-proofs.ptx" />
+    <xi:include href="./Chapters/ch-04-indirect-proofs.ptx" />
     <xi:include href="./Chapters/ch-05-set-theory.ptx" />
     <xi:include href="./Chapters/ch-06-pmi.ptx" />
     <xi:include href="./Chapters/ch-07-relations.ptx" />
