@@ -19,7 +19,8 @@
   <xi:include href="../Sections/sec-3.3-first-examples.ptx" />
   <xi:include href="../Sections/sec-3.4-more-dir-examples.ptx" />
   <xi:include href="../Sections/sec-3.5-proof-by-cases.ptx" />
-  <xi:include href="../Sections/sec-3.6-more-examples.ptx" />
+  <xi:include href="../Sections/sec-3.6-proofs-of-or.ptx" />
+  <xi:include href="../Sections/sec-3.7-more-examples.ptx" />
   <xi:include href="../Sections/sec-3.8-ch-03-exercises.ptx" />
 
 </chapter>

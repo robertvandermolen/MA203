@@ -15,8 +15,9 @@
     <title>Propositions and Negation</title>
     
     <p>
-        Even though many statements/sentences can be true or can be false, it doesn't make sense to say that any sentence that you could write is true or not. For example a <em>question</em> 
-        such as <em>"Where is my phone"</em> or an exlamatory sentence like <em>"Oh No!"</em>. Both of these examples are 
+        Even though many statements/sentences can be true or can be false, it doesn't make sense to say that any sentence 
+        that you could write is true or not. For example a <em>question</em> 
+        such as <em>"Where is my phone?"</em> or an <em>exclamation</em> like <em>"Oh No!"</em>. Both of these examples are 
         indeed complete sentences, as in they express a complete thought, but are neither true nor false.
     </p>
 <definition>

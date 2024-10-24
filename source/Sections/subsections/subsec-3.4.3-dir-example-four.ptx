@@ -3,22 +3,24 @@
 <section xml:id="sec-4-4-3-dir-example-four" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 4</title>
 
-<p>blah...</p>
-<p><alert>Prove:</alert> <m>\forall x,y \in \mathbb{Z} \text{ if } 5|x \text{ and } 5|y \text{ then } 5|(x+y)</m></p>
+<p>Now lets see an example that is <em>not</em> even nor odd.</p>
+<p><alert>Prove:</alert> <m>\forall x,y\in\Z</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m></p>
+    
+  
 
 <p></p>
 <p>Before we begin any proof we sing our song (play-along):</p>
     <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
     <answer>
-    <p>blah</p>
+    <p><m>5|x</m> and <m>5|y</m></p>
     </answer>
     <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
     <answer>
-    <p>blah</p>
+    <p><m>5|(x-2y)</m></p>
     </answer>
     <p>"What're the definitions?" </p>
     <answer>
-    <p>Odd (<xref ref="defn-odd"/>) and even (<xref ref="defn-even"/>)</p>
+    <p>divides (<xref ref="defn-divides"/>)</p>
     </answer>
     <p>"Now, what to do?"</p> 
     <answer>
@@ -30,7 +32,7 @@
     <p>The Breakdown:</p>
     <p>
         <me>
-            P\implies Q
+           {\color{orange}{\forall x,y\in\Z}}\text{ }  {\color{red}{5|x \text{ and } 5|y}} \implies {\color{blue}{5|(x+y)}}
         </me>
         
     </p>
@@ -39,31 +41,84 @@
 <section xml:id="sec-4-4-3-dir-example-four-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
-        blah...
+        This proof is the same as we have been doing at the beginning as it starts with our <m>{\color{orange}{\text{beginning quantifier}}}</m>. 
+        As usual we take care of that using:
+    </p>
+    <p>
+        "Let <m>x</m> and <m>y</m> be integers."
+    </p>
+    <p>
+        As we are still doing a direct proof our first step invovling this is <m>{\color{red}{\text{Assume the }P}}</m>, and for 
+        this example it is:
+    </p>
+    <p>
+        "Assume that both <m>5|x</m> and <m>5|y</m>."
     </p>
 </section>
 
 <section xml:id="sec-4-4-3-dir-example-four-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
-        blah...
+        In this example we go to our definitions again (being careful for the quantifier <xref ref="how-to-quantifiers"/>), specifically
+        for <m>5|x</m> we use the definition of divides (<xref ref="defn-divides"/>) as follows:
     </p>
+    <p>
+        "By definition of divides we can find an <m>a\in\Z</m> so that <m>x=5a</m>."
+    </p>
+    <p>
+        For <m>5|y</m> we apply the definition of divides (<xref ref="defn-divides"/>) as:
+    </p>
+    <p>
+        "By definition of divides we can find a <m>b\in\Z</m> so that <m>y=5b</m>."
+    </p>
+    <p>
+        Something I have seen students do here is write "exists an integer <m>b</m>". You are using the existential quantifier to produce 
+        a specific integer (<xref ref="how-to-quantifiers"/>), by saying exists you are just telling me that you could theoretically find 
+        one, not telling that you a producing one to use.
+    </p>
+    <p>
+        So now that we have something we can use, like usual we can calculate:
+    </p>
+    <md>
+        <mrow>{\color{blue}{(x-2y)}}\amp=(5a)-(2\cdot(5b))</mrow>
+        <mrow>\amp=5(a-2b)</mrow>
+    </md>
 </section>
 
 <section xml:id="sec-4-4-3-dir-example-four-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
-        blah...
+        From <m>{\color{green}{\text{ muddle }}}</m> we have
+        <me>
+            x+y=5{\color{purple}{(a-2b)}}
+        </me>
+        and then we can reference a couple of our assumptions from <xref ref="sec-4-1-1-what-we-assume"/>, and say:
     </p>
     <p>
-        Now lets see everything written together in a single spot.
+        "Since <m>2b</m> is an integer and thus <m>{\color{purple}{a-2b}}</m> is an integer by the definiton of divides
+        5 divides <m>x-2y</m>."
+    </p>
+    <p>
+        Now lets see everything written together in a single spot, with an appropriate wrap-up.
     </p>
     <example>
         <title>3</title>
         
-        
+        <p><alert>Prove:</alert> <m>\forall x,y\in\Z</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m></p>
+
         <p>
-            Blah...
+            Let <m>x</m> and <m>y</m> be integers. Assume that 5 divides both <m>x</m> and <m>y</m>. Next, we calculate:
+        </p>
+        <md>
+            <mrow>{\color{blue}{(x-2y)}}\amp=(5a)-(2\cdot(5b))</mrow>
+            <mrow>\amp=5(a-2b)</mrow>
+        </md>
+        <p>
+            Since <m>2b</m> is an integer it follows that <m>a-2b</m> is an integer thus by the definiton of divides, 5 divides <m>x-y</m>. 
+        </p>
+        <p>
+            To summarize since we chose arbitrary integers <m>x</m> and <m>y</m> and assume that 5 divides both of them and have shown that <m>5|(x-2y)</m>
+            hence by direct proof we have shown that for any integers <m>x</m> and <m>y</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m>
         </p>
     </example>
 </section>

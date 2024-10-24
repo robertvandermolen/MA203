@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="sec-3-6-2-div-example" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Example with Divides</title>
-
-    <p> Here's an example of a direct proof using the definition of divides.</p>
-    <p><alert>Prove:</alert> <m>\forall x,y \in \mathbb{Z} \text{ if } 5|x \text{ and } 5|y \text{ then } 5|(x+y)</m></p>
-    
-</section>

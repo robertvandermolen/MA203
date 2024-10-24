@@ -9,23 +9,23 @@
     this time.
 </p>
 <p>
-    <alert>Prove:</alert> For all integers <m>x</m> and <m>y</m> if <m>x</m> is even and <m>y</m> is odd
-    then <m>x+y</m> is odd.
+    <alert>Prove:</alert> For all integers <m>x</m> and <m>y</m> if <m>x</m> and <m>y</m> are both odd
+    then <m>x\cdot y</m> is odd.
 </p>
 
 <p></p>
 <p>Before we begin any proof we sing our song (play-along):</p>
     <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
     <answer>
-    <p><m>x</m> is even and <m>y</m> is odd</p>
+    <p><m>x</m> and <m>y</m> are both odd</p>
     </answer>
     <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
     <answer>
-    <p><m>x+y</m> is odd</p>
+    <p><m>x\cdot y</m> is odd</p>
     </answer>
     <p>"What're the definitions?" </p>
     <answer>
-    <p>Odd (<xref ref="defn-odd"/>) and even (<xref ref="defn-even"/>)!</p>
+    <p>Odd (<xref ref="defn-odd"/>)!</p>
     </answer>
     <p>"Now, what to do?"</p> 
     <answer>
@@ -37,7 +37,7 @@
     <p>The Breakdown:</p>
     <p>
         <me>
-            {\color{orange}{\forall x,y\in\Z}}\text{ if }{\color{red}{x \text{ is even and }y\text{ is odd}}}
+            {\color{orange}{\forall x,y\in\Z}}\text{ if }{\color{red}{x \text{ and }y\text{ are both odd}}}
             \text{ then }{\color{blue}{x+y \text{ is odd.}}}
         </me>
         
@@ -47,36 +47,124 @@
 <section xml:id="sec-4-4-2-dir-example-three-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
-        blah...
+        We begin by taking care of our leading quantifier, <m>{\color{orange}{\forall x,y\in\Z}}</m>, 
+        trying our best to never forget <xref ref="how-to-quantifiers"/>. To do this we could use a variety of english statments to do this, 
+        for example:
+        <ul>
+            <li>
+                <p>
+                    "Select two random integers <m>x</m> and <m>y</m>"
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    "Choose two arbitrary integers <m>x</m> and <m>y</m>"
+                </p>
+            </li>
+            <li>
+                <p>
+                    "Let <m>x</m> and <m>y</m> be integers"
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        Next, we do the <m>{\color{red}{\text{first step}}}</m> of a direct proof, that is <m>{\color{red}{\text{Assume the }P}}</m>.
+        From our song we already know this, and that is:
+    </p>
+    <p>
+        "Assume <m>x</m> and <m>y</m> are both odd"
     </p>
 </section>
 
 <section xml:id="sec-4-4-2-dir-example-three-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
-        blah...
+        Now, as we see in this first class of proofs so often, the only tools we really have at our disposal are the definitions from <xref ref="subsec-4-1-2-terms"/>. 
+        In this proof we have to apply a definition twice from our previous line/assumption namely: 
     </p>
+    <ul>
+        <li>
+            <p>
+                <m>x</m> is odd
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>y</m> is odd
+            </p>
+        </li>
+    </ul>
+    <p>
+        Something that bares repeating over and over and over and over again, is to always remember <xref ref="how-to-quantifiers"/>. Right now we need to remember 
+        this because the definition of (<xref ref="defn-odd"/>) invoke an existential quantifier. 
+        So to apply the definition of odd for <m>x</m> we can use language like:
+    </p>
+    <p>
+        "We can find an <m>a\in\Z</m> so that <m>x=2a+1</m>."
+    </p>
+    <p>
+        To use the definition of odd for our <m>y</m> we can use language like:
+    </p>
+    <p>
+        "We can also find a <m>b\in\Z</m> so that <m>y=2b+1</m>."
+    </p>
+    <p>
+        Now that we have used our defintions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ole <em>college algebra</em>. 
+        In a more general look at proofs at a whole is that you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}</m>, namely 
+        that <m>{\color{blue}{x+y\text{ is odd}}}</m>. So we should calculate <m>{\color{blue}{x+y}}</m>.
+    </p>
+    <p>
+        Calculate:
+    </p>
+    <md>
+        <mrow>{\color{blue}{x+y}}\amp=(2a+1)\cdot(2b+1)</mrow>
+        <mrow>\amp=4ab+2a+2b+1</mrow>
+        <mrow>\amp=2(2ab+a+b)+1</mrow>
+    </md>
 </section>
 
 <section xml:id="sec-4-4-2-dir-example-three-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
-        blah...
+        From the <m>{\color{green}{\text{muddle}}}</m> we know have: <me>
+            x+y=2{\color{purple}{(2ab+a+b)}}+1
+        </me>
+        Now, using the definition of odd (<xref ref="defn-odd"/>) and of course <xref ref="how-to-quantifiers"/> we can conclude that from the 
+        <m>{\color{green}{\text{muddle}}}</m> that <m>x+y</m> is odd, as <m>2ab</m> is an integer and thus <m>{\color{purple}{(2ab+a+b)}}</m> is an integer, and hence we have that
+        <m>x+y</m> is an integer times 2 then plus one.
     </p>
 
    
     <p>
-        Now lets see everything written together in a single spot.
+        Now lets see everything written together in a single spot, with a proper wrap-up.
     </p>
     <example>
         <title>2</title>
         
-        
         <p>
-            Blah...
+            <alert>Prove:</alert> For all integers <m>x</m> and <m>y</m> if <m>x</m> and <m>y</m> are both odd
+            then <m>x\cdot y</m> is odd.
+        </p>
+        <p>
+            Select two random integers <m>x</m> and <m>y</m>. Assume that <m>x</m> is even and <m>y</m> is odd. By defintion of even
+            we can find an integer <m>a</m> so that <m>x=2a+1</m>. Also, by the definition of odd we can find an integer <m>b</m> so that 
+            <m>y=2b+1</m>. Now we calculate:
+        </p>
+        <md>
+            <mrow>x+y\amp=(2a+1)\cdot(2b+1)</mrow>
+            <mrow>\amp=4ab+2a+2b+1</mrow>
+            <mrow>\amp=2(2ab+a+b)+1</mrow>
+        </md>
+        <p>
+            Now since <m>2ab+a+b</m> is an integer, we see that <m>x+y</m> is odd. 
+        </p>
+        <p>
+            To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> which we assumed were even and odd, respectively. By direct proof
+            we proved that for all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and <m>y</m> is odd, then <m>x+y</m> is odd. <m>\square</m>
         </p>
     </example>
-    
 </section>
 
 

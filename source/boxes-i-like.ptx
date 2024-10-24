@@ -2,9 +2,10 @@
 
 <!--This makes a Pomeroy Blue box (both border and background) title element is
 the title shown kinda like definiton or example.. replace blah.. with what you want in the box!-->
-<assemblage permid="pOu">
+
+  <assemblage>
     <title>poop</title>
-    <p permid="vSb">
+    <p>
       blah...
     </p>
   </assemblage>
