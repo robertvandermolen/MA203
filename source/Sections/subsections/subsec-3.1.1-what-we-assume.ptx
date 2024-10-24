@@ -65,6 +65,22 @@
             Any Theorem/Lemma/Corrolary given in this chapter, unless otherwise stated.
         </p>
     </li>
+    <li>
+        <p>
+            <term>The Division Algorithm</term>
+        </p>
+        <p>
+            <m>\forall a,b\in\Z</m>, with <m>a\neq0</m>, <m>\exists! q,r\in\Z</m> such that
+            <me>
+                b=aq+r
+            </me>
+            where <m>0\leq r\leq |a|</m>
+            
+        </p>
+        <p>
+            (once we have enough tools we will prove this *cite here rob* but for now we will assume it)
+        </p>
+    </li>
 </ol>
 <p>
     For anything else... just don't assume it! If you can't do a proof without making the assumption you

@@ -4,7 +4,7 @@
 <title>Direct Proof Example 4</title>
 
 <p>blah...</p>
-<p><alert>Prove:</alert></p>
+<p><alert>Prove:</alert> <m>\forall x,y \in \mathbb{Z} \text{ if } 5|x \text{ and } 5|y \text{ then } 5|(x+y)</m></p>
 
 <p></p>
 <p>Before we begin any proof we sing our song (play-along):</p>

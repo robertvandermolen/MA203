@@ -8,8 +8,9 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="../Sections/sec-4.1-contrapositive.ptx" />
-  <xi:include href="../Sections/sec-4.2-contradiction.ptx" />
-  <xi:include href="../Sections/sec-4.3-biconditional.ptx" />
+  <xi:include href="../Sections/sec-4.1-assumptions.ptx" />
+  <xi:include href="../Sections/sec-4.2-contrapositive.ptx" />
+  <xi:include href="../Sections/sec-4.3-contradiction.ptx" />
+  <xi:include href="../Sections/sec-4.4-biconditional.ptx" />
 
 </chapter>
