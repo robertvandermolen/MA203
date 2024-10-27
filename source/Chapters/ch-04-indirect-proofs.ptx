@@ -12,5 +12,6 @@
   <xi:include href="../Sections/sec-4.2-contrapositive.ptx" />
   <xi:include href="../Sections/sec-4.3-contradiction.ptx" />
   <xi:include href="../Sections/sec-4.4-biconditional.ptx" />
+  <xi:include href="../Sections/sec-4.5-proof-by-cases.ptx" />
 
 </chapter>

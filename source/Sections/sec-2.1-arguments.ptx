@@ -14,6 +14,9 @@
       To begin you give the most general form for these <em>steps</em>.
     </p>
 <definition xml:id="def-argument">
+  <title>Argument</title>
+  
+  
   <statement>
     <p>
       The general form of an <term>argument</term> is:
@@ -47,6 +50,9 @@
   framework. To do so so we have the following definition.
 </p>
 <definition xml:id="def-valid">
+  <title>Valid</title>
+  
+  
   <statement>
     <p>
       We will say an argument is <term>valid</term> whenever <me>(A\wedge B)\implies C</me> is a tautology.
@@ -55,6 +61,9 @@
 </definition>
 
 <definition xml:id="def-invalid">
+  <title>Invalid</title>
+  
+  
   <statement>
     <p>
       We will say an argument is <term>invalid</term> whenever <me>(A\wedge B)\implies C</me> is a contradiction.

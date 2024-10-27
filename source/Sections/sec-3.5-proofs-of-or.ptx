@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-3-5-proofs-of-or" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Proofs with Conjunctions and Disjunctions</title>
+    <p>
+        So far we have been proving the prototypical 
+        <me>
+            P\implies Q
+        </me>
+        as it is perhaps one of the most common propositional forms used in mathematics, and otherwise. 
+        Yet, in all of our examples thus far both <m>P</m> and <m>Q</m> have been atomic propositions. In this 
+        section we will be substuting the antecedent and consequent with compound propostions. 
+    </p>
+    <assemblage>
+        <title>Assuming an Or</title>
+        <p>
+          For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statment in the form of 
+          <me>
+            (P\vee R)\implies Q
+          </me>
+          
+        </p>
+        <p>
+            First we:
+        </p>
+        <p>
+            <alert>Prove:</alert> <m>P\implies Q</m>
+        </p>
+        <p>
+            then we:
+        </p>
+        <p>
+            <alert>Prove:</alert> <m>R\implies Q</m>
+        </p>
+      </assemblage>
+      <p>
+        To verify that this argument is valid, we will use a truth table to show:
+        <me>
+            [(P\implies Q)\wedge(R\implies Q)]\implies [(P\vee R)\implies Q]
+        </me>
+        is a tautology.
+      </p>
+      <figure xml:id="assuming-or-table">
+        <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell><m>P</m></cell>
+              <cell><m>Q</m></cell>
+              <cell><m>R</m></cell>
+              <cell><m>(P\vee R)\implies Q</m></cell>
+              <cell><m>[(P\implies Q)\wedge(R\implies Q)]\implies [(P\vee R)\implies Q]</m> </cell>
+            </row>
+            <row>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+            <row>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+             <cell>T</cell>
+             <cell>T</cell>
+            </row>
+            <row>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+            </row>
+            <row>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+            </row>
+            <row>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+            </row>
+            <row>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+            <row>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+            </row>
+            <row>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+          </tabular>
+      </figure>
+      <p>
+        Now we can see an example of this in play.
+      </p>
+      <example>
+        <p>
+            <alert>Prove:</alert> for any two integers <m>x</m> and <m>y</m> if <m>x</m> is even or <m>y</m>
+            is even then <m>x\cdot y</m> is even.
+        </p>
+       <p>
+        <alert>Proof:</alert>
+       </p>
+       <p>
+        Let <m>x</m> and <m>y</m> be integers.</p> 
+        <p>
+        First assume that <m>x</m> is even. By definiton of even 
+        (<xref ref="defn-even"/>) we can find an integer <m>k</m> so that <m>x=2k</m>. Calculate:
+        <md>
+            <mrow>x\cdot y\amp=(2k)\cdot y</mrow>
+            <mrow>\amp=2(ky)</mrow>
+        </md>
+        since <m>ky</m> is an integer by the definition of even, <m>x\cdot y</m> is even.
+       </p>
+       <p>
+        Next, we instead assume <m>y</m> is even. By defintion of even we can find an integer <m>t</m>
+        so that <m>y=2t</m>. Calculate:
+        <md>
+            <mrow>x\cdot y\amp=x\cdot(2t)</mrow>
+            <mrow>\amp=2(xt)</mrow>
+        </md>
+        since <m>xt</m> is an integer by the defintion of even, <m>x\cdot y</m> is even.
+       </p>
+       <p>
+        Now since we have shown that for <m>\forall x,y\in\Z</m> that both <m>x</m> is even implies <m>x\cdot y</m>
+        is even and <m>y</m> is even implies <m>x\cdot y</m> is even,
+        we have thus shown that <m>\forall x,y\in\Z</m>.
+       </p>
+      </example>
+      <p>
+        Another interesting scenerio is when we are trying to conclude a disjunction.
+      </p>
+      <assemblage>
+        <title>Concluding an Or</title>
+        <p>
+          For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statment in the form of 
+          <me>
+            P\implies (Q\vee R)
+          </me>
+          
+        </p>
+        <p>
+            We instead 
+        </p>
+        <p>
+            <alert>Prove:</alert> <m>[P\wedge(\sim R)]\implies Q</m>
+        </p>
+        
+      </assemblage>
+      <p>
+        That is argument is valid can be seen by showing that 
+        <me>
+            [P\implies(Q\vee R)]\equiv[[P\wedge(\sim R)]\implies Q]
+        </me>
+        To do that we will use the tricks of <xref ref="subsec-2-4-3-logic-algebra"/>.
+      </p>
+      <p>
+      <md>
+        <mrow>P\implies (Q\vee R)\amp \equiv [\sim P\vee( Q\vee R) \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee (R\vee Q) \text{ (commutativity)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee R]\vee Q \text{ (associativity)}</mrow>
+        <mrow>\amp \equiv \sim[P\wedge (\sim R)]\vee Q \text{ (De Morgan's)}</mrow>
+        <mrow>\amp \equiv (P\vee R)\implies Q \text{ (Rob's Law)}</mrow>
+    </md>
+    </p>
+</section>

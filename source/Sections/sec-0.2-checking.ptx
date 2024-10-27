@@ -9,6 +9,13 @@
     examples, there's still the chance that one example we haven't tested could show it's false. For example, 
     you might notice that the expression
 </p>
+<historical>
+    <p>
+        This example is inspired by a very similiar one that when I encountered I absolutely fell in love with. I first 
+        found the inspirational example in
+        Smith, Douglas, Maurice Eggen, and Richard St Andre. "A transition to advanced mathematics." (1983).
+    </p>
+</historical>
 <p> 
 <me>x^2-7x+53</me>
 </p>
