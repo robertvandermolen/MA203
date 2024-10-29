@@ -7,20 +7,85 @@
     <p>
         To end this chapter we give some more examples wihtout all of the commentary of our song 
         nor the <m>{\color{red}{\text{beginning}}}</m>, <m>{\color{green}{\text{muddle}}}</m>, and 
-        <m>{\color{blue}{\texts{end}}}</m>. 
+        <m>{\color{blue}{\text{end}}}</m>. 
     </p>
     <example>
         
-        
-        
-        <p><alert>Prove:</alert> for all integers <m>a</m>, <m>b</m>, and <m>c</m> if 
-            <m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m></p>
-        
-        
-        <p>
-            Blah...
-        </p>
+        <p><alert>Prove:</alert> For all integers <m>a</m>, <m>b</m>, and <m>c</m> if <m>a</m> divides 
+            <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m></p>
+        <p>Find some integers <m>a</m>, <m>b</m>, and <m>c</m>. Assume <m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m>. Thus by definition of divides,
+        we can find an integer <m>k</m> such that <m>b=ak</m>. Also by definition of divides, we can find an integer <m>l</m> such that <m>c=bl</m></p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>c\amp=bl</mrow>
+            <mrow>\amp=(ak)l</mrow>
+            <mrow>\amp=a(kl)</mrow>
+        </md>
+        <p>Since <m>kl</m> is an integer, by definition of divides, <m>a</m> divides <m>c</m>. Thus by direct proof, according to the definition of
+            divides, if if <m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m>. <m>\square</m></p>
     </example>
 
+    <example>
+        <p><alert>Prove:</alert> For all integers <m>x</m> and <m>y</m>, if <m>x</m> and <m>y</m> are even, <m>x+y</m> is even.</p>
+        <p>Let <m>x</m> and <m>y</m> be integers. Assume <m>x</m> and <m>y</m> are even. Thus, by definition of even, we can find an integer <m>k</m> so that <m>x=2k</m>,
+        and we can find an integer <m>l</m> so that <m>y=2l</m>.</p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>x+y\amp=2k+2l</mrow>
+            <mrow>\amp=2(k+l)</mrow>
+        </md>
+        <p>Since <m>k+l</m> is an integer, by definition of even, <m>x+y</m> is even. <m>\square</m></p>
+    </example>
 
+    <example>
+        <p><alert>Prove:</alert> an odd integer plus 2 is odd.</p>
+        <p>Let <m>x</m> be an integer. Assume <m>x</m> is odd. Hence, by the definition of odd, we can find an integer <m>k</m> such that <m>x=2k+1</m></p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>x+2\amp=(2k+1)+2</mrow>
+            <mrow>\amp=2(k+1)+1</mrow>
+        </md>
+        <p>Thus, since <m>k+1</m> is an integer, by definition of odd, <m>x+2</m> is odd. <m>\square</m></p>
+    </example>
+
+    <example>
+        <p><alert>Prove:</alert> if 5 divides <m>x</m> and 5 divides <m>y</m> then 5 divides <m>x+y</m></p>
+        <p>Let <m>x</m> and <m>y</m> be integers. Assume 5 divides <m>x</m> and 5 divides <m>y</m>. Hence, by the definition of divides, we can find an integer <m>k</m>
+            so that <m>x=5k</m> and we can find an integer <m>l</m> so that <m>y+5l</m></p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>x+y\amp=5k+5l</mrow>
+            <mrow>\amp=5(k+l)</mrow>
+        </md>
+        <p>Since <m>k+l</m> is an integer, by definition of divides, 5 divides <m>x+y</m>.</p>
+        <p>Thus, by direct proof, if 5 divides <m>x</m> and 5 divides <m>y</m>, then 5 divides <m>x+y</m>. <m>\square</m></p>
+    </example>
+
+    <example>
+        <p><alert>Prove:</alert> If 5 divides <m>x-1</m> and 5 divides <m>y-4</m> then 5 divides <m>x+y</m>.</p>
+        <p>Let <m>x</m> and <m>y</m> be integers. Assume divides <m>x-1</m> and 5 divides <m>y-4</m>. By definition of divides, we can find an integer <m>k</m> such that <m>x-1=5k</m> By definition of divides,
+            we can find an integer <m>m</m> such that <m>y-4=5k</m>.</p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>x+y\amp(x-1)+(y-4)+5</mrow>
+            <mrow>\amp+5k+5m+5</mrow>
+            <mrow>\amp+5(k+m+1)</mrow>
+        </md>
+        <p>Since <m>k+m+1</m> is an integer, by definition of divides, 5 divides <m>x+y</m></p>
+        <p>Thus, by direct proof, if 5 divides <m>x-1</m> and 5 divides <m>y-4</m> then 5 divides <m>x+y</m>. <m>\square</m></p>
+    </example>
+
+    <example>
+        <p><alert>Prove:</alert> For all integers <m>a</m>, <m>b</m>, and <m>c</m> if <m>a</m> divides 
+            <m>b</m> and <m>a</m> divides <m>c</m> then <m>a</m> divides <m>b-c</m></p>
+        <p>Let <m>a</m>, <m>b</m>, and <m>c</m> be integers. Assume <m>a</m> divides <m>b</m> and <m>a</m> divides <m>c</m>.
+            By the definition of divides, we can find an integer <m>h</m> so that <m>b=ah</m> and an integer <m>d</m> so that <m>c=ad</m>.</p>
+        <p>calculate</p>
+        <md>
+            <mrow>b-c\amp=ah-ad</mrow>
+            <mrow>\amp=a(h-d)</mrow>
+        </md>
+        <p>Since <m>h-d</m> is an integer, by definition of divides, <m>a</m> divides <m>b-c</m>. Hence by direct proof, if <m>a</m> divides 
+            <m>b</m> and <m>a</m> divides <m>c</m> then <m>a</m> divides <m>b-c</m>. <m>\square</m></p>
+    </example>
 </section>

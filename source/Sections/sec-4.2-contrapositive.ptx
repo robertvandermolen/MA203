@@ -6,6 +6,7 @@
 
 <xi:include href="./subsections/subsec-3.5.1.ptx" />
 <xi:include href="./subsections/subsec-3.5.2.ptx" />
+<xi:include href="./subsections/subsec-4.2.3-pyth-lemma.ptx" />
 
 
 </section>

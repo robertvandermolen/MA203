@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Pythagoras' Lemma</title>
+
+    <p>You will need to refer to this in later proofs, so don't forget about it.</p>
+    <assemblage>
+        <title>If 2 divides <m>m^2</m> then 2 divides <m>m</m></title>
+        <p>Let <m>m</m> be an integer. Assume 2 does not divide <m>m</m>, thus <m>m</m> is odd. Hence we can find an integer <m>k</m>
+            such that <m>m=2k+1</m>.</p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>m^2\amp=m*m</mrow>
+            <mrow>\amp=(2k+1)(2k+1)</mrow>
+            <mrow>\amp=4k^2 +4k+1</mrow>
+            <mrow>\amp=2(2k^2 +k)+1</mrow>
+        </md>
+        <p>Since <m>2k^2 +k</m> is an integer, by definition of odd, <m>m^2</m> is odd. Thus by proof by contraposition, 
+            if 2 divides <m>m^2</m> then 2 divides <m>m</m>. </p>
+    </assemblage>
+
+</section>
