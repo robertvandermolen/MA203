@@ -74,7 +74,8 @@
             <me>
                 b=aq+r
             </me>
-            where <m>0\leq r\leq |a|</m>
+            where <m>0\leq r\leq |a|</m>. The <m>q</m> is called the <term>quotient</term> and the 
+            <m>r</m> is called the <term>remainder</term>.
             
         </p>
         <p>

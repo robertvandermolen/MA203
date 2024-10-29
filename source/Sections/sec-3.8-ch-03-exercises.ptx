@@ -3,9 +3,88 @@
 <section xml:id="sec-3-8-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Exercises</title>
     <ol>
-        <li><m>\forall x,y \in \mathbb{Z}</m> if <m>x+y</m> is even, then <m>x-y</m> is even</li>
-        <li><m>\forall x,y \in \mathbb{Z}</m> if <m>x</m> and <m>y</m> are odd, then <m>x*y</m> is odd</li>
-        <li><m>\forall x,y,z \in \mathbb{Z}</m> if <m>x</m> is even, and <m>y</m> and <m>z</m> are odd, then <m>(x*y)+z</m> is odd</li>
+        <li><p><m>\forall w,x,y,z \in \mathbb{Z}</m> prove the following.</p>
+        <ol>
+        <li><p>if <m>x+y</m> is even, then <m>x-y</m> is even</p></li>
+        <li><p>if <m>x</m> and <m>y</m> are odd, then <m>x*y</m> is odd</p></li>
+        <li><p>if <m>x</m> is even, and <m>y</m> and <m>z</m> are odd, then <m>(x*y)+z</m> is odd</p></li>
+        <li>
+            <p>
+                if <m>x</m> and <m>y</m> are even then <m>xy</m> is divisible by 4.
+            </p>
+        </li>
+        <li>
+            <p>
+                if <m>x</m> and <m>y</m> are odd then <m>x+y</m> is even.
+            </p>
+        </li>
+        <li>
+            <p>
+                if <m>x</m> and <m>y</m> are even then <m>3x-5y</m> is even.
+            </p>
+        </li>
+        <li>
+            <p>
+                if <m>x</m> is odd then <m>x+2</m> is odd
+            </p>
+        </li>
+        <li>
+            <p>
+                if <m>x|y</m> then <m>x|yz</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                if <m>x|y</m> and <m>w|z</m> then <m>xw|yz</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                if <m>x</m> is odd then <m>x^2+1</m> is even
+            </p>
+        </li>
+        </ol></li>
+        <li>
+            <p>
+                <m>\forall a,b,c\in\Z</m>, prove the following with techniques from <xref ref="subsec-3-5-proofs-of-or"/>
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        blah...
+                    </p>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <p>
+                Suppose that you would use a direct proof if you were to prove the following statements. 
+                For each only write 
+                "<m>{\color{red}{\text{ the beginning }}}</m>" and "<m>{\color{blue}{\text{ the end}}}</m>"
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        For every real valued function <m>f</m>, if <m>f</m> is differentiable then <m>f</m> is continuous.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For all slompins, <m>a</m>, if <m>a</m> is an insteredment then <m>a^2-5</m> is flooxin.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>m</m> is an annsubmir and <m>p</m> is a curric-fac then <m>3m-5p+1</m> is a divisper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For every two integers <m>x</m> and <m>y</m>, if <m>x</m> is threeven and <m>y</m> is thud, then <m>x+y+2</m> is thodd. 
+                    </p>
+                </li>
+            </ol>
+        </li>
     </ol>
 
 </section>

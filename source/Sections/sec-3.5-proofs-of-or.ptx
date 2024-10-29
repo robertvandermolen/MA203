@@ -38,86 +38,23 @@
         <me>
             [(P\implies Q)\wedge(R\implies Q)]\implies [(P\vee R)\implies Q]
         </me>
-        is a tautology.
+        is a tautology. To do so we will show a stronger result using the tricks of <xref ref="subsec-2-4-3-logic-algebra"/>.
       </p>
-      <figure xml:id="assuming-or-table">
-        <tabular halign="center">
-            <row header="yes" bottom="minor" >
-              <cell><m>P</m></cell>
-              <cell><m>Q</m></cell>
-              <cell><m>R</m></cell>
-              <cell><m>(P\vee R)\implies Q</m></cell>
-              <cell><m>[(P\implies Q)\wedge(R\implies Q)]\implies [(P\vee R)\implies Q]</m> </cell>
-            </row>
-            <row>
-              <cell>T</cell>
-              <cell>T</cell>
-              <cell>T</cell>
-              <cell>T</cell>
-              <cell>T</cell>
-            </row>
-            <row>
-              <cell>T</cell>
-              <cell>T</cell>
-              <cell>F</cell>
-             <cell>T</cell>
-             <cell>T</cell>
-            </row>
-            <row>
-              <cell>T</cell>
-              <cell>F</cell>
-              <cell>T</cell>
-              <cell>F</cell>
-              <cell>T</cell>
-            </row>
-            <row>
-              <cell>T</cell>
-              <cell>F</cell>
-              <cell>F</cell>
-              <cell>F</cell>
-              <cell>T</cell>
-            </row>
-            <row>
-              <cell>F</cell>
-              <cell>T</cell>
-              <cell>T</cell>
-            <cell>T</cell>
-            <cell>T</cell>
-            </row>
-            <row>
-              <cell>F</cell>
-              <cell>T</cell>
-              <cell>F</cell>
-              <cell>T</cell>
-              <cell>T</cell>
-            </row>
-            <row>
-              <cell>F</cell>
-              <cell>F</cell>
-              <cell>T</cell>
-            <cell>F</cell>
-            <cell>T</cell>
-            </row>
-            <row>
-              <cell>F</cell>
-              <cell>F</cell>
-              <cell>F</cell>
-              <cell>T</cell>
-              <cell>T</cell>
-            </row>
-          </tabular>
-      </figure>
+      <md>
+        <mrow>(P\vee R)\implies Q\amp \equiv [\sim (P\vee R)]\vee Q \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\wedge (\sim R)]\vee Q \text{ (De Morgan's)}</mrow>
+        <mrow>\amp \equiv [(\sim P)\vee Q]\wedge[ (\sim R)\vee Q ]\text{ (distribution)}</mrow>
+        <mrow>\amp \equiv [P\implies Q]\wedge[R\implies Q] \text{ (Rob's Law)}</mrow>
+    </md>
       <p>
-        Now we can see an example of this in play.
+        Now lets see an example of this in play.
       </p>
       <example>
         <p>
             <alert>Prove:</alert> for any two integers <m>x</m> and <m>y</m> if <m>x</m> is even or <m>y</m>
             is even then <m>x\cdot y</m> is even.
         </p>
-       <p>
-        <alert>Proof:</alert>
-       </p>
+       <proof>
        <p>
         Let <m>x</m> and <m>y</m> be integers.</p> 
         <p>
@@ -143,6 +80,7 @@
         is even and <m>y</m> is even implies <m>x\cdot y</m> is even,
         we have thus shown that <m>\forall x,y\in\Z</m>.
        </p>
+    </proof>
       </example>
       <p>
         Another interesting scenerio is when we are trying to conclude a disjunction.
@@ -165,19 +103,98 @@
         
       </assemblage>
       <p>
-        That is argument is valid can be seen by showing that 
+        That this argument is valid can be seen by showing that 
         <me>
             [P\implies(Q\vee R)]\equiv[[P\wedge(\sim R)]\implies Q]
         </me>
-        To do that we will use the tricks of <xref ref="subsec-2-4-3-logic-algebra"/>.
+        To do that we will again use the tricks of <xref ref="subsec-2-4-3-logic-algebra"/>.
       </p>
       <p>
       <md>
-        <mrow>P\implies (Q\vee R)\amp \equiv [\sim P\vee( Q\vee R) \text{ (Rob's Law)}</mrow>
-        <mrow>\amp \equiv [(\sim P)\vee (R\vee Q) \text{ (commutativity)}</mrow>
+        <mrow>P\implies (Q\vee R)\amp \equiv (\sim P)\vee( Q\vee R) \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv (\sim P)\vee (R\vee Q) \text{ (commutativity)}</mrow>
         <mrow>\amp \equiv [(\sim P)\vee R]\vee Q \text{ (associativity)}</mrow>
         <mrow>\amp \equiv \sim[P\wedge (\sim R)]\vee Q \text{ (De Morgan's)}</mrow>
-        <mrow>\amp \equiv (P\vee R)\implies Q \text{ (Rob's Law)}</mrow>
+        <mrow>\amp \equiv (P\wedge (\sim R))\implies Q \text{ (Rob's Law)}</mrow>
     </md>
     </p>
+    <p>
+    Now lets see an example.
+    </p>
+    <example>
+        <p>
+            <alert>Prove:</alert> For all integers <m>x</m> and <m>y</m> if <m>x</m> is even then
+            <m>y</m> is odd or <m>x+y</m> is even
+        </p>
+       <proof>
+        <p>
+            Let <m>x</m> and <m>y</m> be arbitrary integers. Assume that <m>x</m> is even and that 
+            <m>y</m> is not odd. By the definition of even (<xref ref="defn-even"/>) we can find
+            an integer <m>k</m> so that <m>x=2k</m>. By the division algorithm
+            (<xref ref="sec-4-1-1-what-we-assume"/>) we can find integers <m>q</m> and <m>r</m> such that 
+            <m>0\leq r\lt 2</m> such that <m>y=2q+r</m>. Yet since we assumed <m>y</m> is not odd <m>r\neq 1</m>, 
+            and since <m>r</m> is an integer and <m>0\leq r\lt 2</m> and the only integers which satisfy this inequality
+            are 0 and 1, which only leaves <m>r=0</m> thus <m>y=2q</m>. 
+            Now calculate:
+            <md>
+                <mrow>x+y\amp=2k+2q</mrow>
+                <mrow>\amp=2(k+q)</mrow>
+            </md>
+            Since <m>k+q</m> is an integer by the definition of even <m>x+y</m> is even. 
+        </p>
+        <p>
+            Since we have assumed for two arbitrary integers <m>x</m> and <m>y</m> that <m>x</m> is even and <m>y</m> is 
+            not odd and we have concluded that <m>x+y</m> is even we can conclude For all integers <m>x</m> and <m>y</m> if <m>x</m> is even then
+            <m>y</m> is odd or <m>x+y</m> is even.
+        </p>
+        </proof>
+    </example>
+    <p>
+      The last propositional form we consider in this section is the following.
+    </p>
+
+    <assemblage>
+      <title>Concluding an And</title>
+      <p>
+        For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, one way to prove a statment in the form of 
+        <me>
+          P\implies (Q\wedge R)
+        </me>
+        
+      </p>
+      <p>
+          First we:
+      </p>
+      <p>
+          <alert>Prove:</alert> <m>P\implies Q</m>
+      </p>
+      <p>
+          then we:
+      </p>
+      <p>
+          <alert>Prove:</alert> <m>P\implies R</m>
+      </p>
+    </assemblage>
+    <p>
+      To see that this is a valid way of proving, we once again show an even stronger 
+      result using the methods of <xref ref="subsec-2-4-3-logic-algebra"/>.
+    </p>
+    <p>
+    <md>
+      <mrow>P\implies (Q\wedge R)\amp \equiv (\sim P)\vee( Q\wedge R) \text{ (Rob's Law)}</mrow>
+      <mrow>\amp \equiv [(\sim P)\vee Q]\wedge [(\sim P)\vee R] \text{ (distribution)}</mrow>
+      <mrow>\amp \equiv [P\implies Q]\wedge [P\implies R] \text{ (Rob's Law)}</mrow>
+  </md>
+  </p>
+   
+    <example>
+      <p>
+        <alert>Prove:</alert> For any integers <m>a</m> and <m>b</m>, if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m> and <m>3|(a-b)</m>
+      </p>
+      <proof>
+        <p>
+          Let <m>a</m> and <m>b</m> be arbitrary integers. Assume that <m>3|(a-2)</m>, also assume that <m>3|(b-1)</m>. By defintion of... blah....
+        </p>
+      </proof>
+    </example>
 </section>

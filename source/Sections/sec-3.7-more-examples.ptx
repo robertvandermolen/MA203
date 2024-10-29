@@ -7,7 +7,15 @@
     <p>
         To end this chapter we give some more examples wihtout all of the commentary of our song 
         nor the <m>{\color{red}{\text{beginning}}}</m>, <m>{\color{green}{\text{muddle}}}</m>, and 
-        <m>{\color{blue}{\texts{end}}}</m>. 
+        <m>{\color{blue}{\text{end}}}</m>. It is a great exercise for the interested student to work
+        out all the details themseleves on why these proofs are indeed sufficient. 
+    </p>
+    <p>
+        With that said, as you continue on your mathematical journey you will see that many established
+        mathematicians strive for the shortest proof possible, while these proofs are beautiful you as 
+        a student of this class have not yet earned the <em>badges</em> of life to strive for short 
+        proofs. When doing exercises I suggest you strive for wordy, with an eye to making those
+        words mean something.
     </p>
     <example>
         
@@ -16,11 +24,95 @@
         <p><alert>Prove:</alert> for all integers <m>a</m>, <m>b</m>, and <m>c</m> if 
             <m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m></p>
         
-        
+    <proof>
         <p>
-            Blah...
+            Let <m>a</m>, <m>b</m>, and <m>c</m> be integers. Asssume that <m>a|b</m> and <m>b|c</m>. 
+            By definition of divides (<xref ref="defn-divides"/>) we can find an integer <m>k</m> so 
+            that <m>b=ak</m>. In the same fashion by definition of divides we can find an integer <m>t</m>
+            so that <m>c=bt</m>. Hence
+            <md>
+                <mrow>c\amp=bt</mrow>
+                <mrow>\amp=(ak)t</mrow>
+                <mrow>\amp=a(kt)</mrow>
+            </md>
+            Since <m>kt</m> is an integer we have met the needed premise (<xref ref="how-to-quantifiers"/>) to conculde
+            that (<xref ref="defn-divides"/>) <m>a|c</m>.
         </p>
+        <p>
+            Since we chose 3 arbitrary integers <m>a,b,c</m> and assumed <m>a|b</m> and <m>b|c</m> and have shown that
+            <m>a|c</m>, by direct proof we have proven for all integers <m>a</m>, <m>b</m>, and <m>c</m> if 
+            <m>a</m> divides <m>b</m> and <m>b</m> divides <m>c</m> then <m>a</m> divides <m>c</m>.
+        </p>
+    </proof>
     </example>
 
+    <example>
+        <p>
+            <alert>Prove:</alert> For all integers <m>a</m>, <m>b</m>, and <m>c</m> are integers if <m>a|b</m> and <m>a|c</m>, 
+            then <m>a|(b-c)</m>
+        </p>
+        <proof>
+            <p>
+                Choose three arbitrary integers <m>a</m>, <m>b</m>, and <m>c</m>. Assume that both <m>a|b</m> and <m>a|c</m>. 
+                By definition of divides (<xref ref="defn-divides"/>) we can produce an integer <m>k</m> so that <m>b=ak</m>. 
+                Similarly, by the definition of divides we can come forward with an integer <m>s</m> which has the property that
+                <m>c=as</m>. Now, calculate:
+                <md>
+                    <mrow>b-c\amp=(ak)-(as)</mrow>
+                    <mrow>\amp=a(k-s)</mrow>
+                </md>
+                Since <m>k-s</m> is an integer we have met the required standards (<xref ref="how-to-quantifiers"/>) to use the 
+                definition of divides to conclude that <m>a|(b-c)</m>, as <m>b-c</m> can be expressed as an integer times <m>a</m>.
+            </p>
+            <p>
+                Since we chose 3 arbitrary integers <m>a,b,c</m> and assumed <m>a|b</m> and <m>a|c</m> and have shown that
+            <m>a|(b-c)</m>, by direct proof we have proven, for all integers <m>a</m>, <m>b</m>, and <m>c</m> are integers if <m>a|b</m> and <m>a|c</m>, 
+            then <m>a|(b-c)</m>.
+            </p>
+        </proof>
+    </example>
+
+    <example>
+        <p>
+            <alert>Prove:</alert> For any integers <m>x</m>, <m>y</m>, and <m>z</m>. If <m>x</m> is even and <m>y</m> is odd then there exists an integer <m>k</m>
+            so that <m>x^2+y^2=4k+1</m>.
+        </p>
+        <proof>
+            <p>
+                Grab two random integers <m>x</m>, and <m>y</m>. Assume <m>x</m> is even, and assume <m>y</m> is odd. By definition of 
+                even (<xref ref="defn-even"/>) we can find an integer <m>s</m> so that <m>x=2s</m>. Additionally, by definition of 
+                odd (<xref ref="defn-odd"/>) we are able to produce an integer <m>t</m> with the property that <m>y=2t+1</m>. Calculate:
+                <md>
+                    <mrow>x^2+y^2\amp=(2s)^2+(2t+1)^2</mrow>
+                    <mrow>\amp=4s^2+4t^2+4t+1</mrow>
+                    <mrow>\amp=4(s^2+t^2+t)+1</mrow>
+                </md>
+                Since <m>s^2</m> and <m>t^2</m> are integers we have that <m>s^2+t^2+t</m> is also an integer. Therefore we have enough (<xref ref="how-to-quantifiers"/>)
+                to conclude that <m>x^2+y^2</m> is 4 times an integer plus 1. 
+            </p>
+            <p>
+                Since we chose 2 arbitrary integers <m>x,y</m> and assumed <m>x</m> is even and <m>y</m> is odd, and have shown that
+            <m>x^2+y^2=4k+1</m> for some integer <m>k</m>, by direct proof we have proven, for any integers <m>x</m>, <m>y</m>, and <m>z</m>. If <m>x</m> is even and <m>y</m> is odd then there exists an integer <m>k</m>
+            so that <m>x^2+y^2=4k+1</m>.
+            </p>
+        </proof>
+    </example>
+
+    <example>
+        <p>
+            <alert>Prove:</alert> For every integer <m>x</m>, <m>y</m>, and <m>z</m>, if <m>xy</m> divides <m>z</m> then <m>x</m> divides <m>z</m>.
+        </p>
+        <proof>
+            <p>
+                Let <m>x</m>, <m>y</m>, and <m>z</m> be arbitrary integers. Assume that <m>xy|z</m>. By definition of divdes (<xref ref="defn-divides"/>) we can find an integer
+                <m>k</m> so that <m>z=xyk</m>, yet by the definition of divides since <m>yk</m> is an integer (<xref ref="how-to-quantifiers"/>) we can conclude
+                <m>x|z</m>.
+            </p>
+            <p>
+                Since we chose 3 arbitrary integers <m>x,y,z</m> and assumed <m>xy|z</m> and have shown that
+            <m>x|z</m>, by direct proof we have proven, for every integer <m>x</m>, <m>y</m>, and <m>z</m>, if <m>xy</m> divides <m>z</m> then <m>x</m> divides <m>z</m>.
+            </p>
+        </proof>
+    </example>
 
 </section>

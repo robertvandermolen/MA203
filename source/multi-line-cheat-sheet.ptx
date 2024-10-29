@@ -1,5 +1,5 @@
 <md>
-    <mrow>{\color{blue}{x+y}}\amp=(2t+1)+(2s+1)</mrow>
+    <mrow>x+y\amp=(2t+1)+(2s+1)</mrow>
     <mrow>\amp=2s+2t+1+1</mrow>
     <mrow>\amp=2s+2t+2</mrow>
     <mrow>\amp=2(s+t+1)</mrow>

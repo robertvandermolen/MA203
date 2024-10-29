@@ -4,6 +4,14 @@
 <title>Propositions and Connectives</title>
 <introduction>
     <p>
+        I have heard many students say things like "I'm a math major not an English major".
+        This sentiment becomes further and further from the truth as you continue your journey in 
+        the major of mathematics. For one, you begin to see mathematics as a language itself with 
+        its own gammar and rules, and inparticular in this course you begin to only write paragraphs
+        in exhange for the string of symbols and numbers from your calculus courses. As we begin our journey into 
+        abstract mathematics we need to do the exact opposite of this sentiment, and instead examine 
+        how language works, specifically how language handles truth.</p>
+        <p>
         In English, as in many languages, there are many types of sentences, some more complicated than others. We will
         now be concerning ourselves with if a sentence is true. This is the hallmark of proving, by only writting sentences
         that are true, so that our conclusions are then true.  
