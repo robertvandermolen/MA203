@@ -2,9 +2,15 @@
 
 <section xml:id="sec-3-5-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Contrapositive</title>
+<introduction>
+    <p>
+        This first example of an indirect proof, is quite close to the indirect proof. It takes some of
+        our ingenuity from <xref ref="subsec-2-4-2-important-equiv"/> and puts it to work.
+    </p>
+</introduction>
 <p></p>
 
-<xi:include href="./subsections/subsec-3.5.1.ptx" />
+<xi:include href="./subsections/subsec-4.5.1-what-is-contrapositive.ptx" />
 <xi:include href="./subsections/subsec-3.5.2.ptx" />
 
 

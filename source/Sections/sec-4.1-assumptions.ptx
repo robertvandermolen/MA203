@@ -18,7 +18,7 @@
     </p>
     <p>
         <definition xml:id="defn-gcd">
-            <title>Common Divisor</title>
+            <title>Greatest Common Divisor</title>
             <statement>
             <p>
                 <m>\forall a,b,c\in\Z</m>, all non-zero, we call <m>c</m> the <term>greatest common divisor</term>

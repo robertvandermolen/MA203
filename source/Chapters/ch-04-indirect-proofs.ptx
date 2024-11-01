@@ -4,8 +4,12 @@
   <title>Indirect Proofs</title>
 
   <introduction>
-    <p>blah... </p>
-  </introduction>
+    <p>
+        The students go-to proof is most commonly the direct proof, yet there are many methods of 
+        proving that do not involve this method, they are broadly described as indirect proofs. In this chapter 
+        we will go through a few examples.
+    </p>
+</introduction>
 
   <!-- include sections -->
   <xi:include href="../Sections/sec-4.1-assumptions.ptx" />
@@ -13,5 +17,7 @@
   <xi:include href="../Sections/sec-4.3-contradiction.ptx" />
   <xi:include href="../Sections/sec-4.4-biconditional.ptx" />
   <xi:include href="../Sections/sec-4.5-proof-by-cases.ptx" />
+  <xi:include href="../Sections/sec-4.6-existential-proofs.ptx" />
+  
 
 </chapter>

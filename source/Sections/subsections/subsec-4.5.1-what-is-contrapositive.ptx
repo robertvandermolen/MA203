@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-4-5-1-what-is-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>What is a Proof by Contraposition?</title>
+<p>
+    A proof by contraposition uses (of course) the contraposition from <xref ref="subsec-2-4-2-important-equiv"/>
+</p>
+<p><me>[P\implies Q] \equiv [(\sim Q)\implies (\sim P)]</me></p>
+<p>So that we can prove <m>P \implies Q</m> by instead proving <m>(\sim Q)\implies(\sim P)</m>. To prove 
+this equivalent statment we will use direct proof. We summarize this in the following.</p>
+
+    <assemblage>
+        <title>Proof by Contrapositive of <m>P\implies Q</m></title>
+      
+        <p>
+          Assume <m>\sim Q</m>
+        </p>
+        <p>
+            <m>\vdots</m>
+        </p>
+        <p>
+            Therefore <m>\sim P</m>
+        </p>
+        <p>
+            Thus <m>P\implies Q</m>
+        </p>
+      </assemblage>
+
+      <p>
+        Again, the title of the text becomes clear:
+      </p>
+      <p>
+        <m>{\color{red}{\text{Beginning}}}</m> -- Assume <m>\sim Q</m>
+      </p>
+      <p>
+        <m>{\color{green}{\text{Muddle}}}</m> -- ...
+      </p>
+      <p>
+        <m>{\color{blue}{\text{End}}}</m>  -- Therefore <m>\sim P</m>
+      </p>
+
+</section>
