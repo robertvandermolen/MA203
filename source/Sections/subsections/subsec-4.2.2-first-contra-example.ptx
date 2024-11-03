@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-5-2-first-contra-example" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>First Example of Proof by Contraposition</title>
+<section xml:id="sec-4-2-2-first-contra" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>First Example of Contrapositive</title>
 <p>
     For our first example, just as in <xref ref="sec-4-2-direct-proof"/>, we will give as many <em>gory</em> 
     details as we can think of to help the eager student of proofs.

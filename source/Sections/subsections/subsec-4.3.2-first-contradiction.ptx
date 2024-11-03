@@ -1,0 +1,42 @@
+<section xml:id="sec-4-3-2-first-contra-example" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>First Example of Proof by Contradiction</title>
+    <p>
+        For our first example of contradiction we will stick with our saftey blanket of the integers. 
+    </p>
+    <p><alert>Prove:</alert> For all integers <m>a</m> and <m>b</m> if <m>a</m> and <m>b</m> are both odd 
+        then <m>a\codt b</m> is odd. I don't like this example come up with another one...</p>
+    
+    <p>Before we begin any proof we sing our song, although it is a little different when we're using contradiction (play-along):</p>
+        <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+        <answer>
+        <p><m>a</m> and <m>b</m> are odd</p>
+        </answer>
+        <p>"What's the <m>{\color{red}{Q}}</m>?"</p> 
+        <answer>
+        <p><m>a\cdot b</m> is odd</p>
+        </answer>
+        <p>"What're the definitions?" </p>
+        <answer>
+        <p>even (<xref ref="defn-even"/>) and odd (<xref ref="defn-odd"/>)</p>
+        </answer>
+        <p>"Now, what to do?"</p> 
+        <answer>
+        <p>Proof by contradiction - so we can try and learn it!</p>
+        </answer>
+
+    <p><alert>The Breakdown:</alert></p>
+    <p>
+        <me>
+            {\color{red}{\sqrt{2} \text{ is rational }}}\text{ muddle }{\color{blue}{\sqrt{2}\text{ is irrational }}}
+        </me>
+        
+    </p>
+    <p>
+        This is a fun one - more Latin! Now that we know more than one proving method, we need to let our reader know what we're doing
+        So when doing a proof by contradiction, we put [RAA] at the top which stands for <em>reductio ad absurdum</em>, that is, 
+        "reduction to absurdity."
+    </p>
+    <p>
+        blah..
+    </p>
+</section>

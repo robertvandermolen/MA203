@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-3-7-contradiction" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-4-3-contradiction" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Contradiction</title>
-<p></p>
+<p>Our next method for proving is known as proof by contradiction. It is an extremely powerful example of 
+    an indirect proof. It plays off the concept of the excluded middle, in more plain language a statement is either true of false and nothing inbetween.
+</p>
+<historical>
+    <p>
+        The excluded middle is also known as the law / principle of the excluded third, in Latin principium tertii exclusi. Another Latin designation for this law is tertium non datur or "no third [possibility] is given".
+    </p>
+</historical>
 
-<xi:include href="./subsections/subsec-3.7.1.ptx" />
-<xi:include href="./subsections/subsec-3.7.2.ptx" />
-
+<xi:include href="./subsections/subsec-4.3.1-what-is-a-contradiction.ptx" />
+<xi:include href="./subsections/subsec-4.3.2-first-contradiction.ptx" />
+<xi:include href="./subsections/subsec-4.3.3-root-two.ptx" />
 
 </section>

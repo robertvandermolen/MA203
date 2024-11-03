@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-3-5-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-4-2-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Contrapositive</title>
 <introduction>
     <p>
@@ -10,8 +10,8 @@
 </introduction>
 <p></p>
 
-<xi:include href="./subsections/subsec-4.5.1-what-is-contrapositive.ptx" />
-<xi:include href="./subsections/subsec-4.5.2-first-contra-example.ptx" />
+<xi:include href="./subsections/subsec-4.2.1-what-is-contrapositive.ptx" />
+<xi:include href="./subsections/subsec-4.2.2-first-contra-example.ptx" />
 
 
 </section>
