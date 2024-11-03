@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-5-2-first-contra-example" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>First Example of Proof by Contraposition</title>
+<p>
+    For our first example, just as in <xref ref="sec-4-2-direct-proof"/>, we will give as many <em>gory</em> 
+    details as we can think of to help the eager student of proofs.
+</p>
+    <p><alert>Prove:</alert> <m>\forall m \in \mathbb{Z} </m> if <m>m^2</m> is odd, then <m>m</m> is odd.</p>
+
+    <p>Before we begin any proof we sing our song (play-along):</p>
+        <p>"What's the <m>{\color{blue}{P}}</m>?"</p> 
+        <answer>
+        <p><m>m^2</m> is odd</p>
+        <p>
+            But... for this question we need to really know the <m>\sim P</m>:
+        </p>
+        <p>
+            <m>m</m> is not odd odd
+        </p>
+        </answer>
+        <p>"What's the <m>{\color{red}{Q}}</m>?"</p> 
+        <answer>
+        <p><m>m</m> is odd</p>
+        <p>
+            But... again... for this question we need to really know the <m>\sim Q</m>:
+        </p>
+        <p>
+            <m>m^2</m> is not odd odd
+        </p>
+        </answer>
+        <p>"What're the definitions?" </p>
+        <answer>
+        <p>Odd and even! (found in <xref ref="subsec-4-1-2-terms"/>)</p>
+        </answer>
+        <p>"Now, what to do?"</p> 
+        <answer>
+        <p>Proof by contraposition - because we are trying to learn it</p>
+        </answer>
+
+    <p><alert>The Breakdown of the orginal:</alert></p>
+    <p>
+        <me>
+            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{red}{m^2 \text{ is odd }}}\text{ then }
+            {\color{blue}{m\text{ is odd}}}
+        </me>
+    </p>
+    <p></p>
+    <p><alert>The Breakdown of the contrapositive:</alert></p>
+    <p>
+        <me>
+            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{blue}{m \text{ is not odd }}}\text{ then }
+            {\color{red}{m^2\text{ is not odd}}}
+        </me>
+    </p>    
+    <p></p>
+
+    <p>
+       <note>
+        <p>
+            When first getting used to the contrapositive students have at times made the mistake of negating the <m>{\color{orange}{\text{beginning quantifier}}}</m>
+            which in this case would be <m>\exists m\in\Z</m>. Be careful as the statment actually has the form <m>\forall m\in\Z</m> <m>R(m)</m> where
+            <me>
+                R(m):\text{ if }m^2 \text{ is odd then }
+                m\text{ is odd}
+            </me>
+        </p>
+       </note>
+    </p>
+    <p></p>
+
+<section xml:id="sec-3-5-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{red}{\text{The Beginning}}}</m></title>
+    <p>Just like before, "shovel off" the <m>{\color{orange}{\text{beginning quantifier}}}</m> 
+        <me>
+            {\color{orange}{\forall m\in\Z}}
+        </me>
+        using the guidance of <xref ref="how-to-quantifiers"/> by choosing an arbitrary element, with language like:</p> 
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Let <m>m</m> be an integer
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Choose an arbitrary integer <m>m</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pick an integer <m>m</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Take any integer <m>m</m> of your choice
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Let <m>m</m> be a freely chosen integer
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Assume <m>m</m> is an integer, chosen arbitrarily 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Designate an integer <m>m</m> of arbitrary selection
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Grab yerself any ol' integer, and let it be called <m>m</m>!
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Hark! Select an integer, and let it bear the name <m>m</m>, chosen as thou wilt
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pick an integer, any integer, and call it <m>m</m>. Doesn't matter which—it could be lurking anywhere, but <m>m</m> is the one we'll follow
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Aye, take <m>m</m>, an integer, any integer, 
+                        an <m>m</m> of no particular choosing but of the choosing all the same—floating through the mind like a thought barely caught, 
+                        yet caught still: <m>m</m> it is.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+       Now we take care of our <m>{\color{red}{\text{beginning}}}</m> of our proof using this new method of proof by contrapostion, 
+       by assuming <m>{\color{red}{\sim Q}}</m>.</p>
+    <p>Assume <m>m</m> is not odd.</p>
+    <p>
+        Now, many of you may be reading this last line yelling with your fist in the air saying, "who says not odd, just say even". 
+        Yet, we must of course consult our <em>allowed assumptions</em> section (<xref ref="sec-4-1-what-we-assume-ch-04"/>) and the assumption
+        that "not odd" is equivalent to "even" is not one of those!
+    </p>
+</section>
+
+<section xml:id="sec-3-5-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{green}{\text{The Muddle}}}</m></title>
+<p>
+    As the pain point of even vs odd is not lost to me and it will be helpful to be able to write proofs without having to
+    prove that not odd is the same as even every single time. This want to not prove something over and over again, or 
+    to seperate a smaller proof from a different result comes up a lot, so when we want to do this we create a Lemma. 
+</p>    
+<historical>
+    <p>
+        The word <em>Lemma</em> comes from the Ancient Greek λῆμμα, (perfect passive εἴλημμαι) 
+        something received or taken. Thus something taken for granted in an argument.
+    </p>
+</historical>
+<lemma xml:id="lem-odd-not-even">
+    <statement>
+        <p>
+           Let <m>y</m> be an integer, then <m>y</m> is either even or odd.
+        </p>
+    </statement>
+</lemma>
+<proof>
+    <p>
+        By the division algorithm
+            (<xref ref="sec-4-1-1-what-we-assume"/>) we can find integers <m>q</m> and <m>r</m> such that 
+            <m>0\leq r\lt 2</m> such that <m>y=2q+r</m>. Yet since <m>r</m> is an integer and <m>0\leq r\lt 2</m> 
+            and the only integers which satisfy this inequality
+            are 0 and 1, we are left only with <m>y=2q+0=2q</m> (even) or <m>y=2q+1</m> (odd). 
+    </p>
+</proof>
+<p>
+    With our assumption that <m>m</m> is not odd and this Lemma in hand we could use Disjunctive Syllogism (<xref ref="argument-types"/>) 
+    in our proof we could write:
+</p>
+<p>
+    Since we assumed that <m>m</m> is not odd by <xref ref="lem-odd-not-even"/> we can conclude that <m>m</m> is even.
+</p>
+<p>
+    Now we finally have in our proof that <m>m</m> is even so we can go back to what we have come accustomed to: using the definitions. 
+    Specifically in this example we could write something like:
+</p>
+<p>Thus by definition of even we can find an integer <m>k</m> such that <m>m=2k</m></p>
+<p>
+    Then, we could continue <em>following our nose</em> to do the common muddle so far in this text, and that is to <em>calculate</em>.
+</p>
+    <p>Calculate:</p>
+    <md>
+        <mrow>m^2\amp=(2k)(2k)</mrow>
+        <mrow>\amp=2(2k^2)</mrow>
+    </md>
+</section>
+
+<section xml:id="sec-3-5-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{blue}{\text{The End}}}</m></title>
+<p>
+    From the <m>{\color{green}{\text{muddle}}}</m> we have that 
+    <me>
+        m^2=2(2k^2)
+    </me>
+    from the definitoin of even (<xref ref="defn-even"/>) we can now conclude:
+</p>    
+<p>Since <m>2k^2</m> is an integer, according to the definition of even, <m>m^2</m> is even.</p>
+<p>
+    Now this is not exactly what we want to conclude. We want to conclude that: <m>{\color{green}{m^2\text{ is not odd}}}</m> 
+    so again using Disjunctive Syllogism (<xref ref="argument-types"/>) and our newest lemma we could write:
+</p>
+<p>
+    Because we have concluded that <m>m^2</m> is even by <xref ref="lem-odd-not-even"/> we can now conclude that <m>m^2</m> is not odd.
+</p>
+    <p>Finally, we can write our wrap up sentence!</p>
+    <p>Hence, by proof by contraposition if <m>m^2</m> is odd then m is odd. <m>\square</m></p>
+
+    <p>Now let's see everything written together in a single spot.</p>
+<example>
+
+    <p><alert>Prove:</alert> For any integer <m>m</m>, if <m>m^2</m> is odd, then <m>m</m> is odd.</p>
+    <p>Let <m>m</m> be an integer. Assume <m>m</m> is not odd. Hence, by <xref ref="lem-odd-not-even"/> we can conclude that <m>m</m> is even.</p>
+    <p>
+        By definiton of even we can find an integer <m>k</m> such that <m>m=2k</m>
+    </p>
+    <p>Calculate:</p>
+    <md>
+        <mrow>m^2\amp=(2k)(2k)</mrow>
+        <mrow>\amp=2(2k^2)</mrow>
+    </md>
+    <p>
+        Since <m>2k^2</m> is an integer, according to the definition of even, <m>m^2</m> is even. 
+        Because we have concluded that <m>m^2</m> is even by <xref ref="lem-odd-not-even"/> we 
+        can now conclude that <m>m^2</m> is not odd.
+    </p>
+    <p>Hence, by proof by contraposition if <m>m^2</m> is odd then m is odd. <m>\square</m></p>
+</example>
+
+</section>
+
+</section>
