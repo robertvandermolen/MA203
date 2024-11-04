@@ -130,12 +130,12 @@
   </row>
   <row bottom="minor" left="minor">
     <cell right="minor"><m>\forall</m></cell>
-    <cell right="minor">It works for any element you'd like</cell>
+    <cell right="minor">It always works so use it for one that you <em>already have</em></cell>
     <cell right="minor">Universal Instantiation</cell>
   </row>
   <row bottom="minor" left="minor">
     <cell right="minor"><m>\exists</m></cell>
-    <cell right="minor">Can <em>produce</em> an element it works for and use it</cell>
+    <cell right="minor">Can <em>produce</em> an element it works for and then you can use it</cell>
     <cell right="minor">Existential Instantiation</cell>
   </row>
 </tabular>
@@ -152,12 +152,12 @@
     </row>
     <row bottom="minor" left="minor">
       <cell right="minor"><m>\forall</m></cell>
-      <cell right="minor">Show it works for an arbitrary one </cell>
+      <cell right="minor">choose an arbitrary one and then show it works for that one</cell>
       <cell right="minor">Universal Generalization</cell>
     </row>
     <row bottom="minor" left="minor">
       <cell right="minor"><m>\exists</m></cell>
-      <cell right="minor"><em>GIVE</em> an element and show it works</cell>
+      <cell right="minor"><em>GIVE</em> an element and <em>then</em> show it works for that one</cell>
       <cell right="minor">Existential Generalization</cell>
     </row>
   </tabular>
