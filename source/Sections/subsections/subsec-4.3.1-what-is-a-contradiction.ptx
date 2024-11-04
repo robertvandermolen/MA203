@@ -3,61 +3,61 @@
 <section xml:id="sec-4-3-1-what-is-a-contradiction" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>What is a contradiction?</title>
 <p>
-    Proof by contradiction is the most different than the direct proof yet. The first big difference is that before now we have always considered the case where we were proving <m>P\implies Q</m> yet this time we will be only considering proving any proposition <m>P</m>. This does not mean that we will not use it to prove propoositions in the form of an implication, because we definitely will, it is just that we set up the proof not seperating the implication as we have done before. 
+    Proof by contradiction is the most different than the direct proof yet. The first big difference is that before now we have always considered the case where we were proving <m>P\implies Q</m> yet this time we will be only considering proving any proposition <m>R</m>. This does not mean that we will not use it to prove propoositions in the form of an implication, because we definitely will, it is just that we set up the proof not seperating the implication as we have done before. 
 </p>
 
 
 
 <assemblage>
-    <title>Proof by Contradiction of <m>P</m></title>
+    <title>Proof by Contradiction of <m>R</m></title>
       
     <p>
-        Assume <m>\sim P</m>
+        Assume <m>\sim R</m>
     </p>
     <p>
         <m>\vdots</m>
     </p>
     <p>
-        Therefore <m>Q</m>
+        Therefore <m>T</m>
     </p>
     <p>
         <m>\vdots</m>
     </p>
     <p>
-        Therefore <m>\sim Q</m>
+        Therefore <m>\sim T</m>
     </p>
     <p>
-        Hence <m>Q\wedge \sim Q</m> which is a contradicition.
+        Hence <m>T\wedge \sim T</m> which is a contradicition.
     </p>
-    <p>Thus <m>P</m></p>
+    <p>Thus <m>R</m></p>
 </assemblage>
 <p>
     On first look it might also seem to not follow our title, but of course:
   </p>
   <p>
-    <m>{\color{red}{\text{Beginning}}}</m> -- Assume <m>\sim P</m>
+    <m>{\color{red}{\text{Beginning}}}</m> -- Assume <m>\sim R</m>
   </p>
   <p>
-    <m>{\color{green}{\text{Muddle}}}</m> -- conclude <m>Q</m> ... conclude <m>\sim Q</m>
+    <m>{\color{green}{\text{Muddle}}}</m> -- conclude <m>T</m> ... conclude <m>\sim T</m>
   </p>
   <p>
-    <m>{\color{blue}{\text{End}}}</m>  -- Therefore <m>P</m>
+    <m>{\color{blue}{\text{End}}}</m>  -- Therefore <m>T\wedge(\sim T)</m> is a contradiction
   </p>
   <p>
     This proving method may also not seem to fit immediately into our argument section (<xref ref="ch-03-how-to-argue"/>). To see how it fits in first notice that before the conclusion this method is simply the direct proof of the statement
         
             <me>
-                (\sim P)\implies [Q\wedge (\sim Q)]
+                (\sim R)\implies [T\wedge (\sim T)]
             </me>
             
-        Yet, this is equivalent to <m>P</m>, to see that consider the following truth table.
+        Yet, this is equivalent to <m>R</m>, to see that consider the following truth table.
         <figure>
             <tabular halign="center">
               <row header="yes" bottom="minor" >
-                <cell><m>P</m></cell>
-                <cell><m>Q</m></cell>
-                <cell><m>[Q\wedge (\sim Q)]</m></cell>
-                <cell><m>(\sim P)\implies [Q\wedge (\sim Q)]</m></cell>
+                <cell><m>R</m></cell>
+                <cell><m>T</m></cell>
+                <cell><m>[T\wedge (\sim T)]</m></cell>
+                <cell><m>(\sim R)\implies [T\wedge (\sim T)]</m></cell>
               </row>
               <row>
                 <cell>T</cell>
