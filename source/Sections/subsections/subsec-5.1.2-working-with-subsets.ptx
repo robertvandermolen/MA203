@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-5-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Working with Subsets</title>
+
+<theorem xml:id="thm-5-1">
+    <title>How am I supposed to number these?</title>
+    <statement>
+        <p>
+            If <m>A</m> and <m>B</m> are sets with no elements, then <m>A=B</m>. In other words, the empty set is unique.
+        </p>
+    </statement>
+</theorem>
+
+<theorem xml:id="thm-5-2">
+    <title>Again with the naming</title>
+    <statement>
+        <p>
+            For any sets <m>A</m> and <m>B</m>, if <m>A \subset B</m> and <m>A \neq 0</m> then <m>B \neq 0</m>
+        </p>
+    </statement>
+</theorem>
+
+<theorem xml:id="thm-5-3">
+    <title>The one that we all hated</title>
+    <statement>
+        <p>
+            For all sets <m>A</m>, <m>B</m>, and <m>C</m>:
+        </p>
+        <ol marker="(a)">
+            <li><m>A \subset A \bigcup B</m></li>
+            <li><m>A \bigcap B \subset A</m></li>
+            <li><m>A \bigcap \{\} = \{\}</m></li>
+            <li><<m>A \bigcup \{\} = A</m>/li>
+            <li><m>A \bigcap A = A</m></li>
+            <li><m>A \bigcup A = A</m></li>
+            <li><m>A-\{\} = A</m></li>
+            <li><m>\{\} - A = \{\}</m></li>
+            <li><m>A \bigcup B = B \bigcup A</m> (commutativity)</li>
+            <li><m>A \bigcap B = B \bigcap A</m> (commutativity)</li>
+            <li><m>A \bigcup (B \bigcup C)=(A \bigcup B)\bigcup C</m> (associativity)</li>
+            <li><m>A \bigcap (B \bigcap C)=(A \bigcap B)\bigcap C</m> (associativity)</li>
+            <li><m>A \bigcap (B \bigcup C)=(A \bigcap B) \bigcup (A \bigcap C)</m> (distributivity)</li>
+            <li><m>A \bigcup (B \bigcap C)=(A \bigcup B) \bigcap (A \bigcup C)</m> (distributivity)</li>
+            <li><m>A \subset B</m> if and only if <m>A \bigcup B = B</m></li>
+            <li><m>A \subset B </m> if and only if <m>A \bigcap B = A</m></li>
+            <li>If <m>A \subset B</m> then <m>A \bigcup C \subset B \bigcup C</m></li>
+            <li>If <m>A \subset B</m> then <m>A \bigcap C \subset B \bigcap C</m></li>
+        </ol>
+
+    </statement>
+</theorem>
+
+<theorem xml:id="thm-5-4">
+    <statement>
+        <ol marker="(a)">
+            <li>For every set <m>A</m>, <m>\{\} \subset A</m></li>
+            <li>For every set <m>A</m>, <m>A \subset A</m></li>
+            <li>For all sets <m>A</m>, <m>B</m>, and <m>C</m>, if <m>A \subset B</m> and <m>B \subset C</m>, then <m>A \subset C</m></li>        
+        </ol>
+    </statement>
+</theorem>
+
+<p>Now we have to consider, how do we show that one set equals another, that is, <m>A=B</m>? This is another two-part proof.</p>
+<ul>
+    <li>Prove that <m>A \subset B</m></li>
+    <li>Prove that <m>B \subset A</m></li>
+    <li>Conclude that <m>A=B</m></li>
+</ul>
+</p>To put it another way, <m>A=B</m> if and only if (<m>A \subset B \wedge B \subset A</m>)</p>
+
+
+
+</section>

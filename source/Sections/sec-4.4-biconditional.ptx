@@ -2,5 +2,35 @@
 
 <section xml:id="subsec-3-7-biconditional" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Biconditional Proofs</title>
-<p>blah...</p>
+
+    <example>
+        <title>1</title>
+        <p><alert>Prove:</alert> <m>a</m> is odd if and only if <m>a+1</m> is even.</p>
+        <p>Let <m>a</m> be an integer</p>
+        <p>[<m>\implies</m>] (if <m>a</m> is odd then <m>a+1</m> is even)</p>
+        <p>Assume <m>a</m> is odd. Hence, by definition of even we can find an integer <m>k</m> so that <m>a=2k+1</m></p>
+        <p>Calculate</p>
+        <md>
+            <mrow>a+1\amp=2k+1+1</mrow>
+            <mrow>\amp=2k+2</mrow>
+            <mrow>\amp=2(k+1)</mrow>
+        </md>
+        <p>Since <m>k+1</m> is an integer, by definition of even, <m>a+1</m> is even. Hence by direct proof, 
+            if <m>a</m> is odd then <m>a+1</m> is even.</p>
+        <p>[<m>\impliedby</m>] (if <m>a+1</m> is even, then <m>a</m> is odd)</p>
+        <p>Assume <m>a+1</m> is even. Hence, by definition of even we can find an integer <m>m</m> such that <m>a+1=2m</m></p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>a+1\amp=2m</mrow>
+            <mrow>a\amp=2m-1</mrow>
+            <mrow>\amp=2m-1-1+1</mrow>
+            <mrow>\amp=2(m-1)+1</mrow>
+        </md>
+        <p>Thus, since <m>m-1</m> is an integer, by definition of odd, <m>a</m> is odd. Thus by direct proof if <m>a+1</m> 
+            is even, then <m>a</m> is odd.</p>
+        <p>Since we showed by direct proof that if <m>a</m> is odd then <m>a+1</m> is even <alert>and</alert> if <m>a+1</m> is even, 
+            then <m>a</m> is odd, then <m>a</m> is odd <alert>if and only if</alert> <m>a+1</m> is even.</p>
+    </example>
+
+
 </section>

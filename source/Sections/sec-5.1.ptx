@@ -4,5 +4,8 @@
   <title>filler title</title>
 
   <p>Sample paragraph 1</p>
+  
+<xi:include href="./subsections/subsec-5.1.1-terms.ptx" />
+<xi:include href="./subsections/subsec-5.1.2-working-with-subsets.ptx" />
 
 </section>

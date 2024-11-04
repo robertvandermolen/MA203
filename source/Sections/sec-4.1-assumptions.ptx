@@ -1,68 +1,9 @@
 <section xml:id="sec-4-1-what-we-assume-ch-04" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Our Assumptions</title>
     <p>blah..</p>
-    <p>
-        *probably make a term subsection*
-    </p>
+    <p></p>
 
-    <p>
-        <definition xml:id="defn-divisor">
-            <title>Common Divisor</title>
-            <statement>
-            <p>
-                <m>\forall a,b,c\in\Z</m>, all non-zero, we call <m>c</m> a <term>common divisor</term>
-                of <m>a</m> and <m>b</m> iff <m>c</m> divides <m>a</m> and <m>c</m> divides <m>b</m>.
-            </p>
-            </statement>
-        </definition>
-    </p>
-    <p>
-        <definition xml:id="defn-gcd">
-            <title>Common Divisor</title>
-            <statement>
-            <p>
-                <m>\forall a,b,c\in\Z</m>, all non-zero, we call <m>c</m> the <term>greatest common divisor</term>
-                of <m>a</m> and <m>b</m>, denoted <m>c=\text{GCD}(a,b)</m> iff 
-                <ol>
-                    <li>
-                        <p>
-                            <m>c</m> is a common divisor of <m>a</m> and <m>b</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            every common divisor of <m>d\in\Z</m> of <m>a</m> and <m>b</m> has 
-                            the property <m>d\leq c</m>. (every other divisor is smaller)
-                        </p>
-                    </li>
-                </ol>
-            </p>
-            </statement>
-        </definition>
-    </p>
-    <p>
-        <definition xml:id="defn-rational">
-            <title>Rational</title>
-            <statement>
-            <p>
-                <m>x \in \mathbb{Q} \text{ iff } \exists p,q\in \mathbb{Z}\text{ with }q\neq0 \text{ such that }x=\frac{p}{q}\text{ and GCD}(p, q) =1 </m>
-            </p>
-            </statement>
-        </definition>
-    </p>
-    <p>
-        <definition xml:id="defn-relatively-prime">
-            <title>Relatively Prime</title>
-            <statement>
-               
-        
-            <p>
-                <m>\forall x,y\in \mathbb{Z}</m> <m>x</m> and <m>y</m> are <term>relatively prime</term> iff  <m>\forall t \in \mathbb{Z}</m>
-                  <m>t|x</m> and  <m>t|y</m>  then <m>t=1</m>
-            </p>
-        </statement>
-            </definition>
-    </p>
+<xi:include href="./subsections/subsec-4.1.2-terms.ptx" />
 
 </section>
     
