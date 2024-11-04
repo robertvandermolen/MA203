@@ -1,0 +1,63 @@
+<section xml:id="sec-4-3-2-first-contra-example" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>First Example of Proof by Contradiction</title>
+    <p>
+        For our first example of contradiction we will stick with our saftey blanket of the integers. 
+    </p>
+    <p><alert>Prove:</alert> For all integers <m>a</m> and <m>b</m> if <m>a- b</m> is odd 
+        then <m>a+ b</m> is odd. </p>
+    
+    <p>Before we begin any proof we sing our song (play-along):</p>
+        <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+        <answer>
+        <p><m>a-b</m> is odd</p>
+        </answer>
+        <p>"What's the <m>{\color{red}{Q}}</m>?"</p> 
+        <answer>
+        <p><m>a+ b</m> is odd</p>
+        </answer>
+        <p>"What're the definitions?" </p>
+        <answer>
+        <p>even (<xref ref="defn-even"/>) and odd (<xref ref="defn-odd"/>)</p>
+        </answer>
+        <p>"Now, what to do?"</p> 
+        <answer>
+        <p>Proof by contradiction - so we can try and learn it!</p>
+        </answer>
+
+    <p><alert>The Breakdown:</alert></p>
+    <p>
+        <me>
+            {\color{orange}{\forall a,b\in\Z}}{\color{red}{\text{ if }a-b\text{ is odd then }a+b\text{ is odd.}}}
+        </me>
+        
+    </p>
+
+    <section xml:id="sec-4-3-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title><m>{\color{red}{\text{The Beginning}}}</m></title>
+            <p>
+                blah...
+            </p>
+            <p>
+                This is a fun one - more Latin! Now that we know more than one proving method, we need to let our reader know what we're doing
+                So when doing a proof by contradiction, we put [RAA] at the top which stands for <em>reductio ad absurdum</em>, that is, 
+                "reduction to absurdity."
+            </p>
+        </section>
+
+        <section xml:id="sec-4-3-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title><m>{\color{green}{\text{The Muddle}}}</m></title>
+            <p>
+                blah...
+            </p>
+        </section>
+
+        <section xml:id="sec-4-3-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title><m>{\color{blue}{\text{The End}}}</m></title>
+            <p>
+                blah...
+            </p>
+        </section>
+    <p>
+        blah..
+    </p>
+</section>

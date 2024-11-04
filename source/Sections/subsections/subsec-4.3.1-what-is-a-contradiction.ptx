@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3-1-what-is-a-contradiction" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>What is a contradiction?</title>
+<p>
+    Proof by contradiction is the most different than the direct proof yet. The first big difference is that before now we have always considered the case where we were proving <m>P\implies Q</m> yet this time we will be only considering proving any proposition <m>R</m>. This does not mean that we will not use it to prove propoositions in the form of an implication, because we definitely will, it is just that we set up the proof not seperating the implication as we have done before. 
+</p>
+
+
+
+<assemblage>
+    <title>Proof by Contradiction of <m>R</m></title>
+      
+    <p>
+        Assume <m>\sim R</m>
+    </p>
+    <p>
+        <m>\vdots</m>
+    </p>
+    <p>
+        Therefore <m>T</m>
+    </p>
+    <p>
+        <m>\vdots</m>
+    </p>
+    <p>
+        Therefore <m>\sim T</m>
+    </p>
+    <p>
+        Hence <m>T\wedge \sim T</m> which is a contradicition.
+    </p>
+    <p>Thus <m>R</m></p>
+</assemblage>
+<p>
+    On first look it might also seem to not follow our title, but of course:
+  </p>
+  <p>
+    <m>{\color{red}{\text{Beginning}}}</m> -- Assume <m>\sim R</m>
+  </p>
+  <p>
+    <m>{\color{green}{\text{Muddle}}}</m> -- conclude <m>T</m> ... conclude <m>\sim T</m>
+  </p>
+  <p>
+    <m>{\color{blue}{\text{End}}}</m>  -- Therefore <m>T\wedge(\sim T)</m> is a contradiction
+  </p>
+  <p>
+    This proving method may also not seem to fit immediately into our argument section (<xref ref="ch-03-how-to-argue"/>). To see how it fits in first notice that before the conclusion this method is simply the direct proof of the statement
+        
+            <me>
+                (\sim R)\implies [T\wedge (\sim T)]
+            </me>
+            
+        Yet, this is equivalent to <m>R</m>, to see that consider the following truth table.
+        <figure>
+            <tabular halign="center">
+              <row header="yes" bottom="minor" >
+                <cell><m>R</m></cell>
+                <cell><m>T</m></cell>
+                <cell><m>[T\wedge (\sim T)]</m></cell>
+                <cell><m>(\sim R)\implies [T\wedge (\sim T)]</m></cell>
+              </row>
+              <row>
+                <cell>T</cell>
+                <cell>T</cell>
+                <cell>F</cell>
+                <cell>T</cell>
+              </row>
+              <row>
+                <cell>T</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>T</cell>
+              </row>
+              <row>
+                <cell>F</cell>
+                <cell>T</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+              </row>
+              <row>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>F</cell>
+              </row>
+            </tabular>
+          
+        </figure>
+  </p>
+  <p>
+    Finally, before we move on, when we want to use contradiciton to prove a statment in 
+    the form of <m>P\implies Q</m> we must need to review how to negate such a statment, using our techniques from <xref ref="subsec-2-4-3-logic-algebra"/>
+    <md>
+      <mrow>\sim[P\implies Q]\amp\equiv [\sim ((\sim P)\vee Q)]\text{ (Rob's Law)}</mrow>
+      <mrow>\amp \equiv [\sim(\sim P)\wedge (\sim Q)] \text{ (De Morgan's)}</mrow>
+      <mrow>\amp \equiv P\wedge (\sim Q) \text{ (double negation)}</mrow>
+  </md>
+  and hence we have the equivalence:
+  <me>
+    \sim[P\implies Q]\equiv [P\wedge(\sim Q)]
+  </me>
+  
+  </p>
+</section>

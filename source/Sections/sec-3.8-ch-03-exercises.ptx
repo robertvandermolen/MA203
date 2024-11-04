@@ -52,7 +52,17 @@
             <ol>
                 <li>
                     <p>
-                        blah...
+                        If <m>5|(a-2)</m> and <m>5|(b-3)</m> then <m>5|(a+b)</m> and <m>5|(a-b+1)</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>7|a</m> then 7 does not divide <m>b</m> or <m>7|(a+b)</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>a</m> is even or <m>4|b</m> then <m>4|(2a\cdot b)</m>.
                     </p>
                 </li>
             </ol>

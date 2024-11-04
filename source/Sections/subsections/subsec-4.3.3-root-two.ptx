@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-3-7-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>First Contradiction Example</title>
+<section xml:id="sec-4-3-3-root-two" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>\sqrt{2}</m> is Irrational</title>
     <note>Memorize this. Anyone who has been through this course shall know how to do this proof.</note>
     <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
 

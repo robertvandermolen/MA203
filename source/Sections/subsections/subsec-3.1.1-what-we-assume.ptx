@@ -22,6 +22,12 @@
             Basic college algebra like: <me>x^2-3x=x(x-3)</me>
         </p>
     </li>
+    <li>
+        <p>
+            Basic ordering properties of the integers such as: 
+            <me>1\lt2\text{ or }12\geq7\text{, etc.}</me>
+        </p>
+    </li>
 </ol>
 <p>
     <alert>Things you can assume but MUST mention:</alert>
@@ -60,6 +66,7 @@
             "when you multiply two integers you get an integer..."
         </p>
     </li>
+    
     <li>
         <p>
             Any Theorem/Lemma/Corrolary given in this chapter, unless otherwise stated.

@@ -189,12 +189,46 @@
    
     <example>
       <p>
-        <alert>Prove:</alert> For any integers <m>a</m> and <m>b</m>, if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m> and <m>3|(a-b)</m>
+        <alert>Prove:</alert> For all integers <m>a</m> and <m>b</m>, if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m> and <m>3|(a-2b)</m>
       </p>
       <proof>
+      
         <p>
-          Let <m>a</m> and <m>b</m> be arbitrary integers. Assume that <m>3|(a-2)</m>, also assume that <m>3|(b-1)</m>. By defintion of... blah....
+          Let <m>a</m> and <m>b</m> be arbitrary integers. 
         </p>
+        <p>
+          Assume that <m>3|(a-2)</m>, also assume that <m>3|(b-1)</m>. By defintion of divides (<xref ref="defn-divides"/>) we can produce an 
+          integer <m>k</m> such that <m>a-2=3k</m>, and hence by adding 2 to both sides of this equation we get
+          <m>a=3k+2</m>. As well by the definition of divides we can come forth with another integer <m>t</m> with the 
+          property that <m>b-1=3t</m>, this time adding 1 to both sides of the equation we see that <m>b=3t+1</m>.
+        </p>
+        <p>
+          Now, we will prove: if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m>, by calculating:
+          <md>
+            <mrow>a+b\amp=(3k+2)+(3t+1)</mrow>
+            <mrow>\amp=3k+3t+3</mrow>
+            <mrow>\amp=3(k+t+1)</mrow>
+        </md>
+        and since <m>k+t+1</m> is an integer by the definition of divides <m>3|(a+b)</m>.
+        </p>
+        
+        <p>
+          Next, we will prove: if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a-2b)</m>, instead by calulating:
+          <md>
+            <mrow>a+b\amp=(3k+2)-2(3t+1)</mrow>
+            <mrow>\amp=3k+2-6t-2</mrow>
+            <mrow>\amp=3k-6t</mrow>
+            <mrow>\amp=3(k-2t)</mrow>
+        </md>
+        and since <m>k-2t</m> is an integer by the definition of divides <m>3|(a-2b)</m>.
+        </p>
+        <p>
+          Now that we have assumed that <m>a</m> and <m>b</m> are arbitrary integers and assumed that <m>3|(a-2)</m> and <m>3|(b-1)</m> 
+          then we showed that both <m>3|(a+b)</m> and that <m>3|(a-2b)</m> we can conclude that for all integers <m>a</m> and <m>b</m>, 
+          if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m> and <m>3|(a-2b)</m>.
+        </p>
+
+        
       </proof>
     </example>
 </section>
