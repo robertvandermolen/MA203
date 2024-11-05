@@ -10,14 +10,8 @@
 </introduction>
 <p></p>
 
-<<<<<<< HEAD
-<xi:include href="./subsections/subsec-3.5.1.ptx" />
-<xi:include href="./subsections/subsec-3.5.2.ptx" />
-<xi:include href="./subsections/subsec-4.2.3-pyth-lemma.ptx" />
-=======
 <xi:include href="./subsections/subsec-4.2.1-what-is-contrapositive.ptx" />
 <xi:include href="./subsections/subsec-4.2.2-first-contra-example.ptx" />
->>>>>>> c4a022d3f6e2b193f499cad5112e05ec7765037e
 
 
 </section>

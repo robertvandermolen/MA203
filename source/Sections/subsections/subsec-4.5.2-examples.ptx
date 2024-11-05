@@ -34,9 +34,9 @@
     <example>
         <p><alert>Prove:</alert> for any integer <m>n</m>, if <m>n</m> is odd, then there exists an integer <m>j</m> so 
             that <m>n=4j-1</m> or <m>n=4j+1</m></p>
-        <p>Let <m>n</m> be an integer. Assume <m>n</m> is odd. By definition of odd we can find an integer <m>m</m> such that <m>n=2m+1</m></p>>
+        <p>Let <m>n</m> be an integer. Assume <m>n</m> is odd. By definition of odd we can find an integer <m>m</m> such that <m>n=2m+1</m></p>
         <p><alert>Case 1:</alert> Assume <m>m</m> is even. By definition of even we can find an integer <m>j</m> such that <m>m=2j</m>.</p>
-        </p>Calculate:</p>
+        <p>Calculate:</p>
         <md>
             <mrow>n\amp=2m+1</mrow>
             <mrow>\amp=2(2j)+1</mrow>

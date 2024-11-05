@@ -31,7 +31,7 @@
             <li><m>A \subset A \bigcup B</m></li>
             <li><m>A \bigcap B \subset A</m></li>
             <li><m>A \bigcap \{\} = \{\}</m></li>
-            <li><<m>A \bigcup \{\} = A</m>/li>
+            <li><m>A \bigcup \{\} = A</m></li>
             <li><m>A \bigcap A = A</m></li>
             <li><m>A \bigcup A = A</m></li>
             <li><m>A-\{\} = A</m></li>
@@ -67,7 +67,7 @@
     <li>Prove that <m>B \subset A</m></li>
     <li>Conclude that <m>A=B</m></li>
 </ul>
-</p>To put it another way, <m>A=B</m> if and only if (<m>A \subset B \wedge B \subset A</m>)</p>
+<p>To put it another way, <m>A=B</m> if and only if (<m>A \subset B \wedge B \subset A</m>)</p>
 
 
 
