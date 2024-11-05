@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>filler title</title>
+  <title>Stuff we Need</title>
 
-  <p>Sample paragraph 1</p>
+  <p>Below are a bunch of theorems that can be assigned for exercises, proved in class, or referred to in future proofs. 
+    Also more definitions and stuff about sets</p>
   
 <xi:include href="./subsections/subsec-5.1.1-terms.ptx" />
 <xi:include href="./subsections/subsec-5.1.2-working-with-subsets.ptx" />

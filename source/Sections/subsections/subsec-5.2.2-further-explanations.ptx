@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-5-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Explanations and showing things that aren't proofs</title>
+
+    <p>At this point, we all need a reminder of what a cross product is. Calculate <m>AxB</m> and <m>B\times A</m> given the sets <m>A = \{2, G, E\}</m>
+    and <m>B = \{\pi , e, P\}</m></p>
+
+    <me>A\times B = \{(2, \pi), (2, e), (2, P), (G, \pi), (G, e), (G, P), (E, \pi ), (E, e), (E, P)\}</me>
+    <me>B\times A = \{(\pi , 2), (\pi , G), (\pi , E), (e, 2), (e, G), (e, E), (P, 2), (P, G), (P, E)\}</me>
+
+
+</section>
