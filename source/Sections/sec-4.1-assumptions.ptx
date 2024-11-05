@@ -3,9 +3,7 @@
     <p>blah..</p>
     <p></p>
 
-<<<<<<< HEAD
-<xi:include href="./subsections/subsec-4.1.2-terms.ptx" />
-=======
+
     <p>
         <definition xml:id="defn-divisor">
             <title>Common Divisor</title>
@@ -64,7 +62,7 @@
         </statement>
             </definition>
     </p>
->>>>>>> c4a022d3f6e2b193f499cad5112e05ec7765037e
+
 
 </section>
     
