@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-2-2-first-contra" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-4-2-2-first-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>First Example of Contrapositive</title>
 <p>
     For our first example, just as in <xref ref="sec-4-2-direct-proof"/>, we will give as many <em>gory</em> 
@@ -41,16 +41,16 @@
     <p><alert>The Breakdown of the orginal:</alert></p>
     <p>
         <me>
-            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{red}{m^2 \text{ is odd }}}\text{ then }
-            {\color{blue}{m\text{ is odd}}}
+            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{blue}{m^2 \text{ is odd }}}\text{ then }
+            {\color{red}{m\text{ is odd}}}
         </me>
     </p>
     <p></p>
     <p><alert>The Breakdown of the contrapositive:</alert></p>
     <p>
         <me>
-            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{blue}{m \text{ is not odd }}}\text{ then }
-            {\color{red}{m^2\text{ is not odd}}}
+            {\color{orange}{\forall m\in\Z}}\text{ if }{\color{red}{m \text{ is not odd }}}\text{ then }
+            {\color{blue}{m^2\text{ is not odd}}}
         </me>
     </p>    
     <p></p>

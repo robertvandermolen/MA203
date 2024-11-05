@@ -35,19 +35,56 @@
     <section xml:id="sec-4-3-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
             <p>
-                blah...
+                To begin our proof we first take care of the <m>{\color{orange}{\text{beginning quantifier}}}</m>. As is usual we will do this by choosing arbitrary integers, that is we will use language like:
             </p>
             <p>
-                This is a fun one - more Latin! Now that we know more than one proving method, we need to let our reader know what we're doing
-                So when doing a proof by contradiction, we put [RAA] at the top which stands for <em>reductio ad absurdum</em>, that is, 
-                "reduction to absurdity."
+                Let <m>a</m> and <m>b</m> be arbitrary integers.
+            </p>
+         
+            <note>
+                <p>
+                    Again becareful even though we will be negating we DO NOT negate the quantifier!
+                </p>
+            </note>
+            <p>
+                Now to begin our proof by contrapositon we need to <m>{\color{red}{\text{ Assume }\sim R}}</m>
+            </p>
+            <p>
+                But <m>R</m> is not in our song! Yes that's true, but <m>R</m> is just "what we want to prove". In this example we want to prove if <m>a- b</m> is odd then <m>a+ b</m> is odd. So we will need to assume <m>{\color{red}{\sim (\text{if }a-b\text{ is odd then }a+b\text{ is odd})}}</m> or using our analysis above we will:
+            </p>
+            <p>
+                Assume that <m>a-b</m> is odd yet <m>a+b</m> is not odd. 
+            </p>
+            <p>
+                Now this is false, and it is our job to confirm that, yet a reader with no warning might be very alarmed that you began your proof with such a blatently false assumption. So our reader knows what we're doing, we can either start the stence with: 
+            </p>
+            <p>
+                For the sake of contradiction...
+            </p>
+            <p>
+                Or for those more inclined to the classics we can simply at the beginnin of our proof write:
+            </p>
+            <p>
+                [RAA] 
+            </p>
+            <p>
+                which stands for <em>reductio ad absurdum</em>, that is, "reduction to absurdity."
             </p>
         </section>
 
         <section xml:id="sec-4-3-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title><m>{\color{green}{\text{The Muddle}}}</m></title>
             <p>
-                blah...
+                Next, almost right away we can react almost with <em>knee jerk</em> and play off our assumption with:
+            </p>
+            <p>
+                Since we assumed that <m>a+b</m> is not odd, by <xref ref="lem-odd-not-even"/> we have that <m>a+b</m> is even.
+            </p>
+            <p>
+                Now, again, as if we were to <em>knee jerk</em> we could then apply our definitions of even (<xref ref="defn-even"/>) and odd (<xref ref="defn-odd"/>) with language similiar to:
+            </p>
+            <p>
+                By the definition of odd we can obtain an integer <m>\ell</m> so that <m>a-b=2\ell+1</m>. As well, by the definition 
             </p>
         </section>
 

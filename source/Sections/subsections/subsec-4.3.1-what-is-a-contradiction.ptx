@@ -89,7 +89,7 @@
   </p>
   <p>
     Finally, before we move on, when we want to use contradiciton to prove a statment in 
-    the form of <m>P\implies Q</m> we must need to review how to negate such a statment, using our techniques from <xref ref="subsec-2-4-3-logic-algebra"/>
+    the form of <m>P\implies Q</m> we will need to assume that <m>\sim[P\implies Q]</m>. So it may be helpful to review how to negate such a statment, using our techniques from <xref ref="subsec-2-4-3-logic-algebra"/>
     <md>
       <mrow>\sim[P\implies Q]\amp\equiv [\sim ((\sim P)\vee Q)]\text{ (Rob's Law)}</mrow>
       <mrow>\amp \equiv [\sim(\sim P)\wedge (\sim Q)] \text{ (De Morgan's)}</mrow>
