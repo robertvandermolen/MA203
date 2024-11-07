@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Notes from week 9</title>
+  <p>This includes:</p>
+  <ul>
+    <li>Definitions including intersection, union, compliment, subset, equals, etc etc</li>
+    <li>A bunch of theorems for set theory</li>
+    <li>A proof for a theorem that <m>A\times (B\cup C)=(A\times B)\cup (A\times C)</m></li>
+    <li>intro to PMI</li>
+    <li>a couple of PMI proofs</li>
+  </ul>
+
+<xi:include href="./subsections/subsec-10.1.1.ptx" />
+<xi:include href="./subsections/subsec-10.1.2.ptx" />
+
+</section>
+

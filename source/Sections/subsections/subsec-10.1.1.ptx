@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-10-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Theorems and definitions for set theory</title>
+
+  <definition>
+    <title>Equals</title>
+    <statement>
+        <p><m>A=B</m> if and only if <m>x\in A \implies x\in B</m></p>
+    </statement>   
+  </definition>
+
+  <example>
+    <p>Let's look at an example of a power set: the power set of <m>A = \{1,2\}</m>. <m>P(A) = \{\emptyset \} , \{1\}, \{2\}, \{1,2\}\}</m></p>
+  </example>
+
+  <definition>
+    <title>Union</title>
+    <statement>
+        <p><m>A \cup B = \{x | x \in A \vee x \in B\}</m></p>
+        <p>In common vernacular, this says that the union of two sets is everything that is in both of them, with no repeats.</p>
+    </statement>   
+  </definition>
+
+  <definition>
+    <title>Intersection</title>
+    <statement>
+        <p><m>A \cap B = \{x | x \in A \wedge x \in B\}</m></p>
+        <p>Only the things that are shared between two sets.</p>
+    </statement>   
+  </definition>
+
+  <definition>
+    <title>Difference</title>
+    <statement>
+        <p><m>A-B = \{x | x \in A \wedge x \not\in B\}</m></p>
+        <p>The difference between A and B: the things that are in A, but not in B.</p>
+    </statement>   
+  </definition>
+
+  <definition>
+    <title>Compliment</title>
+    <statement>
+        <p><m>A^c = \{x \in U | x \not\in A\}</m>, or, <m>A^c = U-A</m></p>
+        <p>Whatever is in the universe outside the set, and not in the set.</p>
+    </statement>   
+  </definition>
+
+  <p>It's interesting to note how the symbol for union <m>\cup</m> is similar to the symbol for "or" <m>\vee</m>. The symbol for intersection <m>\cap</m>
+    is similar to the symbol for "and" <m>\wedge</m>. And compliment matches with negation.</p>
+
+
+</section>

@@ -4,7 +4,6 @@
 <title>Working with Subsets</title>
 
 <theorem xml:id="thm-5-1">
-    <title>How am I supposed to number these?</title>
     <statement>
         <p>
             If <m>A</m> and <m>B</m> are sets with no elements, then <m>A=B</m>. In other words, the empty set is unique.
@@ -13,7 +12,6 @@
 </theorem>
 
 <theorem xml:id="thm-5-2">
-    <title>Again with the naming</title>
     <statement>
         <p>
             For any sets <m>A</m> and <m>B</m>, if <m>A \subset B</m> and <m>A \neq 0</m> then <m>B \neq 0</m>
@@ -22,7 +20,6 @@
 </theorem>
 
 <theorem xml:id="thm-5-3">
-    <title>The one that we all hated</title>
     <statement>
         <p>
             For all sets <m>A</m>, <m>B</m>, and <m>C</m>:
