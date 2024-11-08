@@ -3,11 +3,12 @@
 <section xml:id="subsec-3-5-2-cases-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Exhaustive Examples</title>
     <p>
-       We now include some examples, the first one is an example 
+       We now include some examples, the first one is an example of breaking into the cases of even and odd.
     </p>
 
     <example>
         <p><alert>Prove:</alert> for any integer <m>a</m>, <m>a(a+1)</m> is even.</p>
+        <proof>
         <p>Let <m>a</m> be an integer. <m>a</m> is either even, or odd.</p>
         <p><alert>Case 1:</alert> Assume <m>a</m> is even.</p>
         <p>Hence by definition of even, we can find an integer <m>k</m> such that <m>a=2k</m>.</p>
@@ -15,7 +16,7 @@
         <md>
             <mrow>a(a+1)\amp=2k(2k+1)</mrow>
             <mrow>\amp=4k^2+2k</mrow>
-            <mrow>2(k*k+k)</mrow>
+            <mrow>\amp=2(2k^2+k)</mrow>
         </md>
         <p>Thus, since <m>k^2+k</m> is an integer, by definition of even, <m>a(a+1)</m> is even. Thus by direct proof, 
             if <m>a</m> is even then <m>a(a+1)</m> is even.</p>
@@ -24,16 +25,18 @@
         <md>
             <mrow>a(a+1)\amp=(2m+1)(2m+1+1)</mrow>
             <mrow>\amp=(2m+1)(2(m+1))</mrow>
-            <mrow>2[(2m+1)(2m+1)</mrow>
+            <mrow>\amp=2[(2m+1)(m+1)]</mrow>
         </md>
-        <p>Thus since <m>(2m+1)(2m+1)</m> is an integer, according to the definition of even, <m>a(a+1)</m> is even. Thus by direct proof 
+        <p>Thus since <m>(2m+1)(m+1)</m> is an integer, according to the definition of even, <m>a(a+1)</m> is even. Thus by direct proof 
         if <m>a</m> is odd then <m>a(a+1)</m> is even.</p>
         <p>Thus since case 1 and case 2 hold, by proof by cases, and by direct proof, <m>a(a+1)</m> is even. <m>\square</m></p>
+        </proof>
     </example>
 
     <example>
         <p><alert>Prove:</alert> for any integer <m>n</m>, if <m>n</m> is odd, then there exists an integer <m>j</m> so 
             that <m>n=4j-1</m> or <m>n=4j+1</m></p>
+            <proof>
         <p>Let <m>n</m> be an integer. Assume <m>n</m> is odd. By definition of odd we can find an integer <m>m</m> such that <m>n=2m+1</m></p>>
         <p><alert>Case 1:</alert> Assume <m>m</m> is even. By definition of even we can find an integer <m>j</m> such that <m>m=2j</m>.</p>
         Calculate:
@@ -55,6 +58,45 @@
         <p>Hence case 2 holds by direct proof.</p>
         <p>Thus, since case 1 and case 2 hold, by proof by cases, if <m>n</m> is odd, then we can find an 
             integer<m>j</m> so that <m>n=4j-1</m> or <m>n=4j+1</m></p>
+        </proof>
+    </example>
+    <example>
+        <p>
+            <alert>Prove:</alert> For every integer <m>a</m>, if <m>3|a^2</m> then <m>3|a</m>.
+        </p>
+        <proof>
+            <p>
+                Let <m>a</m> be an arbitrary integer. For the sake of contrapositive assume that 3 does not divide <m>a</m>. By <xref ref="lem-remainders"/> since the only numbers greater than zero and strictly less than 3 are 1 and 2 either <m>3|(a-1)</m> or <m>3|(a-2)</m>
+            </p>
+            <p>
+                <alert>Case 1:</alert> Assume <m>3|(a-1)</m>.
+            </p>
+            <p>
+                By definition of divides we can find an integer <m>k</m> so that <m>a-1=3k</m>, hence by adding 1 to both sides of the equation we get <m>a=3k+1</m>. Now calculate:
+                <md>
+                    <mrow>a^2 \amp =(3k+1)^2 </mrow>
+                    <mrow> \amp = 9k^2+6k+1</mrow>
+                    <mrow> \amp = 3(3k^2+2k)+1 </mrow>
+                </md>
+                Hence <m>a^2-1=3(3k^2+2k)</m>. Since <m>3k^2+2k</m> is an integer by definition of divides <m>3|(a^2-1)</m> thus by <xref ref="lem-remainders"/> we have that 3 does not divide <m>a^2</m> 
+            </p>
+            <p>
+                <alert>Case 2:</alert> Assume <m>3|(a-2)</m>.
+            </p>
+            <p>
+                By definition of divides we can find an integer <m>t</m> so that <m>a-2=3t</m>, hence by adding 2 to both sides of the equation we get <m>a=3t+2</m>. Now calculate:
+                <md>
+                    <mrow>a^2 \amp =(3t+2)^2 </mrow>
+                    <mrow> \amp = 9t^2+12t+4</mrow>
+                    <mrow> \amp = 9t^2+12t+3+1 </mrow>
+                    <mrow> \amp = 3(3t^2+4t+1)+1 </mrow>
+                </md>
+                Hence <m>a^2-1=3(3t^2+4t+1)</m>. Since <m>3t^2+4t+1</m> is an integer by definition of divides <m>3|(a^2-1)</m> thus by <xref ref="lem-remainders"/> we have that 3 does not divide <m>a^2</m> 
+            </p>
+            <p>
+                Therefore by proof by cases 3 does not divide <m>a^2</m>, and hence by proof by contraposition if <m>3|a^2</m> then <m>3|a</m>. <m>\square</m>
+            </p>
+        </proof>
     </example>
 
 </section>

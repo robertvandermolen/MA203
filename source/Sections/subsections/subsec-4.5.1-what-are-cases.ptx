@@ -27,12 +27,9 @@
             <alert>Case n:</alert> a proof of the <m>n^{\text{th}}</m> case
           </p>
       </assemblage>
-
-      <example>
-        <p>
-            blah... the example with the "obvious cases..."
-        </p>
-      </example>
+<p>
+    At its most basic a proof by cases is an istance of proofs "Assuming an Or" from <xref ref="subsec-3-5-proofs-of-or"/> where one is tasked to prove <m>(P\vee R)\implies Q</m>, then we would split the problem into proving <m>P\implies Q</m> as our <em>first case</em> and then <m>R\implies Q</m> as our <m>second case</m>. For examples of this the reader is reffered to <xref ref="subsec-3-5-proofs-of-or"/>.
+</p>
       <p>
         Another common place a proof by cases comes up are when we are trying to prove propositons in the form of:
         <me>
@@ -59,16 +56,15 @@
         </ul>
     </p>
         <p>
-            We will now prove that it is actually true that the first two have only those cases. We do this with a single 
-            statement as the first one is a just a special instance of the second one.
+            We have already proven that the first point is true in <xref ref="lem-odd-not-even"/>. For the second point, a more general result, we provide the following lemma.
         </p>
-        <theorem xml:id="thm-remainders">
+        <lemma xml:id="lem-remainders">
             <statement>
                 <p>
                     For any two integers <m>x</m> and <m>y</m>, there exists an <m>r\in\Z</m> such that <m>0\leq r\lt |x|</m> and <m>x|(y-r)</m>
                 </p>
             </statement>
-        </theorem>
+        </lemma>
         <proof>
             <p>
                 Let <m>x</m> and <m>y</m> be integers. By the division algorithm from <xref ref="sec-4-1-1-what-we-assume"/>

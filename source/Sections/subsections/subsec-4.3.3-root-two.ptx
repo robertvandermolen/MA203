@@ -2,7 +2,32 @@
 
 <section xml:id="sec-4-3-3-root-two" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>\sqrt{2}</m> is Irrational</title>
-    <note>Memorize this. Anyone who has been through this course shall know how to do this proof.</note>
+    <p>
+        This next proof is a proof that I believe every single student in mathematics should now and love. It is this proof that I learned very early on in my math career that shaped how I understood mathematics. I would meet people and tell them "I'm a math major" and they would say things like "ugh I always hated math" and I would tell them no math is not what you think math is. It is about truths, for example take an extremely simple shape the right triangle, literally just put two sticks at a sharp angle and connect the two edges with another stick. This third stick has a length that is not a fraction of either of the other sides. Pythagoerous went to his grave believing that it must, but we can show beyond a shadow of a doubt it is not. 
+    </p>
+    <p>
+        Before we jump into that proof it will be helpful to have a lemma that we can call on, in all honesty to shorten our work load (what lemma's are best for).
+    </p>
+    <lemma xml:id="lem-m-squared">
+        <statement>
+            <p>
+                If 2 divides <m>m^2</m> then 2 divides <m>m</m>
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>Let <m>m</m> be an integer. We will prove this using contraposition, that is we will assume 2 does not divide <m>m</m>, thus by <xref ref="lem-odd-not-even"/> <m>m</m> is odd. Hence we can find an integer <m>k</m>
+            such that <m>m=2k+1</m>.</p>
+        <p>Calculate:</p>
+        <md>
+            <mrow>m^2\amp=m\cdot m</mrow>
+            <mrow>\amp=(2k+1)(2k+1)</mrow>
+            <mrow>\amp=4k^2 +4k+1</mrow>
+            <mrow>\amp=2(2k^2 +2k)+1</mrow>
+        </md>
+        <p>Since <m>2k^2 +2k</m> is an integer, by definition of odd, <m>m^2</m> is odd, hence by <xref ref="lem-odd-not-even"/> <m>m^2</m> is not even. Thus by proof by contraposition, 
+            if 2 divides <m>m^2</m> then 2 divides <m>m</m>. </p>
+    </proof>
     <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
 
     <p>Before we begin any proof we sing our song, although it is a little different when we're using contradiction (play-along):</p>
@@ -10,7 +35,7 @@
         <answer>
         <p><m>\sqrt{2}</m> is irrational</p>
         </answer>
-        <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+        <p>"What's the <m>Q</m>?"</p> 
         <answer>
         <p>There is no <m>Q</m> this time!</p>
         </answer>
@@ -23,54 +48,82 @@
         <p>Proof by contradiction - because I said so!</p>
         </answer>
 
-    <p><alert>The Breakdown:</alert></p>
-    <p>
-        <me>
-            {\color{red}{\sqrt{2} \text{ is rational }}}\text{ muddle }{\color{blue}{\sqrt{2}\text{ is irrational }}}
-        </me>
-        
-    </p>
+   
 
 
 <section xml:id="sec-3-7-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{red}{\text{The Beginning}}}</m></title>
-    <p>Assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
+<p>
+    For a proof by contradiction we need to begin by assuming what we need to prove is false, and to remind you this could be jarring to a reader so let them know what you are doing, for example we could write:
+</p>    
+<p>For the sake of contradicion assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
 </section>
 
 <section xml:id="sec-3-7-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
-    <p>Thus, per the definition of rational, we can find two relatively prime integers <m>p</m> and <m>q</m> so that 
-    <m>\sqrt{2} =\frac{p}{q}</m> (This is <m>Q</m></p>
+    <p>
+        Now, we continue with our song by applying the defintions we can, per the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
+    <m>\sqrt{2} =\frac{p}{q}</m> and 
+    <me>
+        T:\text{ GCD}(p,q)=1
+    </me>
+    Next, we will do exactly what any good calculus student would do and that is "get-rid-of" that square root.
+    </p>
+    
     <p>Calculate:</p>
     <md>
         <mrow>\text{square both sides: }2\amp=\frac{p^2}{q^2}</mrow>
         <mrow>\text{multiply both sides by }q^2: 2q^2\amp=p^2</mrow>
     </md>
-    <p>But, <m>q^2</m> is an integer, thus, <m>p^2</m> is even!</p>
-    <p>Hence, by Pythagoras' Lemma (REFERENCE NEEDED), <m>p</m> is even!</p>
-    <p>Thus we can find an integer (Note the shoveling off of the invisible quantifier from the definition of even)
-        <m>m</m> so that <m>p=2m</m></p>
-
+    <p>But, <m>q^2</m> is an integer, thus by the definition of even, <m>p^2</m> is even. Hence, by <xref ref="lem-m-squared"/> we can conclude that <m>p</m> is even</p>
+    <p>Thus, by the definition of even we can find an integer 
+        <m>m</m> so that <m>p=2m</m>.</p>
+<p>
+    Now, we can play our common replacement game.
+</p>
     <p>Calculate again:</p>
     <md>
         <mrow>2q^2\amp=(2m)^2</mrow>
         <mrow>\amp=4m^2</mrow>
         <mrow>\text{Divide both sides by 2 } q^2\amp=2m^2</mrow>
     </md>
-    <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and by Pythagoras' Lemma, <m>q</m> is even.</p>
-    <p>Since <m>2\mid p</m> and <m>2\mid q</m>, <m>p</m> and <m>q</m> are not relatively prime! (This is the <m>\sim Q</m> part)</p>
+    <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and again by <xref ref="lem-m-squared"/>, <m>q</m> is even.</p>
+    <p>Since <m>2\mid p</m> and <m>2\mid q</m>, 2 is a common divisor, and thus by definition of greatest common divisor (<xref ref="defn-gcd"/>) we have that <m>\text{GCD}(p,q)\geq 2</m>, yet this means that  <me>\sim T:\text{ GCD}(p,q)\neq 1</me></p>
 </section>
 
 <section xml:id="sec-3-7-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{blue}{\text{The End}}}</m></title>
-    <p>Thus we have shown <m>p</m> and <m>q</m> to be relatively prime <alert>and</alert> not relatively prime.</p>
-    <p>Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
+<p>
+    So now that we have found our contradiction <m>T\wedge(\sim T)</m> we are done, but just incase the reader missed this contradiction as you unwrapped it, lets put it all in one place.
+</p>
+    <p>Thus we have shown <m>\text{GCD}(p,q)=1</m> <alert>and</alert> <m>\text{GCD}(p,q)\neq1</m> which is a contradiction. Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
 
     <p>Now let's see everything written together in a single spot.</p>
 <example>
 
-    <p><alert>Prove:</alert> </p>
-    <p> <m>\square</m></p>
+    <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
+    <p>For the sake of contradicion assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational. By the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
+        <m>\sqrt{2} =\frac{p}{q}</m> and 
+        <m>
+            \text{GCD}(p,q)=1
+        </m>
+    </p><p>Calculate:</p>
+    <md>
+        <mrow>\text{square both sides: }2\amp=\frac{p^2}{q^2}</mrow>
+        <mrow>\text{multiply both sides by }q^2: 2q^2\amp=p^2</mrow>
+    </md>
+    <p>But, <m>q^2</m> is an integer, thus by the definition of even, <m>p^2</m> is even. Hence, by <xref ref="lem-m-squared"/> we can conclude that <m>p</m> is even</p>
+    <p>Thus, by the definition of even we can find an integer 
+        <m>m</m> so that <m>p=2m</m>.</p>
+    <p>Calculate again:</p>
+    <md>
+        <mrow>2q^2\amp=(2m)^2</mrow>
+        <mrow>\amp=4m^2</mrow>
+        <mrow>\text{Divide both sides by 2 } q^2\amp=2m^2</mrow>
+    </md>
+    <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and again by <xref ref="lem-m-squared"/>, <m>q</m> is even.</p>
+    <p>Since <m>2\mid p</m> and <m>2\mid q</m>, 2 is a common divisor, and thus by definition of greatest common divisor (<xref ref="defn-gcd"/>) we have that <m>\text{GCD}(p,q)\geq 2</m>, yet this means that  <m>\text{GCD}(p,q)\neq 1</m></p>
+    <p>Thus we have shown <m>\text{GCD}(p,q)=1</m> <alert>and</alert> <m>\text{GCD}(p,q)\neq1</m> which is a contradiction. Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
 </example>
 
 </section>

@@ -220,5 +220,39 @@ components in a truth table.
         </tabular>
       
     </figure>
+   <p>
+    An importatant one is that of the biconditional, which we use as the word equivalent, this table shows us that this is a apt word use.
+   </p>
+   <figure>
+    <tabular halign="center">
+      <row header="yes" bottom="minor" >
+        <cell><m>P</m></cell>
+        <cell><m>Q</m></cell>
+        <cell><m>P\iff Q</m></cell>
+        
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+      </row>
+      <row>
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>T</cell>
+       <cell>F</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+    </tabular>
+  
+</figure>
    
 </section>
