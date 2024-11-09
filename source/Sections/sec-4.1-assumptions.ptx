@@ -1,6 +1,6 @@
 <section xml:id="sec-4-1-what-we-assume-ch-04" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Our Assumptions</title>
-    <p>blah..</p>
+    <p>In this chapter you can assume anything you had in <xref ref="sec-4-1-1-what-we-assume"/>. We also include a few more defintitons for this chapter.</p>
     <p></p>
 
 
@@ -49,6 +49,7 @@
             </statement>
         </definition>
     </p>
+ <!--
     <p>
         <definition xml:id="defn-relatively-prime">
             <title>Relatively Prime</title>
@@ -61,6 +62,23 @@
             </p>
         </statement>
             </definition>
+    </p>
+-->
+    <p>
+        <definition xml:id="def-integer-cone">
+            <title>1-d Integer Cone</title>
+            
+            
+            <statement>
+                <p>
+                    For any integers <m>x_1</m>, <m>x_2</m>, ..., <m>x_n</m> for some natural number <m>n</m> we say an integer <m>y</m> is in the <term>1-d integer cone formed by </term> <m>x_1</m>, <m>x_2</m>, ..., <m>x_n</m> if and only if there exists integers <m>a_1</m>, <m>a_2</m>, ..., <m>a_n</m> so that
+                    <me>
+                        y=a_1x_1+a_2x_2+...+a_nx_n
+                    </me>
+                    
+                </p>
+            </statement>
+        </definition>
     </p>
 
 

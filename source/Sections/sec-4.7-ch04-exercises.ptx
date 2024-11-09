@@ -5,39 +5,113 @@
 <ol>
     <li>
         <p>
-            Using contrapostion for the following prove for all <m>a</m>, <m>b</m>, and <m>c</m> that
+            Using contrapostion for the following prove for every integer <m>a</m> that
         </p>
         <ol>
             <li>
                 <p>
-                    blah...
+                    if <m>a</m> is even then <m>a+1</m> is odd
+                </p>
+            </li>
+            <li>
+                <p>
+                    if <m>a</m> is odd then <m>a+2</m> is odd
+                </p>
+            </li>
+            <li>
+                <p>
+                    if <m>a^2</m> is not divisible by 4 then <m>a</m> is odd
                 </p>
             </li>
         </ol>
     </li>
     <li>
         <p>
-            Using contradiction for the following prove for all <m>a</m>, <m>b</m>, and <m>c</m> that
+            Using contradiction for the following prove for any integer <m>a</m> that
         </p>
         <ol>
             <li>
                 <p>
-                    blah...
+                    if <m>ab</m> is odd then both <m>a</m> and <m>b</m> are odd
+                </p>
+            </li>
+            <li>
+                <p>
+                    if <m>a</m> is odd then <m>a+1</m> is even.
                 </p>
             </li>
         </ol>
     </li>
     <li>
         <p>
-            Using proof by cases for the following prove for all <m>a</m>, <m>b</m>, and <m>c</m> that
+            Using proof by cases for the following prove for any integer <m>a</m> that
         </p>
         <ol>
             <li>
                 <p>
-                    blah...
+                    If 5 does not divide <m>a</m> then 5 does not divide <m>a^2</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>a(a-1)</m> is even
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>2a-1</m> is odd
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>a^2+a+3</m> is odd
                 </p>
             </li>
         </ol>
+    </li>
+    <li>
+        <p>
+            Prove the following biconditional statments for any integers <m>a</m>, <m>b</m>, <m>c</m>, and <m>d</m> (you are allowed to divide for this exercise)
+        </p>
+        <ol>
+            <li>
+                <p>
+                    <m>a</m> is odd if and only if <m>a+1</m> is even
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>ac|bc</m> if and only if <m>a|b</m> 
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>a+c=b</m> and <m>2b-a=d</m> if and only if <m>a=b-c</m> and <m>b+c=d</m>
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>
+            Prove the following statements involving existentials
+        </p>
+        <ol>
+            <li>
+                <p>
+                    For any integer <m>a</m> there exists an unique integer <m>b</m> so that <m>a+b=0</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    There exists a rational number <m>x</m> such that <m>x+\frac{3}{2}=4</m>
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>
+            Prove that <m>\sqrt{3}</m> is not a rational number.
+        </p>
     </li>
 </ol>
 </section>

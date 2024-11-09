@@ -3,7 +3,153 @@
 <section xml:id="sec-4-6-existential-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Existential Proofs</title>
 <p>
-    blah...
+    In this section we will we discuss some proofs surrounding the existential quantifier. We begin by explaining the basics of proving statements that involve an existential. 
 </p>
-
+<assemblage>
+    <title>Proving <m>\exists x\in\mathcal{U}</m> <m>P(x)</m></title>
+    <p>
+      Produce an actual candidate <m>c\in\mathcal{U}</m>
+    </p>
+    <p>
+        show <m>P(c)</m> is true
+    </p>
+    <p>
+        Therefore <m>\exists x\in\mathcal{U}</m> <m>P(x)</m>
+    </p>
+  </assemblage>
+<p>
+    It's the old saying of just "show me". Proving existentials in this manner come up in your future algebra and analysis courses repeatedly as some of their most important concepts are defined with an exists. The following example is perhaps not the most enlightning but it does serve the purpose of a first example.
+</p>
+<example>
+    <p>
+        <alert>Prove:</alert> There exists a rational number <m>x</m> such that <m>x+\frac{3}{4}=2</m>
+    </p>
+    <proof>
+        <p>
+            I now present for your consideration the rational number: 
+            <me>
+                \frac{5}{4}
+            </me>
+            One can see that this is indeed a rational number as both 5 and 4 are integers and <m>\text{GCD}(5,4)=1</m> thus it satisfies the defintion of a rational number (<xref ref="defn-rational"/>). To see that this rational number indeed does the job for our statment notice that
+            <md>
+                <mrow>\frac{5}{4}+\frac{3}{4} \amp = \frac{5+3}{4}</mrow>
+                <mrow> \amp =\frac{8}{4}</mrow>
+                <mrow> \amp = 2</mrow>
+            </md>
+            so... therefore there truly does exist a rational number <m>x</m> so that <m>x+\frac{3}{4}=2</m>
+        </p>
+    </proof>
+</example>
+<p>
+    For our next example we will dig a little deeper into the existential proof in more of a mock experience to your future courses. Further, we will take advantage of the following lemma.
+</p>
+<lemma xml:id="lem-divides-less-than">
+    <statement>
+        <p>
+            For all positive integers <m>a</m> and <m>b</m> if <m>a|b</m> then <m>a\leq b</m>
+        </p>
+    </statement>
+</lemma>
+<proof>
+    <p>
+        Let <m>a</m> and <m>b</m> be positive integers. For the sake of contradiction assume that <m>a|b</m> and <m>b\lt a</m>. By the definition of divides (<xref ref="defn-divides"/>) we can find an integer <m>k</m> so that <m>b=ak</m>, now since <m>b\lt a</m> then <m>b=0\cdot a+b</m> where 0 is the quotient and <m>b</m> is the remainder satisfies the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>), yet since both <m>a</m> and <m>b</m> are positive the <m>k</m> also satisfies the condition of quotient. This is a contradiction as the quotient from the division algorithm is unique. <m>\square</m>
+    </p>
+</proof>
+<example>
+    <p>
+        <alert>Prove:</alert> For any integers <m>x</m> and <m>y</m>, there exists a smallest positive integer that is in the 1-d integer cone formed by <m>x</m> and <m>y</m>.
+    </p>
+    <proof>
+        <p>
+            Let <m>x</m> and <m>y</m> be integers, next we need to provide an integer which is smallest among all integers in the 1-d integer cone formed by <m>x</m> and <m>y</m>. We present for your scrutiny the integer
+            <me>
+                d=\text{GCD}(x,y)
+            </me>
+            Now, we are left with the task to show that <m>d</m> is the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m>. To say this another way we need to prove that the greatest common divisor of <m>x</m> and <m>y</m> is the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m>. 
+        </p>
+        <p>
+            To prove this let <m>d</m> be the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m> (it will be our goal to show it is our <m>d</m> from above). By the definition of the 1-d integer cone (<xref ref="def-integer-cone"/>) we can find integers <m>s</m> and <m>t</m> such that 
+            <me>
+                d=sx+ty
+            </me>
+             To show that this smallest positive integer is the greatest common divisor by the definition of greatest common divisor (<xref ref="defn-gcd"/>) first it must be a divisor of both <m>x</m> and <m>y</m>.
+        </p>
+        <p>
+            By the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>) we can find positive integers <m>q</m> and <m>r</m> such that <m>0\leq r\lt d</m> such that <m>x=qd+r</m> yet by substituting in the form of <m>d</m> above we see <m>x=q(sx+ty)+r</m> and hence
+            <me>
+                r=x-q(sx+ty)=(1-qs)x+(qt)y
+            </me>
+            and since <m>(1-qs)</m> and <m>qt</m> are both integers by the definition of 1-d integer cone, then <m>r</m> is in the 1-d integer cone formed by <m>x</m> and <m>y</m> yet we assumed <m>d</m> was the smallest positive one, so because we assumed <m>0\leq r\lt d</m> then <m>r=0</m> hence <m>a=qd</m> and since <m>q</m> is an integer by the definition of divides <m>d|x</m>. 
+        </p>
+        <p>
+            similarly by the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>) we can find positive integers <m>z</m> and <m>w</m> such that <m>0\leq w\lt d</m> such that <m>y=zd+w</m> yet by substituting in the form of <m>d</m> above we see <m>y=z(sx+ty)+w</m> and hence
+            <me>
+                w=y-z(sx+ty)=(zs)x+(1-zt)y
+            </me>
+            and since <m>(1-zt)</m> and <m>zs</m> are both integers by the definition of 1-d integer cone, then <m>w</m> is in the 1-d integer cone formed by <m>x</m> and <m>y</m> yet we assumed <m>d</m> was the smallest positive one, so because we assumed <m>0\leq w\lt d</m> then <m>w=0</m> hence <m>y=zd</m> and since <m>z</m> is an integer by the definition of divides <m>d|y</m>. 
+        </p>
+        <p>
+            Therefore by the definition of common divisor (<xref ref="defn-divisor"/>) <m>d</m> is a common divisor of <m>x</m> and <m>y</m>.
+        </p>
+        <p>
+            By the definition of greatest common divisor (<xref ref="defn-gcd"/>) we still need to show that any other divisor is smaller than <m>d</m>. To do this let <m>c</m> be a common divisor of <m>x</m> and <m>y</m>. By definition of common divisor both <m>c|x</m> and <m>c|y</m> hence by definition of divides (<xref ref="defn-divides"/>) we can find integers <m>a</m> and <m>b</m> so that <m>x=ac</m> and <m>y=bc</m> thus substituting in our above relations we have
+            <me>
+                d=sac+tbc=(sa+tb)c
+            </me>
+            and since <m>sa+tb</m> is an integer by the definition of divides <m>c|d</m>. Finally by <xref ref="lem-divides-less-than"/> we have <m>c\lt d</m> as desired. 
+        </p>
+        <p>
+            Since we have verified both parts in the definition of greatest common divisor we have that
+            <me>
+                d=\text{GCD}(x,y)
+            </me>
+            <m>\square</m>
+        </p>
+    </proof>
+</example>
+<p>
+    Next, we will discuss unique existence. This quantifier adds a step to our proving method as we are not simply saying there is an element out there we are saying there is only one of those elements. Uniqueness is a common theme in algebra and analysis as well.
+</p>
+<assemblage>
+    <title>Proof of <m>\exists!x\in\mathcal{U}</m> <m>P(x)</m></title>
+    <p>
+      Prove <m>\exists x\in\mathcal{U}</m> <m>P(x)</m> 
+    </p>
+    <p>
+        Assume you have <m>a\in\mathcal{U}</m> and <m>b\in\mathcal{U}</m> so that <m>P(a)</m> is true and <m>P(b)</m> is true.
+    </p>
+    <p>
+        Prove <m>a=b</m>
+    </p>
+  </assemblage>
+  <p>
+    For our first example we will explore a common theme from your future algebra courses.
+  </p>
+  <example>
+    <p>
+        <alert>Prove:</alert> There exists a unique integer, <m>a</m>, so that for all integers <m>b</m> 
+        <me>
+            a+b=b
+        </me>
+    </p>
+    <proof>
+        <p>
+            The integer that we submit for your deliberation is:
+            <me>
+                0
+            </me>
+            To see that zero works, to satisfy the existence, notice that when we choose an arbitrary integer <m>x</m> that: <m>0+x=x</m>.
+        </p>
+        <p>
+            Now to prove the uniqueness, assume that we have two integers <m>c</m> and <m>d</m> so that for any integer <m>b</m> both <m>c+b=b</m> and <m>d+b=b</m>. So inparticular 
+            <me>
+                c=d+c=c+d=d
+            </me>
+            that is <m>c=d</m>.
+        </p>
+        <p>
+            Therefore, we have shown that there exists an integer with the desired property and that this integer is unique. <m>\square</m>
+        </p>
+    </proof>
+  </example>
 </section>
