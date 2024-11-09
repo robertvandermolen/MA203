@@ -4,10 +4,12 @@
   <title>Set Theory</title>
 
   <introduction>
-    <p>This is the second chapter and will cover universal and existential quantifiers and their accompanying language. </p>
+    <p>
+      Now in this second half of the course we temporarily abandon the saftey of our precious numbers, and take on the adventure of mathematics. We begin this adventure by first learning a new playground to prove in, namely <em>set theory</em>.
+    </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="../Sections/sec-5.1.ptx" />
-  <xi:include href="../Sections/sec-5.2.ptx" />
+  <xi:include href="../Sections/sec-5.1-what-is-a-set.ptx" />
+  
 </chapter>

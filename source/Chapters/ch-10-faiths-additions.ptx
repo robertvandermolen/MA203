@@ -8,5 +8,7 @@
 
   <!-- include sections -->
   <xi:include href="../Sections/sec-10.1.ptx" />
-
+  <xi:include href="../Sections/subsections/subsec-sets-terms.ptx" />
+  <xi:include href="../Sections/subsections/subsec-sets-working-with-subsets.ptx" />
+  <xi:include href="../Sections/sec-sets-examples.ptx" />
 </chapter>
