@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-2-comparing-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Comparing and Combining Sets</title>
+<p>
+    Now we will begin comparing sets. Our first tool of comparison is the concept of subset.
+</p>
+<definition xml:id="defn-subset">
+    <title>Subset</title>
+    <statement>
+        <p>
+           We say that the set <m>A</m> is a <term>subset</term> of a set <m>B</m>, denoted <m>A\subseteq B</m>, if and only if for all <m>x\in\mathcal{U}</m>, <me>x \in A \implies x \in B</me>
+        </p>
+    </statement>
+</definition>
+<p>
+    To say that in more plain language, <m>A\subseteq B</m> means <m>B</m> contains all the elements of <m>A</m>, it is noteworthy that <m>B</m> may contain more than just those elements from <m>A</m>.
+</p>
+<example>
+    <p>
+        Define the sets
+    </p>
+    <p>
+        *picture*
+    </p>
+    <p>
+        notice that every element from <m>A</m> can also be found in <m>B</m>.
+    </p>
+</example>
+<example>
+    <p>
+        Define the sets 
+        <me>
+            A=\{x\in\Z\text{ }|\text{ }x=6a\text{ for some } a\in\Z\}
+        </me>
+        <me>
+            B=\{x\in\Z\text{ }|\text{ }x=2a\text{ for some } a\in\Z\}
+        </me>
+        Notice that <m>A\subseteq B</m> since for any <m>x\in A</m> we can find an integer <m>a</m> such that 
+        <me>
+            x=6a=2\cdot(3a)
+        </me>
+        and since <m>3a</m> is an integer by definition <m>x\in B</m>.
+    </p>
+</example>
+
+</section>

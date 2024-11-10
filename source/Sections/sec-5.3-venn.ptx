@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-3-venn-diagrams" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Venn Diagrams</title>
+<p>
+    To understand/describe the relationship between sets we often use a tool known as <term>Venn Diagrams</term>. In simpliest terms a Venn diagram is a drawing representing the sets we are considering, we draw a circle for each set, and imagine the elements are inside the circle.
+</p>
+<example>
+    <p>
+        A Venn diagram for a singular set <m>A</m>
+    </p>
+    <image source="/images/venn_A.jpeg" width="75%"/>
+</example>
+<example>
+    <p>
+        A Venn diagram for <m>A\subseteq B</m> 
+    </p>
+    <image source="/images/subset-a.jpeg" width="75%"/>
+</example>
+
+</section>

@@ -5,11 +5,16 @@
 
   <introduction>
     <p>
-      Now in this second half of the course we temporarily abandon the saftey of our precious numbers, and take on the adventure of mathematics. We begin this adventure by first learning a new playground to prove in, namely <em>set theory</em>.
+      Now in this second half of the course we temporarily abandon the saftey of our precious numbers, and take on the adventure of mathematics. We begin this adventure by first learning a new playground to prove in, namely <em>naive set theory</em>. 
+    </p>
+    <p>
+      While indeed we gave the reader the minimum needed from set theory to play with quantifiers in <xref ref="subsec-2-5-1-basic-sets"/> in this chapter we essentially start over re-defining it all.
     </p>
   </introduction>
 
   <!-- include sections -->
   <xi:include href="../Sections/sec-5.1-what-is-a-set.ptx" />
+  <xi:include href="../Sections/sec-5.2-comparing-sets.ptx" />
+  <xi:include href="../Sections/sec-5.3-venn.ptx" />
   
 </chapter>

@@ -3,6 +3,127 @@
 <section xml:id="sec-5-1-what-is-a-set" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>What is a Set?</title>
 <p>
-    blah..
+    While set theory has been rigourously defined axiomatically, in this course we choose to only skim the surface using a whole lot of intution and the propositional logic that we devoloped in <xref ref="ch-02-logic"/>. The main object of study in set theory is the <em>set</em>. Inutuitively a set is a magic bag filled with stuff... or nothing... Georg Cantor the russian mathematician credited as the father of set theory first defined the set as:
 </p>
+<p>
+     A set is a gathering together into a whole of definite, distinct objects of our perception or of our thought—which are called elements of the set.
+</p>
+<p>
+    - Georg Cantor
+</p>
+<p>
+    We include a much more boring description.
+</p>
+<definition xml:id="def-naive-set">
+    <title>Set</title>
+    <statement>
+        <p>
+            A <term>set</term> is a well definied collection of objects. 
+        </p>
+    </statement>
+</definition>
+<definition xml:id="def-element-of-a-set">
+    <title>Element</title>
+    
+    
+    <statement>
+        <p>
+            The objects in a set are called <term>elements</term> or <em>memembers</em>.
+        </p>
+    </statement>
+</definition>
+<p>
+    We will most often denote sets with captial letters like: <m>A</m>, <m>B</m>, <m>C</m> etc. Furthermore we will denote elements with lowercase letters like <m>a</m>, <m>b</m>, <m>x</m>, etc.
+</p>
+<assemblage>
+    <title><m>\in</m> Notation</title>
+    <p>
+      To indicate that <m>x</m> is an element of a set <m>A</m> we will write:
+      <me>
+        x\in A
+      </me>
+      To indicate that <m>x</m> is not an element of a set <m>A</m> we will write:
+      <me>
+        x\not\in A
+      </me>
+      
+    </p>
+  </assemblage>
+  <p>
+    Membership to a set is a <alert>proposition</alert> as it is either true or false. 
+  </p>
+  <p>
+    To define a specific set we can simply list all of it's elements. To do so we encompass the elements we wish to include between braces: <m>\{</m> and <m>\}</m> and seperate the elements with a comma.
+  </p>
+  <example>
+    <p>
+        Consider the following set <m>A</m>
+    </p>
+    <image source="/images/first_set.jpeg" width="100%"/>
+    <p>
+        and note the following example of the membership notation.
+    </p>
+    <image source="/images/robot.jpeg" width="37%"/>
+    <p>
+        You can also indicate the negation of membership
+    </p>
+    <image source="/images/bob_not_in.jpeg" width="37%"/>
+  </example>
+  <note>
+    <p>
+        A set has no order, and you cannot repeat elements.
+    </p>
+  </note>
+  <p>
+    Sets come in many different shapes and flavors and throughout your mathematical career you will need to become extremely comfortable with sets and depending on the discipline you will either love or hate the following set but you will never deny that it is perhaps one of the most important sets. 
+  </p>
+  <definition xml:id="def-empty-set">
+    <title>Empty Set</title>
+    
+    
+    <statement>
+        <p>
+            We will call the set containing no elements the <term>empty set</term>, we denote the empty set as <m>\emptyset</m>, that is 
+            <me>
+                \emptyset=\{\}
+            </me>
+            
+        </p>
+    </statement>
+  </definition>
+  <p>
+    As there are no elements in <m>\emptyset</m> the statement <m>x\in\emptyset</m> is a contradiction (that is always false).
+  </p>
+  <p>
+    Membership is the defining characteristic of a set, thus it is helpful to define a set by conditions for membership. One way to do that we call <term>set-builder notation</term>.
+  </p>
+  <image source="/images/set-build-p.jpeg" width="100%"/>
+  <p>
+    Thus, we have membership <m>a\in\{x\text{ }|\text{ }P(x)\}</m> if and only if <m>P(a)</m> is true.
+  </p>
+  <example>
+    <p>
+        We include some sets defined with set-builder notation.
+        <ul>
+            <li>
+                <p>
+                    <m>
+                        \{x\in\Z\text{ }|\text{ }-5\lt x\lt 5\}
+                    </m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\{y\in\Z\text{ }|\text{ }y=3a+1 \text{ for some }a\in\Z\}</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\{z\in\Q\text{ }|\text{ }|z|\lt\sqrt{7}\}</m>
+                </p>
+            </li>
+        </ul>
+        
+    </p>
+  </example>
 </section>

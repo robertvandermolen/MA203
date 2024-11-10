@@ -15,9 +15,9 @@
 <definition xml:id="def-Power-Set">
     <statement>
         <p>
-            Let A be a set. The power set of A is the set whose elements are the subsets of A and is denoted <m>mathscr{P}(A)</m>
+            Let A be a set. The power set of A is the set whose elements are the subsets of A and is denoted <m>\mathscr{P}(A)</m>
         </p>
-        <me>P(A)={B:B \subset A}</me>
+        <me>\mathscr{P}(A)={B:B \subset A}</me>
     </statement>
 </definition>
 
