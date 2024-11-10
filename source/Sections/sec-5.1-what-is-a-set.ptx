@@ -99,12 +99,12 @@
   </p>
   <image source="/images/set-build-p.jpeg" width="100%"/>
   <p>
-    Thus, we have membership <m>a\in\{x\text{ }|\text{ }P(x)\}</m> if and only if <m>P(a)</m> is true.
+    This is our way of defining membership <m>a\in\{x\text{ }|\text{ }P(x)\}</m> if and only if <m>P(a)</m> is true.
   </p>
   <example>
     <p>
         We include some sets defined with set-builder notation.
-        <ul>
+        <ol marker="(A)">
             <li>
                 <p>
                     <m>
@@ -122,7 +122,7 @@
                     <m>\{z\in\Q\text{ }|\text{ }|z|\lt\sqrt{7}\}</m>
                 </p>
             </li>
-        </ul>
+        </ol>
         
     </p>
   </example>

@@ -5,6 +5,12 @@
 <p>
     To understand/describe the relationship between sets we often use a tool known as <term>Venn Diagrams</term>. In simpliest terms a Venn diagram is a drawing representing the sets we are considering, we draw a circle for each set, and imagine the elements are inside the circle.
 </p>
+<historical>
+    <p>
+        John Venn was an English mathematician that in the 1800's introduced Eulerian Circles, which we now dawn with his name. 
+        <image source="/images/john_venn.jpg" width="100%"/>
+    </p>
+</historical>
 <example>
     <p>
         A Venn diagram for a singular set <m>A</m>
@@ -16,6 +22,33 @@
         A Venn diagram for <m>A\subseteq B</m> 
     </p>
     <image source="/images/subset-a.jpeg" width="75%"/>
+</example>
+<p>
+    When we are indicating a specific portion of the Venn diagram we will use shading, such as the following examples.
+</p>
+<example>
+    <p>
+        A Venn diagram for <m>A\cup B</m> 
+    </p>
+    <image source="/images/a-cup-b.jpeg" width="75%"/>
+</example>
+<example>
+    <p>
+        A Venn diagram for <m>A\cap B</m> 
+    </p>
+    <image source="/images/a_cap_b.jpeg" width="75%"/>
+</example>
+<example>
+    <p>
+        A Venn diagram for <m>A- B</m> 
+    </p>
+    <image source="/images/a-minus-b.jpeg" width="75%"/>
+</example>
+<example>
+    <p>
+        A Venn diagram for <m>A^c</m> 
+    </p>
+    <image source="/images/not_a.jpeg" width="75%"/>
 </example>
 
 </section>

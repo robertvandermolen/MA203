@@ -18,11 +18,10 @@
 </p>
 <example>
     <p>
-        Define the sets
+        Consider the sets
     </p>
-    <p>
-        *picture*
-    </p>
+    <image source="/images/first_set.jpeg" width="72.5%"/>
+    <image source="/images/set_b.jpeg" width="100%"/>
     <p>
         notice that every element from <m>A</m> can also be found in <m>B</m>.
     </p>
@@ -42,6 +41,159 @@
         </me>
         and since <m>3a</m> is an integer by definition <m>x\in B</m>.
     </p>
+    
 </example>
-
+<p>
+    We now venture into combining sets, that is making new sets given one or more sets. 
+</p>
+<definition xml:id="def-union">
+    <title>Union</title>
+    <statement>
+        <p>
+            We define the <term>union</term> of two sets <m>A</m> and <m>B</m>, denoted <m>A\cup B</m> as the set:
+        </p>
+        <p><me>A \cup B = \{x\text{ } |\text{ } x \in A \vee x \in B\}</me></p>
+    </statement>   
+  </definition>
+  <p>As is done for a set, we must define what it takes for membership to this set. For the union membership is allowed when membership of either <m>A</m> or <m>B</m> is established.
+    In more common vernacular, this says that the union of two sets is anything from either set.</p>
+  <example>
+    <p>
+        Consider the following sets
+    </p>
+    <image source="/images/first_set.jpeg" width="65%"/>
+    <image source="/images/new_b.jpeg" width="62%"/>
+    <p>
+        then the union of <m>A</m> and <m>B</m> is as follows
+    </p>
+    <image source="/images/union.jpeg" width="100%"/>
+  </example>
+  <example>
+   <p>
+    Define the sets 
+    <me>
+        A=\{x\in\R\text{ }|\text{ }0\leq x\lt10\}
+    </me>
+    <me>
+        B=\{x\in\R\text{ }|\text{ }-10\lt x\lt 0\}
+    </me>
+    Thus the union of these two sets is
+    <me>
+        A\cup B=\{x\in\Z\text{ }|\text{ }-10\lt x\lt 10\}
+    </me>
+    since any real number between -10 and 10 are either included between 0 and 10 or between -10 and 0.
+   </p>
+  </example>
+  <p>
+    Another way to combine sets is to only consider the elements in which they share, this is our next definition.
+  </p>
+    <definition xml:id="def-intersection">
+    <title>Intersection</title>
+    <statement>
+        <p>
+            The <term>intersection</term> of two sets <m>A</m> and <m>B</m>, denoted <m>A\cap B</m>, is defined as
+        </p>
+        <p><me>A \cap B = \{x \text{ }|\text{ } x \in A \wedge x \in B\}</me></p>
+    </statement>   
+  </definition>
+  <p>Again, as these are sets, we must define what it means to be a member of this set. For the intersection membership is defined for those elements that have membership to both the sets <m>A</m> and <m>B</m>. Or in other words, the intersection only has the things that are shared between two sets.</p>
+  <example>
+    <p>
+        Consider the following sets
+    </p>
+    <image source="/images/intersect_a.jpeg" width="100%"/>
+    <image source="/images/intersect_b.jpeg" width="100%"/>
+    <p>
+        therefore the intersection of these two sets are
+    </p>
+    <image source="/images/intersection.jpeg" width="96%"/>
+    <p>
+        Notice that elements in the intersection are exactly those that show up in both <m>A</m> and <m>B</m>.
+    </p>
+  </example>
+  <example>
+    <p>
+        Define the sets 
+        <me>
+            A=\{x\in\Z\text{ }|\text{ }0\lt x\leq 10\}
+        </me>
+        <me>
+            B=\{x\in\Z\text{ }|\text{ }x=2y\text{ for some }y\in\Z\}
+        </me>
+        Thus the intersection of these two sets is
+        <me>
+            A\cap B=\{2, 4, 6, 8, 10\}
+        </me>
+        since those are the only even integers between 0 and 10 (including 10).
+       </p>
+  </example>
+  <p>
+    The last construction showed where two sets were the same yet, now we explore where they differ.
+  </p>
+  <definition xml:id="def-set-difference">
+    <title>Difference</title>
+    <statement>
+        <p>
+            The <term>difference</term> of a set <m>A</m> and a set <m>B</m>, denoted <m>A-B</m>, is the set defined as
+        </p>
+        <p><me>A-B = \{x \text{ }|\text{ } x \in A \wedge x \not\in B\}</me></p>
+    </statement>   
+  </definition>
+  <p>The difference of <m>A</m> and <m>B</m> consists of the things that are in <m>A</m>, but not in <m>B</m>.</p>
+  <example>
+    <p>
+        Consider the sets
+    </p>
+    <image source="/images/intersect_a.jpeg" width="100%"/>
+    <image source="/images/intersect_b.jpeg" width="100%"/>
+    <p>
+        thus the set difference of <m>A</m> and <m>B</m> is
+    </p>
+    <image source="/images/difference.jpeg" width="68%"/>
+    <p>
+        notice that the difference is made up only of elements that appear in <m>A</m> yet do not appear in <m>B</m>.
+    </p>
+  </example>
+  <example>
+    <p>
+        Define the sets 
+        <me>
+            A=\{x\in\Z\text{ }|\text{ }0\lt x\lt 10\}
+        </me>
+        <me>
+            B=\{x\in\Z\text{ }|\text{ }x=2y\text{ for some }y\in\Z\}
+        </me>
+        Thus the difference of these two sets is
+        <me>
+            A- B=\{1,3,5,7,9\}
+        </me>
+        since these are there integers between 0 and 10 that are not even.
+       </p>
+  </example>
+  <p>
+    To end this section we have been quite flipant on our universe of discourse, yet with a well defined one we can look at the set difference involving the universe.
+  </p>
+  <definition xml:id="def-compliment">
+    <title>Compliment</title>
+    <statement>
+        <p>
+            The <term>compliment</term> of a set <m>A</m> in the universe <m>\mathcal{U}</m>, is defined as the following set,
+        </p>
+        <p><me>A^c = \{x \in \mathcal{U} \text{ }|\text{ } x \not\in A\}</me> or <me>A^c = \mathcal{U}-A</me></p>
+    </statement>   
+  </definition>
+  <p>The compliment can, perhaps, most simply be stated as everything that is not in <m>A</m>.</p>
+  <example>
+    <p>
+        For this example consider the universe of discord as the intergers, <m>\mathcal{U}=\Z</m>, and consider the set of all even numbers, that is the set 
+        <me>
+            A=\{x\in\Z\text{ }|\text{ }x=2y\text{ for some }y\in\Z\}
+        </me>
+        Then the compliment of <m>A</m> is all the integers that are not even, or in-lieu of <xref ref="lem-odd-not-even"/> we have that 
+        <me>
+            A^c=\{x\in\Z\text{ }|\text{ }x=2y+1\text{ for some }y\in\Z\}
+        </me>
+        
+    </p>
+  </example>
 </section>
