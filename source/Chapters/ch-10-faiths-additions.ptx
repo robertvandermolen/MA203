@@ -11,4 +11,6 @@
   <xi:include href="../Sections/subsections/subsec-sets-terms.ptx" />
   <xi:include href="../Sections/subsections/subsec-sets-working-with-subsets.ptx" />
   <xi:include href="../Sections/sec-sets-examples.ptx" />
+  <xi:include href="../Sections/sec-10.2-pmi.ptx" />
+
 </chapter>

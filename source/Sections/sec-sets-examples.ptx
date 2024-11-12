@@ -4,16 +4,16 @@
   <title>Examples of Proofs with Set Theory</title>
 
   <example>
-    <p><alert>Prove:</alert> <m>A \subset B</m> if and only if <m>P(A) \subset P(B)</m></p>
+    <p><alert>Prove:</alert> <m>A \subset B</m> if and only if <m>\mathscr{P}(A) \subset \mathscr{P}(B)</m></p>
     <p>[<m>\implies</m>]</p>
-    <p>Assume <m>A \subset B</m> Let <m>x \in P(A)</m>. Hence by definition of power set, <m>x \subset P(A)</m></p>
+    <p>Assume <m>A \subset B</m> Let <m>x \in \mathscr{P}(A)</m>. Hence by definition of power set, <m>x \subset \mathscr{P}(A)</m></p>
     <p>By theorem (I have to figure out how to reference and name them) (c), since <m>x \subset A</m> and <m>A \subset B</m>
-        we can conclude <m>x \subset B</m>. Thus by definition of power set, <m>x \in P(B)</m></p>
-    <p>Thus by direct proof, if <m>A \subset B</m> then <m>P(A) \subset P(B)</m></p>
+        we can conclude <m>x \subset B</m>. Thus by definition of power set, <m>x \in \mathscr{P}(B)</m></p>
+    <p>Thus by direct proof, if <m>A \subset B</m> then <m>\mathscr{P}(A) \subset P(B)</m></p>
     <p>[<m>\impliedby</m>]</p>
-    <p>Assume that <m>P(A) \subset P(B)</m>. Let <m>y \in A</m> By definition of power set, <m>{y} \in P(A)</m>. Hence by
-        our assumption, <m>{y} \in P(B)</m>. Hence by our assumption and the definition of power set, <m>{y} \in P(A)</m>, hence
-    <m>{y} \in P(B)</m>. By definition of subset, since <m>y \in {y}</m> then <m>y \in B</m>.</p>
-    <p>Thus by direct and bi-directional proof, <m>A \subset B</m> if and only if <m>P(A) \subset P(B)</m></p>
+    <p>Assume that <m>\mathscr{P}(A) \subset \mathscr{P}(B)</m>. Let <m>y \in A</m> By definition of power set, <m>{y} \in P(A)</m>. Hence by
+        our assumption, <m>{y} \in \mathscr{P}(B)</m>. Hence by our assumption and the definition of power set, <m>{y} \in \mathscr{P}(A)</m>, hence
+    <m>{y} \in \mathscr{P}(B)</m>. By definition of subset, since <m>y \in {y}</m> then <m>y \in B</m>.</p>
+    <p>Thus by direct and bi-directional proof, <m>A \subset B</m> if and only if <m>\mathscr{P}(A) \subset \mathscr{P}(B)</m></p>
   </example>
 </section>

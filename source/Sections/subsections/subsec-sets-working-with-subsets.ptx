@@ -25,24 +25,24 @@
             For all sets <m>A</m>, <m>B</m>, and <m>C</m>:
         </p>
         <ol marker="(a)">
-            <li><m>A \subset A \bigcup B</m></li>
-            <li><m>A \bigcap B \subset A</m></li>
-            <li><m>A \bigcap \{\} = \{\}</m></li>
-            <li><m>A \bigcup \{\} = A</m></li>
-            <li><m>A \bigcap A = A</m></li>
-            <li><m>A \bigcup A = A</m></li>
-            <li><m>A-\{\} = A</m></li>
-            <li><m>\{\} - A = \{\}</m></li>
-            <li><m>A \bigcup B = B \bigcup A</m> (commutativity)</li>
-            <li><m>A \bigcap B = B \bigcap A</m> (commutativity)</li>
-            <li><m>A \bigcup (B \bigcup C)=(A \bigcup B)\bigcup C</m> (associativity)</li>
-            <li><m>A \bigcap (B \bigcap C)=(A \bigcap B)\bigcap C</m> (associativity)</li>
-            <li><m>A \bigcap (B \bigcup C)=(A \bigcap B) \bigcup (A \bigcap C)</m> (distributivity)</li>
-            <li><m>A \bigcup (B \bigcap C)=(A \bigcup B) \bigcap (A \bigcup C)</m> (distributivity)</li>
-            <li><m>A \subset B</m> if and only if <m>A \bigcup B = B</m></li>
-            <li><m>A \subset B </m> if and only if <m>A \bigcap B = A</m></li>
-            <li>If <m>A \subset B</m> then <m>A \bigcup C \subset B \bigcup C</m></li>
-            <li>If <m>A \subset B</m> then <m>A \bigcap C \subset B \bigcap C</m></li>
+            <li><m>A \subset A \cup B</m></li>
+            <li><m>A \cap B \subset A</m></li>
+            <li><m>A \cap \emptyset = \{\}</m></li>
+            <li><m>A \cup \emptyset = A</m></li>
+            <li><m>A \cap A = A</m></li>
+            <li><m>A \cup A = A</m></li>
+            <li><m>A-\emptyset = A</m></li>
+            <li><m>\emptyset - A = \emptyset</m></li>
+            <li><m>A \cup B = B \cup A</m> (commutativity)</li>
+            <li><m>A \cap B = B \cap A</m> (commutativity)</li>
+            <li><m>A \cup (B \cup C)=(A \cup B)\cup C</m> (associativity)</li>
+            <li><m>A \cap (B \cap C)=(A \cap B)\cap C</m> (associativity)</li>
+            <li><m>A \cap (B \cup C)=(A \cap B) \cup (A \cap C)</m> (distributivity)</li>
+            <li><m>A \cup (B \cap C)=(A \cup B) \cap (A \cup C)</m> (distributivity)</li>
+            <li><m>A \subset B</m> if and only if <m>A \cup B = B</m></li>
+            <li><m>A \subset B </m> if and only if <m>A \cap B = A</m></li>
+            <li>If <m>A \subset B</m> then <m>A \cup C \subset B \cup C</m></li>
+            <li>If <m>A \subset B</m> then <m>A \cap C \subset B \cap C</m></li>
         </ol>
 
     </statement>
@@ -51,7 +51,7 @@
 <theorem xml:id="thm-5-4">
     <statement>
         <ol marker="(a)">
-            <li>For every set <m>A</m>, <m>\{\} \subset A</m></li>
+            <li>For every set <m>A</m>, <m>\emptyset \subset A</m></li>
             <li>For every set <m>A</m>, <m>A \subset A</m></li>
             <li>For all sets <m>A</m>, <m>B</m>, and <m>C</m>, if <m>A \subset B</m> and <m>B \subset C</m>, then <m>A \subset C</m></li>        
         </ol>

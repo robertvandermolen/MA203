@@ -49,5 +49,12 @@
   <p>It's interesting to note how the symbol for union <m>\cup</m> is similar to the symbol for "or" <m>\vee</m>. The symbol for intersection <m>\cap</m>
     is similar to the symbol for "and" <m>\wedge</m>. And compliment matches with negation.</p>
 
-
+  <definition xml:id="def-union-over-fam">
+    <title>Union over Family</title>
+    <statement>
+      <p>
+        Let <m>\mathscr{A}</m> be a family of sets
+      </p>
+    </statement>
+  </definition>
 </section>
