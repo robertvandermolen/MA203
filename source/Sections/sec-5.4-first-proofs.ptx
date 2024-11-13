@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-4-first-set-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>First Properties of Sets</title>
+<p>
+    As we have defined naive set theory with only propostions they are primed to be proven with the techniques we have been developing. We will begin by proving and covering some basic propoerties sets and some of our constructions from the previous sections.
+</p>
+<p>
+    We first examine how one would prove a subset to be true.
+</p>
+<assemblage>
+    <title>Proving <m>A\subseteq B</m></title>
+    <p>
+      Let <m>x\in A</m>
+    </p>
+    <p>
+        ...
+    </p>
+    <p>
+        Therefore <m>x\in B</m>
+    </p>
+  </assemblage>
+  <p>
+    The keen-eyed student will notice that this is simply the direct proof applied to the definition of subset, specifically:
+    <me>
+        \forall x\in\mathcal{U} \text{ }x\in A\implies x\in B
+    </me>
+    Now we have the tools to start proving, we begin with the reason that most people hate the empty set.
+  </p>
+<proposition xml:id="prop-empty-unique">
+    <statement>
+        <p>
+            For any set <m>A</m> the empty set is a subset of <m>A</m>, that is <me>\emptyset\subseteq A</me>
+        </p>
+    </statement>
+</proposition>
+
+</section>

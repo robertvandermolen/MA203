@@ -16,5 +16,7 @@
   <xi:include href="../Sections/sec-5.1-what-is-a-set.ptx" />
   <xi:include href="../Sections/sec-5.2-comparing-sets.ptx" />
   <xi:include href="../Sections/sec-5.3-venn.ptx" />
+  <xi:include href="../Sections/sec-5.4-first-proofs.ptx" />
+  <xi:include href="../Sections/sec-5.5-power-set.ptx" />
   
 </chapter>

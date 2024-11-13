@@ -23,7 +23,7 @@
     <image source="/images/first_set.jpeg" width="72.5%"/>
     <image source="/images/set_b.jpeg" width="100%"/>
     <p>
-        notice that every element from <m>A</m> can also be found in <m>B</m>.
+        notice that every element from <m>A</m> can also be found in <m>B</m>, that is <m>A\subseteq B</m>.
     </p>
 </example>
 <example>
