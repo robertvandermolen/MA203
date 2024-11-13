@@ -43,17 +43,17 @@
         <p><alert>Prove:</alert> <m>\forall n \in \mathbb{N} </m> (for every natural number) 
             <m>\sum_{i=1}^{n} 2i-1 = n^2</m></p>
         <proof>
-            <p>Basis step: show it's true for 1. Calculate (n=1):</p>
-            <p><m>\sum_{i=1}^{1} 2i-1 = (1)^2</m></p>
+            <p><alert>Basis step:</alert> show it's true for 1</p>
+            <p>Let <m>n=1</m>. Calculate <m>\sum_{i=1}^{1} 2i-1 = (1)^2</m> :</p>
             <me>2(1)-1=1</me>
-            <p>Inductive step (assume it's true for <m>n</m>):</p>
+            <p><alert>Inductive step:</alert> assume it's true for <m>n</m></p>
             <p>Let <m>n \in \mathbb{N}</m> where <m>n&gt; 1</m> and assume <m>\sum_{i=1}^{n} 2i-1 = n^2</m>. Calculate:</p>
             <me>(n+1)^2 = n^2 +2n +1</me>
             <p>Now we <em>show</em> it's true for <m>n+1</m>:</p>
             <p>Calculate:</p>
             <md>
                 <mrow>\sum_{i=1}^{n+1} 2i-1 = (n+1)^2 \amp= [\sum_{i=1}^{n} 2i-1]+(2(n+1)-1)</mrow>
-                <mrow>\amp=n^2 \text{ (this from the induction assumption) } + (2(n+1)-1)</mrow>
+                <mrow>\amp=n^2 \text{ (from induction assumption) } + (2(n+1)-1)</mrow>
                 <mrow>\amp=n^2+2n+2-1</mrow>
                 <mrow>\amp=n^2+2n+1</mrow>
                 <mrow>\amp=(n+1)^2</mrow>
@@ -65,17 +65,17 @@
 
         <proof>
             <p><alert>Prove:</alert> <m>\forall n\in \mathbb{N}</m>  <m>\prod_{i=1}^{n} (4i-2) = \frac{2n!}{n!}</m></p>
-            <p>Basis step: show it's true for 1. Calculate (n=1):</p>
-            <p><m>\prod_{i=1}^{1} (4i-2) = \frac{2(1)!}{(1)!}</m></p>
+            <p><alert>Basis step:</alert> show it's true for 1</p>
+            <p>Let <m>n=1</m>. Calculate <m>\prod_{i=1}^{1} (4i-2) = \frac{2(1)!}{(1)!}</m> :</p>
             <me>4(1)-2=2</me>
-            <p>Inductive step: (assume it's true for <m>n</m>):</p>
+            <p><alert>Inductive step:</alert> assume it's true for <m>n</m></p>
             <p>Let <m>n \in \mathbb{N}</m> where <m>n&gt; 1</m> and assume <m>\prod_{i=1}^{n} (4i-2) = \frac{2n!}{n!}</m>. Calculate:</p>
             <me>\prod_{i=1}^{n+1} (4i-2) = \frac{2(n+1)!}{(n+1)!}</me>
             <p>Now we <em>show</em> it's true for <m>n+1</m>:</p>
             <p>Calculate:</p>
             <md>
                 <mrow>\prod_{i=1}^{n+1} (4i-2) = \frac{2(n+1)!}{(n+1)!} \amp= (\prod_{i=1}^{n} (4i-2))((4(n+1)-2)</mrow>
-                <mrow>\amp=\frac{2n!}{n!} \text{ (this from the induction assumption) }((4(n+1)-2)</mrow>
+                <mrow>\amp=\frac{2n!}{n!} \text{ (from induction assumption) }((4(n+1)-2)</mrow>
                 <mrow>\amp=(\frac{2n!}{n!})(4n+2)</mrow>
                 <mrow>\amp=(\frac{2n!}{n!})(2(2n+1))</mrow>
                 <mrow>\amp=(2)\frac{(2n+1)((2n)!)}{n!}</mrow>
@@ -103,19 +103,25 @@
 
     <proof>
         <p><alert>Prove:</alert> <m>\sum_{i=1}^{n} (3i-2) = \frac{n}{2}(3n-1)</m></p>
-        <p>Basis step: show it's true for 1. Calculate (n=1):</p>
-        <me></me>
-        <p>Inductive step: (assume it's true for <m>n</m>):</p>
+        <p><alert>Basis step:</alert> show it's true for 1</p>
+        <p>Let <m>n=1</m>. Calculate <m>\sum_{i=1}^{1} (3i-2) = \frac{1}{2}(3(1)-1)</m> :</p>
+        <me>3(1)-2=1</me>
+        <p><alert>Inductive step:</alert> assume it's true for <m>n</m></p>
         <p><m>\sum_{i=1}^{1} (3i-2) = \frac{1}{2}(3(1)-1)</m></p>
         <me>3(1)-2=1</me>
         <p>Inductive step: (assume it's true for <m>n</m>):</p>
         <p>Let <m>n \in \mathbb{N}</m> where <m>n&gt; 1</m> and assume <m>\sum_{i=1}^{n} (3i-2) = \frac{n}{2}(3n-1)</m>.</p> 
         <p>Now we <em>show</em> it's true for <m>n+1</m>:</p>
         <p>Calculate:</p>
-        <me>\sum_{i=1}^{n+1} (3i-2) = (\sum_{i=1}^{n} (3i-2))(3(n+1)-2)</me>
-
         <md>
-            <mrow>\frac{n}{2}(3n-1)\amp=</mrow>
+            <mrow>\sum_{i=1}^{n+1} (3i-2) \amp= (\sum_{i=1}^{n} (3i-2))+(3(n+1)-2)</mrow>
+            <mrow> \amp=\frac{n}{2}(3n-1)\text{ (from induction assumption) }+(3(n+1)-2)</mrow>
+            <mrow> \amp=\frac{n}{2}(3n-1)+(3n+1)</mrow>
+            <mrow> \amp=\frac{n}{2}(3n-1)+\frac{2}{2}(3n+1)</mrow>
+            <mrow> \amp=\frac{n(3n-1)+2(3n+1)}{2}</mrow>
+            <mrow> \amp=\frac{3n^2 -n+6n+2}{2}</mrow>
+            <mrow> \amp=\frac{3n^2 +5n+2}{2}</mrow>
+            <mrow> \amp=\frac{(n+1)(3n+2)}{2}</mrow>
         </md>
 
 
