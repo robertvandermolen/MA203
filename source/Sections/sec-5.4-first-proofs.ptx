@@ -25,14 +25,8 @@
     <me>
         \forall x\in\mathcal{U} \text{ }x\in A\implies x\in B
     </me>
-    Now we have the tools to start proving, we begin with the reason that most people hate the empty set.
+    blah...
   </p>
-<proposition xml:id="prop-empty-unique">
-    <statement>
-        <p>
-            For any set <m>A</m> the empty set is a subset of <m>A</m>, that is <me>\emptyset\subseteq A</me>
-        </p>
-    </statement>
-</proposition>
+  
 
 </section>

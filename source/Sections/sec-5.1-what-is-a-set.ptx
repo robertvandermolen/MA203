@@ -99,7 +99,7 @@
   <p>
     This is our way of defining membership <m>a\in\{x\text{ }|\text{ }P(x)\}</m> if and only if <m>P(a)</m> is true.
   </p>
-  <example>
+  <example xml:id="ex-set-builder">
     <p>
         We include some sets defined with set-builder notation.
         <ol marker="(A)">
@@ -124,4 +124,14 @@
         
     </p>
   </example>
+
+    <p>
+      In <xref ref="ex-set-builder"/> (B) we defined the condition with a quantifier, specifically <m>\exists a\in\Z</m>. This is an extremely common use-case in mathematics. I bring this up here to <m>{\color{red}{\text{warn}}}</m> the student that this is perhaps the most common quantifier to be <em>hidden</em>. That is, we would most likely see it presented as:
+      <me>
+        \{y\in\Z\text{ }|\text{ }y=3a+1,\text{ }a\in\Z\}
+      </me>
+      To defend the mathematician which chooses to present it in this manner, we mostly study objects with a well defined and unique multiplication, that is there is only one unique integer <m>a</m> that satisfies <m>y=3a+1</m> for a given <m>y</m>.
+    </p>
+
+  
 </section>

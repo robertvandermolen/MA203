@@ -1,0 +1,14 @@
+<section xml:id="subsec-5-3-2-algebra-of-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Logic of Sets</title>
+    <p>
+        As we have built set theory directly from propositonal logic we can approach some basic properties very similiarly to that of <xref ref="subsec-2-4-3-logic-algebra"/>.
+        Now we have the tools to start proving, we begin with the reason that most people hate the empty set.
+      </p>
+    <proposition xml:id="prop-empty-unique">
+        <statement>
+            <p>
+                For any set <m>A</m> the empty set is a subset of <m>A</m>, that is <me>\emptyset\subseteq A</me>
+            </p>
+        </statement>
+    </proposition>
+</section>
