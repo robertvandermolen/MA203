@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 10 notes - Relations</title>
+    <p>
+        Some examples of relations on <m>\mathbb{R}</m>:
+    </p>
+    <ul>
+        <li>
+            <p>
+                <m>\mathbb{R}: = (a,b)\not\in = \rightarrow a\neq b</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>\mathbb{R}\times \mathbb{R}: \leq (a,b)\in \leq \rightarrow a\leq b</m>
+            </p>
+        </li>
+    </ul>
+
+    <assemblage>
+        <title>Zoo Relation</title>
+        <p>
+            Let's look at a set of animals in the zoo <m>A=</m> {giraffe, elephant, turtle}, and a set of foods they eat
+            <m>F:</m> {leaf, peanut, pizza}. Call <m>E</m> the relationship between <m>A</m> and <m>F</m>.
+        </p>
+        <p>
+            <alert>A relation is a subset of the cross product of <m>A</m> and <m>F</m></alert>. Things in <m>E</m> are ordered pairs.
+        </p>
+        <p>
+            <m>E=</m> {(giraffe, leaf), (elephant, peanut), (turtle, pizza), (turtle, leaf)}
+        </p>
+    </assemblage>
+    <p>
+        <alert>Inverse of Relations</alert>
+    </p>
+    <p>
+        Let <m>R</m> be a relation from <m>A</m> to <m>B</m>.
+    </p>
+    <p>
+        <alert>Prove:</alert> Dom(<m>R^-1</m>) = Rng(<m>R</m>) Don't forget, to prove equality of sets, you must prove both subsets!
+    </p>
+    <p>
+        [<m>\subset</m>] 
+    </p>
+    <p>
+        Let <m>a \in \text{dom}(R^-1)</m>. Hence by definition of domain, we can find <m>b\in B</m> such that <m>aR^-1b</m>
+        Hence, by definition of inverse, <m>bRa</m>. Since <m>b\in B</m>, by definition of range, <m>a\in \text{rng}(R)</m>
+    </p>
+</section>
