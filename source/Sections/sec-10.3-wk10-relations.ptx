@@ -38,13 +38,60 @@
         Let <m>R</m> be a relation from <m>A</m> to <m>B</m>.
     </p>
     <p>
-        <alert>Prove:</alert> Dom(<m>R^-1</m>) = Rng(<m>R</m>) Don't forget, to prove equality of sets, you must prove both subsets!
+        <alert>Prove:</alert> Dom(<m>R^-1</m>) = Rng(<m>R</m>)</p>
+    <p>
+        Don't forget, to prove equality of sets, you must prove both subsets!
     </p>
     <p>
         [<m>\subset</m>] 
     </p>
     <p>
-        Let <m>a \in \text{dom}(R^-1)</m>. Hence by definition of domain, we can find <m>b\in B</m> such that <m>aR^-1b</m>
-        Hence, by definition of inverse, <m>bRa</m>. Since <m>b\in B</m>, by definition of range, <m>a\in \text{rng}(R)</m>
+        Let <m>a \in \text{dom}(R^-1)</m>. Hence by definition of domain, we can find <m>b\in B</m> such that <m>aR^-1b</m>.
+        Hence, by definition of inverse, <m>bRa</m>. Since <m>b\in B</m>, by definition of range, <m>a\in \text{rng}(R)</m>.
     </p>
+    <p>
+        [<m>\supset</m>] 
+    </p>
+    <p>
+        Let <m>a \in \text{dom}(R^-1)</m>. Hence, by definition of domain, we can find <m>b \in B</m> such that <m>aR^-1b</m>.
+        Hence, by definition of inverse, <m>bRa</m>. Since <m>b\in B</m>, by definition of range, <m>a\in \text{Rng}(R)</m>.
+    </p>
+
+    <theorem>
+        <title></title>
+        <statement>
+            <p>
+                Composition of relations is associative.
+            </p>
+            <me>
+                T\circ (S\circ R)=(T\circ S)\circ R
+            </me>
+            
+        </statement>
+      </theorem> 
+      <proof>
+        <p>
+            Suppose that <m>A, B, C, \text{ and } D</m> are sets. Let <m>R</m> be a relation from
+            <m>A \text{ to } B</m>, <m>S</m> be a relation from <m>B \text{ to } C</m>, and <m>T</m>
+            be a realtion from <m>C\text { to } D</m>.
+        </p>
+        <p>
+            Since we are proving an equality, we will have to prove both subsets. In this case, the first 
+            subset we want to show is that <m>T\circ (S\circ R)\subset A\times D</m>
+        </p>
+        <p>
+            [<m>\subset</m>]
+        </p>
+        <p>
+            Let <m>(x,y)\in T\circ (S\circ R)</m> <alert>NOTE (this is super important to remember and not mix up): <m>(x,y)</m> is an 
+            <em>ordered pair</em>.</alert> By definition of composition, we can find <m>z\in C</m> such that <m>(z,y)\in T</m>
+            and <m>(x,z)\in (S\circ R)</m>. Thus by definition of composition, we can find <m>w\in B</m> such that 
+            <m>(x,w)\in R \text{ and } (w,z)\in S</m>.
+        </p>
+        <p>
+            Since <m>z\in C \text{ and } (z,y)\in T, \text{ and } (w,z)\in S</m> then <m>(w,y)\in (T\circ S)</m>. And since <m>w\in B \text{ and }
+                (x,w)\in R</m>, then <m>(x,y)\in (T\circ S)\circ R</m>
+        </p>
+      </proof>
+    
 </section>
