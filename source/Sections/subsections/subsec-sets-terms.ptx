@@ -22,4 +22,18 @@
     </statement>
 </definition>
 
+<definition xml:id="def-pairwise-disjoint">
+    <title>Pairwise Disjoint</title>
+    <statement>
+        <p>
+           The indexed family <m>\mathscr{A} = \{A_\alpha | \alpha \in \Delta\}</m> of sets is pairwise disjoint
+            if for all <m>\alpha</m> and <m>\beta</m> in <m>\Delta</m>, either <m>A_\alpha = A_\beta</m>
+            or <m>A_\alpha \cap A_\beta = \emptyset</m>. 
+        </p>
+        <p>
+            In other words, the sets are completely the same, or completely different.
+        </p>
+    </statement>
+</definition>
+
 </section>

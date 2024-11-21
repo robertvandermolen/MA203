@@ -145,6 +145,20 @@
         </statement>
     </definition>
 
+    <definition xml:id="def-congruence">
+        <title>Congruence</title>
+        <statement>
+            <p>
+               Let <m>m</m> be a fixed positive integer. For <m>x, y, \in \mathbb{Z}</m>, we say <m>x</m> is congruent to <m>y</m>
+               modulo <m>m</m> and write <m>x\equiv y</m> (mod <m>m</m>) if <m>m</m> divides <m>(x-y)</m>. The number <m>m</m>
+               is called the <alert>modulus</alert> of the congruence. 
+            </p>
+            <p>
+                <alert>This was straight copying from a photo of a slide with a definition on it...plagiarism???</alert>
+            </p>
+        </statement>
+    </definition>
+
 <section> 
 
     <p>
@@ -301,10 +315,10 @@
             <m>(x,a) \in R</m>.
         </p>
         <p>
-            Thus by definition of equivalence class, <m>a\in \bar{y}</m>. Thus by definition of subset, <m>\bar{x] = \bar{y}</m>
+            Thus by definition of equivalence class, <m>a\in \bar{y}</m>. Thus by definition of subset, <m>\bar{x} = \bar{y}</m>
         </p>
         <p>
-            [<m>\implies</m>] (<m>\bar{x} = \bar{y} \implies xRy</m>)
+            [<m>\impliedby</m>] (<m>\bar{x} = \bar{y} \implies xRy</m>)
         </p>
         <p>
             Let <m>x, y \in A</m> such that <m>\bar{x} = \bar{y}</m>. Since <m>R</m> is an equivalence relation, it is reflexive.
@@ -313,7 +327,54 @@
             relation, it is symmetric. Since we concluded <m>(y,x)\in R</m>, we can conclude <m>(x,y)\in R</m>
         </p>
     </proof>
+
+    <p>
+        <alert>Prove:</alert> <m>R</m> is transitive if and only if <m>R\circ R \subset R</m>
+    </p>
+    <proof>
+        <p>
+            Let <m>R</m> be a relation on a non-empty set <m>A</m>>
+        </p>
+        <p>
+           <m>\implies</m> (If <m>R</m> is transitive then <m>R\circ R \subset R</m>)
+        </p>
+        <p>
+            Assume R is transitive. Let <m>(x,y)\in R\circ R</m>. By definition of composition, we can find <m>z\in A</m> such that 
+            <m>(x,z)\in R</m> and <m>(z,y) \in R</m>. Since <m>R</m> is transitive, <m>(x,y)\in R</m>. 
+        </p>
+        <p>
+            Since <m>(x,y)\in R\circ R</m> and <m>(x,y) \in R</m>, by definition of subset, <m>R\circ R \subset R</m>.
+        </p>
+        <p>
+            <m>\impliedby</m> (If <m>R\circ R \subset R</m> then <m>R</m> is transitive)
+        </p>
+        <p>
+            Assume <m>R\circ R \subset R</m>. Let <m>(x,y) \in R</m> and <m>(y,z)\in R</m>. Since <m>(x,y)\in R</m> and <m>(y,z)\in R</m>,
+            by definition of composition, <m>(x,z)\in R\circ R</m>. Hence by our assumption that <m>R\circ R \subset R</m>, and definition
+            of subset, <m>(x,z)\in R</m>.
+        </p>
+        <p>
+            Thus, by definition of transitive, <m>R</m> is transitive.
+        </p>
+    </proof>
+    <p>
+        <alert>Prove:</alert> If <m>S</m> is a symmetric relation on <m>A</m>, and <m>R\subset S</m>, then <m>R^-1 \subset S</m>
+    </p>
+    <proof>
+        <p>
+            Let <m>R</m> be a relation on the set <m>A</m>. Assume <m>S</m> is a symmetric relation on <m>A</m> and <m>R\subset S</m>.
+            Let <m>x\in R^-1</m>. Thus by definition of relation, and definition of inverse, we can find <m>(p,j)\in A</m> such that 
+            <m>x=(p,j)</m>. Thus, by definition of inverse, <m>(j,p)\in R</m>. Thus by our assumption and the definition of subset, <m>(j,p)\in S</m>.
+            And, since <m>S</m> is symmetric, <m>(p,j)\in S</m>. Since <m>(p,j) = x</m>, <m>x\in S</m>
+        </p>
+        <p>
+            Since <m>x\in R^-1</m> and <m>x\in S</m>, by definition of subset, <m>R^-1 \subset S</m>
+        </p>
+    </proof>
+
+
     
+
 
 </section>
     
