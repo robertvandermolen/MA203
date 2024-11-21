@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-10-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Week 10 notes - Relations</title>
+<title>Relations</title>
     <p>
         Some examples of relations on <m>\mathbb{R}</m>:
     </p>
@@ -31,6 +31,122 @@
             <m>E=</m> {(giraffe, leaf), (elephant, peanut), (turtle, pizza), (turtle, leaf)}
         </p>
     </assemblage>
+
+    <definition xml:id="def-relations">
+        <title>Relations</title>
+        <statement>
+            <p>
+                Let <m>A</m> and <m>B</m> be sets. <m>R</m> is a relation from <m>A</m> to <m>B</m> if and only if <m>R</m> is
+                a subset of <m>A\times B</m> That is, <m>R\subset A\times B</m>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-domain">
+        <title>Domain</title>
+        <statement>
+            <p>
+                The domain of the relation <m>R</m> from <m>A</m> to <m>B</m> is the set 
+                Dom<m>(R) = \{x\in A | \exists y \in B \text{ such that } xRy\}</m>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-range">
+        <title>Range</title>
+        <statement>
+            <p>
+                The range of a relation <m>R</m> is the set Rng<m>(R) = \{y\in B | \exists x \in A \text{ such that } xRy\}</m>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-inverse">
+        <title>Inverse</title>
+        <statement>
+            <p>
+                If <m>R</m> is a relation from <m>A</m> to <m>B</m>, then the inverse of <m>R</m> is the relation
+                <m>R^-1 = \{(y,x) | (x,y)\in R\}</m>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-composite">
+        <title>Composite</title>
+        <statement>
+            <p>
+               Let <m>R</m> be a relation from <m>A</m> to <m>B</m>, and let <m>S</m> be a relation from <m>B</m> to <m>C</m>.
+               The composite of <m>R</m> and <m>S</m> is <m>S\circ R = \{(a,c) | \exists b \in B \text{ such that } (a,b)\in R</m>
+               and <m>(b,c) \in S\}</m>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-identity-relation">
+        <title>Identity Relation</title>
+        <statement>
+            <p>
+                For any set <m>A</m>, the identity relation on <m>A</m> is the set <m>I_A = \{(a,a) | a\in A\}</m>
+            </p>
+        </statement>
+    </definition>
+    
+    <definition xml:id="def-reflexive">
+        <title>Reflexive</title>
+        <p>
+            Reflexive on <m>A</m>: <m>\forall x\in A,  xRx</m> 
+        </p>
+    </definition>
+
+    <definition xml:id="def-symmetric">
+        <title>Symmetric</title>
+        <p>
+            <m>\forall x,y\in A, xRy\implies yRx</m>
+        </p>
+    </definition>
+      
+    <definition xml:id="def-transitive">
+        <title>Transitive</title>
+        <p>
+            <m>\forall x, y, z \in A, \text{ if } xRy \text{ and } yRz, \text{ then } xRz</m>
+        </p>
+    </definition>
+
+    <definition xml:id="def-equivalence-relation">
+        <title>Equivalence Relation</title>
+        <statement>
+            <p>
+                A relation <m>R</m> on a set <m>A</m> is an equivalence relation on <m>A</m> if <m>R</m> is reflexive on <m>A</m>,
+                symmetric, and trasitive.
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-equivalence-class">
+        <title>Equivalence Class</title>
+        <statement>
+            <p>
+                Let <m>R</m> be an equivalence relation on a set <m>A</m>. For <m>x \in A</m> the equivalence class of <m>x</m> modulo
+                <m>R</m> (<m>x</m> mod <m>R</m>) is the set <m>\bar{x} := \{y\in A | xRy\}</m>
+            </p>
+        </statement>
+    </definition>
+
+    <definition xml:id="def-modulo">
+        <title>Modulo</title>
+        <statement>
+            <p>
+                Let <m>R</m> be an equivalence relation on a set <m>A</m>. For <m>x\in A</m>, the equivalence class of <m>x</m>
+                modulo <m>R</m> (or simply <m>x</m> mod <m>R</m>) is the set <m>\bar{x} = \{y \in A | xRy\}</m>
+            </p>
+            <p>Each element of <m>\bar{x}</m> is called a representative of this class. The set <m>A/R = \{\bar{x} | x\in A\}</m>
+                of all equivalence classes is called <m>A</m> module <m>R</m> (<m>A</m> mod <m>R</m>)
+            </p>
+        </statement>
+    </definition>
+
+<section> 
+
     <p>
         <alert>Inverse of Relations</alert>
     </p>
@@ -68,8 +184,8 @@
             </me>
             
         </statement>
-      </theorem> 
-      <proof>
+    </theorem> 
+    <proof>
         <p>
             Suppose that <m>A, B, C, \text{ and } D</m> are sets. Let <m>R</m> be a relation from
             <m>A \text{ to } B</m>, <m>S</m> be a relation from <m>B \text{ to } C</m>, and <m>T</m>
@@ -92,6 +208,113 @@
             Since <m>z\in C \text{ and } (z,y)\in T, \text{ and } (w,z)\in S</m> then <m>(w,y)\in (T\circ S)</m>. And since <m>w\in B \text{ and }
                 (x,w)\in R</m>, then <m>(x,y)\in (T\circ S)\circ R</m>
         </p>
-      </proof>
+    </proof>
+
+    <theorem>
+        <title></title>
+        <p>Let <m>A</m> be a non-empty set. For the power set <m>\mathscr{P}(A)</m>, the relation "is a subset of" is reflexive
+            on <m>\mathscr{P}(A)</m>, and transitive, but not symmetric.
+        </p>
+    </theorem>
+
+    <proof>
+        <p>
+            [Reflexive]
+        </p>
+        <p>
+            Let <m>X\in \mathscr{P}(A)</m>. (WTS: <m>X\subset X</m>) Assume <m>a\in X</m>. Hence, <m>a\in X</m>, thus
+            by definition of subset, <m>X\subset X</m>
+        </p>
+        <p>
+            [Transitive]
+        </p>
+        <p>
+            Let <m>X, Y, Z \in \mathscr{P}(A)</m> such that <m>X\subset Y</m> and <m>Y\subset Z</m>. Let <m>a\in X</m>. Thus
+            by definition of subset, since <m>X\subset Y, a\in Y</m>. Since <m>Y\subset Z</m>, and <m>a\in Y</m>, <m>a\in Z</m>
+            Thus, by definition of subset, since <m>a\in X</m> and <m>a\in Z</m>, <m>x\subset Z</m>.
+        </p>
+        <p>
+            [Symmetric]
+        </p>
+        <p>
+            <m>\emptyset \subset A, \text{ but } A \not\subset \emptyset</m>
+        </p>
+    </proof>
+
+    <theorem xml:id="thm-">
+        <statement>
+            <p>
+                Let <m>R</m> be an equivalence relation on a nonempty set <m>A</m>. For all <m>x</m> and <m>y</m> in <m>A</m>,
+            </p>
+            <ol marker="a.)">
+                <li><m>x\in \bar{x}</m> and <m>\bar{x} \subset A</m></li>
+                <li><m>xRy</m> if and only if <m>\bar{x} = \bar{y}</m></li>
+                <li><m>x</m> is not related to <m>y</m> if and only if <m>\bar{x}\cap \bar{y} = \emptyset</m></li>
+            </ol>
+        </statement>
+    </theorem>
+
+    <proof>
+        <p>
+            [a.) <m>x\in \bar{x}</m>]
+        </p>
+        <p>
+            Note: Since <m>R</m> is an equivalence relation, <m>xRx</m>, hence by definition of <m>\bar{x}</m>, <m>x\in \bar{x}</m>
+        </p>
+        <p>
+            [<m>\bar{x} \subset A</m>]
+        </p>
+        <p>
+            Let <m>l\in \bar{x}</m>. Thus by definition of <m>\bar{x}, xRl</m>. Hence, <m>(x,l)\in R</m>.
+            Since <m>R</m> is a relation on <m>A</m>, <m>R\subset A\times A</m>. Hence by definition of cross product, <m>l\in A</m>.
+        </p>
+        <p>
+            [b.) <m>xRy</m> if and only if <m>\bar{x} = \bar{y}</m>]
+        </p>
+        <p>
+            Let <m>R</m> be a relation on a non-empty set <m>A</m>
+        </p>
+        <p>
+            [<m>\implies</m>] (<m>xRy \implies \bar{x} = \bar {y}</m>)
+        </p>
+        <p>
+            Let <m>(x, y) \in R</m>  
+        </p>
+        <p>
+            [<m>\subset</m>]
+        </p>
+        <p>
+            Let <m>a \in \bar{x}</m>. Thus by definition of equivalence class <m>xRa</m>. Since <m>R</m> is an equivalence
+            relation, it is symmetric, and as we assumed <m>(x,y)\in R</m>, we can conclude <m>(y,x) \in R</m>. Since
+            <m>R</m> is an equivalence relation, it is transitive. And since we already concluded <m>(y,x)\in R</m>
+            and <m>(x,a) \in R</m> we can now conclude <m>(y,a)\in R</m>.
+        </p>
+        <p>
+            Thus by definition of equivalence class, <m>a\in \bar{y}</m>. Thus by definition of subset, <m>\bar{x} \subset \bar{y}</m>.
+        </p>
+        <p>
+            [<m>\supset</m>]
+        </p>
+        <p>
+            let <m>a\in \bar{y}</m>. Thus by definition of equivalence class <m>yRa</m>. Since <m>R</m> is an equivalence relation,
+            it is transitive. And since we already concluded <m>(x,y)\in R</m> and <m>(y,a) \in R</m>, we can now conclude
+            <m>(x,a) \in R</m>.
+        </p>
+        <p>
+            Thus by definition of equivalence class, <m>a\in \bar{y}</m>. Thus by definition of subset, <m>\bar{x] = \bar{y}</m>
+        </p>
+        <p>
+            [<m>\implies</m>] (<m>\bar{x} = \bar{y} \implies xRy</m>)
+        </p>
+        <p>
+            Let <m>x, y \in A</m> such that <m>\bar{x} = \bar{y}</m>. Since <m>R</m> is an equivalence relation, it is reflexive.
+            Hence, <m>xRx</m>. Thus by definition of <m>\bar{x}, x\in \bar{x}</m>. Since we assumed <m>\bar{x} = \bar{y}</m>, in particular
+            <m>\bar{x} \subset \bar{y}</m>, <m>x\in \bar{y}</m>. By definition of <m>\bar{y}, yRx</m>. Since <m>R</m> is an equivalence
+            relation, it is symmetric. Since we concluded <m>(y,x)\in R</m>, we can conclude <m>(x,y)\in R</m>
+        </p>
+    </proof>
+    
+
+</section>
     
 </section>

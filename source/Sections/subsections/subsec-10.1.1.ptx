@@ -11,7 +11,7 @@
   </definition>
 
   <example>
-    <p>Let's look at an example of a power set: the power set of <m>A = \{1,2\}</m>. <m>P(A) = \{\emptyset \} , \{1\}, \{2\}, \{1,2\}\}</m></p>
+    <p>Let's look at an example of a power set: the power set of <m>A = \{1,2\}</m>. <m>\mathscr{P}(A) = \{\emptyset \} , \{1\}, \{2\}, \{1,2\}\}</m></p>
   </example>
 
   <definition>

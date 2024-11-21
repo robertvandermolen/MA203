@@ -13,6 +13,7 @@
 </definition>
 
 <definition xml:id="def-Power-Set">
+    <title>Power Set</title>
     <statement>
         <p>
             Let A be a set. The power set of A is the set whose elements are the subsets of A and is denoted <m>\mathscr{P}(A)</m>
