@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Partitions, bijections, etc.</title>
+  <p>
+    This is starting from week 13 in my notes...
+  </p>
+  
+  <definition xml:id="def-partition">
+    <title>Partition</title>
+    <statement>
+      <p>
+        Let <m>A</m> be a non-empty set. <m>\mathscr{P}</m> is a partition of <m>A</m> if <m>\mathscr{P}</m> is a set of subsets of <m>A</m>
+        such that:
+      </p>
+      <ol marker="i.)">
+        <li>
+          <p>
+            If <m>X\in \mathscr{P} \text{, then }x\neq \emptyset</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>X\in \mathscr{P}</m> and <m>Y \in \mathscr{P}</m>, then <m>x=y \text{ or }x\cap y = \emptyset</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\cup X = A</m> for all <m>x\in \mathscr{P}</m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </definition>
+  
+  <definition xml:id="def-function">
+    <title>Function</title>
+    <statement>
+      <p>
+        A function, or mapping, from <m>A</m> to <m>B</m> is a relation <m>f</m> from <m>A</m> to <m>B</m> such that:
+      </p>
+      <ol marker="i.)">
+        <li>
+          <p>
+            The domain of <m>f</m> is <m>A</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>(x,y)\in f</m> and <m>(x,z)\in f</m> then <m>y=z</m>
+          </p>
+        </li>
+      </ol>
+      <p>
+        We write <m>f: A \rightarrow B</m>. We <em>say</em> "<m>f</m> is a function from <m>A</m> to <m>B</m>,"
+        or "<m>f</m> maps <m>A</m> to <m>B</m>."
+      </p>
+      <p>
+        The set <m>B</m> is called the codomain of <m>f</m>. In the case where <m>B=A</m>, we say that "<m>f</m> is a function
+        on <m>A</m>."
+      </p>
+      <p>
+        When <m>(x,y)\in f</m>, we write <m>y=f(x)</m>, and we say that <m>y</m> is the image of <m>f</m> at <m>x</m>,
+        and that <m>x</m> is a pre-image of <m>y</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-surjection">
+    <title>Surjection</title>
+    <statement>
+      <p>
+        A function <m>f:A \rightarrow B</m> is <em>onto</em> <m>B</m>, or is a <term>surjection</term> if
+        Rng<m>(f)=B</m>. When <m>f</m> is a surjection, we write <m>f:A \twoheadrightarrow B</m> or 
+        <m>f: A \overset{\text{onto}}{\rightarrow} B</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-injection">
+    <title>Injection</title>
+    <statement>
+      <p>
+        A function <m>f:A \rightarrow B</m> is one-to-one, or is an <term>injection</term>, if whenever <m>f(x)=f(y)</m>
+        then <m>x=y</m>. We write this as <m>f:A \hookrightarrow B</m>, or <m>f: A \overset{\text{1-1}}{\rightarrow} B</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-bijection">
+    <title>Bijection</title>
+    <statement>
+      <p>
+        A function <m>f:A \rightarrow B</m> is a one-to-one correspondence, or a <term>bijection</term> if <m>f</m>
+        is one-to-one and onto <m>B</m>. We write this as <m>f: A \overset{\sim}{\rightarrow} B</m>
+      </p>
+    </statement>
+  </definition>
+
+<section>
+  <p>
+    Consider the set <m>A = \{a, b, c, d, e\}</m>, and the family <m>C = \{C_1, C_2, C_3\}</m> where <m>C_1 = \{b,e\}</m>,
+    <m>C_2 = \{a,c,d\}</m>, and <m>C_3 = \{b,e\}</m>
+  </p>
+  <p>
+    It passes all three tests, so the family <m>C</m> is a partition of <m>A</m>, even thought the sets <m>C_1</m>
+    and <m>C_3</m> are not disjoint.
+  </p>
+  <p>
+    The family <m>\{C_1, C_2, C_3\}</m> is the same as the family <m>\{C_2, C_3</m>.
+  </p>
+
+  <theorem xml:id="thm-10-4-1">
+    <statement>
+      <p>
+        If <m>R</m> is an equivalence relation on a non-empty set <m>A</m> then <m>A/R</m> is a partition of <m>A</m>.
+      </p>
+    </statement>
+  </theorem>
+  
+</section>
+</section>
