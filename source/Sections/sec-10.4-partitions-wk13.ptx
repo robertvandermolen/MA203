@@ -117,6 +117,119 @@
       </p>
     </statement>
   </theorem>
+
+  <theorem xml:id="thm-10-4-2">
+    <statement>
+      <p>
+        Let <m>\mathscr{P}</m> be a partition of the nonempty set <m>A</m>. For <m>x</m> and <m>y\in A</m> define <m>xQy</m> if and
+        only if there exists <m>C\in \mathscr{P}</m> such that <m>x\in C</m> and <m>y\in C</m>. Then <m>Q</m> is an equivalence
+        relation on <m>A</m>.
+      </p>
+      
+    </statement>
+  </theorem>
+
+  <proof>
+    <p>
+      <alert>[Reflexive]</alert>
+    </p>
+    <p>
+      let <m>x\in A</m>. Since <m>\mathscr{P}</m> is a partition, <m>x\in \cup X = A</m>. Hence we can find a <m>C \in \mathscr{P}</m>
+      such that <m>x\in C</m>. Hence, <m>(x,x)\in Q</m>, since <m>x\in C</m>.
+    </p>
+    <p>
+      <alert>[Symmetric]</alert>
+    </p>
+    <p>
+      Let <m>(x,y)\in Q</m>. By definition of <m>Q</m> we can find <m>C\in \mathscr{P}</m> such that <m>x\in C</m> and 
+      <m>y\in C</m>. Hence, <m>y\in C</m> and <m>x\in C</m>. Thus by definition of <m>Q, (y,x)\in Q</m>.
+    </p>
+    <p>
+      <alert>[Transitive]</alert>
+    </p>
+    <p>
+      Let <m>(x,y)\in Q</m> and <m>(y,z)\in Q</m>. By definition of <m>Q</m> we can find <m>C_1, C_2 \in \mathscr{P}</m>
+      such that <m>x\in C_1</m> and <m>y\in C_1</m>, and <m>y\in C_2</m> and <m>z\in C_2</m>. Hence, <m>y\in C_1 \cap C_2</m>.
+      Hence <m>C_1\cap C_2 \neq \emptyset</m>. Hence by definition of partition, <m>C_1=C_2</m>. Hence <m>x\in C</m>
+      and <m>z\in C</m>. Hence by definition of <m>Q, (x,z) \in Q</m>. 
+    </p>
+  </proof>
+  
+  <p>
+    <alert>Prove:</alert> If <m>f: A \rightarrow B</m> is one-to-one and <m>g: B \rightarrow C</m> is one-to-one, then 
+    <m>g\circ f</m> is one-to-one.
+  </p>
+
+  <proof>
+    <p>
+      Assume <m>f: A \hookrightarrow B</m> and <m>g: B \hookrightarrow C</m>. Let <m>(x,y)\in A</m> such that 
+      <m>g\circ f(x) = g\circ f(y)</m>.
+    </p>
+    <p>
+      By definition of composition we can find <m>z\in B</m> such that <m>f(x) = z</m> and <m>g(z) = g\circ f(x)</m>.
+      Also by definition of composition, we can find <m>w\in B</m> such that <m>f(y) = w</m> and <m>g(w) = g\circ f(y)</m>.
+    </p>
+    <p>
+      By assumption that <m>g\circ f(x) = g\circ f(y), g(w) = g(z)</m>. By our assumption that <m>g</m> is one-to-one, <m>w=z</m>.
+      Since <m>w=z, f(x)=f(y)</m>. Thus, by our assumption that <m>f</m> is one-to-one, <m>x=y</m>.
+    </p>
+  </proof>
+
+  <theorem xml:id="thm-10-4-3">
+    <statement>
+      <p>
+        If <m>f: A\rightarrow B</m> is a bijection, and <m>g: B\rightarrow C</m> is a bijection, then <m>g\circ f: A\rightarrow C</m>
+        is a bijection.
+      </p>
+    </statement>
+  </theorem>
+
+  <proof>
+    <p>
+      Assume <m>f</m> is a bijection from <m>A</m> to <m>B</m> and <m>g</m> is a bijection from <m>B</m> to <m>C</m>.
+    </p>
+    <p>
+      <alert>[1-to-1]</alert>
+    </p>
+    <p>
+      Let <m>x\in A</m> and <m>y\in A</m> such that <m>g\circ f(x) = g\circ f(y)</m>. By definition of composition we can find
+      <m>z\in B</m> and <m>w\in B</m> such that <m>g(w) = g\circ f(y)</m> and <m>f(y) = w</m> and <m>g(z) = g\circ f(x)</m> 
+      and <m>f(x) = z</m>.
+    </p>
+    <p>
+      By our assumption that <m>g(w) = g(z)</m>, as <m>g</m> is a bijection, in particular one-to-one, <m>w=z</m>. Hence 
+      <m>f(x) = f(y)</m>. Since <m>f</m> is a bijection, in particular one-to-one, <m>x=y</m>.
+    </p>
+    <p>
+      <alert>[Onto]</alert> (WTS: Rng<m>(g\circ f) = C</m>)
+    </p>
+    <p>
+      <alert>[<m>\subset</m>]</alert>
+    </p>
+    <p>
+      Let <m>y\in \text{ Rng}(g\circ f)</m>. By definition of range, <m>y\in C</m>. Thus, Rng<m>(g\circ f) \subset C</m>.
+    </p>
+    <p>
+      <alert>[<m>\subset</m>]</alert>
+    </p>
+    <p>
+      Let <m>y\in C</m>. Thus by our assumption that <m>g</m> is a bijection, specifically surjective, we can find <m>w\in B</m>
+      such that <m>g(w) = y</m>.
+    </p>
+    <p>
+      Thus by assumption that <m>f</m> is a bijection, specifically surjective, we can find <m>x\in A</m> such that <m>f(x) = w</m>.
+      Thus by definition of composition, <m>g\circ f(x) =  y</m>. Hence, <m>y\in \text{ Rng}(g\circ f)</m>. Thus
+      <m>C \subset \text{ Rng}(g\circ f)</m>.
+    </p>
+    <p>
+      Thus, Rng<m>(g\circ f) = C</m>
+    </p>
+    <p>
+      Thus, <m>g\circ f: A \rightarrow C</m> is a bijection.
+    </p>
+  </proof>
+  
+  
   
 </section>
 </section>
