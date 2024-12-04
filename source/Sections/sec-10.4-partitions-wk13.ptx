@@ -225,11 +225,70 @@
       Thus, Rng<m>(g\circ f) = C</m>
     </p>
     <p>
-      Thus, <m>g\circ f: A \rightarrow C</m> is a bijection.
+      Thus, <m>g\circ f: A \rightarrow C</m> is a bijection. 
     </p>
   </proof>
   
-  
+  <theorem xml:id="thm-10-4-4">
+    <statement>
+      <p>
+        <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m> if and only if <m>f</m> is one-to-one.
+      </p>
+    </statement>
+  </theorem>
+
+  <proof>
+    <p>
+      [<m>\impliedby</m>] (If <m>f</m> is one-to-one, then <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m>.)
+    </p>
+    <p>
+      1.) Assume <m>f</m> is one-to-one. We want to show that Dom(<m>f^{-1})=</m>Rng(<m>f</m>). This proof is in section 10.6.1.
+    </p>
+    <p>
+      2.) Let <m>x \in B</m> and <m>y, z \in A</m> such that <m>f^{-1}(x)=y</m> and <m>f^{-1}(x)=z</m>. By definition of inverse, <m>f(y)=x</m>
+      and <m>f(z)=x</m>. Thus, by our assumption, <m>y=z</m>.
+    </p>
+    <p>
+      [<m>\implies</m>]
+    </p>
+    <p>
+      Assume <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m>, that is, <m>(f: \text{ Rng}(f) \rightarrow A)</m>
+    </p>
+    <p>
+      Let <m>x,y \in A</m> such that <m>f(x)=f(y)</m>. Name this element <m>(f(x)=f(y))</m> something, say, <m>w</m>. By definition of inverse, <m>f^{-1}(w)=x</m>
+      and <m>f^{-1}(w)=y</m>. Thus, by our assumption, <m>x=y</m>.
+    </p>
+  </proof>
+
+  <theorem>
+    <statement>
+      <p>
+        Let <m>f: A \rightarrow B, C</m> and <m>D</m> be subsets of <m>A</m>, and <m>E</m> and <m>F</m> be subsets of <m>B</m>. Since <m>C</m> is a subset,
+        <m>f(C) = </m> the image of <m>C</m>.
+      </p>
+      <ol marker="(a)">
+        <li>
+          <p>
+            <m>f(C\cap D) \subset f(C) \cap f(D)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f^{-1}(E \cap F) = f^{-1}(E) \cap f^{-1}(F)</m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </theorem>
+
+  <proof>
+    <p>
+      (a) <m>f(C\cap D) \subset f(C) \cap f(D)</m>
+    </p>
+    <p>
+      Let <m>x\in f(C\cap D)</m>.
+    </p>
+  </proof>
   
 </section>
 </section>

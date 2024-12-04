@@ -66,7 +66,7 @@
         <statement>
             <p>
                 If <m>R</m> is a relation from <m>A</m> to <m>B</m>, then the inverse of <m>R</m> is the relation
-                <m>R^-1 = \{(y,x) | (x,y)\in R\}</m>
+                <m>R^{-1} = \{(y,x) | (x,y)\in R\}</m>
             </p>
         </statement>
     </definition>
@@ -159,6 +159,79 @@
         </statement>
     </definition>
 
+    <definition xml:id="def-permutation">
+        <title>Permutation</title>
+        <statement>
+            <p>
+                Let <m>A</m> be a nonempty set. A permutation of <m>A</m> is a one-to-one correspondence from <m>A</m> onto <m>A</m>. Every
+                element in the set is included in the permutation, and there is only one output for any input.
+            </p>
+        </statement>
+    </definition>
+
+        <definition xml:id="def-image">
+        <title>Image</title>
+        <statement>
+            <p>
+               Let <m>f:A\rightarrow B</m>, and let <m>X \subset A</m> and <m>Y \subset B</m>. The image of <m>X</m> or "image set of <m>X</m>" is:
+            </p>
+            <p>
+                <m>f(X) = \{y \in B | y = f(x) \text{ for some } x \in X\}</m>
+            </p>
+        </statement>
+    </definition>
+
+        <definition xml:id="def-inverse-image">
+        <title>Inverse Image</title>
+        <statement>
+            <p>
+               <m>f^{-1}(Y) = \{x \in A | f(x) \in Y</m>
+            </p>
+        </statement>
+    </definition>
+
+    <theorem>
+        <title>Characteristics of Permutations</title>
+        <statement>
+            <p>
+                Let <m>A</m> be a nonempty set. Then:
+            </p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        the identity mapping <m>I_A</m> is a permutation of <m>A</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        the composite of permutations of <m>A</m> is a permutation of <m>A</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        the inverse of a permutation of <m>A</m> is a permutation of <m>A</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        if <m>f</m> is a permutation of <m>A</m>, then <m>f \circ I_A = I_A \circ f = f</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        if <m>f</m> is a permutation of <m>A</m>, then <m>f \circ f^{-1} = f^{-1} \circ f = I_A</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        if <m>f</m> and <m>g</m> are permutations of <m>A</m>, then <m>(g \circ f)^{-1} = f^{-1} \circ g^{-1}</m>.
+                    </p>
+                </li>
+            </ol>
+        </statement>
+    </theorem>
+    
+
 <section> 
 
     <p>
@@ -168,7 +241,7 @@
         Let <m>R</m> be a relation from <m>A</m> to <m>B</m>.
     </p>
     <p>
-        <alert>Prove:</alert> Dom(<m>R^-1</m>) = Rng(<m>R</m>)</p>
+        <alert>Prove:</alert> Dom(<m>R^{-1}</m>) = Rng(<m>R</m>)</p>
     <p>
         Don't forget, to prove equality of sets, you must prove both subsets!
     </p>
@@ -176,14 +249,14 @@
         [<m>\subset</m>] 
     </p>
     <p>
-        Let <m>a \in \text{dom}(R^-1)</m>. Hence by definition of domain, we can find <m>b\in B</m> such that <m>aR^-1b</m>.
+        Let <m>a \in \text{dom}(R^{-1})</m>. Hence by definition of domain, we can find <m>b\in B</m> such that <m>aR^{-1}b</m>.
         Hence, by definition of inverse, <m>bRa</m>. Since <m>b\in B</m>, by definition of range, <m>a\in \text{rng}(R)</m>.
     </p>
     <p>
         [<m>\supset</m>] 
     </p>
     <p>
-        Let <m>a \in \text{dom}(R^-1)</m>. Hence, by definition of domain, we can find <m>b \in B</m> such that <m>aR^-1b</m>.
+        Let <m>a \in \text{dom}(R^{-1})</m>. Hence, by definition of domain, we can find <m>b \in B</m> such that <m>aR^{-1}b</m>.
         Hence, by definition of inverse, <m>bRa</m>. Since <m>b\in B</m>, by definition of range, <m>a\in \text{Rng}(R)</m>.
     </p>
 
@@ -363,7 +436,7 @@
     <proof>
         <p>
             Let <m>R</m> be a relation on the set <m>A</m>. Assume <m>S</m> is a symmetric relation on <m>A</m> and <m>R\subset S</m>.
-            Let <m>x\in R^-1</m>. Thus by definition of relation, and definition of inverse, we can find <m>(p,j)\in A</m> such that 
+            Let <m>x\in R^{-1}</m>. Thus by definition of relation, and definition of inverse, we can find <m>(p,j)\in A</m> such that 
             <m>x=(p,j)</m>. Thus, by definition of inverse, <m>(j,p)\in R</m>. Thus by our assumption and the definition of subset, <m>(j,p)\in S</m>.
             And, since <m>S</m> is symmetric, <m>(p,j)\in S</m>. Since <m>(p,j) = x</m>, <m>x\in S</m>
         </p>
