@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Exercises</title>
+    <p>
+        <alert>For all sets <m>A, B, C,</m> and <m>D</m>:</alert>
+    </p>
+    <ol marker="1)">
+        <li>
+            <p>
+                If <m>A \subset B</m> and <m>B\subset C</m> then <m>A\subset C</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>A\subset B\cup C</m> and <m>A\cap B = \emptyset</m>, then <m>A\subset C</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>A\subset B</m>, then <m>A-C \subset B-C</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>C\subset A</m>, <m>D\subset B</m>, and <m>A</m> and <m>B</m> are disjoint, then <m>C</m> and <m>D</m> are disjoint.
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>(A\cup B)\cap C \subset A\cup (B\cap C)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>A-B</m> and <m>B</m> are disjoint.
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>C\subset A</m> and <m>D\subset B</m> then <m>C\cap D\subset A\cap B</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>C\subset A</m> and <m>D\subset B</m> then <m>C\cup D\subset A\cup B</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>(A-B)-C = (A-C)-(B-C)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>A\cup B \subset C\cup D</m>, <m>A\cap B = \emptyset</m>, and <m>C\subset A</m>, then <m>B\subset D</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                
+            </p>
+        </li>
+    </ol>
+
+    <p>
+        <alert>PMI</alert>
+    </p>
+    <ol marker="1)">
+        <li>
+            <p>
+                <m>\sum_{i=1}^{n} 2^i = 2^{n+1} - 2</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>\sum_{i=1}^{n} (2i-1)^3 = n^2(2n^2-1)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>\prod_{i=1}^{n}(2i-1) = \frac{(2n)!}{n!2^n}</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>f_1 + f_2 + f_3 + ... + f_n = f_{n+2}-1</m> for all <m>n\in \mathbb{N}</m>
+            </p>
+        </li>
+    </ol>
+
+    <p>
+        <alert>Relations:</alert>
+    </p>
+    <ol marker="1)">
+        <li>
+            <p>
+                Rng(<m>R^{-1}</m>) = Dom(<m>R</m>)
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>I_B\circ R - R</m> and <m>R\circ I_A = R</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>(S\circ R)^{-1} = R^{-1}\circ S^{-1}</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>R</m> is a reflexive relation on <m>A</m> if and only if <m>I_A \subset R</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>R</m> is symmetric if and only if <m>R=R^{-1}</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Suppose that <m>R</m> and <m>S</m> are equivalence relations on a set <m>A</m>. Prove that <m>R\cap S</m> is an equivalence relation on <m>A</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Prove that if <m>R</m> is a symmetric, transitive relation on <m>A</m>, and the domain of <m>R</m> is <m>A</m>, then <m>R</m> is reflexive on <m>A</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Let <m>R</m> be a relation on the set <m>A</m>. Prove that <m>R\cup R^{-1}</m> is symmetric. 
+            </p>
+        </li>
+        <li>
+            <p>
+                If <m>f: A\rightarrow B</m> is onto <m>B</m> and <m>g: B\rightarrow C</m> is onto <m>C</m>, then <m>g\circ f</m> is onto <m>C</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Let <m>f: A\rightarrow B</m> and <m>g: B\rightarrow C</m>. If <m>g\circ f</m> is one-to-one, then <m>f</m> is one-to-one.
+            </p>
+        </li>
+        <li>
+            <p>
+                Let <m>F: A\rightarrow B</m> and <m>G: B\rightarrow A</m>. If <m>F</m> is one-to-one and onto <m>B</m>, then <m>G=F^{_1}</m> if and only if
+                <m>G\circ F = I_A</m> or <m>F\circ G = I_B</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>f(C\cup D) - f(C)\cup f(D)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>f^{-1}(E\cup F) = f^{-1}(E)\cup f^{-1}(F)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                <m>f^{-1}(\bigcup\limits_{\beta \in \Gamma}E_\beta ) = \bigcup\limits_{\beta \in \Gamma}f^{-1}(E_\beta)</m>
+            </p>
+        </li>
+    </ol>
+
+
+</section>

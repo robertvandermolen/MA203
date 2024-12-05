@@ -286,9 +286,65 @@
       (a) <m>f(C\cap D) \subset f(C) \cap f(D)</m>
     </p>
     <p>
-      Let <m>x\in f(C\cap D)</m>.
+      Let <m>x\in f(C\cap D)</m>. Thus by definition of image, we can find a <m>j \in C\cap D</m> such that <m>f(j) = x</m>. By definition of intersect,
+      <m>j \in C</m> and <m>j \in D</m>. Since <m>j \in C</m>, by definition of image, <m>x \in f(C)</m> as well. Since <m>j \in D</m>, by definition of image,
+      <m>x \in f(D)</m>. Thus, by definition of intersection, <m>x \in f(C)\cap f(D)</m>.
+    </p>
+    <p>
+      (b) <m>f^{-1}(E \cap F) = f^{-1}(E) \cap f^{-1}(F)</m>
+    </p>
+    <p>
+      [<m>\subset</m>]
+    </p>
+    <p>
+      Let <m>x \in f^{-1}(E\cap F)</m>. Thus by definition of inverse image, <m>f(x)=E\cap F</m>. Thus by definition of intersection, <m>f(x) \in E</m>
+      and <m>f(x) \in F</m>. By definition of inverse image, <m>x\in f^{-1}(E)</m> and <m>x\in f^{-1}(F)</m>. Hence, by definition of intersection,
+      <m>x\in f^{-1}(E)\cap f^{-1}(F)</m>.
+    </p>
+    <p>
+      The other subset of this proof was apparently left as homework or an exercise.
     </p>
   </proof>
-  
+
+  <p>
+    Let <m>f:A\rightarrow B, D\subset A</m> and <m>E\subset B</m> <alert>Prove: <m>f(f^{-1}(E))\subset E</m></alert>
+  </p>
+  <proof>
+    Let <m>x\in f(f^{-1}(E))</m>. By the definition of image, we can find <m>y\in f^{-1}(E)</m> such that <m>f(y)=x</m>. By definition of inverse image, 
+    <m>f(y)\in E</m>. Thus, since <m>f(y) = x, f(f^{-1}(E))\subset E</m>. 
+  </proof>
+
+  <p>
+    Let <m>f: A\rightarrow B</m>, and let <m>X, Y \subset A</m> and <m>U, V \subset B</m>. <alert>Prove: <m>f^{-1}(U) - f^{-1}(V) = f^{-1}(U-V)</m></alert>.
+  </p>
+  <proof>
+    <p>
+      [<m>\subset</m>]
+    </p>
+    <p>
+      Let <m>x\in f^{-1}(U) - f^{-1}(V)</m>. By defintion of difference, <m>x\in f^{-1}(U)</m> and <m>x \not\in f^{-1}(V)</m>. By definition of inverse image,
+      <m>f(x)\in U</m> and <m>f(x)\not\in V</m>. By definition of difference, <m>f(x)\in U-V</m>. Thus, by definition of inverse image, <m>x\in f^{-1}(U-V)</m>.
+    </p>
+    <p>
+      Again, we leave the other subset for an exercise.
+    </p>
+  </proof>
+
+  <p>
+    Let <m>f: A \rightarrow B</m>, and let <m>\{D_\alpha : \alpha \in \Delta\}</m> and <m>\{E_\beta : \beta \in \Gamma\}</m> be families of subsets of <m>A</m>
+    and <m>B</m>, respectively. <alert>Prove: <m>f^{-1}(\bigcap\limits_{\beta \in \Gamma}E_\beta ) = \bigcap\limits_{\beta \in \Gamma}f^{-1}(E_\beta )</m></alert>
+  </p>
+  <proof>
+    <p>
+      [<m>\subset</m>]
+    </p>
+    <p>
+      Let <m>x \in f^{-1}(\bigcap\limits_{\beta \in \Gamma}E_\beta )</m>. By definition of inverse image, <m>f(x) \in \bigcap\limits_{\beta \in \Gamma}E_\beta </m>.
+      By definition of intersection over a family, for any <m>\beta \in \Gamma </m>, <m>f(x)\in E_\beta</m>. Hence, by definition, <m>x\in f^{-1}(E_\beta)</m> for 
+      any <m>\beta \in \Gamma</m>. Hence, by definition of intersection over a family, <m>x\in \bigcap\limits_{\beta \in \Gamma}f^{-1}(E_\beta )</m>.
+    </p>
+  </proof>
+
+
 </section>
 </section>
