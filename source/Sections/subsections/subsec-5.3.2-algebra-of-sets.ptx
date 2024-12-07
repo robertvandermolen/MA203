@@ -1,14 +1,196 @@
 <section xml:id="subsec-5-3-2-algebra-of-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>The Logic of Sets</title>
+    <historical>
     <p>
-        As we have built set theory directly from propositonal logic we can approach some basic properties very similiarly to that of <xref ref="subsec-2-4-3-logic-algebra"/>.
+        <alert>To the teacher:</alert> Be careful in this section... don't loose them... maybe even skip or just quickly note these? Or perhaps challange the brave student, the student who has been lost in the ripples of the pond to venture here...
+    </p>
+</historical>
+    <p>
+        As we have built set theory directly from propositonal logic we can approach some basic properties very similiarly to that of <xref ref="subsec-2-4-3-logic-algebra"/> and <xref ref="ch-03-how-to-argue
+        "/>.
         Now we have the tools to start proving, we begin with the reason that most people hate the empty set.
       </p>
     <proposition xml:id="prop-empty-unique">
         <statement>
             <p>
-                For any set <m>A</m> the empty set is a subset of <m>A</m>, that is <me>\emptyset\subseteq A</me>
+                Let <m>A</m> be a set then <me>\emptyset\subseteq A</me>
             </p>
         </statement>
     </proposition>
+    <proof>
+        <p>
+            To prove this statement, we first fix a universe of discord <m>\mathcal{U}</m> and a set <m>A</m>. Now we examine the defintion of subset; which applied to our secenerio would say, for any <m>x\in\mathcal{U}</m>
+            <me>
+                x\in\emptyset\implies x\in A
+            </me>
+            Yet, <m>x\in\emptyset</m> is a contradiction, that is always false, no matter the element, no matter the universe of discord, as <m>\emptyset</m> is empty, containing no elements. 
+        </p>
+        <p>
+            So, the proof of this statment falls to the fact that if <m>C</m> is a contradiction then for any proposition <m>P</m>, the following argument is valid
+        </p>
+        <tabular halign="center">
+            
+            <row  bottom="minor">
+              <cell><m>C</m></cell>
+            </row>
+            <row>
+              <cell><m>\therefore P</m></cell>
+            </row>
+        </tabular>
+        <p>
+            Of course this means that <m>C\implies P</m> is a tautology, to see this consider the following truth table.
+        </p>
+        <figure>
+            <tabular halign="center">
+              <row header="yes" bottom="minor" >
+                <cell><m>C</m></cell>
+                <cell><m>P</m></cell>
+                <cell><m>C\implies P</m></cell>
+              </row>
+              <row>
+                <cell>F</cell>
+                <cell>T</cell>
+                <cell>T</cell>
+              </row>
+              <row>
+                <cell>F</cell>
+                <cell>F</cell>
+                <cell>T</cell>
+              </row>
+              
+            </tabular>
+          
+        </figure>
+    </proof>
+    <p>
+        To reiterate it is this contradiction of <m>x\in\emptyset</m> which really is sticking point for the emptyset, and why it is always a fringe case that becomes the dismay of mathematicians world round. Next, we present a few more subset conditions.
+    </p>
+    <proposition xml:id="prop-a-subset-a">
+        <statement>
+            <p>
+                Let <m>A</m>, <m>B</m>, and <m>C</m> be sets, then the following are true
+            
+                <ol marker="(a)">
+                    <li><m>A \subseteq A</m></li>
+                    <li>if <m>A \subseteq B</m> and <m>B \subseteq C</m>, then <m>A \subseteq C</m></li>        
+                </ol>
+            </p>
+        </statement>
+    </proposition>
+    <proof>
+        <p>
+            (a) <m>x\in A\implies x\in A</m> is the argument
+            <tabular halign="center">
+                <row  bottom="minor">
+                  <cell><m>P</m></cell>
+                </row>
+                <row>
+                  <cell><m>\therefore P</m></cell>
+                </row>
+                </tabular>
+            hence need that <m>P\implies P</m> to be a tautology, yet
+            <figure>
+                <tabular halign="center">
+                  <row header="yes" bottom="minor" >
+                    <cell><m>P</m></cell>
+                    <cell><m>P\implies P</m></cell>
+                  </row>
+                  <row>
+                    <cell>T</cell>
+                    <cell>T</cell>
+                    
+                  </row>
+                  <row>
+                    <cell>F</cell>
+                    <cell>T</cell>
+                  </row>
+                </tabular>
+            </figure>
+        </p>
+        <p>
+            (b) This one is 
+            <tabular halign="center">
+                <row>
+                  <cell><m>P\implies Q</m></cell>
+                </row>
+                <row  bottom="minor">
+                  <cell><m>Q\implies R</m></cell>
+                </row>
+                <row>
+                  <cell><m>\therefore P\implies R</m></cell>
+                </row>
+                </tabular>
+                which is just Hypothetical Syllogism from <xref ref="argument-types"/>.
+        </p>
+    </proof>
+    <p>
+        Next we give a somewhat analogous treatment to that of <xref ref="thm-logic-laws"/>, and leave it to the dilligent reader to draw the direct comparisons. 
+    </p>
+    <proposition xml:id="prop-set-laws">
+        <statement>
+            <p>
+                Let <m>A</m>, <m>B</m>, and <m>C</m> be sets, then the following are true
+            </p>
+            <ol marker="(a)">
+                <li><p><m>(A^c)^c=A</m></p></li>
+                <li><m>A \cup B = B \cup A</m> (commutativity)</li>
+                <li><m>A \cap B = B \cap A</m> (commutativity)</li>
+                <li><m>A \cap (B \cup C)=(A \cap B) \cup (A \cap C)</m> (distributivity)</li>
+                <li><m>A \cup (B \cap C)=(A \cup B) \cap (A \cup C)</m> (distributivity)</li>
+                <li><m>A \cap A = A</m> (absorption)</li>
+                <li><m>A \cup A = A</m> (absorption)</li>
+                <li> <m>(A\cup B)^c=A^c\cap B^c</m> </li>
+                <li><m>(A\cap B)^c=A^c \cup B^c</m></li>
+                <li><m>A \cup (B \cup C)=(A \cup B)\cup C</m> (associativity)</li>
+                <li><m>A \cap (B \cap C)=(A \cap B)\cap C</m> (associativity)</li>
+                <li><m>A\subseteq B</m> iff <m>B^c\subseteq A^c</m></li>
+
+                
+            </ol>
+    
+        </statement>
+    </proposition>
+    <p>
+       In a similiar fashion the following conditions are the consequences of the arguments in <xref ref="argument-types"/>.
+    </p>
+    <proposition xml:id="prop-more-set-laws">
+        <statement>
+            <p>
+                <ol>
+                
+                    <li><m>A \subseteq A \cup B</m></li>
+                    <li><m>A \cap B \subseteq A</m></li>
+                </ol>
+            </p>
+        </statement>
+    </proposition>
+    <p>
+        These final properties are unique to sets, yet have the same logical progressions as the previous ones.
+    </p>
+
+    <proposition xml:id="prop-even-more-set-laws">
+        <statement>
+            <p>
+                <ol>
+                
+                    <li><m>A \cap \emptyset = \emptyset</m></li>
+                    <li><m>A \cup \emptyset = A</m></li>
+                
+                <li><m>A-\emptyset = A</m></li>
+                <li><m>\emptyset - A = \emptyset</m></li>
+                
+                
+                
+                <li><m>A \subseteq B</m> if and only if <m>A \cup B = B</m></li>
+                <li><m>A \subseteq B </m> if and only if <m>A \cap B = A</m></li>
+                <li>If <m>A \subseteq B</m> then <m>A \cup C \subseteq B \cup C</m></li>
+                <li>If <m>A \subseteq B</m> then <m>A \cap C \subseteq B \cap C</m></li>
+                </ol>
+            </p>
+        </statement>
+    </proposition>
+    <p>
+        We leave these last ones without proof, nor the challenge for a hard working reader to try and work it out, but instead we hope the student's intuition will guide them with these last ones.
+    </p>
+
 </section>

@@ -20,6 +20,11 @@
     <p>
       The quintessential <alert>1</alert> or <alert>0</alert> of computers.
     </p>
+  <note>
+    <p>
+      This chapter is quite verbose and the student has time early on in the course to find great algrorithms like truth tables, but these quick and low hanging algorithms have the danger of distracting the student from actually learning this bedrock portion of proofs, and treating this like their calculus class where they only <em>listen</em> when an example of algorithm is put on the jukebox. 
+    </p>
+  </note>
   </introduction>
 
   

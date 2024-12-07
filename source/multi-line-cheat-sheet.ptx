@@ -4,3 +4,50 @@
     <mrow>\amp=2s+2t+2</mrow>
     <mrow>\amp=2(s+t+1)</mrow>
 </md>
+
+arguments:
+
+    <tabular halign="center">
+    <row>
+      <cell><m>A</m></cell>
+    </row>
+    <row  bottom="minor">
+      <cell><m>B</m></cell>
+    </row>
+    <row>
+      <cell><m>\therefore C</m></cell>
+    </row>
+    </tabular>
+
+    truth table:
+
+    <figure>
+        <tabular halign="center">
+          <row header="yes" bottom="minor" >
+            <cell><m>P</m></cell>
+            <cell><m>Q</m></cell>
+            <cell><m>P\implies Q</m></cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>T</cell>
+            <cell>F</cell>
+            <cell>F</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>T</cell>
+            <cell>T</cell>
+          </row>
+          <row>
+            <cell>F</cell>
+            <cell>F</cell>
+            <cell>T</cell>
+          </row>
+        </tabular>
+      
+    </figure>

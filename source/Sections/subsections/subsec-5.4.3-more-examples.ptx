@@ -1,0 +1,89 @@
+<section xml:id="subsec-5-4-3-more-subsets" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>More Examples</title>
+<p>
+    This is an important concept of your future mathematics courses so we will now provide a couple more abreviated examples of subset.
+</p>
+<example>
+    <p>
+        Consider the sets:
+        <me>
+            A=\{x\in\Z\text{ }|\text{ }6a+4\text{ for some }a\in\Z\}
+        </me>
+        <me>
+            B=\{y\in\Z\text{ }|\text{ }3a+1\text{ for some }a\in\Z\}
+        </me>
+    </p>
+    <p>
+        <alert>Prove:</alert> <m>A\subseteq B</m>
+    </p>
+</example>
+<p>
+    blah..
+</p>
+<example>
+    <p>
+        Consider the sets:
+        <me>
+            A=\{x\in\Z\text{ }|\text{ }2a+1\text{ for some }a\in\Z\}
+        </me>
+        <me>
+            B=\{y\in\Z\text{ }|\text{ }5a+2\text{ for some }a\in\Z\}
+        </me>
+        <me>
+            C=\{z\in\Z\text{ }|\text{ }10a+7\text{ for some }a\in\Z\}
+        </me>
+    </p>
+    <p>
+        <alert>Prove:</alert> <m>C\subseteq A\cap B</m>
+    </p>
+    <proof>
+        <p>
+            We first choose an arbitrary element of <m>C</m>  in attempts to show it also belongs to <m>A\cap B</m>, name this element <m>x\in C</m>. 
+        </p>
+        <p>
+            Using the definition of the set <m>C</m> we see that we can fix a specific <m>s\in\Z</m> so that <m>x=10s+7</m>.
+        </p>
+        <p>
+            Now, to show membership of the intersection, <m>A\cap B</m>, we need to show that our element <m>x</m> is both a member of <m>A</m> and that it is a member of <m>B</m>. Thus we break the remainder of the proof into two parts.
+        </p>
+        <p>
+            <alert>[Membership of <m>A</m>]</alert>
+        </p>
+        <p>
+            blah..
+        </p>
+        <p>
+            <alert>[Membership of <m>B</m>]</alert>
+        </p>
+        <p>
+            blah...
+        </p>
+        <p>
+            Finally, since we have show that <m>x\in A</m> and that <m>x\in B</m> we can conclude that <m>x\in A\cap B</m>, therefore we have shown that <m>C\subseteq A\cap B</m>.
+        </p>
+    </proof>
+</example>
+<p>
+    blah..
+</p>
+<p>
+    blah..
+</p>
+<definition xml:id='defn-set_equal'>
+    <title>Equals</title>
+    <statement>
+        <p>
+            We say that two sets <m>A</m> and <m>B</m> are equal, denoted 
+            <me>
+                A=B
+            </me>
+            if and only if 
+            <me>
+                A\subseteq B \text{ and } B\subseteq A
+            </me>
+            
+            
+        </p>
+    </statement>   
+  </definition>
+</section>

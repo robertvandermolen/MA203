@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-5-4-first-set-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>First Properties of Sets</title>
+<title>First Proofs of Sets</title>
 <p>
-    As we have defined naive set theory with only propostions they are primed to be proven with the techniques we have been developing. We will begin by proving and covering some basic propoerties sets and some of our constructions from the previous sections.
+    In the previous section we looked at many basic propoerties of sets. Now we will venture into some proofs that are more indicative of your furture classes, and return (momentarily) back to the safety of numbers.
 </p>
 <p>
     We first examine how one would prove a subset to be true.
@@ -27,6 +27,93 @@
     </me>
     blah...
   </p>
-  
+  <section xml:id="sec-5-4-1-first-set-proofs-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The First Proof</title>
+  <p>
+    Define the sets 
+    <me>
+        A=\{x\in\Z\text{ }|\text{ }x=6a\text{ for some } a\in\Z\}
+    </me>
+    <me>
+        B=\{x\in\Z\text{ }|\text{ }x=2a\text{ for some } a\in\Z\}
+    </me>
+    <alert>Prove:</alert> <m>A\subseteq B</m>
+</p>
+<p>Before we begin any proof we sing our song (play-along):</p>
+    <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
+    <answer>
+    <p><m>x\in A</m></p>
+    </answer>
+    <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
+    <answer>
+    <p><m>x\in B</m></p>
+    </answer>
+    <p>"What're the definitions?" </p>
+    <answer>
+    <p>The definition of the sets written directly above silly goose!</p>
+    </answer>
+    <p>"Now, what to do?"</p> 
+    <answer>
+    <p>A direct proof! (proof of a subset!)</p>
+    </answer>
+    
+    
+    <p></p>
+    <section xml:id="sec-5-4-2-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title><m>{\color{red}{\text{The Beginning}}}</m></title>
+        <p>
+            To begin this proof we follow our procdure above, by choosing an arbitrary element of the set <m>A</m>, using words in the manner of:
+        </p>
+        <p>
+            <me>\color{red}{\text{Let }s\in A}</me> 
+        </p>
+        <p>
+            Thats all there is to it, we abscond with a random element of <m>A</m>, then drudge foward with our journey to show it is a member of <m>B</m>.
+        </p>
+    </section>
+    <section xml:id="sec-5-4-3-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title><m>{\color{green}{\text{The Muddle}}}</m></title>
+        <p>
+            I chose to begin with this example as <m>\color{green}{\text{the muddle}}</m> is almost identicial to most other of our examples. That is we simply state what it takes for <m>s</m> to belong to <m>A</m>. From the definition above of the set <m>A</m>, we see in the <em>condition</em> part of the set-bulider notation it tells us that there must be an integer so that <m>s</m> is 6 times this integer (sound familiar?). To invoke this we could write something like:
+        </p>
+        <p>
+            By the definition of membership of <m>A</m>, we can produce some integer <m>t</m> so that <m>s=6t</m>.
+        </p>
+    </section>
+    <section xml:id="sec-5-4-4-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title><m>{\color{blue}{\text{The End}}}</m></title>
+        <p>
+            Now, for the end we need to finally get to the finish line, that is finally conclude that our element <m>s</m> is indeed a member of <m>B</m>. For this notice that 
+            <me>
+              s=6t=2\cdot(3t)  
+            </me>
+            and since 3 is an integer and <m>t</m> is an integer we have that <m>3t</m> is an integer and hence <m>s</m> satisfies the condition to be in <m>B</m>.
+        </p>
+        <p>
+            Next, we present it all in one place.
+        </p>
+        <example>
+            <p>
+                Define the sets 
+                <me>
+                    A=\{x\in\Z\text{ }|\text{ }x=6a\text{ for some } a\in\Z\}
+                </me>
+                <me>
+                    B=\{x\in\Z\text{ }|\text{ }x=2a\text{ for some } a\in\Z\}
+                </me>
+                <alert>Prove:</alert> <m>A\subseteq B</m>
+            </p>
+            <p>
+                Proof:
+            </p>
+            <p>
+                Let <m>s\in A</m>, by definition of the set <m>A</m> we can find an integer <m>t</m> so that <m>s=6t</m>, yet note since <m>6=2\cdot 3</m> we have <m>s=6t=2\cdot(3t)</m>. Now, since <m>3</m> and <m>t</m> are integers we can conclude <m>3t</m> is an integer. Therefore by the definition of the set <m>B</m> we have that <m>s\in B</m>
+            </p>
+        </example>
+    </section>
+</section>
+
+<!-- include sections -->
+<xi:include href="../Sections/subsections/subsec-5.4.3-more-examples.ptx" />
 
 </section>

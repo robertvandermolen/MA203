@@ -132,6 +132,12 @@
       </me>
       To defend the mathematician which chooses to present it in this manner, we mostly study objects with a well defined and unique multiplication, that is there is only one unique integer <m>a</m> that satisfies <m>y=3a+1</m> for a given <m>y</m>.
     </p>
-
+    <p>
+      Adding to the possible confusion yet important to understand, for this <em>same</em> set it is true that 
+      <me>
+        \forall k\in\Z\text{ }(3k+1)\in\{y\in\Z\text{ }|\text{ }y=3a+1,\text{ }a\in\Z\}
+      </me>
+      that is, by defining a set with an existential condition we are actually defining a universal relationship. To top it off we often do not even mention the universal relationship and <em>hide</em> the existential one, all in the sake of brevity and the word <em>obvious</em>.
+    </p>
   
 </section>
