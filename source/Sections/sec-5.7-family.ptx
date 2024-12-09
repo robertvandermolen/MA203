@@ -3,7 +3,25 @@
 <section xml:id="sec-5-7-family" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Families</title>
 <p>
-    blah...
+    We now consider, basic constructions like union, intersection and the cross product between many sets at once. We consider these over a <term>family of sets</term>, which is just a fancy way of saying a set whose members are sets. We will most often use the <em>script font</em> to indicate a family, for example <m>\mathscr{A}</m>.
+</p>
+<definition xml:id="def-indexed-family">
+<title>Indexed Family of Sets</title>
+
+
+    <statement>
+        <p>
+            Let <m>\Delta</m> be a nonempty set such that for every <m>i\in\Delta</m> we correspond a set <m>A_i</m>. An <term>indexed family of sets</term> over <m>\Delta</m>, is the family of sets, 
+            <me>
+                \mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}
+            </me>
+            
+            We call the set <m>\Delta</m> <term> the indexing set</term>.  
+        </p>
+    </statement>
+</definition>
+<p>
+    blah..
 </p>
 <definition xml:id="def-pairwise-disjoint">
     <title>Pairwise Disjoint</title>

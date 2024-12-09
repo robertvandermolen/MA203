@@ -156,7 +156,7 @@
     <proposition xml:id="prop-more-set-laws">
         <statement>
             <p>
-                <ol>
+                <ol marker="(a)">
                 
                     <li><m>A \subseteq A \cup B</m></li>
                     <li><m>A \cap B \subseteq A</m></li>
@@ -171,7 +171,7 @@
     <proposition xml:id="prop-even-more-set-laws">
         <statement>
             <p>
-                <ol>
+                <ol marker="(a)">
                 
                     <li><m>A \cap \emptyset = \emptyset</m></li>
                     <li><m>A \cup \emptyset = A</m></li>

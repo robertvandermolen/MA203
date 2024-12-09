@@ -56,34 +56,60 @@
     <image source="/images/r_cross_r.jpeg" width="100%"/>
 </example>
 <p>
-    blah...
+    With this basic understanding of the cross-product we are already to start proving with it.
 </p>
-<theorem xml:id="thm-5-6">
-    <title></title>
-    <statement>
-        <p>
-            For any sets <m>A</m> and <m>B</m>, <m>A\times (B\cup C) = (A\times B)\cup (A\times C)</m>
+<example>
+<p>
+    <alert>Prove:</alert>
+
+        For sets <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>, if <m>A\subseteq C</m> and <m>B\subseteq D</m> then <m>A\times B\subseteq C\times D</m>
+    </p>
+    <proof>
+    <p>
+        We begin by assuming that <m>A\subseteq C</m> and that <m>B\subseteq D</m>. Our objective is to prove that <m>A\times B\subseteq C\times D</m>, that is we need to show a subset, we do this by choosing an arbitrary element, <m>x\in A\times B</m>. 
+    </p>
+    <p>
+        To understand this element we of course refer to the definition (<xref ref="def-cross-product"/>), from which we see the defining condition promises that we can find two elements, one from <m>A</m> and one from <m>B</m>, name these elements, <m>a\in A</m> and <m>b\in B</m>, such that <m>x=(a,b)</m>. 
+    </p>
+    <p>
+        By our assumption that <m>A\subseteq C</m> since we established <m>a\in A</m> by definition of subset we get that <m>a\in C</m>. Similiarly, by our assumption that <m>B\subseteq D</m> and since we established that <m>b\in B</m> again by the definition of subset <m>b\in D</m>. 
+    </p>
+    <p>
+        Therefore, by the definition of crossproduct <m>x=(a,b)\in C\times D</m> as desired.
+    </p>
+    </proof>
+</example>
+
+    <example>
+    <p>
+        <alert>Prove:</alert>
+   
+            Let <m>A</m> and <m>B</m> be sets, then <m>A\times (B\cup C) = (A\times B)\cup (A\times C)</m>
         </p>
-    </statement>
-  </theorem>
+  
   <proof>
-    <p><m>[\subset ]</m></p>
-    <p>Let <m>x \in A \times (B\cup C)</m>. Hence by definition of cross product, we can find <m>m \in A</m> and <m>l \in B\cup C</m> such that 
-        <m>x = (m, l)</m>. By definition of union, <m>l \in B</m> or <m>l \in C</m>. Hence <m>(m, l) \in A \times B</m>. Since <m>m \in A</m> and <m>l \in B</m>
-        or <m>(m, l) \in A \times C</m>, since <m>m \in A</m> and <m>l \in C</m>. Thus, by definition of union, <m>x=(m, l) \in (A \times B) \cup (A \times C)</m>
+    <p><alert>[Want to show: <m>\mathbf{A\times (B\cup C)\subseteq(A\times B)\cup(A\times C)}</m>]</alert></p>
+    <p>
+        We begin by choosing an arbitrary element <m>x \in A \times (B\cup C)</m>. By the definition of cross product, we can find <m>m \in A</m> and <m>\ell \in B\cup C</m> such that 
+        <m>x = (m, \ell)</m>. By definition of union, <m>\ell \in B</m> or <m>\ell \in C</m>.
+    </p>
+    <p>
+         Hence <m>(m, \ell) \in A \times B</m>, when <m>\ell\in B</m>, or <m>(m, \ell) \in A \times C</m>, when <m>\ell \in C</m>. Thus, by definition of union, <m>x=(m, \ell) \in (A \times B) \cup (A \times C)</m>
         Thus by definition of subset, since <m>x \in A\times (B\cup C)</m> and <m>x \in (A\times B)\cup (A\times C)</m>, 
-        <m>A\times (B\cup C) \subset (A\times B)\cup (A\times C)</m>.</p>
-    <p><m>[\supset ]</m></p>
-    <p>Let <m>x \in (A \times B)\cup (A\times C)</m>. Hence by definition of union, <m>x \in (A\times B)</m> or <m>x \in (A\times C)</m>. Hence, by definition
-        of cross product, we can find <m>m\in A</m> and <m>k \in B</m> or <m>d\in A</m> and <m>l\in C</m> such that <m>x=(m, k)</m> or <m>x=(d, l)</m>.</p>
-    <p><alert>Case 1:</alert> <m>x=(m, k)</m></p>
-    <p>Since <m>k\in B</m>, by definition of union, <m>k\in B\cup C</m> and since <m>m\in A</m>, <m>x=(m, k) \in A\times(B\cup C)</m> by definition of 
-        cross product. Thus by definition of subset, since <m>x \in (A\times B)\cup (A\times C)</m> and <m>x \in A\times (B\cup C)</m>,
+        <m>A\times (B\cup C) \subset (A\times B)\cup (A\times C)</m>.
+    </p>
+    <p><alert>[Want to show: <m>\mathbf{(A\times B)\cup(A\times C)\subseteq A\times (B\cup C)}</m>]</alert></p>
+    <p>This time let <m>y \in (A \times B)\cup (A\times C)</m>. Hence by definition of union, <m>y \in (A\times B)</m> or <m>y \in (A\times C)</m>. Hence, by definition
+        of cross product, we can find <m>s\in A</m> and <m>t \in B</m> or <m>d\in A</m> and <m>r\in C</m> such that <m>y=(s, t)</m> or <m>y=(d, r)</m>.</p>
+    <p><alert>Case 1:</alert> <m>\mathbf{y=(s, t)}</m></p>
+    <p>Since <m>t\in B</m>, by definition of union, <m>t\in B\cup C</m> and since <m>s\in A</m>, <m>y=(s, t) \in A\times(B\cup C)</m> by definition of 
+        cross product. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>,
         <m>(A\times B)\cup (A\times C) \subset A\times (B\cup C)</m></p>
-    <p><alert>Case 2:</alert> x = (d,l)</p>
-    <p>Since <m>l\in C</m>, by definition of union, <m>l\in B\cup C</m>. And since <m>d\in A</m>, by definition of cross prodcut,
-        <m>x=(d,l) \in A\times (B\cup C)</m>. Thus by definition of subset, since <m>x \in (A\times B)\cup (A\times C)</m> and <m>x \in A\times (B\cup C)</m>,
+    <p><alert>Case 2:</alert> <m>\mathbf{y = (d,r)}</m></p>
+    <p>Since <m>l\in C</m>, by definition of union, <m>r\in B\cup C</m>. And since <m>d\in A</m>, by definition of cross prodcut,
+        <m>y=(d,r) \in A\times (B\cup C)</m>. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>,
         <m>(A\times B)\cup (A\times C) \subset A\times (B\cup C)</m> </p>
     <p>Thus, since both cases hold, by direct proof and proof by cases, <m>A\times (B\cup C) = (A\times B)\cup (A\times C)</m></p>
   </proof>
+  </example>
 </section>

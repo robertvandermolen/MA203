@@ -70,13 +70,13 @@
             Choose an arbitray <m>a\in x</m>.
         </p>
         <p>
-            Where to go from here?? Well we have right before this we unraveled the fact that <m>x\subseteq A</m> and hence by defintion of subset we have <m>a\in A</m>. We could express this in our proof with the following language:
+            Where to go from here?? Well, right before this we unraveled the fact that <m>x\subseteq A</m> and hence by defintion of subset we have <m>a\in A</m>. We could express this in our proof with the following language:
         </p>
         <p>
             Since <m>x\subseteq A</m> and that we have assumed <m>a\in x</m>, by the defintion of subset we can make the conclusion that <m>a\in A</m>.
         </p>
         <p>
-            Hark! Our very first assumption twas bout the fair set <m>A</m>, which was that <m>A\subseteq B</m>, hence in a similiar fashion we could write the following conclusion:
+            Hark! Our very first assumption twas bout how the fair set <m>A</m> compares to the set <m>B</m>, more specifically that <m>A\subseteq B</m>, hence in a similiar fashion we could write the following conclusion:
         </p>
         <p>
             Since we assumed <m>A\subseteq B</m> and since we have discovered that <m>a\in A</m> by definition of subset we can conclude that <m>a\in B</m>. Hence, since we chose an arbitrary element <m>a\in x</m> and have shown that <m>a\in B</m> as well, by definition of subset we can conclude <m>x\subseteq B</m>.
@@ -152,7 +152,7 @@
     <section xml:id="sec-5-5-2-end-2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{blue}{\text{The End}}}</m></title>
         <p>
-            Given that <m>\{y\}\in\mathscr{P}(B)</m> by the defintion of powerset we can conclude that <m>\{y\}\subseteq B</m>, and by the definition of subset <m>y\in B</m>. 
+            Given that <m>\{y\}\in\mathscr{P}(B)</m> by the defintion of powerset we can conclude that <m>\{y\}\subseteq B</m>, and by the definition of subset, since <m>y\in\{y\}</m> we have that <m>y\in B</m>. 
         </p>
         <p>
             Yet, since we have chosen <m>y\in A</m> arbitrarily and have shown that <m>y\in B</m> by the definition of subset we can conclude that <m>A\subseteq B</m> as desired.
@@ -180,14 +180,14 @@
   <example>
     <p><alert>Prove:</alert> <m>A \subseteq B</m> if and only if <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m></p>
     <p>[<m>\implies</m>]</p>
-    <p>Assume <m>A \subseteq B</m> Let <m>x \in \mathscr{P}(A)</m>. Hence by definition of power set, <m>x \subset \mathscr{P}(A)</m></p>
-    <p>By theorem (I have to figure out how to reference and name them) (c), since <m>x \subseteq A</m> and <m>A \subset B</m>
+    <p>Assume <m>A \subseteq B</m> Let <m>x \in \mathscr{P}(A)</m>. Hence by definition of power set, <m>x \subseteq A</m></p>
+    <p>By <xref ref="prop-a-subset-a"/> (b), since <m>x \subseteq A</m> and <m>A \subseteq B</m>
         we can conclude <m>x \subseteq B</m>. Thus by definition of power set, <m>x \in \mathscr{P}(B)</m></p>
     <p>Thus by direct proof, if <m>A \subseteq B</m> then <m>\mathscr{P}(A) \subseteq P(B)</m></p>
     <p>[<m>\impliedby</m>]</p>
-    <p>Assume that <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m>. Let <m>y \in A</m> By definition of power set, <m>{y} \in P(A)</m>. Hence by
-        our assumption, <m>{y} \in \mathscr{P}(B)</m>. Hence by our assumption and the definition of power set, <m>{y} \in \mathscr{P}(A)</m>, hence
-    <m>{y} \in \mathscr{P}(B)</m>. By definition of subset, since <m>y \in {y}</m> then <m>y \in B</m>.</p>
+    <p>Assume that <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m>. Let <m>y \in A</m> By definition of power set, <m>\{y\} \in P(A)</m>. Hence by
+        our assumption, <m>\{y\} \in \mathscr{P}(B)</m>. Hence by our assumption and the definition of power set, <m>\{y\} \in \mathscr{P}(A)</m>, hence
+    <m>\{y\} \in \mathscr{P}(B)</m>. By definition of subset, since <m>y \in \{y\}</m> then <m>y \in B</m>.</p>
     <p>Thus by direct and bi-directional proof, <m>A \subseteq B</m> if and only if <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m></p>
   </example>
 </section>
