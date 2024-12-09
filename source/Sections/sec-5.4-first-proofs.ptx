@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-5-4-first-set-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>First Proofs of Sets</title>
+<title>First Proofs with Sets</title>
 <p>
     In the previous section we looked at many basic propoerties of sets. Now we will venture into some proofs that are more indicative of your furture classes, and return (momentarily) back to the safety of numbers.
 </p>
@@ -25,8 +25,8 @@
     <me>
         \forall x\in\mathcal{U} \text{ }x\in A\implies x\in B
     </me>
-    blah...
-  </p>
+    We will see many examples of this proving method throughout out the class, yet before we jump in, I'd like to note for either the instructor or the dilligent student who has been paying very close attention to the journey. I used to try and teach this by taking away the numbers, and instead using the <m>{\color{red}\text{beginning}}</m>, <m>{\color{green}\text{muddle}}</m> and the <m>{\color{blue}\text{end}}</m> in <xref ref="subsec-5-3-2-algebra-of-sets"/> instead of the now off handed way you see presented here, but I believe the students felt like it was too jarring and then leaned away from subsets and set proofs, which was detremental to their learning once we got to abstract algebra. So now I introduce these proofs with numbers in hopes that you leave the set theory section with the love that you left from the even and odd proofs. 
+   </p>
   <section xml:id="sec-5-4-1-first-set-proofs-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>The First Proof</title>
   <p>

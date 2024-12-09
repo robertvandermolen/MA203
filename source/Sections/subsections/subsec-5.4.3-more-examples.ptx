@@ -7,30 +7,42 @@
     <p>
         Consider the sets:
         <me>
-            A=\{x\in\Z\text{ }|\text{ }6a+4\text{ for some }a\in\Z\}
+            A=\{x\in\Z\text{ }|\text{ }x=6a+4\text{ for some }a\in\Z\}
         </me>
         <me>
-            B=\{y\in\Z\text{ }|\text{ }3a+1\text{ for some }a\in\Z\}
+            B=\{y\in\Z\text{ }|\text{ }y=3a+1\text{ for some }a\in\Z\}
         </me>
     </p>
     <p>
         <alert>Prove:</alert> <m>A\subseteq B</m>
     </p>
+    <proof>
+        <p>
+            We begin by selecting a completley arbitrary element of <m>A</m>, which we will denote as <m>n\in A</m>. Applying the condition of membership to <m>A</m> we can find an integer <m>m</m> such that <m>n=6m+4</m>. By factoring we see that 
+            <me>
+                n=6m+4=6m+3+1=3(2m+1)+1
+            </me>
+            and since <m>2m+1</m> is an integer we see that <m>n</m> satisfies the condition to be a member of <m>B</m>. 
+        </p>
+        <p>
+            Therefore, we have chosen an arbitrary <m>n\in A</m>, and sucessfully shown that <m>n\in B</m>, hence we have shown that <m>A\subseteq B</m>.
+        </p>
+    </proof>
 </example>
 <p>
-    blah..
+    For our next example we will look at proof involving the intesection (<xref ref="def-intersection"/>). 
 </p>
 <example>
     <p>
         Consider the sets:
         <me>
-            A=\{x\in\Z\text{ }|\text{ }2a+1\text{ for some }a\in\Z\}
+            A=\{x\in\Z\text{ }|\text{ }x=2a+1\text{ for some }a\in\Z\}
         </me>
         <me>
-            B=\{y\in\Z\text{ }|\text{ }5a+2\text{ for some }a\in\Z\}
+            B=\{y\in\Z\text{ }|\text{ }y=5a+2\text{ for some }a\in\Z\}
         </me>
         <me>
-            C=\{z\in\Z\text{ }|\text{ }10a+7\text{ for some }a\in\Z\}
+            C=\{z\in\Z\text{ }|\text{ }z=10a+7\text{ for some }a\in\Z\}
         </me>
     </p>
     <p>
@@ -44,36 +56,89 @@
             Using the definition of the set <m>C</m> we see that we can fix a specific <m>s\in\Z</m> so that <m>x=10s+7</m>.
         </p>
         <p>
-            Now, to show membership of the intersection, <m>A\cap B</m>, we need to show that our element <m>x</m> is both a member of <m>A</m> and that it is a member of <m>B</m>. Thus we break the remainder of the proof into two parts.
+            Now, to show membership of the intersection, <m>A\cap B</m>, we need to show that our element <m>x</m> is both a member of <m>A</m> <alert>and</alert> that it is a member of <m>B</m>, by the definition of intersection (<xref ref="def-intersection"/>). Thus we break the remainder of the proof into two parts.
         </p>
         <p>
-            <alert>[Membership of <m>A</m>]</alert>
+            <alert>[Membership of <m>\mathbf{A}</m>]</alert>
         </p>
         <p>
-            blah..
+            Notice that we can factor 
+            <me>
+                x=10s+7=10s+6+1=2(5s+3)+1
+            </me>
+            and as <m>5s+3</m> is an integer we see that <m>x</m> satisfies the conditions to be a member of <m>A</m>.
         </p>
         <p>
-            <alert>[Membership of <m>B</m>]</alert>
+            <alert>[Membership of <m>\mathbf{B}</m>]</alert>
         </p>
         <p>
-            blah...
+             Similarly, notice that we can again factor 
+            <me>
+                x=10s+7=10s+5+2=5(2s+1)+2
+            </me>
+            and as <m>2s+1</m> is an integer we see that <m>x</m> satisfies the conditions to be a member of <m>B</m>.
         </p>
         <p>
-            Finally, since we have show that <m>x\in A</m> and that <m>x\in B</m> we can conclude that <m>x\in A\cap B</m>, therefore we have shown that <m>C\subseteq A\cap B</m>.
+            Finally, since we have chosen a completely arbitray element <m>x\in C</m> and then have shown that <m>x\in A</m> and that <m>x\in B</m> we can conclude that <m>x\in A\cap B</m>, therefore we have shown that <m>C\subseteq A\cap B</m>.
         </p>
     </proof>
 </example>
 <p>
-    blah..
+    Our next example will work through a proof that involves a union (<xref ref="def-union"/>). 
 </p>
+<example>
+    <p>
+        Consider the sets
+        <me>
+            A=\{c\in\Z\text{ }|\text{ }c=6g+4\text{ for some }g\in\Z\}
+        </me>
+        <me>
+            B=\{d\in\Z\text{ }|\text{ }d=15h-8\text{ for some }h\in\Z\}
+        </me>
+        <me>
+            C=\{f\in\Z\text{ }|\text{ }f=3j+1\text{ for some }j\in\Z\}
+        </me>
+    </p>
+    <p>
+        <alert>Prove:</alert> <m>A\cup B\subseteq C</m>
+    </p>
+    <proof>
+        <p>
+            To start the proof we will choose an arbitrary element of <m>A\cup B</m>, we will name this random member <m>y\in A\cup B</m>. By the definition of union (<xref ref="def-union"/>) we have that <m>y\in A</m> <alert>or</alert> <m>y\in B</m>, thus we split our proof in to two cases.
+        </p>
+        <p>
+            <alert>[Case 1: <m>\mathbf{y\in A}</m>]</alert>
+        </p>
+        <p>
+           For this first case, assume that <m>y\in A</m>, by the condition defining the set <m>A</m> we can find an integer <m>t</m> such that <m>y=6t+4</m>. Next, we calculate:
+           <me>
+            y=6t+4=6t+3+1=3(2t+1)+1
+           </me>
+           since <m>2t+1</m> is an integer we see that <m>y</m> satisfies the condition to be a member of <m>C</m>, that is <m>y\in C</m>.
+        </p>
+        <p>
+            <alert>[Case 2: <m>\mathbf{y\in B}</m>]</alert>
+        </p>
+        <p>
+            For this case we will instead assume <m>y\in B</m>. This time by the condition defining the set <m>B</m> we can locate a special integer <m>s</m> so that <m>y=15s-8</m>. Now we can calculate:
+            <me>
+                y=15s-8=15s-9+1=3(5s-3)+1
+            </me>
+            and since <m>5s-3</m> is an integer we see that, as the condition for membership of <m>C</m> is satisfied, <m>y\in C</m>.
+        </p>
+        <p>
+            To wrap-up, since we have chosen a random element <m>y\in A\cup B</m> and have shown that this same element must have the property that <m>y\in C</m> we can conclude that <m>A\cup B\subseteq C</m>.
+        </p>
+    </proof>
+</example>
 <p>
-    blah..
+    Now we will explore the process of showing when sets are equal.
 </p>
 <definition xml:id='defn-set_equal'>
     <title>Equals</title>
     <statement>
         <p>
-            We say that two sets <m>A</m> and <m>B</m> are equal, denoted 
+            We say that two sets <m>A</m> and <m>B</m> are <term>equal</term>, denoted 
             <me>
                 A=B
             </me>
@@ -86,4 +151,50 @@
         </p>
     </statement>   
   </definition>
+  <p>
+    Therefore to prove the statment <m>A=B</m> we must have two proofs, one proof for <m>A\subseteq B</m> and one proof for <m>B\subseteq A</m>.
+  </p>
+  <p>
+    Our next couple of examples aim to show this.
+  </p>
+  <example>
+    <p>
+        Consider the set
+        <me>
+            X=\{x\in\Z\text{ }|\text{ }x=3g+2h\text{ for some }g,h\in\Z\}
+        </me>
+    </p>
+    <p>
+        <alert>Prove:</alert> <m>X=\Z</m>
+    </p>
+    <proof>
+        <p>
+            We will again need to break this proof into two parts.
+        </p>
+        <p>
+            <alert>[Want to Show: <m>\mathbf{X\subseteq\Z}</m>]</alert>
+        </p>
+        <p>
+            For the first part, let <m>c\in X</m> and hence by the definition of the set <m>X</m> we have that <m>x\in\Z</m>, therefore <m>X\subseteq\Z</m>. (this is of course what many refer to as the <em>easy part</em>)
+        </p>
+        <p>
+            <alert>[Want to Show: <m>\mathbf{\Z\subseteq X}</m>]</alert>
+        </p>
+        <p>
+            In this next part, assume <m>m\in\Z</m>. It is now our objective to show membership in <m>X</m>, to do such we will need to produce two integers, the way in which we discovered these integers is irrelvant to the proof, so for the sake of argument, lets just assume angels whispered it to me in my sleep. 
+        </p>
+        <p>
+            Notice that since <m>m</m> is an integer and as well <m>-m</m> is an integer, then we can calculate:
+            <me>
+                3m-2m=m
+            </me>
+            and hence by the condition of set <m>X</m> we have that <m>m\in X</m>, therefore <m>\Z\subseteq X</m>.
+        </p>
+        <p>
+            To wrap-up, since we have shown that both <m>X\subseteq \Z</m> and <m>\Z\subseteq X</m> we may conclude that <m>X=\Z</m>.
+        </p>
+    </proof>
+  </example>
+  
+  
 </section>

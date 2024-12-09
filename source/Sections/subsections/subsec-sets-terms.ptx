@@ -12,7 +12,7 @@
     </statement>
 </definition>
 
-<definition xml:id="def-Power-Set">
+<definition xml:id="PPower-Set">
     <title>Power Set</title>
     <statement>
         <p>
@@ -22,7 +22,7 @@
     </statement>
 </definition>
 
-<definition xml:id="def-pairwise-disjoint">
+<definition xml:id="ppairwise-disjoint">
     <title>Pairwise Disjoint</title>
     <statement>
         <p>

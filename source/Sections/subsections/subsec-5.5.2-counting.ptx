@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="subsec-5-5-2-power-set-counting" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>The Natural Numbers</title>
+<p>
+    This subsection can be safely skipped, but it is a fun construction using only the empty set to build the natural numbers, also why I insist that <m>0\in\N</m>.
+</p>
+<p>
+    For this construction we begin with the empty set:
+    <me>
+        |\emptyset|=0
+    </me>
+    then we consider the set which has a singular element, the empty set,
+    <me>
+        |\{\emptyset\}|=1
+    </me>
+    now we consider the set which contains these previous two sets, namely:
+    <me>
+        |\{\emptyset,\{\emptyset\}\}|=2
+    </me>
+    next lets collect all these sets in a set, that is
+    <me>
+        |\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\}\}|=3
+    </me>
+    and continue
+    <me>
+        |\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\},\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\}\}\}|=4
+    </me>
+    and continue
+    <me>
+        |\{\emptyset,\{\emptyset\} ,\{\emptyset,\{\emptyset\}\},\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\}\},\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\},\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\}\}\}\}|=5
+    </me>
+    and continue... the dilligent student will complete this exercise...
+</p>
+</section>

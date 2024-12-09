@@ -3,6 +3,110 @@
 <section xml:id="sec-5-5-power-set" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Power Set</title>
 <p>
-    blah...
+   The power set includes all the subsets of a given set. To help make this clearer, we'll now work through a couple of examples together.
 </p>
+<definition xml:id="def-Power-Set">
+    <title>Power Set</title>
+    <statement>
+        <p>
+            Let <m>A</m> be a set. The <term>power set</term> of <m>A</m> is the set whose elements are the subsets of <m>A</m> and is denoted <m>\mathscr{P}(A)</m>
+        
+        <me>\mathscr{P}(A)=\{B\text{ }|\text{ }B \subseteq A\}</me>
+        </p>
+    </statement>
+</definition>
+<p>
+    The power set is made up of all the subsets of a given set. Let's explore some examples to help make this clear.
+</p>
+<example>
+    <p>
+        Consider the set:
+    </p>
+    <image source="/images/p_set_a.jpeg" width="35%"/>
+     <p>
+        To build the powerset, it is customary to begin with the empty set, <m>\emptyset</m>, which we know must be a member of the power set from <xref ref="prop-empty-unique"/> we know that <m>\emptyset\subseteq A</m>. Hence, 
+        <m>
+            \emptyset\in\mathscr{P}(A)
+        </m>
+         
+    </p>
+    <p>
+        Next, we will of course need all of the <term>singletons</term>, that is all the sets containing a single element from <m>A</m>
+    </p>
+    <image source="/images/bot_in_power.jpeg" width="40%"/>
+    <image source="/images/block_in_power.jpeg" width="40%"/>
+    <p>
+        Finally, since for any set <m>A\subseteq A</m>, as any element of <m>A</m> is surely an element of <m>A</m>, we have <m>A\in\mathscr{P}(A)</m>
+    </p>
+    <p>
+        thus the power set is:
+    </p>
+    <image source="/images/p_set.jpeg" width="100%"/>
+   
+</example>
+<p>
+    Our next example, though a bit more straightforward, uses our familiar numbers with a slightly larger set to help solidify the concept.
+</p>
+<example>
+    <p>
+        Let's look at an example of a power set: the power set of <m>B = \{1,2,3\}</m>. 
+    </p>
+    <p>
+        Just, as in the last example, in every power set we must find the empty set, that is <m>\emptyset\in\mathscr{P}(B)</m>.
+    </p>
+    <p>
+        Next, we will work through each singleton:
+        <me>
+            \{1\}\in\mathscr{P}(B)
+        </me>
+        <me>
+            \{2\}\in\mathscr{P}(B)
+        </me>
+        <me>
+            \{3\}\in\mathscr{P}(B)
+        </me>
+    </p>
+    <p>
+        As our set has three elements there are a few subsets which have two elements this time:
+        <me>
+            \{1,2\}\in\mathscr{P}(B)
+        </me>
+        <me>
+            \{1,3\}\in\mathscr{P}(B)
+        </me>
+        <me>
+            \{2,3\}\in\mathscr{P}(B)
+        </me>
+    </p>
+    <p>
+        Finally, as <m>B\subseteq B</m>, we have that <m>B\in\mathscr{P}(B)</m>.
+    </p>
+    <p>
+        Thus the power set of <m>B</m> is:
+        <me>
+            \mathscr{P}(B) = \{\emptyset, \{1\}, \{2\},\{3\}, \{1,2\},\{1,3\},\{2,3\},\{1,2,3\}\}
+        </me>
+    </p>
+  </example>
+  <p>
+    The curious counter, will notice by the procdural way in which we construct these power sets that when we start with finite sets, that they are indeed easy enough to count. 
+  </p>
+  <theorem xml:id="thm-count-power-set">
+    <statement>
+        <p>
+            For a finite set <m>A</m> the size of the power set is
+            <me>
+                |\mathscr{P}(A)|=2^{|A|}
+            </me>
+             
+        </p>
+    </statement>
+  </theorem>
+  <p>
+    We leave the proof of this to a course in counting, or the studious reader may work it out themselves.
+  </p>
+  
+  <!-- include sections -->
+<xi:include href="../Sections/subsections/subsec-5.5.1-first-example.ptx" />
+<xi:include href="../Sections/subsections/subsec-5.5.2-counting.ptx" />
 </section>

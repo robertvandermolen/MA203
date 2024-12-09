@@ -5,7 +5,7 @@
 
   <introduction>
     <p>
-      Now in this second half of the course we temporarily abandon the saftey of our precious numbers, and take on the adventure of mathematics. We begin this adventure by first learning a new playground to prove in, namely <em>naive set theory</em>. 
+      Now in this second half of the course we move our adventure of exploring proofs by diving deeper into the new playground of <em>naive set theory</em>. This adventure will begin by considering sets of numbers, toys, animals and all sort of creations. To gently introduce our students to the proofs involved with such creatures we will provide the (now) familiar sets of numbers. 
     </p>
     <p>
       While indeed we gave the reader the minimum needed from set theory to play with quantifiers in <xref ref="subsec-2-5-1-basic-sets"/> in this chapter we essentially start over re-defining it all.
@@ -18,5 +18,7 @@
   <xi:include href="../Sections/sec-5.3-venn.ptx" />
   <xi:include href="../Sections/sec-5.4-first-proofs.ptx" />
   <xi:include href="../Sections/sec-5.5-power-set.ptx" />
-  
+  <xi:include href="../Sections/sec-5.6-cross.ptx" />
+  <xi:include href="../Sections/sec-5.7-family.ptx" />
+  <xi:include href="../Sections/sec-5.8-ch06-exercises.ptx" />
 </chapter>
