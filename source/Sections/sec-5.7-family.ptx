@@ -97,7 +97,28 @@
     </me>
     </p>
 </example>
-
+<p>
+    Now lets explore a general proof involving these constructions.
+</p>
+<example>
+    <p>
+        <alert>Prove:</alert> For a non-empty family of sets <m>\mathscr{A}</m>
+        <me>
+            \bigcap_{A\in\mathscr{A}}A\subseteq\bigcup_{A\in\mathscr{A}}A
+        </me>
+    </p>
+    <proof>
+        <p>
+            We begin as we do for any subset proof, and that is, we choose an arbitray element <m>x\in\bigcap_{A\in\mathscr{A}}A</m>
+        </p>
+        <p>
+            By definition of the intersection over a family for any member of the family <m>x</m> must belong to it. So choose an arbitrary <m>C\in\mathscr{A}</m> thus <m>x\in C</m>, which by defintion of union, since <m>x\in C</m> we have that <m>x\in\bigcup_{A\in\mathscr{A}}A</m>.
+        </p>
+        <p>
+            Therefore since we chose an arbitrary element <m>x\in\bigcap_{A\in\mathscr{A}}A</m> and have shown <m>x\in\bigcup_{A\in\mathscr{A}}A</m>, we can conclude <m>\bigcap_{A\in\mathscr{A}}A\subseteq\bigcup_{A\in\mathscr{A}}A</m> as desired. <m>\square</m>
+        </p>
+    </proof>
+</example>
 
 <p>
     If this is still a bit too abstract for our dear reader we will now introduce a concept which allows us to look at these constructions a bit more like the summation from our calculus classes.
@@ -161,7 +182,7 @@
 </p>
 <example>
     <p>
-        Consider the indexing set <m>\N</m> and the family of sets <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\N\}</m> defined as the following open intervals,
+        Consider the indexing set <m>\N</m> and the family of sets <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\N\}</m> defined as the following intervals,
         <me>
             A_i=\left[\left.\frac{1}{i+2},\frac{1}{i+1}\right.\right)=\left\{x\in\R\text{ }\left|\text{ }\frac{1}{i+1}\leq x\lt \frac{1}{i}\right.\right\}
         </me>
@@ -181,30 +202,31 @@
 <example>
     <p>
         Consider the the indexing set <m>\Q</m>
-        Now define the indexed family of sets <m>\mathscr{B}=\{B_n\text{ }|\text{ }n\in\Gamma\}</m>, defined as the following open intervals,
+        Now define the indexed family of sets <m>\mathscr{B}=\{B_n\text{ }|\text{ }n\in\Gamma\}</m>, defined as the following closed intervals,
         <me>
-            B_\alpha=(\alpha,\alpha+1)=\{x\in\R\text{ }|\text{ }-\alpha\lt x\lt \alpha\}
+            B_\alpha=\big[0,|\alpha|\big]=\{x\in\R\text{ }|\text{ }0\leq x\leq |\alpha|\}
         </me>
         thus we have 
         <me>
-            \bigcup_{\alpha\in\Q}B_\alpha=\R
+            \bigcup_{\alpha\in\Q}B_\alpha=[0,\infty)=\{x\in\R\text{ }|\text{ }0\leq x \lt\infty\}
         </me>
         and 
         <me>
-            \bigcap_{\alpha\in\Q}B_\alpha=\emptyset
+            \bigcap_{\alpha\in\Q}B_\alpha=\{0\}
         </me>
     </p>
 </example>
 <p>
-    blah..
+    Now that we have built our intution on unions and intersections over families, lets prove a result about them. 
 </p>
+<!--
 <definition xml:id="def-product-over-family">
 <title>Cross-Product over a Family</title>
 
 
     <statement>
         <p>
-            Let <m>n\in\N</m> and define <m>\Delta=\{1,2,...,n\}</m> and <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets. We define the <term>Cross-Product over </term> <m>\mathscr{A}</m> as 
+            Let <m>n\in\N</m> and define <m>\Delta=\{1,2,...,n\}</m> and let <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets. We define the <term>Cross-Product over </term> <m>\mathscr{A}</m> as 
             <me>
                 \prod_{i\in\Delta}A_i=\{(x_1,...,x_n)\text{ }|\text{ }x_i\in A_i\}
             </me>
@@ -212,6 +234,23 @@
         </p>
     </statement>
 </definition>
+<p>
+    blah..
+</p>
+-->
+<example>
+    <p>
+        <alert>Prove:</alert> Let <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets, then
+        <me>
+            \left(\bigcap_{i\in\Delta}A_i\right)^c=\bigcup_{i\in\Delta}A_i^c
+        </me>
+    </p>
+    <proof>
+        <p>
+            blah...
+        </p>
+    </proof>
+</example>
 <p>
     blah..
 </p>
@@ -229,4 +268,9 @@
         </p>
     </statement>
 </definition>
+<example>
+    <p>
+        blah..
+    </p>
+</example>
 </section>

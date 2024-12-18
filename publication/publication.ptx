@@ -15,9 +15,10 @@
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
-    <!-- project). Some examples:                                            -->
-    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
-    <exercise-divisional statement="yes" hint="yes" />
+    <!-- project). Some examples: -->      
+    <exercise-inline statement="no" hint="no" answer="yes" solution="no" />
+    <exercise-divisional statement="no" hint="no" />
+    
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
     <!-- You can set a watermark: -->
@@ -60,7 +61,7 @@
   <!-- for printing; set @sides="two" if the printing woudl be two- -->
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
-  <latex print="no" sides="one" font-size="10" draft="no">
+  <latex print="yes" sides="one" font-size="10" draft="no">
     <!-- Control text justification and bottom page behavior: -->
     <page right-alignment="flush" bottom-alignment="ragged" />
     <!-- Add content to \geometry{}: -->
@@ -69,7 +70,7 @@
     <!-- links the html version of asymptote graphics.    -->
     <asymptote links="no" />
     <!-- Set @formatted to "no" to remove formatting on worksheets: -->
-    <worksheets formatted="yes" />
+    <worksheets formatted="no" />
   </latex>
 
   <html>
