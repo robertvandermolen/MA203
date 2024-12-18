@@ -112,7 +112,7 @@
     </p>
     <p>
         Now that we have used our defintions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ole <em>college algebra</em>. 
-        In a more general look at proofs at a whole is that you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}</m>, namely 
+        In a more general look at proofs at a whole is that you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}}</m>, namely 
         that <m>{\color{blue}{x+y\text{ is odd}}}</m>. So we should calculate <m>{\color{blue}{x+y}}</m>.
     </p>
     <p>
