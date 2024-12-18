@@ -95,19 +95,19 @@
     </p>
     <p>
          Hence <m>(m, \ell) \in A \times B</m>, when <m>\ell\in B</m>, or <m>(m, \ell) \in A \times C</m>, when <m>\ell \in C</m>. Thus, by definition of union, <m>x=(m, \ell) \in (A \times B) \cup (A \times C)</m>
-        Thus by definition of subset, since <m>x \in A\times (B\cup C)</m> and <m>x \in (A\times B)\cup (A\times C)</m>, 
+        Thus by definition of subset, since <m>x \in A\times (B\cup C)</m> and <m>x \in (A\times B)\cup (A\times C)</m>, hence we have that
         <m>A\times (B\cup C) \subset (A\times B)\cup (A\times C)</m>.
     </p>
     <p><alert>[Want to show: <m>\mathbf{(A\times B)\cup(A\times C)\subseteq A\times (B\cup C)}</m>]</alert></p>
     <p>This time let <m>y \in (A \times B)\cup (A\times C)</m>. Hence by definition of union, <m>y \in (A\times B)</m> or <m>y \in (A\times C)</m>. Hence, by definition
-        of cross product, we can find <m>s\in A</m> and <m>t \in B</m> or <m>d\in A</m> and <m>r\in C</m> such that <m>y=(s, t)</m> or <m>y=(d, r)</m>.</p>
+        of cross product, we can find <m>s\in A</m> and <m>t \in B</m> such that <m>y=(s, t)</m> <alert>or</alert> <m>d\in A</m> and <m>r\in C</m> such that <m>y=(d, r)</m>.</p>
     <p><alert>Case 1:</alert> <m>\mathbf{y=(s, t)}</m></p>
     <p>Since <m>t\in B</m>, by definition of union, <m>t\in B\cup C</m> and since <m>s\in A</m>, <m>y=(s, t) \in A\times(B\cup C)</m> by definition of 
-        cross product. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>,
+        cross product. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>, therefore we can conclude that
         <m>(A\times B)\cup (A\times C) \subset A\times (B\cup C)</m></p>
     <p><alert>Case 2:</alert> <m>\mathbf{y = (d,r)}</m></p>
     <p>Since <m>l\in C</m>, by definition of union, <m>r\in B\cup C</m>. And since <m>d\in A</m>, by definition of cross prodcut,
-        <m>y=(d,r) \in A\times (B\cup C)</m>. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>,
+        <m>y=(d,r) \in A\times (B\cup C)</m>. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>, thus we have
         <m>(A\times B)\cup (A\times C) \subset A\times (B\cup C)</m> </p>
     <p>Thus, since both cases hold, by direct proof and proof by cases, <m>A\times (B\cup C) = (A\times B)\cup (A\times C)</m></p>
   </proof>

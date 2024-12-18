@@ -41,7 +41,7 @@
     </proof>
 </example>
 <p>
-    For our next example we will dig a little deeper into the existential proof in more of a mock experience to your future courses. Further, we will take advantage of the following lemma.
+    For our next example we will dig a little deeper into the existential proof in more of a mock experience to your future courses. But first, we will need to take advantage of the following lemma, which we present with proof here, even though the proof does not involve an existential.
 </p>
 <lemma xml:id="lem-divides-less-than">
     <statement>

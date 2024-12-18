@@ -5,6 +5,103 @@
 <p>
     We now consider, basic constructions like union, intersection and the cross product between many sets at once. We consider these over a <term>family of sets</term>, which is just a fancy way of saying a set whose members are sets. We will most often use the <em>script font</em> to indicate a family, for example <m>\mathscr{A}</m>.
 </p>
+<definition xml:id="def-union-over-family">
+<title>Union over a Family</title>
+    <statement>
+        <p>
+            Let <m>\mathscr{A}</m> be a family of sets. We define the <term>union over</term> <m>\mathscr{A}</m> as
+            <me>
+                \bigcup_{A\in\mathscr{A}} A=\{x\text{ }|\text{ }x\in A\text{ for some }A\in\mathscr{A}\}
+            </me>
+            
+        </p>
+    </statement>
+</definition>
+<p>
+    As we are still learning setbuilder notation, to help us be able to unpack the condition in the previous definition, note the following condition of membership:
+    <me>
+        x\in\bigcup_{A\in\mathscr{A}}A\text{ }\text{ if and only if }\text{ }[\exists A\in\mathscr{A}\text{ }x\in A]
+    </me>
+</p>
+<example>
+<p>
+    We now illustrate the union over a family with a Venn diagram below for the family of sets <m>\mathscr{R}=\{A,B,C\}</m>
+</p>
+<image source="/images/big_cup.jpeg" width="75%"/>
+</example>
+
+<example>
+<p>
+    Consider the family of sets <m>\mathscr{B}=\{R,S,T\}</m> where each set is defined as follows
+    <me>
+        R=\{1,3,G,\square,\triangle,\Omega\}
+    </me>
+    <me>
+        S=\{\alpha, \Gamma, H, 7, 900\}
+    </me>
+    <me>
+        T=\{1, \Gamma, \triangle, 200, 16\}
+    </me>
+    Thus the union over <m>\mathscr{B}</m> is
+    <me>
+        \bigcup_{B\in\mathscr{B}}B=\left(R\cup S\right)\cup T=\{1,3,G,\square,\triangle,\Omega, \alpha, \Gamma, H, 7, 900, 200, 16\}
+    </me>
+    
+</p>
+  
+</example>
+<p>
+   Our next topic examines intersections within this new concept of families of sets.
+</p>
+<definition xml:id="def-intersection-over-family">
+<title>Intersection over a Family</title>
+    <statement>
+        <p>
+            Let <m>\mathscr{A}</m> be a family of sets. We define the <term>intersection over</term> <m>\mathscr{A}</m> as
+            <me>
+                \bigcap_{A\in\mathscr{A}}=\{x\text{ }|\text{ }x\in A\text{ for every }A\in\mathscr{A}\}
+            </me>
+            
+        </p>
+    </statement>
+</definition>
+<p>
+   To help again we unpack the condition in the previous definition, note the following condition of membership:
+    <me>
+        x\in\bigcap_{A\in\mathscr{A}}A\text{ }\text{ if and only if }\text{ }[\forall A\in\mathscr{A}\text{ }x\in A]
+    </me>
+</p>
+<example>
+<p>
+    We now illustrate the intersection over a fmaily with Venn diagram below, again, for the family of sets <m>\mathscr{R}=\{A,B,C\}</m>
+</p>
+<image source="/images/big_cap.jpeg" width="75%"/>
+</example>
+
+
+<example>
+    <p>
+    Consider the family of sets <m>\mathscr{B}=\{R,S,T\}</m> where each set is defined as follows
+    <me>
+        R=\{1,3,G,\square,\triangle,\Omega\}
+    </me>
+    <me>
+        S=\{3, \alpha, \Gamma, H, \Omega, 900, \triangle\}
+    </me>
+    <me>
+        T=\{1,3, \Gamma,\Omega, \triangle, 200, 16\}
+    </me>
+    Thus the union over <m>\mathscr{B}</m> is
+    <me>
+        \bigcap_{B\in\mathscr{B}}B=\left(R\cap S\right)\cap T=\{\Omega, 3, \triangle\}
+    </me>
+    </p>
+</example>
+
+
+<p>
+    If this is still a bit too abstract for our dear reader we will now introduce a concept which allows us to look at these constructions a bit more like the summation from our calculus classes.
+</p>
 <definition xml:id="def-indexed-family">
 <title>Indexed Family of Sets</title>
 
@@ -21,15 +118,111 @@
     </statement>
 </definition>
 <p>
+    The most common case of an index set is when <m>\Delta\subseteq\N</m> in the form of 
+    <me>
+        \Delta=\{0,1,2,3,...,n\}
+    </me>
+     for some <m>n\in\N</m>, in this case we will often write the intersections as
+     <me>
+        \bigcap_{i\in\Delta}A_i=\bigcap_{i=0}^n A_i
+     </me>
+     and the union as
+     <me>
+        \bigcup_{i\in\Delta}A_i=\bigcup_{i=0}^n A_i
+     </me>
+     
+</p>
+<p>
+    With this new construction lets visit another example.
+</p>
+
+<example>
+    <p>
+    Consider the indexing set <m>\Delta=\{0,1,2\}</m>, and the family of sets <m>\mathscr{C}=\{C_0,C_1,C_2\}</m> where each set is defined as follows
+    <me>
+        C_0=\left\{7,15,H,\triangle,\pi,\frac{1}{3}\right\}
+    </me>
+    <me>
+        C_1=\left\{15, \triangle, \square, H, \frac{1}{3}, 0, \pi\right\}
+    </me>
+    <me>
+        C_2=\left\{7,15, \Gamma,\frac{1}{3}, \pi, 0, 16\right\}
+    </me>
+    Thus the union over <m>\mathscr{C}</m> is
+
+    <md>
+        <mrow>\bigcap_{i\in\Delta}=C_i\bigcap_{i=0}^{2}C_i\amp =\left(C_0\cap C_1\right)\cap C_2</mrow>
+        <mrow> \amp =\left\{\frac{1}{3}, 15, \pi\right\} </mrow>
+    </md>
+    </p>
+</example>
+<p>
+    Of course this basic use case of an index set is far from the only one, in the next example we leave the case of a finite indexing set by setting <m>\Delta=\N</m>. To build these with ease, and to show the reader a use case from future mathematics courses where each set in our family is a subset of the real numbers.
+</p>
+<example>
+    <p>
+        Consider the indexing set <m>\N</m> and the family of sets <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\N\}</m> defined as the following open intervals,
+        <me>
+            A_i=\left[\left.\frac{1}{i+2},\frac{1}{i+1}\right.\right)=\left\{x\in\R\text{ }\left|\text{ }\frac{1}{i+1}\leq x\lt \frac{1}{i}\right.\right\}
+        </me>
+        thus we have
+        <me>
+            \bigcup_{i\in\N}A_i=\bigcup_{i=0}^\infty A_i=(0,1)=\left\{x\in\R\text{ }|\text{ }0\lt x\lt 1\right\}
+        </me>
+        and
+        <me>
+            \bigcap_{i\in\N}A_i=\bigcap_{i=0}^\infty A_i=\emptyset
+        </me>
+    </p>
+</example>
+<p>
+    In your next example we leave the natural numbers for our index set and instead explore the example where our indexing set of <m>\Q</m>.
+</p>
+<example>
+    <p>
+        Consider the the indexing set <m>\Q</m>
+        Now define the indexed family of sets <m>\mathscr{B}=\{B_n\text{ }|\text{ }n\in\Gamma\}</m>, defined as the following open intervals,
+        <me>
+            B_\alpha=(\alpha,\alpha+1)=\{x\in\R\text{ }|\text{ }-\alpha\lt x\lt \alpha\}
+        </me>
+        thus we have 
+        <me>
+            \bigcup_{\alpha\in\Q}B_\alpha=\R
+        </me>
+        and 
+        <me>
+            \bigcap_{\alpha\in\Q}B_\alpha=\emptyset
+        </me>
+    </p>
+</example>
+<p>
+    blah..
+</p>
+<definition xml:id="def-product-over-family">
+<title>Cross-Product over a Family</title>
+
+
+    <statement>
+        <p>
+            Let <m>n\in\N</m> and define <m>\Delta=\{1,2,...,n\}</m> and <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets. We define the <term>Cross-Product over </term> <m>\mathscr{A}</m> as 
+            <me>
+                \prod_{i\in\Delta}A_i=\{(x_1,...,x_n)\text{ }|\text{ }x_i\in A_i\}
+            </me>
+            
+        </p>
+    </statement>
+</definition>
+<p>
     blah..
 </p>
 <definition xml:id="def-pairwise-disjoint">
     <title>Pairwise Disjoint</title>
     <statement>
         <p>
-           The indexed family <m>\mathscr{A} = \{A_\alpha | \alpha \in \Delta\}</m> of sets is pairwise disjoint
-            if for all <m>\alpha</m> and <m>\beta</m> in <m>\Delta</m>, either <m>A_\alpha = A_\beta</m>
-            or <m>A_\alpha \cap A_\beta = \emptyset</m>. 
+           The indexed family <m>\mathscr{A} = \{A_\alpha | \alpha \in \Delta\}</m> of sets is <term>pairwise disjoint</term>
+            if and only if for all <m>\alpha</m> and <m>\beta</m> in <m>\Delta</m>, either <me>A_\alpha = A_\beta</me>
+            or
+            <me>A_\alpha \cap A_\beta = \emptyset</me>
         </p>
         <p>
             In other words, the sets are completely the same, or completely different.
