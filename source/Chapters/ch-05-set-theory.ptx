@@ -20,5 +20,5 @@
   <xi:include href="../Sections/sec-5.5-power-set.ptx" />
   <xi:include href="../Sections/sec-5.6-cross.ptx" />
   <xi:include href="../Sections/sec-5.7-family.ptx" />
-  <xi:include href="../Sections/sec-5.8-ch06-exercises.ptx" />
+  <xi:include href="../Sections/sec-5.8-ch05-exercises.ptx" />
 </chapter>

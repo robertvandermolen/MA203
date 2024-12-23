@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-2-intro-to-pmi" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Induction</title>
+
+  <p>We begin with a couple of definitions that are fundamental, yet this technique we are building to is so algorithmic I believe students can become extremely proficient at applying mathematical induction with little found here.</p>
+    <definition xml:id="def-successor">
+    <title>Successor</title>
+      <statement>
+        <p>
+          Let <m>n\in\N</m> we call <m>(n+1)\in\N</m> the successor of <m>n</m>.
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      In the late 1800's an Italian mathematician Giuseppe Peano deveoloped five axioms which can create all of the basic ordering and arithmetic properties we all know and love of the natural numbers, using an undefined term of <em>successor</em>, our definition of course captures the heart of his construction. Let it be said, Peano did not consider 0 a natural number, but we will forgive him. It is through these axioms which one verifies induction, this is out side the scope of this text but, such a fun exercise for the dedicated reader!
+    </p>
+    <definition xml:id="def-indcutive-set">
+    <title>Inductive Set</title>
+      <statement>
+        <p>
+          Let <m>S\subseteq\N</m>, we call <m>S</m> an <term>inductive set</term> if and only if <m>S</m> has the property
+          <me>
+            n\in S\implies (n+1)\in S
+          </me>
+        </p>
+      </statement>
+    </definition>
+    <p>
+      This says that a set <m>S</m> is an indcutive set whenever it contains all of its successors. 
+    </p>
+    <p>
+      It is inductive sets that are the underpinning of mathematical induction.
+    </p>
+      <definition xml:id="def-pmi">
+    <title>Principle of Mathematical Induction</title>
+    <statement>
+  
+    <p>
+      Let <m>k\in\N</m>, and let <m>S\subseteq\N</m> with the following properties:
+      <ol marker="(i)">
+        <li>
+          <p>
+            <m>k\in S</m>
+          </p>
+        </li>
+        <li>
+          <p>
+             <m>S</m> is an inductive set
+          </p>
+        </li>
+      </ol>
+      Then <m>S</m> contains all natural numbers greater than or equal to <m>k</m>, that is
+      <me>
+        S=\{n\in\N\text{ }|\text{ }n\geq k\}
+      </me>
+    </p>
+    </statement>
+  </definition>
+  <p>
+    In some texts this is referred to as a <em>generalized</em> version of induction, those people also usually follow in the footsteps of Peano and naively assume 0 is not a natural number, we instead give the following example. 
+  </p>
+  <example>
+    <p>
+      Let <m>S\subseteq\N</m> and assume that both <m>0\in S</m> and <m>S</m> is an inductive set. By the Principle of Mathematical Induction (PMI) we can conclude that <m>S=\N</m>.
+    </p>
+  </example>
+  <p>
+    It has now been my experience that students have clocked out at this point in the lecture, no matter how much I have promised them that their algorithmic tendencies will be returning. So lets let the rubber hit the road and actual do some proofs!
+  </p>
+  <p>
+    The basic idea of PMI is to prove that the truth set, <m>S\subset\N</m>, of a predicate <m>P(x)</m> is equal to an inductive set. Or to hopefully make this sound less like a riddle, 
+  </p>
+  <assemblage>
+    <title>Proof of <m>\forall m\geq k</m> <m>P(m)</m> Using PMI</title>
+    <p>
+      Proof:
+      <ol marker="(i)">
+        <li>
+          <p>
+            <alert>(Base Step)</alert> Show that <m>P(k)</m> is true
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>(Induction Assumption)</alert> Assume we can find an <m>n\in\N</m> such that <m>P(t)</m> is true for any <m>t\in\N</m> such that <m>k\leq t\leq n</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert><m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert> ... thus <m>P(n+1)</m> is true
+          </p>
+        </li>
+      </ol>
+      Therefore <m>\forall m\in\N</m> such that <m>m\geq k</m> then <m>P(m)</m> is true.
+    </p>
+  </assemblage>
+  <p>
+    Hopefully you can atleast start to see the algorithm forming, there are 3 steps, and we take these steps every time!
+  </p>
+  <section xml:id="sec-6-2-3-intro-to-pmi-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>First Proof with Induction</title>
+  <p>
+    For our first example of indcution we will use a summation (<xref ref="subsec-6-1-1-sum"/>)
+  </p>
+  <p>
+    <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m>
+    <me>
+      \sum_{i=1}^m (2i-1)=m^2
+    </me>
+    
+  </p>
+  <p>Before we begin this proof we sing a slighlty different song for indcution (play-along):</p>
+    <p>"What's the <m>{\color{red}{\text{Base Case}}}</m>?"</p> 
+    <answer>
+    <p><m>m=1</m></p>
+    </answer>
+    <p>"What's the <m>{\color{blue}{P(m)}}</m>?"</p> 
+    <answer>
+    <p><me>
+      P(m):\sum_{i=1}^m (2i-1)=m^2
+    </me></p>
+    </answer>
+    <p>"What're the definitions?" </p>
+    <answer>
+    <p>summation (<xref ref="subsec-6-1-1-sum"/>)!</p>
+    </answer>
+    <p>"Now, what to do?"</p> 
+    <answer>
+    <p>Principle of Mathematical Induction! (it is the point the chapter, also we usually just call it <em>induction</em>)</p>
+    </answer>
+    
+    
+    <p></p>
+
+  <section xml:id="sec-6-2-3-1-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{red}{\text{The Beginning}}}</m></title>
+<p>
+  In <em>Induction</em> we always begin with showing the <m>{\color{red}{\text{base case}}}</m>, in our song we identified the base case as <m>m=1</m>, so for our first step we need to show that <m>P(1)</m> is true
+</p>
+<p>
+  <alert>(i) (Base Case):</alert> 
+  <md>
+    <mrow>\sum_{i=1}^1(2i-1) \amp=2\cdot(1)-1 </mrow>
+    <mrow>\amp = 1 </mrow>
+    <mrow> \amp =1^2</mrow>
+  </md>
+  hence <m>P(1):\sum_{i=1}^1(2i-1)=1^2</m>,that is we have shown the base case 
+</p>
+<p>
+  After our base case step we use our most crucial step of them all the induction assumption, this is where we just assume it works for some arbitrary number that is at least the size of our base case. For this example I will name that <em>arbitrary</em> number <m>n</m>.
+</p>
+<p>
+  <alert>(ii) (Induction Assumption):</alert>
+</p>
+<p>
+  Assume we can find an <m>n\in\N</m> such that 
+  <me>
+    \sum_{i=1}^t (2i-1)=t^2
+  </me>
+  for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+</p>
+</section>
+
+<section xml:id="sec-6-2-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{green}{\text{The Muddle}}}</m></title>
+<p>
+  The muddle for an induction always has the same purpose an often is done with a calculation. The purpose of the muddle is to satisfy the last part of an induction proof, the <m>n+1</m> case.
+</p>
+<p>
+  <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+</p>
+<p>
+  Now we (the student's favorite word...) <em>calculate</em>
+  <md>
+    <mrow>\sum_{i=1}^{n+1} (2i-1)\amp=\left(\sum_{i=1}^{n}(2i-1)\right)+(2(n+1)-1) \amp\text{(peel off)}</mrow>
+    <mrow> \amp =n^2+(2(n+1)-1) \amp \text{(induction assumption!)}</mrow>
+    <mrow> \amp = n^2+2n+2-1\amp</mrow>
+    <mrow> \amp =n^1+2n+1\amp </mrow>
+    <mrow> \amp =(n+1)^2\amp\text{(factoring)}</mrow>
+  </md>
+</p>
+</section>
+
+<section xml:id="sec-6-2-3-3-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title><m>{\color{blue}{\text{The End}}}</m></title>
+<p>
+  Using <em>Induction</em> the muddle should have always endend with a calculation which showed our desired result. In this example we have shown
+  <me>
+    P(n+1): \sum_{i=1}^{n+1} (2i-1)=(n+1)^2
+  </me>
+  therefore by proof by indcution we have shown for any <m>m\in\N</m> with <m>n\geq 1</m> that
+  <me>
+    \sum_{i=1}^{m} (2i-1)=m^2
+  </me>
+  
+</p>
+<p>
+  QED
+</p>
+</section>
+</section>
+</section>

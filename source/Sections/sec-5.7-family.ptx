@@ -204,7 +204,7 @@
         Consider the the indexing set <m>\Q</m>
         Now define the indexed family of sets <m>\mathscr{B}=\{B_n\text{ }|\text{ }n\in\Gamma\}</m>, defined as the following closed intervals,
         <me>
-            B_\alpha=\big[0,|\alpha|\big]=\{x\in\R\text{ }|\text{ }0\leq x\leq |\alpha|\}
+            B_\alpha=\big[\alpha,\alpha+1\big]=\{x\in\R\text{ }|\text{ }\alpha\leq x\leq \alpha+1\}
         </me>
         thus we have 
         <me>
@@ -240,19 +240,62 @@
 -->
 <example>
     <p>
-        <alert>Prove:</alert> Let <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets, then
+        Let <m>\Delta</m> be an indexing set, and <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets.
+    </p>
+    <p>
+        <alert>Prove:</alert> If <m>B</m> is a set then 
         <me>
-            \left(\bigcap_{i\in\Delta}A_i\right)^c=\bigcup_{i\in\Delta}A_i^c
+            B\cap \left(\bigcup_{i\in\Delta}A_i\right)=\bigcup_{i\in\Delta}(B\cap A_i)
         </me>
     </p>
     <proof>
         <p>
-            blah...
+            This is a proof of the equality of two sets so we will need to break up the proof into two parts, namely we will need to show two subsets.
+        </p>
+        <p>
+            <alert>Proving: </alert> <m>B\cap \left(\bigcup_{i\in\Delta}A_i\right)\subseteq\bigcup_{i\in\Delta}(B\cap A_i)</m>
+        </p>
+        <p>
+            To prove this we will start like most subset proofs, namely by choosing an arbitrary element <m>s\in B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>. By the definition of intersection both <m>s\in B</m> and <m>s\in\bigcup_{i\in\Delta}A_i</m>. By the definition of union over a family if we choose an arbitrary <m>j\in\Delta</m> we have <m>s\in A_j</m>, thus since <m>s\in B</m> and <m>s\in A_j</m> by the definitioun of intersection we have that <m>s\in B\cap A_j</m>. Because we chose <m>j\in\Delta</m> arbitrary it is true the for any <m>i\in\Delta</m> <m>s\in B\cap A_i</m> and hence the definition of union over a family is satisfied, that is 
+            <me>
+                s\in\bigcup_{i\in\Delta}(B\cap A_i)
+            </me>
+            as desired.
+        </p>
+        <p>
+            <alert>Proving: </alert> <m>\bigcup_{i\in\Delta}(B\cap A_i)\subseteq B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>
+        </p>
+        <p>
+            To prove this we will start like most subset proofs, namely by choosing an arbitrary element <m>y\in \bigcup_{i\in\Delta}(B\cap A_i)</m>. By definition of union over a family when we choose an arbitrary element <m>k\in\Delta</m> we must have that <m>y\in (B\cap A_k)</m> by definition of intersection this means that both <m>y\in B</m> and <m>y\in A_k</m>. Since we chose <m>k\in\Delta</m> arbitrarily we have shown that for any <m>i\in\Delta</m> that <m>y\in A_i</m> that is we have shown the definition of membership to a union over a family, namely that
+            <me>
+                y\in\bigcup_{i\in\Delta}A_i
+            </me>
+            Yet, we have also shown that <m>y\in B</m>, thus by definition of intersection we have that
+            <me>
+                y\in B\cap\left(\bigcup_{i\in\Delta}A_i)\right)
+            </me>
+            as desired.
+        </p>
+        <p>
+            Since we have shown both the subsets
+            <me>
+                B\cap \left(\bigcup_{i\in\Delta}A_i\right)\subseteq\bigcup_{i\in\Delta}(B\cap A_i)
+            </me>
+            and
+            <me>
+                \bigcup_{i\in\Delta}(B\cap A_i)\subseteq B\cap \left(\bigcup_{i\in\Delta}A_i\right)
+            </me>
+            we can conclude the desired equality of:
+            <me>
+                B\cap \left(\bigcup_{i\in\Delta}A_i\right)=\bigcup_{i\in\Delta}(B\cap A_i)
+            </me>
+            <m>\square</m>
         </p>
     </proof>
 </example>
+
 <p>
-    blah..
+    We finish up this section with a concept which will come into play when we discuss partions later in the course.
 </p>
 <definition xml:id="def-pairwise-disjoint">
     <title>Pairwise Disjoint</title>
@@ -270,7 +313,79 @@
 </definition>
 <example>
     <p>
-        blah..
+        First consider the indexing set <m>\Delta=\{1,2,3\}</m> and the indexed family of sets <m>\mathscr{A}=\{A_1,A_2,A_3\}</m>
+    </p>
+    <image source="/images/yes_pair.jpeg" width="75%"/>
+    <p>
+        Notice that 
+        <me>
+            A_1\cap A_2=\emptyset
+        </me>
+        <me>
+            A_1\cap A_3=\emptyset
+        </me>
+        <me>
+            A_2\cap A_3=\emptyset
+        </me>
+        and thus this family is pairwise disjoint.
+    </p>
+    <p>
+        Next, consider the same index set of <m>\Delta=\{1,2,3\}</m> yet this time the indexed family <m>\mathscr{B}=\{B_1,B_2,B_3\}</m>
+    </p>
+    <image source="/images/not_pair.jpeg" width="75%"/>
+    <p>
+        This time notice that
+        <me>
+            \bigcap_{i\in\Delta}B_i=\emptyset
+        </me>
+        
+        and
+        <me>
+            B_2\cap B_3=\emptyset
+        </me>
+        yet 
+        <me>
+            B_1\cap B_3\neq\emptyset
+        </me>
+        yet <me>B_1\neq B_3</me>
+    </p>
+    <p>
+        thus <m>\mathscr{B}</m> is <em>not</em> pairwise disjoint
     </p>
 </example>
+<p>
+    We could not end the section without a proof, so here is your obligatory proof. 
+</p>
+<example>
+    <p>
+       Let <m>\Delta</m> be an indexing set, and let both <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> and <m>\mathscr{B}=\{B_i\text{ }|\text{ }i\in\Delta\}</m> be indexed family of sets.
+    </p>
+    <p>
+        <alert>Prove:</alert> If <m>\mathscr{A}</m> is pairwise disjoint and <m>\mathscr{B}\subseteq\mathscr{A}</m> then <m>\mathscr{B}</m> is pairwise disjoint.
+    </p>
+    <proof>
+        <p>
+            We begin this proof by assuming our antecedent.
+        </p>
+        <p>
+            Assume that <m>\mathscr{A}</m> is pairwise disjoint and <m>\mathscr{B}\subseteq\mathscr{A}</m>. It is our objective to prove that <m>\mathscr{B}</m> is pairwise disjoint, but looking above and seeing the definition of pairwise disjoint we see that we need to prove a universal quantifier, thus we choose arbitrary <m>j\in\Delta</m> and <m>k\in\Delta</m>. Now since we have assumed that <m>\mathscr{B}\subseteq\mathscr{A}</m> we have that both <m>B_j\in\mathscr{A}</m> and <m>B_k\in\mathscr{A}</m>, thus by definition of membership to <m>\mathscr{A}</m> we can find <m>s\in\Delta</m> and <m>t\in\Delta</m> so that <m>B_j=A_s</m> and <m>B_k=A_t</m>. 
+        </p>
+        <p>
+            Since we have assumed that <m>\mathscr{A}</m> is pairwise disjoint then either
+            <me>
+                B_j\cap B_k=A_s\cap A_t=\emptyset
+            </me>
+            or 
+            <me>
+                B_j=A_s=A_t=B_k
+            </me>
+            hence we have satisified the definition of pairwise disjoint of <m>\mathscr{B}</m>. <m>\square</m>
+        </p>
+    </proof>
+</example>
+<note>
+    <p>
+        For the proofs in this section we see a common <m>{\color{green}{\text{muddle}}}</m> that I like to call <em>chasing the definitions</em>, I know it can be jarring at first not having your warm and safe calculative muddle, but I promise you it will be ok! And I promise you in the next chapter there will <em>always</em> be a very solid calculative step!
+    </p>
+</note>
 </section>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-5-big-ones" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Well-Ordering Principle</title>
+  <p>
+    One of the most important properties of the natural numbers, that will be used constantly in your studies even if it is rarely mentioned and that is. 
+  </p>
+  <assemblage>
+    <title>Well-Ordering Principle (WOP)</title>
+    <p>
+      Every nonempty subset of <m>\N</m> has a smallest element.
+    </p>
+  </assemblage>
+  <p>
+    In class when I have introduced this topic in the past it has been greeted with the dreaded <em>wE</em><m>\ell</m><em>L oBv</em><m>I</m><em>oUsLy</em>.
+  </p>
+  <p>
+    This property is quite unique to the natural numbers, it's not true in the integers, the rationals, the positive rational numbes, the real numbers, nor are the non-negative real numbers.
+  </p>
+  <p>
+    WOP seems to come up most often with contradiction, specifically assuming some property you to want to be true for the natural numbers is not. This is the negation of a universal statement, and thus you are assuming an existential, one way of interpreting this existential is to say that thus the set of all natural numbers that do not have this property is nonempty. Then WOP gives us a smallest member of this set, and we can quite often contradict by constructing a smaller element, for example. 
+  </p>
+  <p>
+    For our first example and for the rest of this section we will need a couple of assumptions, firstly the following definitions
+  </p>
+  <definition xml:id="def-prime">
+  <title>Prime Number</title>
+  
+  
+    <statement>
+      <p>
+        We say an integer, <m>n</m>, is <term>prime</term> when the only divisors are 1 and <m>n</m> 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    and of course for the non-primes.
+  </p>
+  <definition xml:id="def-not-prime">
+  <title>Composite Integer</title>
+    <statement>
+      <p>
+        We say an integer, <m>n</m>, is <term>composite</term> when it is not prime, that is when it has a divisor other than <m>1</m> and <m>n</m>. 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    *Besides our usually assumptions we will also asssume that your standard assumptions of how postitive and negative numbers multiply.
+  </p>
+  <example>
+    <p>
+      <alert>Prove:</alert> Every natural number <m>n\gt1</m> has a prime factor.
+    </p>
+    <proof>
+      <p>
+        Choose an arbitrary <m>n\in\N</m>, if <m>n</m> is prime the indeed <m>n</m> has a prime factor, namely itself. If <m>n</m> is composite then something other than <m>n</m> and <m>1</m> must divide <m>n</m>. Therefore the following set is non-empty:
+        <me>
+          R=\{m\in\N\text{ }|\text{ }m|n,\text{ }m\neq n, \text{ and }m\neq 1\}
+        </me>
+        By WOP, <m>R</m> has a smallest element, denote this element as <m>p\in T</m>. 
+      </p>
+      <p>
+        For the sake of contradiction assume that <m>p</m> is not prime, that is we assume that <m>p</m> is composite. By definition of composite we can find a divisor <m>d</m> such that <m>d\neq 1</m> and <m>d\neq p</m>, yet by definition of divides we can find a <m>k\in\Z</m> such that <m>p=dk</m> and we can find a <m>t\in\N</m> such that <m>n=tp</m>, thus <m>n=tdk</m>, therefore <m>d\in R</m>. Since we chose <m>p</m> to be the smallest element of <m>R</m> and chose <m>d</m> so that <m>d\neq p</m>, thus <m>p\lt d</m> thus <m>0\lt d-p</m> and hence <m>0\lt dk-pk</m> thus <m>0\lt p(1-k)</m> and since <m>p\gt 0</m> we have that <m>(1-k)\gt0</m> thus <m>1\gt k</m>, yet <m>k\in\N</m> then <m>k=0</m>, thus <m>p=0</m> a contradiction. Therefore <m>p</m> is prime and hence <m>n</m> has a prime divisor. <m>\square</m>
+        
+      </p>
+    </proof>
+  </example>
+  <p>
+    We have used the next proposition without proof throughout the text, now we can finally present a proof here.
+  </p>
+  <proposition xml:id="prop-div-algo">
+    <title>The Division Algorithm</title>
+    
+    <statement>
+      <p>
+        For all integers <m>a</m> and <m>b</m>, with <m>a\neq 0</m>, there exists unique integers <m>q</m> and <m>r</m> such that 
+        <me>
+          b=qa+r
+        </me>
+        with <m>0\leq r\lt |a|</m>
+      </p>
+    </statement>
+  </proposition>
+  <p>
+
+  </p>
+  <proof>
+    <title>Proof of the Division Algorithm</title>
+    <p>
+      Let <m>a</m> and <m>b</m> be integers with <m>a\neq0</m>. 
+    </p>
+    
+    <p>
+      Consider the set:
+      <me>
+        S=\{b-ak\text{ }|\text{ }k\in\Z\text{ and }b-ak\geq0\}
+      </me>
+      Notice that if <m>0\in S</m> then we can find a <m>t\in\Z</m> such that <m>b-at=0</m> thus <m>b=at</m> and hence <m>t</m> plays the role of our desired <m>q</m> and we can simply set <m>r=0</m>. So we now assume that <m>0\not\in S</m>.
+    </p>
+    <p>
+      Since 0 is not in <m>S</m>, then <m>b\neq0</m> as if <m>b</m> were zero then <m>b-a\cdot0= 0</m>. Now if <m>b\gt0</m> then <m>b-a\cdot 0\in S</m> and thus <m>S\neq\emptyset</m>, if <m>b\lt0</m> and <m>a\gt0</m> then <m>b-a\cdot(2b)\gt 0</m> thus <m>b-a\cdot(2b)\in S</m> and again <m>S</m> is not empty, if <m>a\lt 0</m> then the same can be said of <m>b-(-1)\cdot a\cdot(2b)</m>. Therefore <m>S\neq\emptyset</m> and hence we can use WOP to determine that there must be a smallest element, name this element <m>r</m>. By the definition of <m>S</m> we can find an integer <m>q</m> such that <m>r=b-aq</m>. Thus <m>b=aq+r</m> and <m>r\geq 0</m>. 
+    </p>
+    <p>
+      For the sake of contradiction assume that <m>r\gt |a|</m>, hence <m>r-a\gt 0</m> when <m>a\gt 0</m> and <m>r+a\gt0</m> when <m>a\gt 0</m>.
+      </p>
+      <p>
+        <alert>Case 1:</alert> Assume <m>a\gt 0</m>
+      </p>
+      <p>
+      Next note that <m>b-a(q-1)=b-aq+a=r+a\gt0</m> thus <m>b-a(q+1)\in S</m>, yet <m>b-a(q+1)\lt b-aq</m> a contradiction to <m>r</m> being the smallest member of <m>S</m>, hence <m>r\leq a=|a|</m> as desired. 
+    </p>
+    <p>
+      <alert>Case 2:</alert> Assume <m>a\lt0</m>
+    </p>
+    
+    <p>
+      Now note that <m>b-a(q-1)=b-aq+a=r+a\gt0</m> thus <m>b-a(q-1)\in S</m>, yet <m>b-a(q-1)\lt b-aq</m> a contradiction to <m>r</m> being the smallest member of <m>S</m>, hence <m>r\leq -a=|a|</m> as desired. 
+    </p>
+  </proof>
+  <p>
+  </p>
+  
+</section>

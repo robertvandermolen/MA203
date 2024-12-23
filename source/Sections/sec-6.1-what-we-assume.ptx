@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-1-what-we-assume" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What We Will Use</title>
+<p>
+    In this chapter you can, as usual, assume anything you had in <xref ref="sec-4-1-1-what-we-assume"/>. 
+</p>
+<p>
+    We will be using some constructions from your previous math courses a good bit in this chapter so we will review/establish a bit of notation before we enter this chapter.
+</p>
+<section xml:id="subsec-6-1-1-sum" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Summation</title>
+    <p>
+        We use the summation notation to add up a collection of indexed numbers.
+        </p>
+        <assemblage>
+    <title>Summation Notation</title>
+    <p>
+        For any <m>n\in\N</m> and any collection of indexed numbers: <m>a_0,a_1,a_2,...,a_n</m>, define
+      <me>
+            \sum_{i=0}^na_i=a_0+a_1+a_2+a_3+...+a_n
+        </me>
+    </p>
+  </assemblage>
+  <p>
+    The most basic examples arise when the <m>a_i</m> satisfy some formula with an input of <m>i</m>.
+  </p>
+  <example>
+    <p>
+        Let <m>a_i=2i-1</m>, now we calculate:
+        <md>
+            <mrow>\sum_{i=0}^3a_i \amp =\sum_{i=0}^3(2i-1)</mrow>
+            <mrow> \amp  =(2\cdot(0)-1)+(2\cdot(1)-1)+(2\cdot(2)-1)+(2\cdot(3)-1)</mrow> 
+            <mrow> \amp =-1+1+3+5</mrow>
+            <mrow> \amp =8</mrow>
+        </md>
+        
+    </p>
+  </example>
+  <p>
+    The summation does not need to <em>start at 0</em> it can start any where, the point is that it moves through the successors wherever it is you start, for example:
+    <me>
+        \sum_{i=2}^5 a_i=a_2+a_3+a_4+a_5
+    </me>
+    or in a more general fashion for any <m>k\in\N</m> and any <m>m\in\N</m>, with <m>k\leq m</m>,
+    <me>
+        \sum_{i=k}^m a_i=a_k+a_{k+1}+a_{k+2}+...+a_m
+    </me>
+    
+  </p>
+     <p>   
+        This construction lends itself to the use of induction (the object of this chapter) so well as it has a property I like to refer to as <em>peeling off a factor</em>.
+    </p>
+    <assemblage>
+    <title>Peeling Off a Summation</title>
+    <p>
+      Notice for any <m>k\in\N</m> and any <m>m\in\N</m>, with <m>k\leq m</m>, we can <em>peel off the first term</em>
+    <me>
+        \sum_{i=k}^m a_i=a_k+\left(\sum_{i=(k+1)}^m a_i\right)
+    </me>
+    or this time <em>peeling off the last term</em>
+    <me>
+        \sum_{i=k}^m a_i=\left(\sum_{i=k}^{m-1} a_i\right)+a_m
+    </me>
+    </p>
+  </assemblage>
+    
+</section>
+
+<section xml:id="subsec-6-1-2-times" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Product</title>
+    <p>
+        We use the product notation to multiply together a collection of indexed numbers. 
+        </p>
+        <assemblage>
+    <title>Product Notation</title>
+    <p>
+      For all <m>n\in\N</m> and any collection of indexe numbers: <m>a_0,a_1,a_2,...,a_n</m> 
+        <me>
+            \prod_{i=0}^na_i=a_0\cdot a_1\cdot a_2\cdot a_3\cdot\text{ } ...\text{ }\cdot a_n
+        </me>
+    </p>
+  </assemblage>
+  <p>
+    Our use case of this notation will be again when <m>a_i</m> satisfy some equation in <m>i</m>.
+  </p>
+   <example>
+    <p>
+        Again, for a simple first example consider <m>a_i=2i-1</m>, now we calculate:
+        <md>
+            <mrow>\prod_{i=0}^3a_i \amp =\prod_{i=0}^3(2i-1)</mrow>
+            <mrow> \amp  =(2\cdot(0)-1)\cdot(2\cdot(1)-1)\cdot(2\cdot(2)-1)\cdot(2\cdot(3)-1)</mrow> 
+            <mrow> \amp =-1\cdot1\cdot3\cdot5</mrow>
+            <mrow> \amp =-15</mrow>
+        </md>
+        
+    </p>
+  </example>
+  <p>
+    In a similiar fashion to the summation, the product does not need to <em>start at 0</em> it can start any where, the point is that it moves through the successors wherever it is you start, for example:
+    <me>
+        \prod_{i=2}^5 a_i=a_2\cdot a_3\cdot a_4\cdot a_5
+    </me>
+    or in a more general fashion for any <m>k\in\N</m> and any <m>m\in\N</m>, with <m>k\leq m</m>,
+    <me>
+        \prod_{i=k}^m a_i=a_k\cdot a_{k+1}\cdot a_{k+2}\cdot\text{ }...\text{ }\cdot a_m
+    </me>
+    
+  </p>
+    <p>
+        Just as with the summation the main characteristic we will involve is <em>peeling</em>.
+    </p>
+    <assemblage>
+    <title>Peeling Off a Product</title>
+    <p>
+      Notice, this time, for any <m>k\in\N</m> and any <m>m\in\N</m> with <m>k\leq m</m>, we can <em>peel off the first term</em>
+    <me>
+        \prod_{i=k}^m a_i=a_k\cdot\left(\prod_{i=(k+1)}^m a_i\right)
+    </me>
+    or this time <em>peeling off the last term</em>
+    <me>
+        \prod_{i=k}^m a_i=\left(\prod_{i=k}^{m-1} a_i\right)\cdot a_m
+    </me>
+    </p>
+  </assemblage>
+</section>
+<section xml:id="subsec-6-1-3-factorial" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Factorial</title>
+    <p>
+        We use the factorial notation to count the number of ways to permute a colletion of objects.
+    </p>
+    <assemblage>
+    <title>Factorial</title>
+    <p>
+      We define
+        <me>
+            0!=1
+        </me>
+        and for any <m>n\in\N</m> with <m>n\gt 0</m> we define
+        <me>
+            n!=\prod_{i=0}^{n-1}(n-i)=n\cdot(n-1)\cdot(n-2)\cdot\text{ } ...\text{ }\cdot 1
+        </me>
+    </p>
+  </assemblage>
+    <example>
+        <p>
+            For this example we will calcuate some factorials:
+            <me>
+                2!=2\cdot1=2
+            </me>
+            <me>
+                3!=3\cdot2\cdot1=6
+            </me>
+            <me>
+                4!=4\cdot3\cdot2\cdot1=24
+            </me>
+            <me>
+                5!=5\cdot4\cdot3\cdot2\cdot1=120
+            </me>
+        </p>
+    </example>
+    <p>
+        As is the theme of this chapter, there is definitely a pattern.
+    </p>
+    <assemblage>
+    <title>Peeling Off a Factorial</title>
+    <p>
+      For any <m>m\in\N</m> we can <em>peel off leading terms</em> of the factorial
+      <me>
+        m!=(m)\cdot[(m-1)!]=(m\cdot(m-1))\cdot[(m-2)!]
+      </me>
+      and so on.
+    </p>
+  </assemblage>
+
+</section>
+
+</section>

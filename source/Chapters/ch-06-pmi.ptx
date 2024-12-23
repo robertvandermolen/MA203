@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-06" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-06-pmi" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Principle of Mathematical Induction</title>
 
   <introduction>
-    <p>This is the second chapter and will cover universal and existential quantifiers and their accompanying language. </p>
+    <p>Here, we turn our attention to a proof technique that is extremly powerful and a favorite of students for its deceptively straightforward algorithmic approach, known as <em>induction</em>. This method is essential to your future mathematics courses, and allows us to prove statements that extend across infinite scenarios by using repetition as its backbone. Interestingly, it all begins with a concept we've known since our earliest days with numbers... counting!</p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="../Sections/sec-6.1.ptx" />
+  <xi:include href="../Sections/sec-6.1-what-we-assume.ptx" />
+  <xi:include href="../Sections/sec-6.2-intro-to-pmi.ptx" />
+  <xi:include href="../Sections/sec-6.3-basic-pmi-examples.ptx" />
+  <xi:include href="../Sections/sec-6.4-fib.ptx" />
+  <xi:include href="../Sections/sec-6.5-big-ones.ptx" />
+  <xi:include href="../Sections/sec-6.6-ch06-exercises.ptx" />
 
 </chapter>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-3-basic-pmi-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basic Induciton Examples</title>
+  <p>
+    In this section we will give some basic examples of indcution using the tools from <xref ref="sec-6-1-what-we-assume"/>
+  </p>
+  <example>
+    <p>
+        <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m> 
+        <me>
+            \sum_{i=1}^m (8i-5)=4m^2-m
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+            Note that as we are tasked to show our result holds for any <m>m\geq 1</m>, our base case is 1!
+            <md>
+                <mrow>\sum_{i=1}^1 (8i-5) \amp =(8\cdot(1)-5)</mrow>
+                <mrow> \amp =3</mrow>
+                <mrow> \amp =4\cdot(1)^2-(1)</mrow>
+            </md>
+            thus we have shown
+            <me>
+                P(1):\sum_{i=1}^1 (8i-5)=4\cdot(1)^2-(1)
+            </me>
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                \sum_{i=1}^t (8i-5)=4t^2-t
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+            <md>
+                <mrow> \sum_{i=1}^{n+1} (8i-5)\amp =\left(\sum_{i=1}^n(8i-5)\right)+(8(n+1)-5)\amp\text{ (peel off)}</mrow>
+                <mrow>\amp = (4n^2-n)+(8n+3)\amp\text{ (induction assumption)} </mrow>
+                <mrow>\amp =4n^2+7n+3 \amp </mrow>
+            </md>
+            For this example I find it easiest to also work <em>backwards</em>
+            <md>
+                <mrow>4(n+1)^2-(n+1) \amp =4(n^2+2n+1)-(n+1) </mrow>
+                <mrow>\amp = 4n^2+8n+4-n-1 </mrow>
+                <mrow> \amp =4n^2+7n+3 </mrow>
+            </md>
+        </p>
+        <p>Thus, we have shown <m>\sum_{i=1}^{n+1} (8i-5)=4(n+1)^2-(n+1)</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\sum_{i=1}^m (8i-5)=4m^2-m</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+    </proof>
+  </example>
+
+  <example>
+    <p>
+        <alert>Prove: </alert> For any <m>m\in\N</m> with <m>m\geq 1</m> 
+        <me>
+            \sum_{i=1}^{m} (3i-2) = \frac{m}{2}(3m-1)
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+            <md>
+                <mrow>\sum_{i=1}^{1} (3i-2) \amp = 3(1)-2</mrow>
+                <mrow> \amp =1</mrow>
+                <mrow> \amp =\frac{1}{2}(3(1)-1)</mrow>
+            </md>
+            hence we have established:
+            <me>
+                P(1):\sum_{i=1}^{1} (3i-2)=\frac{1}{2}(3(1)-1)
+            </me>
+            
+        </p>
+        
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                \sum_{i=1}^{t} (3i-2) = \frac{t}{2}(3t-1)
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+        
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+        <md>
+            <mrow>\sum_{i=1}^{n+1} (3i-2) \amp= (\sum_{i=1}^{n} (3i-2))+(3(n+1)-2)\amp</mrow>
+            <mrow> \amp=\frac{n}{2}(3n-1)+(3(n+1)-2)\amp\text{ (induction assumption) }</mrow>
+            <mrow> \amp=\frac{n}{2}(3n-1)+(3n+1)\amp</mrow>
+            <mrow> \amp=\frac{n}{2}(3n-1)+\frac{2}{2}(3n+1)\amp</mrow>
+            <mrow> \amp=\frac{n(3n-1)+2(3n+1)}{2}\amp</mrow>
+            <mrow> \amp=\frac{3n^2 -n+6n+2}{2}\amp</mrow>
+            <mrow> \amp=\frac{3n^2 +5n+2}{2}\amp</mrow>
+            <mrow> \amp=\frac{(n+1)(3n+2)}{2}\amp</mrow>
+            <mrow> \amp=\frac{(n+1)(3(n+1)-1)}{2}\amp</mrow>
+        </md>
+        </p>
+        <p>Thus, we have shown <m>\sum_{i=1}^{n+1} (3i-2) = \frac{(n+1)}{2}(3(n+1)-1)</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\sum_{i=1}^{m} (3i-2) = \frac{m}{2}(3m-1)</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+    </proof>
+
+  </example>
+  
+  <example>
+    <p>
+        <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m> 
+        <me>
+            \sum_{i=1}^m \frac{1}{i(i+1)}=\frac{m}{m+1}
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+             Note that as we are tasked to show our result holds for any <m>m\geq 1</m>, our base case is again 1!
+             <md>
+                <mrow> \sum_{i=1}^1 \frac{1}{i(i+1)}\amp =\frac{1}{(1)\cdot((1)+1)}</mrow>
+                <mrow> \amp =\frac{1}{2} </mrow>
+                <mrow> \amp =\frac{(1)}{((1)+1)} </mrow>
+             </md>
+             hence we have established
+             <me>
+                P(1):  \sum_{i=1}^1 \frac{1}{i(i+1)}=\frac{(1)}{((1)+1)}
+             </me>
+             
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+            \sum_{i=1}^t \frac{1}{i(i+1)}=\frac{t}{t+1}
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+ 
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+            <md>
+                <mrow>  \sum_{i=1}^{n+1} \frac{1}{i(i+1)}\amp =\left(\sum_{i=1}^n \frac{1}{i(i+1)}\right)+\frac{1}{(n+1)((n+1)+1)}\amp\text{ (peel off)} </mrow>
+                <mrow> \amp =\frac{n}{n+1}+\frac{1}{(n+1)(n+2)} \amp\text{ (Induction Assumption)}</mrow>
+                <mrow>\amp = \frac{n(n+2)+1}{(n+1)(n+2)}\amp\text{ (common denominator)} </mrow>
+                <mrow>\amp =\frac{n^2+2n+1}{(n+1)(n+2)} \amp </mrow>
+                <mrow>\amp =\frac{(n+1)^2}{(n+1)(n+2)} \amp\text{ (factoring)} </mrow>
+                <mrow>\amp =\frac{n+1}{(n+1)+1} \amp </mrow>
+            </md>
+        </p>
+        <p>Thus, we have shown <m>\sum_{i=1}^{n+1} \frac{1}{i(i+1)}=\frac{n+1}{(n+1)+1}</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\sum_{i=1}^m \frac{1}{i(i+1)}=\frac{m}{m+1}</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+    </proof>
+  </example>
+  <p>
+    Now lets see some examples using the product <xref ref="sec-6-1-what-we-assume"/>
+  </p>
+  <example>
+    <p>
+        <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m> 
+        <me>
+            \prod_{i=1}^m \left(1-\frac{1}{i+1}\right)=\frac{1}{m+1}
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+             Note that as we are tasked to show our result holds for any <m>m\geq 1</m>, our base case is again 1!
+             <md>
+                <mrow> \prod_{i=1}^1 \left(1-\frac{1}{i+1}\right) \amp =1-\frac{1}{(1)+1}</mrow>
+                <mrow> \amp=1-\frac{1}{2} </mrow>
+                <mrow> \amp=\frac{2-1}{2} </mrow>
+                <mrow> \amp=\frac{1}{(1)+1} </mrow>
+             </md>
+             hence we have established our based case, that is:
+             <me>
+                P(1): \prod_{i=1}^1 \left(1-\frac{1}{i+1}\right)=\frac{1}{(1)+1} 
+             </me>
+             
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+            \prod_{i=1}^t \left(1-\frac{1}{i+1}\right)=\frac{1}{t+1}
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+            <md>
+                <mrow>\prod_{i=1}^{n+1} \left(1-\frac{1}{i+1}\right) \amp =\left(\prod_{i=1}^n \left(1-\frac{1}{i+1}\right)\right)\cdot\left(1-\frac{1}{(n+1)+1}\right)\amp\text{ (peel off)} </mrow>
+                <mrow>\amp=\left(\frac{1}{n+1}\right)\cdot\left(1-\frac{1}{n+2}\right) \amp\text{ (induction assumption)} </mrow>
+                <mrow>\amp=\frac{1}{n+1}-\frac{1}{n+1}\cdot\frac{1}{n+2} \amp </mrow>
+                <mrow>\amp=\frac{(n+2)-1}{(n+1)(n+2)} \amp \text{ (common denominator)}</mrow>
+                <mrow>\amp=\frac{n+1}{(n+1)(n+2)} \amp </mrow>
+                <mrow>\amp=\frac{1}{(n+1)+1} \amp </mrow>
+            </md>
+        </p>
+        <p>Thus, we have shown <m>\prod_{i=1}^{n+1} \left(1-\frac{1}{i+1}\right)=\frac{1}{(n+1)+1}</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\prod_{i=1}^m \left(1-\frac{1}{i+1}\right)=\frac{1}{m+1}</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+    </proof>
+  </example>
+<p>
+    Next, we explore an example with a base case not 1.
+</p>
+  <example>
+    <p>
+        <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 2</m> 
+        <me>
+            \prod_{i=2}^m \frac{i^2-1}{i^2}=\frac{m+1}{2m}
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+            For this example as we are asked to prove this for all <m>m\geq2</m>, our base case is 2.
+            <md>
+                <mrow>\prod_{i=2}^2 \frac{i^2-1}{i^2} \amp =\frac{(2)^2-1}{(2)^2}</mrow>
+                <mrow> \amp =\frac{4-1}{4} </mrow>
+                <mrow> \amp =\frac{3}{4}</mrow>
+                <mrow> \amp =\frac{(2)+1}{2\cdot(2)}</mrow>
+            </md>
+            hence we have established:
+            <me>
+                P(2): \prod_{i=2}^2 \frac{i^2-1}{i^2}=\frac{(2)+1}{2\cdot(2)}
+            </me>
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                \prod_{i=1}^t \frac{i^2-1}{i^2}=\frac{t+1}{2t}
+            </me>
+            for any <m>t\in\N</m> such that <m>2\leq t\leq n</m>
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+            <md>
+                <mrow>\prod_{i=2}^{n+1} \frac{i^2-1}{i^2} \amp =\left(\prod_{i=1}^n \frac{i^2-1}{i^2}\right)\codt\frac{(n+1)^2-1}{(n+1)^2)}()\amp\text{ (peel off)}</mrow>
+                <mrow> \amp =\left(\frac{n+1}{2n}\right)\cdot\frac{(n+1)^2-1}{(n+1)^2)}\amp\text{ (induction assumption)}</mrow>
+                <mrow>\frac{(n+1)(n^2+2n+1-1)}{(2n)(n+1)^2} \amp </mrow>
+                <mrow>\amp=\frac{n^2+2n}{2n(n+1)} \amp </mrow>
+                <mrow>\amp=\frac{n(n+2)}{2n(n+1)} \amp </mrow>
+                <mrow>\amp=\frac{(n+1)+1}{2(n+1)} \amp </mrow>
+            </md>
+        </p>
+        <p>Thus, we have shown <m>\prod_{i=2}^{n+1} \frac{i^2-1}{i^2}=\frac{(n+1)+1}{2(n+1)}</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\prod_{i=2}^m \frac{i^2-1}{i^2}=\frac{m+1}{2m}</m> for any <m>m\in\N</m> with <m>m\geq 2</m>. <m>\square</m></p>
+    </proof>
+  </example>
+  <p>
+    Next, lets see some examples with the factorial <xref ref="sec-6-1-what-we-assume"/>
+  </p>
+  <example>
+    <p>
+        <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m> 
+        <me>
+            \prod_{i=1}^m (4i-2)=\frac{(2m)!}{(m!)}
+        </me>
+    </p>
+    <proof>
+           
+            <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+            <p>Let <m>n=1</m>. Calculate <m>\prod_{i=1}^{1} (4i-2) = \frac{2(1)!}{(1)!}</m> :</p>
+            <me>4(1)-2=2</me>
+            <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                \prod_{i=1}^t (4i-2)=\frac{(2t)!}{(t!)}
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+            <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+            <p>Calculate:</p>
+            <md>
+                <mrow>\prod_{i=1}^{n+1} (4i-2) = \frac{2(n+1)!}{(n+1)!} \amp= (\prod_{i=1}^{n} (4i-2))((4(n+1)-2)</mrow>
+                <mrow>\amp=\frac{2n!}{n!}((4(n+1)-2)\amp \text{ (induction assumption) }</mrow>
+                <mrow>\amp=(\frac{2n!}{n!})(4n+2)\amp</mrow>
+                <mrow>\amp=(\frac{2n!}{n!})(2(2n+1))\amp</mrow>
+                <mrow>\amp=(2)\frac{(2n+1)((2n)!)}{n!}\amp</mrow>
+                <mrow>\amp=\frac{(2n+1)!}{n!}(2)\amp</mrow>
+                <mrow>\amp=\frac{(2n+2)!}{\frac{1}{2}(2n+2)n!}\amp</mrow>
+                <mrow>\amp=\frac{(2n+2)!}{(n+1)n!}\amp</mrow>
+                <mrow>\amp=\frac{(2n+2)!}{(n+1)!}\amp</mrow>
+            </md>
+            <p>Thus, we have shown <m>\prod_{i=1}^{n+1} (4i-2) = \frac{2(n+1)!}{(n+1)!}</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\prod_{i=1}^{m} (4i-2) = \frac{(2m)!}{m!}</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+
+
+        </proof>
+  </example>
+
+  <example>
+    <p>
+        <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m> 
+        <me>
+            \sum_{i=1}^m \frac{i}{(i+1)!}=1-\frac{1}{(m+1)!}
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+            Note that as we are tasked to show our result holds for any <m>m\geq 1</m>, our base case is again 1!
+            <md>
+                <mrow> \sum_{i=1}^1 \frac{i}{(i+1)!}\amp =\frac{(1)}{(1)+1} </mrow>
+            </md>
+            hence we have verified the condition <m>P(1)</m>
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                \sum_{i=1}^t \frac{i}{(i+1)!}=1-\frac{1}{(t+1)!}
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+            <md>
+                <mrow>\sum_{i=1}^{n+1} \frac{i}{(i+1)!}\amp = \left(\sum_{i=1}^{n} \frac{i}{(i+1)!}\right)+\frac{(n+1)}{[(n+1)+1]!}\amp\text{ (peel off)} </mrow>
+                <mrow>\amp =\left(1-\frac{1}{(n+1)!}\right)+\frac{n+1}{(n+2)!} \amp\text{ (induction assumption)} </mrow>
+                <mrow>\amp=1+\frac{-(n+2)+(n+1)}{(n+2)!} \amp \text{ (common denominator)}</mrow>
+                <mrow>\amp =1-\frac{1}{((n+1)+1)!} \amp </mrow>
+            </md>
+        </p>
+        <p>Thus, we have shown <m>\sum_{i=1}^{n+1} \frac{i}{(i+1)!}=1-\frac{1}{((n+1)+1)!}</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\sum_{i=1}^m \frac{i}{(i+1)!}=1-\frac{1}{(m+1)!}</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+    </proof>
+  </example>
+  <p>
+    I really like this next example as it exemplifies how induction is often used in your future algebra courses, namely the union is defined as somethinig between two sets, so to do it to multiple sets we need do two at a time. This <em>two at a time</em> is an example of <em>peeling off</em>, just as the previous examples.
+  </p>
+  <example>
+    <p>
+        <alert>Prove:</alert> Let <m>\mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}</m> be an indexed family of sets, and For any <m>m\in\N</m> with <m>m\geq 1</m> such that <m>\Delta=\{1,2,...,m\}</m>
+        <me>
+            \left(\bigcap_{i=1}^m A_i\right)^c=\bigcup_{i=1}^m A_i^c
+        </me>
+    </p>
+    <proof>
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+            Note that as we are tasked to show our result holds for any <m>m\geq 1</m>, our base case is again 1!
+            <md>
+                <mrow> \left(\bigcap_{i=1}^1 A_i\right)^c\amp =(A_1)^c </mrow>
+            </md>
+            hence we have established the base case <m>P(1)</m>
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                \left(\bigcap_{i=1}^t A_i\right)^c=\bigcup_{i=1}^t A_i^c
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+            <md>
+                <mrow>\left(\bigcap_{i=1}^{n+1} A_i\right)^c\amp =\left(\left(\bigcap_{i=1}^{n} A_i \right)\cap A_{n+1}\right) \amp \text{ (peel off)}</mrow>
+                <mrow>\amp = \left(\bigcap_{i=1}^{n} A_i \right)^c\cup A_{n+1}^c\amp\text{ (DeMogran's Law)} </mrow>
+                <mrow>\amp = \left(\bigcup_{i=1}^n A_i^c\right)\cup A_{n+1}^c\amp\text{ (induction assumption)} </mrow>
+                <mrow>\amp= \bigcup_{i=1}^{n+1} A_i^c\amp </mrow>
+            </md>
+        </p>
+        <p>Thus, we have shown <m>\left(\bigcap_{i=1}^{n+1} A_i\right)^c=\bigcup_{i=1}^{n+1} A_i^c</m>.</p>
+            <p>Hence, by proof by principle of mathematical induction, <m>\left(\bigcap_{i=1}^m A_i\right)^c=\bigcup_{i=1}^m A_i^c</m> for any <m>m\in\N</m> with <m>m\geq 1</m>. <m>\square</m></p>
+    </proof>
+</example>
+</section> 

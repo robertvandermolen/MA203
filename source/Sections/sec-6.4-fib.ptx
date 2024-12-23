@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-4-fib" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Fibonacci Sequence</title>
+  <p>
+    blah... wax poetic about defining someting inductively... blah... that means cleaning up the below definiton.. blah... also don't forget the bunny story... blah..
+  </p>
+   <assemblage>
+        <title>Fibonacci numbers</title>
+        <p>
+            To calculate any Fibonacci number, <m>f_n</m>, we add the two numbers that preceded it: 
+        <me>
+            f_n = f_{n-1} + f_{n-2}
+        </me>
+        </p>
+        <p>
+           where <m>f_1=1</m> and <m>f_2=1</m>
+        </p>
+    </assemblage>
+    <p>
+      blah.. some examples of calculating this would be nice!.. blah...
+    </p>
+    <assemblage>
+    <title>Priciple of Complete Induction</title>
+
+    <p>
+        Let <m>k\in\N</m> and suppose <m>S</m> is a subset of <m>\mathbb{N}</m> with the following property:
+    </p>
+    <p>
+        <m>\forall n\in \mathbb{N}</m> with <m>k\lt n</m> 
+    </p>
+    <p>
+        if <m>\{k,k+1,k+2,k+3,...,n-1\} \subset S</m> then <m>n \in S</m>
+    </p>
+    <p>
+        Then <m>S=\{n\in\N\text{ }|\text{ }n\geq k\}</m> 
+    </p>
+  </assemblage>
+  <p>
+    Proving using complete induction amounts to a procedure almost identical to that of our traditional induction
+  </p>
+  <assemblage>
+    <title>Proof of <m>\forall m\in\N</m> <m>m\geq k</m> <m>P(m)</m> with Complete Induction</title>
+    <p>
+      Proof:
+      <ol marker="(i)">
+        <li>
+          <p>
+            <alert>(Base Step)</alert> Show that <m>P(k)</m> is true
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>(Induction Assumption)</alert> Assume we can find an <m>n\in\N</m> such that <m>P(t)</m> is true for any <m>t\in\N</m> such that <m>k\leq t\lt n</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert><m>\mathbf{\left(\text{Prove: }P(n)\right)}</m></alert> ... thus <m>P(n)</m> is true
+          </p>
+        </li>
+      </ol>
+      Therefore <m>\forall m\in\N</m> such that <m>m\geq k</m> then <m>P(m)</m> is true.
+    </p>
+  </assemblage>
+  <p>
+    The astute student will note we are really doing nothing different here... as in PMI we said <em>for any</em> <m>n</m> so why not <m>n-1</m>. But, this really allows us to do exactly what we have been doing its just that in step (iii) it becomes quite cumbersome to balance <m>n+1</m> everywhere, so this way just lets us use <m>n</m>.
+  </p>
+    <example>
+      <p>
+            <alert>Prove:</alert> For any <m>m\in\N</m> such that <m>m\geq 1</m> we have <m>f_{3m}</m> is even (every third fibonacci number is even)
+        </p>
+      <proof>
+        
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p>
+        <p>
+            As we are to show this result for any <m>m\geq 1</m>, our base case will be 1!
+            <me>
+                f_{3\cdot 1}=f_2+f_1=1+1=2
+            </me>
+            and since 1 is an integer and thus <m>2=2\cdot 1</m> is even and hence we have established the base case:
+            <me>
+                P(1): f_{3\cdot(1)}\text{ is even}
+            </me>
+            
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                f_{3t} \text{ is even}
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\lt n</m>
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+        </p>
+        <md>
+            <mrow>f_{3n}\amp=f_{3n-1}+f_{3n-2}</mrow>
+            <mrow> \amp=f_{3n-2}+f_{3n-3}+f_{3n-2}</mrow>
+            <mrow> \amp=2(f_{3n-2})+f_{3(n-1)}</mrow>
+        </md>
+        <p>
+            Hence, by induction assumption, <m>f_{3(n-1)}</m> is even. Thus by definition of even, we can find an integer <m>m</m> such that <m>f_{3(n-1)}=2m</m>
+        </p>
+        <p>
+            Calculate:
+        </p>
+        <md>
+            <mrow>f_{3n}\amp=2f_{3n-2}+2m</mrow>
+            <mrow> \amp=2(f_{3n-2+m})</mrow>
+        </md>
+        <p>
+            Thus by definition of even, <m>f_{3n}</m> is even. Thus by proof by PCI, <m>f_{3n}</m> is even for all <m>n\in \mathbb{N}</m>
+        </p>
+    </proof>
+
+    </example>
+    <p>
+      blah..
+    </p>
+    <example>
+      <p>
+        
+            <alert>Prove:</alert> For any <m>m\in\N</m> such that <m>m\geq 1</m> we have <m>f_{3m+1}</m> is odd 
+        
+      </p>
+      <proof>
+        
+        <p>
+            <alert>(i) (Base Case):</alert> 
+        </p> 
+        <p>
+            Since, again, we are to show this for any <m>m\geq 1</m>, our base case is 1!
+            <me>
+                f_{3(1)+1}=f_4=f_3+f_2=(f_2+f_1)+f_2=(1+1)+1=3
+            </me>
+            Since 1 is an integer and <m>3=1\cdot(1)+1</m> we have that 3 is odd. Hence, we have estableshed the base case 
+            <me>
+                P(1):f_{3\cdot(1)+1}\text{ is odd}
+            </me>
+            
+        </p>
+        <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that 
+            <me>
+                f_{3t+1} \text{ is odd}
+            </me>
+            for any <m>t\in\N</m> such that <m>1\leq t\lt n</m>
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n)\right)}</m></alert>
+        </p>
+        <p>
+            Calculate:
+        </p>
+        <md>
+            <mrow>f_{3n+1}\amp=f_{3n}+f_{3n-1}</mrow>
+            <mrow> \amp=f_{3n}+f_{3n-2}+f_{3n-3}</mrow>
+            <mrow> \amp=2(f_{3n})+f_{3n-2}+f_{3(n-1)}</mrow>
+            <mrow> \amp=2(f_{3n})+f_{3(n-1)+1}+f_{3(n-1)}</mrow>
+        </md>
+        <p>
+            Note: we know <m>f_{3n}</m> and <m>f_{3(n-1)}</m> are even, because we just proved it. By our induction assumption, <m>f_{3(n-1)+1}</m>
+            is odd. Hence by definition of odd, we can find <m>l,m,a\in \mathbb{Z}</m> such that <m>f_{3n}=2l</m>, <m>f_{3(n-1)}=2m</m>, and
+            <m>f_{3(n-1)+1}=2a+1</m>.
+        </p>
+        <p>
+            Calculate:
+        </p>
+        <md>
+            <mrow>f_{3n}+f_{3(n-1)+1}+f_{3(n-1)}\amp=2l+2a+1+2m</mrow>
+            <mrow> \amp=2(l+a+m)+1</mrow>
+        </md>
+        <p>
+            Thus by definition of odd, <m>f_{3n+1}</m> is odd. Thus by proof by PCI, <m>f_{3n+1}</m> is odd for all <m>n\in \mathbb{N}</m>
+        </p>
+    </proof>
+    </example>
+</section>

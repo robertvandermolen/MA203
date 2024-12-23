@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-8-ch05-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Exercises</title>
+<p>
+    <ol>
+        <li>
+            <p>
+                For the sets <m>A,</m> <m>B</m>, and <m>C</m>, for the following draw a Venn diagram shading the appropriate regions
+                <ol>
+                    <li>
+                        <p>
+                            <m>A\cup(B\cap C)^c</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(A\cap B)^c-C</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A\cap(B-C)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </li>
+        <li>
+            <p>
+                For the following prove that <m>A\subseteq B</m>
+                <ol>
+                    <li>
+                        <p>
+                            <md>
+                                <mrow>A\amp=\{a\in\Z\text{ }|\text{ }a=12k\text{ for some }k\in\Z\}  </mrow>
+                                <mrow>B\amp=\{b\in\Z\text{ }|\text{ }b=6s\text{ for some }s\in\Z\} </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <md>
+                                <mrow>A\amp=\{a\in\Z\text{ }|\text{ }a=7k+1\text{ for some }k\in\Z\}  </mrow>
+                                <mrow>B\amp=\{b\in\Z\text{ }|\text{ }b=14s+8\text{ for some }s\in\Z\} </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <md>
+                                <mrow>A\amp=\{a\in\Z\text{ }|a=6k+15s\text{ for some }k\in\Z\text{ and some }s\in\Z\} </mrow>
+                                <mrow>B\amp=\{b\in\Z\text{ }|3t\text{ for some }t\in\Z\} </mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </li>
+        <li>
+            <p>
+                For the following sets write out all elements of <em>both</em> <m>A\times B</m> and <m>B\times A</m>
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        <md>
+                            <mrow>A \amp=\{1,3,23,\square\} </mrow>
+                            <mrow>B \amp=\{\square,\triangle,\alpha\} </mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <md>
+                            <mrow>A \amp=\{12,\pi,\Gamma\} </mrow>
+                            <mrow>B \amp=\{\sigma,\varphi,\theta\} </mrow>
+                        </md>
+                    </p>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</p>
+</section>
