@@ -3,27 +3,94 @@
 <section xml:id="sec-6-4-fib" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Fibonacci Sequence</title>
   <p>
-    blah... wax poetic about defining someting inductively... blah... that means cleaning up the below definiton.. blah... also don't forget the bunny story... blah..
+    This next topic is one that stuck with me from my undergraduate experience. I was lucky enough to be taught by the Italian mathematician Dr. Annalisa Calini. She told us the story of her fellow Italian mathematician Fibonacci with such enthusiasm that I could never hope to match. Yet, here is my poor attempt. 
   </p>
-   <assemblage>
-        <title>Fibonacci numbers</title>
+  <assemblage>
+    <title>The Story of Fibonacci</title>
+    <p>
+    Our story begins on <alert>Day 1</alert> with Fibonacci sitting in a park on a beautiful day. He notices <em>1 pair</em> young bunnies, male and female, hopping by.
+  </p>
+  <image source="/images/1-bunnie.png" width="35%"/>
+  <p>
+    The next day, on <alert>Day 2</alert> Fibonacci returned to the same park and noticed the same <em>1 pair</em>, yet this time they have grown to rabbits, now biologically capable of procreating.
+  </p>
+  <image source="/images/1-bunnie.png" width="44%"/>
+  <p>
+    He again returned the following day, on <alert>Day 3</alert>, and on this day he noticed his pair of rabbits, but also another pair of bunnies, again paired as in one male and one female, giving us  a total of <em>2 pair</em> of rabbits. 
+  </p>
+  <image source="/images/2-bunnie.png" width="42%"/>
+  <p>
+    Now on <alert>Day 4</alert> Fibonacci noticed his original pair had given birth again, as well as the first litter was now grown to the age of reproduction, giving us <em>3 pairs</em> of rabbits total. He deduced that it took one day for the rabbits to mature, and then another day for the rabbits to give birth to a new pair of bunnies.
+  </p>
+  <image source="/images/3-bunnie.png" width="65%"/>
+  <p>
+    On <alert>Day 5</alert> returning once again to this same park he noticed that his original pair was there, and their first litter but not the original pair and the first litter have both produced pairs of bunnies, leaving a total of <em>5 pairs</em> of rabbits at the park.
+  </p>
+  <image source="/images/5-bunnie.png" width="100%"/>
+  <p>
+    Later on Day 5, Fibonacci returns to his home and comes up with perhaps the greatest mathematical assumption in all of history, 
+    <me>
+        \mathbf{\text{ Assume that Rabbits never die! }}
+    </me>
+    Then asked himself how many rabbits would be there on day 6, or 7, or 8, or even 1000...
+  </p>
+  
+  </assemblage>
+
+  <p>
+   To create a formal defintion of the fibonacci we use the concept of inductive definitons. An inductive defintion is one which takes the form of PMI, specifically where we first define a base case and then we define the inductive step
+  </p>
+  
+  <definition xml:id="def-fibonacci">
+  <title>The Fibonacci Numbers</title>
+    <statement>
         <p>
+            <alert>(i) (Bases Cases)</alert>
+        </p>
+        <p>
+           <m>f_1=1</m> and <m>f_2=1</m>
+        </p>
+        <p>
+            <alert>(ii) (Inductive Case)</alert>
+        </p>
+         <p>
             To calculate any Fibonacci number, <m>f_n</m>, we add the two numbers that preceded it: 
         <me>
             f_n = f_{n-1} + f_{n-2}
         </me>
         </p>
-        <p>
-           where <m>f_1=1</m> and <m>f_2=1</m>
-        </p>
-    </assemblage>
+        
+    </statement>
+  </definition>
+  <p>
+    For fun lets count some more rabbits.  
+  </p>
+<example xml:id="ex-count-fib">
     <p>
-      blah.. some examples of calculating this would be nice!.. blah...
+        By definition 
+        <md>
+            <mrow>f_1 \amp =1 </mrow>
+            <mrow>f_2 \amp=1 </mrow>
+        </md>
+        then
+        <md>
+            <mrow>f_3 \amp=f_2+f_1=1+1=2 </mrow>
+            <mrow>f_4 \amp=f_3+f_2=2+1=3 </mrow>
+            <mrow>f_5 \amp=f_4+f_3=3+2=5 </mrow>
+            <mrow>f_6 \amp=f_5+f_4=5+3=8 </mrow>
+            <mrow>f_7 \amp=f_6+f_5=8+5=13 </mrow>
+            <mrow>f_8 \amp=f_7+f_6=13+8=21 </mrow>
+        </md>
+        so many bunnies...
     </p>
-    <assemblage>
-    <title>Priciple of Complete Induction</title>
-
+</example>
     <p>
+      The awake student, usually sitting somemwhere right off the front row, will notice that when we defined the Fibonacci numbers we didn't just have a singular base case, and we diddn't define the <m>n+1</m> case, which is slightly different from the procedure of induction. To this student I applaud you, that is correct we instead used a slightly different version of indcution, known commonly as complete induction.
+    </p>
+    <definition xml:id="def-pci">
+    <title>Principle of Complete Induction</title>
+        <statement>
+           <p>
         Let <m>k\in\N</m> and suppose <m>S</m> is a subset of <m>\mathbb{N}</m> with the following property:
     </p>
     <p>
@@ -35,7 +102,9 @@
     <p>
         Then <m>S=\{n\in\N\text{ }|\text{ }n\geq k\}</m> 
     </p>
-  </assemblage>
+        </statement>
+    </definition>
+  
   <p>
     Proving using complete induction amounts to a procedure almost identical to that of our traditional induction
   </p>
@@ -46,7 +115,7 @@
       <ol marker="(i)">
         <li>
           <p>
-            <alert>(Base Step)</alert> Show that <m>P(k)</m> is true
+            <alert>(Base Steps)</alert> Show that <m>P(k)</m> and <m>P(k+1)</m> are true
           </p>
         </li>
         <li>
@@ -73,16 +142,30 @@
       <proof>
         
         <p>
-            <alert>(i) (Base Case):</alert> 
+            <alert>(i) (Base Cases):</alert> 
         </p>
         <p>
-            As we are to show this result for any <m>m\geq 1</m>, our base case will be 1!
+            As we are to show this result for any <m>m\geq 1</m>, our first base case will be 1!
             <me>
                 f_{3\cdot 1}=f_2+f_1=1+1=2
             </me>
-            and since 1 is an integer and thus <m>2=2\cdot 1</m> is even and hence we have established the base case:
+            and since 1 is an integer and thus <m>2=2\cdot 1</m> is even. 
+        </p>
+        <p>
+            As we are using PCI we need to show our next base case of 2.
+            <me>
+                f_{3\cdot (2)}=f_6=f_5+f_4=8
+            </me>
+            (see <xref ref="ex-count-fib"/> for the complete calculation of <m>f_6</m>) and since 4 is an integer and thus <m>8=2\cdot 4</m> is even. 
+        </p>
+        <p>
+            Hence we have established the base cases:
             <me>
                 P(1): f_{3\cdot(1)}\text{ is even}
+            </me>
+            and
+            <me>
+                P(2):f_{3\cdot(2)} \text{ is even}
             </me>
             
         </p>
@@ -123,9 +206,7 @@
     </proof>
 
     </example>
-    <p>
-      blah..
-    </p>
+  
     <example>
       <p>
         
@@ -138,13 +219,27 @@
             <alert>(i) (Base Case):</alert> 
         </p> 
         <p>
-            Since, again, we are to show this for any <m>m\geq 1</m>, our base case is 1!
+            Since, again, we are to show this for any <m>m\geq 1</m>, our first base case is 1!
             <me>
                 f_{3(1)+1}=f_4=f_3+f_2=(f_2+f_1)+f_2=(1+1)+1=3
             </me>
-            Since 1 is an integer and <m>3=1\cdot(1)+1</m> we have that 3 is odd. Hence, we have estableshed the base case 
+            Since 1 is an integer and <m>3=1\cdot(1)+1</m> we have that 3 is odd. 
+        </p>
+        <p>
+            As we are using PCI we need to show our next base case of 2.
+            <me>
+                f_{3\cdot (2)+1}=f_7=f_6+f_5=13
+            </me>
+            (see <xref ref="ex-count-fib"/> for the complete calculation of <m>f_7</m>) and since 6 is an integer and thus <m>13=2\cdot 6+1</m> is odd. 
+        </p>
+        <p>
+            Hence, we have estableshed the base cases 
             <me>
                 P(1):f_{3\cdot(1)+1}\text{ is odd}
+            </me>
+            and
+            <me>
+                P(2):f_{3\cdot(2)+1}\text{ is odd}
             </me>
             
         </p>

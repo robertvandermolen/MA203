@@ -44,10 +44,34 @@
       </p>
     </statement>
   </definition>
+  <note>
+    <p>
+      Besides our usual assumptions we will also asssume the properties of inequalities you know and love from you your college algebra course as well (I usually skip these proofs in class but include them for reference to WOP in my later classes)
+    </p>
+  </note>
   <p>
-    *Besides our usually assumptions we will also asssume that your standard assumptions of how postitive and negative numbers multiply.
+    We will also find the next lemma useful for the following proofs.
   </p>
-  <example>
+  <lemma xml:id="lem-divisor-less-than">
+    <statement>
+      <p>
+        For all integers <m>a</m> and <m>b</m> with <m>b\gt 0</m>, if <m>a|b</m> then <m>a\leq b</m>
+      </p>
+    </statement>
+  </lemma>
+  <p></p>
+    <proof>
+      <p>
+        Let <m>a</m> and <m>b</m> be arbitrary integers with <m>b\gt 0</m> and assume that <m>a|b</m>. By definitoin of divides we can find an integer <m>q</m> such that <m>b=aq</m>. Since we assumed that <m>b\gt0</m> we ahve that both <m>a\gt0</m> and <m>q\gt 0</m>. For sake of contradiction assume that <m>a\gt b</m>, hence <m>0\lt a-b</m> hence <m>0\lt a-aq=a(1-q)</m>.
+      </p>
+      
+      <p>
+        Since <m>a\gt0</m> then <m>0\lt (1-q)</m> hence <m>0\lt q\lt 1</m> thus <m>q=0</m> and hence <m>b=a\cdot q=a\cdot0=0</m> a contradiction to our assumption that <m>b\gt 0</m>, as specifically <m>b\neq0</m>.
+      </p>
+      
+    </proof>
+  <p></p>
+  <example xml:id="ex-prime-factor">
     <p>
       <alert>Prove:</alert> Every natural number <m>n\gt1</m> has a prime factor.
     </p>
@@ -60,8 +84,7 @@
         By WOP, <m>R</m> has a smallest element, denote this element as <m>p\in T</m>. 
       </p>
       <p>
-        For the sake of contradiction assume that <m>p</m> is not prime, that is we assume that <m>p</m> is composite. By definition of composite we can find a divisor <m>d</m> such that <m>d\neq 1</m> and <m>d\neq p</m>, yet by definition of divides we can find a <m>k\in\Z</m> such that <m>p=dk</m> and we can find a <m>t\in\N</m> such that <m>n=tp</m>, thus <m>n=tdk</m>, therefore <m>d\in R</m>. Since we chose <m>p</m> to be the smallest element of <m>R</m> and chose <m>d</m> so that <m>d\neq p</m>, thus <m>p\lt d</m> thus <m>0\lt d-p</m> and hence <m>0\lt dk-pk</m> thus <m>0\lt p(1-k)</m> and since <m>p\gt 0</m> we have that <m>(1-k)\gt0</m> thus <m>1\gt k</m>, yet <m>k\in\N</m> then <m>k=0</m>, thus <m>p=0</m> a contradiction. Therefore <m>p</m> is prime and hence <m>n</m> has a prime divisor. <m>\square</m>
-        
+        For the sake of contradiction assume that <m>p</m> is not prime, that is we assume that <m>p</m> is composite. By definition of composite we can find a divisor <m>d</m> such that <m>d\neq 1</m> and <m>d\neq p</m>, yet by definition of divides we can find a <m>k\in\Z</m> such that <m>p=dk</m> and we can find a <m>t\in\N</m> such that <m>n=tp</m>, thus <m>n=tdk</m>, therefore <m>d\in R</m> Yet by <xref ref="lem-divisor-less-than"/> we have that <m>d\leq p</m> yet we assumed <m>d\neq p</m> hence <m>d\lt p</m> a contradiction to <m>p</m> being the smallest element of <m>R</m>. <m>\square</m>
       </p>
     </proof>
   </example>
@@ -119,5 +142,40 @@
   </proof>
   <p>
   </p>
+
+  <proposition xml:id="prop-fun-thm-arith">
+    <title>The Fundamental Theorem of Arithmetic</title>
+    <statement>
+      <p>
+        Every natural number greater than 1 is either prime or can be expressed as a product of primes.
+      </p>
+    </statement>
+  </proposition>
+  <p>
+  </p>
+  <proof>
+    <title>Proof of The Fundamental Theorem of Arithmetic</title>
+    <p>
+      For this proof we will use PCI
+    </p>
+    <p>
+      <alert>(i) (Base Case):</alert> 
+    </p>
+    <p>
+      Our base case is 2 in this example as we are trying to prove the statement for any <m>m\gt1</m>. So consider <m>2\in\N</m> by <xref ref="lem-divisor-less-than"/> anything that divides 2 must be less than or equal to 2, and hence it is either 1 or 2, and thus 2 is prime, hence we have established our base case. 
+    </p>
+    <p>
+            <alert>(ii) (Induction Assumption):</alert>
+        </p>
+        <p>
+            Assume we can find an <m>n\in\N</m> such that for any <m>t\in\N</m> such that <m>1\lt t\lt n</m> then <m>t</m> is either prime or can be expressed uniquely as a product of primes.
+        </p>
+        <p>
+            <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n)\right)}</m></alert>
+        </p>
+    <p>
+      By <xref ref="ex-prime-factor"/> we can find an integer <m>q</m> and a prime number <m>p</m> such that <m>n=qp</m>. By <xref ref="lem-divisor-less-than"/> we have that <m>q\lt n</m>. If <m>q=1</m> then <m>n</m> is prime and we are done, so assume that <m>q\gt 1</m>. Since <m>1\lt q\lt n</m> by our induction assumption we can write <m>q</m> as a product of primes, denote this as <m>q=\prod_{i=1}^s p_i</m> for some <m>s\geq 1</m> and each <m>p_i</m> is a prime. Thus <m>n=\left(\prod_{i=1}^s p_i\right)\cdot p</m> hence we have written <m>n</m> as a product of primes.  
+    </p>
+  </proof>
   
 </section>
