@@ -10,7 +10,8 @@
 
 <assemblage>
     <title>Proof by Contradiction of <m>R</m></title>
-      
+      <idx><h>contradiction</h></idx>
+      <idx><h>proof by contradiction</h></idx>
     <p>
         Assume <m>\sim R</m>
     </p>

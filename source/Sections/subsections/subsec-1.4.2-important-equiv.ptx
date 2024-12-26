@@ -23,6 +23,23 @@
         </p>
        </historical>
 <theorem xml:id="thm-logic-laws">
+    <idx><h>logic laws</h></idx>
+    <idx><h>logic laws</h><h>dounble negation</h></idx>
+    <idx><h>logic laws</h><h>commutivitiy</h></idx>
+    <idx><h>logic laws</h><h>distributive</h></idx>
+    <idx><h>logic laws</h><h>absorption</h></idx>
+    <idx><h>logic laws</h><h>DeMorgan's</h></idx>
+    <idx><h>logic laws</h><h>associativity</h></idx>
+    <idx><h>logic laws</h><h>contrapositive</h></idx>
+    <idx><h>logic laws</h><h>Rob's Law</h></idx>
+    <idx><h>dounble negation</h></idx>
+    <idx><h>commutivitiy</h></idx>
+    <idx><h>distributive</h></idx>
+    <idx><h>absorption</h></idx>
+    <idx><h>DeMorgan's</h></idx>
+    <idx><h>associativity</h></idx>
+    <idx><h>contrapositive</h></idx>
+    <idx><h>Rob's Law</h></idx>
     <statement>
         <p>
         <sbsgroup widths="55% 25%"  valign="middle">
@@ -146,7 +163,7 @@
         then leave the rest as an exercise.
     </p>
     <figure>
-  
+  <idx><h>contrapositive</h><h>truth table</h></idx>
         <tabular halign="center">
           <row header="yes" bottom="minor" >
             <cell><m>P</m></cell>
@@ -191,6 +208,7 @@
         </tabular>
       </figure>
     <figure>
+    <idx><h>Rob's Law</h><h>truth table</h></idx>
   <p></p>
         <tabular halign="center">
           <row header="yes" bottom="minor" >

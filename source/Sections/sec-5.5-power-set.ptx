@@ -7,6 +7,8 @@
 </p>
 <definition xml:id="def-Power-Set">
     <title>Power Set</title>
+    <idx><h>power set</h></idx>
+    <idx><h>set</h><h>power set</h></idx>
     <statement>
         <p>
             Let <m>A</m> be a set. The <term>power set</term> of <m>A</m> is the set whose elements are the subsets of <m>A</m> and is denoted <m>\mathscr{P}(A)</m>
@@ -22,7 +24,7 @@
     <p>
         Consider the set:
     </p>
-    <image source="/images/p_set_a.jpeg" width="35%"/>
+    <image source="/images/p_set_a.jpeg" width="42%"/>
      <p>
         To build the powerset, it is customary to begin with the empty set, <m>\emptyset</m>, which we know must be a member of the power set from <xref ref="prop-empty-unique"/> we know that <m>\emptyset\subseteq A</m>. Hence, 
         <m>

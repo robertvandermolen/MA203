@@ -4,6 +4,7 @@
 <title>Conditionals and Biconditionals</title>
 
 <p>
+    <idx><h>complete</h></idx>
     In the last section we saw a few connectives. 
     Using only these connectives is possible and 
     is all you need for a <term>complete</term>
@@ -19,7 +20,7 @@
 <definition xml:id="def-condition">
     <title>Conditional</title>
     
-    
+    <idx><h>conditional</h></idx>
     <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
     <statement>
         <p>
@@ -40,7 +41,9 @@
         </p>
     </statement>
 </definition>
-<p>There are many ways of translating the conditional
+<p>
+    <idx><h>implies</h></idx>
+    There are many ways of translating the conditional
     to english statments, which we will in the next table
     but perhaps the most popular is <term>implies</term>,
     that is "<m>P</m> implies <m>Q</m>". 
@@ -134,6 +137,9 @@
 <p>
     <example xml:id="ex-lying">
         <title>The Lying Politician</title>
+        <idx><h>implies</h></idx>
+        <idx><h>conditional</h></idx>
+        <idx><h>lying politician</h></idx>
         <p>
             <m>P</m>: If I am elected
         </p>
@@ -209,7 +215,7 @@
     <title>Biconditionals</title>
     <definition xml:id="def-biconditional">
         <title>Biconditional</title>
-        
+        <idx><h>biconditional</h></idx>
         
         <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
         <statement>
@@ -229,6 +235,9 @@
         </statement>
     </definition>
     <p>
+        <idx><h>iff</h></idx>
+        <idx><h>if and only if</h></idx>
+        <idx><h>biconditional</h></idx>
         Instead of writting "if and only if" we will often
         elect to only type <alert>"iff"</alert>. Just as with the implication, the biconditional has many english translations:
     </p>

@@ -13,7 +13,8 @@
 
 <assemblage>
   <title>Modus Ponens</title>
-   
+   <idx><h>modus ponens</h></idx>
+   <idx><h>argument</h><h>modus ponens</h></idx>
     <p>
       <term>Modus Ponens</term> is a specific type of argument with two premises:
        <m>P\implies Q</m>, and <m>P</m>, and conludes <m>Q</m>. That is
@@ -46,7 +47,8 @@
 
 <assemblage>
   <title>Modus Tollens</title>
-  
+  <idx><h>modus tollens</h></idx>
+  <idx><h>argument</h><h>modus tollens</h></idx>
   <p>
     <term>Modus Tollens</term> is simply the application of the contrapositive, specifically:
      <m>P\implies Q</m>, and <m>\sim Q</m>, and conludes <m>\sim P</m>. That is
@@ -81,7 +83,20 @@
   complete list:
 </p>
 <figure xml:id="argument-types">
-
+<idx><h>argument</h><h>modus ponens</h></idx>
+<idx><h>argument</h><h>modus tollens</h></idx>
+<idx><h>argument</h><h>addition</h></idx>
+<idx><h>argument</h><h><h>simplification</h></h></idx>
+<idx><h>argument</h><h>Hypothetical Syllogism</h></idx>
+<idx><h>argument</h><h>simplification</h></idx>
+<idx><h>argument</h><h>Hypothetical Syllogism</h></idx>
+<idx><h>argument</h><h>Disjunctive Syllogism</h></idx>
+<idx><h>modus ponens</h></idx>
+<idx><h>modus tollens</h></idx>
+<idx><h>addition</h></idx>
+<idx><h>simplification</h></idx>
+<idx><h>Hypothetical Syllogism</h></idx>
+<idx><h>Disjunctive Syllogism</h></idx>
 <sbsgroup widths="55% 25%"  valign="middle" >
   <sidebyside>
     <p>
@@ -252,6 +267,8 @@
   an exercise to the reader.
 </p>
 <figure >
+<idx><h>hypothetical syllogism</h><h>truth table</h></idx>
+<idx><h>argument</h><h>hypothetical syllogism</h></idx>
   <tabular halign="center">
     <row header="yes" bottom="minor" >
       <cell><m>P</m></cell>
@@ -339,6 +356,7 @@
 </figure>
 <p></p>
 <example>
+<idx><h>argument</h></idx>
   <p>
     For this example lets set a few propositons:
     <me>P:\text{ It is sunny today}</me>

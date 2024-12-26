@@ -7,6 +7,7 @@
   </p>
   <assemblage>
     <title>Well-Ordering Principle (WOP)</title>
+    <idx><h>Well-Ordering Priciple</h></idx>
     <p>
       Every nonempty subset of <m>\N</m> has a smallest element.
     </p>
@@ -25,7 +26,7 @@
   </p>
   <definition xml:id="def-prime">
   <title>Prime Number</title>
-  
+  <idx><h>prime</h></idx>
   
     <statement>
       <p>
@@ -38,6 +39,7 @@
   </p>
   <definition xml:id="def-not-prime">
   <title>Composite Integer</title>
+  <idx><h>composite</h></idx>
     <statement>
       <p>
         We say an integer, <m>n</m>, is <term>composite</term> when it is not prime, that is when it has a divisor other than <m>1</m> and <m>n</m>. 
@@ -93,7 +95,7 @@
   </p>
   <proposition xml:id="prop-div-algo">
     <title>The Division Algorithm</title>
-    
+    <idx><h>division algorithm</h><h>proof</h></idx>
     <statement>
       <p>
         For all integers <m>a</m> and <m>b</m>, with <m>a\neq 0</m>, there exists unique integers <m>q</m> and <m>r</m> such that 
@@ -145,6 +147,7 @@
 
   <proposition xml:id="prop-fun-thm-arith">
     <title>The Fundamental Theorem of Arithmetic</title>
+    <idx><h>fundamental theorem of arithmetic</h></idx>
     <statement>
       <p>
         Every natural number greater than 1 is either prime or can be expressed as a product of primes.

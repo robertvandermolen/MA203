@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What is a Relation?</title>
+    <p>
+      A relation at its heart is simple a way of formalizing the sentence Tillye is related to Nic, as Nic is Tillye's brother.
+      
+      Slightly more formal, we will take two sets and define how the elements of these sets are related to eachother.
+    </p>
+
+    <definition xml:id="def-relation">
+        <title>Relations</title>
+        <statement>
+            <p>
+                Let <m>A</m> and <m>B</m> be sets. <m>R</m> is a <term>relation</term> from <m>A</m> to <m>B</m> if and only if <m>R</m> is
+                a subset of <m>A\times B</m> That is, <me>R\subseteq A\times B</me>
+            </p>
+        </statement>
+    </definition>
+    <p>
+      blah..
+    </p>
+
+</section>

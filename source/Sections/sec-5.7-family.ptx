@@ -3,10 +3,13 @@
 <section xml:id="sec-5-7-family" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Families</title>
 <p>
+    <idx><h>family of sets</h></idx>
+    <idx><h>set</h><h>family</h></idx>
     We now consider, basic constructions like union, intersection and the cross product between many sets at once. We consider these over a <term>family of sets</term>, which is just a fancy way of saying a set whose members are sets. We will most often use the <em>script font</em> to indicate a family, for example <m>\mathscr{A}</m>.
 </p>
 <definition xml:id="def-union-over-family">
 <title>Union over a Family</title>
+<idx><h>union</h><h>over a family</h></idx>
     <statement>
         <p>
             Let <m>\mathscr{A}</m> be a family of sets. We define the <term>union over</term> <m>\mathscr{A}</m> as
@@ -55,6 +58,7 @@
 </p>
 <definition xml:id="def-intersection-over-family">
 <title>Intersection over a Family</title>
+<idx><h>intersection</h><h>over a family</h></idx>
     <statement>
         <p>
             Let <m>\mathscr{A}</m> be a family of sets. We define the <term>intersection over</term> <m>\mathscr{A}</m> as
@@ -125,7 +129,8 @@
 </p>
 <definition xml:id="def-indexed-family">
 <title>Indexed Family of Sets</title>
-
+<idx><h>indexed family of sets</h></idx>
+<idx><h>index set</h></idx>
 
     <statement>
         <p>

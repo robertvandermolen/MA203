@@ -31,13 +31,14 @@
 <definition>
     <title>Proposition</title>
     
-    
+<idx>proposition</idx>
 <p>A <term>proposition</term> is a sentence that can take only one of two values: truth or false. 
     </p>
 </definition>
 <p>
     <example xml:id="prop-example">
         <title>Some Examples of Propostions</title>
+        <idx>proposition</idx>
         <p>The following are examples of propositions:</p>
         <ol marker="(A)">
             <li><m>2+5=4</m></li>
@@ -70,6 +71,7 @@
     </example>
 </p>
 <p>
+    <idx><h>paradox</h></idx>
   For examples (B) and (C) in <xref ref="not-prop-example"/> are not propositions because (B) depends on who "She" is to
   determine its truth value, while in (C) it depends on what "<m>x</m>" is, for example when <m>x</m> is 2 it is True, but when <m>x</m> 
   is 3 it is False. Example (A) from <xref ref="not-prop-example"/> is an exclamation and is neither True nor False. Finally, (D) from 
@@ -91,7 +93,7 @@
 <p>
 <definition xml:id="def-negation">
     <title>Negation</title>
-    
+    <idx>negation</idx>
     
     <p>Given a proposition <m>P</m>,</p>
     <statement>
@@ -115,6 +117,7 @@
 <p>
     <example xml:id="ex-negation">
         <title>Some Negation Examples</title>
+        <idx>negation</idx>
         <p>
             <ol marker="(A)">
                 <li>
@@ -143,15 +146,18 @@
 <section  xml:id="sec-2-1-2-connect" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Connectives and Compound Propositions</title>
 <p>
-    In <xref ref="prop-example" /> the propositions are all <term>simple</term> or <term>atomic</term> in the senese
+    <idx>simple</idx>
+    <idx><h>compound</h></idx>
+    <idx><h>atomic</h></idx>
+    In <xref ref="prop-example" /> the propositions are all <term>simple</term> or <term>atomic</term> in the sense
     that they do not have any other propositions as components. <term>Compound</term> propositions can be formed by using connective words, 
     connecting more than one propostion.
 </p>
 <!--conjuncation defintion-->
 <definition xml:id="def-conjunction">
     <title>Conjunction</title>
-    
-    
+    <idx>conjunction</idx>
+    <idx><h>and</h></idx>
     <p>Given propositions <m>P</m> and <m>Q</m>,</p>
     <statement>
         <p>
@@ -173,6 +179,8 @@
 <p>
 <example xml:id="ex-conjunction">
     <title>Some Conjunction Examples</title>
+    <idx>conjunction</idx>
+    <idx><h>and</h></idx>
     <ol marker="(A)">
    <li> <p><m>P</m> : "It is raining outside."</p>
                 <p><m>Q</m> : "I have an umbrella."</p>
@@ -209,7 +217,8 @@
 <definition xml:id="def-disjunction">
     <title>Disjunction</title>
     
-    
+    <idx><h>disjunction</h></idx>
+    <idx><h>or</h></idx>
     <p>Given propositions <m>P</m> and <m>Q</m>,</p>
 <statement>
     <p>The <term>disjunction</term> of <m>P</m> and <m>Q</m>, denoted <m>P\vee Q</m>, 
@@ -221,6 +230,8 @@
 </definition>
 
 <p>
+    <idx><h>inclusive or</h></idx>
+    <idx><h>exclusive or</h></idx>
     The logical disjunciton is often reffered to as the <term>inclusive or</term>, as it is still true when both
     propositions are true. In English we often assume the use of the <term>exclusive or</term>, that is, when we use
     the word <em>or</em> we most often mean only one of two choices. For example "would you like chicken or steak". When someone says this to you, you know 
@@ -230,6 +241,8 @@
 <p>
 <example xml:id="ex-or">
     <title>Some Disjunction Examples</title>
+    <idx><h>disjunction</h></idx>
+    <idx><h>or</h></idx>
     <p>
         <ol marker="(A)">
             <li>

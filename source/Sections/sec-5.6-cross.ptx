@@ -7,7 +7,9 @@
 </p>
 <definition xml:id="def-cross-product">
 <title>Cross Product</title>
-
+<idx><h>cross product</h></idx>
+<idx><h>cartesian product</h></idx>
+<idx><h>set</h><h>cross product</h></idx>
 
     <statement>
         <p>

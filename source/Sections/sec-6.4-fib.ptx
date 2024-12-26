@@ -43,12 +43,13 @@
   
   <definition xml:id="def-fibonacci">
   <title>The Fibonacci Numbers</title>
+  <idx><h>fibonacci sequence</h></idx>
     <statement>
         <p>
             <alert>(i) (Bases Cases)</alert>
         </p>
         <p>
-           <m>f_1=1</m> and <m>f_2=1</m>
+           <me>f_1=1 \text{ and } f_2=1</me>
         </p>
         <p>
             <alert>(ii) (Inductive Case)</alert>
@@ -89,6 +90,9 @@
     </p>
     <definition xml:id="def-pci">
     <title>Principle of Complete Induction</title>
+    <idx><h>principle of complete induction</h></idx>
+    <idx><h>induction</h><h>complete</h></idx>
+    <idx><h>complete induction</h></idx>
         <statement>
            <p>
         Let <m>k\in\N</m> and suppose <m>S</m> is a subset of <m>\mathbb{N}</m> with the following property:
@@ -110,6 +114,8 @@
   </p>
   <assemblage>
     <title>Proof of <m>\forall m\in\N</m> <m>m\geq k</m> <m>P(m)</m> with Complete Induction</title>
+    <idx><h>principle of complete induction</h><h>proof</h></idx>
+    <idx><h>complete induction</h><h>proof</h></idx>
     <p>
       Proof:
       <ol marker="(i)">

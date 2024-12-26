@@ -11,7 +11,8 @@ this equivalent statment we will use direct proof. We summarize this in the foll
 
     <assemblage>
         <title>Proof by Contrapositive of <m>P\implies Q</m></title>
-      
+      <idx><h>contrapositive</h><h>proofs invovling</h></idx>
+      <idx><h>proof by contrapositive</h></idx>
         <p>
           Assume <m>\sim Q</m>
         </p>

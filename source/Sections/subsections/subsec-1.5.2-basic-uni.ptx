@@ -9,7 +9,16 @@
     numbers, by which we will mostly discuss the following:
 </p>
 
+<p>
+    
+
 <sbsgroup widths="45% 45%"  valign="middle">
+<idx><h>natural numbers</h></idx>
+<idx><h>integers</h></idx>
+<idx><h>counting numbers</h></idx>
+<idx><h>rational numbers</h></idx>
+<idx><h>real numbers</h></idx>
+<idx><h>complex numbers</h></idx>
     <sidebyside>
         <p>
         <m>\mathbb{N}=\{0,1,2,3,...\}</m>
@@ -59,6 +68,8 @@
         </p>
     </sidebyside>
 </sbsgroup>
+
+</p>
 <p>
     Notice that I take the extremely divisive standpoint that <m>\mathbb{N}</m> contains 0. Later in the book we will
     justify this, but now, I am your teacher and thus you are in my camp on this issue!

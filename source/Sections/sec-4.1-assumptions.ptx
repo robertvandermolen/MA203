@@ -7,6 +7,7 @@
     <p>
         <definition xml:id="defn-divisor">
             <title>Common Divisor</title>
+            <idx><h>common divisor</h></idx>
             <statement>
             <p>
                 <m>\forall a,b,c\in\Z</m>, all non-zero, we call <m>c</m> a <term>common divisor</term>
@@ -18,6 +19,7 @@
     <p>
         <definition xml:id="defn-gcd">
             <title>Greatest Common Divisor</title>
+            <idx><h>greatest common divisor</h></idx>
             <statement>
             <p>
                 <m>\forall a,b,c\in\Z</m>, all non-zero, we call <m>c</m> the <term>greatest common divisor</term>
@@ -42,6 +44,7 @@
     <p>
         <definition xml:id="defn-rational">
             <title>Rational</title>
+            <idx><h>rational number</h></idx>
             <statement>
             <p>
                 <m>x \in \mathbb{Q} \text{ iff } \exists p,q\in \mathbb{Z}\text{ with }q\neq0 \text{ such that }x=\frac{p}{q}\text{ and GCD}(p, q) =1 </m>
@@ -67,7 +70,7 @@
     <p>
         <definition xml:id="def-integer-cone">
             <title>1-d Integer Cone</title>
-            
+            <idx><h>1-d integer cone</h></idx>
             
             <statement>
                 <p>

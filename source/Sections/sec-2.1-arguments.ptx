@@ -10,12 +10,13 @@
 
   <section xml:id="subsec-3-1-1-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Validness</title>
+    
     <p>
       To begin you give the most general form for these <em>steps</em>.
     </p>
 <definition xml:id="def-argument">
   <title>Argument</title>
-  
+  <idx><h>argument</h></idx>
   
   <statement>
     <p>
@@ -51,7 +52,8 @@
 </p>
 <definition xml:id="def-valid">
   <title>Valid</title>
-  
+  <idx><h>valid</h></idx>
+    <idx><h>argument</h><h>valid</h></idx>
   
   <statement>
     <p>
@@ -77,6 +79,10 @@
  <p></p>
 
   <example>
+  <idx><h>valid</h></idx>
+    <idx><h>argument</h><h>valid</h></idx>
+    <idx><h>argument</h><h>invalid</h></idx>
+    <idx><h>argument</h></idx>
     <p>Here are some example of valid arguments:</p>
     <tabular halign="right">
       <row>

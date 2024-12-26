@@ -10,7 +10,9 @@
 </p>
 <definition xml:id="def-universal">
   <title>Universal Quantifier</title>
-  
+  <idx><h>universal quantifier</h></idx>
+  <idx><h>quantifier</h><h>universal</h></idx>
+  <idx><h>for all</h></idx>
   
   <statement>
     <p>
@@ -74,6 +76,9 @@
     <m>\forall x\text{ }Q(x)</m> is also false as I have met a health conscious person who does not eat pizza. 
   </p>
 </example>
+<idx><h>universal quantifier</h></idx>
+  <idx><h>quantifier</h><h>universal</h></idx>
+  <idx><h>for all</h></idx>
 <p>
   There are many many many examples of the use of the universal quantifier, but one popular one that I'd like to 
   take a moment to discuss is: <me>\text{All }P(x) \text{ are }Q(x)</me> this can be symbolized by 

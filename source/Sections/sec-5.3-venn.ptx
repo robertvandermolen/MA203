@@ -2,6 +2,7 @@
 
 <section xml:id="sec-5-3-venn-diagrams" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Venn Diagrams and Logic of Sets</title>
+<idx><h>Venn diagram</h></idx>
 <p>
     To understand/describe the relationship between sets we often use a tool known as <term>Venn Diagrams</term>. In simpliest terms a Venn diagram is a drawing representing the sets we are considering, we draw a circle for each set, and imagine the elements are inside the circle. Further, in this section we will use the basic underpinnning of propositional logic to pick apart some logical conclusions from set theory.
 </p>

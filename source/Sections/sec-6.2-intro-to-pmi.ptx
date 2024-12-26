@@ -6,6 +6,7 @@
   <p>We begin with a couple of definitions that are fundamental, yet this technique we are building to is so algorithmic I believe students can become extremely proficient at applying mathematical induction with little found here.</p>
     <definition xml:id="def-successor">
     <title>Successor</title>
+    <idx><h>successor</h></idx>
       <statement>
         <p>
           Let <m>n\in\N</m> we call <m>(n+1)\in\N</m> the successor of <m>n</m>.
@@ -18,6 +19,7 @@
     </p>
     <definition xml:id="def-indcutive-set">
     <title>Inductive Set</title>
+    <idx><h>inductive set</h></idx>
       <statement>
         <p>
           Let <m>S\subseteq\N</m>, we call <m>S</m> an <term>inductive set</term> if and only if <m>S</m> has the property
@@ -35,6 +37,9 @@
     </p>
       <definition xml:id="def-pmi">
     <title>Principle of Mathematical Induction</title>
+    <idx><h>pmi</h></idx>
+    <idx><h>induction</h></idx>
+    <idx><h>principle of mathematical indcution</h></idx>
     <statement>
   
     <p>
@@ -74,6 +79,9 @@
   </p>
   <assemblage>
     <title>Proof of <m>\forall m\geq k</m> <m>P(m)</m> Using PMI</title>
+    <idx><h>indcution</h><h>proof</h></idx>
+    <idx><h>pmi</h><h>proof</h></idx>
+    <idx><h>principle of mathematical indcution</h><h>proof</h></idx>
     <p>
       Proof:
       <ol marker="(i)">

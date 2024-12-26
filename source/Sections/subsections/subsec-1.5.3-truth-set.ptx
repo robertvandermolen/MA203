@@ -10,13 +10,15 @@
     <m>P(2)</m> which is <m>2\geq3</m> is false.
 </p>
 <p>
+    <idx><h>truth set</h></idx>
+    <idx><h>predicate</h></idx>
     After setting our universe can now talk about the <term>truth set</term> of a predicate <m>P(x)</m>, that is
     collecting all of the elements of our universe that make <m>P(x)</m> true. 
 </p>
 
 
 <example>
-    
+    <idx><h>truth set</h></idx>
     <p>
         
         The truth set for the open sentence "<m>x^2\lt 3</m>" depends on the universe of discord. When the universe is set 
@@ -35,7 +37,8 @@
 
 <definition xml:id="def-equiv-predicate">
     <title>Equivalent Predicates</title>
-    
+    <idx><h>predicate</h><h>equivalent</h></idx>
+    <idx><h>equivalent</h><h>predicate</h></idx>
     
     <statement>
         <p>
@@ -51,6 +54,8 @@
     Now lets see an example of this in play wiht some, perhaps, unexpected results.
 </p>
 <example>
+<idx><h>predicate</h><h>equivalent</h></idx>
+    <idx><h>equivalent</h><h>predicate</h></idx>
     <p>
         The predicates <m>P(x): x^2+2x=-1</m> and <m>Q(x):x\leq 1</m> are equivalent in the universe 
         <m>\mathcal{U}=\mathbb{Z}^+</m>. They are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>.

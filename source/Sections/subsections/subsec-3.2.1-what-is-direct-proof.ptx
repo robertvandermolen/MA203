@@ -9,7 +9,7 @@
 
     <assemblage>
         <title>Direct Proof of <m>P\implies Q</m></title>
-      
+      <idx><h>direct proof</h><h>steps</h></idx>
         <p>
           Assume <m>P</m>
         </p>

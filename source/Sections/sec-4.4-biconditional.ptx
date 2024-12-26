@@ -10,6 +10,9 @@
 </p>
 <assemblage>
     <title>Two-Way proof of <m>P\iff Q</m></title>
+    <idx><h>biconditional</h><h>proof</h></idx>
+    <idx><h>iff</h><h>proof</h></idx>
+    <idx><h>if and only if</h><h>proof</h></idx>
     <p>
       <alert>Prove:</alert> <m>P\implies Q</m>
     </p>

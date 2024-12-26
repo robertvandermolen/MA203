@@ -13,7 +13,9 @@
 </p>
 <definition xml:id="def-exists">
   <title>Existential Qunatifier</title>
-  
+  <idx><h>existential quantifier</h></idx>
+  <idx><h>exists</h></idx>
+  <idx><h>quantifier</h><h>existential</h></idx>
   
   <statement>
     <p>
@@ -29,6 +31,9 @@
   such that <m>P(a)</m> is true. 
 </p>
 <example>
+<idx><h>existential quantifier</h></idx>
+  <idx><h>exists</h></idx>
+  <idx><h>quantifier</h><h>existential</h></idx>
   <p>
     For this example lets consider the following predicates
   </p>

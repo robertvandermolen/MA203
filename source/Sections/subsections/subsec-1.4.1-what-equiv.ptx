@@ -6,7 +6,7 @@
   <definition xml:id="def-equiv">
     <title>Logically Equivalent</title>
     
-    
+    <idx><h>equivalent</h><h>logically equivalent</h></idx>
     <statement>
       <p>
         Two propostional forms are <term>logically equivalent</term> (or just <term>equivalent</term>) if and
@@ -25,6 +25,7 @@
 </p>
 
   <example xml:id='ex-double-negation'>
+  <idx><h>double negation</h></idx>
     <figure>
       <tabular halign="center">
         <row header="yes" bottom="minor" >

@@ -13,6 +13,8 @@
     </p>
     <assemblage>
         <title>Assuming an Or</title>
+        <idx><h>disjuntion</h><h>proofs with assuming or</h></idx>
+        <idx><h>or</h><h>proofs with assuming or</h></idx>
         <p>
           For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statment in the form of 
           <me>
@@ -87,6 +89,8 @@
       </p>
       <assemblage>
         <title>Concluding an Or</title>
+        <idx><h>disjunction</h><h>concluding or</h></idx>
+        <idx><h>or</h><h>concluding or</h></idx>
         <p>
           For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statment in the form of 
           <me>
@@ -155,6 +159,8 @@
 
     <assemblage>
       <title>Concluding an And</title>
+      <idx><h>conjunction</h><h>concluding an and</h></idx>
+      <idx><h>and</h><h>concluding an and</h></idx>
       <p>
         For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, one way to prove a statment in the form of 
         <me>

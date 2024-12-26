@@ -4,6 +4,7 @@
   <title>Quantifiers</title>
   <introduction>
     <p>
+      <idx><h>predicate</h></idx>
       It is now time to take care of those statments that were not propositons from <xref ref="not-prop-example"/>, but have 
       propably been bugging you this whole time like: <m>x+2=4</m>, which are known as an <term>open statment</term> or 
       <term>predicate</term>. But, how on earth are we to do mathematics and these sentences 

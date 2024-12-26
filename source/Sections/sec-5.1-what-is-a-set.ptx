@@ -14,6 +14,7 @@
 </p>
 <definition xml:id="def-naive-set">
     <title>Set</title>
+    <idx><h>set</h></idx>
     <statement>
         <p>
             A <term>set</term> is a well definied collection of objects. 
@@ -23,7 +24,10 @@
 <definition xml:id="def-element-of-a-set">
     <title>Element</title>
     
-    
+    <idx><h>element</h></idx>
+    <idx><h>set</h><h>element</h></idx>
+    <idx><h>member</h></idx>
+    <idx><h>set</h><h>member</h></idx>
     <statement>
         <p>
             The objects in a set are called <term>elements</term> or <em>members</em>.
@@ -105,7 +109,7 @@
   <definition xml:id="def-empty-set">
     <title>Empty Set</title>
     
-    
+    <idx><h>emptyset</h></idx>
     <statement>
         <p>
             We will call the set containing no elements the <term>empty set</term>, we denote the empty set as <m>\emptyset</m>, that is 
@@ -121,6 +125,7 @@
   </p>
   <section xml:id="sec-5-1-1-set-builder" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Set Builder Notation</title>
+<idx><h>set builder notation</h></idx>
   <p>
     Membership is the defining characteristic of a set, thus it is helpful to define a set by conditions for membership. One way to do that we call <term>set-builder notation</term>.
   </p>

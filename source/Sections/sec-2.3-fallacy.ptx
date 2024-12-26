@@ -9,11 +9,18 @@
 </p>
 
 <p>
+  
   A very common mistake that students will make when arguing is 
   what is known as <term>circular reasoning</term>.
 </p>
-<assemblage permid="pOu">
+<assemblage>
   <title>Catch 22</title>
+  <idx><h>fallacy</h><h>Catch 22</h></idx>
+  <idx><h>fallacy</h><h>circular reasoning</h></idx>
+  <idx><h>fallacy</h><h>begging the the question</h></idx>
+  <idx><h>Catch 22</h></idx>
+  <idx><h>circular reasoning</h></idx>
+  <idx><h>begging the the question</h></idx>
   <p>
     <term>Circular reasoning</term> or <term>begging the question</term>
       or <term>catch 22</term> happens when we <em>assume</em> the
@@ -60,9 +67,11 @@
   the contrapositive, or thinking the implication is stronger
   than it is.
 </p>
-<assemblage permid="pOu">
+<assemblage>
   <title>Denying the Antecedent</title>
-  <p permid="vSb">
+  <idx><h>denying the antecedent</h></idx>
+  <idx><h>fallacy</h><h>denying the antecedent</h></idx>
+  <p>
     <term>Denying the antecedent</term> is the invalid argument
   </p>
   <p>
@@ -96,9 +105,11 @@
   Another mistake in a similiar fashion again mistaking the power
   of the implication. 
  </p>
- <assemblage permid="pOu">
+ <assemblage >
   <title>Affirming the Conclusion</title>
-  <p permid="vSb">
+  <idx><h>affirming the conclusion</h></idx>
+  <idx><h>fallacy</h><h>affirming the conclusion</h></idx>
+  <p >
     <term>Affirming the conclusion</term> is the invalid argument
   </p>
   <p>

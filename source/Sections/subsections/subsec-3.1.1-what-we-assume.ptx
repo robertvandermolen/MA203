@@ -1,5 +1,6 @@
 <section xml:id="sec-4-1-1-what-we-assume" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>What We Can Assume</title>
+
     <p>
         As this is the first chapter of actual proving we will begin 
     with a detailed list!
@@ -34,6 +35,7 @@
 </p>
 <ol>
     <li>
+        <idx><h>closure of addition</h></idx>
         <p>
             Closure of addition in the Integers:
         </p>
@@ -56,6 +58,7 @@
         </p>
     </li>
     <li>
+        <idx><h>closure of multiplication</h></idx>
         <p>
             Closure of multiplication in the Integers:
         </p>
@@ -73,6 +76,7 @@
         </p>
     </li>
     <li>
+        <idx><h>division algorithm</h></idx>
         <p>
             <term>The Division Algorithm</term>
         </p>
