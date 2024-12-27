@@ -3,22 +3,194 @@
 <section xml:id="sec-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What is a Relation?</title>
     <p>
-      A relation at its heart is simple a way of formalizing the sentence Tillye is related to Nic, as Nic is Tillye's brother.
+      A relation at its heart is simple a way of formalizing sentences like: <me>\text{Bart is related to Lisa}</me>.
       
       Slightly more formal, we will take two sets and define how the elements of these sets are related to eachother.
     </p>
 
     <definition xml:id="def-relation">
         <title>Relations</title>
+        <idx><h>relation</h></idx>
         <statement>
             <p>
                 Let <m>A</m> and <m>B</m> be sets. <m>R</m> is a <term>relation</term> from <m>A</m> to <m>B</m> if and only if <m>R</m> is
                 a subset of <m>A\times B</m> That is, <me>R\subseteq A\times B</me>
             </p>
+            <p>
+              When <m>R</m> is a relation from <m>A</m> to <m>A</m> we say it is a <term>relation on</term> <m>A</m>.
+            </p>
         </statement>
     </definition>
+    <assemblage>
+    <title>Relation Notation and Verbage</title>
     <p>
-      blah..
+      For sets <m>A</m> and <m>B</m>, with a relation <m>R</m> from <m>A</m> to <m>B</m> when 
+      <me>
+        (a,b)\in R
+      </me>
+      we say:
+      <ul>
+        <li>
+          <p>
+            <m>a</m> is <m>R</m>-related to <m>b</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>a</m> is related via <m>R</m> to <m>b</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>a</m> is related to <m>b</m> (when <m>R</m> is understood in the context)
+          </p>
+        </li>
+      </ul>
     </p>
-
+    <p>
+      When <m>(a,b)\in R</m> we will write
+      <me>
+        aRb
+      </me>
+      and when <m>(a,b)\not\in R</m> we will write
+      <me>
+        a\not R b
+      </me>
+      
+    </p>
+  </assemblage>
+  <note>
+    <p>
+      Since the empty set <m>\emptyset</m>, is a subset of any set it is a relation from <m>A</m> to <m>B</m>. As well since any set is a subset of itself, the set <m>A\times B</m> is also a relation from <m>A</m> to <m>B</m>.
+    </p>
+  </note>
+    <p>
+      At first glance this definition does not seem to match up with our intuition at all, and to add to that the notation may seem very unfamiliar. Our next example hopefully at least motivates the notation.
+    </p>
+    <example>
+      <p>
+      Lets quickly examine a few relations on the real numbers, <m>\R</m>
+      <ol marker="(A)">
+        <li>
+          <p>
+            <alert>Equals:</alert> 
+            <me>
+              \{(a,a)\text{ }|\text{ }a\in\R\}
+            </me>
+            
+          </p>
+          <p>
+            <m>(a,b)\in\mathbf{\text{Equals}}</m> means <m>a=b</m>
+          </p>
+          <p>
+            This relation can be viewed as the graph of <m>y=x</m>
+          </p>
+          <image source="/images/y_equals_x.jpeg" width="65%"/>
+        </li>
+        <li>
+          <p>
+            <alert>Less than:</alert>
+            <me>
+              \{(a,b)\in\R\times\R\text{ }|\text{ }a\lt b\}
+            </me>
+            
+          </p>
+          <p>
+            <m>(a,b)\in\mathbf{\text{Less than}}</m> means <m>a\lt b</m>
+          </p>
+          <p>
+            This relation can be visualized as the following shaded region
+          </p>
+          <image source="/images/less_than.jpeg" width="65%"/>
+        </li>
+      </ol>
+    </p>
+    </example>
+    <p>
+      While admittedly this is quite a verbose way of explaining something that is already in your lexicon, hoepfully this last example helps calm your stomach or atleast motivate the notation, I would like to now step back and look at this new concept a little more abstractly.
+    </p>
+    <example>
+      <p>
+        For this example define the following two sets 
+      </p>
+      <image source="/images/z_and_f.jpeg" width="75%"/>
+      <p>
+        where <m>Z</m> consists of some animals from the zoo, and <m>F</m> is a set of some foods. 
+      </p>
+      <p>
+        We will now define the relation, <m>E</m> as the following subset of <m>Z\times F</m>
+      </p>
+      <image source="/images/e_relation.jpeg" width="100%"/>
+      <p>
+        This is the relation of <em>eats</em>. Namely, <m>(a,b)\in E</m> means <m>a</m> <em>eats</em> <m>b</m>. For example
+      </p>
+      <image source="/images/turt_pizza_in_e.jpeg" width="63%"/>
+      <p>
+        that is
+      </p>
+      <image source="/images/turt_e_pizza.jpeg" width="52%"/>
+      <p>
+        or it is read/visualized more like:
+      </p>
+      <image source="/images/turt_eats_pizza.jpeg" width="58%"/>
+      <p>
+        Next, to motivate the wordage a relation <em>from</em> <m>Z</m> to <m>F</m>, we often visualize using what I refer to as the <m>egg</m> picture, where we draw an arrow from the element in the set <m>Z</m> to the element in the set <m>F</m> it is related to.
+      </p>
+      <image source="/images/food_egg.jpeg" width="100%"/>
+    </example>
+ 
+<p>
+    For sets <m>A</m> and <m>B</m> a relation from <m>A</m> to <m>B</m> does not need <em>use</em> every element of <m>A</m> nor every element of <m>B</m>, we define the elements it does use.
+  </p>
+  <definition xml:id="def-domain">
+        <title>Domain</title>
+        <idx><h>relation</h><h>domain</h></idx>
+        <idx><h>domain</h></idx>
+        <statement>
+            <p>
+                The domain of the relation <m>R</m> from <m>A</m> to <m>B</m> is the set 
+                <me>\text{Dom}(R) = \{x\in A\text{ } |\text{ } \exists y \in B \text{ such that } xRy\}</me>
+            </p>
+        </statement>
+    </definition>
+    <definition xml:id="def-range">
+        <title>Range</title>
+        <idx><h>relation</h><h>range</h></idx>
+        <idx><h>range</h></idx>
+        <statement>
+            <p>
+                The range of a relation <m>R</m> is the set 
+                <me>\text{Rng}(R) = \{y\in B\text{ } |\text{ } \exists x \in A \text{ such that } xRy\}</me>
+            </p>
+        </statement>
+    </definition>
+    <example xml:id="ex-dom">
+        <p>
+            In this example, consider the two sets
+            <me>
+                A=\{1,2,3,4,5\}
+            </me>
+            and 
+            <me>
+                B=\{a,b,c,d,e\}
+            </me>
+            and define the relation <m>R</m> from <m>A</m> to <m>B</m> defined as 
+            <me>
+                R=\{(1,b),(3,a),(4,d),(4,e)\}
+            </me>
+            which can be visualized as:
+        </p>
+        <image source="/images/num_egg.jpeg" width="80%"/>
+        <p>
+            For this relation we have the following
+            <me>
+                \text{Dom}(R)=\{1,3,4\}
+            </me>
+            and
+            <me>
+                \text{Rng}(R)=\{a,b,d,e\}
+            </me>
+            
+        </p>
+    </example>
 </section>

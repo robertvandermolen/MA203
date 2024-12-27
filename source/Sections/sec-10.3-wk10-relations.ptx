@@ -42,7 +42,7 @@
         </statement>
     </definition>
 
-    <definition xml:id="def-domain">
+    <definition xml:id="def-domains">
         <title>Domain</title>
         <statement>
             <p>
@@ -52,7 +52,7 @@
         </statement>
     </definition>
 
-    <definition xml:id="def-range">
+    <definition xml:id="def-ranges">
         <title>Range</title>
         <statement>
             <p>
@@ -61,7 +61,7 @@
         </statement>
     </definition>
 
-    <definition xml:id="def-inverse">
+    <definition xml:id="def-inverses">
         <title>Inverse</title>
         <statement>
             <p>

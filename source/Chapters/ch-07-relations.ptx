@@ -14,5 +14,6 @@
 
   <!-- include sections -->
   <xi:include href="../Sections/sec-7.1-intro-to-relations.ptx" />
+  <xi:include href="../Sections/sec-7.2-first-properties-relations.ptx" />
 
 </chapter>
