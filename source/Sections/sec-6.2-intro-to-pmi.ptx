@@ -92,7 +92,7 @@
         </li>
         <li>
           <p>
-            <alert>(Induction Assumption)</alert> Assume we can find an <m>n\in\N</m> such that <m>P(t)</m> is true for any <m>t\in\N</m> such that <m>k\leq t\leq n</m>
+            <alert>(Induction Assumption)</alert> Assume we can find an <m>n\in\N</m> such that <m>P(n)</m> is true 
           </p>
         </li>
         <li>
@@ -165,9 +165,9 @@
 <p>
   Assume we can find an <m>n\in\N</m> such that 
   <me>
-    \sum_{i=1}^t (2i-1)=t^2
+    \sum_{i=1}^n (2i-1)=n^2
   </me>
-  for any <m>t\in\N</m> such that <m>1\leq t\leq n</m>
+  
 </p>
 </section>
 

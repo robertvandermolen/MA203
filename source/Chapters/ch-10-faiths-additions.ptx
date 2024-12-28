@@ -16,6 +16,8 @@
   -->
   <xi:include href="../Sections/sec-10.3-wk10-relations.ptx" />
   <xi:include href="../Sections/sec-10.4-partitions-wk13.ptx" />
+  <!--
   <xi:include href="../Sections/sec-10.5-remaining-exercises.ptx" />
+  -->
 
 </chapter>

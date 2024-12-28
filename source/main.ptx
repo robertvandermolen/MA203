@@ -23,8 +23,6 @@
     <xi:include href="./Chapters/ch-05-set-theory.ptx" />
     <xi:include href="./Chapters/ch-06-pmi.ptx" />
     <xi:include href="./Chapters/ch-07-relations.ptx" />
-    <xi:include href="./Chapters/ch-08-partitions.ptx" />
-    <xi:include href="./Chapters/ch-09-modular-arithmetic.ptx" />
     <xi:include href="./Chapters/ch-10-faiths-additions.ptx" />
     
     <!-- Include index of terms -->

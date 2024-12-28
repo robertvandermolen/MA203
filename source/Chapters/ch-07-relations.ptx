@@ -15,5 +15,10 @@
   <!-- include sections -->
   <xi:include href="../Sections/sec-7.1-intro-to-relations.ptx" />
   <xi:include href="../Sections/sec-7.2-first-properties-relations.ptx" />
-
+  <xi:include href="../Sections/sec-7.3-equiv-relations.ptx" />
+  <xi:include href="../Sections/sec-7.4-equiv-classes.ptx" />
+  <xi:include href="../Sections/sec-7.5-partitions.ptx" />
+  <xi:include href="../Sections/sec-7.6-functions.ptx" />
+  <xi:include href="../Sections/sec-7.7-bijections.ptx" />
+  <xi:include href="../Sections/sec-7.8-ch07-exercises.ptx" />
 </chapter>

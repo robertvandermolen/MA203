@@ -5,7 +5,7 @@
   <p>
     This is starting from week 13 in my notes...
   </p>
-  
+  <!--
   <definition xml:id="def-partition">
     <title>Partition</title>
     <statement>
@@ -32,7 +32,7 @@
       </ol>
     </statement>
   </definition>
-  
+  -->
   <definition xml:id="def-function">
     <title>Function</title>
     <statement>
@@ -98,16 +98,17 @@
   </definition>
 
 <section>
+  <!--
   <p>
     Consider the set <m>A = \{a, b, c, d, e\}</m>, and the family <m>C = \{C_1, C_2, C_3\}</m> where <m>C_1 = \{b,e\}</m>,
     <m>C_2 = \{a,c,d\}</m>, and <m>C_3 = \{b,e\}</m>
   </p>
   <p>
     It passes all three tests, so the family <m>C</m> is a partition of <m>A</m>, even thought the sets <m>C_1</m>
-    and <m>C_3</m> are not disjoint.
+    and <m>C_3</m> are not disjoint. **SAY MORE!!**
   </p>
   <p>
-    The family <m>\{C_1, C_2, C_3\}</m> is the same as the family <m>\{C_2, C_3</m>.
+    The family <m>\{C_1, C_2, C_3\}</m> is the same as the family <m>\{C_2, C_3, C_1\}</m>.
   </p>
 
   <theorem xml:id="thm-10-4-1">
@@ -154,7 +155,7 @@
       and <m>z\in C</m>. Hence by definition of <m>Q, (x,z) \in Q</m>. 
     </p>
   </proof>
-  
+  -->
   <p>
     <alert>Prove:</alert> If <m>f: A \rightarrow B</m> is one-to-one and <m>g: B \rightarrow C</m> is one-to-one, then 
     <m>g\circ f</m> is one-to-one.

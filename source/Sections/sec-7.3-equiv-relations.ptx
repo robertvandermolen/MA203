@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-3-equiv-relations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Equivalence Relations</title>
+
+  <p>
+    Equivalence relations show up a lot in your future math courses especially in algebra and number theory. Yet, before we dive into an equivalence realtion lets look at the three properties which make it up. First up is the reflexive property.
+  </p>
+  <definition xml:id="def-reflexive">
+        <title>Reflexive</title>
+        <idx><h>reflexive</h></idx>
+        <idx><h>relation</h><h>reflexive</h></idx>
+        <p>
+            We say that a relation <m>R</m> on a set <m>A</m> is <term>reflexive</term> on <m>A</m> whenever <me>\forall x\in A,\text{ } xRx</me> 
+        </p>
+    </definition>
+    <p>
+        For our first example in this section we will return to our cartoons.
+    </p>
+    <example>
+        <p>
+            Consider the following set <m>A</m>
+        </p>
+        <image source="/images/a_reflex.jpeg" width="80%"/>
+        <p>
+            and consider the relation <m>R</m> on <m>A</m> defined as
+        </p>
+        <image source="/images/reflex_egg.jpeg" width="80%"/>
+        <p>
+            or as a set
+        </p>
+        <image source="/images/reflex_def.jpeg" width="90%"/>
+        <p>
+            notice that for every element of <m>A</m> it is in an ordered pair with itself, and hence <m>R</m> is reflexive.
+        </p>
+    </example>
+    <p>
+        Let see a couple of examples of proof involving reflexive.
+    </p>
+    <example>
+        <p>
+            Consider the relation <m>S</m> on <m>\Z</m> defined as 
+            <me>
+                S=\{(a,b)\in\Z\times\Z\text{ }|\text{ }3|(a+2b)\}
+            </me>
+            <alert>Prove:</alert> <m>S</m> is reflexive
+        </p>
+        <p>
+            <proof>
+                <p>
+                    To prove this we let <m>a\in\Z</m>, to show <m>a</m> is included in an order pair with membership to <m>S</m> amounts to proving an existential. 
+                </p>
+                <p>
+                    That is we will need to produce an integer to create an ordered pair with <m>a</m>. Well, that integer is <m>a</m>.
+                </p>
+                <p>
+                    To see this simply note that
+                    <md>
+                        <mrow>a+2a \amp=3\cdot(a) </mrow>
+                    </md>
+                    and since <m>a</m> is an integer by defintion of divides <m>3</m> divides <m>a+2a</m>, and hence <m>(a,a)\in S</m>.
+                </p>
+                <p>
+                    Since we have chosen <m>a</m> arbitrary we can conclude that <m>S</m> is reflexive as desired.
+                </p>
+            </proof>
+        </p>
+    </example>
+    <example>
+        <p>
+            Let <m>A</m> be a set, and let <m>R</m> be a relation on <m>A</m>. 
+        </p>
+        <p>
+            <alert>Prove:</alert> if <m>R</m> is reflexive then <m>\text{Dom}(R)=A</m>
+        </p>
+        <p>
+        <proof>
+            <p>
+                Assume <m>R</m> is reflexive on <m>A</m>. As usual to show equality of sets (don't forget relations are sets!) we will need to break our proof into two parts.
+            </p>
+            <p>
+                <m>\mathbf{\text{Proof of }\text{Dom}(R)\subseteq A}</m>
+            </p>
+            <p>
+                As usual, let <m>a\in\text{Dom}(R)</m>, hence by definition we can find a <m>b\in A</m> such that <m>(a,b)\in R</m>, since <m>R</m> is a relation on <m>A</m> we have that <m>a\in A</m>.
+            </p>
+            <p>
+                <m>\mathbf{\text{Proof of }\text{Dom}(R)\supseteq A}</m>
+            </p>
+            <p>
+                This time, let <m>x\in A</m>, since we have assumed <m>R</m> is reflexive, by definition <m>(x,x)\in R</m> and hence by definition of domain <m>x\in\text{Dom}(R)</m>.
+            </p>
+            <p>
+                Since we have shown both <m>\text{Dom}(R)\supseteq A</m> and <m>\text{Dom}(R)\subseteq A</m> we have that <m>\text{Dom}(R)= A</m> as desired.
+            </p>
+        </proof>
+        </p>
+    </example>
+    
+    <p>
+        The next property that defines an equivalence relation is symmetric.
+    </p>
+    <definition xml:id="def-symmetric">
+        <title>Symmetric</title>
+        <idx><h>symmetric</h></idx>
+        <idx><h>relation</h><h>symmetric</h></idx>
+        <p>
+           We say that a realtion <m>R</m> on a set <m>A</m> is <term>symmetric</term> on <m>A</m> whenever <me>\forall x,y\in A,\text{ if } xRy\text{ then } yRx</me>
+        </p>
+    </definition>
+    <example>
+        <p>
+            Consider the set <me>B=\{1,2,3,4,5,6\}</me> and the relation <m>T</m> on <m>B</m> defined as 
+            <me>
+                T=\{(1,2),(1,5),(6,5),(2,1),(5,1),(5,6)\}
+            </me>
+            This relation is symmetric to see this unlike with reflexive we need not check every element of <m>B</m> we instead check every element of <m>T</m>
+            <me>
+                \text{Since }(1,2)\in T\text{ we need (and have) }(2,1)\in T
+            </me>
+            <me>
+                \text{Since }(1,5)\in T\text{ we need (and have) }(5,1)\in T
+            </me>
+            <me>
+                \text{Since }(6,5)\in T\text{ we need (and have) }(5,6)\in T
+            </me>
+            now we have exhausted all the elements of <m>T</m> and thus <m>T</m> is indeed symmetric.
+        </p>
+    </example>
+    <p>
+        Lets explore an example of a proof involving the symmetric property next.
+    </p>
+    <example>
+        <p>
+            Consider the relation <m>R</m> on <m>\Z</m> defined as 
+            <me>
+                R=\{(a,b)\in\Z\times\Z\text{ }|\text{ }3|(a+b)\}
+            </me>
+            <alert>Prove:</alert> <m>R</m> is symmetric
+        </p>
+        <p>
+            <proof>
+                <p>
+                    To prove that <m>R</m> is symmetric we must choose an arbitrary <m>(a,b)\in R</m>. By definition of <m>R</m> <m>3|(a+b)</m>, by definition of divides we can find an integer <m>k</m> such that <m>a+b=3k</m> yet since <m>a+b=b+a</m> we have that <m>b+a=3k</m> and hence <m>3|(b+a)</m> and thus <m>(b,a)\in R</m>. Hence <m>R</m> is symmetric. 
+                </p>
+            </proof>
+        </p>
+    </example>
+    <example>
+        <p>
+        <alert>Prove:</alert> If <m>S</m> is a symmetric relation on <m>A</m>, and <m>R\subseteq S</m>, then <m>R^{-1} \subseteq S</m>
+    </p>
+    <proof>
+        <p>
+            Let <m>R</m> be a relation on the set <m>A</m>. Assume <m>S</m> is a symmetric relation on <m>A</m> and <m>R\subseteq S</m>.
+            Let <m>x\in R^{-1}</m>. Thus by definition of relation, and definition of inverse, we can find <m>(p,j)\in A</m> such that 
+            <m>x=(p,j)</m>. Thus, by definition of inverse, <m>(j,p)\in R</m>. Thus by our assumption and the definition of subset, <m>(j,p)\in S</m>.
+            And, since <m>S</m> is symmetric, <m>(p,j)\in S</m>. Since <m>(p,j) = x</m>, <m>x\in S</m>
+        </p>
+        <p>
+            Since <m>x\in R^{-1}</m> and <m>x\in S</m>, by definition of subset, <m>R^{-1} \subseteq S</m>
+        </p>
+    </proof>
+
+    </example>
+    <p>
+        The final property which makes an equivalence relation is transitive.
+    </p>
+    <definition xml:id="def-transitive">
+        <title>Transitive</title>
+        <idx><h>transitive</h></idx>
+        <idx><h>relation</h><h>transitive</h></idx>
+        <p>
+            We say that a relation <m>R</m> on a set <m>A</m> is <term>transitive</term> on <m>A</m> whenever <me>\forall x, y, z \in A, \text{ if } xRy \text{ and } yRz, \text{ then } xRz</me>
+        </p>
+    </definition>
+    
+    <example>
+        <p>
+            Consider the relation <m>T</m> on <m>\Z</m> defined as 
+            <me>
+                T=\{(a,b)\in\Z\times\Z\text{ }|\text{ }6|(a-b)\}
+            </me>
+            <alert>Prove:</alert> <m>T</m> is transitive on <m>\Z</m>
+        </p>
+        <p>
+            <proof>
+                <p>
+                    To prove that <m>T</m> is transitive we must choose two elements <m>(a,b)\in T</m> and <m>(b,c)\in T</m>. 
+                </p>
+                <p>
+                    By definition of <m>T</m> both <m>6|(a-b)</m> and <m>6|(b-c)</m>. Hence by the definition of divides we can find <m>s\in\Z</m> and <m>t\in\Z</m> such that <m>a-b=6s</m> and <m>b-c=6t</m>. Calculate:
+                    <md>
+                        <mrow>a-c=(a-b)+(b-c) \amp=6s+6t </mrow>
+                        <mrow> \amp=6(s+t) </mrow>
+                    </md>
+                    since <m>s+t</m> is an integer we can conclude that <m>6|(a-c)</m> and hence <m>(a,c)\in T</m>. Therefore by the definition of transitive <m>T</m> is transitive.
+                </p>
+            </proof>
+        </p>
+    </example>
+    <example>
+        <p>
+        <alert>Prove:</alert> <m>R</m> is transitive if and only if <m>R\circ R \subseteq R</m>
+    </p>
+    <proof>
+        <p>
+            Let <m>R</m> be a relation on a non-empty set <m>A</m>
+        </p>
+        <p>
+           <m>\mathbf{\text{Proof of }R\text{ is transitive}\implies R\circR\subseteq R}</m> 
+        </p>
+        <p>
+            Assume <m>R</m> is transitive. Let <m>(x,y)\in R\circ R</m>. By definition of composition, we can find <m>z\in A</m> such that 
+            <m>(x,z)\in R</m> and <m>(z,y) \in R</m>. Since <m>R</m> is transitive, <m>(x,y)\in R</m>. 
+        </p>
+        <p>
+            Since <m>(x,y)\in R\circ R</m> and <m>(x,y) \in R</m>, by definition of subset, <m>R\circ R \subset R</m>.
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }R\text{ is transitive}\impliedby R\circ R\subseteq R}</m> 
+        </p>
+        <p>
+            Assume <m>R\circ R \subseteq R</m>. Let <m>(x,y) \in R</m> and <m>(y,z)\in R</m>. Since <m>(x,y)\in R</m> and <m>(y,z)\in R</m>,
+            by definition of composition, <m>(x,z)\in R\circ R</m>. Hence by our assumption that <m>R\circ R \subseteq R</m>, and definition
+            of subset, <m>(x,z)\in R</m>.
+        </p>
+        <p>
+            Thus, by definition of transitive, <m>R</m> is transitive.
+        </p>
+    </proof>
+    
+    </example>
+    <proposition xml:id="prop-subset">
+        <p>Let <m>A</m> be a non-empty set. For the power set <m>\mathscr{P}(A)</m>, the relation "is a subset of" is reflexive
+            on <m>\mathscr{P}(A)</m>, and transitive, but not symmetric.
+        </p>
+    </proposition>
+
+    <proof>
+        <title>Proof of <xref ref="prop-subset"/></title>
+        
+        
+        <p>
+            <alert>[Reflexive]</alert>
+        </p>
+        <p>
+            Let <m>X\in \mathscr{P}(A)</m>. (Need To Show: <m>X\subset X</m>) Assume <m>a\in X</m>. Hence, <m>a\in X</m>, thus
+            by definition of subset, <m>X\subset X</m> and hence "subset of" is reflexive.
+        </p>
+        <p>
+            <alert>[Transitive]</alert>
+        </p>
+        <p>
+            Let <m>X, Y, Z \in \mathscr{P}(A)</m> such that <m>X\subset Y</m> and <m>Y\subset Z</m>. Let <m>a\in X</m>. Thus
+            by definition of subset, since <m>X\subset Y</m>, <m>a\in Y</m>. Since <m>Y\subset Z</m>, and <m>a\in Y</m>, <m>a\in Z</m>
+            Thus, by definition of subset, since <m>a\in X</m> and <m>a\in Z</m>, <m>x\subset Z</m>. Hence "subset of" is transitive.
+        </p>
+        <p>
+            <alert>[NOT Symmetric]</alert>
+        </p>
+        <p>
+            notice
+            <m>\emptyset \subset A</m> but  <m>A \not\subset \emptyset</m> as we assumed that <m>A</m> was not empty hence "subset of" is not symmetric.
+        </p>
+    </proof>
+    <p>
+        Now we have collected all of the properties which make an equivalence relation, the definition is almost self evident.
+    </p>
+
+    <definition xml:id="def-equivalence-relation">
+        <title>Equivalence Relation</title>
+        <idx><h>equivalence relation</h></idx>
+        <idx><h>relation</h><h>equivalence relation</h></idx>
+        <statement>
+            <p>
+                A relation <m>R</m> on a set <m>A</m> is an <term>equivalence relation</term> on <m>A</m> if <m>R</m> is reflexive,
+                symmetric, and trasitive on <m>A</m>.
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <p>
+            Consider the relation <m>E</m> on <m>\Z</m> defined as
+            <me>
+                E=\{(a,b)\in\Z\times\Z\text{ }|\text{ }5|(a-b)\}
+            </me>
+            <alert>Prove:</alert> <m>E</m> is an equivalence relation
+        </p>
+        <p>
+            <proof>
+                <p>
+                    The definition of equivalence relation has three properties: 
+                    <ul>
+                        <li>
+                            <p>
+                                reflexive
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                symmetric
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                transitive
+                            </p>
+                        </li>
+                    </ul>
+                    thus a proof that a relation is an equivalence relation should be split into three parts.
+                </p>
+                <p>
+                    <alert>Proof of Reflexive:</alert>
+                </p>
+                <p>
+                    To see that <m>E</m> is reflexive we start with an arbitrary element <m>a\in\Z</m>. Now for this relation we can calculate:
+                    <md>
+                        <mrow>a-a \amp=0 </mrow>
+                        <mrow> \amp=5\cdot 0 </mrow>
+                    </md>
+                    since 0 is an integer <m>a-a</m> is thus divisible by <m>5</m>, and hence <m>(a,a)\in E</m> as desired. Therefore <m>E</m> is reflexive.
+                </p>
+                <p>
+                    <alert>Proof of Symmetric:</alert>
+                </p>
+                <p>
+                    To show that <m>E</m> is symmetric we begin by choosing a pair <m>(b,c)\in\Z\times\Z</m> such that <m>(b,c)\in E</m>. By the definition of <m>E</m> <m>5|(b-c)</m> thus by definition of divides we can find an integer <m>k</m> so that <m>b-c=5k</m> and hence <m>c-b=-5k</m> and since <m>-k</m> is an integer by definition of divides 5 divides <m>c-b</m> thus <m>(c,b)\in E</m>; therefore <m>E</m> is symmetric. 
+                </p>
+                <p>
+                    <alert>Proof of Transitive:</alert>
+                </p>
+                <p>
+                    To prove <m>E</m> is transitive we begin with two arbitrary elements of <m>E</m>, namely <m>(d,e)\in E</m> and <m>(e,f)\in E</m>. By definition of <m>E</m> 5 divides both <m>d-e</m> and <m>e-f</m>, thus by definition of divides we can find integers <m>r</m> and <m>s</m> such that <m>d-e=5r</m> and <m>e-f=5s</m>. Now calculate:
+                    <md>
+                        <mrow>d-f=(d-e)+(e-f) \amp =5r+5s </mrow>
+                        <mrow> \amp=5(r+s) </mrow>
+                    </md>
+                    siince <m>r+s</m> is an integer we have that <m>d-f</m> is divisible by <m>5</m> and thus <m>(d,f)\in E</m> and hence <m>E</m> is transitive.
+                </p>
+                <p>
+                    As we have shown that <m>E</m> is reflexive, symmetric and transitive we have have verified that <m>E</m> is an equivalence relation as desired!
+                </p>
+            </proof>
+        </p>
+    </example>
+    <p>
+        For the next example we will find the following defintion and lemma helpful.
+    </p>
+    <definition xml:id="def-partiy">
+    <title>Parity</title>
+    <idx><h>parity</h></idx>
+    
+        <statement>
+            <p>
+            We say that two integers have the same <term>parity</term> when either both are even or both are odd.
+            </p>
+        </statement>
+    </definition>
+    <lemma xml:id="lem-oddplusodd">
+        <statement>
+            <p>
+                For any integers <m>a</m> and <m>b</m> if <m>a+b</m> is divisible by 2 then <m>a</m> and <m>b</m> have the same parity. 
+            </p>
+        </statement>
+    </lemma>
+    <p>
+        <proof>
+            <title>Proof of <xref ref="lem-oddplusodd"/></title>
+            
+            <p>
+                We will approach this proof exahustive, using <xref ref='lem-odd-not-even'/> to break us into cases.
+            </p>
+            <p>
+                <alert>Case 1: <m>\mathbf{a}</m> is even and <m>\mathbf{b}</m> is even</alert>
+            </p>
+            <p>
+                In this case we assume that we can find integers <m>k</m> and  <m>\ell</m> so that <m>a=2k</m> and <m>b=2\ell</m>. Calculate
+                <md>
+                    <mrow>a+b \amp=2k+2\ell </mrow>
+                    <mrow> \amp=2(k+\ell) </mrow>
+                </md>
+                since <m>k+\ell</m> is an integer we have that <m>a+b</m> is even, hence when <m>a</m> and <m>b</m> are both even that <m>a+b</m> is even.
+            </p>
+            <p>
+                <alert>Case 2: <m>\mathbf{a}</m> is odd and <m>\mathbf{b}</m> is even</alert>
+            </p>
+            <p>
+                In this case we assume that we can find integers <m>s</m> and <m>t</m> so that <m>a=2s+1</m> and <m>b=2t</m>. Calculate
+                <md>
+                    <mrow>a+b \amp= (2s+1)+2t</mrow>
+                    <mrow> \amp=2(s+t)+1 </mrow>
+                </md>
+                since <m>s+t</m> is an integer we have that <m>a+b</m> is odd. Hence when <m>a</m> is odd and <m>b</m> is even then <m>a+b</m> is odd.
+            </p>
+            <p>
+                <alert>Case 3: <m>\mathbf{a}</m> is even and <m>\mathbf{b}</m> is odd</alert>
+            </p>
+            <p>
+                In this case we assume we can find integers <m>r</m> and <m>v</m> so that <m>a=2r</m> and <m>b=2v+1</m>. Calculate
+                <md>
+                    <mrow>a+b \amp=2r+(2v+1) </mrow>
+                    <mrow> \amp=2(r+v)+1 </mrow>
+                </md>
+                since <m>r+v</m> is an integer we have that <m>a+b</m> is odd. Hence with <m>a</m> is even and <m>b</m> is odd <m>a+b</m> is odd
+            </p>
+            <p>
+                <alert>Case 1: <m>\mathbf{a}</m> is odd and <m>\mathbf{b}</m> is odd</alert>
+            </p>
+            <p>
+                In this final case we assue we can find integes <m>n</m> and <m>m</m> so that <m>a=2n+1</m> and <m>b=2m+1</m>. Calculate
+                <md>
+                    <mrow>a+b \amp= (2n+1)+(2m+1)</mrow>
+                    <mrow> \amp=2n+2m+1+1=2n+2m+2 </mrow>
+                    <mrow> \amp=2(n+m+1) </mrow>
+                </md>
+                since <m>n+m+1</m> is an integer we conclude that <m>a+b</m> is even. Therefore when <m>a</m> is odd and <m>b</m> is odd we have that <m>a+b</m> is even.
+            </p>
+            <p>
+                Therefore we see that the only time that <m>a+b</m> is even is exactly when <m>a</m> and <m>b</m> have the same parity.
+            </p>
+        </proof>
+    </p>
+    <example>
+        <p>
+            Consider the relation <m>R</m> on <m>\Z</m> defined as
+            <me>
+                R=\{(a,b)\in\Z\times\Z\text{ }|\text{ }2|(a+b)\}
+            </me>
+            <alert>Prove:</alert> <m>R</m> is an equivalence relation
+        </p>
+        <p>
+            <proof>
+                <p>
+                    As we are proving that <m>R</m> is an equivalence relation we should split it into three parts. 
+                </p>
+                <p>
+                    <alert>Proof of Reflexive:</alert>
+                </p>
+                <p>
+                    To show relexive we start with an arbitrary element <m>a\in\Z</m>, then calculate
+                    <md>
+                        <mrow>a+a \amp=2a </mrow>
+                    </md> 
+                    and since <m>a</m> is an integer we have that <m>a+a</m> divisible by 2 and hence <m>(a,a)\in R</m> and thus <m>R</m> is reflexive.
+                </p>
+                <p>
+                    <alert>Proof of Symmetric:</alert>
+                </p>
+                <p>
+                    To prove that <m>R</m> is symmetric choose an arbitrary element <m>(x,y)\in R</m>, thus by definition of <m>R</m> we have that <m>2|(x+y)</m> hence we can find an integher <m>k</m> such that <m>x+y=2k</m>, yet note that <m>y+x=x+y=2k</m> hence <m>y+x</m> is divisible by 2 and therefore <m>(y,x)\in R</m> and hence <m>R</m> is symmetric.
+                </p>
+                <p>
+                    <alert>Proof of Transitive:</alert>
+                </p>
+                <p>
+                    To prove transitive we choose elements of <m>R</m>, namely <m>(b,c)\in R</m> and <m>(c,d)\in R</m>. By definition of membership to <m>R</m> we have that <m>2|(b+c)</m> and <m>2|(c+d)</m>, that is that both <m>b+c</m> and <m>c+d</m> are even.
+                </p>
+                <p>
+                    By <xref ref='lem-oddplusodd'/> and <xref ref='lem-odd-not-even'/> we can break the rest of our proof in to a couple of cases.
+                </p>
+                <p>
+                    <alert>Case 1: <m>\mathbf{c}</m> is even</alert>
+                </p>
+                <p>
+                    Assume that <m>c</m> is even, by <xref ref="lem-oddplusodd"/> since we have that both <m>b+c</m> is even and <m>c+d</m> is even we can conclude that both <m>c</m> and <m>d</m> are even. Hence by the definition of even we can find integers <m>n</m> and <m>m</m> such that <m>c=2n</m> and <m>d=2m</m>. Calculate
+                    <md>
+                        <mrow>b+d \amp=2n+2m </mrow>
+                        <mrow> \amp=2(n+m) </mrow>
+                    </md>
+                    since <m>n+m</m> is an integer we have that <m>2|(b+d)</m> thus <m>(b,d)\in R</m> as desired.
+                </p>
+                <p>
+                    <alert>Case 1: <m>\mathbf{c}</m> is odd</alert>
+                </p>
+                <p>
+                    Assume that <m>c</m> is odd, by <xref ref="lem-oddplusodd"/> then both <m>b</m> and <m>d</m> are odd as we have that both <m>b+c</m> and <m>c+d</m> are even. By definition of even we can find two integers <m>s</m> and <m>t</m> such that <m>b=2s+1</m> and <m>d=2t+1</m>. Calculate
+                    <md>
+                        <mrow>b+d \amp=(2s+1)+(2t+1) </mrow>
+                        <mrow> \amp=2s+2t+2 </mrow>
+                        <mrow> \amp=2(s+t+1) </mrow>
+                    </md>
+                    since <m>s+t+1</m> is an integer we have that <m>2|(b+d)</m> and thus <m>(b,d)\in R</m> as desired.
+                </p>
+                <p>
+                    Hence in both cases we have that <m>R</m> is transitive.
+                </p>
+                <p>
+                    As we have shown that <m>R</m> is reflexive, symmetric and transitive we have have verified that <m>R</m> is an equivalence relation as desired!
+                </p>
+            </proof>
+        </p>
+    </example>
+    
+    <p>
+        To finish off this section lets see a more general proof.
+    </p>
+    <example>
+        <p>
+            Let <m>A</m> be a set and let both <m>R</m> and <m>S</m> be relations on <m>A</m>.
+        </p>
+        <p>
+            <alert>Prove:</alert> if <m>R</m> and <m>S</m> are equivalence relations then <m>R\cap S</m> is an equivalence relation.
+        </p>
+        <p>
+            <proof>
+                <p>
+                    Let <m>A</m> be a set and let both <m>R</m> and <m>S</m> be relations on <m>A</m> and assume both <m>R</m> and <m>S</m> are equivalence relations. To prove that <m>R\cap S</m> is an equivalence relation we should break it down into the three conditions.
+                </p>
+                <p>
+                    <alert>Proof of Reflexive:</alert>
+                </p>
+                <p>
+                    To prove reflexive, we begin with an arbitray element <m>a\in A</m>. Since <m>R</m> and <m>S</m> are equivalence realtions they are inparticular reflexive we have that <m>(a,a)\in R</m> and <m>(a,a)\in S</m>, hence by definition of intersection <m>(a,a)\in R\cap S</m> thus <m>R\cap S</m> is reflexive.
+                </p>
+                <p>
+                    <alert>Proof of Symmetric:</alert>
+                </p>
+                <p>
+                    To prove symmetric, we choose an element <m>(x,y)\in R\cap S</m>. By definition of intersection both <m>(x,y)\in R</m> and <m>(x,y)\in S</m>. Since both <m>R</m> and <m>S</m> are equivalence relations in particular they are both symmetric and hence <m>(y,x)\in R</m> and <m>(y,x)\in S</m>, thus by the definition of intersection <m>(y,x)\in R\cap S</m>. Therefore <m>R\cap S</m> is symmetric.
+                </p>
+                <p>
+                    <alert>Proof of Transitive:</alert>
+                </p>
+                <p>
+                    To prove transitive we start with elements <m>(r,s)\in R\cap S</m> and <m>(s,t)\in R\cap S</m>, by definition of intersection we have that <m>(r,s)\in R</m>, <m>(r,s)\in S</m>, <m>(s,t)\in R</m> and <m>(s,t)\in S</m>. Since both <m>R</m> and <m>S</m> are equivalence relations, in particular they are transitive we have that <m>(r,t)\in R</m> and <m>(r,t)\in S</m>, hence by definition of intersection <m>(r,t)\in R\cap S</m>. Therefore <m>R\cap S</m> is transitive.
+                </p>
+                <p>
+                    Hence since we have shown that <m>R\cap S</m> is reflexive, symmetric, and transitive we have that <m>R\cap S</m> is an equivalence relation.
+                </p>
+            </proof>
+        </p>
+    </example>
+</section>

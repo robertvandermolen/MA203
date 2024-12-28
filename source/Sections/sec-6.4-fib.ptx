@@ -139,7 +139,7 @@
     </p>
   </assemblage>
   <p>
-    The astute student will note we are really doing nothing different here... as in PMI we said <em>for any</em> <m>n</m> so why not <m>n-1</m>. But, this really allows us to do exactly what we have been doing its just that in step (iii) it becomes quite cumbersome to balance <m>n+1</m> everywhere, so this way just lets us use <m>n</m>.
+    The astute student will note we are really doing nothing different here... as in PMI we said <em>for any</em> <m>n</m> so why not up to any <m>n-1</m>. But, this really allows us to do exactly what we have been doing its just that in step (iii) it becomes quite cumbersome to balance <m>n+1</m> everywhere, so this way just lets us use <m>n</m> as well sometimes we can just get some number less than <m>n</m> and it is there we would like to invoke the induction assumption not hitting exactly one number. This range version is much more versitile and it is the method that I personally just always default to.
   </p>
     <example>
       <p>

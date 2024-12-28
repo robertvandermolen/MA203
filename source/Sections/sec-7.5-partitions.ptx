@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-5-patitions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Partitions</title>
+
+  <p>
+    blah..
+  </p>
+
+  <definition xml:id="def-partition">
+    <title>Partition</title>
+    <idx><h>partition</h></idx>
+    <statement>
+      <p>
+        Let <m>A</m> be a non-empty set. <m>\mathscr{P}</m> is a <term>partition</term> of <m>A</m> if <m>\mathscr{P}</m> is a set of subsets of <m>A</m>
+        such that:
+      </p>
+      <ol marker="i.)">
+        <li>
+          <p>
+            If <m>X\in \mathscr{P} \text{, then }x\neq \emptyset</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>X\in \mathscr{P}</m> and <m>Y \in \mathscr{P}</m>, then <m>x=y \text{ or }x\cap y = \emptyset</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\cup X = A</m> for all <m>x\in \mathscr{P}</m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </definition>
+  <p>
+    blah..
+  </p>
+  <example>
+    <p>
+    Consider the set <m>A = \{a, b, c, d, e\}</m>, and the family <m>C = \{C_1, C_2, C_3\}</m> where <m>C_1 = \{b,e\}</m>,
+    <m>C_2 = \{a,c,d\}</m>, and <m>C_3 = \{b,e\}</m>
+  </p>
+  <p>
+    It passes all three tests, so the family <m>C</m> is a partition of <m>A</m>, even thought the sets <m>C_1</m>
+    and <m>C_3</m> are not disjoint. **SAY MORE!!**
+  </p>
+  </example>
+  <p>
+    blah.. give me a picture for gosh sakes**
+  </p>
+  <p>
+    **everything needs cleaning!** also of course provide a proof of this!!
+  </p>
+  <theorem xml:id="thm-10-4-1">
+    <statement>
+      <p>
+        If <m>R</m> is an equivalence relation on a non-empty set <m>A</m> then <m>A/R</m> is a partition of <m>A</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <theorem xml:id="thm-10-4-2">
+    <statement>
+      <p>
+        Let <m>\mathscr{P}</m> be a partition of the nonempty set <m>A</m>. For <m>x</m> and <m>y\in A</m> define <m>xQy</m> if and
+        only if there exists <m>C\in \mathscr{P}</m> such that <m>x\in C</m> and <m>y\in C</m>. Then <m>Q</m> is an equivalence
+        relation on <m>A</m>.
+      </p>
+      
+    </statement>
+  </theorem>
+
+  <proof>
+    <p>
+      <alert>[Reflexive]</alert>
+    </p>
+    <p>
+      let <m>x\in A</m>. Since <m>\mathscr{P}</m> is a partition, <m>x\in \cup X = A</m>. Hence we can find a <m>C \in \mathscr{P}</m>
+      such that <m>x\in C</m>. Hence, <m>(x,x)\in Q</m>, since <m>x\in C</m>.
+    </p>
+    <p>
+      <alert>[Symmetric]</alert>
+    </p>
+    <p>
+      Let <m>(x,y)\in Q</m>. By definition of <m>Q</m> we can find <m>C\in \mathscr{P}</m> such that <m>x\in C</m> and 
+      <m>y\in C</m>. Hence, <m>y\in C</m> and <m>x\in C</m>. Thus by definition of <m>Q, (y,x)\in Q</m>.
+    </p>
+    <p>
+      <alert>[Transitive]</alert>
+    </p>
+    <p>
+      Let <m>(x,y)\in Q</m> and <m>(y,z)\in Q</m>. By definition of <m>Q</m> we can find <m>C_1, C_2 \in \mathscr{P}</m>
+      such that <m>x\in C_1</m> and <m>y\in C_1</m>, and <m>y\in C_2</m> and <m>z\in C_2</m>. Hence, <m>y\in C_1 \cap C_2</m>.
+      Hence <m>C_1\cap C_2 \neq \emptyset</m>. Hence by definition of partition, <m>C_1=C_2</m>. Hence <m>x\in C</m>
+      and <m>z\in C</m>. Hence by definition of <m>Q, (x,z) \in Q</m>. 
+    </p>
+  </proof>
+  
+
+</section>
