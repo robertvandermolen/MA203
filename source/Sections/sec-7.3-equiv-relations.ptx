@@ -492,9 +492,7 @@
         </p>
     </example>
     
-    <p>
-        To finish off this section lets see a more general proof.
-    </p>
+   
     <example>
         <p>
             Let <m>A</m> be a set and let both <m>R</m> and <m>S</m> be relations on <m>A</m>.
@@ -531,4 +529,163 @@
             </proof>
         </p>
     </example>
+    <p>
+    An equivalence relation has a natural subdivision on the set it is on.
+  </p>
+  <definition xml:id="def-equivalence-class">
+        <title>Equivalence Class</title>
+        <idx><h>equivalence class</h></idx>
+        <idx><h>equivalence relation</h><h>equivalence class</h></idx>
+        <idx><h>Equivalence relation</h><h>representative</h></idx>
+        
+        <statement>
+            <p>
+                Let <m>R</m> be an equivalence relation on a set <m>A</m>. For <m>x \in A</m> the <term>equivalence class</term> of <m>x</m> modulo
+                <m>R</m> is the set <me>\bar{x} := \{y\in A \text{ }|\text{ } xRy\}</me>
+            </p>
+              <p>
+                Each element of <m>\bar{x}</m> is called a <term>representative</term> of this class. 
+              </p>
+              
+        </statement>
+    </definition>
+    <definition xml:id="def-modulo">
+    <title>Modulo</title>
+    <idx><h>modulo</h></idx>
+    
+        <statement>
+            <p>  
+                The set <me>A/R = \{\bar{x} \text{ }|\text{ } x\in A\}</me>
+                of all equivalence classes is called <m>A</m> <term>modulo</term> <m>R</m> (<m>A</m> mod <m>R</m>)
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <p>
+            Consider the set 
+            <me>
+                A=\{0,1,2,3,4\}
+            </me>
+            and define the relation <m>R</m> on <m>A</m> as follows
+            <me>
+                R=\{(a,b)\in A\times A\text{ }|\text{ }3|(a+2b)\}
+            </me>
+            We claim that this is an equivalence relation of <m>A</m>, yet since we just have a finite set lets just go through and find all the relations, nameley
+            <me>
+                R=\{(0,0),(1,1),(2,2),(3,3),(4,4),(0,3),(3,0),(1,4),(4,1)\}
+            </me>
+            We can then go through and check that all the properties of an equivalence relation, notice for example that the following are all memebers of <m>R</m> (0,0), (1,1), (2,2), (3,3), (4,4) and hence <m>R</m> is reflexive.
+        </p>
+        <p>
+            To continue note the follwoing are all members of <m>R</m> 
+            <md>
+                <mrow>(0,0) \amp\text{ and }(0,0) </mrow>
+                <mrow>(1,1) \amp\text{ and }(1,1) </mrow>
+                <mrow>(2,2) \amp\text{ and }(2,2) </mrow>
+                <mrow>(3,3) \amp\text{ and }(3,3) </mrow>
+                <mrow>(4,4) \amp\text{ and }(4,4) </mrow>
+                <mrow>(0,3) \amp\text{ and }(3,0) </mrow>
+                <mrow>(1,4) \amp\text{ and }(4,1) </mrow>
+            </md>
+            and hence <m>R</m> is symmetric. For transitive we check them all again that all of the  following are members of <m>R</m>
+            <md>
+                <mrow>(0,0)\text{, }(0,3) \amp\text{ and }(0,3) </mrow>
+                <mrow>(0,3)\text{, }(3,0) \amp\text{ and }(0,0) </mrow>
+                 <mrow>(3,3)\text{, }(3,0) \amp\text{ and }(3,0) </mrow>
+                  <mrow>(0,3)\text{, }(3,3) \amp\text{ and }(0,3) </mrow>
+                <mrow>(1,1)\text{, }(1,4) \amp\text{ and }(1,4) </mrow>
+                <mrow>(4,1)\text{, }(1,1) \amp\text{ and }(4,1) </mrow>
+                 <mrow>(4,4)\text{, }(4,1) \amp\text{ and }(4,1) </mrow>
+                  <mrow>(4,1)\text{, }(1,1) \amp\text{ and }(4,1) </mrow>
+                   <mrow>(1,4)\text{, }(4,4) \amp\text{ and }(1,4) </mrow>
+            </md>
+            Now note the following equivalence classes:
+            <md>
+                <mrow>\bar{0}=\bar{3} \amp=\{0,3\} </mrow>
+                <mrow>\bar{1}=\bar{4} \amp=\{1,4\} </mrow>
+                <mrow>\bar{2} \amp=\{2\} </mrow>
+            </md>
+        </p>
+        
+    </example>
+    <proposition xml:id="prop-equiv">
+        <statement>
+            <p>
+                Let <m>R</m> be an equivalence relation on a nonempty set <m>A</m>. For all <m>x</m> and <m>y</m> in <m>A</m>,
+            </p>
+            <ol marker="a.)">
+                <li><m>x\in \bar{x}</m> and <m>\bar{x} \subseteq A</m></li>
+                <li><m>xRy</m> if and only if <m>\bar{x} = \bar{y}</m></li>
+                <li><m>x</m> is not related to <m>y</m> if and only if <m>\bar{x}\cap \bar{y} = \emptyset</m></li>
+            </ol>
+        </statement>  
+    </proposition>
+
+    <proof>
+        <title>Proof of <xref ref="prop-equiv"/></title>
+        
+        <p>
+            We prove part (a) and part (b), leaving part (c) as an exercise.
+        </p>
+        <p>
+           Proof of part (a) 
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }x\in\bar{x}}</m>
+        </p>
+        <p>
+            Let <m>x\in A</m>, since <m>R</m> is an equivalence relation, in particular it is reflexive, thus <m>xRx</m>, hence by definition of <m>\bar{x}</m>, <m>x\in \bar{x}</m>
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }\bar{x} \subseteq A}</m>
+        </p>
+        <p>
+            Let <m>\ell\in \bar{x}</m>. Thus by definition of <m>\bar{x}</m>, <m>xR\ell</m>. Hence, <m>(x,l)\in R</m>.
+            Since <m>R</m> is a relation on <m>A</m>, <m>R\subseteq A\times A</m>. Hence by definition of cross product, <m>\ell\in A</m>.
+        </p>
+        <p>
+            Proof of (b) <m>xRy</m> if and only if <m>\bar{x} = \bar{y}</m>
+        </p>
+        <p>
+            Let <m>R</m> be a relation on a non-empty set <m>A</m>
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }xRy\implies\bar{x}=\bar{y}}</m> 
+        </p>
+        <p>
+            Let <m>(x, y) \in R</m>, as our objective is to prove equality of sets we should break it into two parts.
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }\bar{x}\subseteq\bar{y}}</m>
+        </p>
+        <p>
+            Let <m>a \in \bar{x}</m>. Thus by definition of equivalence class <m>xRa</m>. Since <m>R</m> is an equivalence
+            relation, it is symmetric, and as we assumed <m>(x,y)\in R</m>, we can thus conclude <m>(y,x) \in R</m>. Since
+            <m>R</m> is an equivalence relation, it is also transitive. And since we already concluded <m>(y,x)\in R</m>
+            and <m>(x,a) \in R</m> we can now conclude <m>(y,a)\in R</m>.
+        </p>
+        <p>
+            Thus by definition of equivalence class, <m>a\in \bar{y}</m>. Thus by definition of subset, <m>\bar{x} \subseteq \bar{y}</m>.
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }\bar{x}\supseteq\bar{y}}</m>
+        </p>
+        <p>
+            let <m>a\in \bar{y}</m>. Thus by definition of equivalence class <m>yRa</m>. Since <m>R</m> is an equivalence relation,
+            it is transitive. And since we already concluded <m>(x,y)\in R</m> and <m>(y,a) \in R</m>, we can now conclude
+            <m>(x,a) \in R</m>.
+        </p>
+        <p>
+            Thus by definition of equivalence class, <m>a\in \bar{y}</m>. Thus by definition of subset, <m>\bar{x} = \bar{y}</m>
+        </p>
+        <p>
+            <m>\mathbf{\text{Proof of }xRy\impliedby\bar{x}=\bar{y}}</m>
+        </p>
+        <p>
+            Let <m>x \in A</m> and <m>y\in A</m> such that <m>\bar{x} = \bar{y}</m>. Since <m>R</m> is an equivalence relation, it is reflexive.
+            Hence, <m>xRx</m>. Thus by definition of <m>\bar{x}</m>, <m>x\in \bar{x}</m>. Since we assumed <m>\bar{x} = \bar{y}</m>, in particular
+            <m>\bar{x} \subseteq \bar{y}</m>, <m>x\in \bar{y}</m>. By definition of <m>\bar{y}</m>, <m>yRx</m>. Since <m>R</m> is an equivalence
+            relation, it is symmetric. Since we concluded <m>(y,x)\in R</m>, we can conclude <m>(x,y)\in R</m>
+        </p>
+    </proof>
 </section>

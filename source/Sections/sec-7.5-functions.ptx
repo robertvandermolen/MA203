@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-6-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+  <p>
+    Functions are important no matter the field you go into, and you have had a lot of experience with functions up to this point. Lets now formalize the definiton of function as a specific type of relation.
+  </p>
+  <definition xml:id="def-function">
+    <title>Function</title>
+    <idx><h>function</h></idx>
+    <idx><h>mapping</h></idx>
+    <idx><h>function</h><h>domain</h></idx>
+    <idx><h>mapping</h><h>domain</h></idx>
+    <idx><h>function</h><h>codomain</h></idx>
+    <idx><h>mapping</h><h>codomain</h></idx>
+    <idx><h>codomain</h></idx>
+    <statement>
+      <p>
+        A <term>function</term>, or <term>mapping</term>, from <m>A</m> to <m>B</m> is a relation <m>f</m> from <m>A</m> to <m>B</m> such that:
+      </p>
+      <ol marker="(i)">
+        <li>
+          <p>
+            The domain of <m>f</m> is <m>A</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>(x,y)\in f</m> and <m>(x,z)\in f</m> then <m>y=z</m>
+          </p>
+        </li>
+      </ol>
+      <p>
+        For a function <m>f</m> we write <me>f: A \rightarrow B</me> We <em>say</em> 
+        <me>\text{"}f \text{ is a function from } A \text{ to } B\text{"}</me>
+        or 
+        <me>\text{"}f \text{ maps }A\text{ to }B\text{"}</me>
+      </p>
+      <p>
+        The set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
+      </p>
+      <p>
+       In the case where <m>B=A</m>, we say that 
+       <me>f\text{ is a function on }A\text{"}</me>
+      </p>
+      <p>
+        When <m>(x,y)\in f</m>, we write <m>y=f(x)</m>.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    At first glance condition (ii) may look forign to you, yet in your calculus and college algebra class you probably just called this the horizontal line test, seen in this next example.
+  </p>
+  <example>
+    <p>
+      We saw that <em>equals</em> was a relation at the beginning of this chapter in <xref ref="ex-equals"/>, indeed it is also a function. To use it in the our new context of functions, define the function
+      <me>
+        f:\R\rightarrow\R
+      </me>
+      as 
+      <me>
+        f(x)=x
+      </me>
+    </p>
+    <image source="/images/horz_test.jpeg" width="75%"/>
+    <p>
+      Notice that where we choose to draw a horizontal line is the choice of an element of the domain of <m>f</m>, i.e. an element of <m>\R</m>, and the condition that the horizontal line only hits the graph once is the condition the f(x) has only one output, as is condition (ii) of being a function. 
+    </p>
+  </example>
+  <example>
+    <p>
+      Notice that the <em>eats</em> relation from <xref ref="ex-eats"/> is not a function as both
+    </p>
+    <image source="/images/turt_leaf.jpeg" width="55%"/>
+    <p>
+    and
+    </p>
+    <image source="/images/turt_pizza.jpeg" width="55%"/>
+    <p>
+      So lets condsider a slightly different relation, by putting the turtle on a diet,
+      <me>
+        D:Z\rightarrow F
+      </me>
+      defined as the following
+    </p>
+    <image source="/images/d.jpeg" width="100%"/>
+    <p>
+      Now it makes sense to use the <em>of</em> notation of functions because for example there is only one way to write the folowing:
+    </p>
+    <image source="/images/turt_of_leaf.jpeg" width="55%"/>
+  </example>
+<p>
+  The jump from relations to functions can be jarring to students especially with all of the corresponding notations, we take a momemnt now and attempt to make sense of them.
+</p>
+ <assemblage>
+    <title>Functions VS Relations</title>
+    <p>
+      Let <m>A</m> and <m>B</m> be sets, and consider a function <m>f:A\rightarrow B</m>. 
+      </p>
+      <p>
+      At the root a function is just a <em>relation</em> and hence <m>f\subseteq A\times B</m> 
+      </p>
+      <p>
+      Instead of wrting <m>(x,y)\in f</m> or <m>xfy</m> we  write <m>f(x)=y</m>, moreover we most often don't write the <m>y</m>, that is we have <m>x\in A</m> and <m>f(x)\in B</m>.
+      </p>
+      <p>
+        To put this context of realtions once again (and hopefully not make it too much more convoluted) we have
+      <me>
+        (f,f(x))\in f
+      </me>
+      and 
+      <me>
+        x\text{ }f\text{ }f(x)
+      </me>
+    </p>
+  </assemblage>
+  <p>
+    The next concepts come up over and over again in algebra, analysis and topology.
+  </p>
+<definition xml:id="def-image">
+        <title>Image</title>
+        <idx><h>image</h></idx>
+        <idx><h>function</h><h>image</h></idx>
+        <statement>
+            <p>
+               Let <m>f:A\rightarrow B</m>, and let <m>X \subseteq A</m>, The <term>image</term> of <m>X</m> (or <term>image set</term>) is defined as
+            </p>
+            <p>
+                <me>f(X) = \{y \in B \text{ }|\text{ } y = f(x) \text{ for some } x \in X\}</me>
+            </p>
+        </statement>
+    </definition>
+
+        <definition xml:id="def-inverse-image">
+        <title>Inverse Image</title>
+        <idx><h>inverse image</h></idx>
+        <idx><h>function</h><h>inverse image</h></idx>
+        <statement>
+          <p>
+               Let <m>f:A\rightarrow B</m>, and let <m>Y \subseteq B</m>, The <term>inverse image</term> of <m>X</m> (or <term>inverse image set</term>) is defined as
+            </p>
+            <p>
+               <me>f^{-1}(Y) = \{x \in A \text{ }|\text{ } f(x) \in Y\}</me>
+            </p>
+        </statement>
+    </definition>
+    <note>
+      <p>
+        The inverse image should not be confused with the inverse relation.
+      </p>
+    </note>
+    
+<proposition xml:id="prop-image">
+    <statement>
+      <p>
+        Let <m>f: A \rightarrow B, C</m> and <m>D</m> be subsets of <m>A</m>, and <m>E</m> and <m>F</m> be subsets of <m>B</m>. 
+      </p>
+      <ol marker="(a)">
+        <li>
+          <p>
+            <m>f(C\cap D) \subseteq f(C) \cap f(D)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f^{-1}(E \cap F) = f^{-1}(E) \cap f^{-1}(F)</m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </proposition>
+
+  <proof>
+    <title>Proof of <xref ref="prop-image"/></title>
+    
+    
+    <p>
+      <alert>Proof of (a)</alert>
+    </p>
+    <p>
+      Let <m>x\in f(C\cap D)</m>. Thus by definition of image, we can find a <m>j \in C\cap D</m> such that <m>f(j) = x</m>. By definition of intersect,
+      <m>j \in C</m> and <m>j \in D</m>. Since <m>j \in C</m>, by definition of image, <m>x \in f(C)</m> as well. Since <m>j \in D</m>, by definition of image,
+      <m>x \in f(D)</m>. Thus, by definition of intersection, <m>x \in f(C)\cap f(D)</m>.
+    </p>
+    <p>
+      <alert>Proof of (b)</alert>
+    </p>
+    <p>
+      To show equality we should as usual break it into two parts.
+    </p>
+    <p>
+      <m>\mathbf{\text{Proof of }f^{-1}(E \cap F)\subseteq f^{-1}(E) \cap f^{-1}(F)}</m>
+    </p>
+    <p>
+      Let <m>x \in f^{-1}(E\cap F)</m>. Thus by definition of inverse image, <m>f(x)\in E\cap F</m>. Thus by definition of intersection, <m>f(x) \in E</m>
+      and <m>f(x) \in F</m>. By definition of inverse image, <m>x\in f^{-1}(E)</m> and <m>x\in f^{-1}(F)</m>. Hence, by definition of intersection,
+      <m>x\in f^{-1}(E)\cap f^{-1}(F)</m>.
+    </p>
+    <p>
+      <m>\mathbf{\text{Proof of }f^{-1}(E \cap F)\supseteq f^{-1}(E) \cap f^{-1}(F)}</m>
+    </p>
+    <p>
+      Let <m>y\in f^{-1}(E)\cap f^{-1}(F)</m> hence by definition of intersection <m>y\in f^{-1}(E)</m> and <m>y\in f^{-1}(F)</m>. By definition of inverse image we have that both <m>f(y)\in E</m> and <m>f(y)\in F</m> hence by defintion of intersection we have that <m>f(y)\in E\cap F</m>. Therefore by definition of preimage we have that <m>y\in f^{-1}(E\cap F)</m> as desired.
+    </p>
+    <p>
+      Since we have shown <m>f^{-1}(E \cap F)\subseteq f^{-1}(E) \cap f^{-1}(F)</m> and <m>f^{-1}(E \cap F)\supseteq f^{-1}(E) \cap f^{-1}(F)</m> we can thus conclude <m>f^{-1}(E \cap F)= f^{-1}(E) \cap f^{-1}(F)</m>
+    </p>
+  </proof>
+  <p>
+    Lets end this section with a couple more examples of proofs invovling these new concepts.
+  </p>
+ 
+<example>
+  <p>
+    Let <m>f:A\rightarrow B, D\subseteq A</m> and <m>E\subseteq B</m>
+  </p> 
+  <p>
+  <alert>Prove: <m>f(f^{-1}(E))\subseteq E</m></alert>
+  </p>
+  <proof>
+    <p>
+    Let <m>x\in f(f^{-1}(E))</m>. By the definition of image, we can find <m>y\in f^{-1}(E)</m> such that <m>f(y)=x</m>. By definition of inverse image, 
+    <m>f(y)\in E</m>. Thus, since <m>f(y) = x</m> we have that <m>x\in E</m>, therefore <m>f(f^{-1}(E))\subseteq E</m>. 
+    </p>
+  </proof>
+</example>
+<example>
+  <p>
+    Let <m>f: A\rightarrow B</m>, and let <m>X\subseteq A</m>,  <m>Y \subseteq A</m>, <m>U\subseteq B</m>, and <m>V \subseteq B</m>. 
+  </p>
+  <p>
+  <alert>Prove: <m>f^{-1}(U) - f^{-1}(V) = f^{-1}(U-V)</m></alert>.
+  </p>
+  <proof>
+    <p>
+      As this is a proof of equality of sets we should break the proof into two pieces.
+    </p>
+    <p>
+      <m>\mathbf{\text{Proof of }f^{-1}(U) - f^{-1}(V)\subseteq f^{-1}(U-V)}</m>
+    </p>
+    <p>
+      Let <m>x\in f^{-1}(U) - f^{-1}(V)</m>. By defintion of difference, <m>x\in f^{-1}(U)</m> and <m>x \not\in f^{-1}(V)</m>. By definition of inverse image,
+      <m>f(x)\in U</m> and <m>f(x)\not\in V</m>. By definition of difference, <m>f(x)\in U-V</m>. Thus, by definition of inverse image, <m>x\in f^{-1}(U-V)</m>.
+    </p>
+    <p>
+      <m>\mathbf{\text{Proof of }f^{-1}(U) - f^{-1}(V)\supseteq f^{-1}(U-V)}</m>
+    </p>
+    <p>
+      Let <m>y\in f^{-1}(U-V)</m> by definition of inverse image <m>f(y)\in U-V</m>, by definition of difference <m>f(y)\in U</m> and <m>f(y)\not\in V</m> hence by definition of inverse image <m>y\in f^{-1}(U)</m> and <m>y\not\in f^{-1}(V)</m>, thus by definition of difference <m>y\in f^{-1}(U)-f^{-1}(V)</m>
+    </p>
+    <p>
+      Since we have shown both <m>f^{-1}(U) - f^{-1}(V)\subseteq f^{-1}(U-V)</m> and <m>f^{-1}(U) - f^{-1}(V)\supseteq f^{-1}(U-V)</m> we can conclude <m>f^{-1}(U) - f^{-1}(V)=f^{-1}(U-V)</m>
+    </p>
+  </proof>
+
+</example>
+
+</section>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-7-bijections" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Bijections</title>
+  <p>
+    The concept of something being the same as something else is ubiquitous in mathematics. In this course we have already seen that equals is not as easy as it may of first seemed when dealing with sets. The bijection is how we go about in our combinatorics, algebra, and many other classes to show two objects we are studying are the <em>same</em>.
+  </p>
+  <definition xml:id="def-surjection">
+    <title>Surjection</title>
+    <idx><h>surjecction</h></idx>
+    <idx><h>function</h><h>surjection</h></idx>
+    <idx><h>onto</h></idx>
+    <idx><h>function</h><h>onto</h></idx>
+    <statement>
+      <p>
+        A function <m>f:A \rightarrow B</m> is <term>onto</term> <m>B</m>, or is a <term>surjection</term> means
+        <me>\text{Rng}(f)=B</me>. When <m>f</m> is a surjection, we write <me>f:A \twoheadrightarrow B</me> or 
+        <me>f: A \overset{\text{onto}}{\rightarrow} B</me>.
+      </p>
+    </statement>
+  </definition>
+  <example>
+    <p>
+      A function that is surjective just needs to ht every element in the codomain. Consider the two sets 
+      <me>
+        A=\{1,2,3,4,5\}
+      </me>
+      and 
+      <me>
+        B=\{a,b,c,d,e\}
+      </me>
+     and consider the function <m>f:A\rightarrow B</m> defined as
+    </p>
+    <image source="/images/surj_egg.jpeg" width="75%"/>
+
+  </example>
+<p>
+  Blah.. .example... maybe a proof?
+</p>
+  <definition xml:id="def-injection">
+    <title>Injection</title>
+    <idx><h>injection</h></idx>
+    <idx><h>function</h><h>injection</h></idx>
+    <idx><h>function</h><h>one-to-one</h></idx>
+    <idx><h>one-to-one</h></idx>
+    <statement>
+      <p>
+        A function <m>f:A \rightarrow B</m> is <term>one-to-one</term>, or is an <term>injection</term>, means
+       </p>
+       <p> 
+        whenever <m>f(x)=f(y)</m>
+        then <m>x=y</m>. 
+      </p>
+      <p>
+        We write this as <me>f:A \hookrightarrow B</me>, or <me>f: A \overset{\text{1-1}}{\rightarrow} B</me>.
+      </p>
+    </statement>
+  </definition>
+  <example>
+    <p>
+      A function that is injective just needs that no two inputs hit the same output. Consider, again, the two sets 
+      <me>
+        A=\{1,2,3,4,5\}
+      </me>
+      and 
+      <me>
+        B=\{a,b,c,d,e\}
+      </me>
+     and consider this time the function <m>f:A\rightarrow B</m> defined as
+    </p>
+    <image source="/images/inj_egg.jpeg" width="75%"/>
+
+  </example>
+  <p>
+    Before we jump into our next example, lets shed a little light on composing functions.
+  </p>
+  <assemblage>
+    <title>Composing Functions</title>
+    <p>
+      Once again functions are just relations, thus we have already defined how to compose them. For example considering three sets <m>A</m>, <m>B</m>, and <m>C</m> and two functions <m>f:A\rightarrow B</m> and <m>g:B\rightarrow C</m> then we can consider the composition <m>g\circ f:A\rightarrow C</m>. 
+      </p>
+      <p>
+      When considering relations we would of taken a pair <m>(a,c)\in g\circ f</m> to only be a member of <m>g\circ f</m> when we could find an element <m>b\in B</m> such that <m>(a,b)\in f</m> and <m>(b,c)\in g</m>, with a function this element is self evident, it is <m>f(a)</m> since <m>(a,b)\in f</m> means <m>f(a)=b</m>, and furthermore since <m>\text{Dom}(f)=A</m> we know we have such a <m>b</m> (another reason that the notation <m>f(a)</m> even makes sense). That is we interpret the composition of functions as 
+      <me>
+        g\circ f(x)=g(f(x))
+      </me>
+       
+    </p>
+  </assemblage>
+  <example>
+    <p>
+    <alert>Prove:</alert> If <m>f: A \rightarrow B</m> is one-to-one and <m>g: B \rightarrow C</m> is one-to-one, then 
+    <m>g\circ f</m> is one-to-one.
+  </p>
+
+  <proof>
+    <p>
+      Assume <m>f: A \hookrightarrow B</m> and <m>g: B \hookrightarrow C</m>. Let <m>x\in A</m> and <m>y\in A</m> such that 
+      <m>g\circ f(x) = g\circ f(y)</m>.
+    </p>
+    <p>
+      By definition of function we can have that <m>f(x)\in B</m> <m>f(y)\in B</m>.
+    </p>
+    <p>
+      By assumption that <m>g\circ f(x) = g\circ f(y)</m>, that is <m>g(f(x)) = g(f(y))</m>. By our assumption that <m>g</m> is one-to-one, <m>f(x)=f(y)</m>. Thus, by our assumption that <m>f</m> is one-to-one, <m>x=y</m>. Hence <m>f\circ g</m> is one-to-one
+    </p>
+  </proof>
+  </example>
+  <p>
+    blah..
+  </p>
+  <proposition xml:id="prop-inverse">
+    <statement>
+      <p>
+        <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m> if and only if <m>f</m> is one-to-one.
+      </p>
+    </statement>
+  </proposition>
+
+  <proof>
+    <title>Proof of <xref ref="prop-inverse"/></title>
+    
+    
+    <p>
+      [<m>\impliedby</m>] (If <m>f</m> is one-to-one, then <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m>.)
+    </p>
+    <p>
+      1.) Assume <m>f</m> is one-to-one. We want to show that Dom(<m>f^{-1})=</m>Rng(<m>f</m>). This proof is in section 10.6.1.
+    </p>
+    <p>
+      2.) Let <m>x \in B</m> and <m>y, z \in A</m> such that <m>f^{-1}(x)=y</m> and <m>f^{-1}(x)=z</m>. By definition of inverse, <m>f(y)=x</m>
+      and <m>f(z)=x</m>. Thus, by our assumption, <m>y=z</m>.
+    </p>
+    <p>
+      [<m>\implies</m>]
+    </p>
+    <p>
+      Assume <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m>, that is, <m>(f: \text{ Rng}(f) \rightarrow A)</m>
+    </p>
+    <p>
+      Let <m>x,y \in A</m> such that <m>f(x)=f(y)</m>. Name this element <m>(f(x)=f(y))</m> something, say, <m>w</m>. By definition of inverse, <m>f^{-1}(w)=x</m>
+      and <m>f^{-1}(w)=y</m>. Thus, by our assumption, <m>x=y</m>.
+    </p>
+  </proof>
+  <p>
+    blah..
+  </p>
+
+  <definition xml:id="def-bijection">
+    <title>Bijection</title>
+    <idx><h>bijection</h></idx>
+    <idx><h>function</h><h>bijection</h></idx>
+    <idx><h>function</h><h>one-to-one correspondence</h></idx>
+    <idx><h>one-to-one correspondence</h></idx>
+    <statement>
+      <p>
+        A function <m>f:A \rightarrow B</m> is a <term>one-to-one correspondence</term>, or a <term>bijection</term> means
+      </p>
+      <p>
+         <m>f</m>
+        is one-to-one and onto <m>B</m>. 
+        </p>
+        <p>
+        We write this as <me>f: A \overset{\sim}{\rightarrow} B</me>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    blah.. some examples for sure...
+  </p>
+  
+  <proposition xml:id="prop-bij-comp">
+    <statement>
+      <p>
+        If <m>f: A\rightarrow B</m> is a bijection, and <m>g: B\rightarrow C</m> is a bijection, then <m>g\circ f: A\rightarrow C</m>
+        is a bijection.
+      </p>
+    </statement>
+  </proposition>
+
+  <proof>
+    <title>Proof of <xref ref="prop-bij-comp"/></title>
+    
+    
+    <p>
+      Assume <m>f</m> is a bijection from <m>A</m> to <m>B</m> and <m>g</m> is a bijection from <m>B</m> to <m>C</m>.
+    </p>
+    <p>
+      <alert>[1-to-1]</alert>
+    </p>
+    <p>
+      Let <m>x\in A</m> and <m>y\in A</m> such that <m>g\circ f(x) = g\circ f(y)</m>. By definition of composition we can find
+      <m>z\in B</m> and <m>w\in B</m> such that <m>g(w) = g\circ f(y)</m> and <m>f(y) = w</m> and <m>g(z) = g\circ f(x)</m> 
+      and <m>f(x) = z</m>.
+    </p>
+    <p>
+      By our assumption that <m>g(w) = g(z)</m>, as <m>g</m> is a bijection, in particular one-to-one, <m>w=z</m>. Hence 
+      <m>f(x) = f(y)</m>. Since <m>f</m> is a bijection, in particular one-to-one, <m>x=y</m>.
+    </p>
+    <p>
+      <alert>[Onto]</alert> (WTS: Rng<m>(g\circ f) = C</m>)
+    </p>
+    <p>
+      <alert>[<m>\subset</m>]</alert>
+    </p>
+    <p>
+      Let <m>y\in \text{ Rng}(g\circ f)</m>. By definition of range, <m>y\in C</m>. Thus, Rng<m>(g\circ f) \subset C</m>.
+    </p>
+    <p>
+      <alert>[<m>\subset</m>]</alert>
+    </p>
+    <p>
+      Let <m>y\in C</m>. Thus by our assumption that <m>g</m> is a bijection, specifically surjective, we can find <m>w\in B</m>
+      such that <m>g(w) = y</m>.
+    </p>
+    <p>
+      Thus by assumption that <m>f</m> is a bijection, specifically surjective, we can find <m>x\in A</m> such that <m>f(x) = w</m>.
+      Thus by definition of composition, <m>g\circ f(x) =  y</m>. Hence, <m>y\in \text{ Rng}(g\circ f)</m>. Thus
+      <m>C \subset \text{ Rng}(g\circ f)</m>.
+    </p>
+    <p>
+      Thus, Rng<m>(g\circ f) = C</m>
+    </p>
+    <p>
+      Thus, <m>g\circ f: A \rightarrow C</m> is a bijection. 
+    </p>
+  </proof>
+  
+  
+
+</section>

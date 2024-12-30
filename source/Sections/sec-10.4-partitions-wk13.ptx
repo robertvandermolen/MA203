@@ -32,7 +32,7 @@
       </ol>
     </statement>
   </definition>
-  -->
+  
   <definition xml:id="def-function">
     <title>Function</title>
     <statement>
@@ -96,7 +96,7 @@
       </p>
     </statement>
   </definition>
-
+-->
 <section>
   <!--
   <p>
@@ -155,7 +155,7 @@
       and <m>z\in C</m>. Hence by definition of <m>Q, (x,z) \in Q</m>. 
     </p>
   </proof>
-  -->
+  
   <p>
     <alert>Prove:</alert> If <m>f: A \rightarrow B</m> is one-to-one and <m>g: B \rightarrow C</m> is one-to-one, then 
     <m>g\circ f</m> is one-to-one.
@@ -346,6 +346,6 @@
     </p>
   </proof>
 
-
+-->
 </section>
 </section>

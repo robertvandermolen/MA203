@@ -67,7 +67,7 @@
     <p>
       At first glance this definition does not seem to match up with our intuition at all, and to add to that the notation may seem very unfamiliar. Our next example hopefully at least motivates the notation.
     </p>
-    <example>
+    <example xml:id="ex-equals">
       <p>
       Lets quickly examine a few relations on the real numbers, <m>\R</m>
       <ol marker="(A)">
@@ -109,7 +109,7 @@
     <p>
       While admittedly this is quite a verbose way of explaining something that is already in your lexicon, hoepfully this last example helps calm your stomach or atleast motivate the notation, I would like to now step back and look at this new concept a little more abstractly.
     </p>
-    <example>
+    <example xml:id="ex-eats">
       <p>
         For this example define the following two sets 
       </p>

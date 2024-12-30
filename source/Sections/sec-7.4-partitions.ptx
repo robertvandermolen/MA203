@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-5-patitions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Partitions</title>
+
+  <p>
+   When I say partition you already have a sense of the word, like wall or a fence, it brings to mind seperate areas or groups. We make this concept inside of a set more formal in our following definition. 
+  </p>
+
+  <definition xml:id="def-partition">
+    <title>Partition</title>
+    <idx><h>partition</h></idx>
+    <statement>
+      <p>
+        Let <m>A</m> be a non-empty set. <m>\mathscr{P}</m> is a <term>partition</term> of <m>A</m> if <m>\mathscr{P}</m> is a set of subsets of <m>A</m>
+        such that:
+      </p>
+      <ol marker="(i)">
+        <li>
+          <p>
+            If <m>X\in \mathscr{P} \text{, then }X\neq \emptyset</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>X\in \mathscr{P}</m> and <m>Y \in \mathscr{P}</m>, then <m>X=Y</m> or <m>X\cap Y = \emptyset</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\displaystyle\bigcup_{X\in\mathscr{P}} X = A</m> 
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </definition>
+  <p>
+    This is quite a rigourus of a definition but do not loose that this is simply seperating things into seperate non-overlapping groups somewhat like a drawer organizer.
+  </p>
+  <image source="/images/drawer.png" width="80%"/>
+  <p>
+    Sets at their heart have no defining characteristics, so we often draw them as blobs with no discernible shape so as we do not accidently divine some pattern that does not exist. We then visulaize a partition as a sectioning off of this amorphous blob as in the following figure, where we have an arbitrary set <m>A</m> and a family of subsets <m>\mathscr{X}=\{X_1,X_2,X_3,X_4,X_5,X_6,X_7,X_8\}</m> which partition <m>A</m>.
+  </p>
+  <image source="/images/blob.jpeg" width="80%"/>
+  <example>
+    <p>
+      Consider the set <m>T</m> containing the following elements
+    </p>
+    <image source="/images/toy_set.jpeg" width="100%"/>
+    <p>
+      and consider the family of subsets <m>\mathscr{S}=\{S_1,S_2,S_3,S_4\}</m>, where each set is defined as follows
+    </p>
+    <image source="/images/ess.jpeg" width="49%"/>
+    <p>
+      Notice that all of the subsets are non-empty (condition (i))any two sets that are not the same share no toys (condition (ii)), and that they indeed include all of the toys (condition (iii))
+    </p>
+    <image source="/images/blob_toys.jpeg" width="67%"/>
+  </example>
+  <example>
+    <p>
+      Consider the family of set <m>\mathscr{A}=\{A_n\text{ }|\text{ }n\in\N\}</m> where each set is defined as follows for any <m>n\in\N</m>
+      <me>
+        A_n=\{a\in\Z\text{ }|\text{ }3|(a-n)\}
+      </me>
+      <alert>Prove:</alert> <m>\mathscr{A}</m> is a partition of <m>\Z</m>.
+    </p>
+    <p>
+      <proof>
+         <p>
+        There are three conditions to being a partition, so we will split our proof into three parts
+      </p>
+      <p>
+        <alert>Condition (i)</alert>
+      </p>
+      <p>
+        Let <m>n\in\N</m>, notice that <m>(n-n)=0=3\cdot0</m> and since <m>0</m> is an integer we can conclude that <m>3</m> divides <m>n-n</m> and hence <m>n\in A_n</m>.
+      </p>
+      <p>
+        Therefore for any <m>n\in\N</m> we have that <m>A_n\neq\emptyset</m>, thus proving that <m>\mathscr{A}</m> satisfies condition (i) of a partition.
+      </p>
+      <p>
+        <alert>Condition (ii)</alert>
+      </p>
+      <p>
+        Let <m>r</m> and <m>s</m> be arbitrary natural numbers, assume that <m>A_r\cap A_s\neq\emptyset</m>, and hence we can find atleast one mutual element of <m>A_r</m> and <m>A_s</m>, name one of these elements <m>y\in A_r\cap A_s</m>. By defintion of <m>A_r</m> and <m>A_s</m> we have that both <m>3|(r-y)</m> and <m>3|(s-y)</m>. By definition of divides we can find two integers <m>k</m> and <m>m</m> so that <m>r-y=3k</m> and <m>s-y=3m</m>, hence we can calculate
+        <me>
+          r-s=(r-y)-(s-y)=3k-3m=3(k-m)
+        </me>
+        For a similiar calculation,
+        <me>
+          s-r=(s-y)-(r-y)=3m-3k=3(m-k)
+        </me>
+      </p>
+      <p>
+        (If perhaps you have felt lost in this proof so far, we are using the <em>concluding an or</em> technique from <xref ref="subsec-3-5-proofs-of-or"/>) It is our desire to show equality of these two sets, as usual, breaking our proof in to two more parts
+      </p>
+      <p>
+        <m>\mathbf{\text{Proof of }A_r\subseteq A_s}</m>
+      </p>
+      <p>
+       let <m>x\in A_r</m> by definition of <m>A_r</m> this means that <m>3|(r-x)</m> thus by defintion of divides we can find a <m>w\in\Z</m> such that <m>r-a=3w</m>, thus calclate
+       <me>
+        s-x=(r-x)-(r-s)=3w-3(k-m)=3(w-k+m)
+       </me>
+       and since <m>w-k+m</m> is an integer we can conclude that 3 divides <m>s-x</m> hence we have that <m>x\in A_s</m> as desired.
+      </p>
+      <p>
+        <m>\mathbf{\text{Proof of }A_r\supseteq A_s}</m>
+      </p>
+      <p>
+        let <m>z\in A_s</m> by definition of <m>A_s</m> this means that <m>3|(s-z)</m>, by definition of divides we can find an integer <m>t</m> so that <m>s-z=3t</m>. Now calculate
+        <me>
+          r-z=(s-z)-(s-r)=3t-3(m-k)=3(t-m+k)
+        </me>
+        since <m>t-m+k</m> is an integer we have that <m>3</m> divides <m>r-z</m> and hence <m>z\in A_r</m> as desired.
+      </p>
+      <p>
+        since we have shown both <m>A_r\subseteq A_s</m> and we have shown <m>A_r\supseteq A_s</m> we can conclude that <m>A_r=A_s</m>. Furthermore, this proves that <m>\mathscr{A}</m> satisfies condition (ii) of being a partition.
+      </p>
+      <p>
+        <alert>Condition (iii)</alert>
+      </p>
+      <p>
+        For this last condition we again should show to containments of sets
+      </p>
+      <p>
+        <m>\displaystyle\mathbf{\text{Proof of }\bigcup_{n\in\N}A_n\subseteq\Z}</m>
+      </p>
+      <p>
+        For this part let <m>\displaystyle p\in\bigcup_{n\in\N}A_n</m>, by definition of union over a family, we can find a <m>b\in\N</m> such that <m>p\in A_b</m>, yet by definition of <m>A_b</m> we have that <m>p\in\Z</m> as desired. (most texts would call this the obvious direction)
+      </p>
+      <p>
+        <m>\displaystyle\mathbf{\text{Proof of }\bigcup_{n\in\N}A_n\supseteq\Z}</m>
+      </p>
+      <p>
+        Now, let <m>q\in\Z</m>, 
+        Calculate <m>q-q=0=3\cdot 0</m> and since 0 is an integer we have that 3 divides <m>q-q</m>, hence <m>q\in A_q</m> therefore <m>\displaystyle q\in\bigcup_{n\in\N}A_n</m> as desired.
+      </p>
+      <p>
+        Since we have shown both <m>\displaystyle \bigcup_{n\in\N}A_n\subseteq\Z</m> and <m>\displaystyle \bigcup_{n\in\N}A_n\supseteq\Z</m> we can conclude <m>\displaystyle \bigcup_{n\in\N}A_n=\Z</m>, thus <m>\mathscr{A}</m> satisfies condition (iii) of being a partion.
+      </p>
+      <p>
+        Since we have shown the three conditions of being a partition we can conclude that <m>\mathscr{A}</m> is a partition.
+      </p>
+      </proof>
+    </p>
+  </example>
+  <p>
+    It turns out that this last example is actually a quite apt example of partitions. Partitions turn out to not be something new, they are actually just equivalence relations. We make this comment more precise in the following two propositions.
+  </p>
+
+  <proposition xml:id="thm-equiv-is-partition">
+    <statement>
+      <p>
+        If <m>R</m> is an equivalence relation on a non-empty set <m>A</m> then <m>A/R</m> is a partition of <m>A</m>.
+      </p>
+    </statement>
+  </proposition>
+  <p>
+    <proof>
+      <title>Proof of <xref ref="thm-equiv-is-partition"/></title>
+      
+      <p>
+        Let <m>R</m> be an equivalence relation on a non-empty set <m>A</m>.
+      </p>
+      <p>
+        There are three conditions to being a partition, so we will split our proof into three parts
+      </p>
+      <p>
+        <alert>Condition (i)</alert>
+      </p>
+      <p>
+        Let <m>x\in A</m>, then since <m>R</m> is an equivalence relation, in particular <m>R</m> is reflexive, thus we have <m>xRx</m> thus <m>x\in\bar{x}</m> and hence <m>\bar{x}\neq\emptyset</m>, thus <m>A/R</m> satisfies condition (i) of being a partion.
+      </p>
+      <p>
+        <alert>Condition (ii)</alert>
+      </p>
+      <p>
+        let <m>a\in A</m> and <m>b\in A</m>, and assume that <m>\bar{a}\cap\bar{b}\neq\emptyset</m>, then by <xref ref="prop-equiv"/> (b) we can conclude that <m>\bar{a}=\bar{b}</m>, and hence <m>A/R</m> satisfies condition (ii) of being a partition.
+      </p>
+      <p>
+        <alert>Condition (iii)</alert>
+      </p>
+      <p>
+        We will split this condition into two parts
+      </p>
+      <p>
+        <m>\displaystyle\mathbf{\text{Proof of }\bigcup_{y\in A}\bar{y}\subseteq A}</m>
+      </p>
+      <p>
+        Let <m>\displaystyle s\in\bigcup_{y\in A}\bar{y}</m>, hence we can find a <m>t\in A</m> such that <m>s\in\bar{t}</m>, by <xref ref="prop-equiv"/> (a) we have that <m>\bar{t}\subseteq A</m> and hence <m>s\in A</m> as desired.
+      </p>
+      <p>
+        <m>\displaystyle\mathbf{\text{Proof of }\bigcup_{y\in A}\bar{y}\supseteq A}</m>
+      </p>
+      <p>
+        Let <m>c\in A</m>, then since <m>R</m> is an equivalence relation, in particular it is reflexive, thus <m>cRc</m> and hence <m>c\in\bar{c}</m> therefore <m>\displaystyle c\in\bigcup_{y\in A}\bar{y}</m> as desired.
+      </p>
+      <p>
+        Since we have shown that both <m>\displaystyle\bigcup_{y\in A}\bar{y}\subseteq A</m> and <m>\displaystyle\bigcup_{y\in A}\bar{y}\supseteq A</m> we can conclude that <m>\displaystyle\bigcup_{y\in A}\bar{y}= A</m>, therefore we have shown that <m>A/R</m> satisfies condition(iii) of being a partition.
+      </p>
+      <p>
+        Since we have shown the three conditions of being a partition we can conclude that <m>\mathscr{A}</m> is a partition.
+      </p>
+    </proof>
+  </p>
+
+  <proposition xml:id="thm-partition-is-equiv">
+    <statement>
+      <p>
+        Let <m>\mathscr{P}</m> be a partition of a nonempty set <m>A</m>. For <m>x</m> and <m>y\in A</m> define <m>xQy</m> if and
+        only if there exists <m>C\in \mathscr{P}</m> such that <m>x\in C</m> and <m>y\in C</m>. Then <m>Q</m> is an equivalence
+        relation on <m>A</m>.
+      </p>
+      
+    </statement>
+  </proposition>
+
+  <proof>
+    <title>Proof of <xref ref="thm-partition-is-equiv"/></title>
+    
+    <p>
+      We will prove the three conditions for <m>Q</m> to be an equivalence relation.
+    </p>
+    <p>
+      <alert>[Reflexive]</alert>
+    </p>
+    <p>
+      let <m>x\in A</m>. Since <m>\mathscr{P}</m> is a partition, <m>\displaystyle\bigcup_{X\in\mathscr{P}} X = A</m> we have that <m>\displaystyle x\in\bigcup_{X\in\mathscr{P}}X</m>. Hence we can find a <m>C \in \mathscr{P}</m>
+      such that <m>x\in C</m>. Hence, <m>(x,x)\in Q</m>, since <m>x\in C</m> and <m>x\in C</m>.
+    </p>
+    <p>
+      <alert>[Symmetric]</alert>
+    </p>
+    <p>
+      Let <m>(x,y)\in Q</m>. By definition of <m>Q</m> we can find <m>D\in \mathscr{P}</m> such that <m>x\in D</m> and 
+      <m>y\in D</m>. Hence, <m>y\in D</m> and <m>x\in D</m>. Thus by definition of <m>Q</m>, <m>(y,x)\in Q</m>.
+    </p>
+    <p>
+      <alert>[Transitive]</alert>
+    </p>
+    <p>
+      Let <m>(x,y)\in Q</m> and <m>(y,z)\in Q</m>. By definition of <m>Q</m> we can find <m>C_1, C_2 \in \mathscr{P}</m>
+      such that <m>x\in C_1</m> and <m>y\in C_1</m>, and <m>y\in C_2</m> and <m>z\in C_2</m>. Hence, <m>y\in C_1 \cap C_2</m>.
+      Hence <m>C_1\cap C_2 \neq \emptyset</m>. Hence by definition of partition, <m>C_1=C_2</m>. Hence <m>x\in C</m>
+      and <m>z\in C</m>. Hence by definition of <m>Q, (x,z) \in Q</m>. 
+    </p>
+    <p>
+      Since <m>Q</m> satisifies the three conditions of being an equivalence relation it is an equivalence relation as desired.
+    </p>
+  </proof>
+  
+
+</section>
