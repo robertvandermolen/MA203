@@ -71,11 +71,11 @@
     <p>
       Notice that the <em>eats</em> relation from <xref ref="ex-eats"/> is not a function as both
     </p>
-    <image source="/images/turt_leaf.jpeg" width="55%"/>
+    <image source="/images/turt_leaf.jpeg" width="39%"/>
     <p>
     and
     </p>
-    <image source="/images/turt_pizza.jpeg" width="55%"/>
+    <image source="/images/turt_pizza.jpeg" width="39%"/>
     <p>
       So lets condsider a slightly different relation, by putting the turtle on a diet,
       <me>
@@ -87,7 +87,53 @@
     <p>
       Now it makes sense to use the <em>of</em> notation of functions because for example there is only one way to write the folowing:
     </p>
-    <image source="/images/turt_of_leaf.jpeg" width="55%"/>
+    <image source="/images/turt_of_leaf.jpeg" width="39%"/>
+  </example>
+  <example xml:id="ex-is-a-function">
+    <p>
+      Consider the relation <m>f</m> from <m>\Z\times\Z</m> to <m>\Z</m> defined as
+      <me>
+        f=\{((a,b),c)\in\Z\times\Z\times\Z\text{ }|\text{ }c=3a+2b\}
+      </me>
+      <alert>Prove:</alert> <m>f</m> is a function
+    </p>
+    <p>
+      <proof>
+        <p>
+          To prove that <m>f</m> is a function we need to show the two conditions of being a function.
+        </p>
+        <p>
+          <alert>Condition (i)</alert>
+        </p>
+        <p>
+          The first condition is an equality of sets, per usual we will split this into two parts
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Dom}(f)\subseteq\Z\times\Z}</m>
+        </p>
+        <p>
+          Let <m>(a,b)\in\text{Dom}(f)</m> by definition of <m>f</m> we have that <m>(a,b)\in\Z\times\Z</m> as desired. (the room chants <em>obviously!</em>)
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Dom}(f)\supseteq\Z\times\Z}</m>
+        </p>
+        <p>
+          Let <m>(x,y)\in\Z\times\Z</m>, then <m>((x,y),3x+2y)\in f</m> by definition of <m>f</m>, as desired.
+        </p>
+        <p>
+          Since we have shown both <m>\text{Dom}(f)\subseteq\Z\times\Z</m> and <m>\text{Dom}(f)\supseteq\Z\times\Z</m> we can conclude <m>\text{Dom}(f)=\Z\times\Z</m>. Therefore we have shown that <m>f</m> satisfies condition (i) of being a function.
+        </p>
+        <p>
+          <alert>Condition (ii)</alert>
+        </p>
+        <p>
+          Assume <m>((n,m),c)\in f</m> and <m>((n,m),d)\in f</m>, hence by defintion of <m>f</m> we have that <m>c=3n+2m</m> and that <m>m=3n+2m</m> hence <m>c=d</m> as desired.
+        </p>
+        <p>
+          Since we have shown both conditions to be a function we can conclude that <m>f</m> is a function.
+        </p>
+      </proof>
+    </p>
   </example>
 <p>
   The jump from relations to functions can be jarring to students especially with all of the corresponding notations, we take a momemnt now and attempt to make sense of them.
@@ -101,19 +147,20 @@
       At the root a function is just a <em>relation</em> and hence <m>f\subseteq A\times B</m> 
       </p>
       <p>
-      Instead of wrting <m>(x,y)\in f</m> or <m>xfy</m> we  write <m>f(x)=y</m>, moreover we most often don't write the <m>y</m>, that is we have <m>x\in A</m> and <m>f(x)\in B</m>.
+      Instead of wrting <me>(x,y)\in f</me> or <me>xfy</me> we  write <me>f(x)=y</me>, moreover we most often <alert>don't write</alert> the <m>y</m>, that is we have <me>x\in A \text{ and }f(x)\in B</me>.
       </p>
       <p>
         To put this context of realtions once again (and hopefully not make it too much more convoluted) we have
       <me>
         (f,f(x))\in f
       </me>
-      and 
+      and perhaps the most labyrinthine interpretation where <m>f</m> represents the relation <m>f</m> and <m>f(x)</m> is the element of <m>B</m> related to <m>x</m> via <m>f</m>.
       <me>
         x\text{ }f\text{ }f(x)
       </me>
     </p>
   </assemblage>
+  
   <p>
     The next concepts come up over and over again in algebra, analysis and topology.
   </p>
@@ -130,6 +177,26 @@
             </p>
         </statement>
     </definition>
+
+     <example xml:id="ex-image">
+      <p>
+       Consider the following set <m>T</m>
+      </p>
+      <image source="/images/new_t.jpeg" width="80%"/>
+      <p>
+        and the subset <m>X\subseteq T</m>
+      </p>
+      <image source="/images/new_x.jpeg" width="56%"/>
+      <p>
+        Now define the funciton <m>f:T\rightarrow T</m> as follows
+      </p>
+      <image source="/images/def_f.jpeg" width="80%"/>
+      <p>
+        Then we can visulaize the image of <m>X</m>, <m>f(X)</m>, as follows
+      </p>
+      <image source="/images/image_egg.jpeg" width="80%"/>
+
+    </example>
 
         <definition xml:id="def-inverse-image">
         <title>Inverse Image</title>
@@ -149,6 +216,16 @@
         The inverse image should not be confused with the inverse relation.
       </p>
     </note>
+    <example>
+      <p>
+       Consider the same set and function from <xref ref="ex-image"/>. This time define the subset <m>S\subseteq T</m> as
+      </p>
+      <image source="/images/new_s.jpeg" width="60%"/>
+      <p>
+        We can then visualize the preimage of <m>S</m>, <m>f^{-1}(S)</m>, as follows.
+      </p>
+      <image source="/images/preimage_egg.jpeg" width="85%"/>
+    </example>
     
 <proposition xml:id="prop-image">
     <statement>
@@ -207,7 +284,7 @@
     </p>
   </proof>
   <p>
-    Lets end this section with a couple more examples of proofs invovling these new concepts.
+    Lets end this section with a couple more examples of proofs involing these new concepts.
   </p>
  
 <example>

@@ -21,7 +21,7 @@
   </definition>
   <example>
     <p>
-      A function that is surjective just needs to ht every element in the codomain. Consider the two sets 
+      A function that is surjective just needs to hit every element in the codomain. Consider the two sets 
       <me>
         A=\{1,2,3,4,5\}
       </me>
@@ -34,9 +34,113 @@
     <image source="/images/surj_egg.jpeg" width="75%"/>
 
   </example>
-<p>
-  Blah.. .example... maybe a proof?
-</p>
+ 
+  <example xml:id="ex-surj-numbers">
+    <p>
+      Consider the function <m>f:\Z\times\Z\rightarrow\Z</m> from <xref ref="ex-is-a-function"/> defined as 
+      <me>
+        f(a,b)=3a+2b
+      </me>
+      <alert>Prove:</alert> <m>f</m> is surjective
+    </p>
+    <p>
+      <proof>
+        <p>
+          The definition of surjective envolves an equality of sets, so we break our proof into two parts.
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Rng}(f)\subseteq\Z}</m>
+        </p>
+        <p>
+          Let <m>c\in\text{Rng}(f)</m> by definition of range we can find an <m>(a,b)\in\Z\times\Z</m> such that <m>f(a,b)=c</m>, yet by definition of <m>f</m> we have that <m>f(a,b)=3a+2b</m>, since both <m>a</m> and <m>b</m> are integers we can conclude that <m>3a+2b</m> is an integer and thus <m>c\in\Z</m> as desired.
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Rng}(f)\supseteq\Z}</m>
+        </p>
+        <p>
+          Let <m>z\in\Z</m>, by <xref ref="prop-div-algo"/> we can find two integers <m>q</m> and <m>r</m> such that <m>0\leq r\lt 3</m> such that <m>q=3z+r</m>. Since <m>0\leq r\lt 3</m> we have that <m>r=0</m> or <m>r=1</m> or <m>r=2</m>, splitting our proof into 3 cases
+        </p>
+        <p>
+          <alert>Case 1:</alert> Assume <m>r=0</m>
+        </p>
+        <p>
+          In this case since <m>q\in\Z</m> and 0 is also an integer we have that <m>z=3q+2\cdot0</m> hence <m>f(q,0)=z</m> and thus <m>z\in\text{Rng}(f)</m> as desired.
+        </p>
+        <p>
+          <alert>Case 2:</alert> Assume <m>r=1</m>
+        </p>
+        <p>
+          For this case note that <m>r=1=3-2</m> hence <m>q+1</m> and -1 are integers we have that <m>z=3q+3-2=3(q+1)+(-1)\cdot 2</m> hence <m>f(q+1,-1)=z</m> thus <m>z\in\text{Rng}(f)</m> as desired.
+        </p>
+        <p>
+          <alert>Case 3:</alert> Assume <m>r=2</m>
+        </p>
+        <p>
+          In this case since <m>q</m> and 1 are integers we have that <m>z=3q+2</m> hence <m>f(q,1)=z</m>, therfore <m>z\in\text{Rng}(f)</m> as desired.
+        </p>
+        <p>
+          Because we have shown no matter what <m>r</m> is that <m>z\in\text{Rng}(f)</m> we can conclude that <m>z\in\text{Rng}(f)</m>
+        </p>
+        <p>
+          Since we have shown both <m>\text{Rng}(f)\subseteq\Z</m> and <m>\text{Rng}(f)\supseteq\Z</m> we can conclude <m>\text{Rng}(f)=\Z</m>, therefore we have shown that <m>f</m> is surjective.
+        </p>
+      </proof>
+    </p>
+  </example>
+  <p>
+    Before we jump into our next example, lets shed a little light on composing functions.
+  </p>
+  <assemblage>
+    <title>Composing Functions</title>
+    <p>
+      Once again functions are just relations, thus we have already defined how to compose them. 
+    </p> 
+    <p> 
+      For example considering three sets <m>A</m>, <m>B</m>, and <m>C</m> and two functions <m>f:A\rightarrow B</m> and <m>g:B\rightarrow C</m> we can then consider the composition <me>g\circ f:A\rightarrow C</me>. 
+      </p>
+      <p>
+      When we were dealing with relations we would of taken a pair <m>(a,c)\in g\circ f</m> to only be a member of <m>g\circ f</m> when we could find an element <m>b\in B</m> such that <m>(a,b)\in f</m> and <m>(b,c)\in g</m>, with a function this element is self evident, it is <m>f(a)</m> since <me>(a,b)\in f</me> means <me>f(a)=b</me>. 
+      Furthermore, since <m>\text{Dom}(f)=A</m> we know we have such a <m>b</m> (another reason that the notation <m>f(a)</m> even makes sense). 
+      </p>
+      <p>
+      That is we interpret the composition of functions as 
+      <me>
+        g\circ f(x)=g(f(x))
+      </me>
+       
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Let <m>f:A\rightarrow B</m> and <m>g:B\rightarrow C</m> be functions. 
+    </p>
+    <p>
+      <alert>Prove:</alert> If <m>g\circ f</m> is surjective then <m>g</m> is surjective
+    </p>
+    <p>
+      <proof>
+        <p>
+          Assume that <m>g\circ f</m> is surjective. To prove that <m>g</m> is surjective we need to show an equality of sets, so break it into the usual parts.
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Rng}(g)\subseteq C}</m>
+        </p>
+        <p>
+          Let <m>y\in\text{Rng}(g)</m> by definition of range we can find an <m>x\in B</m> such that <m>g(x)=y</m> hence by definition of <m>g</m> we have that <m>g(x)\in C</m> as desired. 
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Rng}(g)\supseteq C}</m>
+        </p>
+        <p>
+          Let <m>c\in C</m>, since we have assumed that <m>g\circ f</m> is surjective, in particular <m>C\subseteq\text{Rng}(g\circ f)</m> we have that <m>c\in\text{Rng}(g\circ f)</m> thus by definition of range we can find a <m>a\in A</m> such that <m>g\circ f(a)=c</m>, that is <m>g(f(a))=c</m>, and by definition of <m>f</m> we have that <m>f(a)\in B</m>, hence we have that <m>c\in\text{Rng}(g)</m>. 
+        </p>
+        <p>
+          Since we have shown both <m>\text{Rng}(g)\subseteq C</m> and <m>\text{Rng}(g)\supseteq C</m> we can conlcude that <m>\text{Rng}(g)= C</m>, hence we have shown that <m>g</m> is surjective.
+        </p>
+      </proof>
+    </p>
+  </example>
+
   <definition xml:id="def-injection">
     <title>Injection</title>
     <idx><h>injection</h></idx>
@@ -60,7 +164,7 @@
     <p>
       A function that is injective just needs that no two inputs hit the same output. Consider, again, the two sets 
       <me>
-        A=\{1,2,3,4,5\}
+        A=\{1,2,3,4\}
       </me>
       and 
       <me>
@@ -68,25 +172,33 @@
       </me>
      and consider this time the function <m>f:A\rightarrow B</m> defined as
     </p>
-    <image source="/images/inj_egg.jpeg" width="75%"/>
+    <image source="/images/inj_egg_new.jpeg" width="75%"/>
 
   </example>
-  <p>
-    Before we jump into our next example, lets shed a little light on composing functions.
-  </p>
-  <assemblage>
-    <title>Composing Functions</title>
+  <example>
     <p>
-      Once again functions are just relations, thus we have already defined how to compose them. For example considering three sets <m>A</m>, <m>B</m>, and <m>C</m> and two functions <m>f:A\rightarrow B</m> and <m>g:B\rightarrow C</m> then we can consider the composition <m>g\circ f:A\rightarrow C</m>. 
+      Consider the function <m>f:\Z\rightarrow\Z</m> defined for any <m>a\in\Z</m> as 
+      <me>
+        f(a)=a+5
+      </me>
+      <alert>Prove:</alert> <m>f</m> is an injective function.
+    </p>
+     <p>
+    <proof>
+      <p>
+        We leave the task of proving that <m>f</m> is indeed a function to the reader, and we prove that <m>f</m> is injective.
       </p>
       <p>
-      When considering relations we would of taken a pair <m>(a,c)\in g\circ f</m> to only be a member of <m>g\circ f</m> when we could find an element <m>b\in B</m> such that <m>(a,b)\in f</m> and <m>(b,c)\in g</m>, with a function this element is self evident, it is <m>f(a)</m> since <m>(a,b)\in f</m> means <m>f(a)=b</m>, and furthermore since <m>\text{Dom}(f)=A</m> we know we have such a <m>b</m> (another reason that the notation <m>f(a)</m> even makes sense). That is we interpret the composition of functions as 
-      <me>
-        g\circ f(x)=g(f(x))
-      </me>
-       
-    </p>
-  </assemblage>
+        Let <m>x\in\Z</m> and <m>y\in\Z</m> such that <m>f(x)=f(y)</m> by definiton of <m>f</m> this means <m>x+5=y+5</m>, subtracting five on both sides of the equation gives us <m>x=y</m> as desired.
+      </p>
+    </proof>
+  </p>
+  </example>
+
+ <p>
+  Notice that the function from <xref ref="ex-surj-numbers"/> is <alert>not</alert> one-to-one since <m>6=f(2,0)=f(0,3)</m> yet <m>(2,0)\neq(0,3)</m>.
+ </p>
+  
   <example>
     <p>
     <alert>Prove:</alert> If <m>f: A \rightarrow B</m> is one-to-one and <m>g: B \rightarrow C</m> is one-to-one, then 
@@ -106,9 +218,7 @@
     </p>
   </proof>
   </example>
-  <p>
-    blah..
-  </p>
+  
   <proposition xml:id="prop-inverse">
     <statement>
       <p>
@@ -119,31 +229,40 @@
 
   <proof>
     <title>Proof of <xref ref="prop-inverse"/></title>
+    <p>
+      As we are to prove a bijconditional we will split the proof into two parts.
+    </p>
     
+    <p>
+     <m>\mathbf{\text{Proof of }f \text{ is one-to-one } \implies f^{-1}: \text{Rng}(f)\rightarrow A}</m>
+    </p>
+    <p>
+      Assume <m>f</m> is one-to-one. We have defined the inverse of a relation in <xref ref="def-inverse"/>, so what we want to show is that <m>f^{-1}</m> is a function. To show a relation is a function we need to show that it satisfies both conditions to being a function.
+    </p> 
+    <p>
+      <alert>Proof of Condition (i):</alert>
+    </p>
+    <p>
+      This first condition <xref ref="def-function"/> is the equality of sets, namely <m>\text{Dom}(f^{-1})=\text{Rng}(f)</m> this was proven in <xref ref="prop-dom-inverse"/>.
+    </p>
+    <p>
+      <alert>Proof of Condition (ii)</alert>
+    </p>
+    <p>
+      Let <m>x \in B</m>, <m>y\in A</m> and <m>z \in A</m> such that <m>f^{-1}(x)=y</m> and <m>f^{-1}(x)=z</m>. By definition of inverse, <m>f(y)=x</m>
+      and <m>f(z)=x</m>. Thus, by our assumption, <m>y=z</m> as desired.
+    </p>
     
     <p>
-      [<m>\impliedby</m>] (If <m>f</m> is one-to-one, then <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m>.)
+     <m>\mathbf{\text{Proof of } f^{-1}: \text{Rng}(f)\rightarrow A\implies f \text{ is one-to-one }}</m>
     </p>
     <p>
-      1.) Assume <m>f</m> is one-to-one. We want to show that Dom(<m>f^{-1})=</m>Rng(<m>f</m>). This proof is in section 10.6.1.
-    </p>
-    <p>
-      2.) Let <m>x \in B</m> and <m>y, z \in A</m> such that <m>f^{-1}(x)=y</m> and <m>f^{-1}(x)=z</m>. By definition of inverse, <m>f(y)=x</m>
-      and <m>f(z)=x</m>. Thus, by our assumption, <m>y=z</m>.
-    </p>
-    <p>
-      [<m>\implies</m>]
-    </p>
-    <p>
-      Assume <m>f^{-1}</m> is a function from Rng(<m>f</m>) to <m>A</m>, that is, <m>(f: \text{ Rng}(f) \rightarrow A)</m>
-    </p>
-    <p>
-      Let <m>x,y \in A</m> such that <m>f(x)=f(y)</m>. Name this element <m>(f(x)=f(y))</m> something, say, <m>w</m>. By definition of inverse, <m>f^{-1}(w)=x</m>
-      and <m>f^{-1}(w)=y</m>. Thus, by our assumption, <m>x=y</m>.
+      Let <m>x\in A</m> and <m>y \in A</m> such that <m>f(x)=f(y)</m>. Name this element <m>w=f(x)=f(y)</m>. By definition of inverse, <m>f^{-1}(w)=x</m>
+      and <m>f^{-1}(w)=y</m>. Thus, by our assumption that <m>f^{-1}</m> is a function by condition (i) of being a function we have, <m>x=y</m> as desired.
     </p>
   </proof>
   <p>
-    blah..
+    Now we have set up all the pieces we need to define a bijection.
   </p>
 
   <definition xml:id="def-bijection">
@@ -165,10 +284,70 @@
       </p>
     </statement>
   </definition>
-  <p>
-    blah.. some examples for sure...
-  </p>
+ 
+  <example>
+    <p>
+      A function that is bijective  needs that no two inputs hit the same output, as well as to reach every element of the codomain. Consider, again, the two sets 
+      <me>
+        A=\{1,2,3,4,5\}
+      </me>
+      and 
+      <me>
+        B=\{a,b,c,d,e\}
+      </me>
+     and consider this time the function <m>f:A\rightarrow B</m> defined as
+    </p>
+    <image source="/images/inj_egg.jpeg" width="75%"/>
+
+  </example>
+  <example>
+    <p>
+      Consider the function <m>g:\Z\rightarrow\Z</m> defined for any <m>a\in\Z</m> as 
+      <me>
+        g(a)=a-2
+      </me>
+      <alert>Prove:</alert> <m>g</m> is a bijection.
+    </p>
+    <p>
+      <proof>
+        <p>
+          To show this function is a bijection we will need to show it injective and surjective.
+        </p>
+        <p>
+          <alert>Proof of one-to-one:</alert>
+        </p>
+        <p>
+          Let <m>x</m> and <m>y</m> be two arbitrary integers, such that <m>g(x)=g(y)</m> by definition of <m>g</m> we have that <m>g(x)=x-2</m> and <m>g(y)=y-2</m> therefore <m>x-2=y-2</m>, adding two to both sides of the equations leaves us with <m>x=y</m> as desired.
+        </p>
+        <p>
+          <alert>Proof of onto:</alert>
+        </p>
+        <p>
+          To show our desired equality of sets we split into two parts.
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Rng}(g)\subseteq\Z}</m>
+        </p>
+        <p>
+          Let <m>b\in\text{Rng}(g)</m>, by definition of range we can find an integer <m>a</m> such that <m>g(a)=b</m> by the definiton of <m>g</m> we have that <m>g(a)=a-2</m>, since both <m>a</m> and 2 are integers we have that <m>a-2</m> is an integer and hence <m>b\in\Z</m> as desired.
+        </p>
+        <p>
+          <m>\mathbf{\text{Proof of }\text{Rng}(g)\supseteq\Z}</m>
+        </p>
+        <p>
+          Let <m>m\in\Z</m>, note to show that we have membership of <m>\text{Rng}(g)</m> we need to produce an integer so that <m>g</m> maps this new integer to <m>m</m>. This is an existential, and the way we produce this element in unimportant to the proof. Notice that since <m>m</m> and 2 are integers we have that <m>m+2</m> is an integer, and notice that <m>g(m+2)=m+2-2=m</m> and hence by definition of range we have that <m>m\in\text{Rng}(g)</m> as desired.
+        </p>
+        <p>
+          Because we have shown that <m>\text{Rng}(g)\subseteq\Z</m> and <m>\text{Rng}(g)\supseteq\Z</m> we can conclude that <m>\text{Rng}(g)=\Z</m>, therefore we have that <m>g</m> is onto as desired.
+        </p>
+        <p>
+          Since we have shown that <m>g</m> is both one-to-one and onto we have that <m>g</m> is a bijection.
+        </p>
+      </proof>
+    </p>
+  </example>
   
+
   <proposition xml:id="prop-bij-comp">
     <statement>
       <p>
@@ -186,32 +365,29 @@
       Assume <m>f</m> is a bijection from <m>A</m> to <m>B</m> and <m>g</m> is a bijection from <m>B</m> to <m>C</m>.
     </p>
     <p>
-      <alert>[1-to-1]</alert>
+      <alert>[Proof of one-to-one]</alert>
     </p>
     <p>
-      Let <m>x\in A</m> and <m>y\in A</m> such that <m>g\circ f(x) = g\circ f(y)</m>. By definition of composition we can find
-      <m>z\in B</m> and <m>w\in B</m> such that <m>g(w) = g\circ f(y)</m> and <m>f(y) = w</m> and <m>g(z) = g\circ f(x)</m> 
-      and <m>f(x) = z</m>.
+      Let <m>x\in A</m> and <m>y\in A</m> such that <m>g\circ f(x) = g\circ f(y)</m>, hence <m>g(f(x))=g(f(y))</m>
     </p>
     <p>
-      By our assumption that <m>g(w) = g(z)</m>, as <m>g</m> is a bijection, in particular one-to-one, <m>w=z</m>. Hence 
-      <m>f(x) = f(y)</m>. Since <m>f</m> is a bijection, in particular one-to-one, <m>x=y</m>.
+      By our assumption <m>g</m> is a bijection, in particular one-to-one, this implies <m>f(x)=f(y)</m>. Since <m>f</m> is a bijection, in particular one-to-one, <m>x=y</m>, therefore <m>g\circ f</m> is one-to-one as desired.
     </p>
     <p>
-      <alert>[Onto]</alert> (WTS: Rng<m>(g\circ f) = C</m>)
+      <alert>[Proof of Onto]</alert> 
     </p>
     <p>
-      <alert>[<m>\subset</m>]</alert>
+      <m>\mathbf{\text{Proof of }\text{Rng}(g\circ f)\subseteq C}</m>
     </p>
     <p>
-      Let <m>y\in \text{ Rng}(g\circ f)</m>. By definition of range, <m>y\in C</m>. Thus, Rng<m>(g\circ f) \subset C</m>.
+      Let <m>y\in \text{ Rng}(g\circ f)</m>. By definition of range, <m>y\in C</m>. Thus, Rng<m>(g\circ f) \subseteq C</m>.
     </p>
     <p>
-      <alert>[<m>\subset</m>]</alert>
+      <m>\mathbf{\text{Proof of }\text{Rng}(g\circ f)\supseteq C}</m>
     </p>
     <p>
       Let <m>y\in C</m>. Thus by our assumption that <m>g</m> is a bijection, specifically surjective, we can find <m>w\in B</m>
-      such that <m>g(w) = y</m>.
+      such that <m>g(w) = y</m>, and since <m>f</m> is a bijection, specifically surjective.
     </p>
     <p>
       Thus by assumption that <m>f</m> is a bijection, specifically surjective, we can find <m>x\in A</m> such that <m>f(x) = w</m>.
@@ -219,8 +395,9 @@
       <m>C \subset \text{ Rng}(g\circ f)</m>.
     </p>
     <p>
-      Thus, Rng<m>(g\circ f) = C</m>
+      Since we have shown that both <m>\text{Rng}(g\circ f)\subseteq C</m> and <m>\text{Rng}(g\circ f)\supseteq C</m> we can conclude <m>\text{Rng}(g\circ f)= C</m> so that we can conclude that <m>g\cric f</m> is onto as desired.
     </p>
+   
     <p>
       Thus, <m>g\circ f: A \rightarrow C</m> is a bijection. 
     </p>

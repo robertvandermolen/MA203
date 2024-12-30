@@ -38,61 +38,7 @@
             
         </p>
     </example>
-    <p>
-        This next construction is one that may be familiar from your college algebra.
-    </p>
-    <definition xml:id="def-composition">
-        <title>Composite</title>
-
-        <statement>
-            <p>
-               Let <m>R</m> be a relation from <m>A</m> to <m>B</m>, and let <m>S</m> be a relation from <m>B</m> to <m>C</m>.
-               The composite of <m>R</m> and <m>S</m> is <me>S\circ R = \{(a,c)\text{ } |\text{ } \exists b \in B \text{ such that } (a,b)\in R \text{ and } (b,c) \in S\}</me>
-            </p>
-        </statement>
-    </definition>
-    <example>
-        <p>
-            For this example consider again the sets
-            <me>
-                A=\{1,2,3,4,5\}
-            </me>
-            and 
-            <me>
-                B=\{a,b,c,d,e\}
-            </me>
-            but in addition consider the set
-        </p>
-        <image source="/images/the_c.jpeg" width="62%"/>
-        <p>
-            and define the relation <m>R</m> from <m>A</m> to <m>B</m> as
-            <me>
-                R=\{(1,c),(2,a),(3,e),(4,a),(4,d)\}
-            </me>
-            and define the relation <m>S</m> from <m>B</m> to <m>C</m> as
-        </p>
-             <image source="/images/s_relation.jpeg" width="62%"/>
-        <p>
-            Thus we can visulaize the composition as
-        </p>
-        <image source="/images/s_circ_r.jpeg" width="100%"/>
-        <p>
-            and the relation is thus defined as
-        </p>
-        <image source="/images/s_circ_r_def.jpeg" width="62%"/>
-        <p>
-            Notice we have the following domain and range of the composition 
-            <me>
-                \text{Dom}(S\circ R)=\{1,2,3,4\}
-            </me>
-            
-        </p>
-        <image source="/images/rng_s_circ_r.jpeg" width="62%"/>
-    </example>
-  <p>
-    Now lets see a couple of properties and proofs to accompany
-  </p>
-  <proposition xml:id="prop-dom-inverse">
+    <proposition xml:id="prop-dom-inverse">
     <statement>
         <p>
             Let <m>R</m> be a relation from <m>A</m> to <m>B</m>
@@ -141,8 +87,63 @@
     </p>
     </proof>
   </p>
+    <p>
+        This next construction is one that may be familiar from your college algebra.
+    </p>
+    <definition xml:id="def-composition">
+        <title>Composite</title>
+        <idx><h>composition</h></idx>
+        <idx><h>relation</h><h>composition</h></idx>
+
+        <statement>
+            <p>
+               Let <m>R</m> be a relation from <m>A</m> to <m>B</m>, and let <m>S</m> be a relation from <m>B</m> to <m>C</m>.
+               The composite of <m>R</m> and <m>S</m> is <me>S\circ R = \{(a,c)\text{ } |\text{ } \exists b \in B \text{ such that } (a,b)\in R \text{ and } (b,c) \in S\}</me>
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <p>
+            For this example consider again the sets
+            <me>
+                A=\{1,2,3,4,5\}
+            </me>
+            and 
+            <me>
+                B=\{a,b,c,d,e\}
+            </me>
+            but in addition consider the set
+        </p>
+        <image source="/images/the_c.jpeg" width="62%"/>
+        <p>
+            and define the relation <m>R</m> from <m>A</m> to <m>B</m> as
+            <me>
+                R=\{(1,c),(2,a),(3,e),(4,a),(4,d)\}
+            </me>
+            and define the relation <m>S</m> from <m>B</m> to <m>C</m> as
+        </p>
+             <image source="/images/s_relation.jpeg" width="62%"/>
+        <p>
+            Thus we can visulaize the composition as
+        </p>
+        <image source="/images/s_circ_r.jpeg" width="100%"/>
+        <p>
+            and the relation is thus defined as
+        </p>
+        <image source="/images/s_circ_r_def.jpeg" width="62%"/>
+        <p>
+            Notice we have the following domain and range of the composition 
+            <me>
+                \text{Dom}(S\circ R)=\{1,2,3,4\}
+            </me>
+            
+        </p>
+        <image source="/images/rng_s_circ_r.jpeg" width="62%"/>
+    </example>
+
+  
   <p>
-    Lets explore an example from the saftey of our arithmatic blanket.
+    Lets explore a few examples proving using this new concept of composition.
   </p>
 <example>
     <p>

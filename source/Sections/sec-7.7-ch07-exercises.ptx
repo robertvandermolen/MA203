@@ -75,6 +75,11 @@
                 <m>f^{-1}(\bigcup\limits_{\beta \in \Gamma}E_\beta ) = \bigcup\limits_{\beta \in \Gamma}f^{-1}(E_\beta)</m>
             </p>
         </li>
+        <li>
+            <p>
+                Prove that <m>f(a,b)=5a+3b</m> defines a surjective functio from <m>\Z\times\Z</m> to <m>\Z</m> but not injective.
+            </p>
+        </li>
     </ol>
 
   </p>
