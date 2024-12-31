@@ -395,7 +395,7 @@
       <m>C \subset \text{ Rng}(g\circ f)</m>.
     </p>
     <p>
-      Since we have shown that both <m>\text{Rng}(g\circ f)\subseteq C</m> and <m>\text{Rng}(g\circ f)\supseteq C</m> we can conclude <m>\text{Rng}(g\circ f)= C</m> so that we can conclude that <m>g\cric f</m> is onto as desired.
+      Since we have shown that both <m>\text{Rng}(g\circ f)\subseteq C</m> and <m>\text{Rng}(g\circ f)\supseteq C</m> we can conclude <m>\text{Rng}(g\circ f)= C</m> so that we can conclude that <m>g\circ f</m> is onto as desired.
     </p>
    
     <p>

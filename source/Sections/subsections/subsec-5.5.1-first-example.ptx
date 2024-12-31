@@ -99,7 +99,7 @@
     <p>Before we begin any proof we sing our song (play-along):</p>
     <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
     <answer>
-    <p><m>\mathsr{P}(A)\subseteq \mathscr{P}(B)</m></p>
+    <p><m>\mathscr{P}(A)\subseteq \mathscr{P}(B)</m></p>
     </answer>
     <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
     <answer>

@@ -271,7 +271,7 @@
         <p>
             Calculate:
             <md>
-                <mrow>\prod_{i=2}^{n+1} \frac{i^2-1}{i^2} \amp =\left(\prod_{i=1}^n \frac{i^2-1}{i^2}\right)\codt\frac{(n+1)^2-1}{(n+1)^2)}()\amp\text{ (peel off)}</mrow>
+                <mrow>\prod_{i=2}^{n+1} \frac{i^2-1}{i^2} \amp =\left(\prod_{i=1}^n \frac{i^2-1}{i^2}\right)\cdot\frac{(n+1)^2-1}{(n+1)^2)}()\amp\text{ (peel off)}</mrow>
                 <mrow> \amp =\left(\frac{n+1}{2n}\right)\cdot\frac{(n+1)^2-1}{(n+1)^2)}\amp\text{ (induction assumption)}</mrow>
                 <mrow>\frac{(n+1)(n^2+2n+1-1)}{(2n)(n+1)^2} \amp </mrow>
                 <mrow>\amp=\frac{n^2+2n}{2n(n+1)} \amp </mrow>

@@ -208,7 +208,7 @@
             Let <m>R</m> be a relation on a non-empty set <m>A</m>
         </p>
         <p>
-           <m>\mathbf{\text{Proof of }R\text{ is transitive}\implies R\circR\subseteq R}</m> 
+           <m>\mathbf{\text{Proof of }R\text{ is transitive}\implies R\circ R\subseteq R}</m> 
         </p>
         <p>
             Assume <m>R</m> is transitive. Let <m>(x,y)\in R\circ R</m>. By definition of composition, we can find <m>z\in A</m> such that 
