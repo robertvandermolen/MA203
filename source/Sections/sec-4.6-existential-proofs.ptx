@@ -18,7 +18,7 @@
     </p>
   </assemblage>
 <p>
-    It's the old saying of just "show me". Proving existentials in this manner come up in your future algebra and analysis courses repeatedly as some of their most important concepts are defined with an exists. The following example is perhaps not the most enlightning but it does serve the purpose of a first example.
+    It's the old saying of just "show me". Proving existentials in this manner come up in your future algebra and analysis courses repeatedly as some of their most important concepts are defined with an exists. The following example is perhaps not the most enlightening but it does serve the purpose of a first example.
 </p>
 <example>
     <p>
@@ -30,13 +30,13 @@
             <me>
                 \frac{5}{4}
             </me>
-            One can see that this is indeed a rational number as both 5 and 4 are integers and <m>\text{GCD}(5,4)=1</m> thus it satisfies the defintion of a rational number (<xref ref="defn-rational"/>). To see that this rational number indeed does the job for our statment notice that
+            One can see that this is indeed a rational number as both 5 and 4 are integers and <m>\text{GCD}(5,4)=1</m> thus it satisfies the definition of a rational number (<xref ref="defn-rational"/>). To see that this rational number indeed does the job for our statement notice that
             <md>
                 <mrow>\frac{5}{4}+\frac{3}{4} \amp = \frac{5+3}{4}</mrow>
                 <mrow> \amp =\frac{8}{4}</mrow>
                 <mrow> \amp = 2</mrow>
             </md>
-            so... therefore there truly does exist a rational number <m>x</m> so that <m>x+\frac{3}{4}=2</m>
+            therefore there truly does exist a rational number <m>x</m> so that <m>x+\frac{3}{4}=2</m>
         </p>
     </proof>
 </example>
@@ -141,7 +141,7 @@
             To see that zero works, to satisfy the existence, notice that when we choose an arbitrary integer <m>x</m> that: <m>0+x=x</m>.
         </p>
         <p>
-            Now to prove the uniqueness, assume that we have two integers <m>c</m> and <m>d</m> so that for any integer <m>b</m> both <m>c+b=b</m> and <m>d+b=b</m>. So inparticular 
+            Now to prove the uniqueness, assume that we have two integers <m>c</m> and <m>d</m> so that for any integer <m>b</m> both <m>c+b=b</m> and <m>d+b=b</m>. So in particular 
             <me>
                 c=d+c=c+d=d
             </me>

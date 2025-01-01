@@ -12,7 +12,7 @@
 
 <p>
   <idx><h>set</h></idx>
-    The univese of discourse is our first example of a <term>set</term>. 
+    The universe of discourse is our first example of a <term>set</term>. 
 </p>
 <p>
     So that we handle this playground with the respect it
@@ -46,9 +46,9 @@
   </p>
    
   <p>
-    Besides just arbitrarly naming a set in attempts to define a set we can also describe what is the set by
+    Besides just arbitrarily naming a set in attempts to define a set we can also describe what is the set by
     capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m> then listing the elements
-    seperated by commas. For example is we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
+    separated by commas. For example if we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
     Or if we were to collect the set of all counting numbers we could use ... to indicate continuing a pattern: 
     <me>\{1,2,3,...\}</me> We could also use what is known as set builder notation:
   </p>

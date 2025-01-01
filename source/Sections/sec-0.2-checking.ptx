@@ -20,8 +20,8 @@
 <me>x^2-7x+53</me>
 </p>
 <p>
-produces a prime number for <em>many</em> values of <m>x</m>. The dilligent student will check that for the first 10, 20, 30 
-or even 40 positive integers when we substiute our number for <m>x</m> we arive at a prime number such as
+produces a prime number for <em>many</em> values of <m>x</m>. The diligent student will check that for the first 10, 20, 30 
+or even 40 positive integers when we substitute our number for <m>x</m> we arrive at a prime number such as
 </p>
 <p>
     <me>(4)^2-7(4)+53=41</me>
@@ -33,8 +33,8 @@ discover prime numbers as the solution.
 <p>
 However, this is not a conclusive proof, as it fails for <m>x = 44</m>, where the result is 1681, 
 which is actually a square, that is it factors as <m>41\times 41</m>. </p>
-<p>I know for almost all of you, at least at one time in your life, it is enticing to just try specific examples . 
-    Aswell, it is undeniable that exploring these examples can, at times, offer valuable insights into 
+<p>I know for almost all of you, at least at one time in your life, it is enticing to just try specific examples. 
+    As well, it is undeniable that exploring these examples can, at times, offer valuable insights into 
 mathematical concepts and relationships, it is not sufficient as a proof unless every possible case can be examined.
 </p>
 </section>

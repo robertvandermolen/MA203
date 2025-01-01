@@ -3,10 +3,10 @@
 <section xml:id="subsec-3-7-biconditional" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Biconditional Proofs</title>
 <p>
-    Proofs of statments with a biconditional are ubiquitous in mathematics. As you have seen all of our definitons are biconditional statments. We us the biconditional to me mean equivalent. These equivalences in future math classes gives tools for proving conditions without working to more intuitive definitions, instead by giving more usable ones. 
+    Proofs of statements with a biconditional are ubiquitous in mathematics. As you have seen all of our definitions are biconditional statements. We use the biconditional to me mean equivalent. These equivalences in future math classes give tools for proving conditions without working to more intuitive definitions, instead by giving more usable ones. 
 </p>
 <p>
-    You can prove biconditionals in many ways, the one we will take time to examine, is the what I tell my students is the "safe way" it is the two-way proof.
+    You can prove biconditionals in many ways; the one we will take time to examine the what I tell my students is the "safe way". It is the two-way proof.
 </p>
 <assemblage>
     <title>Two-Way proof of <m>P\iff Q</m></title>
@@ -76,7 +76,7 @@
   
 </figure>
 <p>
-    For our next examples we spare the reader the indepth treatement as it is simply two direct proofs.
+    For our next examples we spare the reader the in-depth treatment as it is simply two direct proofs.
 </p>
     <example>
         
@@ -144,7 +144,7 @@
         </proof>
     </example>
 <p>
-    There is another method for proving an <em>if and only if</em> statement it is not recommended for the student who is just starting their proving journey, but for completness I would be remiss if I did not include it. 
+    There is another method for proving an <em>if and only if</em> statement it is not recommended for the student who is just starting their proving journey, but for completeness I would be remiss if I did not include it. 
 </p>
 
 <assemblage>
@@ -166,10 +166,10 @@
       </p>
   </assemblage>
   <p>
-    The reason I warn beginning students away from this is that too often students get it in there head that the faster way is better, in calculus they see the limit definition for the derivative then learn the power rule and say to themselves well I'm never going back to the limit. 
+    The reason I warn beginning students away from this is that too often students get it in their head that the faster way is better, in calculus they see the limit definition for the derivative then learn the power rule and say to themselves well I'm never going back to the limit. 
 </p>
 <p>
-    Again for the sake of completion we provide an example, the dilligent hard working student will do their best to see why a backwards proof would be <em>boring</em>.
+    Again for the sake of completion we provide an example, the diligent hard working student will do their best to see why a backwards proof would be <em>boring</em>.
 </p>
 <example>
     <p>

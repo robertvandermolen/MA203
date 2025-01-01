@@ -3,7 +3,7 @@
 <section xml:id="sec-4-4-4-dir-example-five" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 5</title>
 
-<p>For our last detailed example of a direct proof it is a classic inequality. Inequalities will
+<p>Our last detailed example of a direct proof it is a classic inequality. Inequalities will play
     a large role in your future analysis class.
 </p>
 <p><alert>Prove:</alert> For all positive real numbers <m>x</m> and <m>y</m>, if 
@@ -44,7 +44,7 @@
 <section xml:id="sec-4-4-4-dir-example-five-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
-        This beginning is the same as the others we take of the <m>{\color{orange}{\text{beginning quantifier}}}</m> by:
+        This beginning is the same as the others. We take care of the <m>{\color{orange}{\text{beginning quantifier}}}</m> by:
     </p>
     <p>
         "Let <m>x</m> and <m>y</m> be positive real numbers."
@@ -60,14 +60,14 @@
 <section xml:id="sec-4-4-4-dir-example-five-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
-        Now as is in most inequality proofs first we need to work backwards first that is notice:
+        Now, as is in most inequality proofs first we need to work backwards. That is notice:
         <me>
             b^2-a^2=(b-a)(b+a)
         </me>
         by our allowed assumptions of basic <em>college algebra</em>. But we have that <m>b+a\gt 0</m> 
-        since both <m>a\gt 0</m> and <m>b\gt 0</m>, then again with our assumptions of <em>college algebra</em>
-        that we can, lets say, add <m>b</m> to the left side of <m>a\gt 0</m> and add 0 to the right side. Also,
-        <m>b-a\gt 0</m> as since subtracting <m>a</m> from both sides of our assumption <m>a\lt b</m>. 
+        since both <m>a\gt 0</m>, and <m>b\gt 0</m>, then again with our assumptions of <em>college algebra</em>.
+        That is we can, lets say, add <m>b</m> to the left side of <m>a\gt 0</m> and add 0 to the right side. Also,
+        <m>b-a\gt 0</m> since subtracting <m>a</m> from both sides of our assumption results in <m>a\lt b</m>. 
     </p>
    
 </section>
@@ -79,16 +79,16 @@
         our conclusion before we concluded it, essentially falling for circular reasoning, that is:
     </p>
     <p>
-        Since subtracting <m>a</m> from both sides of our assumption <m>a\lt b</m> we see that <m>b-a\gt 0</m>, and by adding
+        Subtracting <m>a</m> from both sides of our assumption <m>a\lt b</m> we see that <m>b-a\gt 0</m>, and by adding
         <m>b</m> to the left and 0 to the right of <m>a\gt 0</m> we get that <m>b+a\gt 0</m>. Finally, since <m>b+a\gt0</m>
-        we can multiply both side of <m>b-a\gt0</m> by it and arrive at:
+        we can multiply both sides of <m>b-a\gt0</m> by <m>(b+a)</m> and arrive at:
         <me>
             b^2-a^2=(b-a)(b+a)\gt0.
         </me>
         
     </p>
     <p>
-        Now lets see everything written together in a single spot.
+        Now let's see everything written together in a single spot.
     </p>
     <example>
         <title>4</title>
@@ -103,14 +103,14 @@
         <p>
             Since subtracting <m>a</m> from both sides of our assumption <m>a\lt b</m> we see that <m>b-a\gt 0</m>, and by adding
             <m>b</m> to the left and 0 to the right of <m>a\gt 0</m> we get that <m>b+a\gt 0</m>. Finally, since <m>b+a\gt0</m>
-            we can multiply both side of <m>b-a\gt0</m> by it and arrive at:
+            we can multiply both side of <m>b-a\gt0</m> by <m>(b+a)</m> and arrive at:
             <me>
                 b^2-a^2=(b-a)(b+a)\gt0.
             </me>
             
         </p>
         <p>
-            Since we assumed <m>x</m> and <m>y</m> are positive real numbers and <m>a\lt b</m>, then we showed that <m>(b^2-a^2)\gt 0</m>
+            Since we assumed <m>x</m> and <m>y</m> are positive real numbers and <m>a\lt b</m>, then we showed that <m>(b^2-a^2)\gt 0</m>,
             by direct proof we can conclude, that for all positive real numbers <m>x</m> and <m>y</m> if <m>a\lt b</m> then 
             <m>(b^2-a^2)\gt 0</m>. 
         </p>

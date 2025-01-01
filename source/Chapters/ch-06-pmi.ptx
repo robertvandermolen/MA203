@@ -4,7 +4,7 @@
   <title>Principle of Mathematical Induction</title>
 
   <introduction>
-    <p>Here, we turn our attention to a proof technique that is extremly powerful and a favorite of students for its deceptively straightforward algorithmic approach, known as <em>induction</em>. This method is essential to your future mathematics courses, and allows us to prove statements that extend across infinite scenarios by using repetition as its backbone. Interestingly, it all begins with a concept we've known since our earliest days with numbers... counting!</p>
+    <p>Here, we turn our attention to a proof technique that is extremely powerful and a favorite of students for its deceptively straightforward algorithmic approach, known as <em>induction</em>. This method is essential to your future mathematics courses, and allows us to prove statements that extend across infinite scenarios by using repetition as its backbone. Interestingly, it all begins with a concept we've known since our earliest days with numbers... counting!</p>
   </introduction>
 
   <!-- include sections -->

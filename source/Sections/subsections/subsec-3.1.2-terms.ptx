@@ -11,7 +11,7 @@
         <p>
         I begin by being this limiting to make sure our playground is small enough that no one hurts themselves 
         by falling off monkey bars that are too high, but also large enough that we can actually
-        get some <em>real</em> proving in we'll start with a few common defintions, namely odd, even, and divides.
+        get some <em>real</em> proving in. We'll start with a few common definitions, namely odd, even, and divides.
         </p>
 
     <p>
@@ -54,7 +54,7 @@
 
     <note>
         <p>
-            <alert>Defintions</alert> are <alert>ASSUMPTION/PREMISES</alert>, so when using arguments from the previous
+            <alert>Definitions</alert> are <alert>ASSUMPTIONS/PREMISES</alert>, so when using arguments from the previous
             chapter use them as such. 
         </p>
     </note>

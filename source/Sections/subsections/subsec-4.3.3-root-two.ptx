@@ -3,7 +3,7 @@
 <section xml:id="sec-4-3-3-root-two" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>\sqrt{2}</m> is Irrational</title>
     <p>
-        This next proof is a proof that I believe every single student in mathematics should now and love. It is this proof that I learned very early on in my math career that shaped how I understood mathematics. I would meet people and tell them "I'm a math major" and they would say things like "ugh I always hated math" and I would tell them no math is not what you think math is. It is about truths, for example take an extremely simple shape the right triangle, literally just put two sticks at a sharp angle and connect the two edges with another stick. This third stick has a length that is not a fraction of either of the other sides. Pythagoerous went to his grave believing that it must, but we can show beyond a shadow of a doubt it is not. 
+        This next proof is a proof that I believe every single student in mathematics should know and love. It is this proof that I learned very early on in my math career that shaped how I understood mathematics. I would meet people and tell them "I'm a math major" and they would say things like "ugh I always hated math" and I would tell them "no, math is not what you think math is." It is about truths. For example take an extremely simple shape the right triangle, literally just put two sticks at a sharp angle and connect the two edges with another stick. This third stick has a length that is not a fraction of either of the other sides. Pythagoras went to his grave believing that it must, but we can show beyond a shadow of a doubt it is not. 
     </p>
     <p>
         Before we jump into that proof it will be helpful to have a lemma that we can call on, in all honesty to shorten our work load (what lemma's are best for).
@@ -56,13 +56,13 @@
 <p>
     For a proof by contradiction we need to begin by assuming what we need to prove is false, and to remind you this could be jarring to a reader so let them know what you are doing, for example we could write:
 </p>    
-<p>For the sake of contradicion assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
+<p>For the sake of contradiction assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
 </section>
 
 <section xml:id="sec-3-7-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
-        Now, we continue with our song by applying the defintions we can, per the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
+        Now, we continue with our song by applying the definitions we can, per the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
     <m>\sqrt{2} =\frac{p}{q}</m> and 
     <me>
         T:\text{ GCD}(p,q)=1
@@ -102,7 +102,7 @@
 <example>
 
     <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
-    <p>For the sake of contradicion assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational. By the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
+    <p>For the sake of contradiction assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational. By the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
         <m>\sqrt{2} =\frac{p}{q}</m> and 
         <m>
             \text{GCD}(p,q)=1

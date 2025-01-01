@@ -26,7 +26,7 @@
     </p>
     <image source="/images/p_set_a.jpeg" width="42%"/>
      <p>
-        To build the powerset, it is customary to begin with the empty set, <m>\emptyset</m>, which we know must be a member of the power set from <xref ref="prop-empty-unique"/> we know that <m>\emptyset\subseteq A</m>. Hence, 
+        To build the power set, it is customary to begin with the empty set, <m>\emptyset</m>, which we know must be a member of the power set from <xref ref="prop-empty-unique"/> we know that <m>\emptyset\subseteq A</m>. Hence, 
         <m>
             \emptyset\in\mathscr{P}(A)
         </m>
@@ -91,7 +91,7 @@
     </p>
   </example>
   <p>
-    The curious counter, will notice by the procdural way in which we construct these power sets that when we start with finite sets, that they are indeed easy enough to count. 
+    The curious counter, will notice by the procedural way in which we construct these power sets that when we start with finite sets, that they are indeed easy enough to count. 
   </p>
   <theorem xml:id="thm-count-power-set">
     <statement>

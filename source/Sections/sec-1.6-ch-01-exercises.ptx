@@ -45,7 +45,7 @@
         <p>
             Consider the statement <me>\exists x \in \mathbb{R} \text{ such that } x^3 = 3.</me> 
             Which of the following are also ways of saying 
-            this statment? (identify all that apply)
+            this statement? (identify all that apply)
             <ol>
                 <li>There is at least one real number whose cube is 3.</li>
                 <li>The cube of each real number is 3.</li>

@@ -4,21 +4,21 @@
   <title>Basic Tables</title>
   <p>
     <idx><h>truth table</h></idx>
-    In a <term>truth table</term> we take arbitirary propositions indicated by letters, such as <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, 
-    and <m>T</m>, and consider all the cases of each being either True (T) or False (F). We then explore how comining them with connectives
+    In a <term>truth table</term> we take arbitrary propositions indicated by letters, such as <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, 
+    and <m>T</m>, and consider all the cases of each being either True (T) or False (F). We then explore how coming them with connectives
     changes the truth value of the compound propositions. 
   </p>
   <p>
     <idx><h>propositional forms</h></idx>
-    We will call these arbitrary propositions/compound propostions,  <term>propositional forms</term>. 
-      These propositoinal forms do not have a truth value. Instead, each form
+    We will call these arbitrary propositions/compound propositions,  <term>propositional forms</term>. 
+      These propositional forms do not have a truth value. Instead, each form
 has a list of truth values that depend on the values assigned to its components. This
 list is displayed by presenting all possible combinations for the truth values of its
 components in a truth table. 
   </p>
   <p>
     To do this we will need to first be able to collect all the combinations of truth values of the basic components 
-    of a compound proposition. So for example, if the compound proposition has to components, lets name them
+    of a compound proposition. So for example, if the compound proposition has two components, lets name them
     <m>P</m> and <m>Q</m> then all combinations are:
   </p>
   <figure xml:id="table-truths">
@@ -52,7 +52,7 @@ components in a truth table.
   
 </figure>
   <p>
-    Now to see everything together we will begin with a couple of simple ones, first the conjunciton (<m>P\wedge Q</m>). Since 
+    Now to see everything together we will begin with a couple of simple ones, first the conjunction (<m>P\wedge Q</m>). Since 
     the conjunction involves two components (<m>P</m> and <m>Q</m>) their truth tables must include all combinations of 
     their two truth values, just as collected above in figure <xref ref="table-truths"/>.
   </p>
@@ -127,7 +127,7 @@ components in a truth table.
 
 </figure>
 <p>
-  Next, we will see the truth table for the negation, <m>\sim P</m>. Since the negation only invovles one component (<m>P</m>) we 
+  Next, we will see the truth table for the negation, <m>\sim P</m>. Since the negation only involves one component (<m>P</m>) we 
   simply need the two truth values that <m>P</m> can obtain.
 </p>
 <figure>
@@ -226,7 +226,7 @@ components in a truth table.
       
     </figure>
    <p>
-    An importatant one is that of the biconditional, which we use as the word equivalent, this table shows us that this is a apt word use.
+    An important one is that of the biconditional, which we use as the word equivalent, this table shows us that this is an apt word use.
    </p>
    <figure>
    <idx><h>iff</h><h>truth table</h></idx>

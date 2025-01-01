@@ -15,7 +15,7 @@
     </definition>
 
     <p>
-      In the late 1800's an Italian mathematician Giuseppe Peano deveoloped five axioms which can create all of the basic ordering and arithmetic properties we all know and love of the natural numbers, using an undefined term of <em>successor</em>, our definition of course captures the heart of his construction. Let it be said, Peano did not consider 0 a natural number, but we will forgive him. It is through these axioms which one verifies induction, this is out side the scope of this text but, such a fun exercise for the dedicated reader!
+      In the late 1800's an Italian mathematician Giuseppe Peano developed five axioms which can create all of the basic ordering and arithmetic properties we all know and love of the natural numbers, using an undefined term of <em>successor</em>, our definition of course captures the heart of his construction. Let it be said, Peano did not consider 0 a natural number, but we will forgive him. It is through these axioms which one verifies induction, this is out side the scope of this text but, such a fun exercise for the dedicated reader!
     </p>
     <definition xml:id="def-indcutive-set">
     <title>Inductive Set</title>
@@ -30,7 +30,7 @@
       </statement>
     </definition>
     <p>
-      This says that a set <m>S</m> is an indcutive set whenever it contains all of its successors. 
+      This says that a set <m>S</m> is an inductive set whenever it contains all of its successors. 
     </p>
     <p>
       It is inductive sets that are the underpinning of mathematical induction.
@@ -39,7 +39,7 @@
     <title>Principle of Mathematical Induction</title>
     <idx><h>pmi</h></idx>
     <idx><h>induction</h></idx>
-    <idx><h>principle of mathematical indcution</h></idx>
+    <idx><h>principle of mathematical induction</h></idx>
     <statement>
   
     <p>
@@ -72,16 +72,16 @@
     </p>
   </example>
   <p>
-    It has now been my experience that students have clocked out at this point in the lecture, no matter how much I have promised them that their algorithmic tendencies will be returning. So lets let the rubber hit the road and actual do some proofs!
+    It has now been my experience that students have clocked out at this point in the lecture, no matter how much I have promised them that their algorithmic tendencies will be returning. So let's let the rubber hit the road and actual do some proofs!
   </p>
   <p>
     The basic idea of PMI is to prove that the truth set, <m>S\subset\N</m>, of a predicate <m>P(x)</m> is equal to an inductive set. Or to hopefully make this sound less like a riddle, 
   </p>
   <assemblage>
     <title>Proof of <m>\forall m\geq k</m> <m>P(m)</m> Using PMI</title>
-    <idx><h>indcution</h><h>proof</h></idx>
+    <idx><h>induction</h><h>proof</h></idx>
     <idx><h>pmi</h><h>proof</h></idx>
-    <idx><h>principle of mathematical indcution</h><h>proof</h></idx>
+    <idx><h>principle of mathematical induction</h><h>proof</h></idx>
     <p>
       Proof:
       <ol marker="(i)">
@@ -105,12 +105,12 @@
     </p>
   </assemblage>
   <p>
-    Hopefully you can atleast start to see the algorithm forming, there are 3 steps, and we take these steps every time!
+    Hopefully you can at least start to see the algorithm forming, there are 3 steps, and we take these steps every time!
   </p>
   <section xml:id="sec-6-2-3-intro-to-pmi-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>First Proof with Induction</title>
   <p>
-    For our first example of indcution we will use a summation (<xref ref="subsec-6-1-1-sum"/>)
+    For our first example of induction we will use a summation (<xref ref="subsec-6-1-1-sum"/>)
   </p>
   <p>
     <alert>Prove:</alert> For any <m>m\in\N</m> with <m>m\geq 1</m>
@@ -119,7 +119,7 @@
     </me>
     
   </p>
-  <p>Before we begin this proof we sing a slighlty different song for indcution (play-along):</p>
+  <p>Before we begin this proof we sing a slightly different song for induction (play-along):</p>
     <p>"What's the <m>{\color{red}{\text{Base Case}}}</m>?"</p> 
     <answer>
     <p><m>m=1</m></p>
@@ -136,7 +136,7 @@
     </answer>
     <p>"Now, what to do?"</p> 
     <answer>
-    <p>Principle of Mathematical Induction! (it is the point the chapter, also we usually just call it <em>induction</em>)</p>
+    <p>Principle of Mathematical Induction! (it is the point of the chapter, also we usually just call it <em>induction</em>)</p>
     </answer>
     
     
@@ -180,7 +180,7 @@
   <alert>(iii) <m>\mathbf{\left(\text{Prove: }P(n+1)\right)}</m></alert>
 </p>
 <p>
-  Now we (the student's favorite word...) <em>calculate</em>
+  Now we (use the student's favorite word...) <em>calculate</em>
   <md>
     <mrow>\sum_{i=1}^{n+1} (2i-1)\amp=\left(\sum_{i=1}^{n}(2i-1)\right)+(2(n+1)-1) \amp\text{(peel off)}</mrow>
     <mrow> \amp =n^2+(2(n+1)-1) \amp \text{(induction assumption!)}</mrow>
@@ -198,7 +198,7 @@
   <me>
     P(n+1): \sum_{i=1}^{n+1} (2i-1)=(n+1)^2
   </me>
-  therefore by proof by indcution we have shown for any <m>m\in\N</m> with <m>n\geq 1</m> that
+  therefore by proof by induction we have shown for any <m>m\in\N</m> with <m>n\geq 1</m> that
   <me>
     \sum_{i=1}^{m} (2i-1)=m^2
   </me>

@@ -4,7 +4,7 @@
   <title>Arguments with Quantifiers</title>
 <p>
     We have seen in <xref ref="sec-3-1-arguments"/> that 
-    quantified statments can lead to interesting arguments. 
+    quantified statements can lead to interesting arguments. 
     For example
 </p>
 <tabular halign="center">
@@ -20,7 +20,7 @@
   </tabular>
   <p>
     For example "All longshoremen are in a union" and "All unions have dues" 
-    thus we can conclude that "All longshorement pay dues".
+    thus we can conclude that "All longshoremen pay dues".
   </p>
 <p>
     Next we have a far from complete list: 
@@ -116,7 +116,7 @@
     </sidebyside>
 </sbsgroup>
 <p>
-    These will be instrumental to our proofs invovling quantifiers shortly! And since we will 
+    These will be instrumental to our proofs involving quantifiers shortly! And since we will 
     attempt to put them in more plain language...
 </p>
 

@@ -20,7 +20,7 @@
     </definition>
     <example>
         <p>
-            We will consdier the same sets and realtion as in <xref ref="ex-dom"/>. The inverse is thus
+            We will consider the same sets and relation as in <xref ref="ex-dom"/>. The inverse is thus
             <me>
                 R^{-1}=\{(a,3),(b,1),(d,4),(e,4)\}
             </me>
@@ -162,7 +162,7 @@
                As one must do, we assume what we need to assume, namely assume that <m>N</m> and <m>S</m> are relations on <m>\Z</m> defined above.
             </p>
             <p>
-                To begin choose an arbitrary element <m>x\in N\circ S</m>, since <m>N</m> and <m>S</m> are relations on <m>\Z</m> by defintion of composite we can find an <m>a\in\Z</m> and a <m>b\in\Z</m> such that <m>x=(a,b)</m>, such that we can find an integer <m>f</m> such that <m>6|(a-f)</m> and <m>9|(f-b)</m>. By defintion of divides we can find an <m>s\in\Z</m> and <m>t\in\Z</m> such that <m>a-f=6s</m> and <m>f-b=9t</m>. Calculate
+                To begin, choose an arbitrary element <m>x\in N\circ S</m>, since <m>N</m> and <m>S</m> are relations on <m>\Z</m> by definition of composite we can find an <m>a\in\Z</m> and a <m>b\in\Z</m> such that <m>x=(a,b)</m>, such that we can find an integer <m>f</m> such that <m>6|(a-f)</m> and <m>9|(f-b)</m>. By definition of divides we can find an <m>s\in\Z</m> and <m>t\in\Z</m> such that <m>a-f=6s</m> and <m>f-b=9t</m>. Calculate
                 <md>
                     <mrow>a-b=(a-f)+(f-b) \amp= 6s+9t </mrow>
                     <mrow> \amp=3(2s+3t) </mrow>
@@ -187,7 +187,7 @@
 <proposition xml:id="prop-comp-inv">
     <statement>
         <p>
-            Let <m>A</m>, <m>B</m>, <m>C</m> and <m>D</m> be sets. Let <m>R</m> be a realtion from <m>A</m> to <m>B</m>, <m>S</m> a relation from <m>B</m> to <m>C</m>, and <m>T</m> be a relation from <m>C</m> to <m>D</m>
+            Let <m>A</m>, <m>B</m>, <m>C</m> and <m>D</m> be sets. Let <m>R</m> be a relation from <m>A</m> to <m>B</m>, <m>S</m> a relation from <m>B</m> to <m>C</m>, and <m>T</m> be a relation from <m>C</m> to <m>D</m>
             <ol marker="(a)">
                 <li>
                     <p>
@@ -223,7 +223,7 @@
         <p>
             Suppose that <m>A, B, C, \text{ and } D</m> are sets. Let <m>R</m> be a relation from
             <m>A \text{ to } B</m>, <m>S</m> be a relation from <m>B \text{ to } C</m>, and <m>T</m>
-            be a realtion from <m>C\text { to } D</m>.
+            be a relation from <m>C\text { to } D</m>.
         </p>
         <p>
             Since we are proving an equality, we will have to prove both subsets. 
@@ -232,18 +232,18 @@
             <m>\mathbf{\text{Proof of }T\circ(S\circ R)\subseteq (T\circ S)\circ R}</m>
         </p>
         <p>
-            Let <m>a\in T\circ (S\circ R)</m>, by defintion of composition, <m>T\circ(S\circ R)</m> is a relation from <m>A</m> to <m>D</m>, hence by the definition of relation we can find an <m>x\in A</m> and a <m>y\in B</m> such that <m>a=(x,y)</m>.  Now, as well by definition of composition, <m>S\circ R</m> is a relation from <m>A</m> to <m>C</m>, and since <m>T</m> is a relation from <m>C</m> to <m>D</m>, we can find a <m>z\in C</m> such that <m>(z,y)\in T</m>
+            Let <m>a\in T\circ (S\circ R)</m>, by definition of composition, <m>T\circ(S\circ R)</m> is a relation from <m>A</m> to <m>D</m>, hence by the definition of relation we can find an <m>x\in A</m> and a <m>y\in B</m> such that <m>a=(x,y)</m>.  Now, as well by definition of composition, <m>S\circ R</m> is a relation from <m>A</m> to <m>C</m>, and since <m>T</m> is a relation from <m>C</m> to <m>D</m>, we can find a <m>z\in C</m> such that <m>(z,y)\in T</m>
             and <m>(x,z)\in (S\circ R)</m>. Again, by the definition of composition, since <m>S</m> is a relation from <m>B</m> to <m>C</m> and <m>R</m> is a relation from <m>A</m> to <m>B</m> we can find <m>w\in B</m> such that 
             <m>(x,w)\in R</m> and <m>(w,z)\in S</m>.
         </p>
         <p>
-            Since <m>(z,y)\in T</m>, and <m>(w,z)\in S</m> then by definiton of composite we have that <m>(w,y)\in (T\circ S)</m>. And since <m>(x,w)\in R</m> and <m>(w,y)\in(T\circ S)</m> then by definition of composite we can conclude that <m>(x,y)\in (T\circ S)\circ R</m>.
+            Since <m>(z,y)\in T</m>, and <m>(w,z)\in S</m> then by definition of composite we have that <m>(w,y)\in (T\circ S)</m>. And since <m>(x,w)\in R</m> and <m>(w,y)\in(T\circ S)</m> then by definition of composite we can conclude that <m>(x,y)\in (T\circ S)\circ R</m>.
         </p>
         <p>
             <m>\mathbf{\text{Proof of }T\circ(S\circ R)\supseteq (T\circ S)\circ R}</m>
         </p>
         <p>
-            For this part, we choose an arbitrary element <m>b\in(T\circ S)\circ R</m>. Again, by definition of composition <m>T\circ S</m> is a relation from <m>B</m> to <m>D</m> and since <m>R</m> is a relation from <m>A</m> to <m>B</m>, hence <m>(T\circ S)\circ R</m> is a relation from <m>A</m> to <m>D</m>, hence we can find a <m>s\in A</m> and a <m>t\in D</m> such that <m>b=(s,t)</m>. As well, by the defintion of composite we can find <m>u\in B</m> such that <m>(s,u)\in R</m> and <m>(u,t)\in T\circ S</m>. Yet, by definition if composite since <m>T</m> is a relation from <m>C</m> to <m>D</m> and <m>S</m> is a realtion from <m>B</m> to <m>C</m> we can find <m>i\in C</m> such that <m>(u,i)\in S</m> and <m>(i,t)\in T</m>. Thus, because <m>(s,u)\in R</m> and <m>(u,i)\in S</m> by definition of composite <m>(s,i)\in S\circ R</m>. In a similiar fashion as we also have <m>(i,t)\in T</m> we can condclude that <m>(s,t)\in T\circ (S\circ R)</m> as desired.
+            For this part, we choose an arbitrary element <m>b\in(T\circ S)\circ R</m>. Again, by definition of composition <m>T\circ S</m> is a relation from <m>B</m> to <m>D</m> and since <m>R</m> is a relation from <m>A</m> to <m>B</m>, hence <m>(T\circ S)\circ R</m> is a relation from <m>A</m> to <m>D</m>, hence we can find a <m>s\in A</m> and a <m>t\in D</m> such that <m>b=(s,t)</m>. As well, by the definition of composite we can find <m>u\in B</m> such that <m>(s,u)\in R</m> and <m>(u,t)\in T\circ S</m>. Yet, by definition if composite since <m>T</m> is a relation from <m>C</m> to <m>D</m> and <m>S</m> is a relation from <m>B</m> to <m>C</m> we can find <m>i\in C</m> such that <m>(u,i)\in S</m> and <m>(i,t)\in T</m>. Thus, because <m>(s,u)\in R</m> and <m>(u,i)\in S</m> by definition of composite <m>(s,i)\in S\circ R</m>. In a similar fashion as we also have <m>(i,t)\in T</m> we can conclude that <m>(s,t)\in T\circ (S\circ R)</m> as desired.
         </p>
         <p>
             Since we have shown that both <m>T\circ(S\circ R)\subseteq (T\circ S)\circ R</m> and <m>T\circ(S\circ R)\supseteq (T\circ S)\circ R</m> we can conclude that <m>T\circ(S\circ R)= (T\circ S)\circ R</m>.

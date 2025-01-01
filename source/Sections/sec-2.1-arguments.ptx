@@ -4,7 +4,7 @@
   <title>Arguments</title>
   <p>
     Arguments are so important, they  merit their own chapter. 
-    They are the essecence of your future proofs, these are your "steps" you long for from your 
+    They are the essence of your future proofs, these are your "steps" you long for from your 
     calculus class. 
     </p>
 
@@ -83,7 +83,7 @@
     <idx><h>argument</h><h>valid</h></idx>
     <idx><h>argument</h><h>invalid</h></idx>
     <idx><h>argument</h></idx>
-    <p>Here are some example of valid arguments:</p>
+    <p>Here are some examples of valid arguments:</p>
     <tabular halign="right">
       <row>
         <cell>All parabolas are functions of degree 2</cell>

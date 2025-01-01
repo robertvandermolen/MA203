@@ -13,7 +13,7 @@
 
     <statement>
         <p>
-            Given two sets <m>A</m> and <m>B</m> we can define a new set which we will call the <term>cross prodcut</term> of <m>A</m> and <m>B</m> (or the <term>cartiesian product</term>) defined as
+            Given two sets <m>A</m> and <m>B</m> we can define a new set which we will call the <term>cross product</term> of <m>A</m> and <m>B</m> (or the <term>cartesian product</term>) defined as
             <me>
                 A\times B=\{(a,b)\text{ }|\text{ }a\in A\text{ and }b\in B\}
             </me>
@@ -46,19 +46,19 @@
     <me>B\times A = \{(\pi , 2), (\pi , G), (\pi , E), (e, 2), (e, G), (e, E), (P, 2), (P, G), (P, E)\}</me>
 </example>
 <p>
-    The cross product has been shown since very early on in your mathematical education mostly the ordered pairs you would consider was the cartiesian plane, the good ol' <m>x</m> and <m>y</m> axis.
+    The cross product has been shown since very early on in your mathematical education mostly the ordered pairs you would consider was the cartesian plane, the good ol' <m>x</m> and <m>y</m> axis.
 </p>
 <example>
     <p>
-        This time if we consider a set I've tried vary hard to stay away from, namely the real numbers, <m>\R</m>. Then the cartesian plane is the set <m>\R\times \R</m>.
+        This time if we consider a set I've tried very hard to stay away from, namely the real numbers, <m>\R</m>, then the cartesian plane is the set <m>\R\times \R</m>.
     </p>
     <p>
-        Throughout your youth you have surely seen many points illustrated on this cartiesian plane, such as the elements <m>{\color{red}(1,3)}</m>, <m>{\color{blue}(2,-2)}</m>, and <m>{\color{green}(-2,-1)}</m>
+        Throughout your youth you have surely seen many points illustrated on this cartesian plane, such as the elements <m>{\color{red}(1,3)}</m>, <m>{\color{blue}(2,-2)}</m>, and <m>{\color{green}(-2,-1)}</m>
     </p>
     <image source="/images/r_cross_r.jpeg" width="100%"/>
 </example>
 <p>
-    With this basic understanding of the cross-product we are already to start proving with it.
+    With this basic understanding of the cross-product we are ready to start proving with it.
 </p>
 <example>
 <p>
@@ -74,10 +74,10 @@
         To understand this element we of course refer to the definition (<xref ref="def-cross-product"/>), from which we see the defining condition promises that we can find two elements, one from <m>A</m> and one from <m>B</m>, name these elements, <m>a\in A</m> and <m>b\in B</m>, such that <m>x=(a,b)</m>. 
     </p>
     <p>
-        By our assumption that <m>A\subseteq C</m> since we established <m>a\in A</m> by definition of subset we get that <m>a\in C</m>. Similiarly, by our assumption that <m>B\subseteq D</m> and since we established that <m>b\in B</m> again by the definition of subset <m>b\in D</m>. 
+        By our assumption that <m>A\subseteq C</m>, since we established <m>a\in A</m> by definition of subset we get that <m>a\in C</m>. Similarly, by our assumption that <m>B\subseteq D</m> and since we established that <m>b\in B</m> again by the definition of subset <m>b\in D</m>. 
     </p>
     <p>
-        Therefore, by the definition of crossproduct <m>x=(a,b)\in C\times D</m> as desired.
+        Therefore, by the definition of cross product <m>x=(a,b)\in C\times D</m> as desired.
     </p>
     </proof>
 </example>

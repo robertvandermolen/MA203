@@ -48,7 +48,7 @@
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
         We begin by taking care of our leading quantifier, <m>{\color{orange}{\forall x,y\in\Z}}</m>, 
-        trying our best to never forget <xref ref="how-to-quantifiers"/>. To do this we could use a variety of english statments to do this, 
+        trying our best to never forget <xref ref="how-to-quantifiers"/>. To do this we could use a variety of english statements to do this, 
         for example:
         <ul>
             <li>
@@ -111,7 +111,7 @@
         "We can also find a <m>b\in\Z</m> so that <m>y=2b+1</m>."
     </p>
     <p>
-        Now that we have used our defintions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ole <em>college algebra</em>. 
+        Now that we have used our definitions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ole <em>college algebra</em>. 
         In a more general look at proofs at a whole is that you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}}</m>, namely 
         that <m>{\color{blue}{x+y\text{ is odd}}}</m>. So we should calculate <m>{\color{blue}{x+y}}</m>.
     </p>
@@ -148,7 +148,7 @@
             then <m>x\cdot y</m> is odd.
         </p>
         <p>
-            Select two random integers <m>x</m> and <m>y</m>. Assume that <m>x</m> is even and <m>y</m> is odd. By defintion of even
+            Select two random integers <m>x</m> and <m>y</m>. Assume that <m>x</m> is even and <m>y</m> is odd. By definition of even
             we can find an integer <m>a</m> so that <m>x=2a+1</m>. Also, by the definition of odd we can find an integer <m>b</m> so that 
             <m>y=2b+1</m>. Now we calculate:
         </p>
@@ -161,7 +161,7 @@
             Now since <m>2ab+a+b</m> is an integer, we see that <m>x+y</m> is odd. 
         </p>
         <p>
-            To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> which we assumed were even and odd, respectively. By direct proof
+            To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> which we assumed were even and odd, respectively, by direct proof
             we proved that for all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and <m>y</m> is odd, then <m>x+y</m> is odd. <m>\square</m>
         </p>
     </example>

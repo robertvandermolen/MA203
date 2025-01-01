@@ -3,7 +3,7 @@
 <section xml:id="sec-6-3-basic-pmi-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Basic Induciton Examples</title>
   <p>
-    In this section we will give some basic examples of indcution using the tools from <xref ref="sec-6-1-what-we-assume"/>
+    In this section we will give some basic examples of induction using the tools from <xref ref="sec-6-1-what-we-assume"/>
   </p>
   <example>
     <p>
@@ -172,7 +172,7 @@
     </proof>
   </example>
   <p>
-    Now lets see some examples using the product <xref ref="sec-6-1-what-we-assume"/>
+    Now let's see some examples using the product <xref ref="sec-6-1-what-we-assume"/>
   </p>
   <example>
     <p>
@@ -377,7 +377,7 @@
     </proof>
   </example>
   <p>
-    I really like this next example as it exemplifies how induction is often used in your future algebra courses, namely the union is defined as somethinig between two sets, so to do it to multiple sets we need do two at a time. This <em>two at a time</em> is an example of <em>peeling off</em>, just as the previous examples.
+    I really like this next example as it exemplifies how induction is often used in your future algebra courses, namely the union is defined as something between two sets, so to do it to multiple sets we need do two at a time. This <em>two at a time</em> is an example of <em>peeling off</em>, just as the previous examples.
   </p>
   <example>
     <p>

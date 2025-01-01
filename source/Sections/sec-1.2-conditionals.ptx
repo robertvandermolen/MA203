@@ -11,7 +11,7 @@
     logical system, but it ignores an important 
     decree used quite often in 
     logic/debate/mathematics. That is the 
-    implilcation. 
+    implication. 
 </p>
 <section xml:id="sec-2-2-1-conditional" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Conditionals</title>
@@ -24,14 +24,14 @@
     <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
     <statement>
         <p>
-            the <term>conditional statment</term>
-            <m>P\implies Q</m> is the propostion
+            the <term>conditional statement</term>
+            <m>P\implies Q</m> is the proposition
         </p>
         <p>
             "If <m>P</m> then <m>Q</m>"
         </p>
         <p>
-            Propostion <m>P</m> is called the <term>antecedent</term>
+            Proposition <m>P</m> is called the <term>antecedent</term>
             and <m>Q</m> is the <term>consequent</term>. 
         </p>
         <p>
@@ -44,7 +44,7 @@
 <p>
     <idx><h>implies</h></idx>
     There are many ways of translating the conditional
-    to english statments, which we will in the next table
+    to english statements, which we will in the next table
     but perhaps the most popular is <term>implies</term>,
     that is "<m>P</m> implies <m>Q</m>". 
 </p>
@@ -77,7 +77,7 @@
 <sidebyside>
    <p> <m>P</m> is sufficient for <m>Q</m></p>
     <p>
-        The water temperature is <m>100^\circ</m>C is sufficent for the water is boiling
+        The water temperature is <m>100^\circ</m>C is sufficient for the water is boiling
     </p>
 </sidebyside>
 <sidebyside>
@@ -141,7 +141,7 @@
         <idx><h>conditional</h></idx>
         <idx><h>lying politician</h></idx>
         <p>
-            <m>P</m>: If I am elected
+            <m>P</m>: I am elected
         </p>
         <p>
             <m>Q</m>: I will lower taxes
@@ -157,7 +157,7 @@
             <ol>
                 <li>
                     <p>
-                        The politiciian is indeed elected:
+                        The politician is indeed elected:
                     </p>
                     <ol>
                         <li>
@@ -173,7 +173,7 @@
                                 The politician does not lower taxes
                             </p>
                             <p>
-                                The politiciain is lying!
+                                The politician is lying!
                             </p>
                         </li>
                     </ol>
@@ -206,7 +206,7 @@
     </example>
 </p>
 <p>
-    Students seem to have the hardes time seeing that when the politician is not elected their is no obligation to do anything and hence 
+    Students seem to have the hardest time seeing that when the politician is not elected their is no obligation to do anything and hence 
     the politician is not lying!
 </p>
 </section>
@@ -220,8 +220,8 @@
         <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
         <statement>
             <p>
-                the <term>biconditional statment</term>
-                <m>P\iff Q</m> is the propostion
+                the <term>biconditional statement</term>
+                <m>P\iff Q</m> is the proposition
             </p>
             <p>
                 "<m>P</m> if and only if <m>Q</m>"
@@ -238,7 +238,7 @@
         <idx><h>iff</h></idx>
         <idx><h>if and only if</h></idx>
         <idx><h>biconditional</h></idx>
-        Instead of writting "if and only if" we will often
+        Instead of writing "if and only if" we will often
         elect to only type <alert>"iff"</alert>. Just as with the implication, the biconditional has many english translations:
     </p>
     <sbsgroup widths="45% 45%"  valign="middle">
@@ -270,13 +270,13 @@
     <sidebyside>
        <p> <m>P</m> is equivalent to <m>Q</m></p>
         <p>
-            The water temperature is <m>100^\circ</m>C is sufficent for the water is boiling
+            The water temperature is <m>100^\circ</m>C is sufficient for the water is boiling
         </p>
     </sidebyside>
     <sidebyside>
-       <p> <m>P</m> is necessary and sufficent for <m>Q</m></p>
+       <p> <m>P</m> is necessary and sufficient for <m>Q</m></p>
         <p>
-            I am cooking tonight is necessary and sufficent for you to do the dishes
+            I am cooking tonight is necessary and sufficient for you to do the dishes
         </p>
     </sidebyside>
                

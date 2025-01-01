@@ -4,7 +4,7 @@
   <title>Arguments with Propositional Forms</title>
 <p>
     In this section we will "pull open the hood" a bit, and explore the inner workings of the arguments
-    with general propostional forms.
+    with general propositional forms.
 </p>
 <p>
     We begin with perhaps the most famous arguments. These are surely not the only tools we will use, 
@@ -17,7 +17,7 @@
    <idx><h>argument</h><h>modus ponens</h></idx>
     <p>
       <term>Modus Ponens</term> is a specific type of argument with two premises:
-       <m>P\implies Q</m>, and <m>P</m>, and conludes <m>Q</m>. That is
+       <m>P\implies Q</m>, and <m>P</m>, and concludes <m>Q</m>. That is
     </p>
     <tabular halign="center">
       
@@ -74,12 +74,12 @@
 
 
   <p>
-    A similiar example of this is "If it is raining then the ground is wet. 
+    A similar example of this is "If it is raining then the ground is wet. 
     The ground is not wet. Therefore the ground it  is not raining."
   </p>
 </assemblage>
 <p>
-  Eventhough these happen to be the most famous they are far from the only. Here is a not so 
+  Even though these happen to be the most famous they are far from the only. Here is a not so 
   complete list:
 </p>
 <figure xml:id="argument-types">
@@ -358,7 +358,7 @@
 <example>
 <idx><h>argument</h></idx>
   <p>
-    For this example lets set a few propositons:
+    For this example lets set a few propositions:
     <me>P:\text{ It is sunny today}</me>
     <me>Q:\text{ It is colder than yesterday}</me>
     <me>R:\text{ We will go hiking}</me>
@@ -437,7 +437,7 @@
       </li>
       <li>
         <p>
-          Now using the conclusion from (B) and our next premsise we see
+          Now using the conclusion from (B) and our next premises we see
         </p>
         <p>
           

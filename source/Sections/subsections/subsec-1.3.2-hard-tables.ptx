@@ -4,10 +4,10 @@
 <title>More Complicated Tables</title>
 
 <p>
-  Now lets dive into more complicated examples. As our examples get more complicated, I suggest that the 
-  student take time to break-it-down. That is to create extra columns that are themseleves components of 
-  compoud propositions. A simple example of this is the compound proposition: <me>(\sim P)\implies Q</me> This example has 
-  only two <em>basic</em> compounants, namely <m>P</m> and <m>Q</m>. Yet, notice that the antecedent is <m>\sim P</m>, this is 
+  Now let's dive into more complicated examples. As our examples get more complicated, I suggest that the 
+  student take time to break-it-down. That is to create extra columns that are themselves components of 
+  compound propositions. A simple example of this is the compound proposition: <me>(\sim P)\implies Q</me> This example has 
+  only two <em>basic</em> components, namely <m>P</m> and <m>Q</m>. Yet, notice that the antecedent is <m>\sim P</m>, this is 
   what I suggest you create a new column for namely after you make your <m>P</m> column and you <m>Q</m> column, then before you 
   make your final column add a <m>\sim P</m> column
 </p>
@@ -50,7 +50,7 @@
 
 </figure>
 <p>
-  Next, you can complete you table only looking at the <m>\sim P</m> and <m>Q</m> columns as they are
+  Next, you can complete the table by only looking at the <m>\sim P</m> and <m>Q</m> columns as they are
   the only ones now involved in the compound proposition <m>(\sim P)\implies Q</m>
 </p>
 <figure>
@@ -225,7 +225,7 @@
   From now on we will only show the finished tables. 
 </p>
 <p>
-  Another way of making a more complicated table is to have a compound proposition which invovlves three atomic
+  Another way of making a more complicated table is to have a compound proposition which involves three atomic
   propositions: <m>P</m>, <m>Q</m>, and <m>R</m>. In this case all of the possible combinations of true and false
   are the following:
 </p>

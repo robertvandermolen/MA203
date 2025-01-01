@@ -66,8 +66,8 @@ odd then <m>x+y</m> is even.</p>
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
         Again, as will be quite often even after this class, we do not have much but the 
-        definitions (<xref ref="subsec-4-1-2-terms"/>), so we will apply these defintions 
-        (making note they invovle quantifiers <xref ref="how-to-quantifiers" />).
+        definitions (<xref ref="subsec-4-1-2-terms"/>), so we will apply these definitions 
+        (making note they involve quantifiers <xref ref="how-to-quantifiers" />).
     </p>
     <p>
         To apply the definition of odd (<xref ref="defn-odd"/>) to our integer <m>x</m> we <em>use</em> the 
@@ -85,7 +85,7 @@ odd then <m>x+y</m> is even.</p>
         So for our proof we could write:
     </p>
     <p>
-        "By the definiton of odd we can find an integer <m>t</m> so that <m>x=2t+1</m>."
+        "By the definition of odd we can find an integer <m>t</m> so that <m>x=2t+1</m>."
     </p>
     <p>
         Next, we do the exact same procedure with the <m>y</m>, but because <m>y</m> is a new number
@@ -96,11 +96,11 @@ odd then <m>x+y</m> is even.</p>
         That is in our proof we could write:
     </p>
     <p>
-        "Again, By definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>."
+        "Again, by the definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>."
     </p>
     <p>
         Having successfully applied our definitions we now have <em>something</em> we can calculate 
-        with, so lets try to add what is in our <m>{\color{blue}{Q}}</m> namely <m>{\color{blue}{x+y}}</m>
+        with, so lets try to add what is in our <m>{\color{blue}{Q}}</m>, namely <m>{\color{blue}{x+y}}</m>
     </p>
     <md>
         <mrow>{\color{blue}{x+y}}\amp=(2t+1)+(2s+1)</mrow>
@@ -123,7 +123,7 @@ odd then <m>x+y</m> is even.</p>
         </me>
     </p>
     <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+y \text{ is even}</me> 
-        we must, again, use defintion of even (<xref ref="defn-even"/>), which uses an existential 
+        we must, again, use definition of even (<xref ref="defn-even"/>), which uses an existential 
     quantifier  so we must (<xref ref="sec-3-4-arguments-with-quant"/>) , be able to produce/point at an
     integer, so that <m>x+y</m> is this integer times 2.</p>
 <p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{s+t+1}}</m> is an 
@@ -158,8 +158,8 @@ integer!</p>
         odd then <m>x+y</m> is even</p>
     <p>
         Choose arbitrary integers <m>x</m> and <m>y</m>. Assume both <m>x</m> and <m>y</m> are odd.
-        By the definiton of odd we can find an integer <m>t</m> so that <m>x=2t+1</m>. 
-        Again, By definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>.
+        By the definition of odd we can find an integer <m>t</m> so that <m>x=2t+1</m>. 
+        Again, by the definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>.
     </p>
     <p>
         Now calculate:

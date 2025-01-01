@@ -5,7 +5,7 @@
 
 <p>
     Unlike the example in <xref ref="sec-1-2-checking"/> where the are an unlimited amount of integers to choose from, 
-    sometimes we have a finite and more tenable collection of possibilities and we could actually check or prove in each 
+    sometimes we have a finite and more tenable collection of possibilities than we could actually check or prove in each 
     of these situations.
 </p>
 
@@ -29,10 +29,10 @@
           </p>
       </assemblage>
 <p>
-    At its most basic a proof by cases is an istance of proofs "Assuming an Or" from <xref ref="subsec-3-5-proofs-of-or"/> where one is tasked to prove <m>(P\vee R)\implies Q</m>, then we would split the problem into proving <m>P\implies Q</m> as our <em>first case</em> and then <m>R\implies Q</m> as our <m>second case</m>. For examples of this the reader is reffered to <xref ref="subsec-3-5-proofs-of-or"/>.
+    At its most basic a proof by cases is an instance of proofs "Assuming an Or" from <xref ref="subsec-3-5-proofs-of-or"/> where one is tasked to prove <m>(P\vee R)\implies Q</m>, then we would split the problem into proving <m>P\implies Q</m> as our <em>first case</em> and then <m>R\implies Q</m> as our <m>second case</m>. For examples of this the reader is reffered to <xref ref="subsec-3-5-proofs-of-or"/>.
 </p>
       <p>
-        Another common place a proof by cases comes up are when we are trying to prove propositons in the form of:
+        Another common place proof by cases comes up are when we are trying to prove propositions in the form of:
         <me>
             \forall x\text{ }P(x)
         </me>

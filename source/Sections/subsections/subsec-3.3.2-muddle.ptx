@@ -2,7 +2,7 @@
 
 <section xml:id="sec-4-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
-<p>To proceed with our proof we don't have much expcept the definitions. 
+<p>To proceed with our proof we don't have much except the definitions. 
     (It can be helpful, especially in these early stages of proof writing, to write the 
     relevant definitions to the side in your scratch work - this is why it's part of the song!)</p>
   <p>  From the definition odd (<xref ref="defn-odd"/>) we can make the conclusion that:</p> 
@@ -36,7 +36,7 @@
         <p>
             I choose these as the first <em>types</em> of proofs to show/have students do first, because the 
             <m>{\color{green}{\text{muddle}}}</m>
-            is bascially the same for all of them: "invoke a defintion then calculate". It gives the students
+            is basically the same for all of them: "invoke a definition then calculate". It gives the students
             something to hold on to as they are still trying to digest the previous chapters...
         </p>
     </remark>

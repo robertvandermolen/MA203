@@ -10,18 +10,18 @@
 <p>
      Once we have it split like that we see something left over... this is the 
     <m>{\color{orange}{\text{beginning quantifier}}}</m>. This quantifier is quite often forgotten/assumed when it is not
-    written but assumed there we call it the <em>hidden quantifier</em>. Either way the statement we are trying to prove is
+    written, but assumed nonetheless, therefore we call it the <em>hidden quantifier</em>. Either way the statement we are trying to prove is
     now broken up as follows:
     <me>
         {\color{orange}{\forall x\in\Z}}\text{ if }{\color{red}{x\text{ is odd}}}\text{ then }{\color{blue}{x+1\text{ is even}}}
     </me>
     
 </p>
-<p>To prove our statment with this  <m>{\color{orange}{\text{beginning quantifier}}}</m>, according to 
+<p>To prove our statement with this  <m>{\color{orange}{\text{beginning quantifier}}}</m>, according to 
     Universal Generalization from <xref ref="how-to-quantifiers"/> we need to show it works with an
 arbitrary integer.</p>
 
-<p>To indicate this in our proof we may begin with either of the senctences:</p>
+<p>To indicate this in our proof we may begin with either of the sentences:</p>
     <p> "Let <m>x</m> be an integer."</p>
     <p>or</p>
     <p>"Choose an arbitrary integer <m>x</m>"</p>

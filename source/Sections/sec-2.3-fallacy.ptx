@@ -30,7 +30,7 @@
 <historical>
   <p>
     The term <em>Catch 22</em> was coined by the character Doc Daneeka, 
-    an army psychiatrist, in the novel <em>Catch 22</em>,
+    an army psychiatrist, in the novel <u>Catch 22</u>,
     to describe a governmental loophole that prevented pilots 
     from requesting a mental evaluation to avoid dangerous missions. 
   </p>
@@ -53,7 +53,7 @@
   It's just this argument doesn't get you very far.
 </p>
 <p>
-  Consider the next example of circluar reasoning.
+  Consider the next example of circular reasoning.
 </p>
 <example>
   <p>
@@ -63,7 +63,7 @@
 
 </example>
 <p>
-  Another mis-step that stuents are bound to take is almost a mis-application of
+  Another misstep that students are bound to take is almost a misapplication of
   the contrapositive, or thinking the implication is stronger
   than it is.
 </p>
@@ -96,13 +96,13 @@
    </p>
    <example>
     <p>
-      Consider the statment: "If it is sunny then we will go on a bike ride". 
-      then we still might go on a bike ride if it's not sunny, I was 
+      Consider the statement: "If it is sunny then we will go on a bike ride". 
+      We still might go on a bike ride if it's not sunny, I was 
       just saying if it's sunny we will definitely go!
     </p>
    </example>
  <p>
-  Another mistake in a similiar fashion again mistaking the power
+  Another mistake in a similar fashion is again mistaking the power
   of the implication. 
  </p>
  <assemblage >
@@ -133,8 +133,8 @@
 </p>
 <example>
   <p>
-    Consider the statment: "If it is sunny then we will go on a bike ride". 
-    then just because go on a bike ride doesn't some how make it sunny, again I was 
+    Consider the statement: "If it is sunny then we will go on a bike ride". 
+    Just because we go on a bike ride doesn't some how make it sunny, again I was 
     just saying if it's sunny we will definitely go!
   </p>
  </example>

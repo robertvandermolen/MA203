@@ -38,7 +38,7 @@
         <p>Proof by contraposition - because we are trying to learn it</p>
         </answer>
 
-    <p><alert>The Breakdown of the orginal:</alert></p>
+    <p><alert>The Breakdown of the original:</alert></p>
     <p>
         <me>
             {\color{orange}{\forall m\in\Z}}\text{ if }{\color{blue}{m^2 \text{ is odd }}}\text{ then }
@@ -59,7 +59,7 @@
        <note>
         <p>
             When first getting used to the contrapositive students have at times made the mistake of negating the <m>{\color{orange}{\text{beginning quantifier}}}</m>
-            which in this case would be <m>\exists m\in\Z</m>. Be careful as the statment actually has the form <m>\forall m\in\Z</m> <m>R(m)</m> where
+            which in this case would be <m>\exists m\in\Z</m>. Be careful as the statement actually has the form <m>\forall m\in\Z</m> <m>R(m)</m> where
             <me>
                 R(m):\text{ if }m^2 \text{ is odd then }
                 m\text{ is odd}
@@ -138,7 +138,7 @@
             </ul>
         </p>
         <p>
-       Now we take care of our <m>{\color{red}{\text{beginning}}}</m> of our proof using this new method of proof by contrapostion, 
+       Now we take care of our <m>{\color{red}{\text{beginning}}}</m> of our proof using this new method of proof by contraposition, 
        by assuming <m>{\color{red}{\sim Q}}</m>.</p>
     <p>Assume <m>m</m> is not odd.</p>
     <p>
@@ -153,7 +153,7 @@
 <p>
     As the pain point of even vs odd is not lost to me and it will be helpful to be able to write proofs without having to
     prove that not odd is the same as even every single time. This want to not prove something over and over again, or 
-    to seperate a smaller proof from a different result comes up a lot, so when we want to do this we create a Lemma. 
+    to separate a smaller proof from a different result comes up a lot, so when we want to do this we create a Lemma. 
 </p>    
 <historical>
     <p>
@@ -179,7 +179,7 @@
 </proof>
 <p>
     With our assumption that <m>m</m> is not odd and this Lemma in hand we could use Disjunctive Syllogism (<xref ref="argument-types"/>) 
-    in our proof we could write:
+    in our proof to write:
 </p>
 <p>
     Since we assumed that <m>m</m> is not odd by <xref ref="lem-odd-not-even"/> we can conclude that <m>m</m> is even.
@@ -225,7 +225,7 @@
     <p><alert>Prove:</alert> For any integer <m>m</m>, if <m>m^2</m> is odd, then <m>m</m> is odd.</p>
     <p>Let <m>m</m> be an integer. Assume <m>m</m> is not odd. Hence, by <xref ref="lem-odd-not-even"/> we can conclude that <m>m</m> is even.</p>
     <p>
-        By definiton of even we can find an integer <m>k</m> such that <m>m=2k</m>
+        By definition of even we can find an integer <m>k</m> such that <m>m=2k</m>
     </p>
     <p>Calculate:</p>
     <md>

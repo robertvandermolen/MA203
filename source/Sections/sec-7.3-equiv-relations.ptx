@@ -4,7 +4,7 @@
   <title>Equivalence Relations</title>
 
   <p>
-    Equivalence relations show up a lot in your future math courses especially in algebra and number theory. Yet, before we dive into an equivalence realtion lets look at the three properties which make it up. First up is the reflexive property.
+    Equivalence relations show up a lot in your future math courses especially in algebra and number theory. Yet, before we dive into an equivalence relation lets look at the three properties which make it up. First up is the reflexive property.
   </p>
   <definition xml:id="def-reflexive">
         <title>Reflexive</title>
@@ -58,7 +58,7 @@
                     <md>
                         <mrow>a+2a \amp=3\cdot(a) </mrow>
                     </md>
-                    and since <m>a</m> is an integer by defintion of divides <m>3</m> divides <m>a+2a</m>, and hence <m>(a,a)\in S</m>.
+                    and since <m>a</m> is an integer by definition of divides <m>3</m> divides <m>a+2a</m>, and hence <m>(a,a)\in S</m>.
                 </p>
                 <p>
                     Since we have chosen <m>a</m> arbitrary we can conclude that <m>S</m> is reflexive as desired.
@@ -105,7 +105,7 @@
         <idx><h>symmetric</h></idx>
         <idx><h>relation</h><h>symmetric</h></idx>
         <p>
-           We say that a realtion <m>R</m> on a set <m>A</m> is <term>symmetric</term> on <m>A</m> whenever <me>\forall x,y\in A,\text{ if } xRy\text{ then } yRx</me>
+           We say that a relation <m>R</m> on a set <m>A</m> is <term>symmetric</term> on <m>A</m> whenever <me>\forall x,y\in A,\text{ if } xRy\text{ then } yRx</me>
         </p>
     </definition>
     <example>
@@ -275,7 +275,7 @@
         <statement>
             <p>
                 A relation <m>R</m> on a set <m>A</m> is an <term>equivalence relation</term> on <m>A</m> if <m>R</m> is reflexive,
-                symmetric, and trasitive on <m>A</m>.
+                symmetric, and transitive on <m>A</m>.
             </p>
         </statement>
     </definition>
@@ -345,7 +345,7 @@
         </p>
     </example>
     <p>
-        For the next example we will find the following defintion and lemma helpful.
+        For the next example we will find the following definition and lemma helpful.
     </p>
     <definition xml:id="def-partiy">
     <title>Parity</title>
@@ -369,7 +369,7 @@
             <title>Proof of <xref ref="lem-oddplusodd"/></title>
             
             <p>
-                We will approach this proof exahustive, using <xref ref='lem-odd-not-even'/> to break us into cases.
+                We will approach this proof exhaustive, using <xref ref='lem-odd-not-even'/> to break us into cases.
             </p>
             <p>
                 <alert>Case 1: <m>\mathbf{a}</m> is even and <m>\mathbf{b}</m> is even</alert>
@@ -408,7 +408,7 @@
                 <alert>Case 1: <m>\mathbf{a}</m> is odd and <m>\mathbf{b}</m> is odd</alert>
             </p>
             <p>
-                In this final case we assue we can find integes <m>n</m> and <m>m</m> so that <m>a=2n+1</m> and <m>b=2m+1</m>. Calculate
+                In this final case we assume we can find integers <m>n</m> and <m>m</m> so that <m>a=2n+1</m> and <m>b=2m+1</m>. Calculate
                 <md>
                     <mrow>a+b \amp= (2n+1)+(2m+1)</mrow>
                     <mrow> \amp=2n+2m+1+1=2n+2m+2 </mrow>
@@ -438,7 +438,7 @@
                     <alert>Proof of Reflexive:</alert>
                 </p>
                 <p>
-                    To show relexive we start with an arbitrary element <m>a\in\Z</m>, then calculate
+                    To show reflexive we start with an arbitrary element <m>a\in\Z</m>, then calculate
                     <md>
                         <mrow>a+a \amp=2a </mrow>
                     </md> 
@@ -448,7 +448,7 @@
                     <alert>Proof of Symmetric:</alert>
                 </p>
                 <p>
-                    To prove that <m>R</m> is symmetric choose an arbitrary element <m>(x,y)\in R</m>, thus by definition of <m>R</m> we have that <m>2|(x+y)</m> hence we can find an integher <m>k</m> such that <m>x+y=2k</m>, yet note that <m>y+x=x+y=2k</m> hence <m>y+x</m> is divisible by 2 and therefore <m>(y,x)\in R</m> and hence <m>R</m> is symmetric.
+                    To prove that <m>R</m> is symmetric choose an arbitrary element <m>(x,y)\in R</m>, thus by definition of <m>R</m> we have that <m>2|(x+y)</m> hence we can find an integer <m>k</m> such that <m>x+y=2k</m>, yet note that <m>y+x=x+y=2k</m> hence <m>y+x</m> is divisible by 2 and therefore <m>(y,x)\in R</m> and hence <m>R</m> is symmetric.
                 </p>
                 <p>
                     <alert>Proof of Transitive:</alert>
@@ -509,7 +509,7 @@
                     <alert>Proof of Reflexive:</alert>
                 </p>
                 <p>
-                    To prove reflexive, we begin with an arbitray element <m>a\in A</m>. Since <m>R</m> and <m>S</m> are equivalence realtions they are inparticular reflexive we have that <m>(a,a)\in R</m> and <m>(a,a)\in S</m>, hence by definition of intersection <m>(a,a)\in R\cap S</m> thus <m>R\cap S</m> is reflexive.
+                    To prove reflexive, we begin with an arbitrary element <m>a\in A</m>. Since <m>R</m> and <m>S</m> are equivalence relations they are in particular reflexive we have that <m>(a,a)\in R</m> and <m>(a,a)\in S</m>, hence by definition of intersection <m>(a,a)\in R\cap S</m> thus <m>R\cap S</m> is reflexive.
                 </p>
                 <p>
                     <alert>Proof of Symmetric:</alert>
@@ -570,14 +570,14 @@
             <me>
                 R=\{(a,b)\in A\times A\text{ }|\text{ }3|(a+2b)\}
             </me>
-            We claim that this is an equivalence relation of <m>A</m>, yet since we just have a finite set lets just go through and find all the relations, nameley
+            We claim that this is an equivalence relation of <m>A</m>, yet since we just have a finite set lets just go through and find all the relations, namely
             <me>
                 R=\{(0,0),(1,1),(2,2),(3,3),(4,4),(0,3),(3,0),(1,4),(4,1)\}
             </me>
-            We can then go through and check that all the properties of an equivalence relation, notice for example that the following are all memebers of <m>R</m> (0,0), (1,1), (2,2), (3,3), (4,4) and hence <m>R</m> is reflexive.
+            We can then go through and check that all the properties of an equivalence relation, notice for example that the following are all members of <m>R</m> (0,0), (1,1), (2,2), (3,3), (4,4) and hence <m>R</m> is reflexive.
         </p>
         <p>
-            To continue note the follwoing are all members of <m>R</m> 
+            To continue note the following are all members of <m>R</m> 
             <md>
                 <mrow>(0,0) \amp\text{ and }(0,0) </mrow>
                 <mrow>(1,1) \amp\text{ and }(1,1) </mrow>

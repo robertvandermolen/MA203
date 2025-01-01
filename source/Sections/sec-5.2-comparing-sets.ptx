@@ -50,7 +50,7 @@
     
 </example>
 <p>
-    When a set <m>A</m> has exactly the same elements of a set <m>B</m> we say those set are equal. The following definition makes this more rigours 
+    When a set <m>A</m> has exactly the same elements of a set <m>B</m> we say those set are equal. The following definition makes this more rigorous 
 </p>
 <definition xml:id="defn-equals">
     <title>Equal Sets</title>
@@ -69,7 +69,7 @@
     </statement>
 </definition>
 <p>
-    Sets are equal exactly when you would think they are, when they are the same set. Yet, as hopefully you have been piecing together in this journey, to prove things like "they are the same" we need a bit more rigor and propositional <em>guidance</em> to prove truth. Shortly we will venture into the world of proving with these sets, yet lets take a little time not just to build a rigorous definitions but to build our intuition further. 
+    Sets are equal exactly when you would think they are, when they are the same set. Yet, as hopefully you have been piecing together in this journey, to prove things like "they are the same" we need a bit more rigor and propositional <em>guidance</em> to prove truth. Shortly we will venture into the world of proving with these sets, yet lets take a little time not just to build rigorous definitions but to build our intuition further. 
 </p>
 <p>
     We now venture into combining sets, that is making new sets given one or more sets. 
@@ -115,7 +115,7 @@
    </p>
   </example>
   <p>
-    Another way to combine sets is to only consider the elements in which they share, this is our next definition.
+    Another way to combine sets is to consider only the elements in which they share, this is our next definition.
   </p>
     <definition xml:id="def-intersection">
     <title>Intersection</title>
@@ -205,7 +205,7 @@
        </p>
   </example>
   <p>
-    To end this section we have been quite flipant on our universe of discourse, yet with a well defined one we can look at the set difference involving the universe.
+    To end this section we have been quite flippant on our universe of discourse, yet with a well defined one we can look at the set difference involving the universe.
   </p>
   <definition xml:id="def-compliment">
     <title>Compliment</title>
@@ -221,11 +221,11 @@
   <p>The compliment can, perhaps, most simply be stated as everything that is not in <m>A</m>.</p>
   <example>
     <p>
-        For this example consider the universe of discord as the intergers, <m>\mathcal{U}=\Z</m>, and consider the set of all even numbers, that is the set 
+        For this example consider the universe of discourse as the integers, <m>\mathcal{U}=\Z</m>, and consider the set of all even numbers, that is the set 
         <me>
             A=\{x\in\Z\text{ }|\text{ }x=2y\text{ for some }y\in\Z\}
         </me>
-        Then the compliment of <m>A</m> is all the integers that are not even, or in-lieu of <xref ref="lem-odd-not-even"/> we have that 
+        Then the compliment of <m>A</m> is all the integers that are not even, or in lieu of <xref ref="lem-odd-not-even"/> we have that 
         <me>
             A^c=\{x\in\Z\text{ }|\text{ }x=2y+1\text{ for some }y\in\Z\}
         </me>

@@ -3,7 +3,7 @@
 <section xml:id="subsec-2-3-3-taut" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Tautologies and Contradictions</title>
 <p>
-    One of the strongest tools in proving are propositonal statements that are either always true or always false.
+    One of the strongest tools in proving are propositional statements that are either always true or always false.
 </p>
 <definition xml:id="def-tautology">
   <title>Tautology</title>
@@ -108,8 +108,8 @@
   </statement>
 </definition>
   <p>
-  For an example of a contradition is the famous <m>P\wedge (\sim P)</m>, this is the 
-  classic "I go to bed early and I will not go to bed early".
+  For an example of a contradiction is the famous <m>P\wedge (\sim P)</m>, this is the 
+  classic "I will go to bed early and I will not go to bed early".
 </p>
 <figure >
   <tabular halign="center">

@@ -30,7 +30,7 @@
   <p>
     Later on Day 5, Fibonacci returns to his home and comes up with perhaps the greatest mathematical assumption in all of history, 
     <me>
-        \mathbf{\text{ Assume that Rabbits never die! }}
+        \mathbf{\text{ Assume that rabbits never die! }}
     </me>
     Then asked himself how many rabbits would be there on day 6, or 7, or 8, or even 1000...
   </p>
@@ -38,7 +38,7 @@
   </assemblage>
 
   <p>
-   To create a formal defintion of the fibonacci we use the concept of inductive definitons. An inductive defintion is one which takes the form of PMI, specifically where we first define a base case and then we define the inductive step
+   To create a formal definition of the fibonacci we use the concept of inductive definitions. An inductive definition is one which takes the form of PMI, specifically where we first define a base case and then we define the inductive step
   </p>
   
   <definition xml:id="def-fibonacci">
@@ -64,7 +64,7 @@
     </statement>
   </definition>
   <p>
-    For fun lets count some more rabbits.  
+    For fun let's count some more rabbits.  
   </p>
 <example xml:id="ex-count-fib">
     <p>
@@ -86,7 +86,7 @@
     </p>
 </example>
     <p>
-      The awake student, usually sitting somemwhere right off the front row, will notice that when we defined the Fibonacci numbers we didn't just have a singular base case, and we diddn't define the <m>n+1</m> case, which is slightly different from the procedure of induction. To this student I applaud you, that is correct we instead used a slightly different version of indcution, known commonly as complete induction.
+      The awake student, usually sitting somewhere right off the front row, will notice that when we defined the Fibonacci numbers we didn't just have a singular base case, and we didn't define the <m>n+1</m> case, which is slightly different from the procedure of induction. To this student I applaud you, that is correct; we instead used a slightly different version of induction, known commonly as complete induction.
     </p>
     <definition xml:id="def-pci">
     <title>Principle of Complete Induction</title>
@@ -139,11 +139,11 @@
     </p>
   </assemblage>
   <p>
-    The astute student will note we are really doing nothing different here... as in PMI we said <em>for any</em> <m>n</m> so why not up to any <m>n-1</m>. But, this really allows us to do exactly what we have been doing its just that in step (iii) it becomes quite cumbersome to balance <m>n+1</m> everywhere, so this way just lets us use <m>n</m> as well sometimes we can just get some number less than <m>n</m> and it is there we would like to invoke the induction assumption not hitting exactly one number. This range version is much more versitile and it is the method that I personally just always default to.
+    The astute student will note we are really doing nothing different here... as in PMI we said <em>for any</em> <m>n</m> so why not up to any <m>n-1</m>. But, this really allows us to do exactly what we have been doing its just that in step (iii) it becomes quite cumbersome to balance <m>n+1</m> everywhere, so this way just lets us use <m>n</m> as well sometimes we can just get some number less than <m>n</m> and it is there we would like to invoke the induction assumption not hitting exactly one number. This range version is much more versatile and it is the method that I personally just always default to.
   </p>
     <example>
       <p>
-            <alert>Prove:</alert> For any <m>m\in\N</m> such that <m>m\geq 1</m> we have <m>f_{3m}</m> is even (every third fibonacci number is even)
+            <alert>Prove:</alert> For any <m>m\in\N</m> such that <m>m\geq 1</m> we have <m>f_{3m}</m> is even (every third Fibonacci number is even)
         </p>
       <proof>
         

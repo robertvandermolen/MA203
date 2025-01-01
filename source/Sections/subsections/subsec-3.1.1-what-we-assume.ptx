@@ -12,7 +12,7 @@
     <li>
         <p>
             That adding/subtraction/multiplication of integers works like you think. For example
-            <me>2-3=-3</me>
+            <me>2-3=-3+2</me>
         </p>
         <p>
             <em>(Notice I did not say division! DO NOT use division in this chapter!)</em>
@@ -72,7 +72,7 @@
     
     <li>
         <p>
-            Any Theorem/Lemma/Corrolary given in this chapter, unless otherwise stated.
+            Any Theorem/Lemma/Corollary given in this chapter, unless otherwise stated.
         </p>
     </li>
     <li>
@@ -90,7 +90,7 @@
             
         </p>
         <p>
-            (once we have enough tools we will prove this *cite here rob* but for now we will assume it)
+            (once we have enough tools we will prove this <xref ref="prop-div-algo"/> but for now we will assume it)
         </p>
     </li>
 </ol>

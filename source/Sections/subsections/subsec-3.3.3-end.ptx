@@ -27,7 +27,7 @@
     </p>
 
     <p>
-        "Since <m>{\color{purple}{k+1}}</m> is an integer, by definition of even, <m>x+1</m> is even."</p>
+        "Since <m>{\color{purple}{k+1}}</m> is an integer (this is where./how we "assume but mention" the <em>closure of addition in the integers</em>), by definition of even, <m>x+1</m> is even."</p>
     
 
     
@@ -50,7 +50,11 @@
 
     
    
-    
+    <historical>
+    <p>When a proof is finished, customarily, we either write "QED" or <m>\square</m> at the bottom. 
+        This comes from the Latin "quod erat demonstrandum," which means 
+        "that which was to be demonstrated."</p>
+    </historical>
 
 
 <p></p>
@@ -58,11 +62,7 @@
     To wrap-up everything in a pretty bow, lets see the whole proof in one spot.
 </p>
 
-<historical>
-    <p>When a proof is finished, customarily, we either write "QED" or <m>\square</m> at the bottom. 
-        This comes from the Latin "quod erat demonstrandum," which means 
-        "that which was to be demonstrated."</p>
-    </historical>
+
 
 
 <example>
@@ -78,7 +78,7 @@
     <mrow>\amp=2(k+1)</mrow>
     </md>
     <p>Since <m>k+1</m> is an integer, by definition of even, <m>x+1</m> is even. </p>
-    <p> Since we assumed that and arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
+    <p> Since we assumed that an arbitrary integer <m>x</m> was odd and showed that <m>x+1</m> is even, we can conclude 
     that for all integers <m>x</m>, whenever <m>x</m> is odd then <m>x+1</m> is even, by direct proof. <m>\square</m>
     </p> 
     

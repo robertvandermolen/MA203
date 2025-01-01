@@ -3,7 +3,7 @@
 <section xml:id="sec-5-4-first-set-proofs" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>First Proofs with Sets</title>
 <p>
-    In the previous section we looked at many basic propoerties of sets. Now we will venture into some proofs that are more indicative of your furture classes, and return (momentarily) back to the safety of numbers.
+    In the previous section we looked at many basic properties of sets. Now we will venture into some proofs that are more indicative of your future classes, and return (momentarily) back to the safety of numbers.
 </p>
 <p>
     We first examine how one would prove a subset to be true.
@@ -25,7 +25,7 @@
     <me>
         \forall x\in\mathcal{U} \text{ }x\in A\implies x\in B
     </me>
-    We will see many examples of this proving method throughout out the class, yet before we jump in, I'd like to note for either the instructor or the dilligent student who has been paying very close attention to the journey. I used to try and teach this by taking away the numbers, and instead using the <m>{\color{red}\text{beginning}}</m>, <m>{\color{green}\text{muddle}}</m> and the <m>{\color{blue}\text{end}}</m> in <xref ref="subsec-5-3-2-algebra-of-sets"/> instead of the now off handed way you see presented here, but I believe the students felt like it was too jarring and then leaned away from subsets and set proofs, which was detremental to their learning once we got to abstract algebra. So now I introduce these proofs with numbers in hopes that you leave the set theory section with the love that you left from the even and odd proofs. 
+    We will see many examples of this proving method throughout out the class, yet before we jump in, I'd like to note for either the instructor or the diligent student who has been paying very close attention to the journey. I used to try and teach this by taking away the numbers, and instead using the <m>{\color{red}\text{beginning}}</m>, <m>{\color{green}\text{muddle}}</m> and the <m>{\color{blue}\text{end}}</m> in <xref ref="subsec-5-3-2-algebra-of-sets"/> instead of the now off-handed way you see presented here, but I believe the students felt like it was too jarring and then leaned away from subsets and set proofs, which was detrimental to their learning once we got to abstract algebra. So now I introduce these proofs with numbers in hopes that you leave the set theory section with the love that you left from the even and odd proofs. 
    </p>
   <section xml:id="sec-5-4-1-first-set-proofs-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>The First Proof</title>
@@ -62,19 +62,19 @@
     <section xml:id="sec-5-4-2-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
         <p>
-            To begin this proof we follow our procdure above, by choosing an arbitrary element of the set <m>A</m>, using words in the manner of:
+            To begin this proof we follow our procedure above, by choosing an arbitrary element of the set <m>A</m>, using words in the manner of:
         </p>
         <p>
             <me>\color{red}{\text{Let }s\in A}</me> 
         </p>
         <p>
-            Thats all there is to it, we abscond with a random element of <m>A</m>, then drudge foward with our journey to show it is a member of <m>B</m>.
+            Thats all there is to it, we abscond with a random element of <m>A</m>, then drudge forward with our journey to show it is a member of <m>B</m>.
         </p>
     </section>
     <section xml:id="sec-5-4-3-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{green}{\text{The Muddle}}}</m></title>
         <p>
-            I chose to begin with this example as <m>\color{green}{\text{the muddle}}</m> is almost identicial to most other of our examples. That is we simply state what it takes for <m>s</m> to belong to <m>A</m>. From the definition above of the set <m>A</m>, we see in the <em>condition</em> part of the set-bulider notation it tells us that there must be an integer so that <m>s</m> is 6 times this integer (sound familiar?). To invoke this we could write something like:
+            I chose to begin with this example as <m>\color{green}{\text{the muddle}}</m> is almost identical to most other of our examples. That is we simply state what it takes for <m>s</m> to belong to <m>A</m>. From the definition above of the set <m>A</m>, we see in the <em>condition</em> part of the set-builder notation it tells us that there must be an integer so that <m>s</m> is 6 times this integer (sound familiar?). To invoke this we could write something like:
         </p>
         <p>
             By the definition of membership of <m>A</m>, we can produce some integer <m>t</m> so that <m>s=6t</m>.

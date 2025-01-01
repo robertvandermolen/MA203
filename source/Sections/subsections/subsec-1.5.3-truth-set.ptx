@@ -4,9 +4,9 @@
 <title>Truth Sets and Predicate Forms</title>
 
 <p>
-    When we are discussing a general universe of discuourse we will denote it as <m>\mathcal{U}</m>. We will also often need 
+    When we are discussing a general universe of discourse we will denote it as <m>\mathcal{U}</m>. We will also often need 
     to speak of a predicate in general terms so we will use the <em>function</em> notation for predicates. Such
-    as for the predicate <m>x\geq 3</m> we can denote it by <m>P(x)</m>. And thus we can now determine that a statment like
+    as for the predicate <m>x\geq 3</m> we can denote it by <m>P(x)</m>. And thus we can now determine that a statement like
     <m>P(2)</m> which is <m>2\geq3</m> is false.
 </p>
 <p>
@@ -21,7 +21,7 @@
     <idx><h>truth set</h></idx>
     <p>
         
-        The truth set for the open sentence "<m>x^2\lt 3</m>" depends on the universe of discord. When the universe is set 
+        The truth set for the open sentence "<m>x^2\lt 3</m>" depends on the universe of discourse. When the universe is set 
         as <m>\mathcal{U}=\mathbb{N}</m> 
     
         then the truth set is <m>\{0,1\}</m>. When the universe is 
@@ -51,7 +51,7 @@
     </statement>
 </definition>
 <p>
-    Now lets see an example of this in play wiht some, perhaps, unexpected results.
+    Now lets see an example of this in play with some, perhaps, unexpected results.
 </p>
 <example>
 <idx><h>predicate</h><h>equivalent</h></idx>

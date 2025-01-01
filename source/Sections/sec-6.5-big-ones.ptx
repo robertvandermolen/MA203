@@ -3,11 +3,11 @@
 <section xml:id="sec-6-5-big-ones" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Well-Ordering Principle</title>
   <p>
-    One of the most important properties of the natural numbers, that will be used constantly in your studies even if it is rarely mentioned and that is. 
+    One of the most important properties of the natural numbers, that will be used constantly in your studies even if it is rarely mentioned and that is:
   </p>
   <assemblage>
     <title>Well-Ordering Principle (WOP)</title>
-    <idx><h>Well-Ordering Priciple</h></idx>
+    <idx><h>Well-Ordering Principle</h></idx>
     <p>
       Every nonempty subset of <m>\N</m> has a smallest element.
     </p>
@@ -16,7 +16,7 @@
     In class when I have introduced this topic in the past it has been greeted with the dreaded <em>wE</em><m>\ell</m><em>L oBv</em><m>I</m><em>oUsLy</em>.
   </p>
   <p>
-    This property is quite unique to the natural numbers, it's not true in the integers, the rationals, the positive rational numbes, the real numbers, nor are the non-negative real numbers.
+    This property is quite unique to the natural numbers, it's not true in the integers, the rationals, the positive rational numbers, the real numbers, nor are the non-negative real numbers.
   </p>
   <p>
     WOP seems to come up most often with contradiction, specifically assuming some property you to want to be true for the natural numbers is not. This is the negation of a universal statement, and thus you are assuming an existential, one way of interpreting this existential is to say that thus the set of all natural numbers that do not have this property is nonempty. Then WOP gives us a smallest member of this set, and we can quite often contradict by constructing a smaller element, for example. 
@@ -48,7 +48,7 @@
   </definition>
   <note>
     <p>
-      Besides our usual assumptions we will also asssume the properties of inequalities you know and love from you your college algebra course as well (I usually skip these proofs in class but include them for reference to WOP in my later classes)
+      Besides our usual assumptions we will also assume the properties of inequalities you know and love from your college algebra course as well (I usually skip these proofs in class but include them for reference to WOP in my later classes)
     </p>
   </note>
   <p>
@@ -64,7 +64,7 @@
   <p></p>
     <proof>
       <p>
-        Let <m>a</m> and <m>b</m> be arbitrary integers with <m>b\gt 0</m> and assume that <m>a|b</m>. By definitoin of divides we can find an integer <m>q</m> such that <m>b=aq</m>. Since we assumed that <m>b\gt0</m> we ahve that both <m>a\gt0</m> and <m>q\gt 0</m>. For sake of contradiction assume that <m>a\gt b</m>, hence <m>0\lt a-b</m> hence <m>0\lt a-aq=a(1-q)</m>.
+        Let <m>a</m> and <m>b</m> be arbitrary integers with <m>b\gt 0</m> and assume that <m>a|b</m>. By definition of divides we can find an integer <m>q</m> such that <m>b=aq</m>. Since we assumed that <m>b\gt0</m> we have that both <m>a\gt0</m> and <m>q\gt 0</m>. For sake of contradiction assume that <m>a\gt b</m>, hence <m>0\lt a-b</m> hence <m>0\lt a-aq=a(1-q)</m>.
       </p>
       
       <p>
@@ -79,7 +79,7 @@
     </p>
     <proof>
       <p>
-        Choose an arbitrary <m>n\in\N</m>, if <m>n</m> is prime the indeed <m>n</m> has a prime factor, namely itself. If <m>n</m> is composite then something other than <m>n</m> and <m>1</m> must divide <m>n</m>. Therefore the following set is non-empty:
+        Choose an arbitrary <m>n\in\N</m>, if <m>n</m> is prime then indeed <m>n</m> has a prime factor, namely itself. If <m>n</m> is composite then something other than <m>n</m> and <m>1</m> must divide <m>n</m>. Therefore the following set is non-empty:
         <me>
           R=\{m\in\N\text{ }|\text{ }m|n,\text{ }m\neq n, \text{ and }m\neq 1\}
         </me>

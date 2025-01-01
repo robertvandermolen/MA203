@@ -46,7 +46,7 @@
     <p>
       <proof>
         <p>
-          The definition of surjective envolves an equality of sets, so we break our proof into two parts.
+          The definition of surjective involves an equality of sets, so we break our proof into two parts.
         </p>
         <p>
           <m>\mathbf{\text{Proof of }\text{Rng}(f)\subseteq\Z}</m>
@@ -76,7 +76,7 @@
           <alert>Case 3:</alert> Assume <m>r=2</m>
         </p>
         <p>
-          In this case since <m>q</m> and 1 are integers we have that <m>z=3q+2</m> hence <m>f(q,1)=z</m>, therfore <m>z\in\text{Rng}(f)</m> as desired.
+          In this case since <m>q</m> and 1 are integers we have that <m>z=3q+2</m> hence <m>f(q,1)=z</m>, therefore <m>z\in\text{Rng}(f)</m> as desired.
         </p>
         <p>
           Because we have shown no matter what <m>r</m> is that <m>z\in\text{Rng}(f)</m> we can conclude that <m>z\in\text{Rng}(f)</m>
@@ -99,7 +99,7 @@
       For example considering three sets <m>A</m>, <m>B</m>, and <m>C</m> and two functions <m>f:A\rightarrow B</m> and <m>g:B\rightarrow C</m> we can then consider the composition <me>g\circ f:A\rightarrow C</me>. 
       </p>
       <p>
-      When we were dealing with relations we would of taken a pair <m>(a,c)\in g\circ f</m> to only be a member of <m>g\circ f</m> when we could find an element <m>b\in B</m> such that <m>(a,b)\in f</m> and <m>(b,c)\in g</m>, with a function this element is self evident, it is <m>f(a)</m> since <me>(a,b)\in f</me> means <me>f(a)=b</me>. 
+      When we were dealing with relations we would have taken a pair <m>(a,c)\in g\circ f</m> to only be a member of <m>g\circ f</m> when we could find an element <m>b\in B</m> such that <m>(a,b)\in f</m> and <m>(b,c)\in g</m>, with a function this element is self evident, it is <m>f(a)</m> since <me>(a,b)\in f</me> means <me>f(a)=b</me>. 
       Furthermore, since <m>\text{Dom}(f)=A</m> we know we have such a <m>b</m> (another reason that the notation <m>f(a)</m> even makes sense). 
       </p>
       <p>
@@ -135,7 +135,7 @@
           Let <m>c\in C</m>, since we have assumed that <m>g\circ f</m> is surjective, in particular <m>C\subseteq\text{Rng}(g\circ f)</m> we have that <m>c\in\text{Rng}(g\circ f)</m> thus by definition of range we can find a <m>a\in A</m> such that <m>g\circ f(a)=c</m>, that is <m>g(f(a))=c</m>, and by definition of <m>f</m> we have that <m>f(a)\in B</m>, hence we have that <m>c\in\text{Rng}(g)</m>. 
         </p>
         <p>
-          Since we have shown both <m>\text{Rng}(g)\subseteq C</m> and <m>\text{Rng}(g)\supseteq C</m> we can conlcude that <m>\text{Rng}(g)= C</m>, hence we have shown that <m>g</m> is surjective.
+          Since we have shown both <m>\text{Rng}(g)\subseteq C</m> and <m>\text{Rng}(g)\supseteq C</m> we can conclude that <m>\text{Rng}(g)= C</m>, hence we have shown that <m>g</m> is surjective.
         </p>
       </proof>
     </p>
@@ -189,7 +189,7 @@
         We leave the task of proving that <m>f</m> is indeed a function to the reader, and we prove that <m>f</m> is injective.
       </p>
       <p>
-        Let <m>x\in\Z</m> and <m>y\in\Z</m> such that <m>f(x)=f(y)</m> by definiton of <m>f</m> this means <m>x+5=y+5</m>, subtracting five on both sides of the equation gives us <m>x=y</m> as desired.
+        Let <m>x\in\Z</m> and <m>y\in\Z</m> such that <m>f(x)=f(y)</m> by definition of <m>f</m> this means <m>x+5=y+5</m>, subtracting five on both sides of the equation gives us <m>x=y</m> as desired.
       </p>
     </proof>
   </p>
@@ -230,7 +230,7 @@
   <proof>
     <title>Proof of <xref ref="prop-inverse"/></title>
     <p>
-      As we are to prove a bijconditional we will split the proof into two parts.
+      As we are to prove a biconditional we will split the proof into two parts.
     </p>
     
     <p>
@@ -311,7 +311,7 @@
     <p>
       <proof>
         <p>
-          To show this function is a bijection we will need to show it injective and surjective.
+          To show this function is a bijection we will need to show it is injective and surjective.
         </p>
         <p>
           <alert>Proof of one-to-one:</alert>
@@ -329,7 +329,7 @@
           <m>\mathbf{\text{Proof of }\text{Rng}(g)\subseteq\Z}</m>
         </p>
         <p>
-          Let <m>b\in\text{Rng}(g)</m>, by definition of range we can find an integer <m>a</m> such that <m>g(a)=b</m> by the definiton of <m>g</m> we have that <m>g(a)=a-2</m>, since both <m>a</m> and 2 are integers we have that <m>a-2</m> is an integer and hence <m>b\in\Z</m> as desired.
+          Let <m>b\in\text{Rng}(g)</m>, by definition of range we can find an integer <m>a</m> such that <m>g(a)=b</m> by the definition of <m>g</m> we have that <m>g(a)=a-2</m>, since both <m>a</m> and 2 are integers we have that <m>a-2</m> is an integer and hence <m>b\in\Z</m> as desired.
         </p>
         <p>
           <m>\mathbf{\text{Proof of }\text{Rng}(g)\supseteq\Z}</m>

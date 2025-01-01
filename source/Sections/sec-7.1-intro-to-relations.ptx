@@ -3,9 +3,9 @@
 <section xml:id="sec-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What is a Relation?</title>
     <p>
-      A relation at its heart is simple a way of formalizing sentences like: <me>\text{Bart is related to Lisa}</me>.
+      A relation at its heart is a simple a way of formalizing sentences like: <me>\text{Bart is related to Lisa}</me>.
       
-      Slightly more formal, we will take two sets and define how the elements of these sets are related to eachother.
+      Slightly more formal, we will take two sets and define how the elements of these sets are related to each other.
     </p>
 
     <definition xml:id="def-relation">
@@ -107,7 +107,7 @@
     </p>
     </example>
     <p>
-      While admittedly this is quite a verbose way of explaining something that is already in your lexicon, hoepfully this last example helps calm your stomach or atleast motivate the notation, I would like to now step back and look at this new concept a little more abstractly.
+      While admittedly this is quite a verbose way of explaining something that is already in your lexicon, hopefully this last example helps calm your stomach or at least motivate the notation, I would like to now step back and look at this new concept a little more abstractly.
     </p>
     <example xml:id="ex-eats">
       <p>
@@ -140,7 +140,7 @@
     </example>
  
 <p>
-    For sets <m>A</m> and <m>B</m> a relation from <m>A</m> to <m>B</m> does not need <em>use</em> every element of <m>A</m> nor every element of <m>B</m>, we define the elements it does use.
+    For sets <m>A</m> and <m>B</m> a relation from <m>A</m> to <m>B</m> does not need to <em>use</em> every element of <m>A</m> nor every element of <m>B</m>, we define the elements it does use.
   </p>
   <definition xml:id="def-domain">
         <title>Domain</title>

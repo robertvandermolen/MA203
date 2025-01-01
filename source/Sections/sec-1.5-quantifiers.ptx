@@ -5,8 +5,8 @@
   <introduction>
     <p>
       <idx><h>predicate</h></idx>
-      It is now time to take care of those statments that were not propositons from <xref ref="not-prop-example"/>, but have 
-      propably been bugging you this whole time like: <m>x+2=4</m>, which are known as an <term>open statment</term> or 
+      It is now time to take care of those statements that were not propositions from <xref ref="not-prop-example"/>, but have 
+      probably been bugging you this whole time like: <m>x+2=4</m>, which are known as an <term>open statement</term> or 
       <term>predicate</term>. But, how on earth are we to do mathematics and these sentences 
       not be in our lexicon? To handle these we need to quantify the <m>x</m>, by saying we can find a number so that 
       <m>x+2=4</m>. Before quantifying the statement you didn't even need to assume <m>x</m> was a number! 

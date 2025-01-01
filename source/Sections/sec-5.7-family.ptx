@@ -21,7 +21,7 @@
     </statement>
 </definition>
 <p>
-    As we are still learning setbuilder notation, to help us be able to unpack the condition in the previous definition, note the following condition of membership:
+    As we are still learning set-builder notation, to help us be able to unpack the condition in the previous definition, note the following condition of membership:
     <me>
         x\in\bigcup_{A\in\mathscr{A}}A\text{ }\text{ if and only if }\text{ }[\exists A\in\mathscr{A}\text{ }x\in A]
     </me>
@@ -77,7 +77,7 @@
 </p>
 <example>
 <p>
-    We now illustrate the intersection over a fmaily with Venn diagram below, again, for the family of sets <m>\mathscr{R}=\{A,B,C\}</m>
+    We now illustrate the intersection over a family with Venn diagram below, again, for the family of sets <m>\mathscr{R}=\{A,B,C\}</m>
 </p>
 <image source="/images/big_cap.jpeg" width="75%"/>
 </example>
@@ -113,7 +113,7 @@
     </p>
     <proof>
         <p>
-            We begin as we do for any subset proof, and that is, we choose an arbitray element <m>x\in\bigcap_{A\in\mathscr{A}}A</m>
+            We begin as we do for any subset proof, and that is, we choose an arbitrary element <m>x\in\bigcap_{A\in\mathscr{A}}A</m>
         </p>
         <p>
             By definition of the intersection over a family for any member of the family <m>x</m> must belong to it. So choose an arbitrary <m>C\in\mathscr{A}</m> thus <m>x\in C</m>, which by defintion of union, since <m>x\in C</m> we have that <m>x\in\bigcup_{A\in\mathscr{A}}A</m>.
@@ -134,7 +134,7 @@
 
     <statement>
         <p>
-            Let <m>\Delta</m> be a nonempty set such that for every <m>i\in\Delta</m> we correspond a set <m>A_i</m>. An <term>indexed family of sets</term> over <m>\Delta</m>, is the family of sets, 
+            Let <m>\Delta</m> be a nonempty set such that for every <m>i\in\Delta</m> we correspond a set <m>A_i</m>, an <term>indexed family of sets</term> over <m>\Delta</m>, is the family of sets, 
             <me>
                 \mathscr{A}=\{A_i\text{ }|\text{ }i\in\Delta\}
             </me>
@@ -222,7 +222,7 @@
     </p>
 </example>
 <p>
-    Now that we have built our intution on unions and intersections over families, lets prove a result about them. 
+    Now that we have built our intuition on unions and intersections over families, lets prove a result about them. 
 </p>
 <!--
 <definition xml:id="def-product-over-family">
@@ -261,7 +261,7 @@
             <alert>Proving: </alert> <m>B\cap \left(\bigcup_{i\in\Delta}A_i\right)\subseteq\bigcup_{i\in\Delta}(B\cap A_i)</m>
         </p>
         <p>
-            To prove this we will start like most subset proofs, namely by choosing an arbitrary element <m>s\in B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>. By the definition of intersection both <m>s\in B</m> and <m>s\in\bigcup_{i\in\Delta}A_i</m>. By the definition of union over a family if we choose an arbitrary <m>j\in\Delta</m> we have <m>s\in A_j</m>, thus since <m>s\in B</m> and <m>s\in A_j</m> by the definitioun of intersection we have that <m>s\in B\cap A_j</m>. Because we chose <m>j\in\Delta</m> arbitrary it is true the for any <m>i\in\Delta</m> <m>s\in B\cap A_i</m> and hence the definition of union over a family is satisfied, that is 
+            To prove this we will start like most subset proofs, namely by choosing an arbitrary element <m>s\in B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>. By the definition of intersection both <m>s\in B</m> and <m>s\in\bigcup_{i\in\Delta}A_i</m>. By the definition of union over a family if we choose an arbitrary <m>j\in\Delta</m> we have <m>s\in A_j</m>, thus since <m>s\in B</m> and <m>s\in A_j</m> by the definition of intersection we have that <m>s\in B\cap A_j</m>. Because we chose <m>j\in\Delta</m> arbitrary it is true the for any <m>i\in\Delta</m> <m>s\in B\cap A_i</m> and hence the definition of union over a family is satisfied, that is 
             <me>
                 s\in\bigcup_{i\in\Delta}(B\cap A_i)
             </me>
@@ -300,7 +300,7 @@
 </example>
 
 <p>
-    We finish up this section with a concept which will come into play when we discuss partions later in the course.
+    We finish up this section with a concept which will come into play when we discuss partitions later in the course.
 </p>
 <definition xml:id="def-pairwise-disjoint">
     <title>Pairwise Disjoint</title>
@@ -384,7 +384,7 @@
             <me>
                 B_j=A_s=A_t=B_k
             </me>
-            hence we have satisified the definition of pairwise disjoint of <m>\mathscr{B}</m>. <m>\square</m>
+            hence we have satisfied the definition of pairwise disjoint of <m>\mathscr{B}</m>. <m>\square</m>
         </p>
     </proof>
 </example>

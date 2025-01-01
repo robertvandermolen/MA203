@@ -9,14 +9,14 @@
         </me>
         as it is perhaps one of the most common propositional forms used in mathematics, and otherwise. 
         Yet, in all of our examples thus far both <m>P</m> and <m>Q</m> have been atomic propositions. In this 
-        section we will be substuting the antecedent and consequent with compound propostions. 
+        section we will be substituting the antecedent and consequent with compound propositions. 
     </p>
     <assemblage>
         <title>Assuming an Or</title>
-        <idx><h>disjuntion</h><h>proofs with assuming or</h></idx>
+        <idx><h>disjunction</h><h>proofs with assuming or</h></idx>
         <idx><h>or</h><h>proofs with assuming or</h></idx>
         <p>
-          For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statment in the form of 
+          For propositions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statement in the form of 
           <me>
             (P\vee R)\implies Q
           </me>
@@ -60,7 +60,7 @@
        <p>
         Let <m>x</m> and <m>y</m> be integers.</p> 
         <p>
-        First assume that <m>x</m> is even. By definiton of even 
+        First assume that <m>x</m> is even. By definition of even 
         (<xref ref="defn-even"/>) we can find an integer <m>k</m> so that <m>x=2k</m>. Calculate:
         <md>
             <mrow>x\cdot y\amp=(2k)\cdot y</mrow>
@@ -69,30 +69,30 @@
         since <m>ky</m> is an integer by the definition of even, <m>x\cdot y</m> is even.
        </p>
        <p>
-        Next, we instead assume <m>y</m> is even. By defintion of even we can find an integer <m>t</m>
+        Next, we instead assume <m>y</m> is even. By definition of even we can find an integer <m>t</m>
         so that <m>y=2t</m>. Calculate:
         <md>
             <mrow>x\cdot y\amp=x\cdot(2t)</mrow>
             <mrow>\amp=2(xt)</mrow>
         </md>
-        since <m>xt</m> is an integer by the defintion of even, <m>x\cdot y</m> is even.
+        since <m>xt</m> is an integer by the definition of even, <m>x\cdot y</m> is even.
        </p>
        <p>
         Now since we have shown that for <m>\forall x,y\in\Z</m> that both <m>x</m> is even implies <m>x\cdot y</m>
         is even and <m>y</m> is even implies <m>x\cdot y</m> is even,
-        we have thus shown that <m>\forall x,y\in\Z</m>.
+        we have shown that <m>\forall x,y\in\Z</m>.
        </p>
     </proof>
       </example>
       <p>
-        Another interesting scenerio is when we are trying to conclude a disjunction.
+        Another interesting scenario is when we are trying to conclude a disjunction.
       </p>
       <assemblage>
         <title>Concluding an Or</title>
         <idx><h>disjunction</h><h>concluding or</h></idx>
         <idx><h>or</h><h>concluding or</h></idx>
         <p>
-          For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statment in the form of 
+          For propositions <m>P</m>, <m>Q</m>, and <m>R</m>, to prove a statement in the form of 
           <me>
             P\implies (Q\vee R)
           </me>
@@ -148,7 +148,7 @@
         </p>
         <p>
             Since we have assumed for two arbitrary integers <m>x</m> and <m>y</m> that <m>x</m> is even and <m>y</m> is 
-            not odd and we have concluded that <m>x+y</m> is even we can conclude For all integers <m>x</m> and <m>y</m> if <m>x</m> is even then
+            not odd, and we have concluded that <m>x+y</m> is even, we can conclude that for all integers <m>x</m> and <m>y</m>, if <m>x</m> is even then
             <m>y</m> is odd or <m>x+y</m> is even.
         </p>
         </proof>
@@ -162,7 +162,7 @@
       <idx><h>conjunction</h><h>concluding an and</h></idx>
       <idx><h>and</h><h>concluding an and</h></idx>
       <p>
-        For propostions <m>P</m>, <m>Q</m>, and <m>R</m>, one way to prove a statment in the form of 
+        For propositions <m>P</m>, <m>Q</m>, and <m>R</m>, one way to prove a statment in the form of 
         <me>
           P\implies (Q\wedge R)
         </me>
@@ -203,7 +203,7 @@
           Let <m>a</m> and <m>b</m> be arbitrary integers. 
         </p>
         <p>
-          Assume that <m>3|(a-2)</m>, also assume that <m>3|(b-1)</m>. By defintion of divides (<xref ref="defn-divides"/>) we can produce an 
+          Assume that <m>3|(a-2)</m>, also assume that <m>3|(b-1)</m>. By definition of divides (<xref ref="defn-divides"/>) we can produce an 
           integer <m>k</m> such that <m>a-2=3k</m>, and hence by adding 2 to both sides of this equation we get
           <m>a=3k+2</m>. As well by the definition of divides we can come forth with another integer <m>t</m> with the 
           property that <m>b-1=3t</m>, this time adding 1 to both sides of the equation we see that <m>b=3t+1</m>.
@@ -219,7 +219,7 @@
         </p>
         
         <p>
-          Next, we will prove: if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a-2b)</m>, instead by calulating:
+          Next, we will prove: if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a-2b)</m>, instead by calculating:
           <md>
             <mrow>a+b\amp=(3k+2)-2(3t+1)</mrow>
             <mrow>\amp=3k+2-6t-2</mrow>

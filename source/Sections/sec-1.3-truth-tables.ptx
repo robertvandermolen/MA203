@@ -8,9 +8,9 @@
         followed by an actual statement. 
       </p>
       <p>
-        To recall our journey is to show/find the truth of statements, most often refferred to as proofs. In this journey we will need to 
-        combine propositons which we already know their truth value to arrive at new propositions which we want to be true. To be able to 
-        do this we need to be able to know how combining different propositons with our connectives effect their truth value (truthiness).
+        To recall our journey is to show/find the truth of statements, most often referred to as proofs. In this journey we will need to 
+        combine propositions which we already know their truth value to arrive at new propositions which we want to be true. To be able to 
+        do this we need to be able to know how combining different propositions with our connectives effect their truth value (truthiness).
         To keep track of this we now introduce truth tables.
       </p>
      

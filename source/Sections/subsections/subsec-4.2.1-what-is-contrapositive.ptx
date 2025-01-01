@@ -7,11 +7,11 @@
 </p>
 <p><me>[P\implies Q] \equiv [(\sim Q)\implies (\sim P)]</me></p>
 <p>So that we can prove <m>P \implies Q</m> by instead proving <m>(\sim Q)\implies(\sim P)</m>. To prove 
-this equivalent statment we will use direct proof. We summarize this in the following.</p>
+this equivalent statement we will use direct proof. We summarize this in the following.</p>
 
     <assemblage>
         <title>Proof by Contrapositive of <m>P\implies Q</m></title>
-      <idx><h>contrapositive</h><h>proofs invovling</h></idx>
+      <idx><h>contrapositive</h><h>proofs involving</h></idx>
       <idx><h>proof by contrapositive</h></idx>
         <p>
           Assume <m>\sim Q</m>

@@ -4,7 +4,7 @@
   <title>Partitions</title>
 
   <p>
-   When I say partition you already have a sense of the word, like wall or a fence, it brings to mind seperate areas or groups. We make this concept inside of a set more formal in our following definition. 
+   When I say partition you already have a sense of the word, like wall or a fence, it brings to mind separate areas or groups. We make this concept inside of a set more formal in our following definition. 
   </p>
 
   <definition xml:id="def-partition">
@@ -35,11 +35,11 @@
     </statement>
   </definition>
   <p>
-    This is quite a rigourus of a definition but do not loose that this is simply seperating things into seperate non-overlapping groups somewhat like a drawer organizer.
+    This is quite rigorous of a definition but do not loose that this is simply separating things into separate non-overlapping groups somewhat like a drawer organizer.
   </p>
   <image source="/images/drawer.png" width="80%"/>
   <p>
-    Sets at their heart have no defining characteristics, so we often draw them as blobs with no discernible shape so as we do not accidently divine some pattern that does not exist. We then visulaize a partition as a sectioning off of this amorphous blob as in the following figure, where we have an arbitrary set <m>A</m> and a family of subsets <m>\mathscr{X}=\{X_1,X_2,X_3,X_4,X_5,X_6,X_7,X_8\}</m> which partition <m>A</m>.
+    Sets at their heart have no defining characteristics, so we often draw them as blobs with no discernible shape so as we do not accidentally divine some pattern that does not exist. We then visualize a partition as a sectioning off of this amorphous blob as in the following figure, where we have an arbitrary set <m>A</m> and a family of subsets <m>\mathscr{X}=\{X_1,X_2,X_3,X_4,X_5,X_6,X_7,X_8\}</m> which partition <m>A</m>.
   </p>
   <image source="/images/blob.jpeg" width="80%"/>
   <example>
@@ -67,7 +67,7 @@
     <p>
       <proof>
          <p>
-        There are three conditions to being a partition, so we will split our proof into three parts
+        There are three conditions to being a partition, so we will split our proof into three parts:
       </p>
       <p>
         <alert>Condition (i)</alert>
@@ -82,11 +82,11 @@
         <alert>Condition (ii)</alert>
       </p>
       <p>
-        Let <m>r</m> and <m>s</m> be arbitrary natural numbers, assume that <m>A_r\cap A_s\neq\emptyset</m>, and hence we can find atleast one mutual element of <m>A_r</m> and <m>A_s</m>, name one of these elements <m>y\in A_r\cap A_s</m>. By defintion of <m>A_r</m> and <m>A_s</m> we have that both <m>3|(r-y)</m> and <m>3|(s-y)</m>. By definition of divides we can find two integers <m>k</m> and <m>m</m> so that <m>r-y=3k</m> and <m>s-y=3m</m>, hence we can calculate
+        Let <m>r</m> and <m>s</m> be arbitrary natural numbers, assume that <m>A_r\cap A_s\neq\emptyset</m>, and hence we can find at least one mutual element of <m>A_r</m> and <m>A_s</m>, name one of these elements <m>y\in A_r\cap A_s</m>. By definition of <m>A_r</m> and <m>A_s</m> we have that both <m>3|(r-y)</m> and <m>3|(s-y)</m>. By definition of divides we can find two integers <m>k</m> and <m>m</m> so that <m>r-y=3k</m> and <m>s-y=3m</m>, hence we can calculate
         <me>
           r-s=(r-y)-(s-y)=3k-3m=3(k-m)
         </me>
-        For a similiar calculation,
+        For a similar calculation,
         <me>
           s-r=(s-y)-(r-y)=3m-3k=3(m-k)
         </me>
@@ -98,7 +98,7 @@
         <m>\mathbf{\text{Proof of }A_r\subseteq A_s}</m>
       </p>
       <p>
-       let <m>x\in A_r</m> by definition of <m>A_r</m> this means that <m>3|(r-x)</m> thus by defintion of divides we can find a <m>w\in\Z</m> such that <m>r-a=3w</m>, thus calclate
+       let <m>x\in A_r</m> by definition of <m>A_r</m> this means that <m>3|(r-x)</m> thus by definition of divides we can find a <m>w\in\Z</m> such that <m>r-a=3w</m>, thus calculate
        <me>
         s-x=(r-x)-(r-s)=3w-3(k-m)=3(w-k+m)
        </me>
@@ -137,7 +137,7 @@
         Calculate <m>q-q=0=3\cdot 0</m> and since 0 is an integer we have that 3 divides <m>q-q</m>, hence <m>q\in A_q</m> therefore <m>\displaystyle q\in\bigcup_{n\in\N}A_n</m> as desired.
       </p>
       <p>
-        Since we have shown both <m>\displaystyle \bigcup_{n\in\N}A_n\subseteq\Z</m> and <m>\displaystyle \bigcup_{n\in\N}A_n\supseteq\Z</m> we can conclude <m>\displaystyle \bigcup_{n\in\N}A_n=\Z</m>, thus <m>\mathscr{A}</m> satisfies condition (iii) of being a partion.
+        Since we have shown both <m>\displaystyle \bigcup_{n\in\N}A_n\subseteq\Z</m> and <m>\displaystyle \bigcup_{n\in\N}A_n\supseteq\Z</m> we can conclude <m>\displaystyle \bigcup_{n\in\N}A_n=\Z</m>, thus <m>\mathscr{A}</m> satisfies condition (iii) of being a partition.
       </p>
       <p>
         Since we have shown the three conditions of being a partition we can conclude that <m>\mathscr{A}</m> is a partition.
@@ -146,7 +146,7 @@
     </p>
   </example>
   <p>
-    It turns out that this last example is actually a quite apt example of partitions. Partitions turn out to not be something new, they are actually just equivalence relations. We make this comment more precise in the following two propositions.
+    It turns out that this last example is actually a quite apt example of partitions. Partitions turn out not to be something new, they are actually just equivalence relations. We make this comment more precise in the following two propositions.
   </p>
 
   <proposition xml:id="thm-equiv-is-partition">
@@ -170,7 +170,7 @@
         <alert>Condition (i)</alert>
       </p>
       <p>
-        Let <m>x\in A</m>, then since <m>R</m> is an equivalence relation, in particular <m>R</m> is reflexive, thus we have <m>xRx</m> thus <m>x\in\bar{x}</m> and hence <m>\bar{x}\neq\emptyset</m>, thus <m>A/R</m> satisfies condition (i) of being a partion.
+        Let <m>x\in A</m>, then since <m>R</m> is an equivalence relation, in particular <m>R</m> is reflexive, thus we have <m>xRx</m> thus <m>x\in\bar{x}</m> and hence <m>\bar{x}\neq\emptyset</m>, thus <m>A/R</m> satisfies condition (i) of being a partition.
       </p>
       <p>
         <alert>Condition (ii)</alert>
@@ -246,7 +246,7 @@
       and <m>z\in C</m>. Hence by definition of <m>Q, (x,z) \in Q</m>. 
     </p>
     <p>
-      Since <m>Q</m> satisifies the three conditions of being an equivalence relation it is an equivalence relation as desired.
+      Since <m>Q</m> satisfies the three conditions of being an equivalence relation it is an equivalence relation as desired.
     </p>
   </proof>
   

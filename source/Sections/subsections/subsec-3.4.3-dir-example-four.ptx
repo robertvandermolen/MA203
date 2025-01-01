@@ -3,7 +3,7 @@
 <section xml:id="sec-4-4-3-dir-example-four" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 4</title>
 
-<p>Now lets see an example that is <em>not</em> even nor odd.</p>
+<p>Now let's see an example that is <em>not</em> even nor odd.</p>
 <p><alert>Prove:</alert> <m>\forall x,y\in\Z</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m></p>
     
   
@@ -48,7 +48,7 @@
         "Let <m>x</m> and <m>y</m> be integers."
     </p>
     <p>
-        As we are still doing a direct proof our first step invovling this is <m>{\color{red}{\text{Assume the }P}}</m>, and for 
+        As we are still doing a direct proof our first step involving this is <m>{\color{red}{\text{Assume the }P}}</m>, and for 
         this example it is:
     </p>
     <p>
@@ -74,7 +74,7 @@
     <p>
         Something I have seen students do here is write "exists an integer <m>b</m>". You are using the existential quantifier to produce 
         a specific integer (<xref ref="how-to-quantifiers"/>), by saying exists you are just telling me that you could theoretically find 
-        one, not telling that you a producing one to use.
+        one, not telling that you are producing one to use.
     </p>
     <p>
         So now that we have something we can use, like usual we can calculate:
@@ -95,11 +95,11 @@
         and then we can reference a couple of our assumptions from <xref ref="sec-4-1-1-what-we-assume"/>, and say:
     </p>
     <p>
-        "Since <m>2b</m> is an integer and thus <m>{\color{purple}{a-2b}}</m> is an integer by the definiton of divides
+        "Since <m>2b</m> is an integer a <m>{\color{purple}{a-2b}}</m> is an integer by the definition of divides
         5 divides <m>x-2y</m>."
     </p>
     <p>
-        Now lets see everything written together in a single spot, with an appropriate wrap-up.
+        Now let's see everything written together in a single spot, with an appropriate wrap-up.
     </p>
     <example>
         <title>3</title>
@@ -114,11 +114,11 @@
             <mrow>\amp=5(a-2b)</mrow>
         </md>
         <p>
-            Since <m>2b</m> is an integer it follows that <m>a-2b</m> is an integer thus by the definiton of divides, 5 divides <m>x-y</m>. 
+            Since <m>2b</m> is an integer it follows that <m>a-2b</m> is an integer, thus by the definition of divides, 5 divides <m>x-y</m>. 
         </p>
         <p>
-            To summarize since we chose arbitrary integers <m>x</m> and <m>y</m> and assume that 5 divides both of them and have shown that <m>5|(x-2y)</m>
-            hence by direct proof we have shown that for any integers <m>x</m> and <m>y</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m>
+            To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> and assume that 5 divides both of them, and have shown that <m>5|(x-2y)</m>,
+             by direct proof we have shown that for any integers <m>x</m> and <m>y</m>, if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m>
         </p>
     </example>
 </section>

@@ -3,7 +3,7 @@
 <section xml:id="sec-7-6-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions</title>
   <p>
-    Functions are important no matter the field you go into, and you have had a lot of experience with functions up to this point. Lets now formalize the definiton of function as a specific type of relation.
+    Functions are important no matter the field you go into, and you have had a lot of experience with functions up to this point. Let's now formalize the definition of function as a specific type of relation.
   </p>
   <definition xml:id="def-function">
     <title>Function</title>
@@ -49,7 +49,7 @@
     </statement>
   </definition>
   <p>
-    At first glance condition (ii) may look forign to you, yet in your calculus and college algebra class you probably just called this the horizontal line test, seen in this next example.
+    At first glance condition (ii) may look foreign to you, yet in your calculus and college algebra classes you probably just called this the vertical line test, seen in this next example.
   </p>
   <example>
     <p>
@@ -64,7 +64,7 @@
     </p>
     <image source="/images/horz_test.jpeg" width="75%"/>
     <p>
-      Notice that where we choose to draw a horizontal line is the choice of an element of the domain of <m>f</m>, i.e. an element of <m>\R</m>, and the condition that the horizontal line only hits the graph once is the condition the f(x) has only one output, as is condition (ii) of being a function. 
+      Notice that where we choose to draw a vertical line is the choice of an element of the domain of <m>f</m>, i.e. an element of <m>\R</m>, and the condition that the vertical line only hits the graph once is the condition the f(x) has only one output, as is condition (ii) of being a function. 
     </p>
   </example>
   <example>
@@ -77,7 +77,7 @@
     </p>
     <image source="/images/turt_pizza.jpeg" width="39%"/>
     <p>
-      So lets condsider a slightly different relation, by putting the turtle on a diet,
+      So lets consider a slightly different relation, by putting the turtle on a diet,
       <me>
         D:Z\rightarrow F
       </me>
@@ -85,7 +85,7 @@
     </p>
     <image source="/images/d.jpeg" width="100%"/>
     <p>
-      Now it makes sense to use the <em>of</em> notation of functions because for example there is only one way to write the folowing:
+      Now it makes sense to use the <em>of</em> notation of functions because for example there is only one way to write the following:
     </p>
     <image source="/images/turt_of_leaf.jpeg" width="39%"/>
   </example>
@@ -127,7 +127,7 @@
           <alert>Condition (ii)</alert>
         </p>
         <p>
-          Assume <m>((n,m),c)\in f</m> and <m>((n,m),d)\in f</m>, hence by defintion of <m>f</m> we have that <m>c=3n+2m</m> and that <m>m=3n+2m</m> hence <m>c=d</m> as desired.
+          Assume <m>((n,m),c)\in f</m> and <m>((n,m),d)\in f</m>, hence by definition of <m>f</m> we have that <m>c=3n+2m</m> and that <m>m=3n+2m</m> hence <m>c=d</m> as desired.
         </p>
         <p>
           Since we have shown both conditions to be a function we can conclude that <m>f</m> is a function.
@@ -136,7 +136,7 @@
     </p>
   </example>
 <p>
-  The jump from relations to functions can be jarring to students especially with all of the corresponding notations, we take a momemnt now and attempt to make sense of them.
+  The jump from relations to functions can be jarring to students especially with all of the corresponding notations, we take a moment now and attempt to make sense of them.
 </p>
  <assemblage>
     <title>Functions VS Relations</title>
@@ -147,10 +147,10 @@
       At the root a function is just a <em>relation</em> and hence <m>f\subseteq A\times B</m> 
       </p>
       <p>
-      Instead of wrting <me>(x,y)\in f</me> or <me>xfy</me> we  write <me>f(x)=y</me>, moreover we most often <alert>don't write</alert> the <m>y</m>, that is we have <me>x\in A \text{ and }f(x)\in B</me>.
+      Instead of writing <me>(x,y)\in f</me> or <me>xfy</me> we  write <me>f(x)=y</me>, moreover we most often <alert>don't write</alert> the <m>y</m>, that is we have <me>x\in A \text{ and }f(x)\in B</me>.
       </p>
       <p>
-        To put this context of realtions once again (and hopefully not make it too much more convoluted) we have
+        To put this context of relations once again (and hopefully not make it too much more convoluted) we have
       <me>
         (f,f(x))\in f
       </me>
@@ -192,7 +192,7 @@
       </p>
       <image source="/images/def_f.jpeg" width="80%"/>
       <p>
-        Then we can visulaize the image of <m>X</m>, <m>f(X)</m>, as follows
+        Then we can visualize the image of <m>X</m>, <m>f(X)</m>, as follows
       </p>
       <image source="/images/image_egg.jpeg" width="80%"/>
 
@@ -277,14 +277,14 @@
       <m>\mathbf{\text{Proof of }f^{-1}(E \cap F)\supseteq f^{-1}(E) \cap f^{-1}(F)}</m>
     </p>
     <p>
-      Let <m>y\in f^{-1}(E)\cap f^{-1}(F)</m> hence by definition of intersection <m>y\in f^{-1}(E)</m> and <m>y\in f^{-1}(F)</m>. By definition of inverse image we have that both <m>f(y)\in E</m> and <m>f(y)\in F</m> hence by defintion of intersection we have that <m>f(y)\in E\cap F</m>. Therefore by definition of preimage we have that <m>y\in f^{-1}(E\cap F)</m> as desired.
+      Let <m>y\in f^{-1}(E)\cap f^{-1}(F)</m> hence by definition of intersection <m>y\in f^{-1}(E)</m> and <m>y\in f^{-1}(F)</m>. By definition of inverse image we have that both <m>f(y)\in E</m> and <m>f(y)\in F</m> hence by definition of intersection we have that <m>f(y)\in E\cap F</m>. Therefore by definition of preimage we have that <m>y\in f^{-1}(E\cap F)</m> as desired.
     </p>
     <p>
       Since we have shown <m>f^{-1}(E \cap F)\subseteq f^{-1}(E) \cap f^{-1}(F)</m> and <m>f^{-1}(E \cap F)\supseteq f^{-1}(E) \cap f^{-1}(F)</m> we can thus conclude <m>f^{-1}(E \cap F)= f^{-1}(E) \cap f^{-1}(F)</m>
     </p>
   </proof>
   <p>
-    Lets end this section with a couple more examples of proofs involing these new concepts.
+    Let's end this section with a couple more examples of proofs involving these new concepts.
   </p>
  
 <example>

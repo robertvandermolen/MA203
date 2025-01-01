@@ -72,7 +72,7 @@
   <p>
     In (C) for the universe <m>\mathcal{U}=\mathbb{R}</m> the proposition <m>\forall x\text{ }R(x)</m> is false as <m>2\in\mathbb{R}</m>
     yet 2 is not greater than 4. For (A) in the universe of all people, the proposition <m>\forall x\text{ }P(x)</m> is also false as I have met
-    many students whom dislike most math textbooks. Similiarly for (B) in the universe of all people the proposition
+    many students who dislike most math textbooks. Similarly for (B) in the universe of all people the proposition
     <m>\forall x\text{ }Q(x)</m> is also false as I have met a health conscious person who does not eat pizza. 
   </p>
 </example>
