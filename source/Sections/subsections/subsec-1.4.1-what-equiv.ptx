@@ -15,13 +15,13 @@
     </statement>
   </definition>
   <p> 
-    The notation, we will use, for two propositional forms begin equivalent is: <m>P\equiv Q</m>
+    The notation we will use for two propositional forms being equivalent is: <m>P\equiv Q</m>
   </p>
 
 <p>
-  To show that two propositional forms are indeed equivalent at the beginning we only have the tool of 
+  To show that two propositional forms are indeed equivalent at the beginning, we only have the tool of 
   truth tables at our disposal. What we will see in this first example is that no matter our choice of truth value
-  for <m>P</m> that <m>\sim(\sim P)</m> we have the same truth value, that is <me>P\equiv \sim(\sim P)</me>
+  for <m>P</m>, <m>\sim(\sim P)</m> has the same truth value, that is <me>P\equiv \sim(\sim P)</me>
 </p>
 
   <example xml:id='ex-double-negation'>

@@ -5,7 +5,7 @@
 <p>
     Students are probably most familiar with the natural and social sciences, where theories are tested by comparing what 
     happens in experiments to what was predicted, and checking that the results stay the same when the experiment is repeated. 
-    In math, often, the goal is to figure out whether a statement is always true. Even if a statement works for a lot of 
+    In math, the goal is often to figure out whether a statement is always true. Even if a statement works for a lot of 
     examples, there's still the chance that one example we haven't tested could show it's false. For example, 
     you might notice that the expression
 </p>
@@ -21,7 +21,7 @@
 </p>
 <p>
 produces a prime number for <em>many</em> values of <m>x</m>. The diligent student will check that for the first 10, 20, 30 
-or even 40 positive integers when we substitute our number for <m>x</m> we arrive at a prime number such as
+or even 40 positive integers, when we substitute our number for <m>x</m>, we arrive at a prime number such as
 </p>
 <p>
     <me>(4)^2-7(4)+53=41</me>

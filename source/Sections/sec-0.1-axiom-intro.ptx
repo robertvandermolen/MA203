@@ -47,7 +47,7 @@
 <historical>
     <p>
 Surprisingly, as Aristotle had already explained the necessity of undefined terms, Euclid did attempt to define the words such as point and line. 
-Luckily this did not effect his discourse as the definitions were vague and used at best to visualize a geometry rather than fix them with an 
+Luckily, this did not effect his discourse, as the definitions were vague and used at best to visualize a geometry, rather than fix them with an 
 immutable meaning.
     </p>
 </historical>
@@ -57,7 +57,7 @@ immutable meaning.
 <section xml:id="subsec-1-1-2-axioms" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Axioms</title>
 <p>
-After we have all agreed on the undefined terms we would then need to set some <em>ground rules</em>. These rules
+After we have all agreed on the undefined terms, we would then need to set some <em>ground rules</em>. These rules
 that our new undefined terms must follow are known as <term>axioms</term>. Using our geometry example from above, one
 common axiom of euclidean geometry is:
 </p>
@@ -71,7 +71,7 @@ common axiom of euclidean geometry is:
     </ol>
 </p>
 <p>
-    The etymology of the word axiom comes from a Greek word meaning to require. I find this apropos as axioms are
+    The etymology of the word axiom comes from a Greek word meaning "to require." I find this apropos as axioms are
     required - otherwise we would have no footing to begin a discourse. 
 </p>
 </section>
@@ -80,8 +80,8 @@ common axiom of euclidean geometry is:
     <title>Definitions</title>
     <p>
         Now once we have our undefined terms and axioms, we begin building perhaps the most important part of 
-        all proofs: the <term>definitions</term>. It is one of the <alert>major take-aways</alert> from this
-        course that I would like the student to understand the importance of a definition. You can only prove something
+        all proofs: the <term>definitions</term>. One of the <alert>major take-aways</alert> from this
+        course is that I would like the student to understand the importance of a definition. You can only prove something
         is true when you know that thing, when you know that thing's definition. 
     </p>
 </section>
@@ -90,13 +90,13 @@ common axiom of euclidean geometry is:
     <title>Proofs</title>
     <p>
         There are two interpretations of what has been presented before you. One, hopefully how it has been presented
-        here, is that of there is no other way one could argue/debate without this structure. Otherwise, a party could
+        here, is that there is no other way one could argue/debate without this structure. Otherwise, a party could
         simply keep going backwards and backwards with no assumptions/axioms to back stop the debate. 
     </p>
     <p>
         The other point of view, perhaps most popular in textbooks, is to call this approach <term>deductive reasoning</term>,
-        and draw contrast to that of <term>inductive reasoning</term>. Some how pitting the two against each other. 
-        The epitome of physicists versus mathematicians. Even, applied mathematicians vs theoretical mathematicians. 
+        and draw contrast to that of <term>inductive reasoning</term>, somehow pitting the two against each other. 
+        The epitome of physicists versus mathematicians - even applied mathematicians vs theoretical mathematicians. 
     </p>
     <p>
         The differences attempting to be drawn between the world we have just set forward and that of collecting data 
@@ -116,7 +116,7 @@ common axiom of euclidean geometry is:
     <p>
         In this class we will not explore the amazing world of tracing back every single conclusion to an undefined term 
         or axiom, but instead we will start with A LOT of assumptions, assumptions students at this stage are used to making, namely 
-        "college algebra". Then later we will use fewer and fewer assumptions, only dipping our toe in the <em>endless</em> pond of abstraction.
+        "college algebra." Then later we will use fewer and fewer assumptions, only dipping our toe in the <em>endless</em> pond of abstraction.
     </p>
 </section>
 

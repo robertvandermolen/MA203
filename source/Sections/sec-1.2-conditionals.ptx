@@ -10,7 +10,7 @@
     is all you need for a <term>complete</term>
     logical system, but it ignores an important 
     decree used quite often in 
-    logic/debate/mathematics. That is the 
+    logic/debate/mathematics. That is, the 
     implication. 
 </p>
 <section xml:id="sec-2-2-1-conditional" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -21,7 +21,7 @@
     <title>Conditional</title>
     
     <idx><h>conditional</h></idx>
-    <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
+    <p>Given the propositions <m>P</m> and <m>Q</m>,</p>
     <statement>
         <p>
             the <term>conditional statement</term>
@@ -44,9 +44,9 @@
 <p>
     <idx><h>implies</h></idx>
     There are many ways of translating the conditional
-    to english statements, which we will in the next table
+    to English statements, which we will in the next table,
     but perhaps the most popular is <term>implies</term>,
-    that is "<m>P</m> implies <m>Q</m>". 
+    that is, "<m>P</m> implies <m>Q</m>." 
 </p>
 <sbsgroup widths="45% 45%"  valign="middle">
     <sidebyside >
@@ -131,7 +131,7 @@
 </sbsgroup>
 
 <p>
-    I have found the truth values of this connective to be the most challenging for students. To help I suggest the student always think
+    I have found the truth values of this connective to be the most challenging for students. To help, I suggest the student always think
     of the next example.
 </p>
 <p>
@@ -165,7 +165,7 @@
                                 The politician lowers taxes!
                             </p>
                             <p>
-                                The politiciian is not lying!
+                                The politician is not lying!
                             </p>
                         </li>
                         <li>
@@ -206,7 +206,7 @@
     </example>
 </p>
 <p>
-    Students seem to have the hardest time seeing that when the politician is not elected their is no obligation to do anything and hence 
+    Students seem to have the hardest time seeing that when the politician is not elected, there is no obligation to do anything, and hence 
     the politician is not lying!
 </p>
 </section>
@@ -217,7 +217,7 @@
         <title>Biconditional</title>
         <idx><h>biconditional</h></idx>
         
-        <p>Given a propositions <m>P</m> and <m>Q</m>,</p>
+        <p>Given the propositions <m>P</m> and <m>Q</m>,</p>
         <statement>
             <p>
                 the <term>biconditional statement</term>
@@ -239,7 +239,7 @@
         <idx><h>if and only if</h></idx>
         <idx><h>biconditional</h></idx>
         Instead of writing "if and only if" we will often
-        elect to only type <alert>"iff"</alert>. Just as with the implication, the biconditional has many english translations:
+        elect to only type <alert>"iff."</alert> Just as with the implication, the biconditional has many English translations:
     </p>
     <sbsgroup widths="45% 45%"  valign="middle">
         <sidebyside >
@@ -283,8 +283,8 @@
     
     </sbsgroup>
     <p>
-        It is this biconditional that I believe many students hear when they hear the phrase: "If I am elected then I will lower taxes". 
-        When indeed they mean "Taxes will be lowered if, but only if I am elected".
+        It is this biconditional that I believe many students hear when they hear the phrase: "If I am elected then I will lower taxes." 
+        When indeed they mean "Taxes will be lowered if, but only if I am elected."
     </p>
 </section>
 

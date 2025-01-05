@@ -4,16 +4,16 @@
 <title>Propositions and Connectives</title>
 <introduction>
     <p>
-        I have heard many students say things like "I'm a math major not an English major".
+        I have heard many students say things like "I'm a math major not an English major."
         This sentiment becomes further and further from the truth as you continue your journey in 
-        the major of mathematics. For one, you begin to see mathematics as a language itself with 
-        its own grammar and rules, and in particular in this course you begin to only write paragraphs
+        the major of mathematics. For one, you begin to see mathematics as a language itself, with 
+        its own grammar and rules. And in particular in this course, you begin to only write paragraphs
         in exchange for the string of symbols and numbers from your calculus courses. As we begin our journey into 
         abstract mathematics we need to do the exact opposite of this sentiment, and instead examine 
         how language works, specifically how language handles truth.</p>
         <p>
-        In English, as in many languages, there are many types of sentences, some more complicated than others. We will
-        now be concerning ourselves with if a sentence is true. This is the hallmark of proving, by only writing sentences
+        In English, as in many languages, there are many types of sentences - some more complicated than others. We will
+        now be concerning ourselves with if a sentence is true. This is the hallmark of proving: only writing sentences
         that are true, so that our conclusions are then true.  
     </p>
     
@@ -24,9 +24,9 @@
     
     <p>
         Even though many statements/sentences can be true or can be false, it doesn't make sense to say that any sentence 
-        that you could write is true or not. For example a <em>question</em> 
-        such as <em>"Where is my phone?"</em> or an <em>exclamation</em> like <em>"Oh No!"</em>. Both of these examples are 
-        indeed complete sentences, as in they express a complete thought, but are neither true nor false.
+        that you could write is true or not. For example there are <em>questions</em> 
+        such as <em>"Where is my phone?"</em> or <em>exclamations</em> like <em>"Oh no!"</em> Both of these examples are 
+        indeed complete sentences, as in, they express a complete thought, but are neither true nor false.
     </p>
 <definition>
     <title>Proposition</title>
@@ -47,7 +47,7 @@
         </ol>
     </example></p>
    <p>
-    Some propositions, like (A) in <xref ref="prop-example"/> have clear truth values, that is we can easily
+    Some propositions, like (A) in <xref ref="prop-example"/> have clear truth values, that is, we can easily
     determine if the statement is either True or False (but not both). Perhaps, to untangle the last sentence, it
     is clear that (A) in <xref ref="prop-example"/> is False.    
     </p>
@@ -174,7 +174,7 @@
     with the same meaning. For example, but, while, and although are usually translated symbolically
     with the conjunction connective. An example of this, using the propositions 
     from (A) in <xref ref="ex-conjunction"/>, is we could 
-    write "It is not raining outside but I do  have my umbrella" symbolically as "<m>(\sim P)\wedge Q</m>".
+    write "It is not raining outside but I do  have my umbrella" symbolically as "<m>(\sim P)\wedge Q</m>."
 </p>
 <p>
 <example xml:id="ex-conjunction">
@@ -234,7 +234,7 @@
     <idx><h>exclusive or</h></idx>
     The logical disjunction is often referred to as the <term>inclusive or</term>, as it is still true when both
     propositions are true. In English we often assume the use of the <term>exclusive or</term>, that is, when we use
-    the word <em>or</em> we most often mean only one of two choices. For example "would you like chicken or steak". When someone says this to you, you know 
+    the word <em>or</em> we most often mean only one of two choices. For example "would you like chicken or steak." When someone says this to you, you know 
     immediately they do not mean that you can have both chicken and steak, that is not the case for the logical 
     disjunction.
 </p>

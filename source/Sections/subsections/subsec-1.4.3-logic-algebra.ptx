@@ -4,12 +4,12 @@
     <title>The Algebra of Logic</title>
     
     <p>
-        Now that we have established the laws in <xref ref="thm-logic-laws"/> we have a new way to prove two
+        Now that we have established the laws in <xref ref="thm-logic-laws"/>, we have a new way to prove two
         propositional forms are equivalent. It is what I playfully refer to as the algebra of logic. 
     </p>
     <example>
     <p>
-        For a first example of this lets see a proof that <me>[(P\vee Q)\implies R]\equiv [(P\implies R)\wedge (Q\implies R)]</me>
+        For a first example of this, let's see a proof that <me>[(P\vee Q)\implies R]\equiv [(P\implies R)\wedge (Q\implies R)]</me>
     </p>
    <proof>
    

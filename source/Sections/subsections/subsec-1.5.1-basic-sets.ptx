@@ -38,17 +38,17 @@
     and elements with a lower case letter.
   </p>
   <p>
-    The symbol <m>\in </m> can be read as "in" or "is an element of" or "is a member of" 
+    The symbol <m>\in </m> can be read as "in" or "is an element of" or "is a member of." 
   </p>
   <p>
     For example, "<m>x \in A</m>" would be read as "<m>x</m> is in <m>A</m>," or, "<m>x</m> is an element of the set <m>A</m>", or 
-    "<m>x</m> is a member of the set <m>A</m>"
+    "<m>x</m> is a member of the set <m>A</m>."
   </p>
    
   <p>
-    Besides just arbitrarily naming a set in attempts to define a set we can also describe what is the set by
-    capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m> then listing the elements
-    separated by commas. For example if we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
+    Besides just arbitrarily naming a set in an attempt to define a set we can also describe what the set is by
+    capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m>, then listing the elements
+    separated by commas. For example, if we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
     Or if we were to collect the set of all counting numbers we could use ... to indicate continuing a pattern: 
     <me>\{1,2,3,...\}</me> We could also use what is known as set builder notation:
   </p>

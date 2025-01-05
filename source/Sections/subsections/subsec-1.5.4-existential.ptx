@@ -4,11 +4,11 @@
 <title>The Existential Quantifier</title>
 
 <p>
-  Consider the predicate <m>3x=12</m> is, again, not a proposition as it depends on the universe and which <m>x</m> from this
-  universe we are talking about. But, there is a way of not choosing an <m>x</m> from the universe to turn this into
-  a proposition, that is to consider the statement: <me>\text{There is an } x \text{ such that }3x=12</me> This proposition is 
+  Consider the predicate <m>3x=12</m>. Again, this is not a proposition, as it depends on the universe and which <m>x</m> from this
+  universe we are talking about. But, there is a way of choosing an <m>x</m> from the universe to turn this into
+  a proposition - that is, to consider the statement: <me>\text{There is an } x \text{ such that }3x=12</me> This proposition is 
   still treated differently than other propositions we have considered, as it still depends on the universe. This new
-  proposition can be formed from the predicate by applying a quantifier, that is we qualify our open sentence before saying 
+  proposition can be formed from the predicate by applying a quantifier, that is, we qualify our open sentence before saying 
   it.
 </p>
 <definition xml:id="def-exists">
@@ -55,9 +55,9 @@
     </li>
   </ol>
   <p>
-    For (C) the statement <m>\exists x\text{ }R(X)</m> is true in the universe <m>\mathcal{U}=\mathbb{R}</m> is true as 
+    For (C) the statement <m>\exists x\text{ }R(X)</m> is true in the universe <m>\mathcal{U}=\mathbb{R}</m>, as 
     <m>4.5\in\mathbb{R}</m> as well as many other numbers. In statement (A) there are no real numbers that have any 
-    opinions on books for my understanding, but if the universe was all people then <m>\exists x\text{ }P(x)</m> is true 
+    opinions on books from my understanding, but if the universe was all people then <m>\exists x\text{ }P(x)</m> is true 
     as I am a person and I love books. Similarly for (B) the proposition, <m>\exists x\text{ }Q(x)</m> in the universe
     of all people is also true, as I also eat pizza! 
   </p>

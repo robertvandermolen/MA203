@@ -2,7 +2,7 @@
     <title>Negating Quantifiers</title>
 
 
-    <p>It is also important to note what the negation of each of these quantifiers are.</p>
+    <p>It is also important to note what the negation of each of these quantifiers is.</p>
   
   
     <p>
@@ -16,7 +16,7 @@
       <idx><h>quantifier</h><h>negation</h></idx>
     <idx><h>negating quantifiers</h></idx>
     <idx><h>for all</h><h>negation</h></idx>
-      <me>\sim \forall\text{ }P(x) </me> says "not all," which can be thought of as, "somebody does." That is
+      <me>\sim \forall\text{ }P(x) </me> says "not all," which can be thought of as, "somebody does." That is,
       <me>\sim[\forall x\text{ }P(x)]\equiv \exists x\text{ }(\sim P(x))</me>
     </p>
 
@@ -33,7 +33,7 @@
             <m>\sim (\forall n\in \mathbb{Z}</m>  <m>\sqrt{n} \in \mathbb{Z})\equiv (\exists n\in \mathbb{Z}</m>  <m>\sqrt{n} \not\in \mathbb{Z})</m>
           </p>
           <ul>
-            <li>*NOT*(For all integers <m>n</m>, <m>\sqrt{n}</m> is an integer)</li>
+            <li>*NOT* (For all integers <m>n</m>, <m>\sqrt{n}</m> is an integer)</li>
             <li>For some integers <m>n</m>, <m>\sqrt{n}</m> is not an integer.</li>
           </ul>
         </li>

@@ -4,8 +4,8 @@
 <title>The Universal Quantifier</title>
 
 <p>
-  The statement "everyone reads books" is being qualified by something different than an exists, 
-  yet does have a truth value and hence is a proposition. It is this quantifier that we 
+  The statement, "everyone reads books" is being qualified by something different than an exists, 
+  yet does have a truth value, and hence is a proposition. It is this quantifier that we 
   call the universal quantifier.
 </p>
 <definition xml:id="def-universal">
@@ -50,7 +50,7 @@
 <p></p>
 <example>
   <p>
-    For this example lets consider the following predicates
+    For this example let's consider the following predicates
   </p>
   <ol marker="(A)">
     <li>
@@ -70,7 +70,7 @@
     </li>
   </ol>
   <p>
-    In (C) for the universe <m>\mathcal{U}=\mathbb{R}</m> the proposition <m>\forall x\text{ }R(x)</m> is false as <m>2\in\mathbb{R}</m>
+    In (C) for the universe <m>\mathcal{U}=\mathbb{R}</m> the proposition <m>\forall x\text{ }R(x)</m> is false, as <m>2\in\mathbb{R}</m>
     yet 2 is not greater than 4. For (A) in the universe of all people, the proposition <m>\forall x\text{ }P(x)</m> is also false as I have met
     many students who dislike most math textbooks. Similarly for (B) in the universe of all people the proposition
     <m>\forall x\text{ }Q(x)</m> is also false as I have met a health conscious person who does not eat pizza. 

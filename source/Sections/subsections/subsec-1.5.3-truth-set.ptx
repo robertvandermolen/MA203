@@ -7,13 +7,13 @@
     When we are discussing a general universe of discourse we will denote it as <m>\mathcal{U}</m>. We will also often need 
     to speak of a predicate in general terms so we will use the <em>function</em> notation for predicates. Such
     as for the predicate <m>x\geq 3</m> we can denote it by <m>P(x)</m>. And thus we can now determine that a statement like
-    <m>P(2)</m> which is <m>2\geq3</m> is false.
+    <m>P(2)</m>, which is <m>2\geq3</m>, is false.
 </p>
 <p>
     <idx><h>truth set</h></idx>
     <idx><h>predicate</h></idx>
-    After setting our universe can now talk about the <term>truth set</term> of a predicate <m>P(x)</m>, that is
-    collecting all of the elements of our universe that make <m>P(x)</m> true. 
+    After setting our universe, we can now talk about the <term>truth set</term> of a predicate <m>P(x)</m>, that is,
+    the collection of all of the elements in our universe that make <m>P(x)</m> true. 
 </p>
 
 
@@ -42,7 +42,7 @@
     
     <statement>
         <p>
-            For a fixed universe of discord, we say that two predicates, <m>P(x)</m> and <m>Q(x)</m>, are 
+            For a fixed universe of discourse, we say that two predicates, <m>P(x)</m> and <m>Q(x)</m>, are 
             <term>equivalent</term> iff they have the same truth set.
         </p>
         <p>
@@ -51,7 +51,7 @@
     </statement>
 </definition>
 <p>
-    Now lets see an example of this in play with some, perhaps, unexpected results.
+    Now let's see an example of this in play with some, perhaps, unexpected results.
 </p>
 <example>
 <idx><h>predicate</h><h>equivalent</h></idx>

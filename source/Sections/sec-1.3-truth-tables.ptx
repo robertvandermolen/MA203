@@ -4,14 +4,14 @@
 <title>Truth Tables</title>
 <introduction>
     <p>
-        So far we have always looked at actual sentences, even when a letter like <m>P</m> was introduced it was immediately 
+        So far we have always looked at actual sentences, even when a letter like <m>P</m> was introduced, it was immediately 
         followed by an actual statement. 
       </p>
       <p>
-        To recall our journey is to show/find the truth of statements, most often referred to as proofs. In this journey we will need to 
-        combine propositions which we already know their truth value to arrive at new propositions which we want to be true. To be able to 
-        do this we need to be able to know how combining different propositions with our connectives effect their truth value (truthiness).
-        To keep track of this we now introduce truth tables.
+        Recall, our journey is to show/find the truth of statements, most often referred to as proofs. In this journey we will need to use 
+        propositions which we already know the truth value of and combine them to arrive at new propositions which we want to be true. To be able to 
+        do this we need to be able to know how combining different propositions with our connectives affect their truth value (truthiness).
+        To keep track of this, we now introduce truth tables.
       </p>
      
 </introduction>

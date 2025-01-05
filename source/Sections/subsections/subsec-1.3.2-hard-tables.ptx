@@ -5,11 +5,11 @@
 
 <p>
   Now let's dive into more complicated examples. As our examples get more complicated, I suggest that the 
-  student take time to break-it-down. That is to create extra columns that are themselves components of 
+  student take time to break-it-down and create extra columns that are themselves components of 
   compound propositions. A simple example of this is the compound proposition: <me>(\sim P)\implies Q</me> This example has 
   only two <em>basic</em> components, namely <m>P</m> and <m>Q</m>. Yet, notice that the antecedent is <m>\sim P</m>, this is 
-  what I suggest you create a new column for namely after you make your <m>P</m> column and you <m>Q</m> column, then before you 
-  make your final column add a <m>\sim P</m> column
+  what I suggest you create a new column for. Namely, after you make your <m>P</m> column and your <m>Q</m> column, and before you 
+  make your final column, add a <m>\sim P</m> column
 </p>
 
 
@@ -90,7 +90,7 @@
 </figure>
 <p>
  For an even more complicated example consider: <me>(P\vee Q)\wedge(\sim (P\wedge Q))</me> This has two major 
- pieces namely <m>P\vee Q</m> as well as <m>P\wedge Q</m>. Again the atomic pieces are <m>P</m> and <m>Q</m> so 
+ pieces, namely <m>P\vee Q</m> as well as <m>P\wedge Q</m>. Again, the atomic pieces are <m>P</m> and <m>Q</m> so 
  we begin with our standard two columns, then we include a column for each of these major pieces:
 </p>
 <figure>
@@ -130,7 +130,7 @@
 </figure>
 <p>
   Now recall that we are trying to build a table for <me>(P\vee Q)\wedge(\sim (P\wedge Q))</me>. The next major piece 
-  we see is that of <m>\sim(P\wedge Q)</m>
+  we see is <m>\sim(P\wedge Q)</m>
 </p>
 <figure>
   <tabular halign="center">

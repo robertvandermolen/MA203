@@ -42,13 +42,13 @@
     </tabular>
     <p>
       <m>A</m> and <m>B</m> are the assumptions and <m>C</m> is the conclusion. The symbol <m>\therefore</m> is read
-      "therefore".
+      "therefore."
     </p>
   </statement>
 </definition>
 <p>
   Arguments are simply propositions listed in an order, so we will need to make sense of this in our logical 
-  framework. To do so so we have the following definition.
+  framework. To do so we have the following definition.
 </p>
 <definition xml:id="def-valid">
   <title>Valid</title>

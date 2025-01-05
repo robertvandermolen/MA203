@@ -55,7 +55,7 @@
     </ul>
     <p>
         The statement <me>\exists!x\text{ }(P(x)\wedge Q(x))</me> is true in the universe <m>\mathcal{U}=\mathbb{N}</m> as 
-        the only number satisfying the statement <m>P(x)\wedge Q(x)</m>, that is <m>x</m> is even and prime, is <m>2\in\mathbb{N}</m>
+        the only number satisfying the statement <m>P(x)\wedge Q(x)</m>, that is <m>x</m> is even and prime, is <m>2\in\mathbb{N}</m>.
         The proposition <me>\exists!x\text{ }R(x)</me> on the other hand, is true for the universe <m>\mathcal{U}=\mathbb{N}</m>, 
         as the only natural number to satisfy this propostion is 2, 
         but not true for the universe <m>\mathcal{U}=\mathbb{Z}</m> as there are two numbers, namely +2 and -2 in the integers 

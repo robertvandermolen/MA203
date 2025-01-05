@@ -4,8 +4,8 @@
   <title>Basic Tables</title>
   <p>
     <idx><h>truth table</h></idx>
-    In a <term>truth table</term> we take arbitrary propositions indicated by letters, such as <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, 
-    and <m>T</m>, and consider all the cases of each being either True (T) or False (F). We then explore how coming them with connectives
+    In a <term>truth table</term>, we take arbitrary propositions indicated by letters, such as <m>P</m>, <m>Q</m>, <m>R</m>, <m>S</m>, 
+    and <m>T</m>, and consider all the cases of each being either True (T) or False (F). We then explore how combining them with connectives
     changes the truth value of the compound propositions. 
   </p>
   <p>
@@ -19,7 +19,7 @@ components in a truth table.
   <p>
     To do this we will need to first be able to collect all the combinations of truth values of the basic components 
     of a compound proposition. So for example, if the compound proposition has two components, lets name them
-    <m>P</m> and <m>Q</m> then all combinations are:
+    <m>P</m> and <m>Q</m>, then all combinations are:
   </p>
   <figure xml:id="table-truths">
     <tabular halign="center">
@@ -52,7 +52,7 @@ components in a truth table.
   
 </figure>
   <p>
-    Now to see everything together we will begin with a couple of simple ones, first the conjunction (<m>P\wedge Q</m>). Since 
+    Now to see everything together, we will begin with a couple of simple ones, first the conjunction (<m>P\wedge Q</m>). Since 
     the conjunction involves two components (<m>P</m> and <m>Q</m>) their truth tables must include all combinations of 
     their two truth values, just as collected above in figure <xref ref="table-truths"/>.
   </p>
@@ -90,7 +90,7 @@ components in a truth table.
 </figure>
 
   <p>
-    Next the disjunction (<m>P\vee Q</m>). Since 
+    Next, the disjunction (<m>P\vee Q</m>). Since 
     the disjunction also only involves two components (<m>P</m> and <m>Q</m>) their truth tables must again include all combinations of 
     their two truth values, just as collected above in <xref ref="table-truths"/>.
   </p>
@@ -154,7 +154,7 @@ components in a truth table.
 </figure>
 
 <p>
-  Now, we see the implication, <m>P\implies Q</m> in action. Again this has two components so we must list them all. 
+  Now, we see the implication, <m>P\implies Q</m> in action. Again, this has two components so we must list them all. 
 </p>
   
     <figure>
@@ -195,7 +195,7 @@ components in a truth table.
           <row header="yes" bottom="minor" >
             <cell><m>P</m></cell>
             <cell><m>Q</m></cell>
-            <cell>~<m>P</m></cell>
+            <cell><m>\sim P</m></cell>
             <cell><m>(\sim P)\implies Q</m></cell>
           </row>
           <row>
@@ -226,7 +226,7 @@ components in a truth table.
       
     </figure>
    <p>
-    An important one is that of the biconditional, which we use as the word equivalent, this table shows us that this is an apt word use.
+    The biconditional is an important one, which we use as the word equivalent. This table shows us that this is an apt word use.
    </p>
    <figure>
    <idx><h>iff</h><h>truth table</h></idx>

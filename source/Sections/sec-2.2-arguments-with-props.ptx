@@ -75,7 +75,7 @@
 
   <p>
     A similar example of this is "If it is raining then the ground is wet. 
-    The ground is not wet. Therefore the ground it  is not raining."
+    The ground is not wet. Therefore it is not raining."
   </p>
 </assemblage>
 <p>
@@ -254,12 +254,12 @@
 </figure>
 
 <p>
-  Now lets see some examples of these in play.
+  Now let's see some examples of these in play.
 </p>
 <p>
   Now that we have our arguments written using propositional forms
   we can verify that each of these arguments are valid using a 
-  truth table, that is seeing they are all tautologies, or that 
+  truth table, that is, seeing they are all tautologies, or that 
   they are always true.
 </p>
 <p>
@@ -358,7 +358,7 @@
 <example>
 <idx><h>argument</h></idx>
   <p>
-    For this example lets set a few propositions:
+    For this example, let's set a few propositions:
     <me>P:\text{ It is sunny today}</me>
     <me>Q:\text{ It is colder than yesterday}</me>
     <me>R:\text{ We will go hiking}</me>
@@ -366,7 +366,7 @@
     <me>W:\text{ We will be home by dark}</me>
   </p>
   <p>
-    Next consider the list of premises.
+    Next, consider the list of premises.
   </p>
   <ul>
     <li>
@@ -410,12 +410,12 @@
         </p>
         <p>
           Since we have assumed that it is not sunny and colder than yesterday we can conclude it is not sunny
-          outside, using conjunction.
+          outside, using a conjunction.
         </p>
       </li>
       <li>
         <p>
-          Now Let's use the conclusion from (A), with the next premise.
+          Now let's use the conclusion from (A), with the next premise.
         </p>
         <p>
           <tabular halign="center">
@@ -431,7 +431,7 @@
           </tabular>
         </p>
         <p>
-          That is if we assume that it is not sunny and that we will go hiking only if it is sunny, 
+          That is, if we assume that it is not sunny and that we will go hiking only if it is sunny, 
           then we can conclude that we do not go hiking, using Modus Tollens.
         </p>
       </li>
@@ -478,8 +478,8 @@
           </tabular>
         </p>
         <p>
-          Hence since we assumed that we are going on a bike ride and if we go on a bike ride we will 
-          be back home by dark we can conclude that we will be back by dark again by Modus Ponens.
+          Hence, since we assumed that we are going on a bike ride and if we go on a bike ride we will 
+          be back home by dark we can conclude that we will be back by dark, again by Modus Ponens.
         </p>
       </li>
     </ol>

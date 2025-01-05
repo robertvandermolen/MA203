@@ -4,13 +4,13 @@
 <title>Logical Equivalences</title>
 <introduction>
     <p>
-        In this course students will often treat this beginning material of propositions and truth tables
+        In this course, students will often treat this beginning material of propositions and truth tables
          as not connected to the proofs, and just a way to get some good grades on early homework. I cannot blame
-         the student for this, when thrown into an unknown world it is hard to hold on to everything.  
+         the student for this - when thrown into an unknown world it is hard to hold on to everything.  
     </p>
     <p>
         Yet, we will now dive into equivalences. In the world of proving it may often be difficult to prove a statement 
-        how it appears in the homework, or how you first discovered it, but if you were to simply re-word it, now it
+        how it appears in the homework, or how you first discovered it, but if you were to simply re-word it, it
         becomes simpler to prove. These reworkings are the equivalences.
     </p>
 </introduction>
