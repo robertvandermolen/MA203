@@ -70,7 +70,7 @@
         </ul>
     </p>
     <p>
-        Next, we do the <m>{\color{red}{\text{first step}}}</m> of a direct proof, that is <m>{\color{red}{\text{Assume the }P}}</m>.
+        Next, we do the <m>{\color{red}{\text{first step}}}</m> of a direct proof, that is, <m>{\color{red}{\text{assume the }P}}</m>.
         From our song we already know this, and that is:
     </p>
     <p>
@@ -97,8 +97,8 @@
         </li>
     </ul>
     <p>
-        Something that bares repeating over and over and over and over again, is to always remember <xref ref="how-to-quantifiers"/>. Right now we need to remember 
-        this because the definition of (<xref ref="defn-odd"/>) invoke an existential quantifier. 
+        Something that bears repeating over and over and over and over again, is to always remember <xref ref="how-to-quantifiers"/>. Right now we need to remember 
+        this because the definition of odd (<xref ref="defn-odd"/>) invokes an existential quantifier. 
         So to apply the definition of odd for <m>x</m> we can use language like:
     </p>
     <p>
@@ -111,8 +111,8 @@
         "We can also find a <m>b\in\Z</m> so that <m>y=2b+1</m>."
     </p>
     <p>
-        Now that we have used our definitions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ole <em>college algebra</em>. 
-        In a more general look at proofs at a whole is that you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}}</m>, namely 
+        Now that we have used our definitions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ol' <em>college algebra</em>. 
+        In a more general look at proofs as a whole, you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}}</m>, namely 
         that <m>{\color{blue}{x+y\text{ is odd}}}</m>. So we should calculate <m>{\color{blue}{x+y}}</m>.
     </p>
     <p>
@@ -128,17 +128,17 @@
 <section xml:id="sec-4-4-2-dir-example-three-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
-        From the <m>{\color{green}{\text{muddle}}}</m> we know have: <me>
+        From the <m>{\color{green}{\text{muddle}}}</m> we now have: <me>
             x+y=2{\color{purple}{(2ab+a+b)}}+1
         </me>
-        Now, using the definition of odd (<xref ref="defn-odd"/>) and of course <xref ref="how-to-quantifiers"/> we can conclude that from the 
+        Now, using the definition of odd (<xref ref="defn-odd"/>) and of course <xref ref="how-to-quantifiers"/> we can conclude from the 
         <m>{\color{green}{\text{muddle}}}</m> that <m>x+y</m> is odd, as <m>2ab</m> is an integer and thus <m>{\color{purple}{(2ab+a+b)}}</m> is an integer, and hence we have that
         <m>x+y</m> is an integer times 2 then plus one.
     </p>
 
    
     <p>
-        Now lets see everything written together in a single spot, with a proper wrap-up.
+        Now let's see everything written together in a single spot, with a proper wrap-up.
     </p>
     <example>
         <title>2</title>

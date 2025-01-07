@@ -19,7 +19,7 @@ odd then <m>x+y</m> is even.</p>
     </answer>
     <p>"What're the definitions?" </p>
     <answer>
-    <p>Odd(<xref ref="defn-odd"/>) and even (<xref ref="defn-even"/>)!</p>
+    <p>Odd (<xref ref="defn-odd"/>) and even (<xref ref="defn-even"/>)!</p>
     </answer>
     <p>"Now, what to do?"</p> 
     <answer>
@@ -93,7 +93,7 @@ odd then <m>x+y</m> is even.</p>
         a new integer (<xref ref="how-to-quantifiers" />), so this time lets name it <m>s</m>.
     </p>
     <p>
-        That is in our proof we could write:
+        That is, in our proof we could write:
     </p>
     <p>
         "Again, by the definition of odd, we can find an integer <m>s</m> such that <m>y=2s+1</m>."
@@ -123,8 +123,8 @@ odd then <m>x+y</m> is even.</p>
         </me>
     </p>
     <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+y \text{ is even}</me> 
-        we must, again, use definition of even (<xref ref="defn-even"/>), which uses an existential 
-    quantifier  so we must (<xref ref="sec-3-4-arguments-with-quant"/>) , be able to produce/point at an
+        we must, again, use the definition of even (<xref ref="defn-even"/>), which uses an existential 
+    quantifier. So we must (<xref ref="sec-3-4-arguments-with-quant"/>) be able to produce/point at an
     integer, so that <m>x+y</m> is this integer times 2.</p>
 <p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{s+t+1}}</m> is an 
 integer!</p>
@@ -138,7 +138,7 @@ integer!</p>
 
 
 
-<p>Finally we should end every proof with a wrap-up sentence. This sentence is to summarize the proof, most 
+<p>Finally, we should end every proof with a wrap-up sentence. This sentence is to summarize the proof, most 
     importantly laying out your proving method, in this example a direct proof. 
 </p>
 <p>
@@ -148,7 +148,7 @@ integer!</p>
     that for all integers <m>x</m> and <m>y</m>, whenever <m>x</m> and <m>y</m> are odd then <m>x+1</m> is even, by direct proof." 
 </p> 
 <p>
-    Now lets see everything written together in a single spot.
+    Now let's see everything written together in a single spot.
 </p>
 <example>
     <title>1</title>

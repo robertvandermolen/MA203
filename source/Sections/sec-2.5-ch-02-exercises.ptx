@@ -12,7 +12,7 @@
                     <li>All smart people are math students. (False)</li>
                     <li>All math students are silly. (True)</li>
                 </ul>
-                Now given these assigned truth values, determine the validity and soundness of each of the following arguments:
+                Given these assigned truth values, determine the validity and soundness of each of the following arguments:
             </p>
             <ol>
                 <li>    

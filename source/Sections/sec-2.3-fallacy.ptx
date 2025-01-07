@@ -4,8 +4,8 @@
   <title>The Bad and the Ugly</title>
 <p>
     There are many ways to make a valid argument, and many ways to make an invalid argument. As a student of proofs
-    it is inevitable that you will make all of the mistakes, and find new and amazing ways of
-     making invalid arguments, it is unavoidable. But, don't fret, that is the beautiful learning journey you are on! 
+    it is inevitable that you will make all of the mistakes, and also find new and amazing ways of
+     making invalid arguments. But, don't fret, that is the beautiful learning journey you are on! 
 </p>
 
 <p>
@@ -57,8 +57,8 @@
 </p>
 <example>
   <p>
-   Say I was trying to conclude that a number <m>x</m> is even, then circular
-   reasoning would be: "Assume that <m>x</m> is even, thus <m>x</m> is even"
+   Say I was trying to conclude that a number <m>x</m> is even. Circular
+   reasoning would be: "Assume that <m>x</m> is even, thus <m>x</m> is even."
   </p>
 
 </example>
@@ -96,7 +96,7 @@
    </p>
    <example>
     <p>
-      Consider the statement: "If it is sunny then we will go on a bike ride". 
+      Consider the statement: "If it is sunny then we will go on a bike ride." 
       We still might go on a bike ride if it's not sunny, I was 
       just saying if it's sunny we will definitely go!
     </p>
@@ -133,8 +133,8 @@
 </p>
 <example>
   <p>
-    Consider the statement: "If it is sunny then we will go on a bike ride". 
-    Just because we go on a bike ride doesn't some how make it sunny, again I was 
+    Consider the statement: "If it is sunny then we will go on a bike ride." 
+    Just because we go on a bike ride doesn't some how make it sunny, again, I was 
     just saying if it's sunny we will definitely go!
   </p>
  </example>

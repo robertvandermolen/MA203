@@ -41,14 +41,14 @@
 <section xml:id="sec-4-4-3-dir-example-four-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
-        This proof is the same as we have been doing at the beginning as it starts with our <m>{\color{orange}{\text{beginning quantifier}}}</m>. 
+        This proof is the same as we have been doing at the beginning, as it starts with our <m>{\color{orange}{\text{beginning quantifier}}}</m>. 
         As usual we take care of that using:
     </p>
     <p>
         "Let <m>x</m> and <m>y</m> be integers."
     </p>
     <p>
-        As we are still doing a direct proof our first step involving this is <m>{\color{red}{\text{Assume the }P}}</m>, and for 
+        As we are still doing a direct proof, our first step involving this is <m>{\color{red}{\text{Assume the }P}}</m>, and for 
         this example it is:
     </p>
     <p>
@@ -72,7 +72,7 @@
         "By definition of divides we can find a <m>b\in\Z</m> so that <m>y=5b</m>."
     </p>
     <p>
-        Something I have seen students do here is write "exists an integer <m>b</m>". You are using the existential quantifier to produce 
+        Something I have seen students do here is write "exists an integer <m>b</m>." You are using the existential quantifier to produce 
         a specific integer (<xref ref="how-to-quantifiers"/>), by saying exists you are just telling me that you could theoretically find 
         one, not telling that you are producing one to use.
     </p>
@@ -88,7 +88,7 @@
 <section xml:id="sec-4-4-3-dir-example-four-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
-        From <m>{\color{green}{\text{ muddle }}}</m> we have
+        From the<m>{\color{green}{\text{ muddle }}}</m>we have
         <me>
             x+y=5{\color{purple}{(a-2b)}}
         </me>
@@ -118,7 +118,7 @@
         </p>
         <p>
             To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> and assume that 5 divides both of them, and have shown that <m>5|(x-2y)</m>,
-             by direct proof we have shown that for any integers <m>x</m> and <m>y</m>, if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m>
+             by direct proof we have shown that for any integers <m>x</m> and <m>y</m>, if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m>.<m>\square</m>
         </p>
     </example>
 </section>

@@ -10,7 +10,7 @@
 <p>
      Once we have it split like that we see something left over... this is the 
     <m>{\color{orange}{\text{beginning quantifier}}}</m>. This quantifier is quite often forgotten/assumed when it is not
-    written, but assumed nonetheless, therefore we call it the <em>hidden quantifier</em>. Either way the statement we are trying to prove is
+    written, but assumed nonetheless. Therefore, we call it the <em>hidden quantifier</em>. Either way the statement we are trying to prove is
     now broken up as follows:
     <me>
         {\color{orange}{\forall x\in\Z}}\text{ if }{\color{red}{x\text{ is odd}}}\text{ then }{\color{blue}{x+1\text{ is even}}}

@@ -5,13 +5,13 @@
 
 
     <p>Now, in order to start proving things we need the objects we are going to prove them about.
-        In addition when we begin our journey in proving, I'd like to limit the moving pieces 
+        In addition, when we begin our journey in proving, I'd like to limit the moving pieces 
         to those few assumptions just listed, and <alert>most importantly</alert> these following definitions.
         </p>
         <p>
         I begin by being this limiting to make sure our playground is small enough that no one hurts themselves 
         by falling off monkey bars that are too high, but also large enough that we can actually
-        get some <em>real</em> proving in. We'll start with a few common definitions, namely odd, even, and divides.
+        get some <em>real</em> proving in. We'll start with a few common definitions, namely, odd, even, and divides.
         </p>
 
     <p>
@@ -29,7 +29,7 @@
             <title>Odd</title>
             <idx><h>odd</h></idx>
             <p >
-                <m>\forall x \in \mathbb{Z}, x</m> is <term>even</term> iff <m>\exists k \in \mathbb{Z}</m> such that <m> x=2k+1</m>
+                <m>\forall x \in \mathbb{Z}, x</m> is <term>odd</term> iff <m>\exists k \in \mathbb{Z}</m> such that <m> x=2k+1</m>
                 
             </p>
         </definition>

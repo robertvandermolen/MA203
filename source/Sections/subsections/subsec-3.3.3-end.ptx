@@ -16,8 +16,8 @@
     </p>
         
         <p> To be able to make our conclusion <me>{\color{blue}{Q}}:\text{ } x+1 \text{ is even}</me> 
-            we must use defintion of even (<xref ref="defn-even"/>), which uses an existential 
-        quantifier  so we must (<xref ref="how-to-quantifiers"/>) be able to produce/point at an
+            we must use definition of even (<xref ref="defn-even"/>), which uses an existential 
+        quantifier, so we must (<xref ref="how-to-quantifiers"/>) be able to produce/point at an
         integer, so that <m>x+1</m> is this integer times 2.</p>
 <p>We have exactly that, because (<xref ref="sec-4-1-1-what-we-assume" />) <m>{\color{purple}{k+1}}</m> is an 
     integer!</p>
@@ -27,7 +27,7 @@
     </p>
 
     <p>
-        "Since <m>{\color{purple}{k+1}}</m> is an integer (this is where./how we "assume but mention" the <em>closure of addition in the integers</em>), by definition of even, <m>x+1</m> is even."</p>
+        "Since <m>{\color{purple}{k+1}}</m> is an integer (this is where/how we "assume but mention" the <em>closure of addition in the integers</em>), by definition of even, <m>x+1</m> is even."</p>
     
 
     
@@ -59,7 +59,7 @@
 
 <p></p>
 <p>
-    To wrap-up everything in a pretty bow, lets see the whole proof in one spot.
+    To wrap-up everything in a pretty bow, let's see the whole proof in one spot.
 </p>
 
 
