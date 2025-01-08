@@ -16,7 +16,7 @@
             But... for this question we need to really know the <m>\sim P</m>:
         </p>
         <p>
-            <m>m</m> is not odd odd
+            <m>m</m> is not odd
         </p>
         </answer>
         <p>"What's the <m>{\color{red}{Q}}</m>?"</p> 
@@ -26,7 +26,7 @@
             But... again... for this question we need to really know the <m>\sim Q</m>:
         </p>
         <p>
-            <m>m^2</m> is not odd odd
+            <m>m^2</m> is not odd
         </p>
         </answer>
         <p>"What're the definitions?" </p>
@@ -138,11 +138,11 @@
             </ul>
         </p>
         <p>
-       Now we take care of our <m>{\color{red}{\text{beginning}}}</m> of our proof using this new method of proof by contraposition, 
+       Now we take care of the <m>{\color{red}{\text{beginning}}}</m> of our proof using this new method of proof by contraposition, 
        by assuming <m>{\color{red}{\sim Q}}</m>.</p>
     <p>Assume <m>m</m> is not odd.</p>
     <p>
-        Now, many of you may be reading this last line yelling with your fist in the air saying, "who says not odd, just say even". 
+        Now, many of you may be reading this last line, yelling, with your fist in the air saying, "who says not odd? Just say even!" 
         Yet, we must of course consult our <em>allowed assumptions</em> section (<xref ref="sec-4-1-what-we-assume-ch-04"/>) and the assumption
         that "not odd" is equivalent to "even" is not one of those!
     </p>
@@ -151,14 +151,14 @@
 <section xml:id="sec-3-5-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
 <p>
-    As the pain point of even vs odd is not lost to me and it will be helpful to be able to write proofs without having to
+    The pain point of even vs odd is not lost to me, and it will be helpful to be able to write proofs without having to
     prove that not odd is the same as even every single time. This want to not prove something over and over again, or 
     to separate a smaller proof from a different result comes up a lot, so when we want to do this we create a Lemma. 
 </p>    
 <historical>
     <p>
         The word <em>Lemma</em> comes from the Ancient Greek λῆμμα, (perfect passive εἴλημμαι) 
-        something received or taken. Thus something taken for granted in an argument.
+        something received or taken. Thus, something taken for granted in an argument.
     </p>
 </historical>
 <lemma xml:id="lem-odd-not-even">
@@ -174,7 +174,7 @@
             (<xref ref="sec-4-1-1-what-we-assume"/>) we can find integers <m>q</m> and <m>r</m> such that 
             <m>0\leq r\lt 2</m> such that <m>y=2q+r</m>. Yet since <m>r</m> is an integer and <m>0\leq r\lt 2</m> 
             and the only integers which satisfy this inequality
-            are 0 and 1, we are left only with <m>y=2q+0=2q</m> (even) or <m>y=2q+1</m> (odd). 
+            are 0 and 1, we are left only with <m>y=2q+0=2q</m> (even) or <m>y=2q+1</m> (odd). <m>\square</m>
     </p>
 </proof>
 <p>
@@ -185,12 +185,12 @@
     Since we assumed that <m>m</m> is not odd by <xref ref="lem-odd-not-even"/> we can conclude that <m>m</m> is even.
 </p>
 <p>
-    Now we finally have in our proof that <m>m</m> is even so we can go back to what we have come accustomed to: using the definitions. 
+    Now we finally have in our proof that <m>m</m> is even so we can go back to what we have become accustomed to: using the definitions. 
     Specifically in this example we could write something like:
 </p>
-<p>Thus by definition of even we can find an integer <m>k</m> such that <m>m=2k</m></p>
+<p>Thus, by definition of even we can find an integer <m>k</m> such that <m>m=2k</m></p>
 <p>
-    Then, we could continue <em>following our nose</em> to do the common muddle so far in this text, and that is to <em>calculate</em>.
+    Then we could continue <em>following our nose</em> to do the common muddle so far in this text, and that is to <em>calculate</em>.
 </p>
     <p>Calculate:</p>
     <md>
@@ -206,7 +206,7 @@
     <me>
         m^2=2(2k^2)
     </me>
-    from the definitoin of even (<xref ref="defn-even"/>) we can now conclude:
+    from the definition of even (<xref ref="defn-even"/>) we can now conclude:
 </p>    
 <p>Since <m>2k^2</m> is an integer, according to the definition of even, <m>m^2</m> is even.</p>
 <p>

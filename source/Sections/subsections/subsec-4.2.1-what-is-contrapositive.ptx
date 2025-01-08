@@ -6,7 +6,7 @@
     A proof by contraposition uses (of course) the contraposition from <xref ref="subsec-2-4-2-important-equiv"/>
 </p>
 <p><me>[P\implies Q] \equiv [(\sim Q)\implies (\sim P)]</me></p>
-<p>So that we can prove <m>P \implies Q</m> by instead proving <m>(\sim Q)\implies(\sim P)</m>. To prove 
+<p>so that we can prove <m>P \implies Q</m> by instead proving <m>(\sim Q)\implies(\sim P)</m>. To prove 
 this equivalent statement we will use direct proof. We summarize this in the following.</p>
 
     <assemblage>

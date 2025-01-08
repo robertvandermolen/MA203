@@ -49,11 +49,11 @@
         <mrow>\amp \equiv [P\implies Q]\wedge[R\implies Q] \text{ (Rob's Law)}</mrow>
     </md>
       <p>
-        Now lets see an example of this in play.
+        Now, let's see an example of this in play.
       </p>
       <example>
         <p>
-            <alert>Prove:</alert> for any two integers <m>x</m> and <m>y</m> if <m>x</m> is even or <m>y</m>
+            <alert>Prove:</alert> for any two integers <m>x</m> and <m>y</m>, if <m>x</m> is even or <m>y</m>
             is even then <m>x\cdot y</m> is even.
         </p>
        <proof>
@@ -80,7 +80,7 @@
        <p>
         Now since we have shown that for <m>\forall x,y\in\Z</m> that both <m>x</m> is even implies <m>x\cdot y</m>
         is even and <m>y</m> is even implies <m>x\cdot y</m> is even,
-        we have shown that <m>\forall x,y\in\Z</m>.
+        we have shown that <m>\forall x,y\in\Z</m>. <m>\square</m>
        </p>
     </proof>
       </example>
@@ -123,7 +123,7 @@
     </md>
     </p>
     <p>
-    Now lets see an example.
+    Now, let's see an example.
     </p>
     <example>
         <p>
@@ -149,12 +149,12 @@
         <p>
             Since we have assumed for two arbitrary integers <m>x</m> and <m>y</m> that <m>x</m> is even and <m>y</m> is 
             not odd, and we have concluded that <m>x+y</m> is even, we can conclude that for all integers <m>x</m> and <m>y</m>, if <m>x</m> is even then
-            <m>y</m> is odd or <m>x+y</m> is even.
+            <m>y</m> is odd or <m>x+y</m> is even. <m>\square</m>
         </p>
         </proof>
     </example>
     <p>
-      The last propositional form we consider in this section is the following.
+      The last propositional form we consider in this section is the following:
     </p>
 
     <assemblage>
@@ -204,7 +204,7 @@
         </p>
         <p>
           Assume that <m>3|(a-2)</m>, also assume that <m>3|(b-1)</m>. By definition of divides (<xref ref="defn-divides"/>) we can produce an 
-          integer <m>k</m> such that <m>a-2=3k</m>, and hence by adding 2 to both sides of this equation we get
+          integer <m>k</m> such that <m>a-2=3k</m>, and hence, by adding 2 to both sides of this equation we get
           <m>a=3k+2</m>. As well by the definition of divides we can come forth with another integer <m>t</m> with the 
           property that <m>b-1=3t</m>, this time adding 1 to both sides of the equation we see that <m>b=3t+1</m>.
         </p>
@@ -231,7 +231,7 @@
         <p>
           Now that we have assumed that <m>a</m> and <m>b</m> are arbitrary integers and assumed that <m>3|(a-2)</m> and <m>3|(b-1)</m> 
           then we showed that both <m>3|(a+b)</m> and that <m>3|(a-2b)</m> we can conclude that for all integers <m>a</m> and <m>b</m>, 
-          if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m> and <m>3|(a-2b)</m>.
+          if <m>3|(a-2)</m> and <m>3|(b-1)</m> then <m>3|(a+b)</m> and <m>3|(a-2b)</m>. <m>\square</m>
         </p>
 
         

@@ -35,7 +35,7 @@
     <section xml:id="sec-4-3-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
             <p>
-                To begin our proof we first take care of the <m>{\color{orange}{\text{beginning quantifier}}}</m>. As usual we will do this by choosing arbitrary integers, that is we will use language like:
+                To begin our proof we first take care of the <m>{\color{orange}{\text{beginning quantifier}}}</m>. As usual we will do this by choosing arbitrary integers, that is, we will use language like:
             </p>
             <p>
                 Let <m>a</m> and <m>b</m> be arbitrary integers.
@@ -43,11 +43,11 @@
          
             <note>
                 <p>
-                    Again be careful, even though we will be negating we DO NOT negate the quantifier!
+                    Again, be careful, even though we will be negating we DO NOT negate the quantifier!
                 </p>
             </note>
             <p>
-                Now to begin our proof by contraposition we need to <m>{\color{red}{\text{ Assume }\sim R}}</m>
+                Now, to begin our proof by contradiction we need to <m>{\color{red}{\text{ Assume }\sim R}}</m>
             </p>
             <p>
                 But <m>R</m> is not in our song! Yes that's true, but <m>R</m> is just "what we want to prove". In this example we want to prove if <m>a- b</m> is odd then <m>a+ b</m> is odd. So we will need to assume <m>{\color{red}{\sim (\text{if }a-b\text{ is odd then }a+b\text{ is odd})}}</m> or using our analysis above we will:
@@ -75,7 +75,7 @@
         <section xml:id="sec-4-3-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title><m>{\color{green}{\text{The Muddle}}}</m></title>
             <p>
-                Next, almost right away we can react almost with <em>knee jerk</em> and play off our assumption with:
+                Next, almost right away we can react to our <em>knee jerk</em> and play off our assumption with:
             </p>
             <p>
                 Since we assumed that <m>a+b</m> is not odd, by <xref ref="lem-odd-not-even"/> we have that <m>a+b</m> is even.
@@ -87,7 +87,7 @@
                 By the definition of odd we can obtain an integer <m>\ell</m> so that <m>a-b=2\ell+1</m>. As well, by the definition odd (<xref ref="defn-odd"/>) we are able to select an integer <m>s</m> so that <m>a+b=2s</m>.
             </p>
             <p>
-                Yet, this is where our quick reactions or just using the definitions we have sung in our song ends. In other examples we would look to the quintessential <m>Q</m> as our target to set up a calculation. Unfortunately in a proof by contradiction we are in search of a brand new proposition (which we have lovingly named <m>T</m>) further more we also need to find its negation (<m>\sim T</m>). This search is not always easy, and where to begin isn't always clear. 
+                Yet, this is where our quick reactions or just using the definitions we have sung in our song ends. In other examples we would look to the quintessential <m>Q</m> as our target to set up a calculation. Unfortunately in a proof by contradiction we are in search of a brand new proposition (which we have lovingly named <m>T</m>). Furthermore, we also need to find its negation (<m>\sim T</m>). This search is not always easy, and where to begin isn't always clear. 
             </p>
             <p>
                 For this example we wandered in the woods and simply added the two things from our assumption together...
@@ -99,14 +99,14 @@
                     <mrow>\amp=2\ell+2s+1</mrow>
                     <mrow>\amp=2(\ell+s)+1</mrow>
                 </md>
-                and similar to many proofs that came before this we can conclude that since <m>\ell+s</m> is an integer by the definition of odd, we have that <me>T:\text{ }(a-b)+(a+b)\text{ is odd}</me>
+                And similar to many proofs that came before this, we can conclude that since <m>\ell+s</m> is an integer, by the definition of odd, we have that <me>T:\text{ }(a-b)+(a+b)\text{ is odd}</me>
             </p>
             <p>
                 But, there is of course another way of calculating this sum with no consideration of these newly found integers, <m>\ell</m> and <m>s</m>, that is...
                 <me>
                     (a-b)+(a+b)=(a+a)+(b-b)=2a
                 </me>
-                yet, since <m>a</m> is an integer by the definition of even we have that <m>(a-b)+(a+b)</m> is even, or in light of <xref ref="lem-odd-not-even"/> we have:
+                yet, since <m>a</m> is an integer, by the definition of even we have that <m>(a-b)+(a+b)</m> is even, or in light of <xref ref="lem-odd-not-even"/> we have:
                 <me>
                     \sim T: \text{ }(a-b)+(a+b)\text{ is not odd}
                 </me>
@@ -144,7 +144,7 @@
                 </p>
                 <p>
                     Yet, <m>(a-b)+(a+b)</m> is an integer and cannot be both even and odd, which is a contradiction. Thus using proof by contradiction we have successfully shown that for all integers <m>a</m> and <m>b</m> if <m>a- b</m> is odd 
-                    then <m>a+ b</m> is odd. 
+                    then <m>a+ b</m> is odd. <m>\square</m>
                 </p>
             </example>
         </section>
