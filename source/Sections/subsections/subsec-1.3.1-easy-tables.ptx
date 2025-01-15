@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-3-1-easy-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-3-1-easy-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Basic Tables</title>
   <p>
     <idx><h>truth table</h></idx>
@@ -263,4 +263,4 @@ components in a truth table.
   
 </figure>
    
-</section>
+</subsection>

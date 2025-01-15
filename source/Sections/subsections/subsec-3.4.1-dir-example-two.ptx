@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-4-1-dir-example-two" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-1-dir-example-two" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 2</title>
-
+<introduction>
 <p><alert>Prove:</alert> For all integers <m>x</m> and <m>y</m>, if <m>x</m> and <m>y</m> are both
 odd then <m>x+y</m> is even.</p>
 
@@ -37,8 +37,8 @@ odd then <m>x+y</m> is even.</p>
         
     </p>
     <p></p>
-
-<section xml:id="sec-4-4-1-dir-example-two-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+<subsection xml:id="sec-4-4-1-dir-example-two-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
         Just as before we begin by "shoveling off" our <m>{\color{orange}{\text{beginning quantifier}}}</m>
@@ -60,9 +60,9 @@ odd then <m>x+y</m> is even.</p>
     <p>
         "Assume both <m>x</m> and <m>y</m> are odd."
     </p>
-</section>
+</subsection>
 
-<section xml:id="sec-4-4-1-dir-example-two-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-1-dir-example-two-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
         Again, as will be quite often even after this class, we do not have much but the 
@@ -112,9 +112,9 @@ odd then <m>x+y</m> is even.</p>
         Now, we can (hopefully) <em>see</em> our definition of even at the last equality, signalling 
         that we are ready for our <m>{\color{blue}{\text{end}}}</m>.
     </p>
-</section>
+</subsection>
 
-<section xml:id="sec-4-4-1-dir-example-two-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-1-dir-example-two-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
         From the <m>{\color{green}{\text{muddle}}}</m>, we have:
@@ -151,7 +151,7 @@ integer!</p>
     Now let's see everything written together in a single spot.
 </p>
 <example>
-    <title>1</title>
+    
     
     
     <p><alert>Prove:</alert> For all integers <m>x</m> and <m>y</m>, if <m>x</m> and <m>y</m> are both
@@ -179,6 +179,6 @@ that for all integers <m>x</m> and <m>y</m>, whenever <m>x</m> and <m>y</m> are 
     </p>
 </example>
 
-</section>
+</subsection>
 
-</section>
+</subsection>

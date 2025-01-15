@@ -1,4 +1,4 @@
-<section xml:id="subsec-2-5-6-neg-quant" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-5-6-neg-quant" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Negating Quantifiers</title>
 
 
@@ -49,4 +49,4 @@
       </ol>
     </example>
 
-</section>
+</subsection>

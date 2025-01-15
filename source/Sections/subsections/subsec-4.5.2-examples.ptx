@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-3-5-2-cases-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-3-5-2-cases-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Exhaustive Examples</title>
     <p>
        We now include some examples, the first one is an example of breaking into the cases of even and odd.
@@ -99,4 +99,4 @@
         </proof>
     </example>
 
-</section>
+</subsection>

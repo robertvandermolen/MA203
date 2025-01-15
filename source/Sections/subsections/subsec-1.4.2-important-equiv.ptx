@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-4-2-important-equiv" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-4-2-important-equiv" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Some Important Equivalences</title>
     
     
@@ -251,4 +251,4 @@
 </proof>
 
 
-</section>
+</subsection>

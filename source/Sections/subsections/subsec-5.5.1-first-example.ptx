@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-5-5-1-power-set-first-example" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-5-5-1-power-set-first-example" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>First Proof</title>
+<introduction>
 <p>
     For our very first proof using the power set we will now shed the numbers and prove for arbitrary sets <m>A</m> and <m>B</m>.
 </p>
@@ -11,8 +12,10 @@
     <p>
         This is a biconditional proof so it is like we are working with two proofs, so we will use it as such and prove each statement separately. 
     </p>
-    <section xml:id="subsec-5-5-1-power-set-first-example-first-direction" xmlns:xi="http://www.w3.org/2001/XInclude">
+    </introduction>
+    <subsection xml:id="subsec-5-5-1-power-set-first-example-first-direction" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Proof of: <m>A \subseteq B</m> <m>\implies</m> <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m></title>
+<introduction>
     <p>Before we begin any proof we sing our song (play-along):</p>
     <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
     <answer>
@@ -33,7 +36,8 @@
     
     
     <p></p>
-    <section xml:id="sec-5-5-2-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+        </introduction>
+    <subsection xml:id="sec-5-5-2-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
         <p>
             To begin, there is nothing fancy we simply assume the "<m>P</m>" that is we would write something simple like: 
@@ -50,9 +54,9 @@
         <p>
             it will be our objective to show that this element <m>x</m> also belongs to <m>\mathscr{P}(B)</m>.
         </p>
-    </section>
+    </subsection>
 
-    <section xml:id="sec-5-5-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <subsection xml:id="sec-5-5-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{green}{\text{The Muddle}}}</m></title>
         <p>
             I know, we have no numbers what are we to do?
@@ -81,9 +85,9 @@
         <p>
             Since we assumed <m>A\subseteq B</m> and since we have discovered that <m>a\in A</m> by definition of subset we can conclude that <m>a\in B</m>. Hence, since we chose an arbitrary element <m>a\in x</m> and have shown that <m>a\in B</m> as well, by definition of subset we can conclude <m>x\subseteq B</m>.
         </p>
-    </section>
+    </subsection>
 
-    <section xml:id="sec-5-5-2-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <subsection xml:id="sec-5-5-2-end" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{blue}{\text{The End}}}</m></title>
         <p>
             Finally, we have just concluded that <m>x\subseteq B</m>, which is the defining condition for membership to the power set of <m>B</m>, thus we can conclude:
@@ -91,11 +95,12 @@
         <p>
             By defintion of power set since <m>x\subseteq B</m> we have that <m>x\in\mathscr{P}(B)</m>. Therefore as we chose <m>x\in\mathscr{P}(A)</m> arbitrarily, by definition of subset we have our desired result that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>.
         </p>
-    </section>
-    </section>
+    </subsection>
+    </subsection>
 
-<section xml:id="subsec-5-5-1-power-set-first-example-second-direction" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-5-5-1-power-set-first-example-second-direction" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Proof of: <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m> <m>\implies</m>  <m>A \subseteq B</m> </title>
+<introduction>
     <p>Before we begin any proof we sing our song (play-along):</p>
     <p>"What's the <m>{\color{red}{P}}</m>?"</p> 
     <answer>
@@ -116,7 +121,8 @@
     
     
     <p></p>
-    <section xml:id="sec-5-5-2-begin-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+        </introduction>
+    <subsection xml:id="sec-5-5-2-begin-2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
         <p>
             This time to begin, we must assume this <em>new</em> "<m>P</m>" that is we would write something simple like: 
@@ -131,9 +137,9 @@
             Let <m>y\in A</m>
         </p>
         
-    </section>
+    </subsection>
 
-    <section xml:id="sec-5-5-2-muddle-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <subsection xml:id="sec-5-5-2-muddle-2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{green}{\text{The Muddle}}}</m></title>
         <p>
             Now, what do we do?!
@@ -147,9 +153,9 @@
         <p>
             Since <m>y\in A</m> by the definition of subset <m>\{y\}\subseteq A</m>, thus by the definition of power set we have that <m>\{y\}\in\mathscr{P}(A)</m>. Now, since we have assumed that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>  by the definition of subset we have that <m>\{y\}\in\mathscr{P}(B)</m>. 
         </p>
-    </section>
+    </subsection>
 
-    <section xml:id="sec-5-5-2-end-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <subsection xml:id="sec-5-5-2-end-2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{blue}{\text{The End}}}</m></title>
         <p>
             Given that <m>\{y\}\in\mathscr{P}(B)</m> by the definition of power set we can conclude that <m>\{y\}\subseteq B</m>, and by the definition of subset, since <m>y\in\{y\}</m> we have that <m>y\in B</m>. 
@@ -157,7 +163,7 @@
         <p>
             Yet, since we have chosen <m>y\in A</m> arbitrarily and have shown that <m>y\in B</m> by the definition of subset we can conclude that <m>A\subseteq B</m> as desired.
         </p>
-    </section>
+    </subsection>
 <p>
     Now that we have shown that both
     <me>
@@ -173,7 +179,7 @@
     </me>
     
 </p>
-    </section>
+    </subsection>
 <p>
     We now give an abbreviated proof in a single location for the ease of the reader.
 </p>
@@ -190,4 +196,4 @@
     <m>\{y\} \in \mathscr{P}(B)</m>. By definition of subset, since <m>y \in \{y\}</m> then <m>y \in B</m>.</p>
     <p>Thus by direct and bi-directional proof, <m>A \subseteq B</m> if and only if <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m></p>
   </example>
-</section>
+</subsection>

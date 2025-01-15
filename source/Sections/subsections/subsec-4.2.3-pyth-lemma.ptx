@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Pythagoras' Lemma</title>
 
     <p>You will need to refer to this in later proofs, so don't forget about it.</p>
@@ -19,4 +19,4 @@
             if 2 divides <m>m^2</m> then 2 divides <m>m</m>. </p>
     </assemblage>
 
-</section>
+</subsection>

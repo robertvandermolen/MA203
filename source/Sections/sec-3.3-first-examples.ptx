@@ -2,6 +2,7 @@
 
 <section xml:id="sec-4-3-first-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Our First Proof</title>
+<introduction>
 <p>
     Now that we have our first weapon in hand (the direct proof) let's start to slay our first dragon. 
 </p>
@@ -26,9 +27,9 @@
     <answer>
     <p>A direct proof! (it is the only method we know so far)</p>
     </answer>
+    </introduction>
     
-    
-    <p></p>
+ 
 
 <xi:include href="./subsections/subsec-3.3.1-begin.ptx" />
 <xi:include href="./subsections/subsec-3.3.2-muddle.ptx" />

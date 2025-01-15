@@ -1,4 +1,4 @@
-<section xml:id="subsec-5-3-2-algebra-of-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-5-3-2-algebra-of-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>The Logic of Sets</title>
     <historical>
     <p>
@@ -193,4 +193,4 @@
         We leave these last ones without proof, nor the challenge for a hard working reader to try and work it out, but instead we hope the student's intuition will guide them.
     </p>
 
-</section>
+</subsection>

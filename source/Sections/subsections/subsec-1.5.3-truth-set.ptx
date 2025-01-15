@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-5-2-truth-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-5-2-truth-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Truth Sets and Predicate Forms</title>
 
 <p>
@@ -71,4 +71,4 @@
     </p>
 </example>
 
-</section>
+</subsection>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-3-3-root-two" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-3-3-root-two" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>\sqrt{2}</m> is Irrational</title>
+<introduction>
     <p>
         This next proof is a proof that I believe every single student in mathematics should know and love. It is this proof that I learned very early on in my math career that shaped how I understood mathematics. I would meet people and tell them "I'm a math major" and they would say things like "ugh I always hated math" and I would tell them "no, math is not what you think math is." It is about truths. For example take an extremely simple shape the right triangle, literally just put two sticks at a sharp angle and connect the two edges with another stick. This third stick has a length that is not a fraction of either of the other sides. Pythagoras went to his grave believing that it must, but we can show beyond a shadow of a doubt it is not. 
     </p>
@@ -50,16 +51,16 @@
 
    
 
-
-<section xml:id="sec-3-7-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+<subsection xml:id="sec-3-7-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{red}{\text{The Beginning}}}</m></title>
 <p>
     For a proof by contradiction we need to begin by assuming what we need to prove is false, and to remind you this could be jarring to a reader so let them know what you are doing, for example we could write:
 </p>    
 <p>For the sake of contradiction assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
-</section>
+</subsection>
 
-<section xml:id="sec-3-7-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-3-7-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
         Now, we continue with our song by applying the definitions we can, per the definition of rational (<xref ref="defn-rational"/>), we can find two integers <m>p</m> and <m>q</m> so that 
@@ -89,9 +90,9 @@
     </md>
     <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and again by <xref ref="lem-m-squared"/>, <m>q</m> is even.</p>
     <p>Since <m>2\mid p</m> and <m>2\mid q</m>, 2 is a common divisor, and thus by definition of greatest common divisor (<xref ref="defn-gcd"/>) we have that <m>\text{GCD}(p,q)\geq 2</m>, yet this means that  <me>\sim T:\text{ GCD}(p,q)\neq 1</me></p>
-</section>
+</subsection>
 
-<section xml:id="sec-3-7-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-3-7-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{blue}{\text{The End}}}</m></title>
 <p>
     So now that we have found our contradiction <m>T\wedge(\sim T)</m> we are done, but just incase the reader missed this contradiction as you unwrapped it, lets put it all in one place.
@@ -126,7 +127,7 @@
     <p>Thus we have shown <m>\text{GCD}(p,q)=1</m> <alert>and</alert> <m>\text{GCD}(p,q)\neq1</m> which is a contradiction. Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
 </example>
 
-</section>
+</subsection>
 
 
-</section>
+</subsection>

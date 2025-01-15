@@ -2,6 +2,7 @@
 
 <section xml:id="sec-5-3-venn-diagrams" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Venn Diagrams and Logic of Sets</title>
+<introduction>
 <idx><h>Venn diagram</h></idx>
 <p>
     To understand/describe the relationship between sets we often use a tool known as <term>Venn Diagrams</term>. In simplest terms a Venn diagram is a drawing representing the sets we are considering, we draw a circle for each set, and imagine the elements are inside the circle. Further, in this section we will use the basic underpinning of propositional logic to pick apart some logical conclusions from set theory.
@@ -12,7 +13,8 @@
         <image source="/images/john_venn.jpg" width="100%"/>
     </p>
 </historical>
-<section xml:id="subsec-5-3-1-venn-diagrams" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+<subsection xml:id="subsec-5-3-1-venn-diagrams" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Venn Diagrams</title>
 <p>
     We now provide some basic examples of Venn diagrams.
@@ -86,7 +88,7 @@
         In this example consider the set that avoids where <m>A</m> intersects <m>C</m> yet does include all of <m>B</m>.
     </p>
 </example>
-</section>
+</subsection>
 
 <xi:include href="../Sections/subsections/subsec-5.3.2-algebra-of-sets.ptx" />
 </section>

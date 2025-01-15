@@ -2,7 +2,7 @@
 
 <section xml:id="sec-6-2-intro-to-pmi" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Introduction to Induction</title>
-
+<introduction>
   <p>We begin with a couple of definitions that are fundamental, yet this technique we are building to is so algorithmic I believe students can become extremely proficient at applying mathematical induction with little found here.</p>
     <definition xml:id="def-successor">
     <title>Successor</title>
@@ -107,8 +107,10 @@
   <p>
     Hopefully you can at least start to see the algorithm forming, there are 3 steps, and we take these steps every time!
   </p>
-  <section xml:id="sec-6-2-3-intro-to-pmi-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
+  </introduction>
+  <subsection xml:id="sec-6-2-3-intro-to-pmi-first-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>First Proof with Induction</title>
+  <introduction>
   <p>
     For our first example of induction we will use a summation (<xref ref="subsec-6-1-1-sum"/>)
   </p>
@@ -141,8 +143,8 @@
     
     
     <p></p>
-
-  <section xml:id="sec-6-2-3-1-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+  <subsection xml:id="sec-6-2-3-1-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{red}{\text{The Beginning}}}</m></title>
 <p>
   In <em>Induction</em> we always begin with showing the <m>{\color{red}{\text{base case}}}</m>, in our song we identified the base case as <m>m=1</m>, so for our first step we need to show that <m>P(1)</m> is true
@@ -169,9 +171,9 @@
   </me>
   
 </p>
-</section>
+</subsection>
 
-<section xml:id="sec-6-2-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-6-2-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
 <p>
   The muddle for an induction always has the same purpose an often is done with a calculation. The purpose of the muddle is to satisfy the last part of an induction proof, the <m>n+1</m> case.
@@ -189,9 +191,9 @@
     <mrow> \amp =(n+1)^2\amp\text{(factoring)}</mrow>
   </md>
 </p>
-</section>
+</subsection>
 
-<section xml:id="sec-6-2-3-3-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-6-2-3-3-end" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{blue}{\text{The End}}}</m></title>
 <p>
   Using <em>Induction</em> the muddle should have always endend with a calculation which showed our desired result. In this example we have shown
@@ -207,6 +209,6 @@
 <p>
   QED
 </p>
-</section>
-</section>
+</subsection>
+</subsection>
 </section>

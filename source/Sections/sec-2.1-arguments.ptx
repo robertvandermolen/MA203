@@ -2,13 +2,14 @@
 
 <section xml:id="sec-3-1-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Arguments</title>
+  <introduction>
   <p>
     Arguments are so important, they  merit their own chapter. 
     They are the essence of your future proofs, these are your "steps" you long for from your 
     calculus class. 
     </p>
-
-  <section xml:id="subsec-3-1-1-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
+  </introduction>
+  <subsection xml:id="subsec-3-1-1-arguments" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Validness</title>
     
     <p>
@@ -136,7 +137,7 @@
   </example>
   
   <p>Notice that it is not the truth of the premises that makes an argument valid or invalid, but rather the truth of the conclusion.</p>
-</section>
+</subsection>
  <!-- <xi:include href="./subsections/subsec-3.1.2-soundness.ptx" />-->
 
 </section>

@@ -2,12 +2,13 @@
 
 <section xml:id="subsec-4-5-proof-by-cases" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Proof by Exhaustion</title>
+<introduction>
     <p>
     Our next proof method is not really a standalone method; other methods will need to accompany it. We will introduce it
     using the direct proof as the accompaniment. Proof by cases can also be viewed as specific 
     example of <xref ref="subsec-3-5-proofs-of-or"/>.
     </p>
-
+</introduction>
     <!--the description/supporting-->
     <xi:include href="./subsections/subsec-4.5.1-what-are-cases.ptx" />
     <!--the examples-->

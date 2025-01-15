@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-4-1-what-equiv" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-4-1-what-equiv" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What is an equivalence?</title>
   
   <definition xml:id="def-equiv">
@@ -103,4 +103,4 @@
 
    
 
-</section>
+</subsection>

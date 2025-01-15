@@ -2,11 +2,13 @@
 
 <section xml:id="sec-4-1-where-we-start" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Where We Start</title>
-<p>
+<introduction>
+    <p>
     The biggest pain and question of all beginning proofs student is: 
     <me>\text{"What can I assume?"}</me> To help answer that, we will begin every 
     chapter with either a quick note or a detailed list. 
-</p>
+    </p>
+</introduction>
 
 
 <!-- Subsection -->

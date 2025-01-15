@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-2-2-first-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-2-2-first-contrapositive" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>First Example of Contrapositive</title>
+<introduction>
 <p>
     For our first example, just as in <xref ref="sec-4-2-direct-proof"/>, we will give as many <em>gory</em> 
     details as we can think of to help the eager student of proofs.
@@ -68,8 +69,8 @@
        </note>
     </p>
     <p></p>
-
-<section xml:id="sec-3-5-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+<subsection xml:id="sec-3-5-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>Just like before, "shovel off" the <m>{\color{orange}{\text{beginning quantifier}}}</m> 
         <me>
@@ -146,9 +147,9 @@
         Yet, we must of course consult our <em>allowed assumptions</em> section (<xref ref="sec-4-1-what-we-assume-ch-04"/>) and the assumption
         that "not odd" is equivalent to "even" is not one of those!
     </p>
-</section>
+</subsection>
 
-<section xml:id="sec-3-5-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-3-5-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
 <p>
     As the pain point of even vs odd is not lost to me and it will be helpful to be able to write proofs without having to
@@ -197,9 +198,9 @@
         <mrow>m^2\amp=(2k)(2k)</mrow>
         <mrow>\amp=2(2k^2)</mrow>
     </md>
-</section>
+</subsection>
 
-<section xml:id="sec-3-5-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-3-5-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{blue}{\text{The End}}}</m></title>
 <p>
     From the <m>{\color{green}{\text{muddle}}}</m> we have that 
@@ -240,6 +241,6 @@
     <p>Hence, by proof by contraposition if <m>m^2</m> is odd then m is odd. <m>\square</m></p>
 </example>
 
-</section>
+</subsection>
 
-</section>
+</subsection>

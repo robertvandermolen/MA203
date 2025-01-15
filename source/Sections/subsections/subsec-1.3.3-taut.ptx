@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-3-3-taut" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-3-3-taut" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Tautologies and Contradictions</title>
 <p>
     Some of the strongest tools in proving are propositional statements that are either always true or always false.
@@ -158,4 +158,4 @@
   </tabular>
 
 </figure>
-</section>
+</subsection>

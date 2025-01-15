@@ -6,7 +6,7 @@
 
   <book xml:id="my-great-book">
     <title>A Beginning, a Muddle, and an End</title>
-    <subtitle>An Introduction to Proofs</subtitle>
+    <subtitle>Proof Anyone can Prove</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />

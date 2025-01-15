@@ -2,6 +2,7 @@
 
 <section xml:id="sec-5-5-power-set" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Power Set</title>
+<introduction>
 <p>
    The power set includes all the subsets of a given set. To help make this clearer, we'll now work through a couple of examples together.
 </p>
@@ -107,7 +108,7 @@
   <p>
     We leave the proof of this to a course in counting, or the studious reader may work it out themselves.
   </p>
-  
+  </introduction>
   <!-- include sections -->
 <xi:include href="../Sections/subsections/subsec-5.5.1-first-example.ptx" />
 <xi:include href="../Sections/subsections/subsec-5.5.2-counting.ptx" />

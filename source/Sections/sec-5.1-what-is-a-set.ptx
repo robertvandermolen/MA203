@@ -2,6 +2,7 @@
 
 <section xml:id="sec-5-1-what-is-a-set" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>What is a Set?</title>
+<introduction>
 <p>
     While set theory has been rigorously defined axiomatically, in this course we choose to only skim the surface using a whole lot of intuition and the propositional logic that we developed in <xref ref="ch-02-logic"/>. The main object of study in set theory is the <em>set</em>. Intuitively a set is a magic bag filled with stuff... or nothing... Georg Cantor the russian mathematician, credited as the father of set theory, first defined the set as:
 </p>
@@ -123,7 +124,8 @@
   <p>
     As there are no elements in <m>\emptyset</m>, therefore <m>|\emptyset|=0</m>, as well, to the the disjoy of all combinatorists, the statement <m>x\in\emptyset</m> is a contradiction (that is always false).
   </p>
-  <section xml:id="sec-5-1-1-set-builder" xmlns:xi="http://www.w3.org/2001/XInclude">
+  </introduction>
+  <subsection xml:id="sec-5-1-1-set-builder" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Set Builder Notation</title>
 <idx><h>set builder notation</h></idx>
   <p>
@@ -173,5 +175,5 @@
       </me>
       that is, by defining a set with an existential condition we are actually defining a universal relationship. To top it off we often do not even mention the universal relationship and <em>hide</em> the existential one, all in the sake of brevity and the word <em>obvious</em>.
     </p>
-    </section>
+    </subsection>
 </section>
