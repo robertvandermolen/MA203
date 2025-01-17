@@ -19,6 +19,15 @@
       </p>
     </statement>
   </definition>
+  <note>
+    <p>
+      To actually prove using this definition it is helpful to eliminate the need to reference the definition of range. Thus we will most often use the definition that a function <m>f:A\rightarrow B</m> is a surjection <em>means</em>
+      <me>
+        \forall b\in B\text{ }\exists a\in A\text{ so that }f(a)=b
+      </me>
+      
+    </p>
+  </note>
   <example>
     <p>
       A function that is surjective just needs to hit every element in the codomain. Consider the two sets 
