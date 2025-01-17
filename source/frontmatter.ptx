@@ -46,7 +46,143 @@
     <colophon-items/>
     
   </colophon>
+ 
+
+  <dedication>
+  <p>
+    Dedicated to: 
+  </p>
+  <p>
+    Tillye, without whose patience this book would not exist.
+  </p>
+  <p>
+    and
+  </p>
+  <p>
+    John Davis who's enthusiasm to learn pushed me to actually sit down and write this book!
+  </p>
+  <p>
+    and
+  </p>
+  <p>
+    My Students who's questions have shaped this book!
+  </p>
+  </dedication>
   
+ 
+  <acknowledgement>
+  <p>
+    This book has had amazing friends and students edit and they have my eternal thanks:
+    <ul>
+      <li>
+        <p>
+          Benjo
+        </p>
+      </li>
+      <li>
+        <p>
+          Caitlin
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    This book has had inspiration of many many many many professors and instructors, I am sure I will miss someone, and I am sorry, I'm getting old...
+    <ul>
+      <li>
+        <p>
+          Annalisa Calini
+        </p>
+      </li>
+      <li>
+        <p>
+          Oleg Smirnov
+        </p>
+      </li>
+      <li>
+        <p>
+          Alex Kasman
+        </p>
+      </li>
+      <li>
+        <p>
+          Bob Mignone
+        </p>
+      </li>
+      <li>
+        <p>
+          Garrett Mitchener
+        </p>
+      </li>
+      <li>
+        <p>
+          Kate Owens
+        </p>
+      </li>
+      <li>
+        <p>
+          Andrew Przeworski
+        </p>
+      </li>
+      <li>
+        <p>
+          Liz Jurisich
+        </p>
+      </li>
+      <li>
+        <p>
+          Ben Cox
+        </p>
+      </li>
+      <li>
+        <p>
+          Stephane Lafortune
+        </p>
+      </li>
+      <li>
+        <p>
+          George McNulty
+        </p>
+      </li>
+      <li>
+        <p>
+          Matthew Ballard
+        </p>
+      </li>
+      <li>
+        <p>
+          Joshua Cooper
+        </p>
+      </li>
+      <li>
+        <p>
+          Ralph Howard
+        </p>
+      </li>
+      <li>
+        <p>
+          Anton R. Schep
+        </p>
+      </li>
+      <li>
+        <p>
+          Sean Yee
+        </p>
+      </li>
+      <li>
+        <p>
+          Frank Thorne
+        </p>
+      </li>
+      <li>
+        <p>
+          Alexander Duncan
+        </p>
+      </li>
+    </ul>
+  </p>
+ </acknowledgement>
+ 
  
   <xi:include href="./preface.ptx" />
 </frontmatter>
