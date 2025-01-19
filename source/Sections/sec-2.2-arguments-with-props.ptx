@@ -470,7 +470,7 @@
               <cell><m>S</m></cell>
             </row>
             <row  bottom="minor">
-              <cell><m>S\implies T</m></cell>
+              <cell><m>S\implies W</m></cell>
             </row>
             <row>
               <cell><m>\therefore \text{ }W</m></cell>
