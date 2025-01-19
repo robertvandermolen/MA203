@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-3-1-what-is-a-contradiction" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-3-1-what-is-a-contradiction" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>What is a contradiction?</title>
 <p>
     Proof by contradiction is the most different than the direct proof yet. The first big difference is that before now we have always considered the case where we were proving <m>P\implies Q</m>, yet this time we will be only considering proving any proposition <m>R</m>. This does not mean that we will not use it to prove propositions in the form of an implication (because we definitely will), it is just that we set up the proof not separating the implication as we have done before. 
@@ -102,4 +102,4 @@
   </me>
   
   </p>
-</section>
+</subsection>

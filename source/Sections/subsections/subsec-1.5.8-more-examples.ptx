@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-5-8-unique" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-5-8-unique" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>More Examples</title>
 <p>
     Now we will give some more examples:
@@ -29,4 +29,4 @@
         
     </ol>
 </example>
-</section>
+</subsection>

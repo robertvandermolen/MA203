@@ -1,5 +1,6 @@
-<section xml:id="sec-4-3-2-first-contra-example" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-3-2-first-contra-example" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>First Example of Proof by Contradiction</title>
+    <introduction>
     <p>
         For our first example of contradiction we will stick with our safety blanket of the integers. 
     </p>
@@ -31,8 +32,8 @@
         </me>
         
     </p>
-
-    <section xml:id="sec-4-3-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+    <subsection xml:id="sec-4-3-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
             <p>
                 To begin our proof we first take care of the <m>{\color{orange}{\text{beginning quantifier}}}</m>. As usual we will do this by choosing arbitrary integers, that is, we will use language like:
@@ -70,9 +71,9 @@
             <p>
                 which stands for <em>reductio ad absurdum</em>, that is, "reduction to absurdity."
             </p>
-        </section>
+        </subsection>
 
-        <section xml:id="sec-4-3-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <subsection xml:id="sec-4-3-2-example-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title><m>{\color{green}{\text{The Muddle}}}</m></title>
             <p>
                 Next, almost right away we can react to our <em>knee jerk</em> and play off our assumption with:
@@ -113,9 +114,9 @@
                 Therefore we have stumbled upon our contradiction, our <m>T</m> <em>and</em> not <m>T</m>.
             </p>
             
-        </section>
+        </subsection>
 
-        <section xml:id="sec-4-3-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <subsection xml:id="sec-4-3-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <title><m>{\color{blue}{\text{The End}}}</m></title>
             <p>
                 Now that we have found our contradiction of <m>T\wedge (\sim T)</m> we should make sure to point out this contradiction just in case our reader missed this, letting everyone know we have come to <m>{\color{blue}{\text{the end}}}</m> of our proof by contradiction. We, of course, can do this by following numerous linguistic paths but we must choose one so:
@@ -147,6 +148,6 @@
                     then <m>a+ b</m> is odd. <m>\square</m>
                 </p>
             </example>
-        </section>
+        </subsection>
   
-</section>
+</subsection>

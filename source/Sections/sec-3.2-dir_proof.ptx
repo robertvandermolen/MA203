@@ -2,7 +2,7 @@
 
 <section xml:id="sec-4-2-direct-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof</title>
-
+<introduction>
 <p>
     Our first method before proving is known as direct proof, it is the student's go-to 
     throughout their career.  
@@ -21,6 +21,7 @@
         <li>Now, what to do? (Which proving method - until we learn more this will always be direct proof)</li>
     </ul>
 </p>
+</introduction>
 <xi:include href="./subsections/subsec-3.2.1-what-is-direct-proof.ptx" />
 <xi:include href="./subsections/subsec-3.2.2-does-it-work.ptx" />
 

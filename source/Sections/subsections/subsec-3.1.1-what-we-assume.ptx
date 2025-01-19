@@ -1,4 +1,4 @@
-<section xml:id="sec-4-1-1-what-we-assume" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-1-1-what-we-assume" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>What We Can Assume</title>
 
     <p>
@@ -98,4 +98,4 @@
     For anything else... just don't assume it! If you can't do a proof without making the assumption you
     want just write that in your proof! We can work on it from there!
 </p>
-</section>
+</subsection>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-5-4-existential" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-5-4-existential" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>The Existential Quantifier</title>
 
 <p>
@@ -91,4 +91,4 @@
   I'd like to end this subsection with the symbolization of a statement <me>\text{Some }P(x)\text{ are }Q(x)</me> which should be
   <me>(\exists x)(P(x)\wedge Q(x)</me>
 </p>
-</section>
+</subsection>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-5-7-unique" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-5-7-unique" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Unique Existence</title>
 <p>
     There is a special case of the existential quantifier, that is used when you want to be very clear that there is 
@@ -62,4 +62,4 @@
         which make the predicate true.
     </p>
 </example>
-</section>
+</subsection>

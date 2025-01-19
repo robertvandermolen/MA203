@@ -6,9 +6,9 @@
 <li>
     <p>Write truth tables for the following:</p>
     <ol>
-        <li><m>(\sim P) \implies Q</m></li>
+        
         <li><m>P \iff Q</m></li>
-        <li><m>(P\vee Q)\wedge [\sim (P\wedge Q)]</m></li>
+      
         <li><m>(P \implies Q)\vee Q</m></li>
         <li><m>(P\wedge R)\implies Q</m></li>
         <li><m>(\sim Q)\implies Q</m></li>

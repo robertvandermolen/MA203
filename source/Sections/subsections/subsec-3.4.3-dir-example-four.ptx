@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-4-3-dir-example-four" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-3-dir-example-four" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 4</title>
-
+<introduction>
 <p>Now let's see an example that is <em>not</em> even nor odd.</p>
 <p><alert>Prove:</alert> <m>\forall x,y\in\Z</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m></p>
     
@@ -37,8 +37,8 @@
         
     </p>
     <p></p>
-
-<section xml:id="sec-4-4-3-dir-example-four-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+<subsection xml:id="sec-4-4-3-dir-example-four-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
         This proof is the same as we have been doing at the beginning, as it starts with our <m>{\color{orange}{\text{beginning quantifier}}}</m>. 
@@ -54,9 +54,9 @@
     <p>
         "Assume that both <m>5|x</m> and <m>5|y</m>."
     </p>
-</section>
+</subsection>
 
-<section xml:id="sec-4-4-3-dir-example-four-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-3-dir-example-four-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
         In this example we go to our definitions again (being careful for the quantifier <xref ref="how-to-quantifiers"/>), specifically
@@ -83,9 +83,9 @@
         <mrow>{\color{blue}{(x-2y)}}\amp=(5a)-(2\cdot(5b))</mrow>
         <mrow>\amp=5(a-2b)</mrow>
     </md>
-</section>
+</subsection>
 
-<section xml:id="sec-4-4-3-dir-example-four-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-3-dir-example-four-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
         From the<m>{\color{green}{\text{ muddle }}}</m>we have
@@ -102,7 +102,7 @@
         Now let's see everything written together in a single spot, with an appropriate wrap-up.
     </p>
     <example>
-        <title>3</title>
+       
         
         <p><alert>Prove:</alert> <m>\forall x,y\in\Z</m> if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m></p>
 
@@ -121,6 +121,6 @@
              by direct proof we have shown that for any integers <m>x</m> and <m>y</m>, if <m>5|x</m> and <m>5|y</m> then <m>5|(x-2y)</m>.<m>\square</m>
         </p>
     </example>
-</section>
+</subsection>
 
-</section>
+</subsection>

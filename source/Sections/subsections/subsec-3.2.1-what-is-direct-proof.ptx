@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-4-2-1-what-is-a-direct-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-4-2-1-what-is-a-direct-proof" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>What is a Direct Proof?</title>
     
     
@@ -37,4 +37,4 @@
         <m>{\color{blue}{\text{End}}}</m>  -- Therefore <m>Q</m>
       </p>
 
-</section>
+</subsection>

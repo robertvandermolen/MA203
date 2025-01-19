@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-3-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{green}{\text{The Muddle}}}</m></title>
 <p>To proceed with our proof we don't have much except the definitions. 
     (It can be helpful, especially in these early stages of proof writing, to write the 
@@ -41,4 +41,4 @@
         </p>
     </remark>
 
-</section>
+</subsection>

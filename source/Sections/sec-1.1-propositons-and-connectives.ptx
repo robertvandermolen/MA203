@@ -13,13 +13,13 @@
         how language works, specifically how language handles truth.</p>
         <p>
         In English, as in many languages, there are many types of sentences - some more complicated than others. We will
-        now be concerning ourselves with if a sentence is true. This is the hallmark of proving: only writing sentences
+        now be concerning ourselves with the truth of sentence. This is the hallmark of proving: only writing sentences
         that are true, so that our conclusions are then true.  
     </p>
     
 </introduction>
 
-<section  xml:id="sec-2-1-1-props-and-neg" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection  xml:id="sec-2-1-1-props-and-neg" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Propositions and Negation</title>
     
     <p>
@@ -142,8 +142,8 @@
     </example>
 </p>
 
-</section>
-<section  xml:id="sec-2-1-2-connect" xmlns:xi="http://www.w3.org/2001/XInclude">
+</subsection>
+<subsection  xml:id="sec-2-1-2-connect" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Connectives and Compound Propositions</title>
 <p>
     <idx>simple</idx>
@@ -173,7 +173,7 @@
 <p>We will see throughout this course that many different words in English can be used for our propositions
     with the same meaning. For example, but, while, and although are usually translated symbolically
     with the conjunction connective. An example of this, using the propositions 
-    from (A) in <xref ref="ex-conjunction"/>, is we could 
+    from (A) in <xref ref="ex-conjunction"/> below, is we could 
     write "It is not raining outside but I do  have my umbrella" symbolically as "<m>(\sim P)\wedge Q</m>."
 </p>
 <p>
@@ -274,7 +274,7 @@
 </example>
 </p>
 
-</section>
+</subsection>
 
 <!--<xi:include href="./subsections/subsec-1.1.1.ptx" />
 <xi:include href="./subsections/subsec-1.1.2.ptx" />-->

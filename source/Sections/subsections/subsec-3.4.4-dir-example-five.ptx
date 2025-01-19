@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-4-4-4-dir-example-five" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-4-dir-example-five" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Direct Proof Example 5</title>
-
+<introduction>
 <p>Our last detailed example of a direct proof is a classic inequality. Inequalities will play
     a large role in your future analysis class.
 </p>
@@ -40,8 +40,8 @@
         
     </p>
     <p></p>
-
-<section xml:id="sec-4-4-4-dir-example-five-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
+</introduction>
+<subsection xml:id="sec-4-4-4-dir-example-five-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{red}{\text{The Beginning}}}</m></title>
     <p>
         This beginning is the same as the others. We take care of the <m>{\color{orange}{\text{beginning quantifier}}}</m> by:
@@ -55,9 +55,9 @@
     <p>
         "Assume that <m>a\lt b</m>"
     </p>
-</section>
+</subsection>
 
-<section xml:id="sec-4-4-4-dir-example-five-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-4-dir-example-five-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{green}{\text{The Muddle}}}</m></title>
     <p>
         Now, as is in most inequality proofs first we need to work backwards. That is notice:
@@ -70,9 +70,9 @@
         <m>b-a\gt 0</m> since subtracting <m>a</m> from both sides of our assumption results in <m>a\lt b</m>. 
     </p>
    
-</section>
+</subsection>
 
-<section xml:id="sec-4-4-4-dir-example-five-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-4-4-4-dir-example-five-end" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
         To write our proof in a logical format we  will have to go the opposite direction, as otherwise we will have said
@@ -91,7 +91,7 @@
         Now let's see everything written together in a single spot.
     </p>
     <example>
-        <title>4</title>
+        
         
         <p><alert>Prove:</alert> For all positive real numbers <m>x</m> and <m>y</m>, if 
             <m>a\lt b</m> then <m>b^2-a^2\gt 0</m>.
@@ -115,6 +115,6 @@
             <m>(b^2-a^2)\gt 0</m>. <m>\square</m>
         </p>
     </example>
-</section>
+</subsection>
 
-</section>
+</subsection>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-5-5-2-power-set-counting" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-5-5-2-power-set-counting" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>The Natural Numbers</title>
 <p>
     This subsection can be safely skipped, but it is a fun construction using only the empty set to build the natural numbers, also why I insist that <m>0\in\N</m>.
@@ -32,4 +32,4 @@
     </me>
     and continue... the diligent student will complete this exercise...
 </p>
-</section>
+</subsection>

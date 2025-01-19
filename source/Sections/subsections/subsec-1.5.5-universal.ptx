@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-2-5-5-universal" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-2-5-5-universal" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>The Universal Quantifier</title>
 
 <p>
@@ -84,4 +84,4 @@
   take a moment to discuss is: <me>\text{All }P(x) \text{ are }Q(x)</me> this can be symbolized by 
   <me>(\forall x)(P(x)\implies Q(x))</me>
 </p>
-</section>
+</subsection>

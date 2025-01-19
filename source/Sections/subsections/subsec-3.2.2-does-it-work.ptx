@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-4-2-2-does-it-work" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-4-2-2-does-it-work" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Does it Work?</title>
 
     <p>
@@ -73,4 +73,4 @@
         <p>Yes, your eyes do not deceive you, I did just <em>prove</em> that the <em>direct proof</em> is a proof.</p>
     </note>
 
-</section>
+</subsection>
