@@ -6,11 +6,11 @@
 <p>
     While set theory has been rigorously defined axiomatically, in this course we choose to only skim the surface using a whole lot 
     of intuition and the propositional logic that we developed in <xref ref="ch-02-logic"/>. The main object of study in set theory 
-    is the <em>set</em>. Intuitively a set is a magic bag filled with stuff... or nothing... Georg Cantor the Russian mathematician, 
+    is the <em>set</em>. Intuitively, a set is a magic bag filled with stuff... or nothing... Georg Cantor, the Russian mathematician 
     credited as the father of set theory, first defined the set as:
 </p>
 <p>
-     A set is a gathering together into a whole of definite, distinct objects of our perception or of our thought—which are called elements of the set.
+     "A set is a gathering together into a whole of definite, distinct objects of our perception or of our thought—which are called elements of the set."
 </p>
 
 <p>
@@ -56,10 +56,10 @@
     </p>
   </assemblage>
   <p>
-    Membership of a set is a <alert>proposition</alert> as it is either true or false. 
+    Membership of a set is a <alert>proposition</alert>, as it is either true or false. 
   </p>
   <p>
-    To define a specific set we can simply list all of it's elements. To do so we encompass the elements we wish to include between braces: <m>\{</m> and <m>\}</m> and separate the elements with a comma.
+    To define a specific set we can simply list all of its elements. To do so, we encompass the elements we wish to include between braces: <m>\{</m> and <m>\}</m> and separate the elements with a comma.
   </p>
   <example>
     <p>
@@ -94,7 +94,7 @@
     </statement>
   </definition>
   <p>
-    In this course we will only mention this concept when the sets are finite, when sets are infinite the cardinality of a set flourishes a beautiful theory, one which we will not dive into in this text but that is quite amazing.
+    In this course we will only mention this concept when the sets are finite, when sets are infinite the cardinality of a set furnishes a beautiful theory, one which we will not dive into in this text but that is quite amazing.
   </p>
   <example>
     <p>
@@ -108,7 +108,7 @@
     
   </example>
   <p>
-    Sets come in many different shapes and flavors and throughout your mathematical career you will need to become extremely comfortable with sets. Depending on the discipline, you will either love or hate the following set, but you will never deny that it is perhaps one of the most important sets. 
+    Sets come in many different shapes and flavors, and throughout your mathematical career you will need to become extremely comfortable with sets. Depending on the discipline, you will either love or hate the following set, but you will never deny that it is perhaps one of the most important sets. 
   </p>
   <definition xml:id="def-empty-set">
     <title>Empty Set</title>
@@ -125,7 +125,7 @@
     </statement>
   </definition>
   <p>
-    As there are no elements in <m>\emptyset</m>, therefore <m>|\emptyset|=0</m>. Also, to the the disjoy of all combinatorists, the statement <m>x\in\emptyset</m> is a contradiction (that is, always false).
+    There are no elements in <m>\emptyset</m>, therefore <m>|\emptyset|=0</m>. Also, to the the disjoy of all combinatorists, the statement <m>x\in\emptyset</m> is a contradiction (that is, always false).
   </p>
   </introduction>
   <subsection xml:id="sec-5-1-1-set-builder" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -136,7 +136,7 @@
   </p>
   <image source="/images/set-build-p.jpeg" width="100%"/>
   <p>
-    This is our way of defining membership <m>a\in\{x\text{ }|\text{ }P(x)\}</m> if and only if <m>P(a)</m> is true.
+    This is our way of defining membership. <m>a\in\{x\text{ }|\text{ }P(x)\}</m> if and only if <m>P(a)</m> is true.
   </p>
   <example xml:id="ex-set-builder">
     <p>

@@ -25,7 +25,7 @@
             and since <m>2m+1</m> is an integer we see that <m>n</m> satisfies the condition to be a member of <m>B</m>. 
         </p>
         <p>
-            Therefore, we have chosen an arbitrary <m>n\in A</m>, and successfully shown that <m>n\in B</m>, hence we have shown that <m>A\subseteq B</m>.
+            Therefore, we have chosen an arbitrary <m>n\in A</m>, and successfully shown that <m>n\in B</m>, hence we have shown that <m>A\subseteq B</m>. <m>\square</m>
         </p>
     </proof>
 </example>
@@ -50,7 +50,7 @@
     </p>
     <proof>
         <p>
-            We first choose an arbitrary element of <m>C</m>  in attempts to show it also belongs to <m>A\cap B</m>, name this element <m>x\in C</m>. 
+            We first choose an arbitrary element of <m>C</m>  in an attempt to show it also belongs to <m>A\cap B</m>. Name this element <m>x\in C</m>. 
         </p>
         <p>
             Using the definition of the set <m>C</m> we see that we can fix a specific <m>s\in\Z</m> so that <m>x=10s+7</m>.
@@ -66,7 +66,7 @@
             <me>
                 x=10s+7=10s+6+1=2(5s+3)+1
             </me>
-            and as <m>5s+3</m> is an integer we see that <m>x</m> satisfies the conditions to be a member of <m>A</m>.
+            and, as <m>5s+3</m> is an integer we see that <m>x</m> satisfies the conditions to be a member of <m>A</m>.
         </p>
         <p>
             <alert>[Membership of <m>\mathbf{B}</m>]</alert>
@@ -76,15 +76,15 @@
             <me>
                 x=10s+7=10s+5+2=5(2s+1)+2
             </me>
-            and as <m>2s+1</m> is an integer we see that <m>x</m> satisfies the conditions to be a member of <m>B</m>.
+            and, as <m>2s+1</m> is an integer we see that <m>x</m> satisfies the conditions to be a member of <m>B</m>.
         </p>
         <p>
-            Finally, since we have chosen a completely arbitrary element <m>x\in C</m> and then have shown that <m>x\in A</m> and that <m>x\in B</m> we can conclude that <m>x\in A\cap B</m>, therefore we have shown that <m>C\subseteq A\cap B</m>.
+            Finally, since we have chosen a completely arbitrary element <m>x\in C</m> and then have shown that <m>x\in A</m> and that <m>x\in B</m> we can conclude that <m>x\in A\cap B</m>, therefore we have shown that <m>C\subseteq A\cap B</m>. <m>\square</m>
         </p>
     </proof>
 </example>
 <p>
-    Our next example will work through a proof that involves a union (<xref ref="def-union"/>). 
+    In our next example will work through a proof that involves a union (<xref ref="def-union"/>). 
 </p>
 <example>
     <p>
@@ -104,17 +104,17 @@
     </p>
     <proof>
         <p>
-            To start the proof we will choose an arbitrary element of <m>A\cup B</m>, we will name this random member <m>y\in A\cup B</m>. By the definition of union (<xref ref="def-union"/>) we have that <m>y\in A</m> <alert>or</alert> <m>y\in B</m>, thus we split our proof in to two cases.
+            To start the proof we will choose an arbitrary element of <m>A\cup B</m>. We will name this random member <m>y\in A\cup B</m>. By the definition of union (<xref ref="def-union"/>) we have that <m>y\in A</m> <alert>or</alert> <m>y\in B</m>, thus we split our proof into two cases.
         </p>
         <p>
             <alert>[Case 1: <m>\mathbf{y\in A}</m>]</alert>
         </p>
         <p>
-           For this first case, assume that <m>y\in A</m>, by the condition defining the set <m>A</m> we can find an integer <m>t</m> such that <m>y=6t+4</m>. Next, we calculate:
+           For this first case, assume that <m>y\in A</m>. By the condition defining the set <m>A</m> we can find an integer <m>t</m> such that <m>y=6t+4</m>. Next, we calculate:
            <me>
             y=6t+4=6t+3+1=3(2t+1)+1
            </me>
-           since <m>2t+1</m> is an integer we see that <m>y</m> satisfies the condition to be a member of <m>C</m>, that is <m>y\in C</m>.
+           Since <m>2t+1</m> is an integer we see that <m>y</m> satisfies the condition to be a member of <m>C</m>. That is <m>y\in C</m>.
         </p>
         <p>
             <alert>[Case 2: <m>\mathbf{y\in B}</m>]</alert>
@@ -127,7 +127,7 @@
             and since <m>5s-3</m> is an integer we see that, as the condition for membership of <m>C</m> is satisfied, <m>y\in C</m>.
         </p>
         <p>
-            To wrap-up, since we have chosen a random element <m>y\in A\cup B</m> and have shown that this same element must have the property that <m>y\in C</m> we can conclude that <m>A\cup B\subseteq C</m>.
+            To wrap-up, since we have chosen a random element <m>y\in A\cup B</m> and have shown that this same element must have the property that <m>y\in C</m>, we can conclude that <m>A\cup B\subseteq C</m>. <m>\square</m>
         </p>
     </proof>
 </example>
@@ -175,13 +175,13 @@
             <alert>[Want to Show: <m>\mathbf{X\subseteq\Z}</m>]</alert>
         </p>
         <p>
-            For the first part, let <m>c\in X</m> and hence by the definition of the set <m>X</m> we have that <m>x\in\Z</m>, therefore <m>X\subseteq\Z</m>. (this is of course what many refer to as the <em>easy part</em>)
+            For the first part, let <m>c\in X</m>. Hence by the definition of the set <m>X</m> we have that <m>x\in\Z</m>, therefore <m>X\subseteq\Z</m>. (This is of course what many refer to as the <em>easy part</em>)
         </p>
         <p>
             <alert>[Want to Show: <m>\mathbf{\Z\subseteq X}</m>]</alert>
         </p>
         <p>
-            In this next part, assume <m>m\in\Z</m>. It is now our objective to show membership in <m>X</m>, to do such we will need to produce two integers, the way in which we discovered these integers is irrelevant to the proof, so for the sake of argument, lets just assume angels whispered it to me in my sleep. 
+            In this next part, assume <m>m\in\Z</m>. It is now our objective to show membership in <m>X</m>, to do such we will need to produce two integers, the way in which we discovered these integers is irrelevant to the proof, so for the sake of argument, let's just assume angels whispered them to me in my sleep. 
         </p>
         <p>
             Notice that since <m>m</m> is an integer and <m>-m</m> is an integer, then we can calculate:
@@ -191,7 +191,7 @@
             and hence by the condition of set <m>X</m> we have that <m>m\in X</m>, therefore <m>\Z\subseteq X</m>.
         </p>
         <p>
-            To wrap-up, since we have shown that both <m>X\subseteq \Z</m> and <m>\Z\subseteq X</m> we may conclude that <m>X=\Z</m>.
+            To wrap-up, since we have shown that both <m>X\subseteq \Z</m> and <m>\Z\subseteq X</m> we may conclude that <m>X=\Z</m>. <m>\square</m>
         </p>
     </proof>
   </example>
