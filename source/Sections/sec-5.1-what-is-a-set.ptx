@@ -3,7 +3,10 @@
 <section xml:id="sec-5-1-what-is-a-set" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>What is a Set?</title>
 <p>
-    While set theory has been rigorously defined axiomatically, in this course we choose to only skim the surface using a whole lot of intuition and the propositional logic that we developed in <xref ref="ch-02-logic"/>. The main object of study in set theory is the <em>set</em>. Intuitively a set is a magic bag filled with stuff... or nothing... Georg Cantor the russian mathematician, credited as the father of set theory, first defined the set as:
+    While set theory has been rigorously defined axiomatically, in this course we choose to only skim the surface using a whole lot 
+    of intuition and the propositional logic that we developed in <xref ref="ch-02-logic"/>. The main object of study in set theory 
+    is the <em>set</em>. Intuitively a set is a magic bag filled with stuff... or nothing... Georg Cantor the Russian mathematician, 
+    credited as the father of set theory, first defined the set as:
 </p>
 <p>
      A set is a gathering together into a whole of definite, distinct objects of our perception or of our thought—which are called elements of the set.
@@ -35,7 +38,7 @@
     </statement>
 </definition>
 <p>
-    We will most often denote sets with capital letters like: <m>A</m>, <m>B</m>, <m>C</m> etc. Furthermore we will denote elements with lowercase letters like <m>a</m>, <m>b</m>, <m>x</m>, etc.
+    We will most often denote sets with capital letters like: <m>A</m>, <m>B</m>, <m>C</m>, etc. Furthermore we will denote elements with lowercase letters like <m>a</m>, <m>b</m>, <m>x</m>, etc.
 </p>
 <assemblage>
     <title><m>\in</m> Notation</title>
@@ -52,7 +55,7 @@
     </p>
   </assemblage>
   <p>
-    Membership to a set is a <alert>proposition</alert> as it is either true or false. 
+    Membership of a set is a <alert>proposition</alert> as it is either true or false. 
   </p>
   <p>
     To define a specific set we can simply list all of it's elements. To do so we encompass the elements we wish to include between braces: <m>\{</m> and <m>\}</m> and separate the elements with a comma.
@@ -82,7 +85,7 @@
   
     <statement>
       <p>
-        For a set <m>A</m> we call the <term>cardinality</term> or <term>order</term> of <m>A</m> is the number of elements in the set <m>A</m>, denoted as
+        For a set <m>A</m> the <term>cardinality</term> or <term>order</term> of <m>A</m> is the number of elements in the set <m>A</m>, denoted as
         <me>
           |A|
         </me>
@@ -90,7 +93,7 @@
     </statement>
   </definition>
   <p>
-    In this course we will only mention this concept when the sets are finite, when sets are infinite the cardinality of a set flourishes a beautiful theory, one which we will not dive into in this text but is quite amazing.
+    In this course we will only mention this concept when the sets are finite, when sets are infinite the cardinality of a set flourishes a beautiful theory, one which we will not dive into in this text but that is quite amazing.
   </p>
   <example>
     <p>
@@ -98,13 +101,13 @@
     </p>
     <image source="/images/first_set.jpeg" width="90%"/>
     <p>
-      We see that the number of elements in the set <m>A</m> is 4 hence, <m>|A|=4</m>.
+      We see that the number of elements in the set <m>A</m> is 4. Hence, <m>|A|=4</m>.
     </p>
 
     
   </example>
   <p>
-    Sets come in many different shapes and flavors and throughout your mathematical career you will need to become extremely comfortable with sets, and depending on the discipline you will either love or hate the following set, but you will never deny that it is perhaps one of the most important sets. 
+    Sets come in many different shapes and flavors and throughout your mathematical career you will need to become extremely comfortable with sets. Depending on the discipline, you will either love or hate the following set, but you will never deny that it is perhaps one of the most important sets. 
   </p>
   <definition xml:id="def-empty-set">
     <title>Empty Set</title>
@@ -112,7 +115,7 @@
     <idx><h>emptyset</h></idx>
     <statement>
         <p>
-            We will call the set containing no elements the <term>empty set</term>, we denote the empty set as <m>\emptyset</m>, that is 
+            We will call the set containing no elements the <term>empty set</term>. We denote the empty set as <m>\emptyset</m>. That is 
             <me>
                 \emptyset=\{\}
             </me>
@@ -121,7 +124,7 @@
     </statement>
   </definition>
   <p>
-    As there are no elements in <m>\emptyset</m>, therefore <m>|\emptyset|=0</m>, as well, to the the disjoy of all combinatorists, the statement <m>x\in\emptyset</m> is a contradiction (that is always false).
+    As there are no elements in <m>\emptyset</m>, therefore <m>|\emptyset|=0</m>. Also, to the the disjoy of all combinatorists, the statement <m>x\in\emptyset</m> is a contradiction (that is, always false).
   </p>
   <section xml:id="sec-5-1-1-set-builder" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Set Builder Notation</title>
@@ -160,18 +163,18 @@
   </example>
 
     <p>
-      In <xref ref="ex-set-builder"/> (B) we defined the condition with a quantifier, specifically <m>\exists a\in\Z</m>. This is an extremely common use-case in mathematics. I bring this up here to <m>{\color{red}{\text{warn}}}</m> the student that this is perhaps the most common quantifier to be <em>hidden</em>. That is, we would most likely see it presented as:
+      In <xref ref="ex-set-builder"/> (B), we defined the condition with a quantifier, specifically <m>\exists a\in\Z</m>. This is an extremely common use-case in mathematics. I bring this up here to <m>{\color{red}{\text{warn}}}</m> the student that this is perhaps the most common quantifier to be <em>hidden</em>. That is, we would most likely see it presented as:
       <me>
         \{y\in\Z\text{ }|\text{ }y=3a+1,\text{ }a\in\Z\}
       </me>
-      To defend the mathematician which chooses to present it in this manner, we mostly study objects with a well defined and unique multiplication, that is there is only one unique integer <m>a</m> that satisfies <m>y=3a+1</m> for a given <m>y</m>.
+      To defend the mathematician who chooses to present it in this manner, we mostly study objects with a well defined and unique multiplication. That is, there is only one unique integer <m>a</m> that satisfies <m>y=3a+1</m> for a given <m>y</m>.
     </p>
     <p>
-      Adding to the possible confusion yet important to understand, for this <em>same</em> set it is true that 
+      Adding to the possible confusion, yet important to understand, for this <em>same</em> set it is true that 
       <me>
         \forall k\in\Z\text{ }(3k+1)\in\{y\in\Z\text{ }|\text{ }y=3a+1,\text{ }a\in\Z\}
       </me>
-      that is, by defining a set with an existential condition we are actually defining a universal relationship. To top it off we often do not even mention the universal relationship and <em>hide</em> the existential one, all in the sake of brevity and the word <em>obvious</em>.
+      that is, by defining a set with an existential condition we are actually defining a universal relationship. To top it off, we often do not even mention the universal relationship and <em>hide</em> the existential one, all for the sake of brevity and the word <em>obvious</em>.
     </p>
     </section>
 </section>

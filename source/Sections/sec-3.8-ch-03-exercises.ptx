@@ -2,7 +2,7 @@
 
 <section xml:id="sec-3-8-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Exercises</title>
-    <p>Direct proofs with just even and odd</p>
+    
     <ol>
         <li><p><m>\forall w,x,y,z \in \mathbb{Z}</m> prove the following.</p>
         <ol>
@@ -44,6 +44,9 @@
                 if <m>x</m> is odd then <m>x^2+1</m> is even
             </p>
         </li>
+        <li>If <m>x</m> and <m>y</m> are even, then <m>4|xy</m></li>
+            
+                <li>If <m>x|y</m> and <m>z|w</m> then <m>xz|yw</m></li>
         </ol></li>
         <li>
             <p>
@@ -65,6 +68,8 @@
                         If <m>a</m> is even or <m>4|b</m> then <m>4|(2a\cdot b)</m>.
                     </p>
                 </li>
+                <li><m>2x-1</m> is odd </li>
+        <li><m>x^2 +x+3</m> is odd</li>
             </ol>
         </li>
         <li>
@@ -98,23 +103,7 @@
         </li>
     </ol>
     
-    <p>Direct proofs with divides and proof by cases</p>
-    <ol>
-        <li>If <m>x</m> and <m>y</m> are even, then <m>4|xy</m></li>
-        <li><m>2x-1</m> is odd (Proof by cases)</li>
-        <li><m>x^2 +x+3</m> is odd (Proof by cases)</li>
-        <li>If <m>x|y</m> and <m>z|w</m> then <m>xz|yw</m></li>
-        <li>If <m>xy|z</m> then <m>x|z</m></li>
-    </ol>
+ 
 
-    <p>Contradiction, Contraposition, Bi-conditional</p>
-    <ol>
-        <li>If <m>4\nmid x^2</m> then <m>x</m> is odd. (Contraposition)</li>
-        <li>If <m>xy</m> is odd then <m>x</m>x and <m>y</m> are odd. (Proof by cases)</li>
-        <li>If <m>5|x^2</m> then <m>5|x</m> (Contraposition)</li>
-        <li>If <m>ab</m> is odd then <m>a</m> and <m>b</m> are odd. (Contradiction)</li>
-        <li>If <m>a-b</m> is odd, then <m>a+b</m> is odd. (Contradiction)</li>
-        <li><m>\sqrt{5}</m> is irrational. (Contradiction)</li>
-        <li><m>ac|bd</m> if and only if <m>a|b</m>. (bi-conditional)</li>
-    </ol>
+   
 </section>

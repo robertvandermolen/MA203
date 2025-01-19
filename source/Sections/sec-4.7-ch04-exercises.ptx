@@ -114,4 +114,16 @@
         </p>
     </li>
 </ol>
+<!--
+ <p>Contradiction, Contraposition, Bi-conditional</p>
+    <ol>
+        <li>If <m>4\nmid x^2</m> then <m>x</m> is odd. (Contraposition)</li>
+        <li>If <m>xy</m> is odd then <m>x</m>x and <m>y</m> are odd. (Proof by cases)</li>
+        <li>If <m>5|x^2</m> then <m>5|x</m> (Contraposition)</li>
+        <li>If <m>ab</m> is odd then <m>a</m> and <m>b</m> are odd. (Contradiction)</li>
+        <li>If <m>a-b</m> is odd, then <m>a+b</m> is odd. (Contradiction)</li>
+        <li><m>\sqrt{5}</m> is irrational. (Contradiction)</li>
+        <li><m>ac|bd</m> if and only if <m>a|b</m>. (bi-conditional)</li>
+    </ol>
+    -->
 </section>

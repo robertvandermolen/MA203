@@ -3,20 +3,20 @@
 <section xml:id="sec-4-3-3-root-two" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>\sqrt{2}</m> is Irrational</title>
     <p>
-        This next proof is a proof that I believe every single student in mathematics should know and love. It is this proof that I learned very early on in my math career that shaped how I understood mathematics. I would meet people and tell them "I'm a math major" and they would say things like "ugh I always hated math" and I would tell them "no, math is not what you think math is." It is about truths. For example take an extremely simple shape the right triangle, literally just put two sticks at a sharp angle and connect the two edges with another stick. This third stick has a length that is not a fraction of either of the other sides. Pythagoras went to his grave believing that it must, but we can show beyond a shadow of a doubt it is not. 
+        This next proof is a proof that I believe every single student in mathematics should know and love. It is this proof that I learned very early on in my math career that shaped how I understood mathematics. I would meet people and tell them "I'm a math major," and they would say things like, "Ugh, I always hated math," and I would tell them "No, math is not what you think math is." Math is about truths. For example, take an extremely simple shape - the right triangle - literally just put two sticks at a sharp angle and connect the two edges with another stick. This third stick has a length that is not a fraction of either of the other sides. Pythagoras went to his grave believing that it must be, but we can show beyond a shadow of a doubt it is not. 
     </p>
     <p>
-        Before we jump into that proof it will be helpful to have a lemma that we can call on, in all honesty to shorten our work load (what lemma's are best for).
+        Before we jump into that proof, it will be helpful to have a lemma that we can call on, in all honesty to shorten our work load (what lemma's are best for).
     </p>
     <lemma xml:id="lem-m-squared">
         <statement>
             <p>
-                If 2 divides <m>m^2</m> then 2 divides <m>m</m>
+                If 2 divides <m>m^2</m> then 2 divides <m>m</m>.
             </p>
         </statement>
     </lemma>
     <proof>
-        <p>Let <m>m</m> be an integer. We will prove this using contraposition, that is we will assume 2 does not divide <m>m</m>, thus by <xref ref="lem-odd-not-even"/> <m>m</m> is odd. Hence we can find an integer <m>k</m>
+        <p>Let <m>m</m> be an integer. We will prove this using contraposition - that is, we will assume 2 does not divide <m>m</m>, thus by <xref ref="lem-odd-not-even"/> <m>m</m> is odd. Hence we can find an integer <m>k</m>
             such that <m>m=2k+1</m>.</p>
         <p>Calculate:</p>
         <md>
@@ -25,8 +25,8 @@
             <mrow>\amp=4k^2 +4k+1</mrow>
             <mrow>\amp=2(2k^2 +2k)+1</mrow>
         </md>
-        <p>Since <m>2k^2 +2k</m> is an integer, by definition of odd, <m>m^2</m> is odd, hence by <xref ref="lem-odd-not-even"/> <m>m^2</m> is not even. Thus by proof by contraposition, 
-            if 2 divides <m>m^2</m> then 2 divides <m>m</m>. </p>
+        <p>Since <m>2k^2 +2k</m> is an integer, by definition of odd, <m>m^2</m> is odd. Hence by <xref ref="lem-odd-not-even"/> <m>m^2</m> is not even. Thus by proof by contraposition, 
+            if 2 divides <m>m^2</m> then 2 divides <m>m</m>. <m>\square</m></p>
     </proof>
     <p><alert>Prove:</alert> <m>\sqrt{2}</m> is irrational.</p>
 
@@ -54,7 +54,7 @@
 <section xml:id="sec-3-7-2-example-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{red}{\text{The Beginning}}}</m></title>
 <p>
-    For a proof by contradiction we need to begin by assuming what we need to prove is false, and to remind you this could be jarring to a reader so let them know what you are doing, for example we could write:
+    For a proof by contradiction we need to begin by assuming what we need to prove is false, and to remind you, this could be jarring to a reader so let them know what you are doing, for example we could write:
 </p>    
 <p>For the sake of contradiction assume that <m>\sqrt{2}</m> is rational. That is, it is not true that <m>\sqrt{2}</m> is irrational</p>
 </section>
@@ -76,7 +76,7 @@
         <mrow>\text{multiply both sides by }q^2: 2q^2\amp=p^2</mrow>
     </md>
     <p>But, <m>q^2</m> is an integer, thus by the definition of even, <m>p^2</m> is even. Hence, by <xref ref="lem-m-squared"/> we can conclude that <m>p</m> is even</p>
-    <p>Thus, by the definition of even we can find an integer 
+    <p>Thus, by the definition of even, we can find an integer 
         <m>m</m> so that <m>p=2m</m>.</p>
 <p>
     Now, we can play our common replacement game.
@@ -88,13 +88,13 @@
         <mrow>\text{Divide both sides by 2 } q^2\amp=2m^2</mrow>
     </md>
     <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and again by <xref ref="lem-m-squared"/>, <m>q</m> is even.</p>
-    <p>Since <m>2\mid p</m> and <m>2\mid q</m>, 2 is a common divisor, and thus by definition of greatest common divisor (<xref ref="defn-gcd"/>) we have that <m>\text{GCD}(p,q)\geq 2</m>, yet this means that  <me>\sim T:\text{ GCD}(p,q)\neq 1</me></p>
+    <p>Since <m>2\mid p</m> and <m>2\mid q</m>, 2 is a common divisor, and thus by definition of greatest common divisor (<xref ref="defn-gcd"/>) we have that <m>\text{ GCD}(p,q)\geq 2</m>, yet this means that  <me>\sim T:\text{ GCD}(p,q)\neq 1</me></p>
 </section>
 
 <section xml:id="sec-3-7-2-example-end" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title><m>{\color{blue}{\text{The End}}}</m></title>
 <p>
-    So now that we have found our contradiction <m>T\wedge(\sim T)</m> we are done, but just incase the reader missed this contradiction as you unwrapped it, lets put it all in one place.
+    So now that we have found our contradiction <m>T\wedge(\sim T)</m> we are done, but just in case the reader missed this contradiction as you unwrapped it, let's put it all in one place.
 </p>
     <p>Thus we have shown <m>\text{GCD}(p,q)=1</m> <alert>and</alert> <m>\text{GCD}(p,q)\neq1</m> which is a contradiction. Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
 
@@ -123,7 +123,7 @@
     </md>
     <p>But <m>m^2</m> is an integer, so, by definition of even, <m>q^2</m> is even, and again by <xref ref="lem-m-squared"/>, <m>q</m> is even.</p>
     <p>Since <m>2\mid p</m> and <m>2\mid q</m>, 2 is a common divisor, and thus by definition of greatest common divisor (<xref ref="defn-gcd"/>) we have that <m>\text{GCD}(p,q)\geq 2</m>, yet this means that  <m>\text{GCD}(p,q)\neq 1</m></p>
-    <p>Thus we have shown <m>\text{GCD}(p,q)=1</m> <alert>and</alert> <m>\text{GCD}(p,q)\neq1</m> which is a contradiction. Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.</p>
+    <p>Thus we have shown <m>\text{GCD}(p,q)=1</m> <alert>and</alert> <m>\text{GCD}(p,q)\neq1</m> which is a contradiction. Thus by proof by contradiction, we have shown that <m>\sqrt{2}</m> is irrational.<m>\square</m></p>
 </example>
 
 </section>

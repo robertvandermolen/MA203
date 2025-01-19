@@ -4,7 +4,7 @@
 <title>Venn Diagrams and Logic of Sets</title>
 <idx><h>Venn diagram</h></idx>
 <p>
-    To understand/describe the relationship between sets we often use a tool known as <term>Venn Diagrams</term>. In simplest terms a Venn diagram is a drawing representing the sets we are considering, we draw a circle for each set, and imagine the elements are inside the circle. Further, in this section we will use the basic underpinning of propositional logic to pick apart some logical conclusions from set theory.
+    To understand/describe the relationship between sets we often use a tool known as <term>Venn Diagrams</term>. In simplest terms, a Venn diagram is a drawing representing the sets we are considering, we draw a circle for each set, and imagine the elements are inside the circle. Further, in this section we will use the basic underpinning of propositional logic to pick apart some logical conclusions from set theory.
 </p>
 <historical>
     <p>
@@ -57,7 +57,7 @@
     <image source="/images/not_a.jpeg" width="75%"/>
 </example>
 <p>
-    In this chapter's exercises (<xref ref="sec-5-8-ch05-exercises"/>) you will be asked to identify different sets in a Venn diagram. To help the student still attempting to take a grasp of set theory we give a few more creative examples next.
+    In this chapter's exercises (<xref ref="sec-5-8-ch05-exercises"/>) you will be asked to identify different sets in a Venn diagram. To help the student still attempting to grasp set theory we give a few more creative examples next.
 </p>
 <example>
     <p>
@@ -65,7 +65,7 @@
     </p>
     <image source="/images/not-a-b.jpeg" width="75%"/>
     <p>
-        Here consider the set that contains <m>A</m> yet not that, that is in <m>B</m>, this is exactly the part that is not shaded, as it is the compliment.
+        Here consider the set that contains <m>A</m> yet not that part that is in <m>B</m>, this is exactly the part that is not shaded, as it is the compliment.
     </p>
 </example>
 <example>

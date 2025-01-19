@@ -16,7 +16,7 @@
     </statement>
 </definition>
 <p>
-    To say that in more plain language, <m>A\subseteq B</m> means <m>B</m> contains all the elements of <m>A</m>, it is noteworthy that <m>B</m> may contain more than just those elements from <m>A</m>.
+    To say that more plainly, <m>A\subseteq B</m> means <m>B</m> contains all the elements of <m>A</m>. It is noteworthy that <m>B</m> may contain more than just those elements from <m>A</m>.
 </p>
 <example>
     <p>
@@ -45,12 +45,12 @@
             <mrow>12 =\amp 3\cdot 4 </mrow>
             <mrow>15 =\amp 3\cdot 5 </mrow>
         </md>
-        that is, every element of <m>A</m> is also an element of <m>B</m>.
+        That is, every element of <m>A</m> is also an element of <m>B</m>.
     </p>
     
 </example>
 <p>
-    When a set <m>A</m> has exactly the same elements of a set <m>B</m> we say those set are equal. The following definition makes this more rigorous 
+    When a set <m>A</m> has exactly the same elements of a set <m>B</m> we say those sets are equal. The following definition makes this more rigorous. 
 </p>
 <definition xml:id="defn-equals">
     <title>Equal Sets</title>
@@ -60,7 +60,7 @@
            We say that a set <m>A</m> is <term>equal</term> to a set <m>B</m>, denoted <m>A= B</m>, if and only if  both <me>A\subseteq B</me> and <me>B\subseteq A</me>
         </p>
         <p>
-            or equivalently by:
+            Or, equivalently, by:
             <me>
                 \forall x\in\mathcal{U}\text{ }x\in A \iff x\in B
             </me>
@@ -69,10 +69,10 @@
     </statement>
 </definition>
 <p>
-    Sets are equal exactly when you would think they are, when they are the same set. Yet, as hopefully you have been piecing together in this journey, to prove things like "they are the same" we need a bit more rigor and propositional <em>guidance</em> to prove truth. Shortly we will venture into the world of proving with these sets, yet lets take a little time not just to build rigorous definitions but to build our intuition further. 
+    Sets are equal exactly when you would think they are, when they are the same set. Yet, as hopefully you have been piecing together in this journey, to prove things like "they are the same," we need a bit more rigor and propositional <em>guidance</em> to prove truth. Shortly, we will venture into the world of proving with these sets. But before we do, lets take a little time not just to build rigorous definitions but to build our intuition further. 
 </p>
 <p>
-    We now venture into combining sets, that is making new sets given one or more sets. 
+    We now venture into combining sets. That is, making new sets, given one or more sets. 
 </p>
 <definition xml:id="def-union">
     <title>Union</title>
@@ -85,7 +85,7 @@
         <p><me>A \cup B = \{x\text{ } |\text{ } x \in A \vee x \in B\}</me></p>
     </statement>   
   </definition>
-  <p>As is done for a set, we must define what it takes for membership to this set. For the union membership is allowed when membership of either <m>A</m> or <m>B</m> is established.
+  <p>As is done for a set, we must define what it takes for membership of this set. For the union, membership is allowed when membership of either <m>A</m> or <m>B</m> is established.
     In more common vernacular, this says that the union of two sets is anything from either set.</p>
   <example>
     <p>
@@ -107,7 +107,7 @@
     <me>
         B=\{x\in\R\text{ }|\text{ }-10\lt x\lt 0\}
     </me>
-    Thus the union of these two sets is
+    Thus, the union of these two sets is
     <me>
         A\cup B=\{x\in\Z\text{ }|\text{ }-10\lt x\lt 10\}
     </me>
@@ -115,7 +115,7 @@
    </p>
   </example>
   <p>
-    Another way to combine sets is to consider only the elements in which they share, this is our next definition.
+    Another way to combine sets is to consider only the elements which they share. This is our next definition...
   </p>
     <definition xml:id="def-intersection">
     <title>Intersection</title>
@@ -128,7 +128,7 @@
         <p><me>A \cap B = \{x \text{ }|\text{ } x \in A \wedge x \in B\}</me></p>
     </statement>   
   </definition>
-  <p>Again, as these are sets, we must define what it means to be a member of this set. For the intersection membership is defined for those elements that have membership to both the sets <m>A</m> and <m>B</m>. Or in other words, the intersection only has the things that are shared between two sets.</p>
+  <p>Again, as these are sets, we must define what it means to be a member of this set. For the intersection, membership is defined for those elements that have membership in both the sets <m>A</m> and <m>B</m>. Or in other words, the intersection only has the things that are shared between two sets.</p>
   <example>
     <p>
         Consider the following sets
@@ -136,7 +136,7 @@
     <image source="/images/intersect_a.jpeg" width="100%"/>
     <image source="/images/intersect_b.jpeg" width="100%"/>
     <p>
-        therefore the intersection of these two sets are
+        Therefore the intersection of these two sets is
     </p>
     <image source="/images/intersection.jpeg" width="96%"/>
     <p>
@@ -152,15 +152,15 @@
         <me>
             B=\{x\in\Z\text{ }|\text{ }x=2y\text{ for some }y\in\Z\}
         </me>
-        Thus the intersection of these two sets is
+        Thus, the intersection of these two sets is
         <me>
             A\cap B=\{2, 4, 6, 8, 10\}
         </me>
-        since those are the only even integers between 0 and 10 (including 10).
+        Since those are the only even integers between 0 and 10 (including 10).
        </p>
   </example>
   <p>
-    The last construction showed where two sets were the same yet, now we explore where they differ.
+    The last construction showed where two sets were the same, now we explore where they differ.
   </p>
   <definition xml:id="def-set-difference">
     <title>Difference</title>
@@ -181,11 +181,11 @@
     <image source="/images/intersect_a.jpeg" width="100%"/>
     <image source="/images/intersect_b.jpeg" width="100%"/>
     <p>
-        thus the set difference of <m>A</m> and <m>B</m> is
+        Thus, the set difference of <m>A</m> and <m>B</m> is
     </p>
     <image source="/images/difference.jpeg" width="68%"/>
     <p>
-        notice that the difference is made up only of elements that appear in <m>A</m> yet do not appear in <m>B</m>.
+        Notice that the difference is made up only of elements that appear in <m>A</m> yet do not appear in <m>B</m>.
     </p>
   </example>
   <example>
@@ -205,7 +205,7 @@
        </p>
   </example>
   <p>
-    To end this section we have been quite flippant on our universe of discourse, yet with a well defined one we can look at the set difference involving the universe.
+    So far in this section, we have been somewhat flippant about defining our universe of discourse, but with a well-defined one, we can now examine the set difference involving the universe.
   </p>
   <definition xml:id="def-compliment">
     <title>Compliment</title>
@@ -218,14 +218,14 @@
         <p><me>A^c = \{x \in \mathcal{U} \text{ }|\text{ } x \not\in A\}</me> or <me>A^c = \mathcal{U}-A</me></p>
     </statement>   
   </definition>
-  <p>The compliment can, perhaps, most simply be stated as everything that is not in <m>A</m>.</p>
+  <p>Perhaps the compliment can most simply be stated as, everything that is not in <m>A</m>.</p>
   <example>
     <p>
-        For this example consider the universe of discourse as the integers, <m>\mathcal{U}=\Z</m>, and consider the set of all even numbers, that is the set 
+        For this example, consider the universe of discourse as the integers, <m>\mathcal{U}=\Z</m>, and consider the set of all even numbers. That is, the set 
         <me>
             A=\{x\in\Z\text{ }|\text{ }x=2y\text{ for some }y\in\Z\}
         </me>
-        Then the compliment of <m>A</m> is all the integers that are not even, or in lieu of <xref ref="lem-odd-not-even"/> we have that 
+        Then the compliment of <m>A</m> is all the integers that are not even, or in light of <xref ref="lem-odd-not-even"/> we have that 
         <me>
             A^c=\{x\in\Z\text{ }|\text{ }x=2y+1\text{ for some }y\in\Z\}
         </me>

@@ -18,7 +18,7 @@
     </p>
   </assemblage>
 <p>
-    It's the old saying of just "show me". Proving existentials in this manner come up in your future algebra and analysis courses repeatedly as some of their most important concepts are defined with an exists. The following example is perhaps not the most enlightening but it does serve the purpose of a first example.
+    It's the old saying of just "show me." Proving existentials in this manner will come up in your future algebra and analysis courses repeatedly as some of their most important concepts are defined with an exists. The following example is perhaps not the most enlightening but it does serve the purpose of a first example.
 </p>
 <example>
     <p>
@@ -30,7 +30,7 @@
             <me>
                 \frac{5}{4}
             </me>
-            One can see that this is indeed a rational number as both 5 and 4 are integers and <m>\text{GCD}(5,4)=1</m> thus it satisfies the definition of a rational number (<xref ref="defn-rational"/>). To see that this rational number indeed does the job for our statement notice that
+            One can see that this is indeed a rational number as both 5 and 4 are integers and <m>\text{GCD}(5,4)=1</m>. Thus, it satisfies the definition of a rational number (<xref ref="defn-rational"/>). To see that this rational number indeed does the job for our statement notice that:
             <md>
                 <mrow>\frac{5}{4}+\frac{3}{4} \amp = \frac{5+3}{4}</mrow>
                 <mrow> \amp =\frac{8}{4}</mrow>
@@ -41,7 +41,7 @@
     </proof>
 </example>
 <p>
-    For our next example we will dig a little deeper into the existential proof in more of a mock experience to your future courses. But first, we will need to take advantage of the following lemma, which we present with proof here, even though the proof does not involve an existential.
+    For our next example we will dig a little deeper into the existential proof in more of a mock experience of your future courses. But first, we will need to take advantage of the following lemma, which we present with proof here, even though the proof does not involve an existential.
 </p>
 <lemma xml:id="lem-divides-less-than">
     <statement>
@@ -52,7 +52,7 @@
 </lemma>
 <proof>
     <p>
-        Let <m>a</m> and <m>b</m> be positive integers. For the sake of contradiction assume that <m>a|b</m> and <m>b\lt a</m>. By the definition of divides (<xref ref="defn-divides"/>) we can find an integer <m>k</m> so that <m>b=ak</m>, now since <m>b\lt a</m> then <m>b=0\cdot a+b</m> where 0 is the quotient and <m>b</m> is the remainder satisfies the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>), yet since both <m>a</m> and <m>b</m> are positive the <m>k</m> also satisfies the condition of quotient. This is a contradiction as the quotient from the division algorithm is unique. <m>\square</m>
+        Let <m>a</m> and <m>b</m> be positive integers. For the sake of contradiction assume that <m>a|b</m> and <m>b\lt a</m>. By the definition of divides (<xref ref="defn-divides"/>) we can find an integer <m>k</m> so that <m>b=ak</m>. Now since <m>b\lt a</m> then <m>b=0\cdot a+b</m> where 0 is the quotient and <m>b</m> is the remainder. This satisfies the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>), yet since both <m>a</m> and <m>b</m> are positive the <m>k</m> also satisfies the condition of quotient. This is a contradiction as the quotient from the division algorithm is unique. <m>\square</m>
     </p>
 </proof>
 <example>
@@ -61,21 +61,21 @@
     </p>
     <proof>
         <p>
-            Let <m>x</m> and <m>y</m> be integers, next we need to provide an integer which is smallest among all integers in the 1-d integer cone formed by <m>x</m> and <m>y</m>. We present for your scrutiny the integer
+            Let <m>x</m> and <m>y</m> be integers. Next we need to provide an integer which is smallest among all integers in the 1-d integer cone formed by <m>x</m> and <m>y</m>. We present for your scrutiny the integer
             <me>
                 d=\text{GCD}(x,y)
             </me>
-            Now, we are left with the task to show that <m>d</m> is the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m>. To say this another way we need to prove that the greatest common divisor of <m>x</m> and <m>y</m> is the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m>. 
+            Now, we are left with the task to show that <m>d</m> is the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m>. To say this another way, we need to prove that the greatest common divisor of <m>x</m> and <m>y</m> is the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m>. 
         </p>
         <p>
-            To prove this let <m>d</m> be the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m> (it will be our goal to show it is our <m>d</m> from above). By the definition of the 1-d integer cone (<xref ref="def-integer-cone"/>) we can find integers <m>s</m> and <m>t</m> such that 
+            To prove this, let <m>d</m> be the smallest positive integer in the 1-d integer cone formed by <m>x</m> and <m>y</m> (it will be our goal to show it is our <m>d</m> from above). By the definition of the 1-d integer cone (<xref ref="def-integer-cone"/>) we can find integers <m>s</m> and <m>t</m> such that 
             <me>
                 d=sx+ty
             </me>
-             To show that this smallest positive integer is the greatest common divisor by the definition of greatest common divisor (<xref ref="defn-gcd"/>) first it must be a divisor of both <m>x</m> and <m>y</m>.
+             To show that this smallest positive integer is the greatest common divisor, by the definition of greatest common divisor (<xref ref="defn-gcd"/>) it must be a divisor of both <m>x</m> and <m>y</m>.
         </p>
         <p>
-            By the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>) we can find positive integers <m>q</m> and <m>r</m> such that <m>0\leq r\lt d</m> such that <m>x=qd+r</m> yet by substituting in the form of <m>d</m> above we see <m>x=q(sx+ty)+r</m> and hence
+            By the division algorithm (<xref ref="sec-4-1-1-what-we-assume"/>) we can find positive integers <m>q</m> and <m>r</m> such that <m>0\leq r\lt d</m> and such that <m>x=qd+r</m>. Yet by substituting in the form of <m>d</m> above we see <m>x=q(sx+ty)+r</m> and hence
             <me>
                 r=x-q(sx+ty)=(1-qs)x+(qt)y
             </me>

@@ -4,7 +4,7 @@
 <title>What are Cases?</title>
 
 <p>
-    Unlike the example in <xref ref="sec-1-2-checking"/> where the are an unlimited amount of integers to choose from, 
+    Unlike the example in <xref ref="sec-1-2-checking"/> where there are an unlimited amount of integers to choose from, 
     sometimes we have a finite and more tenable collection of possibilities than we could actually check or prove in each 
     of these situations.
 </p>
@@ -29,15 +29,15 @@
           </p>
       </assemblage>
 <p>
-    At its most basic a proof by cases is an instance of proofs "Assuming an Or" from <xref ref="subsec-3-5-proofs-of-or"/> where one is tasked to prove <m>(P\vee R)\implies Q</m>, then we would split the problem into proving <m>P\implies Q</m> as our <em>first case</em> and then <m>R\implies Q</m> as our <m>second case</m>. For examples of this the reader is reffered to <xref ref="subsec-3-5-proofs-of-or"/>.
+    At its most basic, a proof by cases is an instance of "Assuming an Or" from <xref ref="subsec-3-5-proofs-of-or"/> where one is tasked to prove <m>(P\vee R)\implies Q</m>. We would split the problem into proving <m>P\implies Q</m> as our <em>first case</em> and then <m>R\implies Q</m> as our <em>second case</em>. For examples of this, the reader is referred to <xref ref="subsec-3-5-proofs-of-or"/>.
 </p>
       <p>
-        Another common place proof by cases comes up are when we are trying to prove propositions in the form of:
+        Another common place proof by cases comes up is when we are trying to prove propositions in the form of:
         <me>
             \forall x\text{ }P(x)
         </me>
         for some predicate <m>P(x)</m>.
-        There are many common places that proof by cases in the previous form come up, for example the following:
+        There are many common places that proof by cases in the previous form come up, for example:
         <ul>
             <li>
                 <p>
@@ -69,8 +69,8 @@
         <proof>
             <p>
                 Let <m>x</m> and <m>y</m> be integers. By the division algorithm from <xref ref="sec-4-1-1-what-we-assume"/>
-                we can find a <m>q,r\in\Z</m> such that <m>0\leq r\lt |x|</m> and <m>y=qx+r</m>. Hence subtracting both sides
-                by <m>r</m> we get <m>y-r=qx</m> since <m>q</m> is an integer by the definition of divides (<xref ref="defn-divides"/>)
+                we can find <m>q,r\in\Z</m> such that <m>0\leq r\lt |x|</m> and <m>y=qx+r</m>. Hence subtracting both sides
+                by <m>r</m> we get <m>y-r=qx</m>. Since <m>q</m> is an integer by the definition of divides (<xref ref="defn-divides"/>)
                 we have that <m>x|(y-r)</m>.  
             </p>
         </proof>

@@ -4,7 +4,7 @@
 <title>Proof by Exhaustion</title>
     <p>
     Our next proof method is not really a standalone method; other methods will need to accompany it. We will introduce it
-    using the direct proof as the accompaniment. Proof by cases can also be viewed as specific 
+    using the direct proof as the accompaniment. Proof by cases can also be viewed as a specific 
     example of <xref ref="subsec-3-5-proofs-of-or"/>.
     </p>
 

@@ -2,13 +2,13 @@
     <title>The Logic of Sets</title>
     <historical>
     <p>
-        <alert>To the teacher:</alert> Be careful in this section... don't lose them... maybe even skip or just quickly note these? Or perhaps challenge the brave student, the student who has been staring deeply into the ripples of the pond to venture here...
+        <alert>To the teacher:</alert> Be careful in this section... don't lose them... maybe even skip or just quickly note these? Or perhaps challenge the brave student, the student who has been staring deeply into the ripples of the pond, to venture here...
     </p>
 </historical>
     <p>
-        As we have built set theory directly from propositional logic we can approach some basic properties very similarly to that of <xref ref="subsec-2-4-3-logic-algebra"/> and <xref ref="ch-03-how-to-argue
+        As we have built set theory directly from propositional logic we can approach some basic properties very similarly to how we did in <xref ref="subsec-2-4-3-logic-algebra"/> and <xref ref="ch-03-how-to-argue
         "/>.
-        Now we have the tools to start proving, we begin with the reason that most people hate the empty set.
+        Now that we have the tools to start proving, we begin with the reason that most people hate the empty set.
       </p>
     <proposition xml:id="prop-empty-unique">
         <statement>
@@ -63,7 +63,7 @@
         </figure>
     </proof>
     <p>
-        To reiterate, it is this contradiction of <m>x\in\emptyset</m> which really is the sticking point for the empty set, and why it is always a fringe case that becomes the dismay of mathematicians world round. Next, we present a few more subset conditions.
+        To reiterate, it is this contradiction of <m>x\in\emptyset</m> which really is the sticking point for the empty set, and why it is always a fringe case that becomes the dismay of mathematicians the world round. Next, we present a few more subset conditions.
     </p>
     <proposition xml:id="prop-a-subset-a">
         <statement>
@@ -151,7 +151,7 @@
         </statement>
     </proposition>
     <p>
-       In a similar fashion the following conditions are the consequences of the arguments in <xref ref="argument-types"/>.
+       In a similar fashion, the following conditions are the consequences of the arguments in <xref ref="argument-types"/>.
     </p>
     <proposition xml:id="prop-more-set-laws">
         <statement>
