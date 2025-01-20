@@ -3,7 +3,7 @@
 <section xml:id="subsec-5-6-cross" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Cross Product</title>
 <p>
-    In this section we introduce the concept of cross product, this is yet another way of making new sets from old sets. 
+    In this section we introduce the concept of cross product. This is yet another way of making new sets from old sets. 
 </p>
 <definition xml:id="def-cross-product">
 <title>Cross Product</title>
@@ -13,7 +13,7 @@
 
     <statement>
         <p>
-            Given two sets <m>A</m> and <m>B</m> we can define a new set which we will call the <term>cross product</term> of <m>A</m> and <m>B</m> (or the <term>cartesian product</term>) defined as
+            Given two sets <m>A</m> and <m>B</m>, we can define a new set which we will call the <term>cross product</term> of <m>A</m> and <m>B</m> (or the <term>cartesian product</term>) defined as:
             <me>
                 A\times B=\{(a,b)\text{ }|\text{ }a\in A\text{ and }b\in B\}
             </me>
@@ -46,7 +46,7 @@
     <me>B\times A = \{(\pi , 2), (\pi , G), (\pi , E), (e, 2), (e, G), (e, E), (P, 2), (P, G), (P, E)\}</me>
 </example>
 <p>
-    The cross product has been shown since very early on in your mathematical education mostly the ordered pairs you would consider was the cartesian plane, the good ol' <m>x</m> and <m>y</m> axis.
+    You've actually seen the cross product since very early on in your mathematical education. Generally, the ordered pairs you would consider were the cartesian plane, the good ol' <m>x</m> and <m>y</m> axis.
 </p>
 <example>
     <p>
@@ -58,7 +58,7 @@
     <image source="/images/r_cross_r.jpeg" width="100%"/>
 </example>
 <p>
-    With this basic understanding of the cross-product we are ready to start proving with it.
+    With this basic understanding of the cross-product, we are ready to start proving with it.
 </p>
 <example>
 <p>
@@ -68,16 +68,16 @@
     </p>
     <proof>
     <p>
-        We begin by assuming that <m>A\subseteq C</m> and that <m>B\subseteq D</m>. Our objective is to prove that <m>A\times B\subseteq C\times D</m>, that is we need to show a subset, we do this by choosing an arbitrary element, <m>x\in A\times B</m>. 
+        We begin by assuming that <m>A\subseteq C</m> and that <m>B\subseteq D</m>. Our objective is to prove that <m>A\times B\subseteq C\times D</m>, that is, we need to show a subset. We do this by choosing an arbitrary element, <m>x\in A\times B</m>. 
     </p>
     <p>
-        To understand this element we of course refer to the definition (<xref ref="def-cross-product"/>), from which we see the defining condition promises that we can find two elements, one from <m>A</m> and one from <m>B</m>, name these elements, <m>a\in A</m> and <m>b\in B</m>, such that <m>x=(a,b)</m>. 
+        To understand this element, we of course refer to the definition (<xref ref="def-cross-product"/>), from which we see the defining condition promises that we can find two elements, one from <m>A</m> and one from <m>B</m>. Name these elements, <m>a\in A</m> and <m>b\in B</m>, such that <m>x=(a,b)</m>. 
     </p>
     <p>
-        By our assumption that <m>A\subseteq C</m>, since we established <m>a\in A</m> by definition of subset we get that <m>a\in C</m>. Similarly, by our assumption that <m>B\subseteq D</m> and since we established that <m>b\in B</m> again by the definition of subset <m>b\in D</m>. 
+        By our assumption that <m>A\subseteq C</m>, since we established <m>a\in A</m>, by definition of subset we get that <m>a\in C</m>. Similarly, by our assumption that <m>B\subseteq D</m> and since we established that <m>b\in B</m> again by the definition of subset <m>b\in D</m>. 
     </p>
     <p>
-        Therefore, by the definition of cross product <m>x=(a,b)\in C\times D</m> as desired.
+        Therefore, by the definition of cross product <m>x=(a,b)\in C\times D</m> as desired. <m>\square</m>
     </p>
     </proof>
 </example>
@@ -101,17 +101,17 @@
         <m>A\times (B\cup C) \subset (A\times B)\cup (A\times C)</m>.
     </p>
     <p><alert>[Want to show: <m>\mathbf{(A\times B)\cup(A\times C)\subseteq A\times (B\cup C)}</m>]</alert></p>
-    <p>This time let <m>y \in (A \times B)\cup (A\times C)</m>. Hence by definition of union, <m>y \in (A\times B)</m> or <m>y \in (A\times C)</m>. Hence, by definition
+    <p>This time, let <m>y \in (A \times B)\cup (A\times C)</m>. Hence by definition of union, <m>y \in (A\times B)</m> or <m>y \in (A\times C)</m>. Hence, by definition
         of cross product, we can find <m>s\in A</m> and <m>t \in B</m> such that <m>y=(s, t)</m> <alert>or</alert> <m>d\in A</m> and <m>r\in C</m> such that <m>y=(d, r)</m>.</p>
     <p><alert>Case 1:</alert> <m>\mathbf{y=(s, t)}</m></p>
-    <p>Since <m>t\in B</m>, by definition of union, <m>t\in B\cup C</m> and since <m>s\in A</m>, <m>y=(s, t) \in A\times(B\cup C)</m> by definition of 
+    <p>Since <m>t\in B</m>, by definition of union, <m>t\in B\cup C</m>. And since <m>s\in A</m>, <m>y=(s, t) \in A\times(B\cup C)</m>, by definition of 
         cross product. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>, therefore we can conclude that
         <m>(A\times B)\cup (A\times C) \subset A\times (B\cup C)</m></p>
     <p><alert>Case 2:</alert> <m>\mathbf{y = (d,r)}</m></p>
-    <p>Since <m>l\in C</m>, by definition of union, <m>r\in B\cup C</m>. And since <m>d\in A</m>, by definition of cross prodcut,
+    <p>Since <m>l\in C</m>, by definition of union, <m>r\in B\cup C</m>. And since <m>d\in A</m>, by definition of cross product,
         <m>y=(d,r) \in A\times (B\cup C)</m>. Thus by definition of subset, since <m>y \in (A\times B)\cup (A\times C)</m> and <m>y \in A\times (B\cup C)</m>, thus we have
         <m>(A\times B)\cup (A\times C) \subset A\times (B\cup C)</m> </p>
-    <p>Thus, since both cases hold, by direct proof and proof by cases, <m>A\times (B\cup C) = (A\times B)\cup (A\times C)</m></p>
+    <p>Thus, since both cases hold, by direct proof and proof by cases, <m>A\times (B\cup C) = (A\times B)\cup (A\times C)</m> <m>\square</m></p>
   </proof>
   </example>
 </section>

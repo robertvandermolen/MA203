@@ -27,22 +27,22 @@
     </p>
     <image source="/images/p_set_a.jpeg" width="42%"/>
      <p>
-        To build the power set, it is customary to begin with the empty set, <m>\emptyset</m>, which we know must be a member of the power set from <xref ref="prop-empty-unique"/> we know that <m>\emptyset\subseteq A</m>. Hence, 
+        To build the power set, it is customary to begin with the empty set, <m>\emptyset</m>. From <xref ref="prop-empty-unique"/> we know that <m>\emptyset\subseteq A</m>, so <m>\emptyset</m> must be a member of the power set. Hence, 
         <m>
             \emptyset\in\mathscr{P}(A)
         </m>
          
     </p>
     <p>
-        Next, we will of course need all of the <term>singletons</term>, that is all the sets containing a single element from <m>A</m>
+        Next, we will of course need all of the <term>singletons</term>, that is, all the sets containing a single element from <m>A</m>.
     </p>
     <image source="/images/bot_in_power.jpeg" width="40%"/>
     <image source="/images/block_in_power.jpeg" width="40%"/>
     <p>
-        Finally, since for any set <m>A\subseteq A</m>, as any element of <m>A</m> is surely an element of <m>A</m>, we have <m>A\in\mathscr{P}(A)</m>
+        Finally, since for any set <m>A\subseteq A</m>, as any element of <m>A</m> is surely an element of <m>A</m>, we have <m>A\in\mathscr{P}(A)</m>.
     </p>
     <p>
-        thus the power set is:
+        Thus the power set is:
     </p>
     <image source="/images/p_set.jpeg" width="100%"/>
    
@@ -55,7 +55,7 @@
         Let's look at an example of a power set: the power set of <m>B = \{1,2,3\}</m>. 
     </p>
     <p>
-        Just, as in the last example, in every power set we must find the empty set, that is <m>\emptyset\in\mathscr{P}(B)</m>.
+        Just as in the last example, in every power set we must find the empty set, that is <m>\emptyset\in\mathscr{P}(B)</m>.
     </p>
     <p>
         Next, we will work through each singleton:
@@ -92,7 +92,7 @@
     </p>
   </example>
   <p>
-    The curious counter, will notice by the procedural way in which we construct these power sets that when we start with finite sets, that they are indeed easy enough to count. 
+    The curious counter, will notice by the procedural way in which we construct these power sets that when we start with finite sets, they are indeed easy enough to count. 
   </p>
   <theorem xml:id="thm-count-power-set">
     <statement>

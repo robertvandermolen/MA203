@@ -4,13 +4,13 @@
 <title>First Proof</title>
 <introduction>
 <p>
-    For our very first proof using the power set we will now shed the numbers and prove for arbitrary sets <m>A</m> and <m>B</m>.
+    For our very first proof using the power set, we will now shed the numbers and prove for arbitrary sets <m>A</m> and <m>B</m>.
 </p>
     <p>
         <alert>Prove:</alert> <m>A \subseteq B</m> if and only if <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m>
     </p>
     <p>
-        This is a biconditional proof so it is like we are working with two proofs, so we will use it as such and prove each statement separately. 
+        This is a biconditional proof. Since it is like working with two proofs, we will use it as such and prove each statement separately. 
     </p>
     </introduction>
     <subsection xml:id="subsec-5-5-1-power-set-first-example-first-direction" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -40,50 +40,50 @@
     <subsection xml:id="sec-5-5-2-begin" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
         <p>
-            To begin, there is nothing fancy we simply assume the "<m>P</m>" that is we would write something simple like: 
+            To begin, there is nothing fancy - we simply assume the "<m>P</m>." That is, we would write something simple like: 
         </p>
         <p>
             Assume <m>A\subseteq B</m>
         </p>
         <p>
-            Our goal is to prove that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>, thus we need to prove a subset, to do this we must choose an arbitrary element of <m>\mathscr{P}(A)</m> with language like:
+            Our goal is to prove that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>, thus we need to prove a subset. To do this, we must choose an arbitrary element of <m>\mathscr{P}(A)</m> with language like:
         </p>
         <p>
             Let <m>x\in\mathscr{P}(A)</m>
         </p>
         <p>
-            it will be our objective to show that this element <m>x</m> also belongs to <m>\mathscr{P}(B)</m>.
+            It will be our objective to show that this element <m>x</m> also belongs to <m>\mathscr{P}(B)</m>.
         </p>
     </subsection>
 
     <subsection xml:id="sec-5-5-2-muddle" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{green}{\text{The Muddle}}}</m></title>
         <p>
-            I know, we have no numbers what are we to do?
+            I know, we have no numbers! What are we to do?
         </p>
         <p>
-            stay calm we have not completely disregarded the mold, usually in the muddle we invoke some definitions, so let's do that now, namely the definition of membership to the power set. We do this with language like:
+            Stay calm - we have not completely disregarded the mold. Usually in the muddle we invoke some definitions, so let's do that now, namely the definition of membership to the power set. We do this with language like:
         </p>
         <p>
             By definition of the power set of <m>A</m>, we have that <m>x\subseteq A</m>. 
         </p>
         <p>
-            As it is our objective to show that this element <m>x</m> also belongs to <m>\mathscr{P}(B)</m>, this means we need to show that <m>x</m> is a subset of <m>B</m>. To do this we do so like any proof of subset (kinda like the one we are in the middle of...) and choose an random element of <m>x</m>, we can do this with language like:
+            As it is our objective to show that this element <m>x</m> also belongs to <m>\mathscr{P}(B)</m>, this means we need to show that <m>x</m> is a subset of <m>B</m>. To do this, we do so like any other proof of subset (kinda like the one we are in the middle of...) and choose a random element of <m>x</m>. We can do this with language like:
         </p>
         <p>
             Choose an arbitrary <m>a\in x</m>.
         </p>
         <p>
-            Where to go from here?? Well, right before this we unraveled the fact that <m>x\subseteq A</m> and hence by defintion of subset we have <m>a\in A</m>. We could express this in our proof with the following language:
+            Where to go from here?? Well, right before this we unraveled the fact that <m>x\subseteq A</m>. Hence by definition of subset we have <m>a\in A</m>. We could express this in our proof with the following language:
         </p>
         <p>
             Since <m>x\subseteq A</m> and that we have assumed <m>a\in x</m>, by the definition of subset we can make the conclusion that <m>a\in A</m>.
         </p>
         <p>
-            Hark! Our very first assumption was 'bout how the fair set <m>A</m> compares to the set <m>B</m>, more specifically that <m>A\subseteq B</m>, hence in a similar fashion we could write the following conclusion:
+            Hark! Our very first assumption was 'bout how the fair set <m>A</m> compares to the set <m>B</m>, more specifically that <m>A\subseteq B</m>. Hence in a similar fashion we could write the following conclusion:
         </p>
         <p>
-            Since we assumed <m>A\subseteq B</m> and since we have discovered that <m>a\in A</m> by definition of subset we can conclude that <m>a\in B</m>. Hence, since we chose an arbitrary element <m>a\in x</m> and have shown that <m>a\in B</m> as well, by definition of subset we can conclude <m>x\subseteq B</m>.
+            Since we assumed <m>A\subseteq B</m> and since we have discovered that <m>a\in A</m>, by definition of subset we can conclude that <m>a\in B</m>. Hence, since we chose an arbitrary element <m>a\in x</m> and have shown that <m>a\in B</m> as well, by definition of subset we can conclude <m>x\subseteq B</m>.
         </p>
     </subsection>
 
@@ -93,7 +93,7 @@
             Finally, we have just concluded that <m>x\subseteq B</m>, which is the defining condition for membership to the power set of <m>B</m>, thus we can conclude:
         </p>
         <p>
-            By defintion of power set since <m>x\subseteq B</m> we have that <m>x\in\mathscr{P}(B)</m>. Therefore as we chose <m>x\in\mathscr{P}(A)</m> arbitrarily, by definition of subset we have our desired result that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>.
+            By definition of power set, since <m>x\subseteq B</m>, we have that <m>x\in\mathscr{P}(B)</m>. Therefore, as we chose <m>x\in\mathscr{P}(A)</m> arbitrarily, by definition of subset we have our desired result that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>.
         </p>
     </subsection>
     </subsection>
@@ -108,7 +108,7 @@
     </answer>
     <p>"What's the <m>{\color{blue}{Q}}</m>?"</p> 
     <answer>
-    <p><m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m></p>
+    <p><m>A\subseteq B</m></p>
     </answer>
     <p>"What're the definitions?" </p>
     <answer>
@@ -125,7 +125,7 @@
     <subsection xml:id="sec-5-5-2-begin-2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <title><m>{\color{red}{\text{The Beginning}}}</m></title>
         <p>
-            This time to begin, we must assume this <em>new</em> "<m>P</m>" that is we would write something simple like: 
+            This time to begin, we must assume this <em>new</em> "<m>P</m>." That is, we would write something simple like: 
         </p>
         <p>
             Assume <m>\mathscr{P}(A)\subseteq \mathscr{P}(B)</m>
@@ -148,10 +148,10 @@
             This time we don't even have any useful definitions to lean on... all we know is that <m>A</m> is a set, literally one of the most general objects ever, it can be anything...
         </p>
         <p>
-            As we take a breath or two, we see that all we really have at this time is our assumption about power sets. Luckily we have just completed working our way through our examples of power set and recall that the singletons were one of the first sets we looked at, and hence we have that:
+            As we take a breath or two, we see that all we really have at this time is our assumption about power sets. Luckily we have just completed working our way through our examples of power set and recall that the singletons were one of the first sets we looked at. Hence we have that:
         </p>
         <p>
-            Since <m>y\in A</m> by the definition of subset <m>\{y\}\subseteq A</m>, thus by the definition of power set we have that <m>\{y\}\in\mathscr{P}(A)</m>. Now, since we have assumed that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>  by the definition of subset we have that <m>\{y\}\in\mathscr{P}(B)</m>. 
+            Since <m>y\in A</m>, by the definition of subset <m>\{y\}\subseteq A</m>, thus by the definition of power set we have that <m>\{y\}\in\mathscr{P}(A)</m>. Now, since we have assumed that <m>\mathscr{P}(A)\subseteq\mathscr{P}(B)</m>  by the definition of subset we have that <m>\{y\}\in\mathscr{P}(B)</m>. 
         </p>
     </subsection>
 
@@ -161,7 +161,7 @@
             Given that <m>\{y\}\in\mathscr{P}(B)</m> by the definition of power set we can conclude that <m>\{y\}\subseteq B</m>, and by the definition of subset, since <m>y\in\{y\}</m> we have that <m>y\in B</m>. 
         </p>
         <p>
-            Yet, since we have chosen <m>y\in A</m> arbitrarily and have shown that <m>y\in B</m> by the definition of subset we can conclude that <m>A\subseteq B</m> as desired.
+            Yet, since we have chosen <m>y\in A</m> arbitrarily and have shown that <m>y\in B</m> by the definition of subset we can conclude that <m>A\subseteq B</m>, as desired.
         </p>
     </subsection>
 <p>
@@ -191,8 +191,8 @@
         we can conclude <m>x \subseteq B</m>. Thus by definition of power set, <m>x \in \mathscr{P}(B)</m></p>
     <p>Thus by direct proof, if <m>A \subseteq B</m> then <m>\mathscr{P}(A) \subseteq P(B)</m></p>
     <p>[<m>\impliedby</m>]</p>
-    <p>Assume that <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m>. Let <m>y \in A</m> By definition of power set, <m>\{y\} \in P(A)</m>. Hence by
-        our assumption, <m>\{y\} \in \mathscr{P}(B)</m>. Hence by our assumption and the definition of power set, <m>\{y\} \in \mathscr{P}(A)</m>, hence
+    <p>Assume that <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m>. Let <m>y \in A</m>. By definition of power set, <m>\{y\} \in P(A)</m>. Hence by
+        our assumption, <m>\{y\} \in \mathscr{P}(B)</m>. Hence by our assumption and the definition of power set, <m>\{y\} \in \mathscr{P}(A)</m>. Hence
     <m>\{y\} \in \mathscr{P}(B)</m>. By definition of subset, since <m>y \in \{y\}</m> then <m>y \in B</m>.</p>
     <p>Thus by direct and bi-directional proof, <m>A \subseteq B</m> if and only if <m>\mathscr{P}(A) \subseteq \mathscr{P}(B)</m></p>
   </example>

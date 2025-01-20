@@ -5,7 +5,7 @@
 <p>
     <idx><h>family of sets</h></idx>
     <idx><h>set</h><h>family</h></idx>
-    We now consider, basic constructions like union, intersection and the cross product between many sets at once. We consider these over a <term>family of sets</term>, which is just a fancy way of saying a set whose members are sets. We will most often use the <em>script font</em> to indicate a family, for example <m>\mathscr{A}</m>.
+    We now consider basic constructions like union, intersection, and the cross product between many sets at once. We consider these over a <term>family of sets</term>, which is just a fancy way of saying a set whose members are sets. We will most often use the <em>script font</em> to indicate a family, for example, <m>\mathscr{A}</m>.
 </p>
 <definition xml:id="def-union-over-family">
 <title>Union over a Family</title>
@@ -70,7 +70,7 @@
     </statement>
 </definition>
 <p>
-   To help again we unpack the condition in the previous definition, note the following condition of membership:
+   To help again, we unpack the condition in the previous definition, note the following condition of membership:
     <me>
         x\in\bigcap_{A\in\mathscr{A}}A\text{ }\text{ if and only if }\text{ }[\forall A\in\mathscr{A}\text{ }x\in A]
     </me>
@@ -102,7 +102,7 @@
     </p>
 </example>
 <p>
-    Now lets explore a general proof involving these constructions.
+    Now, let's explore a general proof involving these constructions.
 </p>
 <example>
     <p>
@@ -116,7 +116,7 @@
             We begin as we do for any subset proof, and that is, we choose an arbitrary element <m>x\in\bigcap_{A\in\mathscr{A}}A</m>
         </p>
         <p>
-            By definition of the intersection over a family for any member of the family <m>x</m> must belong to it. So choose an arbitrary <m>C\in\mathscr{A}</m> thus <m>x\in C</m>, which by defintion of union, since <m>x\in C</m> we have that <m>x\in\bigcup_{A\in\mathscr{A}}A</m>.
+            By definition of the intersection over a family, for any member of the family, <m>x</m> must belong to it. So choose an arbitrary <m>C\in\mathscr{A}</m>, thus <m>x\in C</m>, which by definition of union, since <m>x\in C</m> we have that <m>x\in\bigcup_{A\in\mathscr{A}}A</m>.
         </p>
         <p>
             Therefore since we chose an arbitrary element <m>x\in\bigcap_{A\in\mathscr{A}}A</m> and have shown <m>x\in\bigcup_{A\in\mathscr{A}}A</m>, we can conclude <m>\bigcap_{A\in\mathscr{A}}A\subseteq\bigcup_{A\in\mathscr{A}}A</m> as desired. <m>\square</m>
@@ -125,7 +125,7 @@
 </example>
 
 <p>
-    If this is still a bit too abstract for our dear reader we will now introduce a concept which allows us to look at these constructions a bit more like the summation from our calculus classes.
+    If this is still a bit too abstract for our dear reader, we will now introduce a concept which allows us to look at these constructions a bit more like the summation from our calculus classes.
 </p>
 <definition xml:id="def-indexed-family">
 <title>Indexed Family of Sets</title>
@@ -159,12 +159,12 @@
      
 </p>
 <p>
-    With this new construction lets visit another example.
+    With this new construction, let's visit another example.
 </p>
 
 <example>
     <p>
-    Consider the indexing set <m>\Delta=\{0,1,2\}</m>, and the family of sets <m>\mathscr{C}=\{C_0,C_1,C_2\}</m> where each set is defined as follows
+    Consider the indexing set <m>\Delta=\{0,1,2\}</m>, and the family of sets <m>\mathscr{C}=\{C_0,C_1,C_2\}</m> where each set is defined as follows:
     <me>
         C_0=\left\{7,15,H,\triangle,\pi,\frac{1}{3}\right\}
     </me>
@@ -174,7 +174,7 @@
     <me>
         C_2=\left\{7,15, \Gamma,\frac{1}{3}, \pi, 0, 16\right\}
     </me>
-    Thus the union over <m>\mathscr{C}</m> is
+    Thus, the union over <m>\mathscr{C}</m> is
 
     <md>
         <mrow>\bigcap_{i\in\Delta}=C_i\bigcap_{i=0}^{2}C_i\amp =\left(C_0\cap C_1\right)\cap C_2</mrow>
@@ -183,7 +183,7 @@
     </p>
 </example>
 <p>
-    Of course this basic use case of an index set is far from the only one, in the next example we leave the case of a finite indexing set by setting <m>\Delta=\N</m>. To build these with ease, and to show the reader a use case from future mathematics courses where each set in our family is a subset of the real numbers.
+    Of course this basic use case of an index set is far from the only one. In the next example, we leave the case of a finite indexing set by setting <m>\Delta=\N</m>. To build these with ease, and to show the reader a use case from future mathematics courses where each set in our family is a subset of the real numbers.
 </p>
 <example>
     <p>
@@ -202,11 +202,11 @@
     </p>
 </example>
 <p>
-    In your next example we leave the natural numbers for our index set and instead explore the example where our indexing set of <m>\Q</m>.
+    In your next example, we leave the natural numbers for our index set, and instead explore the example where our indexing set is <m>\Q</m>.
 </p>
 <example>
     <p>
-        Consider the the indexing set <m>\Q</m>
+        Consider the the indexing set <m>\Q</m>.
         Now define the indexed family of sets <m>\mathscr{B}=\{B_n\text{ }|\text{ }n\in\Gamma\}</m>, defined as the following closed intervals,
         <me>
             B_\alpha=\big[\alpha,\alpha+1\big]=\{x\in\R\text{ }|\text{ }\alpha\leq x\leq \alpha+1\}
@@ -222,7 +222,7 @@
     </p>
 </example>
 <p>
-    Now that we have built our intuition on unions and intersections over families, lets prove a result about them. 
+    Now that we have built our intuition on unions and intersections over families, let's prove a result about them. 
 </p>
 <!--
 <definition xml:id="def-product-over-family">
@@ -261,7 +261,7 @@
             <alert>Proving: </alert> <m>B\cap \left(\bigcup_{i\in\Delta}A_i\right)\subseteq\bigcup_{i\in\Delta}(B\cap A_i)</m>
         </p>
         <p>
-            To prove this we will start like most subset proofs, namely by choosing an arbitrary element <m>s\in B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>. By the definition of intersection both <m>s\in B</m> and <m>s\in\bigcup_{i\in\Delta}A_i</m>. By the definition of union over a family if we choose an arbitrary <m>j\in\Delta</m> we have <m>s\in A_j</m>, thus since <m>s\in B</m> and <m>s\in A_j</m> by the definition of intersection we have that <m>s\in B\cap A_j</m>. Because we chose <m>j\in\Delta</m> arbitrary it is true the for any <m>i\in\Delta</m> <m>s\in B\cap A_i</m> and hence the definition of union over a family is satisfied, that is 
+            To prove this, we will start like most subset proofs, namely by choosing an arbitrary element <m>s\in B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>. By the definition of intersection, both <m>s\in B</m> and <m>s\in\bigcup_{i\in\Delta}A_i</m>. By the definition of union over a family, if we choose an arbitrary <m>j\in\Delta</m> we have <m>s\in A_j</m>. Thus, since <m>s\in B</m> and <m>s\in A_j</m>, by the definition of intersection we have that <m>s\in B\cap A_j</m>. Because we chose <m>j\in\Delta</m> arbitrarily, it is true that for any <m>i\in\Delta</m> <m>s\in B\cap A_i</m>. Hence, the definition of union over a family is satisfied, that is: 
             <me>
                 s\in\bigcup_{i\in\Delta}(B\cap A_i)
             </me>
@@ -271,7 +271,7 @@
             <alert>Proving: </alert> <m>\bigcup_{i\in\Delta}(B\cap A_i)\subseteq B\cap \left(\bigcup_{i\in\Delta}A_i\right)</m>
         </p>
         <p>
-            To prove this we will start like most subset proofs, namely by choosing an arbitrary element <m>y\in \bigcup_{i\in\Delta}(B\cap A_i)</m>. By definition of union over a family when we choose an arbitrary element <m>k\in\Delta</m> we must have that <m>y\in (B\cap A_k)</m> by definition of intersection this means that both <m>y\in B</m> and <m>y\in A_k</m>. Since we chose <m>k\in\Delta</m> arbitrarily we have shown that for any <m>i\in\Delta</m> that <m>y\in A_i</m> that is we have shown the definition of membership to a union over a family, namely that
+            To prove this, we will start like most subset proofs, namely by choosing an arbitrary element <m>y\in \bigcup_{i\in\Delta}(B\cap A_i)</m>. By definition of union over a family when we choose an arbitrary element <m>k\in\Delta</m> we must have that <m>y\in (B\cap A_k)</m>. By definition of intersection, this means that both <m>y\in B</m> and <m>y\in A_k</m>. Since we chose <m>k\in\Delta</m> arbitrarily, we have shown that for any <m>i\in\Delta</m> that <m>y\in A_i</m>. That is, we have shown the definition of membership to a union over a family, namely that
             <me>
                 y\in\bigcup_{i\in\Delta}A_i
             </me>
@@ -373,7 +373,7 @@
             We begin this proof by assuming our antecedent.
         </p>
         <p>
-            Assume that <m>\mathscr{A}</m> is pairwise disjoint and <m>\mathscr{B}\subseteq\mathscr{A}</m>. It is our objective to prove that <m>\mathscr{B}</m> is pairwise disjoint, but looking above and seeing the definition of pairwise disjoint we see that we need to prove a universal quantifier, thus we choose arbitrary <m>j\in\Delta</m> and <m>k\in\Delta</m>. Now since we have assumed that <m>\mathscr{B}\subseteq\mathscr{A}</m> we have that both <m>B_j\in\mathscr{A}</m> and <m>B_k\in\mathscr{A}</m>, thus by definition of membership to <m>\mathscr{A}</m> we can find <m>s\in\Delta</m> and <m>t\in\Delta</m> so that <m>B_j=A_s</m> and <m>B_k=A_t</m>. 
+            Assume that <m>\mathscr{A}</m> is pairwise disjoint and <m>\mathscr{B}\subseteq\mathscr{A}</m>. It is our objective to prove that <m>\mathscr{B}</m> is pairwise disjoint, but looking above and seeing the definition of pairwise disjoint, we see that we need to prove a universal quantifier, thus we choose arbitrary <m>j\in\Delta</m> and <m>k\in\Delta</m>. Now, since we have assumed that <m>\mathscr{B}\subseteq\mathscr{A}</m> we have that both <m>B_j\in\mathscr{A}</m> and <m>B_k\in\mathscr{A}</m>, thus by definition of membership to <m>\mathscr{A}</m> we can find <m>s\in\Delta</m> and <m>t\in\Delta</m> so that <m>B_j=A_s</m> and <m>B_k=A_t</m>. 
         </p>
         <p>
             Since we have assumed that <m>\mathscr{A}</m> is pairwise disjoint then either
@@ -390,7 +390,7 @@
 </example>
 <note>
     <p>
-        For the proofs in this section we see a common <m>{\color{green}{\text{muddle}}}</m> that I like to call <em>chasing the definitions</em>, I know it can be jarring at first not having your warm and safe calculative muddle, but I promise you it will be ok! And I promise you in the next chapter there will <em>always</em> be a very solid calculative step!
+        For the proofs in this section we see a common <m>{\color{green}{\text{muddle}}}</m> that I like to call <em>chasing the definitions</em>. I know it can be jarring at first not having your warm and safe calculative muddle, but I promise you it will be ok! And I promise you in the next chapter there will <em>always</em> be a very solid calculative step!
     </p>
 </note>
 </section>

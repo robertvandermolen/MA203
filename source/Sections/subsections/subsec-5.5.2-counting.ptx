@@ -14,11 +14,11 @@
     <me>
         |\{\emptyset\}|=1
     </me>
-    now we consider the set which contains these previous two sets, namely:
+    Now we consider the set which contains these previous two sets, namely:
     <me>
         |\{\emptyset,\{\emptyset\}\}|=2
     </me>
-    next lets collect all these sets in a set, that is
+    Next lets collect all these sets in a set, that is
     <me>
         |\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\}\}|=3
     </me>

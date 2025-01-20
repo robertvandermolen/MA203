@@ -6,7 +6,7 @@
     <ol>
         <li>
             <p>
-                For the sets <m>A,</m> <m>B</m>, and <m>C</m>, for the following draw a Venn diagram shading the appropriate regions
+                For the sets <m>A,</m> <m>B</m>, and <m>C</m>, draw a Venn diagram shading the appropriate regions for the following:
                 <ol>
                     <li>
                         <p>
@@ -28,7 +28,7 @@
         </li>
         <li>
             <p>
-                For the following prove that <m>A\subseteq B</m>
+                For the following, prove that <m>A\subseteq B</m>
                 <ol>
                     <li>
                         <p>
@@ -59,7 +59,7 @@
         </li>
         <li>
             <p>
-                For the following sets write out all elements of <em>both</em> <m>A\times B</m> and <m>B\times A</m>
+                For the following sets, write out all elements of <em>both</em> <m>A\times B</m> and <m>B\times A</m>
             </p>
             <ol>
                 <li>
