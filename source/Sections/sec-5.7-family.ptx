@@ -183,7 +183,7 @@
     </p>
 </example>
 <p>
-    Of course this basic use case of an index set is far from the only one. In the next example, we leave the case of a finite indexing set by setting <m>\Delta=\N</m>. To build these with ease, and to show the reader a use case from future mathematics courses where each set in our family is a subset of the real numbers.
+    Of course this basic use case of an index set is far from the only one. In the next example, we leave the case of a finite indexing set by setting <m>\Delta=\N</m>. This following example also illustrates perhaps the most common use case in your future math courses, with each set in our family being a subset of the real numbers.
 </p>
 <example>
     <p>
