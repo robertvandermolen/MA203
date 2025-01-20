@@ -42,7 +42,7 @@
             <m>\sim (\exists n \in \mathbb{Z}</m>  <m>n^2 =5)\equiv[\forall n \in \mathbb{Z}</m>  <m>n^2 \neq 5]</m>
           </p>
           <ul>
-            <li>*NOT*(There exists an integer <m>n</m> such that <m>n^2 =5</m></li>
+            <li>*NOT*(There exists an integer <m>n</m> such that <m>n^2 =5</m>)</li>
             <li>For all integers <m>n</m>, <m>n^2</m> does not equal <m>5</m>.</li>
           </ul>
         </li>
