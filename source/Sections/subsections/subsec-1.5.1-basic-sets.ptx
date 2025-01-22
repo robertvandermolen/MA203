@@ -46,13 +46,16 @@
   </p>
    
   <p>
-    Besides just arbitrarily naming a set in an attempt to define a set we can also describe what the set is by
-    capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m>, then listing the elements
-    separated by commas. For example, if we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
+    Besides just arbitrarily naming a set to <em>define</em> a set we can also describe what the set by
+    capturing all the elements in the set between the symbols <m>\{</m> and <m>\}</m>, then separating the elements
+    by commas. For example, if we just wanted to collect the following numbers in a set: <me>A=\{3,7,8,9\}</me>
     Or if we were to collect the set of all counting numbers we could use ... to indicate continuing a pattern: 
     <me>\{1,2,3,...\}</me> We could also use what is known as set builder notation:
   </p>
   <image source="/images/set-builder-notation.png" width="100%"/>
+  <p>
+    Additionally, in this section we will speak of a set being <em>empty</em> a good bit, this means there are no elements in the set, we often denote such a set as <m>\emptyset</m> and call it <em>the</em> empty set. This as well as other concepts will be made more concise in a latter chapter.
+  </p>
   
    
 
