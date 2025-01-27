@@ -58,7 +58,7 @@
     <idx><h>equivalent</h><h>predicate</h></idx>
     <p>
         The predicates <m>P(x): x^2+2x=-1</m> and <m>Q(x):x\lt 1</m> are equivalent in the universe 
-        <m>\mathcal{U}=\mathbb{Z}^+</m>. They are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>.
+        <m>\mathcal{U}=\mathbb{W}</m>. They are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>.
     </p>
     <p>
         To see this is true notice that with the universe <m>\mathcal{U}=\mathbb{W}</m> both <m>P(x)</m> and <m>Q(x)</m> have no elements which make it true, that is both of their truth sets are empty. 
