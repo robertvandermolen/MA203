@@ -55,7 +55,7 @@
     </li>
   </ol>
   <p>
-    For (C) the statement <m>\exists x\text{ }R(X)</m> is true in the universe <m>\mathcal{U}=\mathbb{R}</m>, as 
+    For (C) the statement <m>\exists x\text{ }R(x)</m> is true in the universe <m>\mathcal{U}=\mathbb{R}</m>, as 
     <m>4.5\in\mathbb{R}</m> as well as many other numbers. In statement (A) there are no real numbers that have any 
     opinions on books from my understanding, but if the universe was all people then <m>\exists x\text{ }P(x)</m> is true 
     as I am a person and I love books. Similarly for (B) the proposition, <m>\exists x\text{ }Q(x)</m> in the universe

@@ -51,7 +51,7 @@
   <idx><h>argument</h><h>modus tollens</h></idx>
   <p>
     <term>Modus Tollens</term> is simply the application of the contrapositive, specifically:
-     <m>P\implies Q</m>, and <m>\sim Q</m>, and conludes <m>\sim P</m>. That is
+     <m>P\implies Q</m>, and <m>\sim Q</m>, and concludes <m>\sim P</m>. That is
   </p>
   <tabular halign="center">
     
@@ -381,7 +381,7 @@
     </li>
     <li>
       <p>
-        <m>(\sim R)\implies S:\text{ If we do not go swimming then we will go hiking}</m>
+        <m>(\sim R)\implies S:\text{ If we do not go hiking then we will go on a bike ride.}</m>
       </p>
     </li>
     <li>

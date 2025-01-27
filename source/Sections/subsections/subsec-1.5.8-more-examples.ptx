@@ -10,8 +10,8 @@
     <ol marker="(A)">
         <li>
             <p>
-                Every Indiana resident <m>x</m> older than 18, <m>x</m> can vote
-                <me>(\forall x)(x\text{ Indiana resident }\wedge x\text{ is older than 18 }\wedge x\lt 10)\implies x\text{ can vote}</me>
+                Every Indiana resident <m>x</m> at least 18 years old, <m>x</m> can vote
+                <me>(\forall x)(x\text{ Indiana resident }\wedge x\text{ is at least 18 years old })\implies x\text{ can vote}</me>
             </p>
         </li>
         <li>
@@ -30,7 +30,7 @@
             <p>
                 Some Students major in math and accounting.
                 <me>
-                    (\exists x )(x\text{ is a math major}) \wedge(y\text{ is an accounting major}) 
+                    (\exists x )(x\text{ is a math major}) \wedge(x\text{ is an accounting major}) 
                 </me>
                 
             </p>
