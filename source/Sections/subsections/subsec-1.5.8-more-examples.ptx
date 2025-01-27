@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-2-5-8-unique" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>More Examples</title>
+<title>Examples in Context</title>
 <p>
-    Now we will give some more examples:
+    Now we will give some more examples of using quantifiers in sentences
 </p>
 <p></p>
 <example>
     <ol marker="(A)">
         <li>
             <p>
-                For every Indiana resident <m>x</m> older than 18, <m>x</m> can vote
+                Every Indiana resident <m>x</m> older than 18, <m>x</m> can vote
                 <me>(\forall x)(x\text{ Indiana resident }\wedge x\text{ is older than 18 }\wedge x\lt 10)\implies x\text{ can vote}</me>
             </p>
         </li>
@@ -26,7 +26,15 @@
                 <me>(\exists x)(x\text{ is a math majors})\wedge(\exists y)(y\text{ is a business major})</me>
             </p>
         </li>
-        
+        <li>
+            <p>
+                Some Students major in math and accounting.
+                <me>
+                    (\exists x )(x\text{ is a math major}) \wedge(y\text{ is an accounting major}) 
+                </me>
+                
+            </p>
+        </li>
     </ol>
 </example>
 </subsection>

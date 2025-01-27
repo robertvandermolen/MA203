@@ -52,7 +52,7 @@
                 <li>Some real numbers have cube 3.</li>
                 <li>The number <m>x</m> has cube 3, for some real number <m>x</m>.</li>
                 <li>If <m>x</m> is a real number, then <m>x^3=3</m>.</li>
-                <li>Some real number has cube 3.</li>
+                <li>All real numbers have cube 3.</li>
             </ol>
         </p>
     </li>

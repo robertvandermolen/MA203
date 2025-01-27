@@ -3,20 +3,26 @@
 
 
     <p>It is also important to note what the negation of each of these quantifiers is.</p>
-  
+    
+    <p>
+      <alert>Negating an Existential:</alert>
+    </p>
   
     <p>
       <idx><h>quantifier</h><h>negation</h></idx>
     <idx><h>negating quantifiers</h></idx>
     <idx><h>exists</h><h>negation</h></idx>
-      <me>\sim[\exists\text{ }P(x)] </me> read literally says, "There does not exist." 
+      <me>\sim[\exists x\text{ }P(x)] </me> read literally says, "There does not exist." 
       Sometimes it is helpful to read this as "everybody doesn't." That is <me>\sim[\exists x\text{ }P(x)]\equiv [\forall x\text{ }(\sim P(x))]</me>
+    </p>
+    <p>
+      <alert>Negating a Universal:</alert>
     </p>
     <p>
       <idx><h>quantifier</h><h>negation</h></idx>
     <idx><h>negating quantifiers</h></idx>
     <idx><h>for all</h><h>negation</h></idx>
-      <me>\sim \forall\text{ }P(x) </me> says "not all," which can be thought of as, "somebody does." That is,
+      <me>\sim [\forall x\text{ }P(x)] </me> says "not all," which can be thought of as, "somebody does." That is,
       <me>\sim[\forall x\text{ }P(x)]\equiv \exists x\text{ }(\sim P(x))</me>
     </p>
 

@@ -19,6 +19,14 @@
 <idx><h>rational numbers</h></idx>
 <idx><h>real numbers</h></idx>
 <idx><h>complex numbers</h></idx>
+<sidebyside>
+        <p>
+            <m>\mathbb{W}=\{1,2,3,...\}</m>
+        </p>
+        <p>
+            The Whole Numbers
+        </p>
+    </sidebyside>
     <sidebyside>
         <p>
         <m>\mathbb{N}=\{0,1,2,3,...\}</m>
@@ -35,14 +43,7 @@
             The Integers
         </p>
     </sidebyside>
-    <sidebyside>
-        <p>
-            <m>\mathbb{Z}^+=\{1,2,3,...\}</m>
-        </p>
-        <p>
-            The Counting Numbers
-        </p>
-    </sidebyside>
+    
     <sidebyside>
         <p>
             <m>\mathbb{Q}=\{\frac{a}{b}:a,b\in\mathbb{Z}, \text{ with }b\neq 0\}</m>
@@ -71,7 +72,7 @@
 
 </p>
 <p>
-    Notice that I take the extremely divisive standpoint that <m>\mathbb{N}</m> contains 0. Later in the book we will
+    Notice that I take the extremely divisive standpoint that <m>\mathbb{N}</m> contains 0. Later in the book, <xref ref="subsec-5-5-2-power-set-counting"/>, we will
     justify this, but for now, I am your teacher and thus you are in my camp on this issue!
 </p>
 

@@ -61,7 +61,7 @@
         <m>\mathcal{U}=\mathbb{Z}^+</m>. They are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>.
     </p>
     <p>
-        To see this is true notice that with the universe <m>\mathcal{U}=\mathbb{Z}^+</m> both <m>P(x)</m> and <m>Q(x)</m> have no elements which make it true, that is both of their truth sets are empty. 
+        To see this is true notice that with the universe <m>\mathcal{U}=\mathbb{W}</m> both <m>P(x)</m> and <m>Q(x)</m> have no elements which make it true, that is both of their truth sets are empty. 
     </p>
     <p>
         On the other hand for the universe <m>\mathcal{U}=\mathbb{Z}</m>, <m>P(x)</m> has the truth set of <m>\{-1\}</m> yet <m>Q(x)</m> has the truth set of <m>\{..., -3,-2,-1,0\}</m> and these two sets are clearly not the same.

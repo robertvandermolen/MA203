@@ -62,4 +62,17 @@
         which make the predicate true.
     </p>
 </example>
+<p>
+    The negation of the unique existential quantifier in words is:
+</p>
+<p>
+    Either "everyone doesn't" or "at least two do"
+</p>
+<p>
+    To write this out in symbols we have:
+    <me>
+        \sim(\exists!x P(x))\equiv (\forall x \sim P(x))\vee (\forall x\forall y [P(x)\wedge P(y)])
+    </me>
+    
+</p>
 </subsection>

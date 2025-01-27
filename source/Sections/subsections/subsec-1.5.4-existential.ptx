@@ -89,6 +89,6 @@
 
 <p>
   I'd like to end this subsection with the symbolization of a statement <me>\text{Some }P(x)\text{ are }Q(x)</me> which should be
-  <me>(\exists x)(P(x)\wedge Q(x)</me>
+  <me>(\exists x)(P(x)\wedge Q(x))</me>
 </p>
 </subsection>
