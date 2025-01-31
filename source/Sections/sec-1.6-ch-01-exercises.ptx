@@ -33,7 +33,7 @@
         </ol>
     </li>
     <li>
-    <p>Turn the first statement into the second one. Show your steps and state which equivalence rule from 1.3.2 you used to get there.</p>
+    <p>Turn the first statement into the second one. Show your steps and state which logic laws from <xref ref="thm-logic-laws"/> you used to get there.</p>
         <ol>
             <li><m>[P\implies ((\sim Q)\wedge R)]\equiv [(P\implies (\sim Q))\wedge (P\implies R)]</m></li>
             <li><m>[((\sim P)\vee Q)\implies R]\equiv [((\sim R)\implies P)\wedge (Q\implies R)]</m></li>
@@ -97,7 +97,7 @@
             </li>
             <li>
                 <p>
-                    No one loves everybody
+                    No one loves everybody (<m>\mathcal{U}=</m> all people)
                 </p>
             </li>
         </ol>

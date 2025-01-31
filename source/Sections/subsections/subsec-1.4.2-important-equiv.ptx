@@ -24,7 +24,7 @@
        </historical>
 <theorem xml:id="thm-logic-laws">
     <idx><h>logic laws</h></idx>
-    <idx><h>logic laws</h><h>dounble negation</h></idx>
+    <idx><h>logic laws</h><h>double negation</h></idx>
     <idx><h>logic laws</h><h>commutativity</h></idx>
     <idx><h>logic laws</h><h>distributive</h></idx>
     <idx><h>logic laws</h><h>absorption</h></idx>
@@ -40,6 +40,9 @@
     <idx><h>associativity</h></idx>
     <idx><h>contrapositive</h></idx>
     <idx><h>Rob's Law</h></idx>
+    <title>Logic Laws</title>
+    
+    
     <statement>
         <p>
         <sbsgroup widths="55% 25%"  valign="middle">

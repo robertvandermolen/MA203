@@ -76,7 +76,10 @@
         but they again are not equivalent in the universe <m>\mathcal{U}=\mathbb{Z}</m>
     </p>
     <p>
-        For both of these universes the truth set for both <m>R(x)</m> and <m>S(x)</m> is <m>\{3\}</m> 
+        For <m>\mathcal{U}=\mathbb{N}</m> the truth set for both <m>R(x)</m> and <m>S(x)</m> is <m>\{3\}</m> 
+    </p>
+    <p>
+        Yet, for <m>\mathcal{U}=\Z</m> the truth set for <m>R(x)</m> is <m>\{-3,3\}</m> but the truth set for <m>S(x)</m> is still <m>\{3\}</m>. 
     </p>
 </example>
 

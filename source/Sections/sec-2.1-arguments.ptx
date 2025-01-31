@@ -79,7 +79,7 @@
 </p>
  <p></p>
 
-  <example>
+  <example xml:id="ex-validness">
   <idx><h>valid</h></idx>
     <idx><h>argument</h><h>valid</h></idx>
     <idx><h>argument</h><h>invalid</h></idx>
@@ -137,6 +137,18 @@
   </example>
   
   <p>Notice that it is not the truth of the premises that makes an argument valid or invalid, but rather the truth of the conclusion.</p>
+    <definition xml:id="def-sound">
+    <idx><h>sound</h></idx>
+    <idx><h>argument</h><h>sound</h></idx>
+      <statement>
+        <p>
+          We say than an argument is <term>sound</term> when it is valid as well as the premises are true. 
+        </p>
+      </statement>
+    </definition>
+    <p>
+      In <xref ref="ex-validness"/> the argument about parabolas is sound, yet the third example about spiders is valid it is not sound as poodles are not spiders!
+    </p>
 </subsection>
  <!-- <xi:include href="./subsections/subsec-3.1.2-soundness.ptx" />-->
 

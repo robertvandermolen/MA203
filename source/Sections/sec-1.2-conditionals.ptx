@@ -206,8 +206,69 @@
     </example>
 </p>
 <p>
-    Students seem to have the hardest time seeing that when the politician is not elected, there is no obligation to do anything, and hence 
+    Students often have the hardest time seeing that when the politician is not elected, there is no obligation to do anything, and hence 
     the politician is not lying!
+</p>
+<p>
+    Of course no examples can make the concept click for everyone, working with a student, we came up with the following example the reader may find helpful. 
+</p>
+<example>
+<p>
+    Consider the following propositions
+</p>
+    <p>
+            <m>P</m>: Blueberries are on sale
+        </p>
+        <p>
+            <m>Q</m>: I will buy blueberries
+        </p>
+        <p>
+            <m>P\implies Q</m>: If Blueberries are on sale then I will buy blueberries
+        </p>
+        <p>
+            When I tell my wife <m>P\implies Q</m> before I go to the store, when am I lying to her?
+        </p>
+        <p>
+            There are a couple of cases: 
+            <ol>
+                <li>
+                    <p>
+                        Blueberries are on sale:
+                        <ol>
+                            <li>
+                                <p>
+                                    When I buy the blueberries I am telling the truth
+                                </p>
+                                <p>
+                                    When I do not buy the blueberries I am lying!
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Blueberries are not on sale:
+                        <ol>
+                            <li>
+                                <p>
+                                    When I buy blueberries, I'm telling the truth because I never said I wasn't going to buy them, maybe I am really really craving them! 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    When I don't buy blueberries, I'm still telling the truth because when they are not on sale I am under no obligation to buy them!
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+</example>
+<p>
+    The next section covers what many students naturally interpret as what the lying politician is actually saying.
 </p>
 </section>
 
