@@ -146,6 +146,11 @@
         </p>
       </statement>
     </definition>
+    <title>Sound</title>
+    <idx><h>sound</h></idx>
+    <idx><h>argument</h><h>sound</h></idx>
+    <idx><h>soundness</h></idx>
+    
     <p>
       In <xref ref="ex-validness"/> the argument about parabolas is sound, yet the third example about spiders is valid it is not sound as poodles are not spiders!
     </p>
