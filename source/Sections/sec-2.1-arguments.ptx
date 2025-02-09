@@ -135,8 +135,13 @@
       </row>
     </tabular>
   </example>
-  
+  <p>
+    The worried reader battling with the concept of valid need only wait for the following section where we explore the <em>why</em> behind many of these examples!
+  </p>
   <p>Notice that it is not the truth of the premises that makes an argument valid or invalid, but rather the truth of the conclusion.</p>
+    <p>
+      To Say that another way, in arguments we do not bother ourselves with wether the premises are true, only that the conclusions must be true when the premises are true.
+    </p>
     <definition xml:id="def-sound">
     <idx><h>sound</h></idx>
     <idx><h>argument</h><h>sound</h></idx>
