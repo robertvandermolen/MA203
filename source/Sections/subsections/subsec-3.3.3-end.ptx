@@ -74,7 +74,7 @@
     <p>Calculate:</p>
     <md>
     <mrow>x+1\amp=(2k+1)+1</mrow>
-    <mrow>\amp=k+2</mrow>
+    <mrow>\amp=2k+2</mrow>
     <mrow>\amp=2(k+1)</mrow>
     </md>
     <p>Since <m>k+1</m> is an integer, by definition of even, <m>x+1</m> is even. </p>

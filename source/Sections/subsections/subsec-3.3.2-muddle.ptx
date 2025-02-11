@@ -23,7 +23,7 @@
   </p>
   <md>
     <mrow>x+1\amp=(2k+1)+1</mrow>
-    <mrow>\amp=k+2</mrow>
+    <mrow>\amp=2k+2</mrow>
     <mrow>\amp=2(k+1)</mrow>
 </md>
 <p>The <m>x+1</m> on the left of this equation is the end conclusion we're <em>aiming</em> for! 

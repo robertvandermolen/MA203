@@ -91,7 +91,7 @@
 </assemblage>
 <p>
 
-  Recall that the contraposition is <me>[P\implies Q]\equiv[(\sim Q)\implies(\sim P)]</me>
+  Recall that the contraposition is: <me>[P\implies Q]\equiv[(\sim Q)\implies(\sim P)]</me>
   but not <m>(\sim P)\implies(\sim Q)</m>.
    </p>
    <example>

@@ -38,7 +38,7 @@
     <p>
         <me>
             {\color{orange}{\forall x,y\in\Z}}\text{ if }{\color{red}{x \text{ and }y\text{ are both odd}}}
-            \text{ then }{\color{blue}{x+y \text{ is odd.}}}
+            \text{ then }{\color{blue}{x\cdot y \text{ is odd.}}}
         </me>
         
     </p>
@@ -113,13 +113,13 @@
     <p>
         Now that we have used our definitions we can move to our usual <m>{\color{green}{\text{muddle}}}</m> where we use some good ol' <em>college algebra</em>. 
         In a more general look at proofs as a whole, you should keep in mind what we are trying to conclude, i.e. the <m>{\color{blue}{Q}}</m>, namely 
-        that <m>{\color{blue}{x+y\text{ is odd}}}</m>. So we should calculate <m>{\color{blue}{x+y}}</m>.
+        that <m>{\color{blue}{x\cdot y\text{ is odd}}}</m>. So we should calculate <m>{\color{blue}{x\cdot y}}</m>.
     </p>
     <p>
         Calculate:
     </p>
     <md>
-        <mrow>{\color{blue}{x+y}}\amp=(2a+1)\cdot(2b+1)</mrow>
+        <mrow>{\color{blue}{x\cdot y}}\amp=(2a+1)\cdot(2b+1)</mrow>
         <mrow>\amp=4ab+2a+2b+1</mrow>
         <mrow>\amp=2(2ab+a+b)+1</mrow>
     </md>
@@ -129,11 +129,11 @@
     <title><m>{\color{blue}{\text{The End}}}</m></title>
     <p>
         From the <m>{\color{green}{\text{muddle}}}</m> we now have: <me>
-            x+y=2{\color{purple}{(2ab+a+b)}}+1
+            x\cdot y=2{\color{purple}{(2ab+a+b)}}+1
         </me>
         Now, using the definition of odd (<xref ref="defn-odd"/>) and of course <xref ref="how-to-quantifiers"/> we can conclude from the 
-        <m>{\color{green}{\text{muddle}}}</m> that <m>x+y</m> is odd, as <m>2ab</m> is an integer and thus <m>{\color{purple}{(2ab+a+b)}}</m> is an integer, and hence we have that
-        <m>x+y</m> is an integer times 2 then plus one.
+        <m>{\color{green}{\text{muddle}}}</m> that <m>x\cdot y</m> is odd, as <m>2ab</m> is an integer and thus <m>{\color{purple}{(2ab+a+b)}}</m> is an integer, and hence we have that
+        <m>x\cdot y</m> is an integer times 2 then plus one.
     </p>
 
    
@@ -148,21 +148,21 @@
             then <m>x\cdot y</m> is odd.
         </p>
         <p>
-            Select two random integers <m>x</m> and <m>y</m>. Assume that <m>x</m> is even and <m>y</m> is odd. By definition of even
+            Select two random integers <m>x</m> and <m>y</m>. Assume that <m>x</m> is odd and <m>y</m> is also odd. By definition of even
             we can find an integer <m>a</m> so that <m>x=2a+1</m>. Also, by the definition of odd we can find an integer <m>b</m> so that 
             <m>y=2b+1</m>. Now we calculate:
         </p>
         <md>
-            <mrow>x+y\amp=(2a+1)\cdot(2b+1)</mrow>
+            <mrow>x\cdot y\amp=(2a+1)\cdot(2b+1)</mrow>
             <mrow>\amp=4ab+2a+2b+1</mrow>
             <mrow>\amp=2(2ab+a+b)+1</mrow>
         </md>
         <p>
-            Now since <m>2ab+a+b</m> is an integer, we see that <m>x+y</m> is odd. 
+            Now since <m>2ab+a+b</m> is an integer, we see that <m>x\cdot y</m> is odd. 
         </p>
         <p>
-            To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> which we assumed were even and odd, respectively, by direct proof
-            we proved that for all integers <m>x</m> and <m>y</m>, if <m>x</m> is even and <m>y</m> is odd, then <m>x+y</m> is odd. <m>\square</m>
+            To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> which we assumed were both odd, respectively, by direct proof
+            we proved that for all integers <m>x</m> and <m>y</m>, if <m>x</m> is odd and <m>y</m> is odd, then <m>x\cdot y</m> is odd. <m>\square</m>
         </p>
     </example>
 </subsection>
