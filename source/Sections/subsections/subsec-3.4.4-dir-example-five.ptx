@@ -35,7 +35,7 @@
     <p>The Breakdown:</p>
     <p>
         <me>
-            {\color{orange}{\forall x,y\in\R \text{ with }x\gt0\text{ and }y\gt0}}\text{ }{\color{red}{a\lt b}}\implies{\color{blue}{0\lt (a^2-b^2)}} 
+            {\color{orange}{\forall x,y\in\R \text{ with }x\gt0\text{ and }y\gt0}}\text{ }{\color{red}{a\lt b}}\implies{\color{blue}{0\lt (b^2-a^2)}} 
         </me>
         
     </p>

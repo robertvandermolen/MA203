@@ -32,7 +32,7 @@
     <p>The Breakdown:</p>
     <p>
         <me>
-           {\color{orange}{\forall x,y\in\Z}}\text{ }  {\color{red}{5|x \text{ and } 5|y}} \implies {\color{blue}{5|(x+y)}}
+           {\color{orange}{\forall x,y\in\Z}}\text{ }  {\color{red}{5|x \text{ and } 5|y}} \implies {\color{blue}{5|(x-2y)}}
         </me>
         
     </p>
@@ -90,7 +90,7 @@
     <p>
         From the<m>{\color{green}{\text{ muddle }}}</m>we have
         <me>
-            x+y=5{\color{purple}{(a-2b)}}
+            x-2y=5{\color{purple}{(a-2b)}}
         </me>
         and then we can reference a couple of our assumptions from <xref ref="sec-4-1-1-what-we-assume"/>, and say:
     </p>
@@ -114,7 +114,7 @@
             <mrow>\amp=5(a-2b)</mrow>
         </md>
         <p>
-            Since <m>2b</m> is an integer it follows that <m>a-2b</m> is an integer, thus by the definition of divides, 5 divides <m>x-y</m>. 
+            Since <m>2b</m> is an integer it follows that <m>a-2b</m> is an integer, thus by the definition of divides, 5 divides <m>x-2y</m>. 
         </p>
         <p>
             To summarize, since we chose arbitrary integers <m>x</m> and <m>y</m> and assume that 5 divides both of them, and have shown that <m>5|(x-2y)</m>,
