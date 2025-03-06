@@ -355,6 +355,107 @@
 
 </figure>
 <p></p>
+  <example>
+  <p>
+    We now have enough to explain the <em>why</em> behind some of our examples from <xref ref="ex-validness"/>. First the example of:
+  </p>
+   <tabular halign="right">
+      <row>
+        <cell>All parabolas are functions of degree 2</cell>
+      </row>
+      <row bottom="medium">
+        <cell>All functions of degree 2 are quadratic</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> All parabolas are quadratic</cell>
+      </row>
+    </tabular>
+    <p>
+      This can be written with logical connectives in the fashion of:
+    </p>
+    <tabular halign="right">
+      <row>
+        <cell>parabola <m>\implies</m> function of degree 2</cell>
+      </row>
+      <row bottom="medium">
+        <cell>function of degree 2 <m>\implies</m> quadratic</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> parabola <m>\implies</m> quadratic</cell>
+      </row>
+    </tabular>
+    <p>
+      This can now be seen as an simple application of Hypothetical Syllogism. 
+    </p>
+    <p>
+      The next example from <xref ref="ex-validness"/>
+    </p>
+<tabular halign="center">
+      <row>
+        <cell>An apple is purple</cell>
+      </row>
+      <row bottom="medium">
+        <cell>An apple is a fruit</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> An apple is purple fruit</cell>
+      </row>
+    </tabular>
+    <p>
+      written with logical connectives would be 
+    </p>
+<tabular halign="center">
+      <row>
+        <cell>An apple is purple</cell>
+      </row>
+      <row bottom="medium">
+        <cell>An apple is a fruit</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> An apple is purple and an apple is a fruit</cell>
+      </row>
+    </tabular>
+    <p>
+      so we see this an application of Conjunction.
+    </p>
+    <p>
+      Further, another example from <xref ref="ex-validness"/>
+    </p>
+<tabular halign="center">
+      <row>
+        <cell>All spiders have 8 legs</cell>
+      </row>
+      <row bottom="medium">
+        <cell>A poodle is a spider</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> A poodle has 8 legs</cell>
+      </row>
+    </tabular>
+    
+    <p>
+      again, using logical connectives can be seen as
+    </p>
+    <tabular halign="right">
+      <row>
+        <cell>spiders <m>\implies</m> 8 legs</cell>
+      </row>
+      <row bottom="medium">
+        <cell>A poodle <m>\implies</m> spider</cell>
+      </row>
+      <row>
+        <cell><m>\therefore </m> A poodle <m>\implies</m> 8 legs</cell>
+      </row>
+    </tabular>
+    
+    <p>
+      which is again a direct application of Hypothetical Syllogism. 
+    </p>
+  </example>
+<p></p>
+  <p>
+    We end this section with an example illustrates the <em>basics</em> of how our proofs will work in the future chapters. Specifically we will begin with a collection of premises and draw a conclusion based on those premises. In future chapters our proofs wil be more directed towards topics more classically studied in a math class, namely numbers.
+  </p>
 <example>
 <idx><h>argument</h></idx>
   <p>

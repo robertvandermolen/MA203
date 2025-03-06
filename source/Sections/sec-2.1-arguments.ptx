@@ -97,7 +97,7 @@
       </row>
     </tabular>
 
-    <tabular halign="right">
+    <tabular halign="center">
       <row>
         <cell>An apple is purple</cell>
       </row>
@@ -105,11 +105,11 @@
         <cell>An apple is a fruit</cell>
       </row>
       <row>
-        <cell><m>\therefore </m> An apple is purple</cell>
+        <cell><m>\therefore </m> An apple is purple fruit</cell>
       </row>
     </tabular>
 
-    <tabular halign="right">
+    <tabular halign="center">
       <row>
         <cell>All spiders have 8 legs</cell>
       </row>

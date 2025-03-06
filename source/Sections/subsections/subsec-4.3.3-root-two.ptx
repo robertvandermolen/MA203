@@ -42,7 +42,7 @@
         </answer>
         <p>"What're the definitions?" </p>
         <answer>
-        <p>Rational, relatively prime, and divides (create reference here!)</p>
+        <p>Rational <xref ref="defn-rational"/>, divides <xref ref="defn-divides"/>, and greatest common divisor <xref ref="defn-gcd"/></p>
         </answer>
         <p>"Now, what to do?"</p> 
         <answer>
