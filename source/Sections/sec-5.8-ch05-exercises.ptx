@@ -41,8 +41,9 @@
                     <li>
                         <p>
                             <md>
-                                <mrow>A\amp=\{a\in\Z\text{ }|\text{ }a=7k+1\text{ for some }k\in\Z\}  </mrow>
-                                <mrow>B\amp=\{b\in\Z\text{ }|\text{ }b=14s+8\text{ for some }s\in\Z\} </mrow>
+                                <mrow>A\amp=\{b\in\Z\text{ }|\text{ }b=14s+8\text{ for some }s\in\Z\} </mrow>
+                                <mrow>B\amp=\{a\in\Z\text{ }|\text{ }a=7k+1\text{ for some }k\in\Z\}  </mrow>
+                                
                             </md>
                         </p>
                     </li>
