@@ -159,7 +159,7 @@
         <idx><h>range</h></idx>
         <statement>
             <p>
-                The range of a relation <m>R</m> is the set 
+                The range of a relation <m>R</m> from <m>A</m> to <m>B</m> is the set 
                 <me>\text{Rng}(R) = \{y\in B\text{ } |\text{ } \exists x \in A \text{ such that } xRy\}</me>
             </p>
         </statement>
