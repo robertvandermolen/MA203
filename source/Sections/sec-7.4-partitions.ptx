@@ -133,8 +133,15 @@
         <m>\displaystyle\mathbf{\text{Proof of }\bigcup_{n\in\N}A_n\supseteq\Z}</m>
       </p>
       <p>
-        Now, let <m>q\in\Z</m>, 
-        Calculate <m>q-q=0=3\cdot 0</m> and since 0 is an integer we have that 3 divides <m>q-q</m>, hence <m>q\in A_q</m> therefore <m>\displaystyle q\in\bigcup_{n\in\N}A_n</m> as desired.
+        Now, let <m>\ell\in\Z</m>, by the division algorithm <xref ref="prop-div-algo"/>, we can find integers <m>q</m> and <m>r</m> such that <m>0\leq r\lt |\ell|</m> and 
+        <me>
+          \ell=3q+r
+        </me>
+        thus <m>r\in\mathbb{N}</m>. Next notice
+        <me>
+          \ell-r=(3q+r)-r=3q
+        </me>
+        and since <m>q</m> is an integer we have that 3 divides <m>\ell-r</m>, therefore <m>\ell\in A_r</m>. Hence <m>\ell\in\bigcup_{n\in\mathbb{N}}A_n</m>
       </p>
       <p>
         Since we have shown both <m>\displaystyle \bigcup_{n\in\N}A_n\subseteq\Z</m> and <m>\displaystyle \bigcup_{n\in\N}A_n\supseteq\Z</m> we can conclude <m>\displaystyle \bigcup_{n\in\N}A_n=\Z</m>, thus <m>\mathscr{A}</m> satisfies condition (iii) of being a partition.
